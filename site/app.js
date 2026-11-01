@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v2.1";
+const APP_VERSION = "v2.2";
 /* adresa pro hlášení problémů – rozdělená kvůli robotům sbírajícím e-maily; prázdné = tlačítko vypnuto */
 const REPORT_EMAIL = ["tenisova-mapa", "seznam.cz"].filter(Boolean).join("@");
 const CLASS_ORDER = ["MCR", "A", "B", "P", "C", "D", "E", ""];
@@ -84,8 +84,11 @@ const cluster = L.markerClusterGroup({maxClusterRadius: 42, showCoverageOnHover:
 map.addLayer(cluster);
 let circle = null, centerMarker = null, focusMarker = null;
 const PIN = (color, w = 30, h = 40) => `<svg viewBox="0 0 30 40" width="${w}" height="${h}"><path d="M15 1C7.3 1 1 7.1 1 14.7 1 25 15 39 15 39s14-14 14-24.3C29 7.1 22.7 1 15 1z" fill="${color}"/></svg>`;
-function pinIcon(color, n, guess, fav) {
-  return L.divIcon({html: `<div class="pin${guess ? " guess" : ""}${fav ? " fav" : ""}">${PIN(color)}<b>${n > 1 ? n : ""}</b></div>`, className: "", iconSize: [30, 40], iconAnchor: [15, 39]});
+/* špendlík: barva i písmeno = nejvyšší třída v místě (MČR, A, B, P, C, D, E), bublina = počet turnajů */
+function pinIcon(color, n, guess, fav, cls) {
+  const lab = cls === "MCR" ? "MČR" : cls || "–";
+  return L.divIcon({html: `<div class="pin${guess ? " guess" : ""}${fav ? " fav" : ""}">${PIN(color)}<b class="${lab.length > 1 ? "long" : ""}">${lab}</b>${n > 1 ? `<i class="cnt">${n}</i>` : ""}</div>`,
+    className: "", iconSize: [30, 40], iconAnchor: [15, 39]});
 }
 
 /* viditelná část mapy (bez horní lišty a spodního panelu) */
@@ -159,7 +162,7 @@ function render() {
     const v = VEN[vi];
     const active = evs.filter(e => e.st !== "zruseno");
     const best = (active.length ? active : evs).map(e => e.tr || "").sort((a, b) => CLASS_ORDER.indexOf(a) - CLASS_ORDER.indexOf(b))[0];
-    const m = L.marker([v.lat, v.lon], {icon: pinIcon(colorOf(best, !active.length), evs.length, ["odhad", "obec", "areal_obec"].includes(v.presnost), evs.some(e => FAV.has(e.id))),
+    const m = L.marker([v.lat, v.lon], {icon: pinIcon(colorOf(best, !active.length), evs.length, ["odhad", "obec", "areal_obec"].includes(v.presnost), evs.some(e => FAV.has(e.id)), best),
       title: `${v.nazev_mista || v.poradatel} (${evs.length})`});
     m.on("click", () => openVenue(vi, {move: false}));
     markers.push(m);
@@ -220,6 +223,7 @@ function buildFilterUI() {
   chip("#fSex", [{v: "m", l: "Chlapci / muži"}, {v: "z", l: "Dívky / ženy"}], "sex");
   const tc = cnt(e => e.tr || "");
   chip("#fClass", CLASS_ORDER.filter(k => tc[k]).map(k => ({v: k, l: CLASS_LABEL[k], n: tc[k], color: colorOf(k)})), "cls");
+  $$("#fClass button").forEach(b => b.style.setProperty("--c", colorOf(b.dataset.v)));
   const gc = cnt(e => surfGroup(e.pov));
   const groups = Object.keys(gc).sort((a, b) => gc[b] - gc[a]);
   chip("#fSurf", groups.map(g => ({v: "g:" + g, l: g, n: gc[g]})), "surf");
@@ -233,11 +237,11 @@ function buildFilterUI() {
     const ch = document.createElement("div"); ch.className = "chips"; wrap.appendChild(ch); box.appendChild(wrap);
     chip(ch, raws.map(r => ({v: "r:" + r, l: disp[r] || r, n: rc[r]})), "surf");
   }
-  $("#legend").innerHTML = "<b>Třída turnaje</b>" + CLASS_ORDER.filter(k => tc[k]).map(k => `<div><i style="background:${colorOf(k)}"></i>${CLASS_LABEL[k]}</div>`).join("") +
-    `<div><i style="background:${css("--c-zr")}"></i>zrušeno</div><div><i class="ring"></i>čárkovaně = místo odhadnuté</div><div>číslo = počet turnajů v místě</div>`;
+  $("#legend").innerHTML = "<b>Třída turnaje <small>(klepnutím filtrujete)</small></b>" + CLASS_ORDER.filter(k => tc[k]).map(k => `<button class="lg" data-k="cls" data-v="${k}" style="--c:${colorOf(k)}"><i style="background:${colorOf(k)}">${k === "MCR" ? "M" : k || "–"}</i>${CLASS_LABEL[k]} <small>${tc[k]}</small></button>`).join("") +
+    `<div><i style="background:${css("--c-zr")}"></i>zrušeno</div><div><i class="ring"></i>čárkovaně = místo odhadnuté</div><div>písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů</div>`;
 }
 function syncFilterUI() {
-  $$(".chips button[data-k]").forEach(b => b.classList.toggle("on", F[b.dataset.k].includes(b.dataset.v)));
+  $$(".chips button[data-k], #legend button.lg").forEach(b => b.classList.toggle("on", F[b.dataset.k].includes(b.dataset.v)));
   $("#fFrom").value = F.from || ""; $("#fTo").value = F.to || "";
   $("#fRadius").value = F.radius; $("#radiusVal").textContent = F.radius + " km";
   if (document.activeElement !== $("#fText")) $("#fText").value = F.text;
@@ -642,7 +646,8 @@ $$("#fCenterMode button").forEach(b => b.onclick = () => {
 });
 $("#btnLocate").onclick = () => F.centerMode === "gps" ? (F.centerMode = "none", render()) : locate();
 $("#btnPick").onclick = () => setPick(!pickMode);
-$("#btnLegend").onclick = () => $("#legend").hidden = !$("#legend").hidden;
+$("#btnLegend").onclick = () => { $("#legend").hidden = !$("#legend").hidden; $("#btnLegend").classList.toggle("on", !$("#legend").hidden); };
+$("#legend").addEventListener("click", e => { const b = e.target.closest("button.lg"); if (!b) return; const a = F.cls, i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v); render(); });
 $("#btnReset").onclick = () => { F = defaults(); render(); };
 $("#btnShow").onclick = () => { showPanel("list"); if (!isDesk()) setSnap("peek"); };
 $$("#listSort button").forEach(b => b.onclick = () => { sortMode = b.dataset.s; if (sortMode === "dist" && (!F.center || F.centerMode === "none")) toast("Nejdřív nastavte okruh – polohu nebo bod v mapě."); $$("#listSort button").forEach(x => x.classList.toggle("on", x === b)); renderList(); });

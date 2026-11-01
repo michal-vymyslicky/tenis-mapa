@@ -30,6 +30,7 @@ Předávací log pro další chat (stav k 1. 11. 2026, noc).
   workflow `.github/workflows/aktualizace.yml` vložen přes editor GitHubu (skryté soubory se přetažením nenahrají – `.gitignore` v repozitáři není).
 - Pages: Settings → Pages → Source = **GitHub Actions** (nastaveno). První běh workflow spuštěn ručně 1. 11. 2026.
 - Web: **https://michal-vymyslicky.github.io/tenis-mapa/** – data se obnovují denně 3:17 UTC (Action commitne data do repozitáře).
+- **Nasazení nové verze (od v2.1):** přetáhnout složky `site` a `pipeline` na github.com/michal-vymyslicky/tenis-mapa/upload/main → **Commit changes** → workflow (event push) web nasadí za ~30 s bez stahování dat. Před nahráním mít v `site/data/turnaje.json` aktuální data z webu (jinak se do dalšího ranního běhu zobrazí starší data).
 - Lokální kopie v Tenis Data **není git klon** – po změně kódu nahrát změněné soubory na GitHub (web: Add file → Upload files do stejné složky),
   nebo složku jednou naklonovat (`git clone https://github.com/michal-vymyslicky/tenis-mapa.git`). Aktuální data jsou vždy v repozitáři (commity bota).
 - Workflow: když chybí `site/vendor`, stáhne Leaflet; když chybí `data/clubs.json`, stáhne adresář klubů (`--kluby`); timeout 150 min.
