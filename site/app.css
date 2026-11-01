@@ -50,7 +50,7 @@ svg .fill{fill:currentColor;stroke:none}
 
 /* spodní panel (mobil) */
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:950;background:var(--surface);border-radius:22px 22px 0 0;box-shadow:0 -4px 24px rgba(16,24,40,.14);
-  height:calc(100dvh - var(--top) - 8px);display:flex;flex-direction:column;transform:translateY(calc(100% - var(--vis, 128px)));transition:transform .28s cubic-bezier(.2,.8,.2,1);will-change:transform}
+  height:var(--vis, 128px);max-height:calc(100dvh - var(--top) - 8px);display:flex;flex-direction:column;transition:height .28s cubic-bezier(.2,.8,.2,1)}
 .sheet.dragging{transition:none}
 .sheethead{flex:none;padding:0 14px 8px;touch-action:none;cursor:grab}
 .grip{display:grid;place-items:center;height:20px}
@@ -77,7 +77,7 @@ svg .fill{fill:currentColor;stroke:none}
   .mapctl{top:62px;right:12px}
   .legend{top:62px;right:66px}
   .hint{top:62px}
-  .sheet{top:74px;bottom:12px;left:12px;right:auto;width:400px;height:auto;border-radius:var(--r);transform:none!important;box-shadow:var(--shadow)}
+  .sheet{top:74px;bottom:12px;left:12px;right:auto;width:400px;height:auto!important;max-height:none;border-radius:var(--r);box-shadow:var(--shadow)}
   .sheet[data-snap="peek"] .sheetbody{display:none}
   .sheet[data-snap="peek"]{bottom:auto}
   .grip{display:none}
@@ -218,3 +218,32 @@ textarea:focus{border-color:var(--accent)}
 .legend button.lg.on{background:var(--c);color:#fff}
 .legend button.lg.on small{color:rgba(255,255,255,.85)}
 .legend button.lg.on i{background:#fff!important;color:var(--c)}
+
+/* návrhy při hledání (hráči) */
+.suggest{position:fixed;top:calc(var(--top) + 58px);left:10px;right:10px;z-index:960;background:var(--surface);border-radius:16px;box-shadow:var(--shadow);max-height:min(60vh,460px);overflow:auto;padding:6px}
+@media (min-width:900px){.suggest{right:auto;width:400px;left:12px;top:66px}}
+.suggest .sh{font-size:12px;font-weight:600;color:var(--muted);padding:6px 10px 4px}
+.suggest .sg{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:8px 10px;border-radius:10px}
+.suggest .sg:hover,.suggest .sg:active{background:var(--surface2)}
+.suggest .sg span{flex:1;min-width:0;display:flex;flex-direction:column}
+.suggest .sg b{font-weight:600}
+.suggest .sg small{color:var(--muted);font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.suggest .sg em{font-style:normal;font-size:11.5px;color:var(--muted);white-space:nowrap}
+.suggest .sg em.has{color:var(--accent);font-weight:600}
+.suggest .sg.all{border-top:1px solid var(--line);border-radius:0 0 10px 10px;margin-top:4px;color:var(--accent2);font-size:14px}
+.quick button.player{background:var(--accent);color:#fff}
+.quick button.player svg{width:16px;height:16px}
+.quick button .x{margin-left:2px;opacity:.85;padding:0 2px}
+.pill.pl{background:var(--accent-soft);color:var(--accent);display:inline-flex;align-items:center;gap:3px}
+.pill.pl svg{width:12px;height:12px}
+.summary svg{width:16px;height:16px;vertical-align:-2px}
+input.txt{width:100%;font:inherit;font-size:16px;padding:0 12px;height:44px;border:1px solid var(--line);border-radius:12px;background:var(--surface2);color:var(--text);outline:none;margin-top:8px}
+input.txt:focus{border-color:var(--accent)}
+/* o aplikaci */
+.about{font-size:14.5px;line-height:1.55}
+.about h3{font-size:13px;color:var(--muted);margin:16px 0 4px;font-weight:600}
+.about ul{padding-left:18px;margin:4px 0}
+.about li{margin:4px 0}
+.about a{color:var(--accent2)}
+.disclaimer{background:var(--surface2);border-left:3px solid var(--accent);padding:10px 12px;border-radius:8px}
+button.logo{border:0;padding:0;cursor:pointer}

@@ -3,9 +3,11 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v2.2";
+const APP_VERSION = "v2.3";
 /* adresa pro hlášení problémů – rozdělená kvůli robotům sbírajícím e-maily; prázdné = tlačítko vypnuto */
 const REPORT_EMAIL = ["tenisova-mapa", "seznam.cz"].filter(Boolean).join("@");
+/* FormSubmit (formsubmit.co): po první zprávě přijde na REPORT_EMAIL aktivační e-mail; pak lze adresu nahradit aliasem, který FormSubmit pošle */
+const REPORT_FORM = REPORT_EMAIL;
 const CLASS_ORDER = ["MCR", "A", "B", "P", "C", "D", "E", ""];
 const CLASS_LABEL = {MCR: "MČR", A: "A", B: "B", P: "P – přebor", C: "C", D: "D", E: "E", "": "bez třídy"};
 const CAT_ORDER = ["mladsi-zactvo", "starsi-zactvo", "dorost", "dospeli", "babytenis", "stredni-kurt", "minitenis"];
@@ -64,12 +66,14 @@ const isDesk = () => innerWidth >= 900;
 let DATA, EV = [], VEN = [], byVenue = new Map();
 const today = new Date(); today.setHours(0, 0, 0, 0);
 const defaults = () => ({from: iso(today), to: "", cat: [], sex: [], cls: [], surf: [], center: null, centerMode: "none", centerLabel: "", radius: 50,
-  text: "", free: false, cancelled: true, guess: true, favOnly: false});
+  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries"});
 let F = Object.assign(defaults(), LS.get("tm.filters", {}));
 if (!F.from || F.from < iso(today)) F.from = iso(today);
 F.surf = (F.surf || []).filter(s => /^[gr]:/.test(s));
+F.players = F.players || []; F.pmode = F.pmode || "entries";
 let FAV = new Set(LS.get("tm.fav", []));
-let sortMode = "date", pickMode = false, panel = "list", prevPanel = "list", reportFrom = "list";
+let sortMode = "date", pickMode = false, panel = "list", stack = [], popping = false;
+const SUB = new Set(["detail", "report", "about", "player"]);
 let ctx = {}, lastVenue = null;   // kontext pro hlášení problému
 
 /* ---------- mapa ---------- */
@@ -134,6 +138,10 @@ function evMatches(e, opt = {}) {
     if (km(F.center, [v.lat, v.lon]) > F.radius) return false;
   }
   if (F.favOnly && !FAV.has(e.id)) return false;
+  if (F.players.length && HR) {
+    if (F.pmode === "entries") { if (!F.players.some(pid => entrySet(pid).has(e.id))) return false; }
+    else if (!F.players.some(pid => eligible(pid, e))) return false;
+  }
   return true;
 }
 function occOf(e) {
@@ -197,11 +205,14 @@ function renderQuick() {
     CAT_ORDER.filter(k => counts[k]).map(k => `<button data-q="${k}" class="${F.cat.includes(k) ? "on" : ""}">${CAT_QUICK[k]}</button>`).join("") +
     (F.centerMode !== "none" ? `<button class="on" data-q="radius">≤ ${F.radius} km ✕</button>` : "") +
     (F.favOnly ? `<button class="on" data-q="fav">★ Oblíbené ✕</button>` : "");
+  q.insertAdjacentHTML("afterbegin", F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join(""));
+  q.querySelectorAll(".x").forEach(x => x.onclick = ev => { ev.stopPropagation(); togglePlayer(x.dataset.x, false); });
   q.querySelectorAll("button").forEach(b => b.onclick = () => {
     const k = b.dataset.q;
     if (k === "date") { showPanel("filters"); setSnap("full"); return; }
     if (k === "radius") { F.centerMode = "none"; return render(); }
     if (k === "fav") { F.favOnly = false; return render(); }
+    if (k.startsWith("pl:")) return openPlayer(k.slice(3));
     const i = F.cat.indexOf(k); i >= 0 ? F.cat.splice(i, 1) : F.cat.push(k); render();
   });
 }
@@ -286,15 +297,16 @@ map.on("click", e => {
 /* ---------- spodní panel: tah, úchyty peek / half / full ---------- */
 const sheet = $("#sheet");
 let snap = "peek";
+const fullH = () => innerHeight - $(".topbar").getBoundingClientRect().top - 8;
 function snapPx(name) {
-  const H = sheet.offsetHeight, peek = $("#sheetHead").offsetHeight + 2;
+  const H = fullH(), peek = $("#sheetHead").offsetHeight + 2;
   return name === "peek" ? peek : name === "half" ? Math.max(peek + 140, Math.round(innerHeight * .5)) : H;
 }
 function sheetVisible() { return isDesk() ? 0 : snapPx(snap); }
 function setSnap(name) {
   snap = name; sheet.dataset.snap = name;
   sheet.style.setProperty("--vis", snapPx(name) + "px");
-  sheet.style.transform = "";
+  sheet.style.height = "";
 }
 (() => {
   const head = $("#sheetHead");
@@ -308,8 +320,8 @@ function setSnap(name) {
     const dy = e.clientY - y0;
     if (!moved && Math.abs(dy) < 6) return;
     if (!moved) { moved = true; sheet.classList.add("dragging"); head.setPointerCapture?.(e.pointerId); }
-    const vis = Math.min(sheet.offsetHeight, Math.max(snapPx("peek"), vis0 - dy));
-    sheet.style.transform = `translateY(${sheet.offsetHeight - vis}px)`;
+    const vis = Math.min(fullH(), Math.max(snapPx("peek"), vis0 - dy));
+    sheet.style.height = vis + "px";
   });
   addEventListener("pointerup", e => {
     if (!active) return; active = false;
@@ -332,15 +344,17 @@ addEventListener("resize", () => setSnap(snap));
 
 /* ---------- panely ---------- */
 function showPanel(name) {
-  if (name === "report") { if (panel !== "report") reportFrom = panel; }
-  else if (name !== "detail") { prevPanel = name; clearFocus(); }
+  if (SUB.has(name)) { if (panel !== name && !popping) stack.push(panel); }
+  else { stack = []; clearFocus(); }
+  if (name === "about" || name === "player") clearFocus();
   panel = name;
   $$(".panel").forEach(p => p.classList.toggle("on", p.dataset.panel === name));
   $$("#tabs button").forEach(t => t.classList.toggle("on", t.dataset.panel === name));
-  sheet.classList.toggle("detail", name === "detail");
-  $("#btnBack").hidden = name !== "detail" && name !== "report";
-  if (name !== "detail" && name !== "report") render();
+  sheet.classList.toggle("detail", SUB.has(name) && name !== "report");
+  $("#btnBack").hidden = !SUB.has(name);
+  if (!SUB.has(name)) render();
   if (name === "report") $("#summary").textContent = "Nahlásit problém";
+  if (name === "about") $("#summary").textContent = "O aplikaci";
   $("#sheetBody").scrollTop = 0;
   if (snap === "peek") setSnap(isDesk() ? "full" : "half"); else setSnap(snap);
 }
@@ -371,7 +385,7 @@ function item(e) {
       <div class="s">${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
       <div class="m"><span class="pill cls" style="background:${colorOf(e.tr, zr)}">${e.tr === "MCR" ? "MČR" : e.tr || "–"}</span><span class="pill">${esc(CAT_QUICK[e.kat])}</span><span class="pill">${sex}</span>
       ${e.kap ? `<span class="pill${full ? " full" : ""}">${full ? "plno" : "max " + e.kap}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfGroup(e.pov))}</span>` : ""}
-      ${zr ? '<span class="pill zr">ZRUŠENO</span>' : ""}${isNew(e) ? '<span class="pill new">NOVÉ</span>' : ""}</div></div>
+      ${zr ? '<span class="pill zr">ZRUŠENO</span>' : ""}${isNew(e) ? '<span class="pill new">NOVÉ</span>' : ""}${playerPills(e)}</div></div>
     <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="Oblíbené">${STAR}</button></div>`;
 }
 /* plná karta v detailu místa */
@@ -533,7 +547,7 @@ function ctxLines() {
     `Odkaz ČTS: ${CTS}${e.km || e.kz}?sezona=${DATA.meta.sezona}&tab=seznam`);
   if (v) L1.push(`Místo: ${v.nazev_mista || "-"} | pořadatel ${v.poradatel} | adresa ${v.adresa || "-"} | přesnost ${v.presnost}/${v.zdroj} | ${v.lat ?? "-"},${v.lon ?? "-"}`);
   const c = map.getCenter();
-  L1.push(`Mapa: ${c.lat.toFixed(5)},${c.lng.toFixed(5)} z${map.getZoom()} | panel ${reportFrom}`,
+  L1.push(`Mapa: ${c.lat.toFixed(5)},${c.lng.toFixed(5)} z${map.getZoom()} | panel ${stack[stack.length - 1] || panel}`,
     `Filtry: od ${F.from}${F.to ? " do " + F.to : ""}; kat ${F.cat.join(",") || "vše"}; třída ${F.cls.join(",") || "vše"}; povrch ${F.surf.join(",") || "vše"}; okruh ${F.centerMode === "none" ? "ne" : F.radius + " km"}; text "${F.text}"`,
     `Data: ${DATA.meta.aktualizace} | aplikace ${APP_VERSION} | ${navigator.userAgent.replace(/\s+/g, " ").slice(0, 140)}`);
   return L1;
@@ -546,13 +560,8 @@ function renderCtx() {
     : `<b>Obecné hlášení</b>Přiloží se aktuální výřez mapy a nastavené filtry.<div class="muted">Tip: pro konkrétní turnaj otevřete jeho detail a klepněte na „Nahlásit chybu“.</div>`;
 }
 function syncReportButtons() {
-  const canShareFile = shot && navigator.canShare && navigator.canShare({files: [new File([shot], "snimek.jpg", {type: "image/jpeg"})]});
-  $("#repSend").textContent = shot && canShareFile ? "Odeslat se snímkem" : "Odeslat e-mailem";
-  $("#repSaveShot").hidden = !shot || canShareFile;
-  $("#repSend").disabled = !REPORT_EMAIL;
-  $("#repNote").textContent = !REPORT_EMAIL ? "Adresa pro hlášení zatím není nastavená." :
-    shot && canShareFile ? `Otevře se sdílení – vyberte Poštu (Mail). Adresát: ${REPORT_EMAIL}` :
-    shot ? "Snímek se uloží do stažených souborů – přiložte ho prosím k e-mailu." : "";
+  $("#repSend").disabled = !REPORT_FORM;
+  $("#repNote").textContent = "Hlášení se odešle přímo z aplikace (služba FormSubmit) – nepotřebujete účet ani vlastní e-mail." + (shot ? " Snímek se přiloží." : "");
 }
 async function openReport(c) {
   ctx = c || {};
@@ -591,8 +600,35 @@ $("#repCapture").onclick = async () => {
 };
 $("#repFile").onchange = e => { const f = e.target.files?.[0]; if (f) setShot(f); e.target.value = ""; };
 $("#repShotDel").onclick = () => setShot(null);
-$("#repSaveShot").onclick = () => shot && downloadShot();
-$("#repSend").onclick = async () => {
+$("#repSend").onclick = () => {
+  if (!$("#repText").value.trim() && !repType) { toast("Vyberte typ problému nebo napište krátký popis."); return; }
+  sendForm();
+};
+function sendForm() {
+  const btn = $("#repSend"); btn.disabled = true; btn.textContent = "Odesílám…";
+  const f = document.createElement("form");
+  f.method = "POST"; f.action = "https://formsubmit.co/" + REPORT_FORM; f.enctype = "multipart/form-data"; f.target = "repFrame"; f.hidden = true;
+  const add = (n, v) => { const i = document.createElement("input"); i.type = "hidden"; i.name = n; i.value = v; f.appendChild(i); };
+  add("_subject", reportSubject()); add("_template", "table"); add("_captcha", "false"); add("_honey", "");
+  add("Typ", repType || "neuvedeno"); add("Popis", $("#repText").value.trim() || "(bez popisu)");
+  const contact = $("#repContact").value.trim();
+  if (contact) { add("Kontakt", contact); add("_replyto", contact); }
+  add("Kontext", ctxLines().join("\n"));
+  if (shot) {
+    const fi = document.createElement("input"); fi.type = "file"; fi.name = "attachment";
+    const dt = new DataTransfer(); dt.items.add(new File([shot], `snimek-${iso(new Date())}.jpg`, {type: shot.type || "image/jpeg"})); fi.files = dt.files; f.appendChild(fi);
+  }
+  document.body.appendChild(f);
+  const frame = $("#repFrame");
+  let done = false;
+  const finish = ok => { if (done) return; done = true; btn.disabled = false; btn.textContent = "Odeslat hlášení"; f.remove();
+    if (ok) { toast("Děkujeme, hlášení bylo odesláno."); $("#repText").value = ""; setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on")); $("#btnBack").click(); }
+    else toast("Odeslání se možná nepovedlo – zkuste „Poslat raději vlastním e-mailem“."); };
+  frame.onload = () => finish(true);
+  setTimeout(() => finish(false), 20000);
+  f.submit();
+}
+$("#repMail").onclick = async () => {
   if (!REPORT_EMAIL) return;
   if (!$("#repText").value.trim() && !repType) { toast("Vyberte typ problému nebo napište krátký popis."); return; }
   const body = reportText();
@@ -605,6 +641,107 @@ $("#repSend").onclick = async () => {
   openMail(body);
   toast("Děkujeme za hlášení!");
 };
+
+/* ---------- hráči a jejich přihlášky ---------- */
+let HR = null, curPlayer = null, normIdx = null;
+const PERSON = '<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>';
+const ZK = {mz: ["mladsi-zactvo", "m"], mzk: ["mladsi-zactvo", "z"], sz: ["starsi-zactvo", "m"], szk: ["starsi-zactvo", "z"], d: ["dorost", "m"], dk: ["dorost", "z"], m: ["dospeli", "m"], z: ["dospeli", "z"]};
+const ZK_LABEL = {mz: "ml. žák", mzk: "ml. žákyně", sz: "st. žák", szk: "st. žákyně", d: "dorostenec", dk: "dorostenka", m: "muž", z: "žena"};
+const LADDER = ["mladsi-zactvo", "starsi-zactvo", "dorost", "dospeli"];
+const fold = s => (s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+function loadPlayers() {
+  if (HR) return Promise.resolve(HR);
+  return loadPlayers.p ||= fetch("data/hraci.json", {cache: "no-cache"}).then(r => r.json()).then(js => {
+    HR = js; HR.sets = {};
+    normIdx = Object.entries(js.p).map(([id, p]) => [id, fold(p[0]), fold(p[1])]);
+    render(); return HR;
+  }).catch(() => (loadPlayers.p = null));
+}
+const entrySet = pid => HR.sets[pid] ||= new Set((HR.e[pid] || []).map(x => x[0]));
+const pinfo = pid => HR?.p[pid] || ["hráč " + pid, "", []];
+const shortName = pid => { const n = pinfo(pid)[0].split(" "); return n.length > 1 ? `${n[0]} ${n[1][0]}.` : n[0]; };
+/* podle soutěžního řádu může hráč startovat ve své věkové kategorii i ve starších (ne v mladších);
+   kategorie a pohlaví se odvozují ze žebříčku zima 2026/27 – nejmladší kategorie, ve které je hráč veden */
+function eligibility(pid) {
+  const cats = pinfo(pid)[2] || [];
+  if (!cats.length) return null;
+  const idx = Math.min(...cats.map(c => LADDER.indexOf(ZK[c[0]][0])));
+  return {cats: LADDER.slice(idx), sex: ZK[cats[0][0]][1]};
+}
+function eligible(pid, e) {
+  const el = eligibility(pid);
+  if (!el) return entrySet(pid).has(e.id);
+  if (!el.cats.includes(e.kat)) return false;
+  return el.sex === "m" ? !!e.km : !!e.kz;
+}
+function playerPills(e) {
+  if (!F.players.length || !HR) return "";
+  return F.players.filter(pid => entrySet(pid).has(e.id)).map(pid => {
+    const x = HR.e[pid].find(y => y[0] === e.id);
+    return `<span class="pill pl">${PERSON}${esc(shortName(pid))}${x && x[2] === "Q" ? " · kval." : x && x[2] === "N" ? " · náhr." : ""}</span>`;
+  }).join("");
+}
+function hideSuggest() { $("#suggest").hidden = true; }
+function suggest() {
+  const box = $("#suggest"), q = fold(F.text);
+  if (!HR || q.length < 2) { box.hidden = true; return; }
+  const words = q.split(/\s+/).filter(Boolean);
+  const hits = [];
+  for (const [id, n, k] of normIdx) {
+    if (words.every(w => n.includes(w) || k.includes(w))) {
+      const sc = (n.startsWith(words[0]) ? 0 : 1) + (HR.e[id] ? -2 : 0);
+      hits.push([sc, id]);
+      if (hits.length > 400) break;
+    }
+  }
+  hits.sort((a, b) => a[0] - b[0] || pinfo(a[1])[0].localeCompare(pinfo(b[1])[0], "cs"));
+  const top = hits.slice(0, 8);
+  box.innerHTML = (top.length ? `<div class="sh">Hráči</div>` + top.map(([, id]) => {
+      const p = pinfo(id), n = (HR.e[id] || []).length, cat = (p[2] || []).map(c => `${ZK_LABEL[c[0]]}${c[1] ? " " + c[1] + "." : ""}`).join(", ");
+      return `<button class="sg" data-pid="${esc(id)}">${PERSON}<span><b>${esc(p[0])}</b><small>${esc(p[1])}${cat ? " · " + esc(cat) : ""}</small></span><em class="${n ? "has" : ""}">${n ? n + "× přihl." : "bez přihlášek"}</em></button>`;
+    }).join("") : `<div class="sh">Žádný hráč neodpovídá</div>`) +
+    `<button class="sg all" data-all="1"><span>Hledat „${esc(F.text)}“ v turnajích (${nf(shown.length)})</span></button>`;
+  box.hidden = false;
+  box.querySelectorAll("[data-pid]").forEach(b => b.onclick = () => { $("#fText").value = ""; F.text = ""; hideSuggest(); togglePlayer(b.dataset.pid, true); openPlayer(b.dataset.pid); });
+  box.querySelector("[data-all]").onclick = () => { hideSuggest(); showPanel("list"); };
+}
+function togglePlayer(pid, on) {
+  const i = F.players.indexOf(pid);
+  if (on && i < 0) F.players.push(pid);
+  if (!on && i >= 0) F.players.splice(i, 1);
+  render();
+}
+function openPlayer(pid) {
+  curPlayer = pid;
+  const p = pinfo(pid), ents = (HR?.e[pid] || []).map(x => [EV.find(e => e.id === x[0]), x]).filter(x => x[0]).sort((a, b) => (a[0].od || "").localeCompare(b[0].od || ""));
+  const el = eligibility(pid);
+  const cats = (p[2] || []).map(c => `<span class="pill">${ZK_LABEL[c[0]]}${c[1] ? " · " + c[1] + ". v ČR" : ""}</span>`).join("");
+  const sel = F.players.includes(pid);
+  $("#playerBody").innerHTML = `<div class="venue"><h2>${esc(p[0])}</h2><div class="addr">${esc(p[1])}</div>
+    <div class="m" style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px">${cats || '<span class="pill">mimo žebříček zima 2026/27</span>'}</div>
+    <div class="links"><a class="pri" href="#" id="plToggle">${sel ? "Odebrat z mapy" : "Zobrazit v mapě"}</a><a href="https://cesky-tenis.cz/hrac/${encodeURIComponent(pid)}" target="_blank" rel="noopener">Profil na ČTS</a></div></div>
+    <div class="seg small" id="pmode" style="margin-top:14px"><button data-m="entries" class="${F.pmode === "entries" ? "on" : ""}">Kde je přihlášen</button><button data-m="eligible" class="${F.pmode === "eligible" ? "on" : ""}">Kam se může přihlásit</button></div>
+    <p class="muted">${F.pmode === "eligible" ? (el ? `Podle soutěžního řádu může hráč startovat ve své kategorii i ve starších: ${el.cats.map(c => CAT_SHORT[c]).join(", ")} (${el.sex === "m" ? "chlapci / muži" : "dívky / ženy"}). Kategorie je odvozená ze žebříčku zima 2026/27 – ověřte si to v propozicích turnaje.` : "Hráč není v žebříčku, kategorii nelze určit – zobrazujeme jen jeho přihlášky.") : "Přihlášky z veřejných seznamů ČTS (hlavní soutěž, kvalifikace, náhradníci), obnovují se denně."}</p>
+    <div id="plList">${F.pmode === "entries" ? (ents.length ? ents.map(([e]) => item(e)).join("") : `<div class="empty">Zatím žádná přihláška.</div>`)
+      : (() => { const xs = EV.filter(e => evMatchesBase(e) && eligible(pid, e)); return xs.length ? xs.slice(0, 200).map(item).join("") + (xs.length > 200 ? `<div class="empty">Zobrazeno 200 z ${xs.length} – zužte filtr.</div>` : "") : `<div class="empty">Žádný vhodný turnaj v nastaveném termínu.</div>`; })()}</div>`;
+  $("#plToggle").onclick = ev => { ev.preventDefault(); togglePlayer(pid, !F.players.includes(pid)); openPlayer(pid); };
+  $$("#pmode button").forEach(b => b.onclick = () => { F.pmode = b.dataset.m; render(); openPlayer(pid); });
+  bind($("#playerBody"));
+  $("#summary").innerHTML = `${PERSON} ${esc(p[0])}`;
+  showPanel("player");
+  if (!isDesk() && snap === "peek") setSnap("half");
+}
+/* filtr bez omezení na hráče (pro seznam „kam se může přihlásit“) */
+function evMatchesBase(e) { const keep = F.players; F.players = []; const r = evMatches(e); F.players = keep; return r; }
+
+/* ---------- o aplikaci ---------- */
+function openAbout() {
+  const upd = new Date(DATA.meta.aktualizace);
+  $("#aboutData").textContent = `data k ${upd.toLocaleString("cs-CZ", {day: "numeric", month: "numeric", year: "numeric", hour: "2-digit", minute: "2-digit"})}`;
+  $("#aboutVer").textContent = "verze " + APP_VERSION;
+  showPanel("about");
+  if (!isDesk()) setSnap(snap === "peek" ? "half" : snap);
+}
 
 /* ---------- vyhledání místa (Nominatim) ---------- */
 $("#placeForm").onsubmit = async ev => {
@@ -625,16 +762,25 @@ $("#placeForm").onsubmit = async ev => {
 $$("#tabs button").forEach(t => t.onclick = e => { e.stopPropagation(); t.dataset.panel === "report" ? openReport({venue: panel === "detail" ? lastVenue : null}) : showPanel(t.dataset.panel); });
 $("#btnBack").onclick = e => {
   e.stopPropagation();
-  if (panel === "report" && reportFrom === "detail" && lastVenue != null) return openVenue(lastVenue, {move: false});
-  showPanel(panel === "report" ? (reportFrom === "detail" ? prevPanel : reportFrom) : prevPanel);
+  const prev = stack.pop() || "list";
+  popping = true;
+  try {
+    if (prev === "detail" && lastVenue != null) openVenue(lastVenue, {move: false});
+    else if (prev === "player" && curPlayer) openPlayer(curPlayer);
+    else showPanel(prev);
+  } finally { popping = false; }
 };
+$("#btnAbout").onclick = () => openAbout();
+$("#aboutReport").onclick = ev => { ev.preventDefault(); openReport({}); };
 $("#btnFilters").onclick = () => { showPanel("filters"); setSnap("full"); };
 $("#fFrom").onchange = e => { F.from = e.target.value || iso(today); render(); };
 $("#fTo").onchange = e => { F.to = e.target.value; render(); };
 $$("#datePresets button").forEach(b => b.onclick = () => presets(b.dataset.p));
 $("#fRadius").oninput = e => { F.radius = +e.target.value; $("#radiusVal").textContent = F.radius + " km"; drawCircle(); clearTimeout(render.t); render.t = setTimeout(render, 150); };
-$("#fText").oninput = e => { F.text = e.target.value.trim(); clearTimeout(render.t); render.t = setTimeout(() => { render(); if (panel !== "list" && F.text) showPanel("list"); }, 250); };
-$("#fText").onkeydown = e => { if (e.key === "Enter") { e.target.blur(); showPanel("list"); } };
+$("#fText").oninput = e => { F.text = e.target.value.trim(); clearTimeout(render.t); render.t = setTimeout(() => { render(); suggest(); }, 200); };
+$("#fText").onfocus = () => { loadPlayers(); suggest(); };
+$("#fText").onkeydown = e => { if (e.key === "Enter") { e.target.blur(); hideSuggest(); showPanel("list"); } if (e.key === "Escape") hideSuggest(); };
+document.addEventListener("pointerdown", e => { if (!e.target.closest("#suggest, .searchbox")) hideSuggest(); });
 $("#fFree").onchange = e => { F.free = e.target.checked; render(); };
 $("#fCancelled").onchange = e => { F.cancelled = e.target.checked; render(); };
 $("#fGuess").onchange = e => { F.guess = e.target.checked; render(); };
@@ -661,9 +807,10 @@ fetch("data/turnaje.json", {cache: "no-cache"}).then(r => r.json()).then(js => {
   DATA = js; EV = js.turnaje; VEN = js.mista;
   for (const e of EV) (byVenue.get(e.misto) || byVenue.set(e.misto, []).get(e.misto)).push(e);
   const upd = new Date(js.meta.aktualizace);
-  $("#fText").placeholder = `Hledat turnaj… (data ${upd.getDate()}. ${upd.getMonth() + 1}.)`;
+  $("#fText").placeholder = `Hráč, klub, turnaj… (data ${upd.getDate()}. ${upd.getMonth() + 1}.)`;
   buildFilterUI(); render(); importFromHash();
   setTimeout(() => loadH2C().catch(() => {}), 4000);
+  if (F.players.length) loadPlayers(); else setTimeout(loadPlayers, 2500);
   if (isDesk()) setSnap("full");
   if (F.center && F.centerMode !== "none") fitVisible(L.latLng(F.center).toBounds(F.radius * 2000));
   else fitVisible(L.latLngBounds(CZ));

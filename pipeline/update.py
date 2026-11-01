@@ -7,7 +7,7 @@
 Zrušené turnaje: turnaj, který byl v listině a zmizel z ní (a listina kategorie se stáhla v pořádku),
 nebo má v názvu/řádku „zruš“, dostane stav „zruseno“ a dál se zobrazuje (přeškrtnutě) – data/stav.json.
 """
-import argparse, datetime as dt, os, re, sys
+import argparse, datetime as dt, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import DATA, SITE_DATA, load, norm, save
 import cts, venues
@@ -47,6 +47,45 @@ def addr_from_detail(d):
     return a.strip(" ,")
 
 
+def sekce_kod(sec):
+    s = (sec or "").lower()
+    return "O" if re.search("odstran|odhl", s) else "Q" if "kvalif" in s else "N" if "náhrad" in s else "H"
+
+
+ZEB_KAT = {"mz": "mladší žáci", "mzk": "mladší žákyně", "sz": "starší žáci", "szk": "starší žákyně",
+           "d": "dorostenci", "dk": "dorostenky", "m": "muži", "z": "ženy"}
+
+
+def build_hraci(events):
+    """site/data/hraci.json: hráči ze žebříčku (+ přihlášení, kteří v žebříčku nejsou) a jejich přihlášky na turnaje."""
+    # žebříček (vstup – export z Tenis Data data/01_zebricky, obnovit při novém žebříčku): pipeline/zebricek_2027Z.json
+    zp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "zebricek_2027Z.json")
+    zeb = json.load(open(zp, encoding="utf-8")).get("hraci", {}) if os.path.exists(zp) else {}
+    prihl = load("prihlasky.json", {})
+    code2ev = {}
+    for e in events:
+        if e.get("km"): code2ev[e["km"]] = (e["id"], "m" if not e.get("mix") else "d")
+        if e.get("kz"): code2ev[e["kz"]] = (e["id"], "z")
+    players, entries = {}, {}
+    for pid, (n, k, cats) in zeb.items():
+        players[pid] = [n, k, cats]
+    for code, lst in prihl.items():
+        if code not in code2ev:
+            continue
+        eid, g = code2ev[code]
+        for pid, n, k, sec in lst:
+            if sec == "O":
+                continue
+            if pid not in players:
+                players[pid] = [n, k, []]
+            entries.setdefault(pid, []).append([eid, g, sec])
+    save("hraci.json", {"meta": {"aktualizace": dt.datetime.now().astimezone().isoformat(timespec="minutes"),
+                                  "zebricek": "zima 2026/27", "kategorie": ZEB_KAT,
+                                  "prihlasenych": len(entries), "prihlasek": sum(len(v) for v in entries.values())},
+                         "p": players, "e": entries}, folder=SITE_DATA, indent=None)
+    print("hráči:", len(players), "| s přihláškou:", len(entries), "| přihlášek:", sum(len(v) for v in entries.values()))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--bez-stahovani", action="store_true")
@@ -67,14 +106,18 @@ def main():
         save("lists.json", lists)
         codes = sorted({c for rows in lists.values() for r in rows for c in (r.get("kod_m"), r.get("kod_z")) if c})
         new = cts.fetch_details(codes, SEASON)
+        prihl = load("prihlasky.json", {})
         for c, d in new.items():
-            # jména přihlášených se do veřejného repozitáře neukládají – jen počty (ochrana osobních údajů)
+            # přihlášky (veřejné seznamy z cesky-tenis.cz): jen ID, jméno, klub a sekce – bez roku narození a bodů
             pr = d.pop("prihlaseni", None)
             if pr is not None:
                 d["prihlaseno"] = sum(1 for e in pr if not re.search("odstran|odhl", e.get("sekce", "").lower()))
+                if d.get("_status") == "ok":
+                    prihl[c] = [[e["id"], e["jmeno"], e["klub"], sekce_kod(e.get("sekce", ""))] for e in pr if e.get("id")]
             if d.get("_status") == "ok" or c not in details:
                 details[c] = d
         save("details.json", details)
+        save("prihlasky.json", {c: v for c, v in prihl.items() if c in set(codes)})
     else:
         ok_slugs = set(lists)
     if a.kluby:
@@ -155,6 +198,7 @@ def main():
         "turnaje": events,
     }
     save("turnaje.json", out, folder=SITE_DATA, indent=None)
+    build_hraci(events)
     from collections import Counter
     print("turnajů:", len(events), "| míst:", len(keys), "| přesnost:", dict(Counter(m["presnost"] for m in mista.values())),
           "| zrušeno:", sum(e["st"] == "zruseno" for e in events))
