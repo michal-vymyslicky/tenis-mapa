@@ -20,7 +20,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 150   # první běh geokóduje všechna místa (≈ 1 h), další běhy jen nová
+    timeout-minutes: 240   # běžný běh ~15 min; nová sezóna poprvé geokóduje všechna místa
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,21 +32,21 @@ jobs:
           mkdir -p site/vendor/images
           [ -f site/vendor/leaflet.js ] || for f in leaflet.js leaflet.css images/marker-icon.png; do curl -sfL "https://unpkg.com/leaflet@1.9.4/dist/$f" -o "site/vendor/$f"; done
           [ -f site/vendor/leaflet.markercluster.js ] || for f in leaflet.markercluster.js MarkerCluster.css MarkerCluster.Default.css; do curl -sfL "https://unpkg.com/leaflet.markercluster@1.5.3/dist/$f" -o "site/vendor/$f"; done
-      - name: Stažení listiny ČTS a přepočet dat
+      - name: Stažení listin ČTS (aktuální a nadcházející sezóna) a přepočet dat
         if: github.event_name != 'push'
         env:
-          SEZONA: Z2627
           TZ: Europe/Prague
         run: |
-          if [ -f data/clubs.json ]; then python3 pipeline/update.py; else python3 pipeline/update.py --kluby; fi
-          python3 pipeline/kontrola_mist.py
+          if [ -f data/clubs.json ]; then python3 pipeline/update.py --auto; else python3 pipeline/update.py --auto --kluby; fi
+          python3 pipeline/kontrola_mist.py || true
       - name: Uložení změn dat do repozitáře
         if: github.event_name != 'push'
         run: |
           git config user.name "tenismapa-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data site/data site/vendor
+          git add -A data site/data site/vendor
           git diff --cached --quiet || git commit -m "Data turnajů $(date +%F)"
+          git pull --rebase --autostash || true
           git push
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
