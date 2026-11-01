@@ -1,0 +1,7784 @@
+[
+ {
+  "cislo": "1",
+  "nazev": "TJ Petřiny",
+  "adresa": "Nad Újezdem, 0 Praha 1-Petřín",
+  "region": "Praha"
+ },
+ {
+  "cislo": "2",
+  "nazev": "TSK Nedvězí",
+  "adresa": "Pánkova 30/9, 10300 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "3",
+  "nazev": "TJ Čechie Karlín",
+  "adresa": "Letohradská 755/50, 17000 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "4",
+  "nazev": "TJ Břevnov",
+  "adresa": "Tomanova 2480/5, 169 00 Praha 6 - Břevnov",
+  "region": "Praha"
+ },
+ {
+  "cislo": "5",
+  "nazev": "TK Sparta Praha",
+  "adresa": "Za Císařským mlýnem 1115/2, 17000 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "6",
+  "nazev": "TK Ruzyně Praha",
+  "adresa": "Nám.č.povstání, 16100 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "7",
+  "nazev": "TC Vyšehrad Praha",
+  "adresa": "Lumirova ul./sad, 12800 Praha 2",
+  "region": "Praha"
+ },
+ {
+  "cislo": "8",
+  "nazev": "Sportovní klub LTC Modřany 2005 z.s.",
+  "adresa": "Přechodní 1594/1 (dvorce: Komořanská ulice), 14000 Praha 4 (dvorce: Praha 4 - Modřany)",
+  "region": "Praha"
+ },
+ {
+  "cislo": "9",
+  "nazev": "TO Bohemians Praha",
+  "adresa": "Nad vodovodem 3503, 10000 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "10",
+  "nazev": "LTC Praha",
+  "adresa": "Letenské sady, 17000 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "11",
+  "nazev": "TJ Tatran Střešovice",
+  "adresa": "Sibeliova 368, 16200 Praha 6/Střešovice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "12",
+  "nazev": "Baník Praha",
+  "adresa": "Povltavská 534, 17000 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "13",
+  "nazev": "TC VŠ Praha",
+  "adresa": "Nad Hliníkem 1202, 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "14",
+  "nazev": "TJ Astra Zahradní Město",
+  "adresa": "Malinová, 106 00 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "15",
+  "nazev": "SK Aritma Praha",
+  "adresa": "Nad lávkou 5, 16000 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "16",
+  "nazev": "TJ Spoje Praha",
+  "adresa": "Na Balkáně 812, 13000 Praha 3",
+  "region": "Praha"
+ },
+ {
+  "cislo": "17",
+  "nazev": "TO Dukla Praha --- klub zrušen 03_2026",
+  "adresa": "Milady Horákové 137, 16000 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "18",
+  "nazev": "TK Praga-Vysočany",
+  "adresa": "Sokolovská 1033/304b, 190 00 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "19",
+  "nazev": "VŠTJ SF Praha-klub zrušen",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "20",
+  "nazev": "TK Sokol Horní Počernice,p.s.",
+  "adresa": "Otovická 2865/109, 19300 Praha 9 - Horní Počernice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "21",
+  "nazev": "Sokol Hostivař Praha",
+  "adresa": "U Branek 674, 10200 Praha 15",
+  "region": "Praha"
+ },
+ {
+  "cislo": "22",
+  "nazev": "TJ Solidarita Praha 10",
+  "adresa": "Pod Strání 3124/7a, 100 00 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "23",
+  "nazev": "Sportovní klub Žižkov Praha",
+  "adresa": "Pitterova 2878/5, Žižkov, 130 00 Praha 3, 130 00 Praha 3",
+  "region": "Praha"
+ },
+ {
+  "cislo": "24",
+  "nazev": "VSK Chemie Praha",
+  "adresa": "Technická 1905, 16628 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "25",
+  "nazev": "TO Sprint",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "26",
+  "nazev": "LTC Zbraslav",
+  "adresa": "U národní galerie 1268, 156 00 Praha 5-Zbraslav",
+  "region": "Praha"
+ },
+ {
+  "cislo": "27",
+  "nazev": "TJ Karlín Tesla",
+  "adresa": "Libeňský ostrov 617 (Štorchova), 180 00 Praha 8",
+  "region": "Praha"
+ },
+ {
+  "cislo": "28",
+  "nazev": "VŠTJ Ekonom Praha",
+  "adresa": "Na Třebešíně 3215/1, 13000 Praha 3",
+  "region": "Praha"
+ },
+ {
+  "cislo": "29",
+  "nazev": "TJ Sokol Praha 9-Běchovice",
+  "adresa": "Na Korunce 580, 190 11 Praha - Běchovice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "30",
+  "nazev": "TO Letov Letňany",
+  "adresa": "Třinecká 650, 19900 Praha 9 - Letňany",
+  "region": "Praha"
+ },
+ {
+  "cislo": "31",
+  "nazev": "LTC Podolí Praha",
+  "adresa": "Dvorecké nám.2, 14700 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "32",
+  "nazev": "Tempo Praha",
+  "adresa": "Ve lhotce, 147 00 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "33",
+  "nazev": "Vodní Stavby Praha",
+  "adresa": "U Továren 12, 102 00 Praha - 10 Hostivař",
+  "region": "Praha"
+ },
+ {
+  "cislo": "34",
+  "nazev": "Sokol Praha Malá Strana",
+  "adresa": "Strahovská 5, 11800 Praha 1",
+  "region": "Praha"
+ },
+ {
+  "cislo": "35",
+  "nazev": "TJ Slavoj Tesla Hloubětín, z.s.",
+  "adresa": "Hloubětínská 1061, 19800 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "36",
+  "nazev": "TJ Sokol Vršovice",
+  "adresa": "Sportovní l, 10000 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "37",
+  "nazev": "TJ Horní Měcholupy",
+  "adresa": "U Golfu 300, 109 00 Praha 15",
+  "region": "Praha"
+ },
+ {
+  "cislo": "38",
+  "nazev": "TO Spartak Modřany",
+  "adresa": "Kabeláčova 262/4, 14300 Praha 4, Modřany",
+  "region": "Praha"
+ },
+ {
+  "cislo": "39",
+  "nazev": "LTK Cibulka",
+  "adresa": "V stráni 11, 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "40",
+  "nazev": "TK Hanspaulka",
+  "adresa": "Nad Šárkou 113, 16000 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "41",
+  "nazev": "Sokol Smíchov I.",
+  "adresa": "U Mrázovky, sport.areál Mrázovka, 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "42",
+  "nazev": "TK Olymp Praha",
+  "adresa": "Za císařským mlýnem 1063, 17000 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "43",
+  "nazev": "Sokol Praha Dejvice",
+  "adresa": "Glinkova 23, 16000 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "44",
+  "nazev": "TJ Sokol Královice, z.s.",
+  "adresa": "Pod Hradem, 10400 Praha 10 - Královice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "45",
+  "nazev": "TK Start Praha-Topolka",
+  "adresa": "Na Topolce 1, 14000 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "46",
+  "nazev": "Lokomotiva Praha",
+  "adresa": "Pod plynojemem 164, 18000 Praha 8",
+  "region": "Praha"
+ },
+ {
+  "cislo": "47",
+  "nazev": "VSK Elektro ČVUT Praha - klub zrušen",
+  "adresa": "Technická 2, 16000 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "48",
+  "nazev": "Klub tenisu a sportu, z.s",
+  "adresa": "Schnirchova 1257/4, 17000 Praha 7 Holešovice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "49",
+  "nazev": "Sokol Petrovice",
+  "adresa": "Bellova 56, 10900 Praha 10 Petrovice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "50",
+  "nazev": "Sportcentrum Uhříněves",
+  "adresa": "K sokolovně, 10400 Praha 22",
+  "region": "Praha"
+ },
+ {
+  "cislo": "51",
+  "nazev": "Slavoj Praha - klub zrušen",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "52",
+  "nazev": "I.ČLTK Praha",
+  "adresa": "Ostrov Štvanice 38, 17000 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "53",
+  "nazev": "LTC Radotín",
+  "adresa": "Šárovo kolo 932/1, 15300 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "54",
+  "nazev": "TJ Sokol Újezd n.L. - klub zrušen 2021",
+  "adresa": "Kalská, 19016 Újezd nad Lesy",
+  "region": "Praha"
+ },
+ {
+  "cislo": "55",
+  "nazev": "Sokol Čimice",
+  "adresa": "Na Průhonu 229/20, 18100 Praha 8 - Čimice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "56",
+  "nazev": "SK Satalice",
+  "adresa": "U Arborky 397, 19015 Praha - Satalice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "57",
+  "nazev": "Admira Kobylisy",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "58",
+  "nazev": "LTC Svoboda Praha",
+  "adresa": "Nad Mlynářkou 1, 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "59",
+  "nazev": "TK Libeňský Ostrov",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "60",
+  "nazev": "SK Meteor Praha",
+  "adresa": "Nad Kotlaskou I/95, 18000 Praha 8",
+  "region": "Praha"
+ },
+ {
+  "cislo": "61",
+  "nazev": "TGC Kunratice",
+  "adresa": "Za parkem 47, 14800 Praha 4-Kunratice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "62",
+  "nazev": "SK OAZA Praha",
+  "adresa": "Jeremenkova 106, 14000 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "63",
+  "nazev": "TJ Slovan Bohnice-Praha 8",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "64",
+  "nazev": "TK LTC 1927 Praha- Michle,z.s.",
+  "adresa": "Pekárenská 1598/3, 141 00 Praha 4-Michle",
+  "region": "Praha"
+ },
+ {
+  "cislo": "65",
+  "nazev": "SK Rapid Praha",
+  "adresa": "Nad Primaskou 43N, 105 00 Praha 10 - Strašnice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "66",
+  "nazev": "TC Pankrác",
+  "adresa": "Družstevní ochoz 5a (areál Reitknechtka), 14000 Praha 4 Nusle",
+  "region": "Praha"
+ },
+ {
+  "cislo": "67",
+  "nazev": "TC Spořilov Praha",
+  "adresa": "U Michelského lesa 261, 14000 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "68",
+  "nazev": "USK Praha",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "69",
+  "nazev": "TK Montáže, z.s.",
+  "adresa": "Pod Stárkou 200, 14000 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "70",
+  "nazev": "Sokol Dolní Počernice z.s.",
+  "adresa": "V Raji 905, 19012 Praha 9-Dolní Počernice ,Narodních hrdinů 290",
+  "region": "Praha"
+ },
+ {
+  "cislo": "71",
+  "nazev": "Tatran Praha 7",
+  "adresa": "Za Císařským mlýnem, 170 00 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "72",
+  "nazev": "TJ Republikán",
+  "adresa": "V Šáreckém údolí 2638/82b, 16000 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "73",
+  "nazev": "VŠSK MFF Praha",
+  "adresa": "Klub: Bruslařská 10, Praha 10. Kurty: Pod objektem Ke Karlovu 3, 121 16 Praha 2",
+  "region": "Praha"
+ },
+ {
+  "cislo": "74",
+  "nazev": "Tenisový klub KONSTRUKTIVA, z.s.",
+  "adresa": "Mezi sklady 3/107, 140 00 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "75",
+  "nazev": "Tenis Jahodnice",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "76",
+  "nazev": "TJ Kyje Praha 14",
+  "adresa": "Manželů Dostálových, 198 00 Praha 9-Jahodnice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "77",
+  "nazev": "SK Motorlet - klub zrušen",
+  "adresa": "Butovická 100, 15500 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "78",
+  "nazev": "VSK Přírodní vědy Praha",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "79",
+  "nazev": "TJ Sokol Jahodnice",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "80",
+  "nazev": "TK Slavia Praha",
+  "adresa": "Letenské sady 32, 17000 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "81",
+  "nazev": "TO Ďáblice",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "82",
+  "nazev": "TENIS Klánovice",
+  "adresa": "V pátém 521, 19014 Praha 9-Klánovice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "83",
+  "nazev": "TO TJ ÚVN Praha",
+  "adresa": "ÚZVÚ U voj.nemocni, 16902 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "84",
+  "nazev": "DP Hagibor Praha",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "86",
+  "nazev": "TJ ČZU Praha",
+  "adresa": "Kamýcká 129, 16521 Praha 6 - Suchdol - Sportcentrum ČZU - za bazenem",
+  "region": "Praha"
+ },
+ {
+  "cislo": "87",
+  "nazev": "TK Řepy",
+  "adresa": "Na Dráze 398, 27351 Červený Újezd",
+  "region": "Praha"
+ },
+ {
+  "cislo": "88",
+  "nazev": "Poseidon klub Praha",
+  "adresa": "Hloubětínská 80, 19400 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "89",
+  "nazev": "Tommy Tennis",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "90",
+  "nazev": "Junior TC Praha",
+  "adresa": "V remízku 7/919, 15200 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "91",
+  "nazev": "Mir.Bendlová-Tenisová škola- klub zrušen",
+  "adresa": "Pánkova 30, 10300 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "92",
+  "nazev": "TJ Radlice z.s.",
+  "adresa": "Radlická 298/105, 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "93",
+  "nazev": "SK Viktorie Praha 8",
+  "adresa": "Hovorčovická 1281, 18200 Praha 8",
+  "region": "Praha"
+ },
+ {
+  "cislo": "94",
+  "nazev": "TŠ PK Praha 4",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "95",
+  "nazev": "SC Q-FOTO Praha",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "96",
+  "nazev": "Sokol Chuchle",
+  "adresa": "U Skály 184/10, Praha 5 – Velká Chuchle, 159 00 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "97",
+  "nazev": "RTK TŠ Praha",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "98",
+  "nazev": "SK MOTUS",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "99",
+  "nazev": "TCD Donovalská",
+  "adresa": "Donovalská 1684, 14900 Jižní Město, Chodov",
+  "region": "Praha"
+ },
+ {
+  "cislo": "100",
+  "nazev": "TeniServis Nekola",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "101",
+  "nazev": "Nadace 1993 - zrušený klub",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "102",
+  "nazev": "Střešovická TŠ",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "103",
+  "nazev": "TENIS AKTIV",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "104",
+  "nazev": "Sokol Řeporyje",
+  "adresa": "Jáchymovská 613/1, 15500 Praha 5 - Řeporyje",
+  "region": "Praha"
+ },
+ {
+  "cislo": "105",
+  "nazev": "TC Tenisová škola TALLENT",
+  "adresa": "kurty VŠTJ Ekonom (ul. Na Třebešíně), 13000 Praha 3",
+  "region": "Praha"
+ },
+ {
+  "cislo": "106",
+  "nazev": "ŠSK Luka",
+  "adresa": "Kuncova 1580, 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "107",
+  "nazev": "TO TJ ČKD Kompresory- zrušen",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "108",
+  "nazev": "UM Centrum",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "109",
+  "nazev": "West Tennis Praha",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "110",
+  "nazev": "SPORTAKTIV",
+  "adresa": "Branická 111/15, 147 00 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "111",
+  "nazev": "TK Blue Point",
+  "adresa": "Růžová 15, 11000 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "112",
+  "nazev": "TENIS AKADEMIE ČECHIE",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "113",
+  "nazev": "TK KAJA",
+  "adresa": "Solidarity 2486/49, 10000 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "114",
+  "nazev": "Pupp Tenis Resort",
+  "adresa": "K vodě 2/3186, 10600 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "115",
+  "nazev": "International Lawn Tennis Club České republliky",
+  "adresa": "Vilímovská 1476/33, 16000 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "116",
+  "nazev": "RWA Praha",
+  "adresa": "Dačického 2/1220, 14000 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "117",
+  "nazev": "TK Troja",
+  "adresa": "Pod Hrachovkou 6, 171 00 Praha 7 - Troja",
+  "region": "Praha"
+ },
+ {
+  "cislo": "118",
+  "nazev": "E.T.M. Praha",
+  "adresa": "Nad Statkem 118, 14900 Praha 4 - Újezd",
+  "region": "Praha"
+ },
+ {
+  "cislo": "119",
+  "nazev": "SK Kometa Praha",
+  "adresa": "Chvalkovická 689/25, 19300 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "120",
+  "nazev": "TJ Sokol Vysočany",
+  "adresa": "Novoškolská 696/2, 19000 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "121",
+  "nazev": "TK Hodkovičky",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "122",
+  "nazev": "Tenisové centrum Holešovice",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "123",
+  "nazev": "SK Tenis Praha 5",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "124",
+  "nazev": "TK FZŠ Trávníčkova",
+  "adresa": "FZŠ Trávníčkova 1744, 15500 Praha 13 - Stodůlky",
+  "region": "Praha"
+ },
+ {
+  "cislo": "125",
+  "nazev": "TK Kozák Barrandov-zaniklý klub",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "126",
+  "nazev": "TCM Dubeč, z.s.",
+  "adresa": "Na Korunce 580, 190 00 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "127",
+  "nazev": "SK HAMR, z.s.",
+  "adresa": "K Vodě 3200/6, 10600 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "128",
+  "nazev": "LTC Modřany-Dětský TK",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "129",
+  "nazev": "TK Písnice",
+  "adresa": "Na Okruhu 2, 14200 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "130",
+  "nazev": "TC Písnice",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "131",
+  "nazev": "Slavoj Praha TC Ježura",
+  "adresa": "Technologická 956, 148 00 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "132",
+  "nazev": "TŠ Pohořelec",
+  "adresa": "Diskařská 1, 110 00 Praha 1",
+  "region": "Praha"
+ },
+ {
+  "cislo": "133",
+  "nazev": "Tenisová škola Michal Pastrnek",
+  "adresa": "Zalešanská 2420/8, 19016 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "134",
+  "nazev": "Ma Tenisová škola",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "135",
+  "nazev": "Fun Sport Club Praha",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "136",
+  "nazev": "TK Sport Kolovraty",
+  "adresa": "Do Hlinek 754/7, 10300 Praha 22-Kolovraty",
+  "region": "Praha"
+ },
+ {
+  "cislo": "137",
+  "nazev": "TK Svoboda Hanspaulka",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "138",
+  "nazev": "S.K.Hlubočepy",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "139",
+  "nazev": "TC Kolovrat",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "140",
+  "nazev": "LOB S.A. Bohnice, z.s.",
+  "adresa": "Bukolská 838/2a, 18100 Praha 8",
+  "region": "Praha"
+ },
+ {
+  "cislo": "141",
+  "nazev": "Orel jednota Praha-Balkán",
+  "adresa": "Na Balkáně 812, 130 00 Praha 3",
+  "region": "Praha"
+ },
+ {
+  "cislo": "142",
+  "nazev": "TENISCENTRUM HEAD",
+  "adresa": "Sportovní 456, 25242 Vestec, Praha-západ",
+  "region": "Praha"
+ },
+ {
+  "cislo": "143",
+  "nazev": "TJ Sokol Vršovice II.",
+  "adresa": "Magnitogorská 1531/16, 10100 Praha",
+  "region": "Praha"
+ },
+ {
+  "cislo": "144",
+  "nazev": "SK TRAKTOR Praha",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "145",
+  "nazev": "TCM Praha",
+  "adresa": "Hornofova ulice 21, 16400 Praha 6-Nebušice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "146",
+  "nazev": "TŠK S.Matějovská",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "147",
+  "nazev": "Sport centrum Prosek",
+  "adresa": "Litvínovská 500, 19000 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "148",
+  "nazev": "TC LANO Řepy",
+  "adresa": "Socháňova (areál ZŠ), 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "149",
+  "nazev": "TK Hostýnská",
+  "adresa": "Hostýnská 2/2100, 10000 Praha 10",
+  "region": "Praha"
+ },
+ {
+  "cislo": "150",
+  "nazev": "Tenis Cibulka",
+  "adresa": "V Stráni 11, 150 00 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "151",
+  "nazev": "SK Universe",
+  "adresa": "Na Zátorce 5/350, 16000 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "152",
+  "nazev": "TJ Sokol Stodůlky",
+  "adresa": "K Vidouli 710, 15500 Praha 5-Stodůlky",
+  "region": "Praha"
+ },
+ {
+  "cislo": "153",
+  "nazev": "TK Horní Měcholupy",
+  "adresa": "Hornoměcholupská 564, 10900 Praha 15, Horní Měcholupy",
+  "region": "Praha"
+ },
+ {
+  "cislo": "154",
+  "nazev": "ARATI-PRASAD GROUP s.r.o",
+  "adresa": "Petržílkova 2565/23, 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "155",
+  "nazev": "Tenisové centrum Černý Most",
+  "adresa": "Bryksova 773, 19800 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "156",
+  "nazev": "Tenisová škola SMEČ",
+  "adresa": "Malešická 655/59c, 10800 Praha 10-Malešice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "157",
+  "nazev": "METASPORT, z.s.",
+  "adresa": "Magistrů 1510/24, 14000 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "158",
+  "nazev": "SK VIKTORIA Štěrboholy",
+  "adresa": "",
+  "region": "Praha"
+ },
+ {
+  "cislo": "159",
+  "nazev": "TC Šimek-Bohemia",
+  "adresa": "Ovčí Hájek 2165, 15800 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "160",
+  "nazev": "CPM Tenis Praha-klub zrušen",
+  "adresa": "Pyšelská 2361/4, 149 00 Praha - Chodov , 14900 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "161",
+  "nazev": "TLC Sport,z.s.",
+  "adresa": "Hornofova 21, 16400 Praha 6-Nebušice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "162",
+  "nazev": "TC Return",
+  "adresa": "Dářská 858/8, 19800 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "163",
+  "nazev": "Tenis Centrum Lužiny",
+  "adresa": "Zázvorková 1480/11, 15500 Praha",
+  "region": "Praha"
+ },
+ {
+  "cislo": "164",
+  "nazev": "TK Vamos - klub zrušen",
+  "adresa": "Veletržní 53/810, 17000 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "165",
+  "nazev": "TC ESO Praha z.s.",
+  "adresa": "Chabařovická 4, 18200 Praha 8",
+  "region": "Praha"
+ },
+ {
+  "cislo": "166",
+  "nazev": "TK EMA o.s.",
+  "adresa": "Tenis club Řepy, Socháňova 5b, 16300 Praha Řepy",
+  "region": "Praha"
+ },
+ {
+  "cislo": "167",
+  "nazev": "Tenis klub FÉNIX Nedvězí",
+  "adresa": "Do Hlinek 754/7, 10300 Praha 10 - Kolovraty",
+  "region": "Praha"
+ },
+ {
+  "cislo": "168",
+  "nazev": "Motol Sport Park",
+  "adresa": "Na Hliníkem 1202/2, 15000 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "169",
+  "nazev": "Mgr. Růžena Krtková Rudnická <br> Top Tennis Academy",
+  "adresa": "Lochenická 228 (mistráky:ul.Bezručova,Zeleneč), 19014 Praha 9 Klánovice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "170",
+  "nazev": "Tenisový klub Progress z.s.",
+  "adresa": "Fantova 1792/2, 15500 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "171",
+  "nazev": "CTC Hodkovičky",
+  "adresa": "V Náklích 16/3, 147 00 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "172",
+  "nazev": "3C Tennis Club",
+  "adresa": "Hlubočepská 701/38c, 15200 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "173",
+  "nazev": "Pála Vízner Tennis z.s.",
+  "adresa": "Suttnerové 841/2, 16900 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "174",
+  "nazev": "TK Hovorčovice",
+  "adresa": "U rybníka 636, 25064 Hovorčovice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "175",
+  "nazev": "TK Praha 2010 o.s.",
+  "adresa": "U Studánky 97, 25069 Vodochody Praha-východ",
+  "region": "Praha"
+ },
+ {
+  "cislo": "176",
+  "nazev": "TJ Sokol Liboc",
+  "adresa": "Ruzyňská 156/55, 16100 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "177",
+  "nazev": "SK TIEBREAK Praha",
+  "adresa": "Kladrubská 317, 19900 Praha 9 - Letňany",
+  "region": "Praha"
+ },
+ {
+  "cislo": "178",
+  "nazev": "SC OTEC",
+  "adresa": "Šedivého 563/10, 16200 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "179",
+  "nazev": "Prague Tennis Academy",
+  "adresa": "Pod Harfou 933/84, 19000 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "180",
+  "nazev": "TJ TK Březiněves",
+  "adresa": "Na Hlavní 149/31, 18200 Praha 8 Březiněves",
+  "region": "Praha"
+ },
+ {
+  "cislo": "181",
+  "nazev": "Tenisová škola Lucie Hradecké z.s.",
+  "adresa": "Manželů Dostálových 1722, 19000 PRAHA 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "182",
+  "nazev": "Sportklub Tenis Kolovraty",
+  "adresa": "Mírová, 10300 Praha 10 - Kolovraty",
+  "region": "Praha"
+ },
+ {
+  "cislo": "183",
+  "nazev": "TK Praha- Jižní Město",
+  "adresa": "Blažimská 1781/4, 14900 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "184",
+  "nazev": "DTJ Jinonice",
+  "adresa": "Butovická 837/41, 15800 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "185",
+  "nazev": "Sport Arena Praha",
+  "adresa": "Lesní 1252/17, 14800 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "186",
+  "nazev": "SK Újezd Praha 4, z.s.",
+  "adresa": "Na Statkem 118, 149 00 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "187",
+  "nazev": "Tenis Akademie Bálek---klub zrušen",
+  "adresa": "Bolebořská 535/4, 184 00 Praha 8, Dolní Chabry",
+  "region": "Praha"
+ },
+ {
+  "cislo": "188",
+  "nazev": "BLK Slavia Praha",
+  "adresa": "Orlická 2176/9, 130 00 Praha 3",
+  "region": "Praha"
+ },
+ {
+  "cislo": "189",
+  "nazev": "VŠTJ Technika Praha strojní",
+  "adresa": "Karlovo náměstí 13, 128 03 Praha 2",
+  "region": "Praha"
+ },
+ {
+  "cislo": "190",
+  "nazev": "Tenis & Padel klub Písečná, z.s.",
+  "adresa": "K sadu 590/1, 182 00 Praha 8",
+  "region": "Praha"
+ },
+ {
+  "cislo": "191",
+  "nazev": "BH TJ VALTON Praha z.s.",
+  "adresa": "Hostavická 34/14, 19800 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "192",
+  "nazev": "Spolek pro podporu rekreačního sportu a rodinných volnočasových aktivit z.s.",
+  "adresa": "U Sluncové 618/25, 186 00 Praha 8",
+  "region": "Praha"
+ },
+ {
+  "cislo": "193",
+  "nazev": "TopTennis Xaverov s.r.o.",
+  "adresa": "Božanovská 2093, 19300 H.Počernice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "194",
+  "nazev": "Tenis Újezd nad Lesy, z.s.",
+  "adresa": "Veletovská 2358, 19016 Újezd nad Lesy",
+  "region": "Praha"
+ },
+ {
+  "cislo": "195",
+  "nazev": "Pliskova Tennis Academy, z.s.",
+  "adresa": "Janáčkovo nábřeží 157/53, 15000 Praha - Malá Strana",
+  "region": "Praha"
+ },
+ {
+  "cislo": "196",
+  "nazev": "Tenis Akademie Bálek, z.s.",
+  "adresa": "Bolebořská 535/4, 184 00 Praha 8 Dolní Chabry",
+  "region": "Praha"
+ },
+ {
+  "cislo": "197",
+  "nazev": "RPM Spoje Praha",
+  "adresa": "Na Balkáně 21a, 13000 Praha 3",
+  "region": "Praha"
+ },
+ {
+  "cislo": "198",
+  "nazev": "Tenis Nebušice z.s.",
+  "adresa": "Hornofova 274, 164 00 Praha 6 Nebušice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "199",
+  "nazev": "SK Kamínka 1986, z.s.",
+  "adresa": "Tunelářů 293, 15600 Praha 5",
+  "region": "Praha"
+ },
+ {
+  "cislo": "200",
+  "nazev": "TK DOMYNO P4, z.s.",
+  "adresa": "Chýnovská, 14000 Praha 4",
+  "region": "Praha"
+ },
+ {
+  "cislo": "201",
+  "nazev": "TSM Sokol Vysočany z.s.",
+  "adresa": "Novoškolská 696/2, 190 00 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "202",
+  "nazev": "Dráčkova jazyková mateřská škola Beachclub Strahov,oddíl tenisu z.s.",
+  "adresa": "Chodecká 1230, 169 00 Praha 6",
+  "region": "Praha"
+ },
+ {
+  "cislo": "203",
+  "nazev": "ČTS - klub",
+  "adresa": "Ostrov Štvanice 38, 170 00 Praha 7",
+  "region": "Praha"
+ },
+ {
+  "cislo": "204",
+  "nazev": "Zažít Řepy, z.s.",
+  "adresa": "Vondroušova 1217/32, 16300 Praha",
+  "region": "Praha"
+ },
+ {
+  "cislo": "205",
+  "nazev": "Tenis Jesenice z.s.",
+  "adresa": "K sportovnímu areálu 1600, 252 42 Jesenice",
+  "region": "Praha"
+ },
+ {
+  "cislo": "206",
+  "nazev": "SC Hector z.s.",
+  "adresa": "Pod Harfou 933/84, 19000 Praha 9",
+  "region": "Praha"
+ },
+ {
+  "cislo": "207",
+  "nazev": "TK Spoje Praha, z.s.",
+  "adresa": "Na Balkáně 450/25, 13000 Praha 3",
+  "region": "Praha"
+ },
+ {
+  "cislo": "10001",
+  "nazev": "Slavoj Český Brod",
+  "adresa": "Sokolská 894, 28201 Český Brod",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10002",
+  "nazev": "Lokomotiva Zdice",
+  "adresa": "Komenského 967, 26751 Zdice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10003",
+  "nazev": "TO SK Mělník",
+  "adresa": "Na Polabí 3405, 27601 Mělník",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10004",
+  "nazev": "Sokol Libiš",
+  "adresa": "Školní 492/6, 277 11 Libiš",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10005",
+  "nazev": "Sparta Kutná Hora",
+  "adresa": "Čáslavská 573, 28400 Kutná Hora",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10006",
+  "nazev": "Tenisový klub Načeradec,z.s.- klub zrušen",
+  "adresa": "Pravonínská 130, 25708 Načeradec",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10007",
+  "nazev": "TK Stochov",
+  "adresa": "Zborovská 317, 27303 Stochov",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10008",
+  "nazev": "SK Městec Králové-vyloučen 14.2.2004",
+  "adresa": "Tyršova 90, 28903 Městec Králové",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10009",
+  "nazev": "Tsport Votice o.s.",
+  "adresa": "Masarykovo náměstí 937, 25901 Votice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10010",
+  "nazev": "LTC Slovan Kladno",
+  "adresa": "Sportovců 821, 27204 Kladno 4",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10011",
+  "nazev": "Spartak Pečky",
+  "adresa": "Sokolská 1062, 28911 Pečky",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10012",
+  "nazev": "LTC Houštka",
+  "adresa": "Houštka 1259, 250 01 Stará Boleslav",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10013",
+  "nazev": "Tenisový klub Mníšek",
+  "adresa": "Kytínská 925, 25210 Mníšek pod Brdy",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10014",
+  "nazev": "TJ Višňová",
+  "adresa": "Višňová 103, 26101 Višňová",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10015",
+  "nazev": "TJ Karlštejn-vyloučen 14.2.2004",
+  "adresa": "Karlštejn 145, 26718 Karlštejn",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10016",
+  "nazev": "Baník Příbram",
+  "adresa": "areál fotbalového klubu FK Příbram u Litavky, 261 01 Příbram",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10017",
+  "nazev": "TK SK Kladno, z.s.",
+  "adresa": "F.Kloze 294, 27201 Kladno",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10018",
+  "nazev": "Slavoj Žiželice",
+  "adresa": "V Rybářích 112, 28129 Žiželice n.C.",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10019",
+  "nazev": "Tenisový klub Benátky nad Jizerou",
+  "adresa": "U cukrovaru 34/4, 29471 Benátky n.Jiz.",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10020",
+  "nazev": "TENIS VLAŠIM,z.s.",
+  "adresa": "Obora 670, 258 01 Vlašim",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10021",
+  "nazev": "LTC Mladá Boleslav z.s.",
+  "adresa": "Štěpánka 28, 29301 Mladá Boleslav",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10022",
+  "nazev": "TK Březnice",
+  "adresa": "Náměstí 11, 26272 Březnice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10023",
+  "nazev": "TK Radošovice",
+  "adresa": "Čapkova 1690/4 - pozor, nejedná se o adresu dvorců, 25101 Říčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10024",
+  "nazev": "TJ Hovorčovice-vyloučen 23.10.2021",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10025",
+  "nazev": "LTC Beroun, z.s.",
+  "adresa": "Štěpánkova 612/7přístup ke dvorcům z ulice Vorlova 496, 26601 Beroun",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10027",
+  "nazev": "TK Kročehlavy",
+  "adresa": "Freyova 319, 27201 Kladno",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10028",
+  "nazev": "TJ Kralupy",
+  "adresa": "Kuzmínova 372, 27801 Kralupy nad Vltavou",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10029",
+  "nazev": "LTC Bakov n.Jiz.",
+  "adresa": "Stadion 1179, 29401 Bakov nad Jizerou",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10030",
+  "nazev": "Tenis Brandýs n.L.",
+  "adresa": "Tyršova, P.O.BOX 56, 25001 Brandýs nad Labem",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10031",
+  "nazev": "TJ Sokol Dobřichovice",
+  "adresa": "K Tenisu 382, 25229 Dobřichovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10032",
+  "nazev": "TK Dobříš",
+  "adresa": "V Lipkách 1792, 26301 Dobříš",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10033",
+  "nazev": "Tennis club Hýskov",
+  "adresa": "K Lesíku, 26706 Hýskov",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10034",
+  "nazev": "TJ Čenkovské strojírny-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10035",
+  "nazev": "SK Nižbor",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10036",
+  "nazev": "TK Mnichovo Hradiště",
+  "adresa": "Klášterská 1487, 29501 Mnichovo Hradiště",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10037",
+  "nazev": "AERO Odolena Voda",
+  "adresa": "Květnová 376, 25070 Odolena Voda",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10038",
+  "nazev": "TK Čáslav",
+  "adresa": "Tenis. kurty,areál Vodranty 1999, 28601 Čáslav",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10039",
+  "nazev": "TK Bohutín, z.s.",
+  "adresa": "Havírna 5, 26141 Bohutín",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10040",
+  "nazev": "TK Čelákovice",
+  "adresa": "U Kapličky 1705, 250 88 Čelákovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10041",
+  "nazev": "TJ Jiskra Zruč n.Sáz.",
+  "adresa": "Dvouletky 1031, 285 22 Zruč nad Sázavou",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10042",
+  "nazev": "TK Benešov",
+  "adresa": "Ke Stadionu 2037, 25601 Benešov",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10043",
+  "nazev": "LTC Slaný",
+  "adresa": "Na Sadech 1278, 27401 Slaný",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10044",
+  "nazev": "Sokol Říčany",
+  "adresa": "Sokolská 1063 / 10, 25101 Říčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10045",
+  "nazev": "TJ LTC Poděbrady",
+  "adresa": "Jana Opletala 845, 290 01 Poděbrady",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10046",
+  "nazev": "Tenisový klub Černošice",
+  "adresa": "Na bluku, 252 28 Černošice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10047",
+  "nazev": "Sokol Nové Strašecí",
+  "adresa": "Komenského náměstí 201, 271 01 Nové Strašecí",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10048",
+  "nazev": "TJ TK Neratovice",
+  "adresa": "Kpt. Jaroše 233, 27711 Neratovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10049",
+  "nazev": "Lokomotiva Beroun",
+  "adresa": "Tyršova 85, 26601 Beroun",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10050",
+  "nazev": "Sokol Ondřejov",
+  "adresa": "Pod Hřištěm, 25165 Ondřejov",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10051",
+  "nazev": "RADOST Králův Dvůr",
+  "adresa": "Na Skalce 380, 26701 Králův Dvůr",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10052",
+  "nazev": "Sokol Družec-vyloučen 14.2.2004",
+  "adresa": "Pod Veselovem, 27362 Družec 78",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10053",
+  "nazev": "TJ Hvězda Kladno",
+  "adresa": "Frant.Oplta 1478, 27309 Kladno",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10054",
+  "nazev": "T.J. Sokol Sedlčany",
+  "adresa": "Zberazská 163, 264 01 Sedlčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10055",
+  "nazev": "TK Týnec nad Sázavou",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10056",
+  "nazev": "TK Lány",
+  "adresa": "Lesni, 27061 Lány",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10057",
+  "nazev": "TJ SK Tetín",
+  "adresa": "Hájka z Libočan 80, 26601 Tetín",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10058",
+  "nazev": "Spartak Hořovice",
+  "adresa": "Plzeňská 1227, 26801 Hořovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10059",
+  "nazev": "Spartak Žebrák",
+  "adresa": "Vápenice, 26753 Žebrák",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10060",
+  "nazev": "TJ Klášter Hradiště-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10061",
+  "nazev": "Sokol Kublov",
+  "adresa": "Kublov 140, 267 41 Kublov",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10062",
+  "nazev": "TK Lysá n.L.",
+  "adresa": "Jaromírovy sady, 28922 Lysá nad Labem",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10063",
+  "nazev": "TK Chlumec-klub zrušen 2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10064",
+  "nazev": "TK Lázně Toušeň-klub zrušen 2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10065",
+  "nazev": "LTC Roztoky u Prahy",
+  "adresa": "Máchova Roztoky, 25263",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10066",
+  "nazev": "Spartak Rožmitál",
+  "adresa": "U Stadionu 540, 26242 Rožmitál pod Třemšínem",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10067",
+  "nazev": "Sokol Buštěhrad",
+  "adresa": "Hřebečská, 27343 Buštěhrad",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10068",
+  "nazev": "Tenis club Úvaly",
+  "adresa": "Guth Jarkovského 698, 25082 Úvaly",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10069",
+  "nazev": "Sokol Přistoupim-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10070",
+  "nazev": "Sokol Otradovice",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10071",
+  "nazev": "TJ Sokol Strančice",
+  "adresa": "Ke Koupališti , 25163 Strančice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10072",
+  "nazev": "Slavoj Čerčany",
+  "adresa": "Sázavská, 25722 Čerčany 470",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10073",
+  "nazev": "Sokol Podlázky-Dalovice-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10074",
+  "nazev": "TGC Káraný",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10075",
+  "nazev": "Sokol Dřísy-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10076",
+  "nazev": "Sokol Kamýk n.Vlt.",
+  "adresa": "Kamýk nad Vltavou 173, 262 63 Kamýk nad Vltavou",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10077",
+  "nazev": "SK Nučice,z.s.-zrušen",
+  "adresa": "Tyršova 416, 25216 Nučice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10078",
+  "nazev": "Lokomotiva Nymburk",
+  "adresa": "Boleslavská 319, 28802 Nymburk",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10079",
+  "nazev": "LTC Kolín",
+  "adresa": "Brankovická 1007, 28002 Kolín",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10080",
+  "nazev": "Tatran Kostelec n.Č.lesy-vyloučen 14.2.2011",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10081",
+  "nazev": "Spartak Průhonice",
+  "adresa": "Říčanská, 25243 Průhonice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10082",
+  "nazev": "TJ Sokol Hostivice",
+  "adresa": "Na Hrázi 1144, 25301 Hostivice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10083",
+  "nazev": "TJ Kavalier Sázava",
+  "adresa": "Tyršovo nábřeží 82, 28506 Sázava",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10084",
+  "nazev": "ZMT Klub",
+  "adresa": "Na Holém vrchu 1841/13, 251 01 Říčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10085",
+  "nazev": "LTC Rakovník",
+  "adresa": "Nábřeží T.G.Masaryka 2659, 26901 Rakovník",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10086",
+  "nazev": "Sokol Řež-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10087",
+  "nazev": "SK Policie Nymburk-vyloučen 16.2.2008",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10088",
+  "nazev": "Sokol Týnec n.L.",
+  "adresa": "Masarykovo nám. 1, 28126 Týnec nad Labem",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10089",
+  "nazev": "TJ Srbsko-vyloučen 19.2.2011",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10090",
+  "nazev": "Tělovýchovná jednota SOKOL Měchenice, z. s.",
+  "adresa": "Měchenice 298, 252 06 Měchenice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10091",
+  "nazev": "LTC Řevnice",
+  "adresa": "Legií 750, 252 30 Řevnice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10092",
+  "nazev": "TJ Sokol Mělník-Pšovka",
+  "adresa": "Sokolská 1063, 27601 Mělník",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10093",
+  "nazev": "TJ Sokol Mšeno-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10094",
+  "nazev": "Slavoj Zvoleněves-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10095",
+  "nazev": "TK GRAMO Loděnice-vyloučen 14.2.2008",
+  "adresa": "Malé Přílepy 100, 26601 Chyňava",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10096",
+  "nazev": "TK Hořovice",
+  "adresa": "Tenisová, 26801 Hořovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10097",
+  "nazev": "Sokol Líbeznice-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10098",
+  "nazev": "Slovan Hradišťko-vyločen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10099",
+  "nazev": "TK Hrušov",
+  "adresa": "Příčná 61, 25166 Senohraby",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10100",
+  "nazev": "TJ Červené Pečky-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10101",
+  "nazev": "TJ ČECHIE Nový Jáchymov",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10102",
+  "nazev": "Sokol Hrusice-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10103",
+  "nazev": "1.české tenisové gymnázium-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10104",
+  "nazev": "TO TJ Kouřim-klub zrušen 2006",
+  "adresa": "není, 281 61 Kouřim",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10105",
+  "nazev": "TJ Tuchlovice-vyloučen 16.2.2008",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10106",
+  "nazev": "TJ Sokol Kostelec nad Labem",
+  "adresa": "Tyršova 1, 277 13 Kostelec nad Labem",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10107",
+  "nazev": "Tenis klub Velvary-vyloučen 14.2.2004",
+  "adresa": "Bezručova zl., 27324 Velvary",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10108",
+  "nazev": "TK PDA Krhanice-zrušen 11.12.2004",
+  "adresa": "Fatranská 207, 25742 Krhanice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10109",
+  "nazev": "Sokol Uh. Janovice-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10110",
+  "nazev": "TJ Třebestovice-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10111",
+  "nazev": "Sokol Libčice n.Vl.",
+  "adresa": "nám. Svobody 249, 252 66 Libčice nad Vltavou",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10112",
+  "nazev": "Sokol V.Popovice",
+  "adresa": "Sokolská 154, 25169 Velké Popovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10113",
+  "nazev": "Sportclub 67 Zruč n.S.",
+  "adresa": "Fibichova 383, 28522 Zruč n.S.",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10114",
+  "nazev": "Teniscentrum Příbram",
+  "adresa": "Brodská 98, 29105 Příbram",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10115",
+  "nazev": "TJ Sokol Čachovice-vyloučen 14.2.2004",
+  "adresa": "Nová 125, 29443 Čachovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10116",
+  "nazev": "TJ Meteor Stříbrná Skalice",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10117",
+  "nazev": "TK Rudná-klub zrušen",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10118",
+  "nazev": "TJ Slavia Radonice",
+  "adresa": "V Uličce , 250 73 Radonice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10119",
+  "nazev": "TK Kačov",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10120",
+  "nazev": "TK Neridé",
+  "adresa": "U Továren 674/12, 102 00 Praha 15 - Hostivař",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10121",
+  "nazev": "TK Trhovky-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10122",
+  "nazev": "SC Želivka 91-vyloučen 16.2.2008",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10123",
+  "nazev": "TK Čalouníci-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10124",
+  "nazev": "SKM Zruč nad Sázavou-Tennisline, z.s.",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10125",
+  "nazev": "TO Tmaň-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10126",
+  "nazev": "US Burger-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10127",
+  "nazev": "LTC Solopisky-vyloučen 14.2.2004",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10128",
+  "nazev": "TK Dobrovice-vyloučen 16.2.2008",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10129",
+  "nazev": "F.H.TK Dobřichovice",
+  "adresa": "Viničná 201, 25229 Dobřichovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10130",
+  "nazev": "LTC Starý Kolín",
+  "adresa": "Sportovní čp.356, 28123 Starý Kolín",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10131",
+  "nazev": "TK Březí-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10132",
+  "nazev": "Sokol Dolní Bousov",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10133",
+  "nazev": "SK TALENT 13 - spolek",
+  "adresa": "Na Studánkách 2590, 26901 Rakovník",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10134",
+  "nazev": "TC Praha Radonice-vyloučen 14.2.2004",
+  "adresa": "ul.Pavlova, 25073 Radonice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10135",
+  "nazev": "TJ Sokol Choteč-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10136",
+  "nazev": "TK Vaníček-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10137",
+  "nazev": "1.TK Pacov",
+  "adresa": "Nad Bahnivkou 140, 25101 Říčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10138",
+  "nazev": "SK Dobřichov-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10139",
+  "nazev": "LTC Rudná",
+  "adresa": "Hořelické nám., 252 19 Rudná u Prahy",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10140",
+  "nazev": "TC Realsport Nymburk o.s.",
+  "adresa": "Na Remanenci 1038/5, 28802 Nymburk",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10141",
+  "nazev": "T.J. Sokol Lety",
+  "adresa": "Sokolská 12, 252 29 Lety u Dobřichovic",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10142",
+  "nazev": "T.K.MILTEN-vyloučen 23.10.2021",
+  "adresa": "Sportovní 588, 28924 Milovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10143",
+  "nazev": "SK Tenis Rohatsko",
+  "adresa": "Rohatsko 15, 29404 Dolní Bousov",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10144",
+  "nazev": "Tenis club Blahotice-vyloučen 16.2.2008",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10145",
+  "nazev": "Tenisový oddíl Junior",
+  "adresa": "Nesvačily 60, 25751 Bystřice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10146",
+  "nazev": "CHIKO-Sportovní centrum-vyloučen 16.2.2008",
+  "adresa": "Na Mlíčníku 601/12, 28922 Lysá n.L.",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10147",
+  "nazev": "TK Brodce nad Jizerou-vyloučen 21.2.2009",
+  "adresa": "Brodce nad Jizerou, 29473 okr.Mladá Boleslav",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10148",
+  "nazev": "TK Kosmonosy",
+  "adresa": "Kosmonosy 1230, 29306 Kosmonosy",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10149",
+  "nazev": "TK Roja Příbram z.s.",
+  "adresa": "Brodská 134, 26101 Příbram",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10150",
+  "nazev": "TK Plaňany-vyloučen 21.2.2009",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10151",
+  "nazev": "TC Luštěnice",
+  "adresa": "Husova 180, 29442 Luštěnice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10152",
+  "nazev": "Tenis Club UNISPO Sovínky-vyloučen 21.2.2009",
+  "adresa": "Sovínky 8, 29429 Sovínky 8",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10153",
+  "nazev": "V-TEAM Čáslav",
+  "adresa": "Gen. Fr. Moravce 45, 28601 Čáslav",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10154",
+  "nazev": "TK SPORTCENTRUM Mladá Boleslav",
+  "adresa": "Bezděčín 90, 293 01 Mladá Boleslav",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10155",
+  "nazev": "TK MILLENIUM Lety-vyloučen 23.10.2021",
+  "adresa": "Pražská 1365/12, 25229 Lety u Dobřichovic",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10156",
+  "nazev": "TENNIS CENTRE Kosmonosy",
+  "adresa": "Pod Koupalištěm 1066 , 29306 Kosmonosy",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10157",
+  "nazev": "Pliskova Tennis Academy-Říčany",
+  "adresa": "V Chobotě 2112, 25101 Říčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10158",
+  "nazev": "ATC Dobrovice-vyloučen 16.2.2008",
+  "adresa": "Husova 573, 29441 Dobrovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10159",
+  "nazev": "TK MOJA Ledce",
+  "adresa": "čp.65, 27305 Ledce",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10160",
+  "nazev": "Tenis DLI Kladno",
+  "adresa": "Sportovců 408, 27204 Kladno",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10161",
+  "nazev": "TO BREAK Statenice",
+  "adresa": "Statenice 55, 25262 Horoměřice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10162",
+  "nazev": "1. Vestecká sportovní o.s.",
+  "adresa": "Sportovní 456, 25250 Vestec",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10163",
+  "nazev": "Wilson tenis centrum z.s.",
+  "adresa": "Modletice 108, 25170 Praha východ",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10164",
+  "nazev": "TC VITALITY Březnice",
+  "adresa": "Sadová, 26272 Březnice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10165",
+  "nazev": "TK Rynholec",
+  "adresa": "Na Lauře 395, 270 62 Rynholec",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10166",
+  "nazev": "Sportovní centrum Linhart",
+  "adresa": "Žižkova 1436, 29001 Poděbrady",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10167",
+  "nazev": "SPORT EDEN Beroun",
+  "adresa": "Pod Homolkou 1482, 26601 Beroun",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10168",
+  "nazev": "TJ Sokol Břve",
+  "adresa": "Hájecká 1866, 25301 Hostivice-Břve",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10169",
+  "nazev": "TK Botanika Bezděkov-Unhošť",
+  "adresa": "Horní Bezděkov-Unhošť,",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10170",
+  "nazev": "Tenis Dobříš",
+  "adresa": "V Lipkách 1754, 26301 Dobříš",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10171",
+  "nazev": "TJ Sokol Dolní Beřkovice",
+  "adresa": "Nádražní 263, 27701 Dolní Beřkovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10172",
+  "nazev": "TC TOP Kolín-klub zrušen 31.12.2011",
+  "adresa": "Jateční 802, 28002 Kolín",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10173",
+  "nazev": "Sport club Berchtold, z.s.",
+  "adresa": "Sportovní 136, 25163 Kunice, Praha-východ",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10174",
+  "nazev": "Kelly Tennis Academy- klub zrušen",
+  "adresa": "Pecerady 170, 25741 Týnec nad Sázavou",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10175",
+  "nazev": "TJ Slavoj Vrdy-vyloučen 23.10.2021",
+  "adresa": "VRDY, Smetanovo náměstí, 28571",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10176",
+  "nazev": "Řevnická sportovní",
+  "adresa": "Mníšecká 500, 25230 Řevnice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10177",
+  "nazev": "TK Ledce",
+  "adresa": "Ledce 171, okr.Kladno",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10178",
+  "nazev": "Sportclub Řevnice, z.s.",
+  "adresa": "Růžová 1256, 25230 Řevnice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10179",
+  "nazev": "TK Kaprega Kladno - zrušen",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10180",
+  "nazev": "TK Bouchalka",
+  "adresa": "Újezd u Cerhovic, 26761 Cerhovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10181",
+  "nazev": "Tenis Club Mokropsy",
+  "adresa": "Jetelová 2183, 25228 Černošice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10182",
+  "nazev": "SPORTTENIS",
+  "adresa": "Pod Lutovem 364, 25721 Poříčí nad Sázavou",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10183",
+  "nazev": "SK Tenis Žalov-zrušen",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10184",
+  "nazev": "Tenis Semice a.s.",
+  "adresa": "Semice 346, 28917 Semice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10185",
+  "nazev": "TK Třebenice",
+  "adresa": "Třebenice 85, Štěchovice, 25208",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10186",
+  "nazev": "CTA Rudná",
+  "adresa": "Hořelické náměstí 1130, 25219 Rudná u Prahy",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10187",
+  "nazev": "SK Tenis Kladno",
+  "adresa": "Fr. Kloze 294, 27201 Kladno",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10188",
+  "nazev": "2H Nemovitosti s.r.o.",
+  "adresa": "Třída T.G. Masaryka 7, 27201 Kladno",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10189",
+  "nazev": "TK Sportcentrum Radonice-zrušen",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10190",
+  "nazev": "TK TOLA",
+  "adresa": "Mánesova 410, 25090 Jirny",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10191",
+  "nazev": "TK PTA Kolín",
+  "adresa": "V Jezírkách 1530, 28002 Kolín 5",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10192",
+  "nazev": "Tenisový klub Nová Ves",
+  "adresa": "Nová Ves u Bakova 100, 29401",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10193",
+  "nazev": "RPM OÁZA Říčany-klub zrušen",
+  "adresa": "V Chobotě 2112, 251 01 Říčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10194",
+  "nazev": "Open Tennis Club-klub zrušen",
+  "adresa": "Ječná 1268, 273 51 Unhošť",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10195",
+  "nazev": "TO Sokol Nehvizdy",
+  "adresa": "Na Příštipku 135, 25081 Nehvizdy",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10196",
+  "nazev": "TO Slavoj Davle",
+  "adresa": "Školní 189, 25206 Davle",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10197",
+  "nazev": "TK Tenisek Buštěhrad",
+  "adresa": "Kladenská 728, 27343 Buštěhrad",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10198",
+  "nazev": "TK Neumann-vyloučen 23.10.2021",
+  "adresa": "",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10199",
+  "nazev": "SK Žalov",
+  "adresa": "Levohradecká 1049, 25263 Roztoky",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10200",
+  "nazev": "Wilson Tenis Průhonice-zrušen",
+  "adresa": "U motelu 568, 25243 Průhonice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10201",
+  "nazev": "TJ Sokol Jílové TK",
+  "adresa": "Tyršova 264, 25401 Jílové u Prahy",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10202",
+  "nazev": "SK Oplocenka-vyloučen 23.10.2021",
+  "adresa": "Nerudova 491, 262 03 Nový Knín",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10203",
+  "nazev": "SK ČECHOSLOVAN Dolní Jirčany z.s.",
+  "adresa": "Pražská 594, 25244 Dolní Jirčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10204",
+  "nazev": "I. ČLTPK Čerčany",
+  "adresa": "Sázavská 491, 25722 Čerčany",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10205",
+  "nazev": "TK Scentrum Benešov, z.s.",
+  "adresa": "U Vodárny 2215, 256 01 Benešov",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10206",
+  "nazev": "TJ Sokol Dolany, z.s.",
+  "adresa": "Ke Hřišti 253, 278 01 Dolany nad Vltavou",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10207",
+  "nazev": "Mir.Bendlová Tenisová škola-klub zrušen",
+  "adresa": "Duhová 251, 27715 Tišice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10208",
+  "nazev": "TC Tachlovice",
+  "adresa": "Sportovní 286/3, 25217 Tachlovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10209",
+  "nazev": "Fit klub Lysá nad Labem",
+  "adresa": "Na Mlíčníku 1790, 28922 Lysá nad Labem",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10210",
+  "nazev": "Sportovní oddíl Týnec n/L z.s.",
+  "adresa": "Masarykovo náměstí 1, 28126 Týnec nad Labem",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10211",
+  "nazev": "Tenis Jiřina, spolek",
+  "adresa": "Boženy Koutníkové 2003, 250 88 Čelákovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10212",
+  "nazev": "Tenisový klub Štěchovice 2024 z.s.",
+  "adresa": "Lista 393, 25206 Štěchovice",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "10213",
+  "nazev": "TC 15 z.s.",
+  "adresa": "Loděnická, 276 01 Mělník",
+  "region": "Středočeský"
+ },
+ {
+  "cislo": "20001",
+  "nazev": "TK Písek",
+  "adresa": "U Výstaviště 491, 397 01 Písek",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20002",
+  "nazev": "TK Český Krumlov",
+  "adresa": "Chvalšinská ulice 226, 381 01 Český Krumlov",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20003",
+  "nazev": "Start České Budějovice",
+  "adresa": "Na sádkách 4, 37005 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20004",
+  "nazev": "Tenis klub Jindřichův Hradec z.s.",
+  "adresa": "Röschova 1304, 37701 Jindřichův Hradec II",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20005",
+  "nazev": "Jiskra Bechyně",
+  "adresa": "Písecká 358, 39165 Bechyně",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20006",
+  "nazev": "TK Milevsko, z.s.",
+  "adresa": "Petrovická 1568 (Bažantnice), 39901 Milevsko",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20007",
+  "nazev": "TJ TK Hluboká nad Vltavou",
+  "adresa": "Sportovní 1279, 37341 Hluboká nad Vltavou",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20008",
+  "nazev": "TK Zedník Sokol Deštná u J.H.",
+  "adresa": "U hřiště 291, 37825 Deš?ná u Jindřichova Hradce",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20009",
+  "nazev": "Jiskra Humpolec",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20010",
+  "nazev": "TJ Motor České Budějovice",
+  "adresa": "Litvínovická 1087, 37001 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20011",
+  "nazev": "TJ Loko České Velenice",
+  "adresa": "U stadionu 195, 37810 České Velenice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20012",
+  "nazev": "TK Sezimovo Ústí",
+  "adresa": "Nerudova 1248, 39102 Sezimovo Ústí 2",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20013",
+  "nazev": "TJ Slovan Kamenice n.L.",
+  "adresa": "U kulturního domu 170, 39470 Kamenice nad Lipou",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20014",
+  "nazev": "VSK Slavia ZF Č.Budějovice",
+  "adresa": "Na Sádkách 2, 37012 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20015",
+  "nazev": "TJ Jiskra Třeboň, z.s. - oddíl tenisu",
+  "adresa": "Jiráskova 444/II, 37901 Třeboň",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20016",
+  "nazev": "TJ Blatná",
+  "adresa": "Bohmova 684 Zimní stadion, 38801 Blatná",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20017",
+  "nazev": "TK Pelhřimov",
+  "adresa": "K tenisu 1741, 39301 Pelhřimov",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20018",
+  "nazev": "LTC Velešín z.s.",
+  "adresa": "Strahovská , 382 32 Velešín",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20019",
+  "nazev": "TJ ZD Záboří",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20020",
+  "nazev": "TC Týn nad Vltavou",
+  "adresa": "Táborská 774, 37501 Týn nad Vltavou",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20021",
+  "nazev": "TJ Centropen Dačice",
+  "adresa": "Sokolská 565/V, 38001 Dačice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20022",
+  "nazev": "LTC VITON České Budějovice,z.s.",
+  "adresa": "Vltavské nábřeží 930/1, 37005 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20023",
+  "nazev": "LTC Tábor 1903",
+  "adresa": "K Vodopádu 1550, 39001 Tábor",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20024",
+  "nazev": "Tenis Klub Strakonice, spolek",
+  "adresa": "Máchova 178, 38601 Strakonice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20025",
+  "nazev": "LTC TJ Nové Hrady",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20026",
+  "nazev": "TJ Meteor",
+  "adresa": "Jana Kollára 1742/36, 37007 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20027",
+  "nazev": "TK Prachatice z.s.",
+  "adresa": "nám.Přátelství 685, 38301 Prachatice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20028",
+  "nazev": "TK Vimperk",
+  "adresa": "J.máje 321, 38501 Vimperk",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20029",
+  "nazev": "Sokol TK Kaplice",
+  "adresa": "Míru 772, 38241 Kaplice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20030",
+  "nazev": "SK TK Vodňany",
+  "adresa": "Výstavní 684/II, 38901 Vodňany",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20031",
+  "nazev": "TJ Smrčina Horní Planá",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20032",
+  "nazev": "TK Soběslav",
+  "adresa": "Nová 401, 39201 Soběslav",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20033",
+  "nazev": "TJ Sokol Černovice",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20034",
+  "nazev": "SKP České Budějovice",
+  "adresa": "Kubatova 25, 37004 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20035",
+  "nazev": "TJ Lokomotiva Veselí n.L.",
+  "adresa": "Sokolská 651, 39181 Veselí nad Lužnicí",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20036",
+  "nazev": "TJ Jiskra Sedliště",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20037",
+  "nazev": "Sokol Suchdol n.Luž.",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20038",
+  "nazev": "TJ Mír Dívčice",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20039",
+  "nazev": "TJ Sokol Sedlice",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20040",
+  "nazev": "TK Volyně z.s.",
+  "adresa": "Dr. Jindřicha Svobody 734, 38701 Volyně",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20041",
+  "nazev": "SKT Planá n.Luž.",
+  "adresa": "Zákostelní 720, 39111 Planá nad Lužnicí",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20042",
+  "nazev": "TK Hostkovice",
+  "adresa": "Dolní Němčice 6 /Hostkovice, 38001 Dačice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20043",
+  "nazev": "Tatran Červená Řečice",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20044",
+  "nazev": "Sokol Mirotice",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20045",
+  "nazev": "Slavoj Protivín",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20046",
+  "nazev": "TJ Sokol Studená II.",
+  "adresa": "Rošického 551, 37856 Studená",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20047",
+  "nazev": "TK Liška",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20048",
+  "nazev": "LTC Bechyně",
+  "adresa": "Plechamr č.420, 39165 Bechyně",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20049",
+  "nazev": "READY-M",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20050",
+  "nazev": "LTC Humpolec",
+  "adresa": "Hálkova 1845, 39601 Humpolec",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20051",
+  "nazev": "PARK-tenis Štěkeň",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20052",
+  "nazev": "SK Tenisu JETE",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20053",
+  "nazev": "TK Gymnázium Milevsko",
+  "adresa": "Masarykova 183, 39901 Milevsko",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20054",
+  "nazev": "TJ Tennis Club BOREK",
+  "adresa": "Pod lesem 188, 37367 Borek",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20055",
+  "nazev": "TJ Benischek",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20056",
+  "nazev": "ACW TC České Budějovice",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20057",
+  "nazev": "TJ Slavoj Pacov, z.s.",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20058",
+  "nazev": "LTC Hroch Netolice",
+  "adresa": "Tyršova 226, 38411 Netolice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20059",
+  "nazev": "SK Zdravotník",
+  "adresa": "Čapkova 589, 39701 Písek",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20060",
+  "nazev": "TJ Spartak Trhové Sviny",
+  "adresa": "Budovatelská 913, 37401 Trhové Sviny",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20061",
+  "nazev": "SK Tenis Frymburk",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20062",
+  "nazev": "TK Ostrovec",
+  "adresa": "Horní Ostrovec 51, 39833 Ostrovec",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20063",
+  "nazev": "Sokol Sezimovo Ústí-klub zrušen",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20064",
+  "nazev": "TJ Sokol Kamenný Újezd",
+  "adresa": "Luční 643, 37381 Kamenný Újezd",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20065",
+  "nazev": "ZTJ JIP Větřní",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20066",
+  "nazev": "TJ Tatran Suchdol n.L.",
+  "adresa": "Pražská 533, 378 06 Suchdol nad Lužnicí",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20067",
+  "nazev": "TO Jiskra Strmilov",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20068",
+  "nazev": "Tenis klub D.Bukovsko",
+  "adresa": "Nám.Jiráskovo 3, 37365 Dolní Bukovsko",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20069",
+  "nazev": "TK VEVE Tábor",
+  "adresa": "Dukelských bojovníků 1922, 39003 Tábor",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20070",
+  "nazev": "TK Zliv",
+  "adresa": "Tyršova 754 , 373 44 Zliv",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20071",
+  "nazev": "Sportík, z.s.",
+  "adresa": "Rájov 20, 38101 Zlatá Koruna",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20072",
+  "nazev": "TJ TO Nová Včelnice",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20073",
+  "nazev": "1. LTC Třeboň",
+  "adresa": "Svobody 1031/II, 37901 Třeboň",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20074",
+  "nazev": "Jihočeská sportovní",
+  "adresa": "A.Barcala 28, 37004 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20075",
+  "nazev": "SK ČEMBY SPORT",
+  "adresa": "Jizerská 1091/9, 37011 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20076",
+  "nazev": "Sportcentrum MRKÁČEK",
+  "adresa": "Dolní 865, 37372 Lišov",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20077",
+  "nazev": "TK LT§S Křenovice o.s.",
+  "adresa": "",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20078",
+  "nazev": "Tenis Tábor",
+  "adresa": "Václava Soumara 3039, 39003 Tábor",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20079",
+  "nazev": "TK Hronza Otín",
+  "adresa": "Otín 100, 37701 Jindřichův Hradec",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20080",
+  "nazev": "LTC Český Krumlov",
+  "adresa": "Chvalšinská 247, 38101 Český Krumlov",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20081",
+  "nazev": "TC Husinec",
+  "adresa": "Výrov 41, 38421 Husinec",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20082",
+  "nazev": "TK Protivín z.s.",
+  "adresa": "Ve Školce 1069, 39811 Protivín",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20083",
+  "nazev": "TK SK Dobrá Voda u Č.B.",
+  "adresa": "U Domova Důchodců 1356/33, 373 16 Dobrá Voda u Českých Budějovic",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20084",
+  "nazev": "TK Senožaty B",
+  "adresa": "Pod Trati 1495, 39601 Humpolec",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20085",
+  "nazev": "Tenis DDM Prachatice,z.s.-ukončena činnost",
+  "adresa": "Okrouhlá 1228, 38301 Prachatice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20086",
+  "nazev": "Kelly Tennis Academy z.s.",
+  "adresa": "Čekanice 245, 39002 Tábor",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20087",
+  "nazev": "TTC Tenis Talent Club, z.s.",
+  "adresa": "Větrná 1480/74, 37005 České Budějovice",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "20088",
+  "nazev": "Tenis Arena Tábor z.s.",
+  "adresa": "Táborská 1071, 391 01 Sezimovo Ústí",
+  "region": "Jihočeský"
+ },
+ {
+  "cislo": "30001",
+  "nazev": "TK Slavia Plzeň",
+  "adresa": "U Borského parku 2916/19, 30100 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30002",
+  "nazev": "SK Konstantinovy Lázně",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30003",
+  "nazev": "TK Sokolov",
+  "adresa": "B.Němcové 1780, 356 01 Sokolov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30004",
+  "nazev": "TK Lokomotiva Plzeň z.s.",
+  "adresa": "Úslavská 75 (tenisový areál), 32600 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30005",
+  "nazev": "TJ Dobřany - Tělovýchovná jednota",
+  "adresa": "Tyršova 734, 334 41 Dobřany",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30006",
+  "nazev": "Spartak Horní Slavkov",
+  "adresa": "Nová, 35731 Horní Slavkov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30007",
+  "nazev": "Sokol Blovice",
+  "adresa": "Tyršova 270, 33601 Blovice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30008",
+  "nazev": "TK Aš",
+  "adresa": "Na Příkopech, 35201 Aš",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30009",
+  "nazev": "BATESTA Chodov",
+  "adresa": "Komenského 1077, 35735 Chodov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30010",
+  "nazev": "1.ČLTK Plzeň",
+  "adresa": "Pallova 19, 30111 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30011",
+  "nazev": "Sokol Koterov",
+  "adresa": "Koterovská náves 7, 32600 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30012",
+  "nazev": "Slavoj Kynšperk n/Ohří",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30013",
+  "nazev": "TJ Spartak Sedlec z.s.",
+  "adresa": "Školní 288, 33202 Starý Plzenec, Sedlec",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30014",
+  "nazev": "TJ Jiskra Libavské údolí",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30015",
+  "nazev": "TCF Schicht Mariánské Lázně,z.s.",
+  "adresa": "Anglická 615/10, 353 01 Mariánské Lázně",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30016",
+  "nazev": "Tenisklub Cheb",
+  "adresa": "Břehnická 2499/5, 35002 Cheb",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30017",
+  "nazev": "TJ Olympie Hroznětín z.s.",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30018",
+  "nazev": "Sokol Nepomuk",
+  "adresa": "U Sokolovny 308, 33501 Nepomuk",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30019",
+  "nazev": "TO Sokol Plzeň Doudlevce",
+  "adresa": "Květná 2785/48, 32600 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30020",
+  "nazev": "TK Horšovský Týn z.s.",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30021",
+  "nazev": "TCG Karlovy Vary",
+  "adresa": "Slovenská 2021/5a, 36001 Karlovy Vary",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30022",
+  "nazev": "Lokomotiva Karlovy Vary",
+  "adresa": "Bečovská 1811/11, 36001 Karlovy Vary - Tuhnice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30023",
+  "nazev": "SKP Rapid Sport",
+  "adresa": "Na Lopatárně 14, 31200 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30024",
+  "nazev": "LTC Domažlice",
+  "adresa": "Elišky Krásnohorské 378, 34401 Domažlice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30025",
+  "nazev": "Čechie Dalovice",
+  "adresa": "Pod parkem, 36263 Dalovice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30026",
+  "nazev": "TK Horažďovice",
+  "adresa": "Sportovní, 34101 Horažďovice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30027",
+  "nazev": "TJ NÝŘANY z.s.",
+  "adresa": "Benešova 745, 33023 Nýřany",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30028",
+  "nazev": "Prazdroj Plzeň",
+  "adresa": "Pod Všemi svatými 43, 30164 Plzeň - Roudná",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30029",
+  "nazev": "TC Ostrov",
+  "adresa": "Studentská 1300, 36301 Ostrov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30030",
+  "nazev": "Tenis klub Nýrsko",
+  "adresa": "Sportovní areál u koupaliště 932, 34022 Nýrsko",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30031",
+  "nazev": "TK Františkovy Lázně",
+  "adresa": "Dlouhá ulice, 351 01 Františkovy Lázně",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30032",
+  "nazev": "TK Tachov, z.s.",
+  "adresa": "U Náhonu 1980, 347 01 Tachov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30033",
+  "nazev": "Nejdek-Rudné",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30034",
+  "nazev": "Sokol Radnice",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30035",
+  "nazev": "AGRO Cheb",
+  "adresa": "Mlýnská 16, 350 02 Cheb",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30036",
+  "nazev": "Sokol Šťáhlavy",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30037",
+  "nazev": "Tenisový klub Nejdek z.s.",
+  "adresa": "Karlovarská 1387, 36221 Nejdek",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30038",
+  "nazev": "TJ Slavoj Chodová Planá",
+  "adresa": "Nádražní, 34813 Chodová Planá",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30039",
+  "nazev": "Tenisový klub Rokycany",
+  "adresa": "V Alejích 1315, 33701 Rokycany",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30040",
+  "nazev": "TO Planá z.s.",
+  "adresa": "Revoluční 217, 34815 Planá",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30041",
+  "nazev": "TO Rotas Rotava",
+  "adresa": "Sídliště 684, 35701 Rotava",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30042",
+  "nazev": "TK Dýšina",
+  "adresa": "Slepá 89, 33002 Dýšina",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30043",
+  "nazev": "TK Škoda Plzeň z.s.",
+  "adresa": "Luční 60a, 301 00 Plzeň - Roudná",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30044",
+  "nazev": "Slavoj Stod",
+  "adresa": "Hradecká 538, 33301 Stod",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30045",
+  "nazev": "TJ Sokol Horní Kamenice",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30046",
+  "nazev": "LTK Klatovy",
+  "adresa": "U Čedíku 610, 33901 Klatovy",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30047",
+  "nazev": "TJ Olympie Březová, z.s.",
+  "adresa": "Sklářská 81, 35761 Březová u Sokolova",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30048",
+  "nazev": "TJ Slavoj Plzeň",
+  "adresa": "Tomanova 17, 30000 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30049",
+  "nazev": "TJ Sokol Přeštice",
+  "adresa": "Poděbradská 468, 33401 Přeštice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30050",
+  "nazev": "TJ Staňkov",
+  "adresa": "Plovární, 34561 Staňkov I",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30051",
+  "nazev": "TK Vodní stavby Plzeň",
+  "adresa": "Slovanské údolí, 318 06 Plzeň - Zadní Skvrňany (směr na obec Vejprnice)",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30052",
+  "nazev": "Tatran Kraslice",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30053",
+  "nazev": "TJ SVA Holýšov",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30054",
+  "nazev": "Slovan Janov",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30055",
+  "nazev": "TK Kaznějov",
+  "adresa": "Lipová 568, 33151 Kaznějov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30056",
+  "nazev": "Sokol Kdyně",
+  "adresa": "Masarykova, 34506 Kdyně",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30057",
+  "nazev": "TJ Spartak Klenčí p.Čer.",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30058",
+  "nazev": "SKP Klatovy",
+  "adresa": "Pod Vrškem 494, 33901 Klatovy II.",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30059",
+  "nazev": "Lokomotiva Mar.Lázně",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30060",
+  "nazev": "TJ Karlovy Vary-Dvory",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30061",
+  "nazev": "SK Chrást",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30062",
+  "nazev": "LTC Sušice",
+  "adresa": "Osvobození 912, 34201 Sušice II",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30063",
+  "nazev": "Sokol Babylon",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30064",
+  "nazev": "TJ Kašperské hory",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30065",
+  "nazev": "TJ Sokol Mýto",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30066",
+  "nazev": "TJ Baník Stříbro",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30067",
+  "nazev": "TK TJ Sokol Bor",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30068",
+  "nazev": "Sokol Chotíkov",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30069",
+  "nazev": "Sportovní klub Poběžovice,z.s.",
+  "adresa": "Náměstí Míru 47, 34522 Poběžovice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30070",
+  "nazev": "Baník Krásno",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30071",
+  "nazev": "SK Šumava Domažlice",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30072",
+  "nazev": "TJ SDH Zbyslav",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30073",
+  "nazev": "TJ Sokol Drmoul",
+  "adresa": "Krátká 239, 35472 Drmoul",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30074",
+  "nazev": "Sokol Plzeň-Radobyčice",
+  "adresa": "Sportovní 133, 30100 Plzeň-Radobyčice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30075",
+  "nazev": "TK Skalník Mariánské Lázně",
+  "adresa": "Chopinova 685, 353 01 Mariánské Lázně",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30076",
+  "nazev": "SK Radyně",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30077",
+  "nazev": "TJ Keramika Chlumčany",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30078",
+  "nazev": "TJ Arbo Tenis",
+  "adresa": "Velhartice E 40, 34183 Velhartice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30079",
+  "nazev": "TJ tenis a odbíj.Merklín",
+  "adresa": "Merklín 6, 36234 Merklín",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30080",
+  "nazev": "TK Útušice",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30081",
+  "nazev": "TJ Sokol Šťáhlavy",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30082",
+  "nazev": "TK Sokol Vrhaveč",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30083",
+  "nazev": "TK Nová Ves",
+  "adresa": "Nová Ves 152, 33441 Dobřany",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30084",
+  "nazev": "SKP Tachov",
+  "adresa": "Pobřežní 1656, 34701 Tachov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30085",
+  "nazev": "TK Nová Role",
+  "adresa": "Chodovská 338, 362 25 Nová Role",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30086",
+  "nazev": "TK Hotel GAME",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30087",
+  "nazev": "AZ Tenis Karlovy Vary",
+  "adresa": "ZŠ Konečná ul., 36005 Karlovy Vary",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30088",
+  "nazev": "SK SPORTteam DOLI St.Plzenec",
+  "adresa": "Herejkova 1031, 33202 Starý Plzenec",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30089",
+  "nazev": "TK LAVIS Horšovský Týn",
+  "adresa": "Karla Čapka 172, 34601 Horšovský Týn",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30090",
+  "nazev": "TCC Mariánské Lázně",
+  "adresa": "Chopinova ul., 35301 Mariánské Lázně",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30091",
+  "nazev": "AC Zruč-Senec",
+  "adresa": "Sportovní 515, 33008 Zruč-Senec u Plzně",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30092",
+  "nazev": "TK Lesov",
+  "adresa": "Lesov 60, 360 01 Karlovy Vary",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30093",
+  "nazev": "Tenisový klub POHODA",
+  "adresa": "Tymákov 258, 33201 Plzeň- město",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30094",
+  "nazev": "SK SPORTCENTRUM Roudná",
+  "adresa": "Kotíkovská 58, 32300 Plzeň-ROUDNÁ",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30095",
+  "nazev": "Sportovní tenisový klub L&M",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30096",
+  "nazev": "Sport klub Klatovy",
+  "adresa": "U Elektrárny 917, 33901 Klatovy 3",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30097",
+  "nazev": "Tenisklub Lipová",
+  "adresa": "",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30098",
+  "nazev": "Tenisový klub Habartov, z.s.",
+  "adresa": "Koukolova 352, 35709 Habartov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30099",
+  "nazev": "SK Tenis Mýto, z.s.",
+  "adresa": "Dlouhá třída 17, 33805 Mýto",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30100",
+  "nazev": "TK FUNTOM Dobřany",
+  "adresa": "Přeštická 1268, 33441 Dobřany",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30101",
+  "nazev": "TJ Sokol Vejprnice",
+  "adresa": "Sokolská 301, 33027 Vejprnice",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30102",
+  "nazev": "Tenisový klub Sokol Nová Hospoda",
+  "adresa": "Prostřední 7, 31800 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30103",
+  "nazev": "Tenis Lipovka z.s.",
+  "adresa": "Nekmíř 171, 33152 Nekmíř",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30104",
+  "nazev": "RAPID PLZEŇ TENIS z.s.",
+  "adresa": "Na lopatárně 1550/12, 312 00 Doubravka, Plzeň 4",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30105",
+  "nazev": "Sportcentrum Hrušková z.s.",
+  "adresa": "Hrušková 2194, 35601 Sokolov",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "30106",
+  "nazev": "TK HVĚZDA PLZEŇ z.s.",
+  "adresa": "Tomanova 2703/17, 30100 Plzeň",
+  "region": "Západočeský"
+ },
+ {
+  "cislo": "40000",
+  "nazev": "LTC Ústí n.Lab.- zrušen",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40001",
+  "nazev": "TJ Slavoj Dubá",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40002",
+  "nazev": "TK Spartak Děčín",
+  "adresa": "Lužická č.ev. 9727, 40502 Děčín 2-Nové Město",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40003",
+  "nazev": "SK Tenis Duchcov",
+  "adresa": "Tyršova 54, 41901 Duchcov",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40004",
+  "nazev": "Baník Vysoká Pec",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40005",
+  "nazev": "Tenis Proboštov z.s.",
+  "adresa": "Proboštovská 267, 41712 Proboštov",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40006",
+  "nazev": "LTC Litvínov",
+  "adresa": "Jiráskova 413, 43601 Litvínov",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40007",
+  "nazev": "Tenis Jiřetín pod Bukovou",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40008",
+  "nazev": "TK Jirkov",
+  "adresa": "Husova 434, 43111 Jirkov",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40009",
+  "nazev": "LTK Liberec",
+  "adresa": "Fibichova 1377/8, 46001 Liberec",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40010",
+  "nazev": "TK Frýdlant v Čechách",
+  "adresa": "Jizerská 4077, 46401 Frýdlant v Č.",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40011",
+  "nazev": "Sokol Košťany",
+  "adresa": "Komenského náměstí (za základní školou), 417 23 Košťany",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40012",
+  "nazev": "Union Děčín",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40013",
+  "nazev": "Slavia VŠST Liberec",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40014",
+  "nazev": "LTK Bílina",
+  "adresa": "Kyselská 410, 41801 Bílina",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40015",
+  "nazev": "Sokol Malá Skála",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40016",
+  "nazev": "SK Štětí",
+  "adresa": "ČSA 51 stadion, 41108 Štětí",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40017",
+  "nazev": "TO TJ Slovan Varnsdorf",
+  "adresa": "Západní 2984, 407 47 Varnsdorf",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40018",
+  "nazev": "SEBA Klášter",
+  "adresa": "Tovární 1356, 46841 Dolní Smržovka p.Tanvald",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40019",
+  "nazev": "TK Tanvald",
+  "adresa": "Pod Špičákem 592, 46841 Tanvald",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40020",
+  "nazev": "SKT Hrádek nad Nisou-zrušen",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40021",
+  "nazev": "TK Roudnice n.L.",
+  "adresa": "Alej 17.listopadu 265, 41301 Roudnice nad Labem",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40022",
+  "nazev": "TJ Žatec z.s.",
+  "adresa": "Studentská 3180, 43801 Žatec 1",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40023",
+  "nazev": "TK LTC Děčín",
+  "adresa": "ul. Práce 17, 40502 Děčín",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40024",
+  "nazev": "TK Doksy",
+  "adresa": "Masarykovy sady 3, 47201 Doksy",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40025",
+  "nazev": "Jiskra Velké Březno",
+  "adresa": "Alej sportovců 256, 40323 Velké Březno",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40026",
+  "nazev": "Tenis Libochovice",
+  "adresa": "Máchova 193, 41117 Libochovice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40027",
+  "nazev": "Sokol Peruc",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40028",
+  "nazev": "TK Louny",
+  "adresa": "Masarykovy sady 2790, 44001 Louny",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40029",
+  "nazev": "TK Česká Lípa",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40030",
+  "nazev": "TK Most",
+  "adresa": "Pod Koňským vrchem 1159, 43401 Most",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40031",
+  "nazev": "ASK Lovosice",
+  "adresa": "Zámecká, 41002 Lovosice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40032",
+  "nazev": "TK Kadaň",
+  "adresa": "U stadionu 1860, 43201 Kadaň",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40033",
+  "nazev": "TK Břízky Jablonec n.Nis.",
+  "adresa": "Sportovní 5027/10a, 46604 Jablonec nad Nisou",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40034",
+  "nazev": "ČLTK Bižuterie Jablonec n. N., z. s.",
+  "adresa": "U Tenisu 3859/214, 46804 Jablonec n.N.",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40035",
+  "nazev": "TK Stráž p.Ralskem",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40036",
+  "nazev": "SPOZA Šluknov",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40037",
+  "nazev": "TJ Sokol Budyně n.Ohř.",
+  "adresa": "Pražská 260, 41118 Budyně nad Ohří",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40038",
+  "nazev": "TK Železný Brod",
+  "adresa": "Nábř.obránců míru 859, 46822 Železný Brod",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40039",
+  "nazev": "LTC Panorama Teplice",
+  "adresa": "U Panoramy 2891, 415 01 Teplice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40040",
+  "nazev": "TJ Sokol Ústí n.L.",
+  "adresa": "Pionýrů 932/9, 40003 Ústí n.L.",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40041",
+  "nazev": "Spartak ZEZ Rychnov u Jabl.",
+  "adresa": "Sokolská 570, 46802 Rychnov nad Nisou",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40042",
+  "nazev": "Preciosa Minkovice",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40043",
+  "nazev": "TJ Krupka",
+  "adresa": "U stadionu, 417 41 Krupka 3",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40044",
+  "nazev": "TK Chomutov",
+  "adresa": "Bezručova 4880,PO BOX 36, 43003 Chomutov 3",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40045",
+  "nazev": "Baník Meziboří - neaktivní klub",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40046",
+  "nazev": "TK Ústí n.Labem",
+  "adresa": "Masarykova 232, 40001 Ústí n.Labem",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40047",
+  "nazev": "LTK TEPLICE o.s.",
+  "adresa": "Na letné 412/7, 41501 Teplice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40048",
+  "nazev": "Slavoj Litoměřice",
+  "adresa": "Velká Mlýnská 8 - Střelecký ostrov, 41201 Litoměřice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40049",
+  "nazev": "TJ Rumburk",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40050",
+  "nazev": "TK Dubí",
+  "adresa": "Sportovní 284/1A, 41702 Dubí 2",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40051",
+  "nazev": "TK ELNA Počerady",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40052",
+  "nazev": "Slovan Liberec",
+  "adresa": "Pekárkova 570/20, 460 15 Liberec XV-Starý Harcov",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40053",
+  "nazev": "Tatran Podbořany",
+  "adresa": "Tyršova, 44101 Podbořany",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40054",
+  "nazev": "Jiskra Hejnice",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40055",
+  "nazev": "Start Liberec",
+  "adresa": "Masarykova 699/9, 46001 Liberec 1",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40056",
+  "nazev": "Sokol Velké Žernoseky",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40057",
+  "nazev": "TK Česká Kamenice",
+  "adresa": "Pražská 653, 40721 Česká Kamenice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40058",
+  "nazev": "TK Klášterec n.Ohř.",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40059",
+  "nazev": "SK Autoslužby Trmice",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40060",
+  "nazev": "TK Vejprty",
+  "adresa": "B.Smetany 1280/9, 43191 Vejprty",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40061",
+  "nazev": "SPORTCLUB 80 Chomutov",
+  "adresa": "Březenecká 4704, 43004 Chomutov",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40062",
+  "nazev": "TO Staré Splavy",
+  "adresa": "Jarmilina stezka 275, 471 63 Doksy - Staré Splavy",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40063",
+  "nazev": "TJ Sokol Třebenice",
+  "adresa": "Sv.Čecha 474, 41113 Třebenice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40064",
+  "nazev": "TK Všehrdy 50",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40065",
+  "nazev": "SPORTOVNÍ KLUB POLICIE MAJÁK z.s.",
+  "adresa": "Ladova 5232/55, 466 05 Jablonec nad Nisou / Rýnovice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40066",
+  "nazev": "Tatran Jablonné v Podj.",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40068",
+  "nazev": "TJ LIAZ Jablonec n.N.",
+  "adresa": "U stadionu 1, 46601 Jablonec nad Nisou",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40069",
+  "nazev": "TJ Chlumec-Tenis",
+  "adresa": "č.p. 409, 40339 Chlumec",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40070",
+  "nazev": "TJ Nová Ruda-klub zrušen",
+  "adresa": "Sladovnická 172, 46311 Liberec 30",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40071",
+  "nazev": "TK Sokol Bohušovice n.Oh.",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40072",
+  "nazev": "LTC Hotel u Jezírka Liberec",
+  "adresa": "Masarykova 438, 46001 Liberec",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40073",
+  "nazev": "TCEN Hrádek nad Nisou",
+  "adresa": "U koupaliště 647, 46334 Hrádek nad Nisou",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40074",
+  "nazev": "SK Kebek Chomutov-zrušen",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40075",
+  "nazev": "TK Flamengo 2000",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40076",
+  "nazev": "TJ Tenis Broumovská Liberec",
+  "adresa": "Sametová 713, 46001 Liberec 6",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40077",
+  "nazev": "EuroTREND 2000",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40078",
+  "nazev": "TK Hrádek n.Nis.",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40079",
+  "nazev": "TC HORNETS",
+  "adresa": "Dolní Libchava 11, 47001 Česká Lípa",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40080",
+  "nazev": "TJ-TK Dolní Poustevna",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40081",
+  "nazev": "ELBA club Ústí n.L.",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40082",
+  "nazev": "TSC Břízky Jablonec n.N.",
+  "adresa": "Průběžná 22, 46604 Jablonec n.N.",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40083",
+  "nazev": "TO Meziboří",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40084",
+  "nazev": "SK Okrouhlá",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40085",
+  "nazev": "TK Slovan Jiřetín pod Jedl.",
+  "adresa": "Vinařská 32, 40756 Jiřetín pod Jedlovou",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40086",
+  "nazev": "TC Mozkové lázně Doubice",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40087",
+  "nazev": "SK Matchball Česká Lípa",
+  "adresa": "Boženy Němcové 3129, 47001 Česká Lípa",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40088",
+  "nazev": "Sportovní klub Pohořany",
+  "adresa": "Pohořany 121, 41141 Žitenice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40089",
+  "nazev": "Sportovní škola Krupka",
+  "adresa": "Teplická 400, 41741 Krupka",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40090",
+  "nazev": "SK PANDA Stráž p.Ralskem",
+  "adresa": "P.O.BOX 49, 47127 Stráž pod Ralskem",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40091",
+  "nazev": "LTC Ústí n.Labem",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40092",
+  "nazev": "Severočeská tenisová o.s.",
+  "adresa": "Pod Koňským vrchem 1159, 43401 Most",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40093",
+  "nazev": "TK Evženie Klášterec n/O",
+  "adresa": "Kyselka 105, 43151 Klášterec n.Ohř.",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40095",
+  "nazev": "TK Krásné Březno",
+  "adresa": "Neštěmická, tenisové kurty Vyhlídka, 40007 Ústí nad Labem - Krásné Březno - Vyhlídka",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40096",
+  "nazev": "TK Mimoň",
+  "adresa": "Žitavská 286, 47124 Mimoň",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40097",
+  "nazev": "MFK Ústí nad Labem",
+  "adresa": "Jateční 47, 40001 Ústí nad Labem",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40098",
+  "nazev": "TK RAPID LIBEREC",
+  "adresa": "Polní 894, 460 01 Liberec",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40099",
+  "nazev": "TK SLOVANKA Č. Lípa",
+  "adresa": "Heroutova 1778, 47001 Česká Lípa",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40100",
+  "nazev": "SK Podještědští Pardálové",
+  "adresa": "Švermova 386, 47125 Jablonné v Podještědí",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40101",
+  "nazev": "TK Straškov Vodochody",
+  "adresa": "",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40102",
+  "nazev": "TJ SVAH Všebořice, o.s.",
+  "adresa": "Štursova 362/71, 400 01 Ústí nad Labem",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40103",
+  "nazev": "Tenisová akademie Březno u Loun",
+  "adresa": "Březno 31, 44001 Postoloprty",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40104",
+  "nazev": "TK Severní Terasa",
+  "adresa": "V Lánech 405, 40340 Ústí nad Labem",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40105",
+  "nazev": "TK Rochlice Liberec",
+  "adresa": "Na Žižkově 1080/40a, 46006 Liberec 6",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40106",
+  "nazev": "Tělocvičná jednota Sokol Osek",
+  "adresa": "Dolejšova 412, 41705 Osek",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40107",
+  "nazev": "TK SPORTYS, z.s.",
+  "adresa": "Luční 507, 431 01 Spořice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40108",
+  "nazev": "Sport Bílina spolek",
+  "adresa": "Alšova 271, 41801 Bílina",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40109",
+  "nazev": "Rumburský tenisový klub",
+  "adresa": "Dlouhá 1613/21, 40801 Rumburk",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40110",
+  "nazev": "Tenisový klub Brozany,z.s.",
+  "adresa": "Na Průhonu 304, 411 81 Brozany nad Ohří",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40111",
+  "nazev": "TKX Tennis Team Krupka z.s.",
+  "adresa": "U Stadionu 626, 41741 Krupka",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40112",
+  "nazev": "TJ Jiskra Nový Bor ,z.s.",
+  "adresa": "Třída TGM 283, 47301 Nový Bor",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40113",
+  "nazev": "TJ Sokol Domoušice",
+  "adresa": "Domoušice 37, 43968 Domoušice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40114",
+  "nazev": "Sport Centrum Široký Vrch",
+  "adresa": "Široký Vrch 364, 43401 Most",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40115",
+  "nazev": "STK MiJab Stráž p.Ralskem",
+  "adresa": "Máchova 457, 47127 Stráž pod Ralskem",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40116",
+  "nazev": "TK Aghatea z.s.",
+  "adresa": "Dolní Světlá 2, 471 57 Mařenice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40117",
+  "nazev": "POWER FOR SPORTS",
+  "adresa": "Tržní 163/2, 47001 Česká Lípa",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40118",
+  "nazev": "SK Tenis Ještěd, z.s.",
+  "adresa": "Londýnská 630/2a, 46001 Liberec",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40119",
+  "nazev": "TK Hoštka",
+  "adresa": "čp. 298, 41172 Hoštka",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40120",
+  "nazev": "TJ Lokomotiva Česká Lípa",
+  "adresa": "Mánesova 1580/17, 47001 Česká Lípa",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40121",
+  "nazev": "TK Litvínov z.s.",
+  "adresa": "Seifertova 1504, 43601 Litvínov",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40122",
+  "nazev": "MTenis sport z.s.",
+  "adresa": "Fučíkova stezka 2601, 41501 Teplice",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "40123",
+  "nazev": "Tenisový klub T-Úštěk",
+  "adresa": "Vilová čtvrť 260, 411 45 Úštěk",
+  "region": "Severočeský"
+ },
+ {
+  "cislo": "50001",
+  "nazev": "TK Pernštýn 1897 Pardubice",
+  "adresa": "Kunětická , 53002 Pardubice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50002",
+  "nazev": "Baník Vamberk",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50003",
+  "nazev": "Baník Žacléř",
+  "adresa": "Revoluční 264, 54201 Žacléř",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50004",
+  "nazev": "TC Hořice",
+  "adresa": "Gothardská 1401, 50801 Hořice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50005",
+  "nazev": "Jiskra Králíky",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50006",
+  "nazev": "TJ Lázně Bělohrad",
+  "adresa": "Vachkova 579, 50781 Lázně Bělohrad",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50007",
+  "nazev": "VŠTJ UK Hradec Králové",
+  "adresa": "Zámostí 683, 50009 Hradec Králové, Malšovice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50008",
+  "nazev": "Sokol Vysoký Újezd u D. - neaktivní",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50009",
+  "nazev": "TJ TK Lanškroun",
+  "adresa": "Českých bratří, 56301 Lanškroun",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50010",
+  "nazev": "TK Choceň",
+  "adresa": "U Hřiště 1524, 56501 Choceň",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50011",
+  "nazev": "TC Harrachov",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50012",
+  "nazev": "TK Lomnice n.Pop.",
+  "adresa": "gen. Ludvíka Svobody 1367, 51251 Lomnice nad Popelkou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50013",
+  "nazev": "TK Holice",
+  "adresa": "Družstevní 879, 53401 Holice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50014",
+  "nazev": "TK Semily",
+  "adresa": "Jiráskova, 51301 Semily",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50015",
+  "nazev": "TK Dynamo Hradec Králové",
+  "adresa": "Janáčkova E12, 50002 Hradec Králové 2",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50016",
+  "nazev": "TK Kvasiny",
+  "adresa": "Kvasiny 431, 51702 Kvasiny",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50017",
+  "nazev": "TC Chrudim z.s.",
+  "adresa": "U Parku 135, 53701 Chrudim",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50018",
+  "nazev": "TC Jičín",
+  "adresa": "Revoluční 1295, 50601 Jičín",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50019",
+  "nazev": "TC Dvůr Králové, z.s.",
+  "adresa": "ul.17.listopadu 485, 54401 Dvůr Králové n.L.",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50020",
+  "nazev": "TK Hlinsko",
+  "adresa": "Olšinky 1063, 53901 Hlinsko",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50021",
+  "nazev": "TK Ústí n. Orlicí",
+  "adresa": "V Lukách 276, 56201 Ústí nad Orlicí",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50022",
+  "nazev": "Sokol Malé Svatoňovice",
+  "adresa": "Jana Masaryka 129, 54234 Malé Svatoňovice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50023",
+  "nazev": "Tenis Nová Paka",
+  "adresa": "F.M.Hilmara 1658, 50901 Nová Paka",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50024",
+  "nazev": "TK Turnov",
+  "adresa": "Koškova 825, 51101 Turnov",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50025",
+  "nazev": "Sokol Smiřice",
+  "adresa": "Smiřice 617, 50303 Smiřice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50026",
+  "nazev": "TK Náchod",
+  "adresa": "Ulice 1. máje, 54701 Náchod - Běloves",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50027",
+  "nazev": "TK Letohrad",
+  "adresa": "V Aleji 876, 561 51 Letohrad",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50028",
+  "nazev": "TO TJ Tesla Pardubice",
+  "adresa": "K Vinici 1901, 53002 Pardubice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50029",
+  "nazev": "LTC Kostelec n.Orlicí",
+  "adresa": "Tůmova 1234, 51741 Kostelec nad Orlicí",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50030",
+  "nazev": "Spartak Vrchlabí",
+  "adresa": "Valteřická 1639, 54301 Vrchlabí",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50031",
+  "nazev": "SK Chrast",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50032",
+  "nazev": "Tenisový klub Ledeč nad Sázavou",
+  "adresa": "Podolí 1237, 58401 Ledeč nad Sázavou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50033",
+  "nazev": "Sokol Zbečník",
+  "adresa": "Zbečník 268, 54931 Hronov 3 - Zbečník",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50034",
+  "nazev": "TK Česká Třebová, z.s.",
+  "adresa": "Husova 22, 56002 Česká Třebová",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50035",
+  "nazev": "TC Nové Město n. Metují",
+  "adresa": "Nad sokolovnou 1390, 54901 Nové Město nad Metují",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50036",
+  "nazev": "Hr.Králové Dynamo Plácky",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50037",
+  "nazev": "TK SB Světlá n.Sáz.",
+  "adresa": "Pěšinky 971, 58291 Světlá nad Sázavou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50038",
+  "nazev": "TC Jilemnice",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50039",
+  "nazev": "TJ Slovan Moravská Třebová,z.s.",
+  "adresa": "Nádražní 12, 57101 Moravská Třebová",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50040",
+  "nazev": "LTC Nový Bydžov",
+  "adresa": "Sportovní 401, 50401 Nový Bydžov",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50041",
+  "nazev": "Chlumec n/Cidlinou",
+  "adresa": "Kozelkova 26, 50351 Chlumec nad Cidlinou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50042",
+  "nazev": "Lokomotiva Trutnov",
+  "adresa": "Na Lukách 457, 54101 Trutnov",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50043",
+  "nazev": "TO SK Žamberk",
+  "adresa": "U koupaliště 1362, 56401 Žamberk",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50044",
+  "nazev": "TK Dolní Dobrouč",
+  "adresa": "Dolní Dobrouč, 56102 Dolní Dobrouč",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50045",
+  "nazev": "Tenisový klub Havlíčkův Brod,z.s.",
+  "adresa": "Ledečská 4069, 580 01 Havlíčkův Brod",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50046",
+  "nazev": "TK Kruh",
+  "adresa": "Kruh 202, 51401 Jilemnice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50047",
+  "nazev": "Sokol Vysoká Srbská-klub zrušen",
+  "adresa": "Vysoká Srbská č.p.48, 549 31",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50048",
+  "nazev": "Baník Radvanice",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50049",
+  "nazev": "TJ Sparta Úpice",
+  "adresa": "Regnerova (areál Sparta Úpice), 54232 Úpice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50050",
+  "nazev": "Sokol Kramolná",
+  "adresa": "Kramolna 110, 54701 Náchod",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50051",
+  "nazev": "Energetik Chvaletice",
+  "adresa": "Nerudova, 53312 Chvaletice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50052",
+  "nazev": "Spartak Rokytnice n/Jiz.",
+  "adresa": "Horní Rokytnice 461, 51244 Rokytnice nad Jizerou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50053",
+  "nazev": "LTC Jaroměř",
+  "adresa": "5.května 465, 55103 Jaroměř",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50054",
+  "nazev": "USK Pardubice",
+  "adresa": "Studentská 95, 53210 Pardubice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50055",
+  "nazev": "Tennis club Litomyšl, z.s.",
+  "adresa": "Smetanovo náměstí 77, 57001 Litomyšl",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50056",
+  "nazev": "TK Česká Skalice",
+  "adresa": "Tyršova 880, 55203 Česká Skalice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50057",
+  "nazev": "TK Lokomotiva Hradec Králové, z.s.",
+  "adresa": "U Fakultní nemocnice, 50002 Hradec Králové",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50058",
+  "nazev": "TJ Spartak Opočno",
+  "adresa": "Pohořská 674, 51773 Opočno",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50059",
+  "nazev": "Sokol Bukovice",
+  "adresa": "Bukovice 94, 54954 Police nad Metují",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50060",
+  "nazev": "TK Seč",
+  "adresa": "Tenisový areál, 53807 Seč",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50061",
+  "nazev": "Tenisový klub Červený Kostelec, z.s.",
+  "adresa": "Palackého 1316, 54941 Červený Kostelec",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50062",
+  "nazev": "TJ Sokol Jablonec n/Jizerou",
+  "adresa": "Jablonec n/Jizerou, 51243 Jablonec n/Jizerou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50063",
+  "nazev": "TO TJ Svitavy",
+  "adresa": "U Stadionu 17, 56802 Svitavy",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50064",
+  "nazev": "Sokol Horní Branná",
+  "adresa": "Horní Branná 318, 51236 Horní Branná",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50065",
+  "nazev": "Sokol Rychnov n/Kněžnou",
+  "adresa": "Masarykova 895, 51601 Rychnov nad Kněžnou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50066",
+  "nazev": "TJ Velešov",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50067",
+  "nazev": "Tenis-Club Jevíčko z.s.",
+  "adresa": "Okružní I 637, 569 43 Jevíčko",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50068",
+  "nazev": "TJ Spartak Polička",
+  "adresa": "Revoluční 1015, 57201 Polička",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50069",
+  "nazev": "Sokol Všestary",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50070",
+  "nazev": "LTC Pardubice",
+  "adresa": "Labská 15, 53002 Pardubice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50071",
+  "nazev": "Sokol Žďárky",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50072",
+  "nazev": "SK Tenis Hradec Králové",
+  "adresa": "Na Občinách 369, 50009 Hradec Králové",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50073",
+  "nazev": "Sokol Žďár n.Metují",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50074",
+  "nazev": "Sokol České Meziříčí",
+  "adresa": "Sokolská 355, 51771 České Meziříčí",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50075",
+  "nazev": "Sportovní klub Třebechovice pod Orebem,z.s.",
+  "adresa": "Vitouškova 959, 503 46 Třebechovice pod Orebem",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50076",
+  "nazev": "LTC Vysoké Mýto",
+  "adresa": "Sportovní 224, 56601 Vysoké Mýto",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50077",
+  "nazev": "Autoškoda Vrchlabí",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50078",
+  "nazev": "TJ Sokol Jetřichov",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50079",
+  "nazev": "SK Týniště nad Orlicí",
+  "adresa": "Atletický stadion - Týniště nad Orlicí, 51721 Týniště nad Orlicí",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50080",
+  "nazev": "TJ Slovan Broumov",
+  "adresa": "třída osvobození, 55001 Broumov",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50081",
+  "nazev": "LTC Hradec Králové",
+  "adresa": "Zámostí 684, 50009 Hradec Králové",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50082",
+  "nazev": "ŽSK TO Třemošnice",
+  "adresa": "Internátní 422, 538 43 Třemošnice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50083",
+  "nazev": "Sokol Rosice n/Labem",
+  "adresa": "gen. Svobody 432, 53351 Rosice nad Labem",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50084",
+  "nazev": "LTC Choltice z.s.",
+  "adresa": "Pardubická 28, 53361 Choltice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50085",
+  "nazev": "T.J.Nahořany n.M.",
+  "adresa": "Nahořany 76, 54907 Nahořany nad Metují",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50086",
+  "nazev": "TC Přelouč",
+  "adresa": "Sportovní 1452, 53501 Přelouč",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50087",
+  "nazev": "Sokol Těchlovice",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50088",
+  "nazev": "TJ Dobruška",
+  "adresa": "Mělčanská 118, 51801 Městský stadion",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50089",
+  "nazev": "Tělovýchovná jednota CHS Chotěboř, z.s.",
+  "adresa": "Tyršova 794, 583 01 Chotěboř",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50090",
+  "nazev": "TC Horní Čermná",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50091",
+  "nazev": "TJ Kratonohy",
+  "adresa": "Brožíkova 550 , Pardubice Pardubice -Polabiny",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50092",
+  "nazev": "Tatran Ždírec n.Sáz.",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50093",
+  "nazev": "Sokol Studnice",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50094",
+  "nazev": "Sokol Přibyslav",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50095",
+  "nazev": "Jiskra Adršpach",
+  "adresa": "Horní Adršpach, 549 52 Horní Adršpach",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50096",
+  "nazev": "Tenis Krucemburk",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50097",
+  "nazev": "Tennis Club Rokytnice v O.h.",
+  "adresa": "Sídliště 1.máje, 51761 Rokytnice v O.h.",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50099",
+  "nazev": "SK Miletín-tenis",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50100",
+  "nazev": "TJ Sokol Kunčice n/L, spolek",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50101",
+  "nazev": "Tenis club Hrudík-klub zrušen",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50102",
+  "nazev": "TK Studenec",
+  "adresa": "Studenec 448, 51233 Studenec",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50103",
+  "nazev": "Sokol Lupenice",
+  "adresa": "Lupenice, 517 41 Kostelec n.O.",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50104",
+  "nazev": "TJ Sokol Velký Dřevíč",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50105",
+  "nazev": "Azura-sport club Pardubice",
+  "adresa": "17. listopadu 512, 53002 Pardubice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50106",
+  "nazev": "TŠM Pyramis",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50107",
+  "nazev": "TC Granita Skuteč",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50108",
+  "nazev": "Nespin, z.s.",
+  "adresa": "Javornická 1705, 51601 Rychnov nad Kněžnou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50109",
+  "nazev": "SK Rychnovek",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50110",
+  "nazev": "TC Špindlerův Mlýn",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50111",
+  "nazev": "TK Lichkov",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50112",
+  "nazev": "TC Techtex Hostinné",
+  "adresa": "Labský Mlýn, 543 71 Hostinné",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50113",
+  "nazev": "TENIS-CENTRUM DTJ HK",
+  "adresa": "U Labe 427, 50002 Hradec Králové",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50114",
+  "nazev": "TK RATSAM",
+  "adresa": "č.182, 543 62 Dolní Branná",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50115",
+  "nazev": "TC Rychnov nad Kněžnou",
+  "adresa": "Javornická 1705, 51601 Rychnov nad Kněžnou",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50116",
+  "nazev": "K TRIUMF Velichovky",
+  "adresa": "Hustířanská 211, 55211 Velichovky",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50117",
+  "nazev": "TK Východočeská sportovní",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50118",
+  "nazev": "Tenis Centrum Nová Paka o.s.",
+  "adresa": "Krkonošská 997, 50901 Nová Paka",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50119",
+  "nazev": "Sportovní a Reklamní společnost PS o.s.",
+  "adresa": "U Parku 693, 51251 Lomnice nad Pop.",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50120",
+  "nazev": "1. Východočeská Tenisová",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50121",
+  "nazev": "TJ Kosice",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50122",
+  "nazev": "DTK Skuteč",
+  "adresa": "Dr.Znojemského 437, 53973 Skuteč",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50123",
+  "nazev": "Clasic Tenis Club o.s.",
+  "adresa": "Hrubý Rohozec 7, 51101 Turnov",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50124",
+  "nazev": "Tenisový klub Na Žuliánce - klub zrušen",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50125",
+  "nazev": "TK TENIS S&C SVITAVY",
+  "adresa": "Hlavní 103/412, 56802 Svitavy",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50126",
+  "nazev": "TJ Sokol Nový Ples",
+  "adresa": "Nový Ples 60, 55101 Jaroměř 1",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50127",
+  "nazev": "LTC Sokol Jablonné n.O.",
+  "adresa": "",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50128",
+  "nazev": "Tenis club Rybra",
+  "adresa": "Brada-Rybníček, Rybníček 30, 50601",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50129",
+  "nazev": "Tenisový klub FOREA o.s.",
+  "adresa": "Opletalova 92, 56301 Lanškroun",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50130",
+  "nazev": "Tenisový klub SPORT,o.s.",
+  "adresa": "Kramolna čp.202, 54701 Náchod",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50131",
+  "nazev": "Tenisový klub Jan Ševeček",
+  "adresa": "Mánesova 184, 53351 Pardubice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50132",
+  "nazev": "LTC Černilov, z.s.",
+  "adresa": "Černilov 38, 503 43 Černilov 38",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50133",
+  "nazev": "TK SK Třemošnice z.s.",
+  "adresa": "Zámecká 48, 53843 Třemošnice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50134",
+  "nazev": "Tenisová akademie Siesta resort",
+  "adresa": "Za Oborou 120, 53006 Pardubice -Staré Čívice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50135",
+  "nazev": "Sportovní centrum Nové Město nad Metují, z.s.",
+  "adresa": "28. října 414, 54901 Nové Město nad Metují",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50136",
+  "nazev": "Tenisový klub Eden HK",
+  "adresa": "Mrštíkova 904/8, 50009 Hradec Králové",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50137",
+  "nazev": "SK HIT Hradec Králové z.s.",
+  "adresa": "Hradecká 775/115, 500 11 Hradec Králové",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50138",
+  "nazev": "TK Smiřice, z.s.",
+  "adresa": "Hanzova 187, 50303 Smiřice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50139",
+  "nazev": "Academy Port Pardubice 21 z.s.",
+  "adresa": "Bulharská 1592, 530 03 Pardubice",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50140",
+  "nazev": "TC SANITINO Academy, z.s.",
+  "adresa": "Smetanovo náměstí 106, 570 01 Litomyšl",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50141",
+  "nazev": "Tenis Malšovice, z.s.",
+  "adresa": "U Labe 487/1, 50002 Hradec Králové",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50142",
+  "nazev": "TJ JISKRA Rybitví, z.s.",
+  "adresa": "U Stadionu 258, 53354 Rybitví",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "50143",
+  "nazev": "ORION TENNIS TEAM, z.s.",
+  "adresa": "Ludmily Jandové 1245, 570 01 Litomyšl",
+  "region": "Východočeský"
+ },
+ {
+  "cislo": "60001",
+  "nazev": "TK Tuřany",
+  "adresa": "Karkulínova 17, 62000 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60002",
+  "nazev": "Sokol Slavkov u Brna-klub zrušen",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60003",
+  "nazev": "TK Moravská Slavia Brno - klub zrušen",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60004",
+  "nazev": "Žižka Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60005",
+  "nazev": "TJ VSK Technika Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60006",
+  "nazev": "TJ Mosilana Brno",
+  "adresa": "Valchařska 14, 61400 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60007",
+  "nazev": "TK Brno Bosonohy,z.s.",
+  "adresa": "Hoštická, 64200 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60008",
+  "nazev": "TK Spartak Jihlava",
+  "adresa": "Mostecká 24, 58601 Jihlava",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60009",
+  "nazev": "SKP Kometa Brno",
+  "adresa": "Bauerova 5, 603 00",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60010",
+  "nazev": "Slavoj Třešť",
+  "adresa": "A.Dvořáka, 58901 Třešť",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60011",
+  "nazev": "Tenisový klub Vnorovy, z.s.",
+  "adresa": "Hlavní 750, 69661 Vnorovy",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60012",
+  "nazev": "TJ Spartak Uherský Brod-zrušen",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60013",
+  "nazev": "ŽLTC Brno",
+  "adresa": "Bubeníčkova 52, 61500 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60014",
+  "nazev": "TK Kunštát",
+  "adresa": "U hřiště 514, 67972 Kunštát",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60015",
+  "nazev": "TJ Agro Drnovice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60016",
+  "nazev": "TC Veverská Bítýška z.s.",
+  "adresa": "U Hřiště ev.č.334, 66471 Veverská Bítýška",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60017",
+  "nazev": "Sokol Prštice",
+  "adresa": "Hlavní 2, 66446 Prštice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60018",
+  "nazev": "TK Vyškov",
+  "adresa": "Mlýnská 743/12, 68201 Vyškov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60019",
+  "nazev": "TK Jižní Svahy Zlín",
+  "adresa": "Nová 174, 76316 Fryšták",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60020",
+  "nazev": "Lokomotiva Uherský Ostroh",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60021",
+  "nazev": "TK Zlín",
+  "adresa": "Hradská 854, 76001 Zlín",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60022",
+  "nazev": "BLTC Brno",
+  "adresa": "Lužánecká 7, 602 00 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60023",
+  "nazev": "TJ Žďár nad Sázavou",
+  "adresa": "Jungmanova 1495/8, 59101 Žďár nad Sázavou",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60024",
+  "nazev": "SK Tenis Tišnov",
+  "adresa": "Ostrovec 1897, 666 01 Tišnov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60025",
+  "nazev": "TK 2000 Luhačovice",
+  "adresa": "Lázeňské náměstí 427, 76326 Luhačovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60026",
+  "nazev": "TK Blansko",
+  "adresa": "Pekařská 1916/6, 67801 Blansko",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60027",
+  "nazev": "Tenisový klub Šlapanice",
+  "adresa": "Jana Dvořáka 1843/120, 66451 Šlapanice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60028",
+  "nazev": "Spartak Adamov",
+  "adresa": "Nádražní 2, 67904 Adamov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60029",
+  "nazev": "Sokol Křenovice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60030",
+  "nazev": "SK Slatina",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60031",
+  "nazev": "Tenis Ivančice z.s.",
+  "adresa": "B.M. Kuldy 313/2, 66491 Ivančice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60032",
+  "nazev": "TK Mokrá-Horákov",
+  "adresa": "mezi fotbalovými hřišti Horákov, 66404 Mokrá-Horákov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60033",
+  "nazev": "TJ Sokol Čejkovice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60034",
+  "nazev": "BTK Brno",
+  "adresa": "Jakuba Obrovského 2, 635 00 Brno-Bystrc",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60035",
+  "nazev": "TK Sokol Vizovice",
+  "adresa": "Slušovská 177, 76312 Vizovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60036",
+  "nazev": "LTC Velen Boskovice",
+  "adresa": "Dukelská 2285, 68001 Boskovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60037",
+  "nazev": "TK Dubňany",
+  "adresa": "Sportovní, 696 03 Dubňany",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60038",
+  "nazev": "TK Bystřice p.H.",
+  "adresa": "Sportovní 258, 76861 Bystřice pod Hostýnem",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60039",
+  "nazev": "TJ Sokol Brno IV.",
+  "adresa": "Štolcova 8-12, 61800 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60040",
+  "nazev": "TK ČLTK Jihlava",
+  "adresa": "Mostecká 28, 58601 Jihlava",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60041",
+  "nazev": "TO TJ Buchlovice",
+  "adresa": "Sportovní, 687 08 Buchlovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60042",
+  "nazev": "TK Uherské Hradiště",
+  "adresa": "U Moravy 827, 68601 Uherské Hradiště",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60043",
+  "nazev": "TK Kunovice",
+  "adresa": "V Hliníku 484, 68604 Kunovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60044",
+  "nazev": "Sokol Dědice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60045",
+  "nazev": "Sokol Brno Žabovřesky",
+  "adresa": "Jana Nečase 1, 61600 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60046",
+  "nazev": "Jiskra Otrokovice",
+  "adresa": "Sport. areál TJ Jiskra 1297, 76502 Otrokovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60047",
+  "nazev": "LTC Veselí nad Moravou",
+  "adresa": "Zámecká 94, PO BOX 53, 69801 Veselí nad Moravou",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60048",
+  "nazev": "Tenisový klub Bzenec",
+  "adresa": "Sportovní 1585, 696 81 Bzenec",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60049",
+  "nazev": "Sokol Vracov",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60050",
+  "nazev": "TK Fatra Napajedla",
+  "adresa": "1. máje 1091, 76361 Napajedla",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60051",
+  "nazev": "Start Brno",
+  "adresa": "Loosova 1b, 63800 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60052",
+  "nazev": "Slavoj Polná",
+  "adresa": "Jeronýmova 106, 58813 Polná",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60053",
+  "nazev": "Univerzita obrany",
+  "adresa": "ul.J.Baláka,kasárna UO Brno, 61200 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60054",
+  "nazev": "TJ Nesovice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60055",
+  "nazev": "TJ Sokol Bedřichov Jihlava",
+  "adresa": "Sokolovská 122c,Jihlava, 58601 Jihlava",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60056",
+  "nazev": "Slovácký TK Břeclav",
+  "adresa": "Haškova 3540/36, 69002 Břeclav",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60058",
+  "nazev": "SK Tenis Trávníky",
+  "adresa": "Sportovní areál Trávníky, 76502 Otrokovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60059",
+  "nazev": "Sokol Pohořelice",
+  "adresa": "Tyršova 560, 69123 Pohořelice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60060",
+  "nazev": "Sokol Letovice",
+  "adresa": "U Koupaliště 800, 67961 Letovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60061",
+  "nazev": "Tatran Brno Kohoutovice",
+  "adresa": "Voříškova 59, 62300 Brno-Kohoutovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60062",
+  "nazev": "Sokol Rajhrad",
+  "adresa": "Masarykova 305, 66461 Rajhrad",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60063",
+  "nazev": "TK Znojmo",
+  "adresa": "Leska Horní 2135/1, 66902 Znojmo",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60064",
+  "nazev": "TJ Sokol Rudice, z.s.",
+  "adresa": "Rudice 164, 67906 Rudice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60065",
+  "nazev": "Čechie Zastávka",
+  "adresa": "Kopečky 512 (fotbal.stadion), 66484 Zastávka",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60066",
+  "nazev": "Slovan Hodonín",
+  "adresa": "Tyršova 8, 69501 Hodonín",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60067",
+  "nazev": "TK Brno - Chrlice",
+  "adresa": "Blůmlova ul., 64300 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60068",
+  "nazev": "Tesma Jaroměřice nad R.",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60069",
+  "nazev": "TC Bajda Kroměříž",
+  "adresa": "Na Sladovnách 4255/2, 76701 Kroměříž",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60070",
+  "nazev": "Tenisový klub Tesla Brno",
+  "adresa": "Údolní 1020/18a, 60200 Brno-Veveří",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60071",
+  "nazev": "Tatran Starý Lískovec",
+  "adresa": "Klobásova 79, Brno 625 Starý Lískovec",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60072",
+  "nazev": "TJ Malenovice",
+  "adresa": "Tyršova 1295, 76302 Zlín-Malenovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60073",
+  "nazev": "Sokol Chudčice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60074",
+  "nazev": "Spartak Telč",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60075",
+  "nazev": "Univerzita Brno-zrušen",
+  "adresa": "Heinrichova 24, 60200 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60076",
+  "nazev": "Sokol Dukovany",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60077",
+  "nazev": "Sokol Žeravice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60078",
+  "nazev": "TO Moravské Budějovice",
+  "adresa": "Toračovského sady 80, 67602 Moravské Budějovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60079",
+  "nazev": "TK Rožná",
+  "adresa": "č.p.8, 592 52 Rožná",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60080",
+  "nazev": "TK Kyjov",
+  "adresa": "Komenského (Za sokolovnou), 69701 Kyjov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60081",
+  "nazev": "TJ Nové Město na Moravě",
+  "adresa": "Sportovní 1479, 592311 Nové Město na Moravě",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60082",
+  "nazev": "TK Veterina Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60083",
+  "nazev": "TK AGROFERT Prostějov",
+  "adresa": "Za Kosteleckou 49, 79601 Prostějov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60084",
+  "nazev": "Sokol Čebín",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60086",
+  "nazev": "TJ Sokol Bílovice n.Svit.",
+  "adresa": "Palackého údolí, 66401 Bílovice nad Svitavou",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60087",
+  "nazev": "SK Jundrov Brno",
+  "adresa": "Veslařská 124, 63700 Brno-Jundrov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60089",
+  "nazev": "Sokol Velké Opatovice",
+  "adresa": "Sokolská 279, 67963 Velké Opatovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60090",
+  "nazev": "MEZ Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60091",
+  "nazev": "Sokol Jemnice",
+  "adresa": "Tyršova 624, 675 31 Jemnice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60092",
+  "nazev": "TJ Brno-Komín",
+  "adresa": "Svratecká 11b, 624 00 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60093",
+  "nazev": "Sokol Husovice",
+  "adresa": "Dukelská 9, 61400 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60094",
+  "nazev": "Sokol Okříšky",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60095",
+  "nazev": "Sokol Prostějov I.",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60096",
+  "nazev": "TJ Spartak Velké Meziříčí",
+  "adresa": "U tržiště 1, 59401 Velké Meziříčí",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60097",
+  "nazev": "TK Bystřice n.Pernštejnem",
+  "adresa": "Lužánky 852, 593 01 Bystřice nad Pernštejnem",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60098",
+  "nazev": "TC Holešov, o.s.",
+  "adresa": "Střelnice 1410, 76901 Holešov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60099",
+  "nazev": "Sokol Hodonín",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60100",
+  "nazev": "Sokol Lanžhot",
+  "adresa": "U Stadionu 419, 691 51 Lanžhot",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60101",
+  "nazev": "TJ Mokrá Hora",
+  "adresa": "Pod zahradami 13, 621 00 Brno - Mokrá Hora",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60102",
+  "nazev": "TC Velká Bíteš",
+  "adresa": "Kozí, 595011 Velká Bíteš",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60103",
+  "nazev": "Jiskra Květná",
+  "adresa": "Rubanice, 68765 Strání",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60104",
+  "nazev": "Sokol Vlkov",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60105",
+  "nazev": "Jiskra Vír",
+  "adresa": "Vír č. 162, 59266 Vír",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60107",
+  "nazev": "TJ Bystrc z.s.",
+  "adresa": "U Sokolovny 3, 635 00 Brno-Bystrc",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60108",
+  "nazev": "TJ Baník Dolní Rožínka",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60109",
+  "nazev": "Tenisový klub Mikulov, spolek",
+  "adresa": "Hliniště 1870/37, 69201 Mikulov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60110",
+  "nazev": "Sokol Ostrov nad Oslavou",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60111",
+  "nazev": "TK Nové Sady",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60112",
+  "nazev": "Agrotec Hustopeče",
+  "adresa": "Šafaříkova 22, 693 01 Hustopeče",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60113",
+  "nazev": "BOPO Třebíč",
+  "adresa": "Vrchlického 663, 67401 Třebíč",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60114",
+  "nazev": "HTK Třebíč",
+  "adresa": "Janáčkovo stromořadí 156, 67401 Třebíč",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60115",
+  "nazev": "Sokol Svitávka",
+  "adresa": "Fr.Řepky 299, 67932 Svitávka",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60116",
+  "nazev": "LAKA TC Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60117",
+  "nazev": "TK Černá Hora, z.s.",
+  "adresa": "nám. Míru 50, 67921 Černá Hora",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60118",
+  "nazev": "TK Moravský Krumlov z.s.",
+  "adresa": "Pod Hradbami 174, 67201 Moravský Krumlov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60119",
+  "nazev": "Sokol Předklášteří",
+  "adresa": "Šikulova, 66202 Předklášteří",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60120",
+  "nazev": "TK Komárov",
+  "adresa": "Kšírova 16, 61700 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60121",
+  "nazev": "Sokol Bučovice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60122",
+  "nazev": "TJ Popůvky u Brna",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60123",
+  "nazev": "TK Jiskra Hrušovany",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60124",
+  "nazev": "TK Líšeň",
+  "adresa": "Střelnice 48, 62800 Brno - Líšeň",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60125",
+  "nazev": "TJ Jiskra Strážnice",
+  "adresa": "Bzenecká 1538, 696 62 Strážnice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60126",
+  "nazev": "TJ Jiskra Malý Beranov",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60127",
+  "nazev": "Mars Svratka",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60128",
+  "nazev": "TK Dolní Bojanovice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60129",
+  "nazev": "TJ Sokol Bohdalov",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60130",
+  "nazev": "SK Rájec-Jestřebí",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60131",
+  "nazev": "STK Okříšky",
+  "adresa": "Stará osada 622, 67521 Okříšky",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60132",
+  "nazev": "VSK VUT Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60133",
+  "nazev": "TJ Sokol Rakšice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60134",
+  "nazev": "TJ Pavlínov",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60135",
+  "nazev": "TJ Velešovice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60136",
+  "nazev": "SHARK Brno",
+  "adresa": "Tuřanka 1260/1, 62700 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60137",
+  "nazev": "TJ Sokol Kobylnice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60138",
+  "nazev": "TJ Šumice",
+  "adresa": "Záhumní 502, 68731 Šumice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60139",
+  "nazev": "TJ Sokol Nové Veselí",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60140",
+  "nazev": "TJ Spartak Třebíč",
+  "adresa": "manž. Curieových 1112, 67401 Třebíč",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60141",
+  "nazev": "Morcan Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60142",
+  "nazev": "JOPI TC Brno",
+  "adresa": "Božetěchova 19, 61200 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60143",
+  "nazev": "TK Brumov",
+  "adresa": "Družba, 76331 Brumov-Bylnice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60144",
+  "nazev": "TK-B Zlín",
+  "adresa": "Nad stráněmi 4680, 76005 Zlín",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60145",
+  "nazev": "T.S.A MASTERS",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60146",
+  "nazev": "Tenis Park klub",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60147",
+  "nazev": "TJ Vinohrady Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60148",
+  "nazev": "TK Morkovice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60149",
+  "nazev": "TIZ TK Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60150",
+  "nazev": "TK Natali",
+  "adresa": "Podskalí 553, 0 Mostkovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60151",
+  "nazev": "Orel Svatobořice-Mistřín",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60152",
+  "nazev": "TC Classic Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60153",
+  "nazev": "TJ Sokol Mor.Krumlov",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60154",
+  "nazev": "Tenis park klub Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60155",
+  "nazev": "TJ Sokol Rousínovec",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60156",
+  "nazev": "TJ Útěchov",
+  "adresa": "Adamovská 6, 64400 Brno-Útěchov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60157",
+  "nazev": "TK zámek Nový Světlov",
+  "adresa": "areál zámku, 687711 Bojkovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60158",
+  "nazev": "TC-MJ TENIS Líšeň",
+  "adresa": "Novolíšeňská (adresa kurtů), 628 00 BRNO-LÍŠEŇ",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60159",
+  "nazev": "TJ Sokol Dolní Loučky",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60160",
+  "nazev": "Tenis Orel Zlín",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60161",
+  "nazev": "FLTC Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60162",
+  "nazev": "Juven Brno",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60163",
+  "nazev": "TJ Sokol-tenis Lysice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60164",
+  "nazev": "SK Lukov",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60165",
+  "nazev": "SK Kraví Hora",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60166",
+  "nazev": "TJ Fryšava",
+  "adresa": "Štursova 7/3, 59101 Žďár nad Sázavou",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60167",
+  "nazev": "TC Bělecký Mlýn",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60168",
+  "nazev": "TK Ostrožská Lhota",
+  "adresa": "TK Ostrožská Lhota, 530, 687 23 Ostrožská Lhota",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60169",
+  "nazev": "TK IM Tenis",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60170",
+  "nazev": "TJ Sokol Uherský Brod",
+  "adresa": "Na Dlouhých 812, 68801 Uherský Brod",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60171",
+  "nazev": "TK Černovice",
+  "adresa": "Kneslova 1a, 61800 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60172",
+  "nazev": "TENIS 360 s.r.o.",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60173",
+  "nazev": "TO Sokol Jedovnice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60174",
+  "nazev": "LTC Hodonín",
+  "adresa": "Velkomoravská 3535/19, 695 01 Hodonín",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60175",
+  "nazev": "TK FINO-Modřice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60176",
+  "nazev": "TK Sport Centrum Šlapanice",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60177",
+  "nazev": "ACE Team",
+  "adresa": "U stadionu 1970/4, 66434 Kuřim",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60178",
+  "nazev": "ATK TEVOX TEAM Brno",
+  "adresa": "Nové sady 28, 60200 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60179",
+  "nazev": "TJ Baník Lužice",
+  "adresa": "U stadionu 16, 69618 Lužice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60180",
+  "nazev": "Sokol Otnice",
+  "adresa": "Nová 436, 68354 Otnice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60181",
+  "nazev": "TC Brno.",
+  "adresa": "Herčíkova 19b, 612 00 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60182",
+  "nazev": "TCP Kyjov-klub zrušen",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60183",
+  "nazev": "SK Zlín-Mladcová",
+  "adresa": "Mladcová 493, 76001 Zlín - Mladcová",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60184",
+  "nazev": "TK Slavičín",
+  "adresa": "Mladotická 738, 76321 Slavičín",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60185",
+  "nazev": "ASK Lipůvka",
+  "adresa": "Lipůvka 360, 67922 Lipůvka",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60187",
+  "nazev": "DTJ Květná-tenisový klub",
+  "adresa": "Slovenská 440, 68766 Květná",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60188",
+  "nazev": "TJ Radostín nad Oslavou",
+  "adresa": "Radostín nad Oslavou, 59444",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60189",
+  "nazev": "TJ Sokol Polnička",
+  "adresa": "Žďár nad Sázavou, 59101",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60190",
+  "nazev": "TJ Sokol Kuřim",
+  "adresa": "Tyršova 480, 66434 Kuřim",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60191",
+  "nazev": "TJ Sokol Rozsochy",
+  "adresa": "Rozsochy 103, 59257 Rozsochy",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60192",
+  "nazev": "Sportovní klub TWS",
+  "adresa": "Sámova 3, 62700 Brno-Slatina",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60193",
+  "nazev": "PTA Uherské Hradiště",
+  "adresa": "Kopánky 1144, 68605 Uherské Hradiště",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60194",
+  "nazev": "TK TILIA Brno",
+  "adresa": "Voříškova 59, 62300 Brno/Kohoutovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60195",
+  "nazev": "75H s.r.o.",
+  "adresa": "Komenského nám.141, 67401 Třebíč",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60196",
+  "nazev": "TJ Kraví Hora Brno",
+  "adresa": "Bellova 24, 60200 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60197",
+  "nazev": "VŠSK Univerzita Zlín",
+  "adresa": "Mostní 5139, 760 01 Zlín",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60198",
+  "nazev": "TCV Strání",
+  "adresa": "Rubanice 421, 68765 Strání",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60199",
+  "nazev": "SK Raketa o.s.",
+  "adresa": "Jana Dvořáka 1893/98, 66451 Šlapanice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60200",
+  "nazev": "TK Velké Bílovice",
+  "adresa": "Tabačov 1294, 69102 Velké Bílovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60201",
+  "nazev": "Racquet Club",
+  "adresa": "Zderadova 6, 60200 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60202",
+  "nazev": "TC Staré Město",
+  "adresa": "Salašská 2182, 68603 Staré Město",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60203",
+  "nazev": "TTK ESOX",
+  "adresa": "Libušina třída 23,tenisové dvorce ul.Domažlická(areál Veteriny), 62300 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60204",
+  "nazev": "SKK Plumlov, o.s.",
+  "adresa": "Na Hrázi 117, 798 03 Plu",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60205",
+  "nazev": "TK Města Bučovice",
+  "adresa": "Hájecká 1099, 68501 Bučovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60206",
+  "nazev": "TJ Slavoj Velké Pavlovice",
+  "adresa": "Hodonínská 90/2, 69106 Velké Pavlovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60207",
+  "nazev": "TC BORS CLUB",
+  "adresa": "Na Valtické 650/85, 69141 Břeclav",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60208",
+  "nazev": "Moravská Tenisová Akademie",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60209",
+  "nazev": "Orel jednota Uherský Brod",
+  "adresa": "Lipová 2614, 68801 Uherský Brod",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60210",
+  "nazev": "TC GAUDEO BRNO",
+  "adresa": "Elplova 2070/12, 62800 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60211",
+  "nazev": "Renáta Voráčová akademie, z.s.",
+  "adresa": "Družstevní 355, 763 10 Hvozdná",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60212",
+  "nazev": "T.J. Sokol Bojkovice",
+  "adresa": "Mánesova 278, 68771 Bojkovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60213",
+  "nazev": "Sportovní klub Litohoř",
+  "adresa": "Litohoř 155, 67544 Lesonice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60214",
+  "nazev": "Malebné Slovácko o.s.",
+  "adresa": "Jungmannova 1310/10, 69701 Kyjov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60215",
+  "nazev": "TK Drnovice",
+  "adresa": "Brněnská 122, 68201 Vyškov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60216",
+  "nazev": "TC Austerlitz",
+  "adresa": "Kaunicova 633, 68401 Slavkov u Brna",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60217",
+  "nazev": "Tenisový klub TSRM,z.s.",
+  "adresa": "Dolní Valy 541, 68801 Uherský Brod",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60218",
+  "nazev": "NTC Kyjov",
+  "adresa": "Za humny 3311, 69701 Kyjov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60219",
+  "nazev": "TK Třebíč",
+  "adresa": "Na Příkopech 122/45, 67401 Třebíč",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60220",
+  "nazev": "Fifteen club z.s.",
+  "adresa": "Palackého 751, 66701 Židlochovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60221",
+  "nazev": "TK BH Jihlava z.s.",
+  "adresa": "Brtnická 5381/24b, 586 01833 Jihlava",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60222",
+  "nazev": "TKB Hrušovany z.s.",
+  "adresa": "ul.Severní 1129, 671 67 Hrušovany nad Jevišovkou",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60223",
+  "nazev": "TENIS SLOVÁCKO z.s.",
+  "adresa": "Salašska2182, 686 03 Staré Město",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60224",
+  "nazev": "SK Uherský Brod",
+  "adresa": "Zátiší 1958, 688 01 Uherský Brod",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60225",
+  "nazev": "TC Fit4all Brno",
+  "adresa": "Chironova 544/8, 63400 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60226",
+  "nazev": "D&M Tennis Academy, z.s.",
+  "adresa": "Dobrovského 1872/88, 612 00 Královo Pole",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60227",
+  "nazev": "TK Dolní Dunajovice,spolek",
+  "adresa": "Zahradní 613, 69185 Dolní Dunajovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60228",
+  "nazev": "Tenisový klub Vracov, z.s.",
+  "adresa": "Tyršova1620, 69642 Vracov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60229",
+  "nazev": "Spin Tenis,z.s.",
+  "adresa": "Kárníkova 1535/12, 62100 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60230",
+  "nazev": "TC-ŽLTC Brno, z.s.",
+  "adresa": "Balbínova 1786/30, 61500 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60231",
+  "nazev": "TC Komárov, z.s.",
+  "adresa": "Kšírova 468/16, 61700 Komárov",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60232",
+  "nazev": "TK Náměšť nad Oslavou",
+  "adresa": "J.Wericha 840, 675 71 Náměšť nad Oslavou",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60233",
+  "nazev": "Gross Tenis Club Nová Ves, z.s.",
+  "adresa": "Nová Ves 63, 664 91 Nová Ves",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60234",
+  "nazev": "TJ Sloup",
+  "adresa": "Sloup 1, 679 13 Sloup v Moravské krasu",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60235",
+  "nazev": "Tenisová škola SMART",
+  "adresa": "",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60236",
+  "nazev": "Tenisová a kondiční škola Lovecký z.s.",
+  "adresa": "Kyjovská 427, 69617 Dolní Bojanovice",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60237",
+  "nazev": "TA L&N Zlín-Mladcová,z.s.",
+  "adresa": "Slunečná 4548, 76005 Zlín",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "60238",
+  "nazev": "TKCO z.s.",
+  "adresa": "Říční 9, 61400 Brno",
+  "region": "Jihomoravský"
+ },
+ {
+  "cislo": "70001",
+  "nazev": "TK SC OSTRAVA",
+  "adresa": "Budečská 4/3214, 70200 Ostrava",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70002",
+  "nazev": "Beskydský tenisový klub-klub zrušen",
+  "adresa": "Sportovní 863, 73911 Frýdlant nad Ostravicí",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70003",
+  "nazev": "TJ Start Ostrava - Poruba, z.s.",
+  "adresa": "Slavíkova 6055/14, 70800 Ostrava - Poruba",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70004",
+  "nazev": "Sokol Hukvaldy neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70005",
+  "nazev": "Lawn Tennis Club Karviná neaktivní klub",
+  "adresa": "Hornická 173, 73543 Albrechtice u Č.Těšína",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70006",
+  "nazev": "VSK VŠB-TU Ostrava",
+  "adresa": "17. listopadu 15, 708 33 Ostrava Poruba",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70007",
+  "nazev": "SK JANTAR Opava - tenisový oddíl",
+  "adresa": "Jaselská 3085/18a, 74601 Opava",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70008",
+  "nazev": "TK Lipník n.B.",
+  "adresa": "ul. B. Němcové 1574, 751 31 Lipník nad Bečvou - I. město",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70009",
+  "nazev": "TK Vítkovice 1926 z.s.neaktivní klub",
+  "adresa": "Adamusova 4, 70030 Ostrava-Hrabůvka",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70010",
+  "nazev": "Sokol Hnojník neaktivní klub",
+  "adresa": "Hnojník 350, 73953 Hnojník",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70011",
+  "nazev": "TJ SOKOL HRABŮVKA",
+  "adresa": "Adamusova 4/1500, 70030 Ostrava - Hrabůvka",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70012",
+  "nazev": "TC BIOCEL Vratimov z.s.",
+  "adresa": "U stadionu 838/2, 73932 Vratimov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70013",
+  "nazev": "Tenis Nový Jičín,z.s.",
+  "adresa": "Purkyňova 405/46, 74101 Nový Jičín",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70014",
+  "nazev": "TK Zašová",
+  "adresa": "Zašová 149, 75651",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70015",
+  "nazev": "Tenisový klub Minerva Opava,z.s.",
+  "adresa": "Palackého 2398/25, Předměstí, 746 01 Opava",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70016",
+  "nazev": "TJ Velká Polom neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70017",
+  "nazev": "I.ČTK Frýdek-Místek neaktivní klub",
+  "adresa": "Sady B.Smetany 2236, 73802 Frýdek-Místek",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70018",
+  "nazev": "Slavoj Český Těšín",
+  "adresa": "Svojsíkova 833, a Tenisové dvorce Dr. Slámy 17 , 73701 Český Těšín",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70019",
+  "nazev": "TK Unex Uničov",
+  "adresa": "U stadionu 619, 78391 Uničov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70020",
+  "nazev": "Sokol Nová Ves neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70021",
+  "nazev": "T.J. Sokol Šumperk",
+  "adresa": "U tenisu 1106/4, 78701 Šumperk",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70022",
+  "nazev": "TC Hodslavice neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70023",
+  "nazev": "TC Třinec",
+  "adresa": "Lesní 522, 739 61 Třinec - Staré Město",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70024",
+  "nazev": "TJ Výškovice Ostrava neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70025",
+  "nazev": "TK Rožnov p. Radhoštěm neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70026",
+  "nazev": "SK Kravaře",
+  "adresa": "Alejní 13, 747 21 Kravaře",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70027",
+  "nazev": "TJ Slovan Orlová neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70028",
+  "nazev": "TJ Fulnek",
+  "adresa": "Sportovní 535, 74245 Fulnek",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70029",
+  "nazev": "Tenisový klub Příbor,z.s.",
+  "adresa": "Štramberská 1361, 74258 Příbor",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70030",
+  "nazev": "TTK Hranice-zrušen",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70031",
+  "nazev": "Tenisový klub Přerov, spolek neaktivní klub",
+  "adresa": "U Tenisu 3250/16, 75002 Přerov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70032",
+  "nazev": "Sokol Štíty neaktivní klub",
+  "adresa": "Sportovní , 789 91 Štíty",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70033",
+  "nazev": "TJ TO Gumárny Zubří neaktivní klub",
+  "adresa": "Hlavní , U sokolovny, 75654 Zubří",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70034",
+  "nazev": "TJ Vítkov",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70035",
+  "nazev": "TJ Jarcová neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70036",
+  "nazev": "TJ Zbrojovka Vsetín",
+  "adresa": "Tyršova 1456, 75501 Vsetín",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70037",
+  "nazev": "TJ Hanušovice neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70038",
+  "nazev": "TK Hlučín",
+  "adresa": "CELNÍ 1879/1a, 748 01 HLUČÍN",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70039",
+  "nazev": "Sokol Bohumín",
+  "adresa": "Park Petra Bezruče (na konci ulice Sadová), 73581 Bohumín",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70040",
+  "nazev": "TK Kopřivnice z.s.",
+  "adresa": "Dolní 46, 742 21 Kopřivnice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70041",
+  "nazev": "TJ Sokol Rychvald",
+  "adresa": "Na Fojtství 764, 73532 Rychvald",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70042",
+  "nazev": "ČLTK 1928 Olomouc",
+  "adresa": "17. listopadu 41, 77900 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70043",
+  "nazev": "TK Dolní Benešov",
+  "adresa": "Osada Míru 313, 74722 Dolní Benešov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70044",
+  "nazev": "TO VOKD Ostrava-Poruba",
+  "adresa": "SAP Poruba, Skautská 105, 70800 Ostrava Poruba",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70045",
+  "nazev": "Tenisový klub Bruntál, z.s.",
+  "adresa": "Mlýnská 8, , 79201 Bruntál",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70046",
+  "nazev": "TO Odry",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70047",
+  "nazev": "TJ Depos Horní Suchá",
+  "adresa": "U lékárny 869, 73535 Horní Suchá",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70048",
+  "nazev": "TJ Veselá neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70049",
+  "nazev": "TJ Jäkl Karviná neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70050",
+  "nazev": "TJ Frenštát pod Radhoštěm, spolek",
+  "adresa": "Školská čtvrť u Hotel Bartoš, 74401 Frenštát p. R.",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70051",
+  "nazev": "TK DEZA Valašské Meziříčí",
+  "adresa": "Kouty 1581, 75701 Valašské Meziříčí",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70052",
+  "nazev": "TJ Slavoj Loštice",
+  "adresa": "Sokolská, 789 83 Loštice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70053",
+  "nazev": "Sokol Vrbno p.Pradědem",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70054",
+  "nazev": "TK Bílovec",
+  "adresa": "Ostravská, 74301 Bílovec",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70055",
+  "nazev": "TJ Svatý Kopeček neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70056",
+  "nazev": "TK Slavia Orlová",
+  "adresa": "Na Stuchlíkovci 340, 73514 Orlová - Lutyně",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70057",
+  "nazev": "TK Milo Olomouc",
+  "adresa": "Na střelnici 37, 77900 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70058",
+  "nazev": "Sokol Zábřeh",
+  "adresa": "Sokolská 13, 78901 Zábřeh",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70059",
+  "nazev": "Sokol Trnávka neaktivní klub",
+  "adresa": "tenisový areál, 74261 Trnávka",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70060",
+  "nazev": "TJ Baník 1.máj Karviná neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70061",
+  "nazev": "Family Tennis Ostrava",
+  "adresa": "Krakovská 1104/13, 70030 Ostrava-Hrabůvka",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70062",
+  "nazev": "Tenisový klub Šternberk, z.s.",
+  "adresa": "Svatoplukova 15, 785 01 Šternberk",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70063",
+  "nazev": "TK Havířov, z.s.",
+  "adresa": "Opletalova 1218/8b, 73601 Havířov-Šumbark",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70064",
+  "nazev": "VP Frýdek Místek neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70065",
+  "nazev": "TJ Jiskra Rýmařov",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70066",
+  "nazev": "TJ Háj ve Slezsku neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70067",
+  "nazev": "TJ Baník Hrušov",
+  "adresa": "Plovárenská 383, 71100 Ostrava - Hrušov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70068",
+  "nazev": "TJ Baník Ostrava OKD",
+  "adresa": "Budečská 2/2731, 70100 Ostrava I.",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70069",
+  "nazev": "TK Krnov",
+  "adresa": "Smetanův okruh 2518/11, 79401 Krnov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70071",
+  "nazev": "SLOVAN HRANICE, z.s.",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70072",
+  "nazev": "TJ Kovohutě Břidličná neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70073",
+  "nazev": "TJ Sokol Hrabová neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70074",
+  "nazev": "TK Mohelnice, z.s.",
+  "adresa": "1.máje 787/14, 78985 Mohelnice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70075",
+  "nazev": "TJ Libina neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70076",
+  "nazev": "TK Jeseník",
+  "adresa": "Janáčkova 747, 79001 Jeseník",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70077",
+  "nazev": "TO TJ Brušperk neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70078",
+  "nazev": "TJ Spartak Chuchelná, z.s.",
+  "adresa": "K.M.Lichnovského 101, 74724 Chuchelná",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70079",
+  "nazev": "TK Petřvald,o.s.",
+  "adresa": "Okrajová 1872, 73541 Petřvald",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70080",
+  "nazev": "TJ Sokol Dolní Lhota",
+  "adresa": "Sportovní, 74766 Dolní Lhota",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70081",
+  "nazev": "TJ Slavia Minerva Opava",
+  "adresa": "Wolkerova 1a, 74705 Opava",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70082",
+  "nazev": "TJ Starý Jičín neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70083",
+  "nazev": "SK Velká Bystřice neaktivní klub",
+  "adresa": "Na Letné 79, 783 53 Velká Bystřice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70084",
+  "nazev": "TO Servis Lapačka Šenov neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70085",
+  "nazev": "TJ Spartak Loučná n.Des. neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70086",
+  "nazev": "SK Pržno",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70087",
+  "nazev": "TK ARBREX-OSTRAVA",
+  "adresa": "Na úžině , 72400 Stará Bělá",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70088",
+  "nazev": "Bates Bartošovice neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70089",
+  "nazev": "TC Ostrava Nová Ves",
+  "adresa": "U Boříka 280/369, 709 00 Ostrava-Nová Ves",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70090",
+  "nazev": "Tenis-club Vlčovice neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70091",
+  "nazev": "TJ Sokol K.T.S.Kojetín neaktivní klub",
+  "adresa": "Tržní nám. 63, 752 01 Kojetín",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70092",
+  "nazev": "TO Samotišky neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70093",
+  "nazev": "TJ Loko Krnov klub zrušen",
+  "adresa": "Slezská 5, 79401 Krnov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70094",
+  "nazev": "TK Ostrava-Mariánské Hory neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70095",
+  "nazev": "TJ SKI Turist V.Karlovice neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70096",
+  "nazev": "TJ Sokol Stěbořice",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70097",
+  "nazev": "TC Mořkov neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70098",
+  "nazev": "TK Seliko Přerov neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70099",
+  "nazev": "TK Gymnázium Uničov",
+  "adresa": "Nemocniční 1194, 78391 Uničov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70100",
+  "nazev": "TJ MEZ Vsetín",
+  "adresa": "Mostecká 367, 755 01 Vsetín",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70101",
+  "nazev": "SK Lapos Frenštát p.R. neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70103",
+  "nazev": "TK Kubáň Ostrava neaktivní klub",
+  "adresa": "Slavíkova 6195, 70800 Ostrava-Poruba",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70104",
+  "nazev": "1.PTK Nový Jičín neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70105",
+  "nazev": "TK Český Těšín klub zrušen",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70106",
+  "nazev": "T.T.C.Rožnov neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70107",
+  "nazev": "TK Opava",
+  "adresa": "Jaselská 2754/20, 74707 Opava 7",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70108",
+  "nazev": "Tenisový klub Karlický, z.s. neaktivní klub",
+  "adresa": "č.p. 285, 739 49 METYLOVICE",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70109",
+  "nazev": "SKT Frýdlant n.O.",
+  "adresa": "Sportovní 863 , 73911 Frýdlant nad Ostravicí",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70110",
+  "nazev": "LTC Přerov neaktivní klub",
+  "adresa": "Žižkova 3, 75002 Přerov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70111",
+  "nazev": "TC DENAS klub zrušen",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70112",
+  "nazev": "I.NTC Olomouc",
+  "adresa": "E.F.Buriana 195/4, 77900 Olomouc-Svatý Kopeček",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70113",
+  "nazev": "TSC Ostrava",
+  "adresa": "Budečská 11, 70200 Ostrava 1",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70114",
+  "nazev": "TK Talent Bohumín",
+  "adresa": "Bachmačská 9, 70200 Ostrava 1",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70115",
+  "nazev": "TENIS Šumperk neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70116",
+  "nazev": "TC Mexico Ostrava neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70117",
+  "nazev": "TK SK Třinec neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70118",
+  "nazev": "TK POPS Stěbořice neaktivní klub",
+  "adresa": "Holčovická 267, 74781 Otice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70119",
+  "nazev": "TK TENNISPOINT FM",
+  "adresa": "Skautská 3763, 73801 Frýdek-Místek",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70120",
+  "nazev": "SKP Ostrava-DATO",
+  "adresa": "30.dubna č. 24, 702 00 Ostrava 1",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70121",
+  "nazev": "TJ Horní Benešov",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70122",
+  "nazev": "SK LAMA o.s.",
+  "adresa": "Gudrichova 762, 747 41 Hradec nad Moravicí",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70123",
+  "nazev": "TK SILESSIA neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70124",
+  "nazev": "SK Burek neaktivní klub",
+  "adresa": "Bruzovice 140, 73936 Sedliště",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70125",
+  "nazev": "Tenis Rožnov p.Radhoštěm neaktivní klub",
+  "adresa": "Hradišťko 1613, 75661 Rožnov pod Radhoštěm",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70126",
+  "nazev": "TJ Sokol Pstruží, z.s.",
+  "adresa": "č.p. 93, 739 11 Pstruží",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70127",
+  "nazev": "TC Karviná",
+  "adresa": "U Hřiště 718/27, 73401 Karviná-Ráj",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70128",
+  "nazev": "Klub přátel tenisu klub zrušen",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70129",
+  "nazev": "Junior Tenis Ostrava",
+  "adresa": "Oty Synka 1844, 70800 Ostrava-Poruba",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70130",
+  "nazev": "Junior Tenis Karviná",
+  "adresa": "tř. Těreškovové 2271/43, 73401 Karviná-Mizerov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70131",
+  "nazev": "TJ TO Sokol Stará Bělá",
+  "adresa": "Nad Rybníkem 1173/7, 72400 Ostrava-Stará Bělá",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70132",
+  "nazev": "SK Vitality Slezsko o.s.",
+  "adresa": "Sportovní areál Vendryně 1017, 73994 Vedryně",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70133",
+  "nazev": "TO Slovan Havířov neaktivní klub",
+  "adresa": "Opletalova 1218/8b, 73601 Havířov-Šumbark",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70134",
+  "nazev": "DTJ Tenis Vřesina",
+  "adresa": "Osvobození 524, 742 85 Vřesina okres Ostrava-Město",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70135",
+  "nazev": "JUNIOR CENTRUM Krnov",
+  "adresa": "Žižkova 24, 79401 Krnov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70136",
+  "nazev": "TK Slavia Malé Hoštice neaktivní klub",
+  "adresa": "Slezská 12, 74705 Opava-Malé Hoštice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70137",
+  "nazev": "Sport Centrum Czech Republic neaktivní klub",
+  "adresa": "Lužní 3, 78735 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70138",
+  "nazev": "SK Tenis Hradec n.Moravicí o.s.",
+  "adresa": "Tyršovo nábřeží 393, 74741 Hradec nad Moravicí",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70139",
+  "nazev": "Tenisový klub Hranice neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70140",
+  "nazev": "SK Véska",
+  "adresa": "Véska 6, 783 16 Dolany - Véska",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70141",
+  "nazev": "SPORTOVNÍ KLUB KOUTY z.s.",
+  "adresa": "Kostelní 2061/28a, 74721 Kravaře - Kouty",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70142",
+  "nazev": "Rožnovský tenisový klub",
+  "adresa": "Pod Strání 312, 756 61 Rožnov pod Radhoštěm",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70143",
+  "nazev": "Bartoň a Partner Group a.s.neaktivní klub",
+  "adresa": "Chválkovická 104/158, 77200 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70144",
+  "nazev": "TJ Spartak Jablůnka neaktivní klub",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70145",
+  "nazev": "TOPTENNIS club neaktivní klub",
+  "adresa": "Pohraniční 23/52, 70300 Ostrava 3",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70146",
+  "nazev": "Tenisový klub Soláň-klub zrušen",
+  "adresa": "",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70147",
+  "nazev": "ITS Tennis Club, z.s.",
+  "adresa": "Na Střelnici 42, 77900 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70148",
+  "nazev": "Tenisový klub Studénka z.s.",
+  "adresa": "Budovatelská 858, Butovice, 74213 Studénka",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70149",
+  "nazev": "TREND SPORT, z.s.",
+  "adresa": "Slezská 2255/5, 794 01 Krnov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70150",
+  "nazev": "TK PRECHEZA Přerov o.s.",
+  "adresa": "Kosmákova 55, 750 02 Přerov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70151",
+  "nazev": "Tenisový klub Tenet",
+  "adresa": "Přátelství 298/9c, 73601 Havířov-Životice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70152",
+  "nazev": "Městský tenisový klub Karviná",
+  "adresa": "Sportovní 896, 73506 Karviná-Nové Město",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70153",
+  "nazev": "TK Na Dolině o.s.",
+  "adresa": "Trojanovice 112, 74401 Frenštát pod Radhoštěm",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70154",
+  "nazev": "TENIS TONDACH Hranice, z.s.",
+  "adresa": "Sady Čs. legií 750, 75301 Hranice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70155",
+  "nazev": "TK Radegast",
+  "adresa": "Pod Strání 2834, 75661 Rožnov p.Radhoštěm",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70156",
+  "nazev": "Tennis Team Academy",
+  "adresa": "Olbrachtova 3540, 73801 Frýdek Místek",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70157",
+  "nazev": "TK ETIAM neaktivní klub",
+  "adresa": "Dukelská 994, 73961 Třinec VI",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70158",
+  "nazev": "TK PRIS Frýdek-Místek neaktivní klub",
+  "adresa": "28.října 2236, 73801 Frýdek-Místek",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70159",
+  "nazev": "Tennis Hill Havířov o.s.",
+  "adresa": "Padlých hrdinů 401/10a, 73601 Havířov - Životice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70160",
+  "nazev": "Mladý tenista, z.s. neaktivní klub",
+  "adresa": "Za nemocnicí 893/5, 74301 Bílovec",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70161",
+  "nazev": "TK TJ Ostrava",
+  "adresa": "Varenská 40 a, 70200 Ostrava",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70162",
+  "nazev": "SK JC Sport Opava",
+  "adresa": "Karlovecká 1B, 74707 Opava",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70163",
+  "nazev": "Prestige tennis club Frýdek-Místek",
+  "adresa": "28.rijna 2236, Frydek-Mistek",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70164",
+  "nazev": "TJ Sokol Bludov",
+  "adresa": "tř.A. Kašpara 357, 789 61",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70165",
+  "nazev": "TJ TK Šumperk neaktivní klub",
+  "adresa": "Třebízského 1514/12, 78701 Šumperk",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70166",
+  "nazev": "Tenisový klub Veřovice, z.s. neaktivní klub",
+  "adresa": "Veřovice 606, 742 73 Veřovice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70167",
+  "nazev": "SK Vítkovice 1926-Ridera, z.s.",
+  "adresa": "Závodní 2885/86, 70300 Ostrava Vítkovice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70168",
+  "nazev": "Tenisový Klub Kozlovice z.s. neaktivní klub",
+  "adresa": "Přerov IV-Kozlovice 211, 75002 Přerov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70169",
+  "nazev": "TJ SOKOL PRAŽMO-RAŠKOVICE",
+  "adresa": "Raškovice č. 572, 739 04 Raškovice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70170",
+  "nazev": "SK Pržno,spolek",
+  "adresa": "Pržno 310, 739 11",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70171",
+  "nazev": "Tenisový klub Sokol Lipník n.B.",
+  "adresa": "Tyršova 733, 75131 Lipník nad Bečvou",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70172",
+  "nazev": "Hill Club Úvalno z.s.",
+  "adresa": "Úvalno 38, 79391 Úvalno 38",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70173",
+  "nazev": "TJ Sokol Huslenky, z.s.",
+  "adresa": "Huslenky 585, 75602 Huslenky",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70174",
+  "nazev": "Tenisklub7",
+  "adresa": "Jiráskova 457, 73801 Český Těšín",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70175",
+  "nazev": "Pašťa tenis, z.s.",
+  "adresa": "Pavlovická 18/47, 77900 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70176",
+  "nazev": "TK EZE Olomouc z.s.-klub zrušen",
+  "adresa": "gen.Píky 300/12, 779 00 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70177",
+  "nazev": "CLTC Olomouc,z.s.",
+  "adresa": "Masarykova tř.821/46, 77900 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70178",
+  "nazev": "PANORAMA Sport Frýdlant nad Ostravicí",
+  "adresa": "Sportovní 1530, 73911 Frýdlant n.O.",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70179",
+  "nazev": "TK EQUI FORUM, s.r.o. neaktivní klub",
+  "adresa": "Vřesínská 128/40, 70800 Ostrava-Poruba",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70180",
+  "nazev": "TJ Tatran Litovel, z.s.",
+  "adresa": "Nám. Př. Otakara 770/4, 78401 Litovel",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70181",
+  "nazev": "Prime tennis club, z.s.",
+  "adresa": "V Kolonii 187, 739 34 Václavovice",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70182",
+  "nazev": "TK Tatran Štítina",
+  "adresa": "I.Kubince 344, 747 91 Štítina",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70183",
+  "nazev": "Ravelin Tennis Club",
+  "adresa": "U Hradiska 29, 779 00 Olomouc",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70184",
+  "nazev": "HAS - Klub",
+  "adresa": "Svazarmovská 317, 738 01 Frýdek Místek",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70185",
+  "nazev": "Spolek Tenisák, z.s.",
+  "adresa": "Ke Koupališti 48/24, 74794 Děhylov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70186",
+  "nazev": "Tenis J&M Šumperk z.s.",
+  "adresa": "Sportovní 2592/16, 78701 Šumperk",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70187",
+  "nazev": "Tenisový klub Jablunkov z.s.",
+  "adresa": "Jablunkov 298, 73991 Jablunkov",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70188",
+  "nazev": "TJ Sokol Nová Běla",
+  "adresa": "Mitrovická 808/356, 72400 Ostrava-Nová Bělá",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70189",
+  "nazev": "TK G. Navrátilová Stonava, z.s.",
+  "adresa": "Stonava 1201, 73534",
+  "region": "Severomoravský"
+ },
+ {
+  "cislo": "70190",
+  "nazev": "TP POINT FM",
+  "adresa": "Skautská 3763, 73801 Frýdek-Místek",
+  "region": "Severomoravský"
+ }
+]

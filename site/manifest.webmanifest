@@ -1,0 +1,10 @@
+{
+  "name": "Tenisová mapa turnajů",
+  "short_name": "Tenis mapa",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#12372A",
+  "theme_color": "#12372A",
+  "lang": "cs",
+  "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]
+}
