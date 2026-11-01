@@ -31,6 +31,11 @@ Předávací log (stav k 1. 11. 2026, noc, verze webu v2.6).
 - Přepínač CZ/EN v pravém sloupci tlačítek mapy a v O aplikaci. Názvy turnajů, klubů a adresy zůstávají česky (data ČTS).
 - Nový text v aplikaci = přidat anglický překlad do `EN` v i18n.js (jinak se ukáže česky).
 
+## Místa přeborů podle rozpisu svazu
+- `data/mista_svaz.csv` (sezona;kod;klub;zdroj;poznamka): oblastní přebor (kód turnaje) → pořádající klub podle rozpisu svazu.
+  Má přednost před „místem loňského ročníku“, dokud ČTS nedoplní adresu do detailu turnaje. Z2627: Jihočeský TS – všech 9 přeborů
+  (výsledky výběrového řízení zima 2026/27, interní dokument svazu poskytnutý uživatelem – do repozitáře jen kód → klub).
+
 ## Údržba
 - Nový žebříček ČTS: exportovat z Tenis Data `data/01_zebricky/zebricky.csv` do `pipeline/zebricek_<období>.json`
   (stejný formát jako `zebricek_2027Z.json`); web bere poslední soubor.

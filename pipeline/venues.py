@@ -25,7 +25,7 @@ geo_http = Http(ua=UA_GEO, pause=1.1)  # pravidla Nominatim: max 1 požadavek/s
 cts_http = Http(pause=0.3)
 CACHE = load("geocache.json", {})
 STOP = set("tj tk sk ltc tc tcm tsm lob sa z s o s spolek sokol tenis tennis tenisovy klub club oddil sportovni centrum cz a as s r o "
-           "academy akademie team clubu area arena sport sportcentrum".split())
+           "academy akademie team clubu area arena sport sportcentrum resort park hala sportovni".split())
 RA = {"praha": "Praha", "stredocesky": "Středočeský", "jihocesky": "Jihočeský", "zapadocesky": "Západočeský",
       "severocesky": "Severočeský", "vychodocesky": "Východočeský", "jihomoravsky": "Jihomoravský",
       "severomoravsky": "Severomoravský", "cts": "ČTS"}
@@ -214,7 +214,7 @@ def osm_index():
     global _OSM
     if _OSM is None:
         d = load("osm_tenis.json", {}) or {}
-        _OSM = [f for f in d.get("arealy", []) if f.get("kurty") or not re.search(r"squash|badminton|bowling|fitness|golf", norm(f.get("nazev", "")))]
+        _OSM = [f for f in d.get("arealy", []) if f.get("kurty") or re.search(r"tenis|tennis", norm(f.get("nazev", "")))]   # bez kurtů jen haly s tenisem v názvu
         for f in _OSM:
             f["_n"] = set(norm(" ".join([f.get("nazev", ""), re.sub(r"https?://|www\.|\.(cz|com|eu|org|net)\b.*", " ", f.get("web", "")),
                                         f.get("adresa", "")])).split())
@@ -264,6 +264,9 @@ def snap_to_tennis(pt, club_name, addr="", level="adresa", winter=True):
         return None
     _, d, f, ov = best
     nm = f.get("nazev") or ""          # bez názvu v OSM → v aplikaci se ukáže název pořadatele
+    nn = set(norm(nm).split())
+    if nm and not ov and not any(t.startswith(("tenis", "tennis")) for t in nn) and not (toks & nn):
+        nm = ""                            # název jiného sportoviště v okolí (např. „Jump aréna“) – nepoužít
     return f["lat"], f["lon"], nm, round(d, 2), ov, f.get("kurty", 0)
 
 
@@ -301,6 +304,18 @@ def load_overrides():
     return out
 
 
+def load_svaz_mista():
+    """data/mista_svaz.csv – místa oblastních přeborů podle rozpisu svazu (sezona;kod;klub;zdroj;poznamka)."""
+    p = os.path.join(DATA, "mista_svaz.csv")
+    out = {}
+    if os.path.exists(p):
+        with open(p, encoding="utf-8-sig") as f:
+            for r in csv.DictReader(f, delimiter=";"):
+                if r.get("kod") and r.get("klub"):
+                    out[(r.get("sezona", "").strip(), r["kod"].strip())] = r
+    return out
+
+
 def club_index(clubs):
     idx = {}
     for c in clubs:
@@ -330,13 +345,19 @@ def resolve(requests, clubs, old=None):
     idx = club_index(clubs)
     ovr = load_overrides()
     mem = load("mista_kluby.json", {}) or {}
+    svm = load_svaz_mista()
     old = old or {}
     out = {}
     for i, (key, rq) in enumerate(sorted(requests.items())):
         por, ad, code = rq["poradatel"], clean_addr(rq.get("adresa_detail", "")), rq.get("kod", "")
         club = None if norm(por) in RA else find_club(idx, por)
+        sv = svm.get((rq.get("sezona", ""), code)) if norm(por) in RA else None
+        if sv and not ad:                    # přebor svazu: pořádající klub podle rozpisu svazu
+            club = find_club(idx, sv["klub"])
         if ad:
             addr, src = ad, "detail"
+        elif sv and club:
+            addr, src = clean_addr(club["adresa"]), "svaz_rozpis"
         elif club:
             addr, src = clean_addr(club["adresa"]), "adresar"
         elif code:
@@ -349,7 +370,7 @@ def resolve(requests, clubs, old=None):
         if g:
             v.update(lat=round(g[0], 6), lon=round(g[1], 6), presnost=g[2], geokod=g[3])
             winter = rq.get("sezona", "Z")[0] == "Z"
-            s = snap_to_tennis((g[0], g[1]), por if src != "loni" else "", addr, level=g[2], winter=winter)
+            s = snap_to_tennis((g[0], g[1]), sv["klub"] if src == "svaz_rozpis" else (por if src != "loni" else ""), addr, level=g[2], winter=winter)
             if g[2] == "ulice":
                 v["presnost"] = "obec"
             if s:
@@ -357,6 +378,13 @@ def resolve(requests, clubs, old=None):
                          presnost="areal" if (g[2] == "adresa" or s[4] >= 1) else "areal_obec")
             if src == "loni":
                 v["presnost"] = "odhad"
+        if src == "svaz_rozpis":
+            v["poznamka"] = f"místo podle rozpisu svazu: {sv['klub']}"
+            # ověřený areál pořádajícího klubu (paměť míst) má přednost
+            known = [m for m in mem.get(norm(sv["klub"]), []) if m["presnost"] in ("areal", "rucne")]
+            if known:
+                m = min(known, key=lambda m: dist_km((v["lat"], v["lon"]), (m["lat"], m["lon"])) if v["lat"] is not None else 0)
+                v.update(lat=m["lat"], lon=m["lon"], nazev_mista=m.get("nazev", ""), presnost="areal")
         if key in ovr:
             o = ovr[key]
             v.update(lat=float(o["lat"]), lon=float(o["lon"]), presnost="rucne", nazev_mista=o.get("nazev_mista") or v["nazev_mista"],

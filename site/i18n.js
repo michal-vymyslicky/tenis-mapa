@@ -96,6 +96,7 @@ window.I18N = (() => {
     "Adresa podle ČTS, ověřeno v mapě": "Address according to ČTS, verified on the map",
     "místo podle ověřeného areálu klubu": "location from the club's verified venue",
     "ročník": "season",
+    "místo podle rozpisu svazu": "venue according to the regional association's schedule",
     // --- seznam a karty ---
     "turnajů": "tournaments", "míst": "venues", "bez místa": "without location",
     "děti": "children", "muži": "men", "ženy": "women", "chlapci": "boys", "dívky": "girls",

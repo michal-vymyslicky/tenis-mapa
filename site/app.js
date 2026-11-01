@@ -77,7 +77,7 @@ const nf = n => n.toLocaleString(EN ? "en-GB" : "cs-CZ");
 const DOW_CS = {Po: "Mon", Út: "Tue", St: "Wed", Čt: "Thu", Pá: "Fri", So: "Sat", Ne: "Sun"};
 const prezText = s => !EN || !s ? s : s.replace(/(^|[\s,(])(Po|Út|St|Čt|Pá|So|Ne)(?=[\s.,]|$)/g, (m, a, d) => a + DOW_CS[d]).replace(/\bdo\b/g, "until").replace(/\s*hod\.?/g, "").trim();
 /* poznámka k místu z pipeline (česky) */
-const noteText = s => !EN || !s ? s : s.replace("místo podle ověřeného areálu klubu", T("místo podle ověřeného areálu klubu")).replace("ročník", T("ročník"));
+const noteText = s => !EN || !s ? s : s.replace("místo podle ověřeného areálu klubu", T("místo podle ověřeného areálu klubu")).replace("místo podle rozpisu svazu", T("místo podle rozpisu svazu")).replace("ročník", T("ročník"));
 function toast(t) { const el = $("#toast"); el.textContent = t; el.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => el.hidden = true, 2600); }
 const isDesk = () => innerWidth >= 900;
 

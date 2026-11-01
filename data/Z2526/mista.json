@@ -34,7 +34,7 @@
   "lat": 49.205658,
   "lon": 16.611204,
   "presnost": "areal",
-  "nazev_mista": "SK Královo Pole",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Lužánecká 2016/7, Černá Pole, 60200 Brno"
  },
@@ -47,7 +47,7 @@
   "lat": 49.205658,
   "lon": 16.611204,
   "presnost": "areal",
-  "nazev_mista": "SK Královo Pole",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Lužánecká 2016/7, Černá Pole, 60200 Brno"
  },
@@ -187,11 +187,11 @@
   "adresa": "Bukolská 838/2a, Praha 8",
   "zdroj": "adresar",
   "region": "Praha",
-  "lat": 50.129801,
-  "lon": 14.434346,
+  "lat": 50.130854,
+  "lon": 14.436892,
   "presnost": "areal",
   "nazev_mista": "Slovan Bohnice",
-  "osm_vzdalenost_km": 0.09,
+  "osm_vzdalenost_km": 0.27,
   "geokod": "OSM: Bukolská, Čimice, Praha 8, obvod Praha 8, Praha, 181 06, Česko"
  },
  "klub:lob s a bohnice z s|bukolska 838 2a praha 8": {
@@ -200,11 +200,11 @@
   "adresa": "Bukolská 838/2a, Praha 8",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.129801,
-  "lon": 14.434346,
+  "lat": 50.130854,
+  "lon": 14.436892,
   "presnost": "areal",
   "nazev_mista": "Slovan Bohnice",
-  "osm_vzdalenost_km": 0.09,
+  "osm_vzdalenost_km": 0.27,
   "geokod": "OSM: Bukolská, Čimice, Praha 8, obvod Praha 8, Praha, 181 06, Česko"
  },
  "klub:lokomotiva nymburk|boleslavska 319 nymburk": {
@@ -603,11 +603,11 @@
   "adresa": "Tuřanka 1260/1, Brno",
   "zdroj": "adresar",
   "region": "Jihomoravský",
-  "lat": 49.176013,
-  "lon": 16.688138,
-  "presnost": "areal",
+  "lat": 49.176424,
+  "lon": 16.688113,
+  "presnost": "adresa",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
+  "osm_vzdalenost_km": null,
   "geokod": "RÚIAN: Tuřanka 1260/1, Slatina, 62700 Brno"
  },
  "klub:shark brno|turanka 1260 1 brno": {
@@ -616,11 +616,11 @@
   "adresa": "Tuřanka 1260/1, Brno",
   "zdroj": "detail",
   "region": "Jihomoravský",
-  "lat": 49.176013,
-  "lon": 16.688138,
-  "presnost": "areal",
+  "lat": 49.176424,
+  "lon": 16.688113,
+  "presnost": "adresa",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
+  "osm_vzdalenost_km": null,
   "geokod": "RÚIAN: Tuřanka 1260/1, Slatina, 62700 Brno"
  },
  "klub:sk hamr z s": {
@@ -904,7 +904,7 @@
   "lat": 50.075449,
   "lon": 14.598716,
   "presnost": "areal_obec",
-  "nazev_mista": "Na Korunce",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 1.82,
   "geokod": "OSM: Na Kempu, 290, Národních hrdinů, Praha-Dolní Počernice, obvod Praha 9, Praha, 190 12, Česko"
  },
@@ -1061,7 +1061,7 @@
   "lat": 49.232032,
   "lon": 16.585062,
   "presnost": "areal",
-  "nazev_mista": "TC Brno",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Herčíkova 3071/19b, Královo Pole, 61200 Brno"
  },
@@ -1100,7 +1100,7 @@
   "lat": 50.131913,
   "lon": 14.474132,
   "presnost": "areal",
-  "nazev_mista": "Beach klub Ládví",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.12,
   "geokod": "RÚIAN: Chabařovická 1125/4, Kobylisy, 18200 Praha 8"
  },
@@ -1113,7 +1113,7 @@
   "lat": 50.131913,
   "lon": 14.474132,
   "presnost": "areal",
-  "nazev_mista": "Beach klub Ládví",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.12,
   "geokod": "RÚIAN: Chabařovická 1125/4, Kobylisy, 18200 Praha 8"
  },
@@ -1123,11 +1123,11 @@
   "adresa": "Revoluční 1295, Jičín",
   "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 50.440682,
-  "lon": 15.363164,
+  "lat": 50.441373,
+  "lon": 15.367031,
   "presnost": "areal",
-  "nazev_mista": "Aqua centrum",
-  "osm_vzdalenost_km": 0.2,
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.09,
   "geokod": "RÚIAN: Revoluční 1295, Valdické Předměstí, 50601 Jičín"
  },
  "klub:tc mj tenis lisen|novolisenska brno lisen": {
@@ -1266,11 +1266,11 @@
   "adresa": "Táborská 1071, Sezimovo Ústí",
   "zdroj": "detail",
   "region": "Jihočeský",
-  "lat": 49.394353,
-  "lon": 14.687797,
+  "lat": 49.384199,
+  "lon": 14.678913,
   "presnost": "areal",
-  "nazev_mista": "Jump aréna Tábor",
-  "osm_vzdalenost_km": 0.96,
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.34,
   "geokod": "RÚIAN: Táborská 1071, 39101 Sezimovo Ústí"
  },
  "klub:tenis centrum dtj hk|u labe 427 hradec kralove": {
@@ -1334,7 +1334,7 @@
   "lat": 49.976091,
   "lon": 14.515964,
   "presnost": "areal_obec",
-  "nazev_mista": "Sportovní areál Jesenice",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.1,
   "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko"
  },
@@ -1347,7 +1347,7 @@
   "lat": 49.976091,
   "lon": 14.515964,
   "presnost": "areal_obec",
-  "nazev_mista": "Sportovní areál Jesenice",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.1,
   "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko"
  },
@@ -1568,7 +1568,7 @@
   "lat": 49.605061,
   "lon": 15.569365,
   "presnost": "areal",
-  "nazev_mista": "TJ Jiskra Havlíčkův Brod",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: Ledečská 4069, 58001 Havlíčkův Brod"
  },
@@ -1581,7 +1581,7 @@
   "lat": 49.605061,
   "lon": 15.569365,
   "presnost": "areal",
-  "nazev_mista": "TJ Jiskra Havlíčkův Brod",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: Ledečská 4069, 58001 Havlíčkův Brod"
  },
@@ -1594,7 +1594,7 @@
   "lat": 49.567091,
   "lon": 18.77234,
   "presnost": "areal",
-  "nazev_mista": "Sport resort Jablunkov – sportovní hala",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: č.p. 298, 73991 Jablunkov"
  },
@@ -1737,7 +1737,7 @@
   "lat": 50.142551,
   "lon": 15.127217,
   "presnost": "areal",
-  "nazev_mista": "Centrální dvorec",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: Jana Opletala 845/2, Poděbrady III, 29001 Poděbrady"
  },
@@ -1828,7 +1828,7 @@
   "lat": 49.02787,
   "lon": 17.641558,
   "presnost": "areal",
-  "nazev_mista": "Sportovní hala TJ Spartak",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.08,
   "geokod": "RÚIAN: Na Dlouhých 812, 68801 Uherský Brod"
  },
@@ -1841,7 +1841,7 @@
   "lat": 49.02787,
   "lon": 17.641558,
   "presnost": "areal",
-  "nazev_mista": "Sportovní hala TJ Spartak",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.08,
   "geokod": "RÚIAN: Na Dlouhých 812, 68801 Uherský Brod"
  },
@@ -1880,7 +1880,7 @@
   "lat": 50.32242,
   "lon": 13.54235,
   "presnost": "areal",
-  "nazev_mista": "Sokolovna",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Studentská 3180, 43801 Žatec"
  },
@@ -1906,7 +1906,7 @@
   "lat": 49.47951,
   "lon": 17.101055,
   "presnost": "areal",
-  "nazev_mista": "Národní sportovní centrum Prostějov",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.17,
   "geokod": "RÚIAN: Za Kosteleckou 4161/49, 79601 Prostějov"
  },
@@ -2114,7 +2114,7 @@
   "lat": 49.794853,
   "lon": 18.412673,
   "presnost": "areal",
-  "nazev_mista": "Slovan Havířov",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Opletalova 1218/8b, Šumbark, 73601 Havířov"
  },
@@ -2218,7 +2218,7 @@
   "lat": 49.739809,
   "lon": 13.398284,
   "presnost": "areal",
-  "nazev_mista": "Stadion Lokomotivy",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.2,
   "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň"
  },
@@ -2231,7 +2231,7 @@
   "lat": 49.739809,
   "lon": 13.398284,
   "presnost": "areal",
-  "nazev_mista": "Stadion Lokomotivy",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.2,
   "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň"
  },
@@ -2478,7 +2478,7 @@
   "lat": 49.847793,
   "lon": 18.290218,
   "presnost": "areal",
-  "nazev_mista": "SC Ostrava",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Budečská 3214/4, Moravská Ostrava, 70200 Ostrava"
  },
@@ -2517,7 +2517,7 @@
   "lat": 50.137447,
   "lon": 14.09045,
   "presnost": "areal",
-  "nazev_mista": "SK Kladno",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Fr. Kloze 294, 27201 Kladno"
  },
@@ -2647,7 +2647,7 @@
   "lat": 50.383322,
   "lon": 14.894967,
   "presnost": "areal",
-  "nazev_mista": "Sport centrum",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.21,
   "geokod": "RÚIAN: Bezděčín 90, 29301 Mladá Boleslav"
  },
@@ -2660,7 +2660,7 @@
   "lat": 50.383322,
   "lon": 14.894967,
   "presnost": "areal",
-  "nazev_mista": "Sport centrum",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.21,
   "geokod": "RÚIAN: Bezděčín 90, 29301 Mladá Boleslav"
  },
@@ -2686,7 +2686,7 @@
   "lat": 50.145769,
   "lon": 13.950514,
   "presnost": "areal",
-  "nazev_mista": "Sportovní hala Stochov",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.32,
   "geokod": "RÚIAN: Zborovská 317, 27303 Stochov"
  },
@@ -2787,11 +2787,11 @@
   "adresa": "Hradská 854, Zlín",
   "zdroj": "detail",
   "region": "Jihomoravský",
-  "lat": 49.221167,
-  "lon": 17.669604,
+  "lat": 49.220523,
+  "lon": 17.667552,
   "presnost": "areal",
-  "nazev_mista": "Lázně Zlín",
-  "osm_vzdalenost_km": 0.23,
+  "nazev_mista": "Tenis badminton",
+  "osm_vzdalenost_km": 0.17,
   "geokod": "RÚIAN: Hradská 854, 76001 Zlín"
  },
  "klub:tk znojmo": {
@@ -2829,7 +2829,7 @@
   "lat": 50.343605,
   "lon": 14.485178,
   "presnost": "areal",
-  "nazev_mista": "TO SK Mělník",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.21,
   "geokod": "OSM: Dům dětí a mládeže Mělník, příspěvková organizace, sady Na Polabí, Mělník, okres Mělník, Středočeský kraj, 276 01, Česko"
  },
@@ -2842,7 +2842,7 @@
   "lat": 50.085701,
   "lon": 16.475259,
   "presnost": "areal",
-  "nazev_mista": "TOSK Žamberk",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.02,
   "geokod": "RÚIAN: U Koupaliště 1362, 56401 Žamberk"
  },
@@ -2855,7 +2855,7 @@
   "lat": 50.085701,
   "lon": 16.475259,
   "presnost": "areal",
-  "nazev_mista": "TOSK Žamberk",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.02,
   "geokod": "RÚIAN: U Koupaliště 1362, 56401 Žamberk"
  },
@@ -2865,11 +2865,11 @@
   "adresa": "Na Příštipku 135, Nehvizdy",
   "zdroj": "adresar",
   "region": "Středočeský",
-  "lat": 50.12921,
-  "lon": 14.727228,
-  "presnost": "areal",
-  "nazev_mista": "Sokolovna",
-  "osm_vzdalenost_km": 0.0,
+  "lat": 50.129245,
+  "lon": 14.727221,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
   "geokod": "RÚIAN: Na Příštipku 135, 25081 Nehvizdy"
  },
  "klub:to sokol nehvizdy|na pristipku 135 nehvizdy": {
@@ -2878,11 +2878,11 @@
   "adresa": "Na Příštipku 135, Nehvizdy",
   "zdroj": "detail",
   "region": "Středočeský",
-  "lat": 50.12921,
-  "lon": 14.727228,
-  "presnost": "areal",
-  "nazev_mista": "Sokolovna",
-  "osm_vzdalenost_km": 0.0,
+  "lat": 50.129245,
+  "lon": 14.727221,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
   "geokod": "RÚIAN: Na Příštipku 135, 25081 Nehvizdy"
  },
  "klub:to tj svitavy": {
@@ -3050,7 +3050,7 @@
   "lat": 49.47951,
   "lon": 17.101055,
   "presnost": "areal",
-  "nazev_mista": "Národní sportovní centrum Prostějov",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.17,
   "geokod": "RÚIAN: Za Kosteleckou 4161/49, 79601 Prostějov"
  },
@@ -3063,7 +3063,7 @@
   "lat": 49.723507,
   "lon": 13.36892,
   "presnost": "areal",
-  "nazev_mista": "TJ Slavia VŠ",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.07,
   "geokod": "RÚIAN: U Borského parku 2916/19, Jižní Předměstí, 30100 Plzeň"
  },
@@ -3076,7 +3076,7 @@
   "lat": 50.77485,
   "lon": 15.074844,
   "presnost": "areal",
-  "nazev_mista": "LTK",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Fibichova 1377/8, Liberec I-Staré Město, 46001 Liberec"
  },
@@ -3258,7 +3258,7 @@
   "lat": 48.757187,
   "lon": 16.855749,
   "presnost": "areal",
-  "nazev_mista": "Bors Břeclav",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Na Valtické 650/85, Charvátská Nová Ves, 69141 Břeclav"
  },
@@ -3284,7 +3284,7 @@
   "lat": 48.757187,
   "lon": 16.855749,
   "presnost": "areal",
-  "nazev_mista": "Bors Břeclav",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Na Valtické 650/85, Charvátská Nová Ves, 69141 Břeclav"
  },
@@ -3297,7 +3297,7 @@
   "lat": 49.213504,
   "lon": 15.896066,
   "presnost": "areal",
-  "nazev_mista": "HTK Třebíč",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Janáčkovo stromořadí 156, Jejkov, 67401 Třebíč"
  },
@@ -3362,7 +3362,7 @@
   "lat": 49.205658,
   "lon": 16.611204,
   "presnost": "areal",
-  "nazev_mista": "SK Královo Pole",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Lužánecká 2016/7, Černá Pole, 60200 Brno"
  },
@@ -3375,7 +3375,7 @@
   "lat": 50.058796,
   "lon": 14.392414,
   "presnost": "odhad",
-  "nazev_mista": "SK Motorlet",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.14,
   "geokod": "RÚIAN: Radlická 298/105, Radlice, 15000 Praha 5"
  },
@@ -3401,7 +3401,7 @@
   "lat": 50.058796,
   "lon": 14.392414,
   "presnost": "areal",
-  "nazev_mista": "SK Motorlet",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.14,
   "geokod": "RÚIAN: Radlická 298/105, Radlice, 15000 Praha 5"
  },
@@ -3427,7 +3427,7 @@
   "lat": 50.054327,
   "lon": 14.485383,
   "presnost": "areal",
-  "nazev_mista": "Hamr",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.15,
   "geokod": "RÚIAN: K vodě 3200/6, Záběhlice, 10600 Praha 10"
  },
@@ -3582,7 +3582,7 @@
   "lat": 50.77485,
   "lon": 15.074844,
   "presnost": "areal",
-  "nazev_mista": "LTK",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Fibichova 1377/8, Liberec I-Staré Město, 46001 Liberec"
  },
@@ -3608,7 +3608,7 @@
   "lat": 50.77485,
   "lon": 15.074844,
   "presnost": "areal",
-  "nazev_mista": "LTK",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Fibichova 1377/8, Liberec I-Staré Město, 46001 Liberec"
  },
@@ -3710,7 +3710,7 @@
   "lat": 49.794853,
   "lon": 18.412673,
   "presnost": "areal",
-  "nazev_mista": "Slovan Havířov",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Opletalova 1218/8b, Šumbark, 73601 Havířov"
  },
@@ -3968,7 +3968,7 @@
   "lat": 50.085701,
   "lon": 16.475259,
   "presnost": "areal",
-  "nazev_mista": "TOSK Žamberk",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.02,
   "geokod": "RÚIAN: U Koupaliště 1362, 56401 Žamberk"
  },
@@ -3981,7 +3981,7 @@
   "lat": 50.085701,
   "lon": 16.475259,
   "presnost": "areal",
-  "nazev_mista": "TOSK Žamberk",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.02,
   "geokod": "RÚIAN: U Koupaliště 1362, 56401 Žamberk"
  },
@@ -4085,7 +4085,7 @@
   "lat": 49.723507,
   "lon": 13.36892,
   "presnost": "areal",
-  "nazev_mista": "TJ Slavia VŠ",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.07,
   "geokod": "RÚIAN: U Borského parku 2916/19, Jižní Předměstí, 30100 Plzeň"
  },
@@ -4124,7 +4124,7 @@
   "lat": 49.723507,
   "lon": 13.36892,
   "presnost": "areal",
-  "nazev_mista": "TJ Slavia VŠ",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.07,
   "geokod": "RÚIAN: U Borského parku 2916/19, Jižní Předměstí, 30100 Plzeň"
  },
@@ -4137,7 +4137,7 @@
   "lat": 49.739809,
   "lon": 13.398284,
   "presnost": "odhad",
-  "nazev_mista": "Stadion Lokomotivy",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.2,
   "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň"
  },
@@ -4176,7 +4176,7 @@
   "lat": 49.605061,
   "lon": 15.569365,
   "presnost": "odhad",
-  "nazev_mista": "TJ Jiskra Havlíčkův Brod",
+  "nazev_mista": "",
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: Ledečská 4069, 58001 Havlíčkův Brod"
  }
