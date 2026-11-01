@@ -4,7 +4,7 @@ Pořadí zdrojů (sloupec `presnost` v mista.json):
   1. adresa z detailu turnaje (ČTS ji vyplní po schválení turnaje)       -> zdroj "detail"
   2. adresa klubu-pořadatele z adresáře klubů ČTS                         -> zdroj "adresar"
   3. turnaje oblastních svazů / ČTS bez adresy: místo loňského ročníku
-     stejného kódu (Z2526)                                                -> zdroj "loni" (odhad)
+     stejného kódu (loňská sezóna)                                                -> zdroj "loni" (odhad)
 Adresa se geokóduje (Nominatim/OSM) a poté se v okolí 2,5 km hledá tenisový areál/hala
 v OSM (sport=tennis, název s „tenis“/„tennis“ nebo shodou s názvem klubu) – `presnost`:
   "areal"  = bod přichycen na tenisový areál v OSM (ověřeno)
@@ -121,11 +121,18 @@ def snap_to_tennis(pt, club_name, addr=""):
     return float(x["lat"]), float(x["lon"]), x.get("name") or "tenisový areál", round(d, 2), ov
 
 
-def last_year_address(code):
-    key = f"loni:{code}"
+def prev_season(season):
+    """Z2627 → Z2526, L27 → L26 (loňský ročník stejného typu)."""
+    y = int(season[1:3])
+    return f"Z{y-1:02d}{y:02d}" if season[0] == "Z" else f"L{y-1:02d}"
+
+
+def last_year_address(code, season="Z2627"):
+    ps = prev_season(season)
+    key = f"loni:{code}" if ps == "Z2526" else f"loni:{ps}:{code}"
     if key in CACHE:
         return CACHE[key]
-    st, body = cts_http.get(f"https://cesky-tenis.cz/turnaj/{code}?sezona=Z2526&tab=seznam")
+    st, body = cts_http.get(f"https://cesky-tenis.cz/turnaj/{code}?sezona={ps}&tab=seznam")
     addr = ""
     if st == 200:
         m = re.search(r"<span>\s*Pořadatel\s*</span>(.*?)</p>", body, re.S)
@@ -186,7 +193,7 @@ def resolve(requests, clubs, old=None):
         elif club:
             addr, src = clean_addr(club["adresa"]), "adresar"
         elif code:
-            addr, src = last_year_address(code), "loni"
+            addr, src = last_year_address(code, rq.get("sezona", "Z2627")), "loni"
         else:
             addr, src = "", "nezname"
         v = {"klic": key, "poradatel": por, "adresa": addr, "zdroj": src, "region": club["region"] if club else RA.get(norm(por), ""),

@@ -12597,5 +12597,2281 @@
    "osm_type": "way",
    "osm_id": 86748655
   }
- ]
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Jakuba+Obrovsk%C3%A9ho+2%2C+Brno-Bystrc": [
+  {
+   "name": "",
+   "display_name": "2/2, Jakuba Obrovského, Brno-Bystrc, Brno, okres Brno-město, Jihomoravský kraj, 635 00, Česko",
+   "lat": "49.2249657",
+   "lon": "16.5325918",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 296587055
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=16.4975918%2C49.2479657%2C16.5675918%2C49.201965699999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=16.4975918%2C49.2479657%2C16.5675918%2C49.201965699999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=16.4975918%2C49.2479657%2C16.5675918%2C49.201965699999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=16.4975918%2C49.2479657%2C16.5675918%2C49.201965699999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=btk&viewbox=16.4975918%2C49.2479657%2C16.5675918%2C49.201965699999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=S%C3%A1zavsk%C3%A1+491%2C+25722+%C4%8Cer%C4%8Dany": [
+  {
+   "name": "",
+   "display_name": "491, Sázavská, Vysoká Lhota, Čerčany, okres Benešov, Středočeský kraj, 257 22, Česko",
+   "lat": "49.8558651",
+   "lon": "14.7021088",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 894382248
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.6671088%2C49.878865100000006%2C14.7371088%2C49.8328651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.6671088%2C49.878865100000006%2C14.7371088%2C49.8328651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.6671088%2C49.878865100000006%2C14.7371088%2C49.8328651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.6671088%2C49.878865100000006%2C14.7371088%2C49.8328651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cltpk&viewbox=14.6671088%2C49.878865100000006%2C14.7371088%2C49.8328651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=S%C3%A1zavsk%C3%A1+491%2C+%C4%8Cer%C4%8Dany": [
+  {
+   "name": "",
+   "display_name": "491, Sázavská, Vysoká Lhota, Čerčany, okres Benešov, Středočeský kraj, 257 22, Česko",
+   "lat": "49.8558651",
+   "lon": "14.7021088",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 894382248
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Letensk%C3%A9+sady%2C+17000+Praha+7": [
+  {
+   "name": "Letenské sady",
+   "display_name": "Letenské sady, Holešovice, Praha 7, obvod Praha 7, Praha, 170 00, Česko",
+   "lat": "50.0967607",
+   "lon": "14.4301366",
+   "category": "highway",
+   "type": "cycleway",
+   "addresstype": "road",
+   "extratags": {
+    "foot": "yes",
+    "surface": "paving_stones",
+    "segregated": "no",
+    "name:etymology:wikidata": "Q1126206"
+   },
+   "osm_type": "way",
+   "osm_id": 1095872779
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.3951366%2C50.1197607%2C14.465136600000001%2C50.073760699999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.3951366%2C50.1197607%2C14.465136600000001%2C50.073760699999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.3951366%2C50.1197607%2C14.465136600000001%2C50.073760699999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.3951366%2C50.1197607%2C14.465136600000001%2C50.073760699999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Letensk%C3%A9+sady%2C+Praha+7": [
+  {
+   "name": "Letenské sady",
+   "display_name": "Letenské sady, Praha 7, obvod Praha 7, Praha, Česko",
+   "lat": "50.0964560",
+   "lon": "14.4271746",
+   "category": "leisure",
+   "type": "park",
+   "addresstype": "park",
+   "extratags": {
+    "wikidata": "Q3500624",
+    "wikipedia": "cs:Letenské sady",
+    "name:etymology:wikidata": "Q1126206"
+   },
+   "osm_type": "relation",
+   "osm_id": 12271961
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.3921746%2C50.11945600000001%2C14.4621746%2C50.073456": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.3921746%2C50.11945600000001%2C14.4621746%2C50.073456": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.3921746%2C50.11945600000001%2C14.4621746%2C50.073456": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.3921746%2C50.11945600000001%2C14.4621746%2C50.073456": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=ltk&viewbox=15.0402139%2C50.7977459%2C15.1102139%2C50.751745899999996": [
+  {
+   "name": "LTK",
+   "display_name": "LTK, Fibichova, Staré Město, Kristiánov, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 461 17, Česko",
+   "lat": "50.7751647",
+   "lon": "15.0750287",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis"
+   },
+   "osm_type": "way",
+   "osm_id": 51788865
+  },
+  {
+   "name": "LTK",
+   "display_name": "LTK, Ondříčkova, Staré Město, Kristiánov, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 461 17, Česko",
+   "lat": "50.7745761",
+   "lon": "15.0737838",
+   "category": "leisure",
+   "type": "sports_hall",
+   "addresstype": "leisure",
+   "extratags": {
+    "building": "yes",
+    "check_date": "2026-01-09"
+   },
+   "osm_type": "way",
+   "osm_id": 363282473
+  },
+  {
+   "name": "LTK",
+   "display_name": "LTK, Masarykova, Staré Město, Kristiánov, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 461 17, Česko",
+   "lat": "50.7748923",
+   "lon": "15.0736839",
+   "category": "leisure",
+   "type": "sports_hall",
+   "addresstype": "leisure",
+   "extratags": {
+    "building": "yes",
+    "check_date": "2026-01-09"
+   },
+   "osm_type": "way",
+   "osm_id": 52413680
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Na+letn%C3%A9+412%2F7%2C+41501+Teplice": [
+  {
+   "name": "",
+   "display_name": "412/7, Na Letné, Prosetice, Teplice, okres Teplice, Ústecký kraj, 415 01, Česko",
+   "lat": "50.6382110",
+   "lon": "13.8339630",
+   "category": "building",
+   "type": "civic",
+   "addresstype": "building",
+   "extratags": {
+    "building:levels": "1"
+   },
+   "osm_type": "way",
+   "osm_id": 168350814
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=ltk&viewbox=13.798963%2C50.661211%2C13.868963%2C50.615210999999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Na+Skalce+380%2C+26701+Kr%C3%A1l%C5%AFv+Dv%C5%AFr": [
+  {
+   "name": "",
+   "display_name": "380, Na Skalce, Počaply, Popovice, Králův Dvůr, okres Beroun, Středočeský kraj, 267 01, Česko",
+   "lat": "49.9406657",
+   "lon": "14.0139522",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2780312929
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=13.9789522%2C49.9636657%2C14.0489522%2C49.91766569999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=13.9789522%2C49.9636657%2C14.0489522%2C49.91766569999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=13.9789522%2C49.9636657%2C14.0489522%2C49.91766569999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=13.9789522%2C49.9636657%2C14.0489522%2C49.91766569999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=radost&viewbox=13.9789522%2C49.9636657%2C14.0489522%2C49.91766569999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Na+Skalce+380%2C+Kr%C3%A1l%C5%AFv+Dv%C5%AFr": [
+  {
+   "name": "",
+   "display_name": "380, Na Skalce, Počaply, Popovice, Králův Dvůr, okres Beroun, Středočeský kraj, 267 01, Česko",
+   "lat": "49.9406657",
+   "lon": "14.0139522",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2780312929
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Gudrichova+762%2C+747+41+Hradec+nad+Moravic%C3%AD": [
+  {
+   "name": "",
+   "display_name": "762, Gudrichova, Kajlovec, Hradec nad Moravicí, okres Opava, Moravskoslezský kraj, 747 41, Česko",
+   "lat": "49.8702770",
+   "lon": "17.8739087",
+   "category": "building",
+   "type": "yes",
+   "addresstype": "building",
+   "extratags": {
+    "building:flats": "1",
+    "building:levels": "1"
+   },
+   "osm_type": "way",
+   "osm_id": 55291760
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Bo%C5%BEeny+N%C4%9Bmcov%C3%A9+3129%2C+%C4%8Cesk%C3%A1+L%C3%ADpa": [
+  {
+   "name": "",
+   "display_name": "3129, Boženy Němcové, Dolní Libchava, Česká Lípa, okres Česká Lípa, Liberecký kraj, 470 01, Česko",
+   "lat": "50.6833463",
+   "lon": "14.5324538",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 989401821
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.4974538%2C50.7063463%2C14.567453800000001%2C50.66034629999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.4974538%2C50.7063463%2C14.567453800000001%2C50.66034629999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.4974538%2C50.7063463%2C14.567453800000001%2C50.66034629999999": [
+  {
+   "name": "tenisová hala",
+   "display_name": "tenisová hala, Boženy Němcové, Dolní Libchava, Česká Lípa, okres Česká Lípa, Liberecký kraj, 470 01, Česko",
+   "lat": "50.6833049",
+   "lon": "14.5324919",
+   "category": "building",
+   "type": "civic",
+   "addresstype": "building",
+   "extratags": {
+    "start_date": "2004-01-10",
+    "building:levels": "1"
+   },
+   "osm_type": "way",
+   "osm_id": 59476457
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.4974538%2C50.7063463%2C14.567453800000001%2C50.66034629999999": [
+  {
+   "name": "tenisové kurty",
+   "display_name": "tenisové kurty, Boženy Němcové, Dolní Libchava, Česká Lípa, okres Česká Lípa, Liberecký kraj, 470 01, Česko",
+   "lat": "50.6839167",
+   "lon": "14.5322694",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "lit": "no",
+    "sport": "tennis",
+    "access": "customers",
+    "surface": "clay"
+   },
+   "osm_type": "way",
+   "osm_id": 856026685
+  },
+  {
+   "name": "tenisové kurty",
+   "display_name": "tenisové kurty, Děčínská, Stará Lípa, Česká Lípa, okres Česká Lípa, Liberecký kraj, 470 01, Česko",
+   "lat": "50.6834849",
+   "lon": "14.5330939",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "lit": "no",
+    "sport": "tennis",
+    "access": "customers",
+    "surface": "clay"
+   },
+   "osm_type": "way",
+   "osm_id": 856026686
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=matchball&viewbox=14.4974538%2C50.7063463%2C14.567453800000001%2C50.66034629999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+Arborky+397%2C+19015+Praha+-+Satalice": [
+  {
+   "name": "Sportareál Praha - Satalice",
+   "display_name": "Sportareál Praha - Satalice, 397, U Arborky, Praha-Satalice, obvod Praha 9, Praha, 190 15, Česko",
+   "lat": "50.1225508",
+   "lon": "14.5675623",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": null,
+   "osm_type": "way",
+   "osm_id": 365631827
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Dlouh%C3%A1+t%C5%99%C3%ADda+17%2C+33805+M%C3%BDto": [
+  {
+   "name": "",
+   "display_name": "17, Dlouhá třída, Mýto, okres Rokycany, Plzeňský kraj, Jihozápad, 338 05, Česko",
+   "lat": "49.7879148",
+   "lon": "13.7323362",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2534828316
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=V%C3%A9ska+6%2C+783+16+Dolany+-+V%C3%A9ska": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Z%C3%A1vodn%C3%AD+2885%2F86%2C+70300+Ostrava+V%C3%ADtkovice": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Z%C3%A1vodn%C3%AD+2885%2F86": [
+  {
+   "name": "Závodní",
+   "display_name": "Závodní, Velká Chuchle, Praha-Velká Chuchle, obvod Praha 5, Praha, 159 00, Česko",
+   "lat": "50.0011756",
+   "lon": "14.3755638",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "oneway": "no"
+   },
+   "osm_type": "way",
+   "osm_id": 25464692
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.3405638%2C50.02417560000001%2C14.4105638%2C49.9781756": [
+  {
+   "name": "Tempo tenis",
+   "display_name": "Tempo tenis, Povodňová, Modřany, Praha 12, obvod Praha 4, Praha, 143 00, Česko",
+   "lat": "50.0065893",
+   "lon": "14.4100081",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis",
+    "website": "https://www.tempotenis.cz"
+   },
+   "osm_type": "node",
+   "osm_id": 11132454976
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.3405638%2C50.02417560000001%2C14.4105638%2C49.9781756": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.3405638%2C50.02417560000001%2C14.4105638%2C49.9781756": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.3405638%2C50.02417560000001%2C14.4105638%2C49.9781756": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=1926+ridera&viewbox=14.3405638%2C50.02417560000001%2C14.4105638%2C49.9781756": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+Koupali%C5%A1t%C4%9B+800%2C+Letovice": [
+  {
+   "name": "",
+   "display_name": "800/14, U Koupaliště, Třebětín, Letovice, okres Blansko, Jihomoravský kraj, 679 61, Česko",
+   "lat": "49.5533878",
+   "lon": "16.5836150",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2786191866
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=16.548615%2C49.576387800000006%2C16.618615000000002%2C49.5303878": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=16.548615%2C49.576387800000006%2C16.618615000000002%2C49.5303878": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=16.548615%2C49.576387800000006%2C16.618615000000002%2C49.5303878": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=16.548615%2C49.576387800000006%2C16.618615000000002%2C49.5303878": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=J%C3%A1chymovsk%C3%A1+613%2F1%2C+Praha+5+-+%C5%98eporyje": [
+  {
+   "name": "",
+   "display_name": "613/1, Jáchymovská, Řeporyje, Praha-Řeporyje, obvod Praha 5, Praha, 155 00, Česko",
+   "lat": "50.0353503",
+   "lon": "14.3129667",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 296782727
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.2779667%2C50.0583503%2C14.3479667%2C50.012350299999994": [
+  {
+   "name": "Tenis Centrum Lužiny",
+   "display_name": "Tenis Centrum Lužiny, Zázvorkova, Malá Ohrada, Velká Ohrada, Praha 13, obvod Praha 5, Praha, 155 00, Česko",
+   "lat": "50.0464372",
+   "lon": "14.3350467",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "fee": "yes",
+    "email": "info@tenis-luziny.cz",
+    "phone": "+420 731 011 110",
+    "sport": "tennis;badminton;table_tennis",
+    "website": "https://www.tenis-luziny.cz/",
+    "building": "civic",
+    "operator": "Twnisový Klub \"Sport Aktiv\"",
+    "check_date": "2025-03-28",
+    "start_date": "2006-06-23",
+    "wheelchair": "no",
+    "opening_hours": "08:00-22:00",
+    "operator:type": "business",
+    "building:levels": "1",
+    "contact:facebook": "https://www.facebook.com/tenis.luziny/",
+    "contact:instagram": "https://www.instagram.com/teniscentrumluziny"
+   },
+   "osm_type": "way",
+   "osm_id": 89970444
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.2779667%2C50.0583503%2C14.3479667%2C50.012350299999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.2779667%2C50.0583503%2C14.3479667%2C50.012350299999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.2779667%2C50.0583503%2C14.3479667%2C50.012350299999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Pod+Homolkou+1482%2C+Beroun": [
+  {
+   "name": "Eden",
+   "display_name": "Eden, 1482, Pod Homolkou, Beroun-Město, Beroun, okres Beroun, Středočeský kraj, 266 01, Česko",
+   "lat": "49.9577452",
+   "lon": "14.0480351",
+   "category": "amenity",
+   "type": "restaurant",
+   "addresstype": "amenity",
+   "extratags": {
+    "bar": "yes",
+    "email": "marmarrestaurant@seznam.cz",
+    "level": "0",
+    "phone": "728422971",
+    "brewery": "pilsner_urquell_12;yes;mustang_12;pernštejn_10;nealkoholicke_-_cool_grep;birrel_-_řezaný",
+    "cuisine": "barbecue;bubble_tea;cake;chicken;coffee_shop",
+    "smoking": "outside",
+    "website": "https://www.sporteden.cz/restaurace/",
+    "takeaway": "yes",
+    "ref:vatin": "23147725",
+    "check_date": "2024-11-23",
+    "wheelchair": "yes",
+    "description": "Nabízíme:\n Pizza, Steak, Saláty, Burgery, Quesadilla, Testoviny, Smažená jidla, atd.\n\nDomácí a točené limonády\n\nDezerty\n\nKáva + čaj \n\nMíchané drinky \n\n...",
+    "payment:cash": "yes",
+    "self_service": "no",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "internet_access": "wlan",
+    "outdoor_seating": "yes",
+    "air_conditioning": "yes",
+    "contact:facebook": "share/1EWuzUkw6G",
+    "contact:instagram": "restaurace_eden_beroun",
+    "internet_access:fee": "no",
+    "payment:debit_cards": "yes",
+    "payment:credit_cards": "yes"
+   },
+   "osm_type": "node",
+   "osm_id": 12367322403
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.0130351%2C49.9807452%2C14.0830351%2C49.934745199999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.0130351%2C49.9807452%2C14.0830351%2C49.934745199999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.0130351%2C49.9807452%2C14.0830351%2C49.934745199999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.0130351%2C49.9807452%2C14.0830351%2C49.934745199999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=eden&viewbox=14.0130351%2C49.9807452%2C14.0830351%2C49.934745199999995": [
+  {
+   "name": "Eden",
+   "display_name": "Eden, 1482, Pod Homolkou, Beroun-Město, Beroun, okres Beroun, Středočeský kraj, 266 01, Česko",
+   "lat": "49.9577452",
+   "lon": "14.0480351",
+   "category": "amenity",
+   "type": "restaurant",
+   "addresstype": "amenity",
+   "extratags": {
+    "bar": "yes",
+    "email": "marmarrestaurant@seznam.cz",
+    "level": "0",
+    "phone": "728422971",
+    "brewery": "pilsner_urquell_12;yes;mustang_12;pernštejn_10;nealkoholicke_-_cool_grep;birrel_-_řezaný",
+    "cuisine": "barbecue;bubble_tea;cake;chicken;coffee_shop",
+    "smoking": "outside",
+    "website": "https://www.sporteden.cz/restaurace/",
+    "takeaway": "yes",
+    "ref:vatin": "23147725",
+    "check_date": "2024-11-23",
+    "wheelchair": "yes",
+    "description": "Nabízíme:\n Pizza, Steak, Saláty, Burgery, Quesadilla, Testoviny, Smažená jidla, atd.\n\nDomácí a točené limonády\n\nDezerty\n\nKáva + čaj \n\nMíchané drinky \n\n...",
+    "payment:cash": "yes",
+    "self_service": "no",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "internet_access": "wlan",
+    "outdoor_seating": "yes",
+    "air_conditioning": "yes",
+    "contact:facebook": "share/1EWuzUkw6G",
+    "contact:instagram": "restaurace_eden_beroun",
+    "internet_access:fee": "no",
+    "payment:debit_cards": "yes",
+    "payment:credit_cards": "yes"
+   },
+   "osm_type": "node",
+   "osm_id": 12367322403
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=P%C5%99echodn%C3%AD+1594%2F1+%2C+14000+Praha+4": [
+  {
+   "name": "",
+   "display_name": "1594/1, Přechodní, Krč, Praha 4, obvod Praha 4, Praha, 140 00, Česko",
+   "lat": "50.0390008",
+   "lon": "14.4531648",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 296491192
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=ul.17.listopadu+485%2C+54401+Dv%C5%AFr+Kr%C3%A1lov%C3%A9+n.L.": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Chaba%C5%99ovick%C3%A1+4%2C+18200+Praha+8": [
+  {
+   "name": "",
+   "display_name": "1125/4, Chabařovická, Kobylisy, Praha 8, obvod Praha 8, Praha, 182 00, Česko",
+   "lat": "50.1313606",
+   "lon": "14.4756259",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 296807187
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Smetanovo+n%C3%A1m%C4%9Bst%C3%AD+106%2C+570+01+Litomy%C5%A1l": [
+  {
+   "name": "",
+   "display_name": "106, Smetanovo náměstí, Litomyšl-Město, Litomyšl, okres Svitavy, Pardubický kraj, 570 01, Česko",
+   "lat": "49.8703563",
+   "lon": "16.3117738",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 1462350006
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Sportovn%C3%AD+286%2F3%2C+Tachlovice": [
+  {
+   "name": "Sportovní",
+   "display_name": "Sportovní, Tachlovice, okres Praha-západ, Středočeský kraj, 252 17, Česko",
+   "lat": "50.0090460",
+   "lon": "14.2443742",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "surface": "asphalt",
+    "maxspeed": "50"
+   },
+   "osm_type": "way",
+   "osm_id": 62306199
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.2093742%2C50.032046%2C14.2793742%2C49.986045999999995": [
+  {
+   "name": "Tenis & Beach Rudná",
+   "display_name": "Tenis & Beach Rudná, Hořelické náměstí, Hořelice, Rudná, okres Praha-západ, Středočeský kraj, 252 19, Česko",
+   "lat": "50.0265455",
+   "lon": "14.2239056",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis;beachvolleyball",
+    "facebook": "https://www.facebook.com/TenisBeachRudna/"
+   },
+   "osm_type": "way",
+   "osm_id": 483723604
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.2093742%2C50.032046%2C14.2793742%2C49.986045999999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.2093742%2C50.032046%2C14.2793742%2C49.986045999999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.2093742%2C50.032046%2C14.2793742%2C49.986045999999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Sadov%C3%A1%2C+26272+B%C5%99eznice": [
+  {
+   "name": "Sadová",
+   "display_name": "Sadová, Přední Poříčí, Březnice, okres Příbram, Středočeský kraj, 262 72, Česko",
+   "lat": "49.5615355",
+   "lon": "13.9536380",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": null,
+   "osm_type": "way",
+   "osm_id": 226679867
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Ve+lhotce%2C+147+00+Praha+4": [
+  {
+   "name": "Ve Lhotce",
+   "display_name": "Ve Lhotce, Kamýk, Praha 12, obvod Praha 4, Praha, 142 00, Česko",
+   "lat": "50.0189143",
+   "lon": "14.4330512",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": null,
+   "osm_type": "way",
+   "osm_id": 435696279
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.3980512%2C50.0419143%2C14.4680512%2C49.995914299999995": [
+  {
+   "name": "Tenis Tempo Praha Areál Lhotka",
+   "display_name": "Tenis Tempo Praha Areál Lhotka, Ve Lhotce, Kamýk, Praha 4, obvod Praha 4, Praha, 142 00, Česko",
+   "lat": "50.0191633",
+   "lon": "14.4326133",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis",
+    "website": "https://www.tempotenis.cz"
+   },
+   "osm_type": "node",
+   "osm_id": 11132455022
+  },
+  {
+   "name": "Tempo tenis",
+   "display_name": "Tempo tenis, Povodňová, Modřany, Praha 12, obvod Praha 4, Praha, 143 00, Česko",
+   "lat": "50.0065893",
+   "lon": "14.4100081",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis",
+    "website": "https://www.tempotenis.cz"
+   },
+   "osm_type": "node",
+   "osm_id": 11132454976
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.3980512%2C50.0419143%2C14.4680512%2C49.995914299999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.3980512%2C50.0419143%2C14.4680512%2C49.995914299999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.3980512%2C50.0419143%2C14.4680512%2C49.995914299999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tempo&viewbox=14.3980512%2C50.0419143%2C14.4680512%2C49.995914299999995": [
+  {
+   "name": "Tempo",
+   "display_name": "Tempo, Štúrova, Jalový Dvůr, Praha 4, obvod Praha 4, Praha, 142 00, Česko",
+   "lat": "50.0201936",
+   "lon": "14.4520088",
+   "category": "highway",
+   "type": "bus_stop",
+   "addresstype": "highway",
+   "extratags": {
+    "bin": "yes",
+    "bus": "yes",
+    "lit": "yes",
+    "bench": "yes",
+    "ref:PID": "U749Z2",
+    "shelter": "yes",
+    "local_ref": "B",
+    "tactile_paving": "no",
+    "departures_board": "realtime",
+    "public_transport": "platform",
+    "blind:description": "Odjezdová tabule je vybavena Tyflosetem, návod na obsluhu https://cs.wikibooks.org/wiki/VPN_vys%C3%ADla%C4%8Dka_pro_nevidom%C3%A9",
+    "departures_board:speech_output": "yes"
+   },
+   "osm_type": "node",
+   "osm_id": 5652437133
+  },
+  {
+   "name": "U družstva Tempo",
+   "display_name": "U družstva Tempo, Lhotka, Praha 4, obvod Praha 4, Praha, 142 00, Česko",
+   "lat": "50.0198201",
+   "lon": "14.4495179",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "surface": "asphalt"
+   },
+   "osm_type": "way",
+   "osm_id": 4845196
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=K+sportovn%C3%ADmu+are%C3%A1lu+1600%2C+252+42+Jesenice": [
+  {
+   "name": "K Sportovnímu areálu",
+   "display_name": "K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko",
+   "lat": "49.9765739",
+   "lon": "14.5164470",
+   "category": "highway",
+   "type": "service",
+   "addresstype": "road",
+   "extratags": {
+    "horse": "unknown",
+    "surface": "asphalt",
+    "motor_vehicle": "permit"
+   },
+   "osm_type": "way",
+   "osm_id": 1423074142
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.481447%2C49.9995739%2C14.551447%2C49.953573899999995": [
+  {
+   "name": "Head Tenis Centrum",
+   "display_name": "Head Tenis Centrum, 456, Sportovní, Vestec, okres Praha-západ, Středočeský kraj, 252 50, Česko",
+   "lat": "49.9898123",
+   "lon": "14.4882419",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "lit": "yes",
+    "sport": "tennis",
+    "access": "customers",
+    "building": "yes",
+    "start_date": "2009-07-02"
+   },
+   "osm_type": "way",
+   "osm_id": 114730341
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.481447%2C49.9995739%2C14.551447%2C49.953573899999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.481447%2C49.9995739%2C14.551447%2C49.953573899999995": [
+  {
+   "name": "Tenisová hala",
+   "display_name": "Tenisová hala, Vestecká spojka, Praha-Libuš, obvod Praha 4, Vestec, okres Praha-západ, Středočeský kraj, 252 50, Česko",
+   "lat": "49.9893576",
+   "lon": "14.4881067",
+   "category": "leisure",
+   "type": "sports_hall",
+   "addresstype": "leisure",
+   "extratags": {
+    "building": "yes"
+   },
+   "osm_type": "way",
+   "osm_id": 195652457
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.481447%2C49.9995739%2C14.551447%2C49.953573899999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=K+sportovn%C3%ADmu+are%C3%A1lu+1600%2C+Jesenice": [
+  {
+   "name": "K Sportovnímu areálu",
+   "display_name": "K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko",
+   "lat": "49.9762603",
+   "lon": "14.5145448",
+   "category": "highway",
+   "type": "service",
+   "addresstype": "road",
+   "extratags": {
+    "horse": "unknown",
+    "surface": "asphalt"
+   },
+   "osm_type": "way",
+   "osm_id": 1349830890
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.4795448%2C49.9992603%2C14.5495448%2C49.9532603": [
+  {
+   "name": "Head Tenis Centrum",
+   "display_name": "Head Tenis Centrum, 456, Sportovní, Vestec, okres Praha-západ, Středočeský kraj, 252 50, Česko",
+   "lat": "49.9898123",
+   "lon": "14.4882419",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "lit": "yes",
+    "sport": "tennis",
+    "access": "customers",
+    "building": "yes",
+    "start_date": "2009-07-02"
+   },
+   "osm_type": "way",
+   "osm_id": 114730341
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.4795448%2C49.9992603%2C14.5495448%2C49.9532603": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.4795448%2C49.9992603%2C14.5495448%2C49.9532603": [
+  {
+   "name": "Tenisová hala",
+   "display_name": "Tenisová hala, Vestecká spojka, Praha-Libuš, obvod Praha 4, Vestec, okres Praha-západ, Středočeský kraj, 252 50, Česko",
+   "lat": "49.9893576",
+   "lon": "14.4881067",
+   "category": "leisure",
+   "type": "sports_hall",
+   "addresstype": "leisure",
+   "extratags": {
+    "building": "yes"
+   },
+   "osm_type": "way",
+   "osm_id": 195652457
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.4795448%2C49.9992603%2C14.5495448%2C49.9532603": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=R%C3%B6schova+1304%2C+Jind%C5%99ich%C5%AFv+Hradec+II": [
+  {
+   "name": "",
+   "display_name": "1304, Röschova, Pražské Předměstí, Sídliště U Nádraží, Jindřichův Hradec II, Jindřichův Hradec, okres Jindřichův Hradec, Jihočeský kraj, Jihozápad, 377 01, Česko",
+   "lat": "49.1484651",
+   "lon": "14.9972498",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2397630967
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.9622498%2C49.171465100000006%2C15.0322498%2C49.1254651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.9622498%2C49.171465100000006%2C15.0322498%2C49.1254651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.9622498%2C49.171465100000006%2C15.0322498%2C49.1254651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.9622498%2C49.171465100000006%2C15.0322498%2C49.1254651": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Sala%C5%A1ska2182%2C+686+03+Star%C3%A9+M%C4%9Bsto": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=686+03+Star%C3%A9+M%C4%9Bsto": [
+  {
+   "name": "686 03",
+   "display_name": "686 03, Staré Město, okres Uherské Hradiště, Zlínský kraj, Česko",
+   "lat": "49.0768393",
+   "lon": "17.4398923",
+   "category": "place",
+   "type": "postcode",
+   "addresstype": "postcode",
+   "extratags": null,
+   "osm_type": null,
+   "osm_id": null
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=17.4048923%2C49.099839300000006%2C17.4748923%2C49.0538393": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=17.4048923%2C49.099839300000006%2C17.4748923%2C49.0538393": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=17.4048923%2C49.099839300000006%2C17.4748923%2C49.0538393": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=17.4048923%2C49.099839300000006%2C17.4748923%2C49.0538393": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=slovacko&viewbox=17.4048923%2C49.099839300000006%2C17.4748923%2C49.0538393": [
+  {
+   "name": "1. FC Slovácko, a.s.",
+   "display_name": "1. FC Slovácko, a.s., Sportovní, Mařatice, Uherské Hradiště, okres Uherské Hradiště, Zlínský kraj, 687 01, Česko",
+   "lat": "49.0668752",
+   "lon": "17.4708630",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "building": "civic",
+    "wheelchair": "yes",
+    "building:flats": "1",
+    "building:levels": "2"
+   },
+   "osm_type": "way",
+   "osm_id": 53373884
+  },
+  {
+   "name": "ZUŠ Slovácko",
+   "display_name": "ZUŠ Slovácko, Protzkarova, Mojmír I, Rybárny, Uherské Hradiště, okres Uherské Hradiště, Zlínský kraj, 687 01, Česko",
+   "lat": "49.0683469",
+   "lon": "17.4593771",
+   "category": "amenity",
+   "type": "school",
+   "addresstype": "amenity",
+   "extratags": {
+    "phone": "+420792304808",
+    "website": "https://www.zusslovacko.cz",
+    "check_date": "2025-08-12"
+   },
+   "osm_type": "node",
+   "osm_id": 6556054791
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Veletovsk%C3%A1+2358%2C+19016+%C3%9Ajezd+nad+Lesy": [
+  {
+   "name": "",
+   "display_name": "2358, Veletovská, Rohožník, Újezd nad Lesy, Praha 21, obvod Praha 9, Praha, 190 16, Česko",
+   "lat": "50.0762125",
+   "lon": "14.6791720",
+   "category": "building",
+   "type": "civic",
+   "addresstype": "building",
+   "extratags": {
+    "building:levels": "1"
+   },
+   "osm_type": "way",
+   "osm_id": 73514793
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=B%C5%99ehnick%C3%A1+2499%2F5%2C+35002+Cheb": [
+  {
+   "name": "",
+   "display_name": "2499/5, Břehnická, Pelhřimov, Cheb, okres Cheb, Karlovarský kraj, 350 02, Česko",
+   "lat": "50.0757141",
+   "lon": "12.3588344",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2021419709
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Jir%C3%A1skova+457%2C+73801+%C4%8Cesk%C3%BD+T%C4%9B%C5%A1%C3%ADn": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Man%C5%BEel%C5%AF+Dost%C3%A1lov%C3%BDch+1722%2C+PRAHA+9": [
+  {
+   "name": "",
+   "display_name": "1722, Manželů Dostálových, Jahodnice, Praha 14, obvod Praha 9, Praha, 198 00, Česko",
+   "lat": "50.0873130",
+   "lon": "14.5504624",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 9204994344
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.5154624%2C50.110313000000005%2C14.5854624%2C50.064313": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.5154624%2C50.110313000000005%2C14.5854624%2C50.064313": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.5154624%2C50.110313000000005%2C14.5854624%2C50.064313": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.5154624%2C50.110313000000005%2C14.5854624%2C50.064313": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisova+skola+lucie&viewbox=14.5154624%2C50.110313000000005%2C14.5854624%2C50.064313": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Mr%C5%A1t%C3%ADkova+904%2F8%2C+50009+Hradec+Kr%C3%A1lov%C3%A9": [
+  {
+   "name": "",
+   "display_name": "904/8, Mrštíkova, Malšovice-jih, Malšovice, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 09, Česko",
+   "lat": "50.1984074",
+   "lon": "15.8541262",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 296709842
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Lede%C4%8Dsk%C3%A1+4069%2C+580+01+Havl%C3%AD%C4%8Dk%C5%AFv+Brod": [
+  {
+   "name": "",
+   "display_name": "4069, Ledečská, Havlíčkův Brod, okres Havlíčkův Brod, Kraj Vysočina, 580 01, Česko",
+   "lat": "49.6049070",
+   "lon": "15.5702409",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 3492335667
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Budovatelsk%C3%A1+858%2C+Butovice%2C+74213+Stud%C3%A9nka": [
+  {
+   "name": "",
+   "display_name": "858, Budovatelská, Butovice, Studénka, okres Nový Jičín, Moravskoslezský kraj, 742 13, Česko",
+   "lat": "49.7099571",
+   "lon": "18.0499184",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2851736477
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Tomanova+2480%2F5%2C+Praha+6+-+B%C5%99evnov": [
+  {
+   "name": "",
+   "display_name": "2480/5, Tomanova, Břevnov, Praha 6, obvod Praha 6, Praha, 169 00, Česko",
+   "lat": "50.0797133",
+   "lon": "14.3685043",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 5382992648
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.3335043%2C50.102713300000005%2C14.4035043%2C50.0567133": [
+  {
+   "name": "Tenis Cibulka",
+   "display_name": "Tenis Cibulka, U Tenisu, Košíře, Praha 5, obvod Praha 5, Praha, 150 06, Česko",
+   "lat": "50.0672107",
+   "lon": "14.3612040",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "phone": "+420 608 504 072",
+    "sport": "tennis",
+    "surface": "clay",
+    "website": "https://www.teniscibulka.cz/"
+   },
+   "osm_type": "way",
+   "osm_id": 35554901
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.3335043%2C50.102713300000005%2C14.4035043%2C50.0567133": [
+  {
+   "name": "Pála Vízner Tennis",
+   "display_name": "Pála Vízner Tennis, Suttnerové, obytný soubor Na Krutci, Vokovice, Praha 6, obvod Praha 6, Praha, 162 00, Česko",
+   "lat": "50.0990989",
+   "lon": "14.3493233",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "fee": "yes",
+    "sport": "tennis;fitness;pilates;yoga;golf_simulator",
+    "website": "https://www.palaviznertennis.cz",
+    "operator": "Pála Vízner",
+    "contact:facebook": "https://www.facebook.com/PalaViznerTennis",
+    "contact:instagram": "https://www.instagram.com/palaviznertennis"
+   },
+   "osm_type": "way",
+   "osm_id": 318013063
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.3335043%2C50.102713300000005%2C14.4035043%2C50.0567133": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.3335043%2C50.102713300000005%2C14.4035043%2C50.0567133": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Bzeneck%C3%A1+1538%2C+696+62+Str%C3%A1%C5%BEnice": [
+  {
+   "name": "",
+   "display_name": "1538, Bzenecká, Strážnice, okres Hodonín, Jihomoravský kraj, 696 62, Česko",
+   "lat": "48.9057218",
+   "lon": "17.3089565",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2784492541
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Dvouletky+1031%2C+285+22+Zru%C4%8D+nad+S%C3%A1zavou": [
+  {
+   "name": "Tenisové kurty",
+   "display_name": "Tenisové kurty, 1031, Dvouletky, Domahoř, Zruč nad Sázavou, okres Kutná Hora, Středočeský kraj, 285 22, Česko",
+   "lat": "49.7469373",
+   "lon": "15.0894613",
+   "category": "amenity",
+   "type": "bar",
+   "addresstype": "amenity",
+   "extratags": {
+    "smoking": "outside",
+    "outdoor_seating": "yes"
+   },
+   "osm_type": "node",
+   "osm_id": 2348237226
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Radlick%C3%A1+298%2F105%2C+15000+Praha+5": [
+  {
+   "name": "Střihomat",
+   "display_name": "Střihomat, 298/105, Radlická, Radlice, Praha 5, obvod Praha 5, Praha, 150 00, Česko",
+   "lat": "50.0582112",
+   "lon": "14.3908599",
+   "category": "shop",
+   "type": "hairdresser",
+   "addresstype": "shop",
+   "extratags": {
+    "email": "info@strihomat.cz",
+    "image": "https://strihomat.cz/assets/img/logo/logo.png",
+    "phone": "+420 252 252 956",
+    "mobile": "+420 799 796 219",
+    "website": "https://strihomat.cz",
+    "description": "Naše síť kadeřnických salonů nabízí profesionální kvalitu za velmi dostupnou cenu. Naši odborníci používají moderní vybavení a vysoké hygienické standardy. Náš tým si zakládá na tom, aby každý zákazník odcházel spokojený se svou novou účesovou kreací.",
+    "currency:CZK": "yes",
+    "currency:XBT": "yes",
+    "payment:cash": "yes",
+    "payment:visa": "yes",
+    "opening_hours": "Mo-Su 09:00-20:00",
+    "payment:onchain": "yes",
+    "contact:facebook": "https://www.facebook.com/strihomat",
+    "contact:instagram": "https://www.instagram.com/strihomat/",
+    "payment:lightning": "yes",
+    "payment:mastercard": "yes",
+    "payment:debit_cards": "yes",
+    "payment:credit_cards": "yes",
+    "check_date:currency:XBT": "2024-01-01",
+    "payment:lightning_contactless": "yes"
+   },
+   "osm_type": "node",
+   "osm_id": 12085335695
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.3558599%2C50.081211200000006%2C14.4258599%2C50.0352112": [
+  {
+   "name": "Tenis Cibulka",
+   "display_name": "Tenis Cibulka, U Tenisu, Košíře, Praha 5, obvod Praha 5, Praha, 150 06, Česko",
+   "lat": "50.0672107",
+   "lon": "14.3612040",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "phone": "+420 608 504 072",
+    "sport": "tennis",
+    "surface": "clay",
+    "website": "https://www.teniscibulka.cz/"
+   },
+   "osm_type": "way",
+   "osm_id": 35554901
+  },
+  {
+   "name": "Tenis Butovice",
+   "display_name": "Tenis Butovice, Butovická, Jinonice, Praha 5, obvod Praha 5, Praha, 158 00, Česko",
+   "lat": "50.0517368",
+   "lon": "14.3608621",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis"
+   },
+   "osm_type": "way",
+   "osm_id": 157402935
+  },
+  {
+   "name": "Tenis Butovice",
+   "display_name": "Tenis Butovice, Butovická, Jinonice, Praha 5, obvod Praha 5, Praha, 158 00, Česko",
+   "lat": "50.0519542",
+   "lon": "14.3606078",
+   "category": "building",
+   "type": "commercial",
+   "addresstype": "building",
+   "extratags": {
+    "start_date": "2009-01-30",
+    "building:levels": "1"
+   },
+   "osm_type": "way",
+   "osm_id": 61726224
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.3558599%2C50.081211200000006%2C14.4258599%2C50.0352112": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.3558599%2C50.081211200000006%2C14.4258599%2C50.0352112": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.3558599%2C50.081211200000006%2C14.4258599%2C50.0352112": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=radlice&viewbox=14.3558599%2C50.081211200000006%2C14.4258599%2C50.0352112": [
+  {
+   "name": "Radlice",
+   "display_name": "Radlice, obvod Praha 5, Praha, 150 03, Česko",
+   "lat": "50.0536610",
+   "lon": "14.3898720",
+   "category": "boundary",
+   "type": "cadastral",
+   "addresstype": "cadastral",
+   "extratags": {
+    "wikidata": "Q1996280",
+    "wikipedia": "cs:Radlice",
+    "border_type": "cadastral_community",
+    "official_status": "cz:katastrální území"
+   },
+   "osm_type": "relation",
+   "osm_id": 429370
+  },
+  {
+   "name": "Radlice",
+   "display_name": "Radlice, Praha 5, obvod Praha 5, Praha, 150 03, Česko",
+   "lat": "50.0583907",
+   "lon": "14.3886116",
+   "category": "place",
+   "type": "suburb",
+   "addresstype": "suburb",
+   "extratags": {
+    "ref:cobe": "400297",
+    "wikidata": "Q1996280",
+    "wikipedia": "cs:Radlice"
+   },
+   "osm_type": "node",
+   "osm_id": 297896662
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Sportovn%C3%AD%2C+74766+Doln%C3%AD+Lhota": [
+  {
+   "name": "Sportovní",
+   "display_name": "Sportovní, Dolní Lhota, okres Ostrava-město, Moravskoslezský kraj, 747 66, Česko",
+   "lat": "49.8349900",
+   "lon": "18.0885134",
+   "category": "highway",
+   "type": "service",
+   "addresstype": "road",
+   "extratags": null,
+   "osm_type": "way",
+   "osm_id": 712354860
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Na+Dlouh%C3%BDch+812%2C+68801+Uhersk%C3%BD+Brod": [
+  {
+   "name": "",
+   "display_name": "812, Na Dlouhých, Uherský Brod, okres Uherské Hradiště, Zlínský kraj, 688 01, Česko",
+   "lat": "49.0285588",
+   "lon": "17.6418825",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 957322118
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Na+Balk%C3%A1n%C4%9B+812%2C+Praha+3": [
+  {
+   "name": "TJ Sokol Žižkov II.",
+   "display_name": "TJ Sokol Žižkov II., 812, Na Balkáně, Žižkov, obvod Praha 3, Praha, 130 00, Česko",
+   "lat": "50.0953186",
+   "lon": "14.4887241",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "building": "yes",
+    "building:flats": "3",
+    "building:levels": "1"
+   },
+   "osm_type": "way",
+   "osm_id": 27806753
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.4537241%2C50.1183186%2C14.5237241%2C50.072318599999996": [
+  {
+   "name": "Sportbar Tenis",
+   "display_name": "Sportbar Tenis, 25, Na Balkáně, Žižkov, obvod Praha 3, Praha, 130 00, Česko",
+   "lat": "50.0959156",
+   "lon": "14.4876187",
+   "category": "amenity",
+   "type": "bar",
+   "addresstype": "amenity",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 384058618
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.4537241%2C50.1183186%2C14.5237241%2C50.072318599999996": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.4537241%2C50.1183186%2C14.5237241%2C50.072318599999996": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.4537241%2C50.1183186%2C14.5237241%2C50.072318599999996": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=spoje&viewbox=14.4537241%2C50.1183186%2C14.5237241%2C50.072318599999996": [
+  {
+   "name": "TJ Spoje Praha",
+   "display_name": "TJ Spoje Praha, 25, Na Balkáně, Žižkov, obvod Praha 3, Praha, 130 00, Česko",
+   "lat": "50.0961170",
+   "lon": "14.4907788",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "website": "http://www.tjspoje.eu/"
+   },
+   "osm_type": "way",
+   "osm_id": 386947435
+  },
+  {
+   "name": "KNH Spoje Praha",
+   "display_name": "KNH Spoje Praha, Na Balkáně, Žižkov, obvod Praha 3, Praha, 190 93, Česko",
+   "lat": "50.0962595",
+   "lon": "14.4900538",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "lit": "yes",
+    "sport": "handball",
+    "surface": "artificial_turf"
+   },
+   "osm_type": "way",
+   "osm_id": 32754437
+  },
+  {
+   "name": "TJ Spoje Praha - sportovní hala",
+   "display_name": "TJ Spoje Praha - sportovní hala, 450/25, Na Balkáně, Žižkov, obvod Praha 3, Praha, 130 00, Česko",
+   "lat": "50.0960810",
+   "lon": "14.4906231",
+   "category": "leisure",
+   "type": "sports_hall",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "badminton",
+    "website": "http://rezervace.fzforza.cz/",
+    "opening_hours": "07:00-20:00"
+   },
+   "osm_type": "node",
+   "osm_id": 296547653
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Ke+Stadionu+2037%2C+Bene%C5%A1ov": [
+  {
+   "name": "",
+   "display_name": "2037, Ke Stadionu, Konopiště, Benešov, okres Benešov, Středočeský kraj, 256 01, Česko",
+   "lat": "49.7769564",
+   "lon": "14.6766147",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 1164155768
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.6416147%2C49.799956400000006%2C14.7116147%2C49.7539564": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.6416147%2C49.799956400000006%2C14.7116147%2C49.7539564": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.6416147%2C49.799956400000006%2C14.7116147%2C49.7539564": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.6416147%2C49.799956400000006%2C14.7116147%2C49.7539564": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Brtnick%C3%A1+5381%2F24b%2C+Jihlava": [
+  {
+   "name": "",
+   "display_name": "5381/24b, Brtnická, Brtnické předměstí, Jihlava, okres Jihlava, Kraj Vysočina, 586 01, Česko",
+   "lat": "49.3878082",
+   "lon": "15.5948695",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 558365578
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=15.5598695%2C49.410808200000005%2C15.6298695%2C49.3648082": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=15.5598695%2C49.410808200000005%2C15.6298695%2C49.3648082": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=15.5598695%2C49.410808200000005%2C15.6298695%2C49.3648082": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=15.5598695%2C49.410808200000005%2C15.6298695%2C49.3648082": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Husova+22%2C+56002+%C4%8Cesk%C3%A1+T%C5%99ebov%C3%A1": [
+  {
+   "name": "",
+   "display_name": "22, Husova, Parník, Česká Třebová, okres Ústí nad Orlicí, Pardubický kraj, 560 02, Česko",
+   "lat": "49.9143502",
+   "lon": "16.4414182",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2839161743
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+H%C5%99i%C5%A1t%C4%9B+1524%2C+56501+Choce%C5%88": [
+  {
+   "name": "",
+   "display_name": "1524, U Hřiště, Březenice, Hemže, Choceň, okres Ústí nad Orlicí, Pardubický kraj, 565 01, Česko",
+   "lat": "50.0007497",
+   "lon": "16.2165535",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2839161604
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Osada+M%C3%ADru+313%2C+Doln%C3%AD+Bene%C5%A1ov": [
+  {
+   "name": "",
+   "display_name": "313, Osada míru, Dolní Benešov, okres Opava, Moravskoslezský kraj, 747 22, Česko",
+   "lat": "49.9224326",
+   "lon": "18.0969900",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 703668141
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=18.06199%2C49.945432600000004%2C18.131990000000002%2C49.8994326": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=18.06199%2C49.945432600000004%2C18.131990000000002%2C49.8994326": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=18.06199%2C49.945432600000004%2C18.131990000000002%2C49.8994326": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=18.06199%2C49.945432600000004%2C18.131990000000002%2C49.8994326": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Kyselka+105%2C+43151+Kl%C3%A1%C5%A1terec+n.Oh%C5%99.": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+stadionu+1860%2C+43201+Kada%C5%88": [
+  {
+   "name": "U Stadionu",
+   "display_name": "U Stadionu, Kadaň, okres Chomutov, Ústecký kraj, 432 01, Česko",
+   "lat": "50.3853372",
+   "lon": "13.2717246",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "oneway": "yes",
+    "surface": "asphalt"
+   },
+   "osm_type": "way",
+   "osm_id": 79175088
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=13.2367246%2C50.408337200000005%2C13.3067246%2C50.3623372": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=13.2367246%2C50.408337200000005%2C13.3067246%2C50.3623372": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=13.2367246%2C50.408337200000005%2C13.3067246%2C50.3623372": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=13.2367246%2C50.408337200000005%2C13.3067246%2C50.3623372": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+stadionu+1860%2C+Kada%C5%88": [
+  {
+   "name": "U Stadionu",
+   "display_name": "U Stadionu, Kadaň, okres Chomutov, Ústecký kraj, 432 01, Česko",
+   "lat": "50.3853372",
+   "lon": "13.2717246",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "oneway": "yes",
+    "surface": "asphalt"
+   },
+   "osm_type": "way",
+   "osm_id": 79175088
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=%C3%9Aslavsk%C3%A1+75+%2C+32600+Plze%C5%88": [
+  {
+   "name": "",
+   "display_name": "2357/75, Úslavská, Slovany, Plzeň 2-Slovany, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 326 00, Česko",
+   "lat": "49.7376964",
+   "lon": "13.3987382",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 296724485
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Kl%C3%A1%C5%A1tersk%C3%A1+1487%2C+Mnichovo+Hradi%C5%A1t%C4%9B": [
+  {
+   "name": "",
+   "display_name": "1487, Klášterská, Hněvousice, Mnichovo Hradiště, okres Mladá Boleslav, Středočeský kraj, 295 01, Česko",
+   "lat": "50.5259685",
+   "lon": "14.9663993",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2087570162
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.9313993%2C50.5489685%2C15.001399300000001%2C50.502968499999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.9313993%2C50.5489685%2C15.001399300000001%2C50.502968499999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.9313993%2C50.5489685%2C15.001399300000001%2C50.502968499999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.9313993%2C50.5489685%2C15.001399300000001%2C50.502968499999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Pod+Ko%C5%88sk%C3%BDm+vrchem+1159%2C+43401+Most": [
+  {
+   "name": "",
+   "display_name": "1159/5, Pod Koňským vrchem, Čepirohy, Most, okres Most, Ústecký kraj, 434 01, Česko",
+   "lat": "50.4972956",
+   "lon": "13.6185811",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2964747281
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Ulice+1.+m%C3%A1je%2C+54701+N%C3%A1chod+-+B%C4%9Bloves": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=54701+N%C3%A1chod+-+B%C4%9Bloves": [
+  {
+   "name": "Náchod 1",
+   "display_name": "Náchod 1, Masarykovo náměstí, Staré Město nad Metují, Náchod, okres Náchod, Královéhradecký kraj, 547 01, Česko",
+   "lat": "50.4161828",
+   "lon": "16.1634299",
+   "category": "amenity",
+   "type": "post_office",
+   "addresstype": "amenity",
+   "extratags": {
+    "operator": "Česká pošta, s.p.",
+    "wikidata": "Q118155165",
+    "wheelchair": "yes",
+    "ref:zabaged": "3115360953827328",
+    "opening_hours": "Mo-Fr 08:00-18:00;Sa 08:00-12:00",
+    "contact:website": "https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/54701",
+    "operator:wikidata": "Q341090"
+   },
+   "osm_type": "node",
+   "osm_id": 910479895
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=16.1284299%2C50.439182800000005%2C16.1984299%2C50.3931828": [
+  {
+   "name": "Tenis club Běloves",
+   "display_name": "Tenis club Běloves, 1. Máje, Běloves, Náchod, okres Náchod, Královéhradecký kraj, 574 01, Česko",
+   "lat": "50.4191634",
+   "lon": "16.1850981",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis"
+   },
+   "osm_type": "way",
+   "osm_id": 255069752
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=16.1284299%2C50.439182800000005%2C16.1984299%2C50.3931828": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=16.1284299%2C50.439182800000005%2C16.1984299%2C50.3931828": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=16.1284299%2C50.439182800000005%2C16.1984299%2C50.3931828": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Kun%C4%9Btick%C3%A1+%2C+53002+Pardubice": [
+  {
+   "name": "Kunětická",
+   "display_name": "Kunětická, Stavařov, Cihelna, Pardubice II, Pardubice, okres Pardubice, Pardubický kraj, 530 00, Česko",
+   "lat": "50.0453524",
+   "lon": "15.7741777",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "lit": "yes",
+    "lanes": "2",
+    "surface": "asphalt",
+    "sidewalk": "both",
+    "cycleway:both": "no",
+    "lane_markings": "no",
+    "sidewalk:both:surface": "fine_gravel"
+   },
+   "osm_type": "way",
+   "osm_id": 1346992330
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=15.739177699999999%2C50.0683524%2C15.8091777%2C50.022352399999995": [
+  {
+   "name": "Tenis Klub",
+   "display_name": "Tenis Klub, 15, Labská, Ležánka, Staré Město, Pardubice I, Pardubice, okres Pardubice, Pardubický kraj, 530 02, Česko",
+   "lat": "50.0413466",
+   "lon": "15.7804207",
+   "category": "amenity",
+   "type": "restaurant",
+   "addresstype": "amenity",
+   "extratags": {
+    "email": "info@restauracetenisklub.cz",
+    "phone": "+420 725 381 210",
+    "website": "https://www.restauracetenisklub.cz",
+    "operator": "David Simeonov",
+    "opening_hours": "Mo-Th 10:00-23:00; Fr 10:00-23:59; Sa 11:00-23:59; Su 11:00-22:00",
+    "drink:primator": "yes",
+    "contact:facebook": "https://www.facebook.com/tenisklubpce",
+    "operator:ref:ico": "01110900"
+   },
+   "osm_type": "node",
+   "osm_id": 12109713573
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=15.739177699999999%2C50.0683524%2C15.8091777%2C50.022352399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=15.739177699999999%2C50.0683524%2C15.8091777%2C50.022352399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=15.739177699999999%2C50.0683524%2C15.8091777%2C50.022352399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=pernstyn+1897&viewbox=15.739177699999999%2C50.0683524%2C15.8091777%2C50.022352399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Kun%C4%9Btick%C3%A1+%2C+Pardubice": [
+  {
+   "name": "Kunětická",
+   "display_name": "Kunětická, Na slepých ramenech, Cihelna, Pardubice II, Pardubice, okres Pardubice, Pardubický kraj, 530 00, Česko",
+   "lat": "50.0487957",
+   "lon": "15.7792068",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "foot": "designated",
+    "bicycle": "designated"
+   },
+   "osm_type": "way",
+   "osm_id": 963433784
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=15.7442068%2C50.0717957%2C15.814206800000001%2C50.025795699999996": [
+  {
+   "name": "Tenis Klub",
+   "display_name": "Tenis Klub, 15, Labská, Ležánka, Staré Město, Pardubice I, Pardubice, okres Pardubice, Pardubický kraj, 530 02, Česko",
+   "lat": "50.0413466",
+   "lon": "15.7804207",
+   "category": "amenity",
+   "type": "restaurant",
+   "addresstype": "amenity",
+   "extratags": {
+    "email": "info@restauracetenisklub.cz",
+    "phone": "+420 725 381 210",
+    "website": "https://www.restauracetenisklub.cz",
+    "operator": "David Simeonov",
+    "opening_hours": "Mo-Th 10:00-23:00; Fr 10:00-23:59; Sa 11:00-23:59; Su 11:00-22:00",
+    "drink:primator": "yes",
+    "contact:facebook": "https://www.facebook.com/tenisklubpce",
+    "operator:ref:ico": "01110900"
+   },
+   "osm_type": "node",
+   "osm_id": 12109713573
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=15.7442068%2C50.0717957%2C15.814206800000001%2C50.025795699999996": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=15.7442068%2C50.0717957%2C15.814206800000001%2C50.025795699999996": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=15.7442068%2C50.0717957%2C15.814206800000001%2C50.025795699999996": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=pernstyn+1897&viewbox=15.7442068%2C50.0717957%2C15.814206800000001%2C50.025795699999996": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Poln%C3%AD+894%2C+460+01+Liberec": [
+  {
+   "name": "",
+   "display_name": "894, Polní, Staré Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko",
+   "lat": "50.7830391",
+   "lon": "15.0402185",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 6109160894
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=rapid&viewbox=15.0052185%2C50.80603910000001%2C15.0752185%2C50.7600391": [
+  {
+   "name": "Restaurace Rapid",
+   "display_name": "Restaurace Rapid, Letná, Staré Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko",
+   "lat": "50.7828222",
+   "lon": "15.0421890",
+   "category": "amenity",
+   "type": "pub",
+   "addresstype": "amenity",
+   "extratags": {
+    "smoking": "yes",
+    "indoor_seating": "yes",
+    "outdoor_seating": "yes"
+   },
+   "osm_type": "node",
+   "osm_id": 1501278493
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Brodsk%C3%A1+134%2C+26101+P%C5%99%C3%ADbram": [
+  {
+   "name": "",
+   "display_name": "134, Brodská, Příbram V-Zdaboř, Příbram V - Zdaboř, Příbram, okres Příbram, Středočeský kraj, 261 01, Česko",
+   "lat": "49.6676293",
+   "lon": "13.9993260",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 11472578938
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=roja&viewbox=13.964326%2C49.690629300000005%2C14.034326%2C49.6446293": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Alej+17.listopadu+265%2C+41301+Roudnice+nad+Labem": [
+  {
+   "name": "",
+   "display_name": "265, Alej 17. listopadu, Podlusky, Roudnice nad Labem, okres Litoměřice, Ústecký kraj, 413 01, Česko",
+   "lat": "50.4238606",
+   "lon": "14.2477453",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2021349723
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=N%C3%A1m.%C4%8D.povst%C3%A1n%C3%AD%2C+Praha+6": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Praha+6": [
+  {
+   "name": "Praha 6",
+   "display_name": "Praha 6, obvod Praha 6, Praha, Česko",
+   "lat": "50.1065562",
+   "lon": "14.3637235",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "suburb",
+   "extratags": {
+    "ref:cobe": "500178",
+    "wikidata": "Q2667290",
+    "full_name": "Městská část Praha 6",
+    "wikipedia": "cs:Praha 6",
+    "border_type": "borough",
+    "official_status": "cz:městská část hlavního města Prahy",
+    "admin_level": "9"
+   },
+   "osm_type": "relation",
+   "osm_id": 19999115
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.3287235%2C50.1295562%2C14.398723500000001%2C50.0835562": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.3287235%2C50.1295562%2C14.398723500000001%2C50.0835562": [
+  {
+   "name": "Pála Vízner Tennis",
+   "display_name": "Pála Vízner Tennis, Suttnerové, obytný soubor Na Krutci, Vokovice, Praha 6, obvod Praha 6, Praha, 162 00, Česko",
+   "lat": "50.0990989",
+   "lon": "14.3493233",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "fee": "yes",
+    "sport": "tennis;fitness;pilates;yoga;golf_simulator",
+    "website": "https://www.palaviznertennis.cz",
+    "operator": "Pála Vízner",
+    "contact:facebook": "https://www.facebook.com/PalaViznerTennis",
+    "contact:instagram": "https://www.instagram.com/palaviznertennis"
+   },
+   "osm_type": "way",
+   "osm_id": 318013063
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.3287235%2C50.1295562%2C14.398723500000001%2C50.0835562": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.3287235%2C50.1295562%2C14.398723500000001%2C50.0835562": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=ruzyne&viewbox=14.3287235%2C50.1295562%2C14.398723500000001%2C50.0835562": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=V+L%C3%A1nech+405%2C+40340+%C3%9Ast%C3%AD+nad+Labem": [
+  {
+   "name": "",
+   "display_name": "405, V Lánech, Skorotice, Ústí nad Labem-město, Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, 403 40, Česko",
+   "lat": "50.6928626",
+   "lon": "14.0122881",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 5448440218
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=F.Kloze+294%2C+Kladno": [
+  {
+   "name": "Fr. Kloze",
+   "display_name": "Fr. Kloze, Kladno, okres Kladno, Středočeský kraj, 272 52, Česko",
+   "lat": "50.1393443",
+   "lon": "14.0909376",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "access": "yes"
+   },
+   "osm_type": "way",
+   "osm_id": 22478381
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.0559376%2C50.1623443%2C14.1259376%2C50.116344299999994": [
+  {
+   "name": "Tenis DLI Sletiště",
+   "display_name": "Tenis DLI Sletiště, Sportovců, Kladno, okres Kladno, Středočeský kraj, 272 52, Česko",
+   "lat": "50.1358297",
+   "lon": "14.0883483",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis"
+   },
+   "osm_type": "node",
+   "osm_id": 3711865241
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.0559376%2C50.1623443%2C14.1259376%2C50.116344299999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.0559376%2C50.1623443%2C14.1259376%2C50.116344299999994": [
+  {
+   "name": "Tenisová hala",
+   "display_name": "Tenisová hala, Sportovců, Rozdělov, Kladno, okres Kladno, Středočeský kraj, 272 04, Česko",
+   "lat": "50.1369241",
+   "lon": "14.0858994",
+   "category": "building",
+   "type": "civic",
+   "addresstype": "building",
+   "extratags": {
+    "building:levels": "1"
+   },
+   "osm_type": "way",
+   "osm_id": 366324944
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.0559376%2C50.1623443%2C14.1259376%2C50.116344299999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Otovick%C3%A1+2865%2F109%2C+19300+Praha+9+-+Horn%C3%AD+Po%C4%8Dernice": [
+  {
+   "name": "",
+   "display_name": "2865/109, Otovická, Horní Počernice, Praha 20, obvod Praha 9, Praha, 193 00, Česko",
+   "lat": "50.1184802",
+   "lon": "14.6255649",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2043143061
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Do+Hlinek+754%2F7%2C+10300+Praha+22-Kolovraty": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Bezd%C4%9B%C4%8D%C3%ADn+90%2C+293+01+Mlad%C3%A1+Boleslav": [
+  {
+   "name": "",
+   "display_name": "90, Bezděčín, Mladá Boleslav, okres Mladá Boleslav, Středočeský kraj, 293 01, Česko",
+   "lat": "50.3825600",
+   "lon": "14.8922725",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 1354893484
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Na+Topolce+1%2C+Praha+4": [
+  {
+   "name": "",
+   "display_name": "1350/1, Na Topolce, Podolí, Praha 4, obvod Praha 4, Praha, 140 00, Česko",
+   "lat": "50.0602453",
+   "lon": "14.4228812",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 296748390
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.3878812%2C50.0832453%2C14.457881200000001%2C50.037245299999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.3878812%2C50.0832453%2C14.457881200000001%2C50.037245299999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.3878812%2C50.0832453%2C14.457881200000001%2C50.037245299999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.3878812%2C50.0832453%2C14.457881200000001%2C50.037245299999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=start+topolka&viewbox=14.3878812%2C50.0832453%2C14.457881200000001%2C50.037245299999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Zborovsk%C3%A1+317%2C+27303+Stochov": [
+  {
+   "name": "",
+   "display_name": "317, Zborovská, Honice, Stochov, okres Kladno, Středočeský kraj, 273 03, Česko",
+   "lat": "50.1465363",
+   "lon": "13.9548300",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 1444875385
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=13.91983%2C50.169536300000004%2C13.98983%2C50.1235363": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=13.91983%2C50.169536300000004%2C13.98983%2C50.1235363": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=13.91983%2C50.169536300000004%2C13.98983%2C50.1235363": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=13.91983%2C50.169536300000004%2C13.98983%2C50.1235363": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennispoint&viewbox=18.2941256%2C49.716289100000004%2C18.3641256%2C49.6702891": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Na+P%C5%99%C3%ADkopech+122%2F45%2C+67401+T%C5%99eb%C3%AD%C4%8D": [
+  {
+   "name": "",
+   "display_name": "122/45, Na Příkopech, Týn, Třebíč, okres Třebíč, Kraj Vysočina, 674 01, Česko",
+   "lat": "49.2264963",
+   "lon": "15.8677120",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2780137138
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=V+Luk%C3%A1ch+276%2C+56201+%C3%9Ast%C3%AD+nad+Orlic%C3%AD": [
+  {
+   "name": "",
+   "display_name": "276, V Lukách, Kerhartice, Ústí nad Orlicí, okres Ústí nad Orlicí, Pardubický kraj, 562 01, Česko",
+   "lat": "49.9800085",
+   "lon": "16.3923669",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2313313529
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Leska+Horn%C3%AD+2135%2F1%2C+66902+Znojmo": [
+  {
+   "name": "",
+   "display_name": "2135/1, Leska Horní, Znojmo, okres Znojmo, Jihomoravský kraj, 669 02, Česko",
+   "lat": "48.8676098",
+   "lon": "16.0481137",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2778584001
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+koupali%C5%A1t%C4%9B+1362%2C+56401+%C5%BDamberk": [
+  {
+   "name": "",
+   "display_name": "1362, U Koupaliště, Žamberk, okres Ústí nad Orlicí, Pardubický kraj, 564 01, Česko",
+   "lat": "50.0855901",
+   "lon": "16.4753804",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2454116816
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Na+P%C5%99%C3%AD%C5%A1tipku+135%2C+25081+Nehvizdy": [
+  {
+   "name": "",
+   "display_name": "135, Na Příštipku, Nehvizdy, okres Praha-východ, Středočeský kraj, 250 81, Česko",
+   "lat": "50.1292450",
+   "lon": "14.7272200",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 1434474944
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+Stadionu+17%2C+56802+Svitavy": [
+  {
+   "name": "",
+   "display_name": "937/17, U Stadionu, Lány, Svitavy, okres Svitavy, Pardubický kraj, 568 02, Česko",
+   "lat": "49.7511197",
+   "lon": "16.4626011",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2844582397
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=16.4276011%2C49.7741197%2C16.4976011%2C49.72811969999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=16.4276011%2C49.7741197%2C16.4976011%2C49.72811969999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=16.4276011%2C49.7741197%2C16.4976011%2C49.72811969999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=16.4276011%2C49.7741197%2C16.4976011%2C49.72811969999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+Stadionu+17%2C+Svitavy": [
+  {
+   "name": "",
+   "display_name": "937/17, U Stadionu, Lány, Svitavy, okres Svitavy, Pardubický kraj, 568 02, Česko",
+   "lat": "49.7511197",
+   "lon": "16.4626011",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2844582397
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Novo%C5%A1kolsk%C3%A1+696%2F2%2C+190+00+Praha+9": [
+  {
+   "name": "One Box",
+   "display_name": "One Box, 696/2, Novoškolská, Vysočany, Praha 9, obvod Praha 9, Praha, 190 00, Česko",
+   "lat": "50.1094426",
+   "lon": "14.5062105",
+   "category": "amenity",
+   "type": "parcel_locker",
+   "addresstype": "amenity",
+   "extratags": {
+    "image": "https://sp.oneallegro.pl/apm-rseHOldwITeNstranSitemesQuInAr/CZ002A09.jpg",
+    "level": "0",
+    "colour": "darkgreen",
+    "indoor": "no",
+    "covered": "no",
+    "operator": "Allegro Retail",
+    "ref:wedo": "ONEBOX29416",
+    "stroller": "yes",
+    "wheelchair": "yes",
+    "description": "Výdejní box je umístěn po levé straně budovy SOKOL VYSOČANY, vedle občerstvení u Ládi",
+    "payment:app": "yes",
+    "payment:cash": "no",
+    "opening_hours": "24/7",
+    "parcel_pickup": "yes",
+    "brand:wikidata": "Q110738715",
+    "parcel_mail_in": "yes",
+    "display_operated": "yes",
+    "operator:website": "https://onedelivery.cz",
+    "operator:facebook": "onebyallegrocz",
+    "operator:wikidata": "Q96265995",
+    "payment:apple_pay": "yes",
+    "operator:instagram": "onebyallegrocz",
+    "parcel_locker:type": "cabinet",
+    "payment:google_pay": "yes",
+    "payment:contactless": "yes",
+    "payment:debit_cards": "yes",
+    "payment:credit_cards": "yes"
+   },
+   "osm_type": "node",
+   "osm_id": 12072102282
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Masarykovo+n%C3%A1m%C4%9Bst%C3%AD+937%2C+Votice": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Masarykovo+n%C3%A1m%C4%9Bst%C3%AD+937": [
+  {
+   "name": "Masarykovo náměstí",
+   "display_name": "Masarykovo náměstí, Třeboň Ⅰ, Třeboň, okres Jindřichův Hradec, Jihočeský kraj, Jihozápad, Česko",
+   "lat": "49.0039344",
+   "lon": "14.7710662",
+   "category": "place",
+   "type": "square",
+   "addresstype": "square",
+   "extratags": {
+    "wikidata": "Q12035997"
+   },
+   "osm_type": "way",
+   "osm_id": 545933431
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=14.7360662%2C49.0269344%2C14.8060662%2C48.980934399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=14.7360662%2C49.0269344%2C14.8060662%2C48.980934399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=14.7360662%2C49.0269344%2C14.8060662%2C48.980934399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=14.7360662%2C49.0269344%2C14.8060662%2C48.980934399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tsport&viewbox=14.7360662%2C49.0269344%2C14.8060662%2C48.980934399999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Modletice+108%2C+25170+Praha+v%C3%BDchod": [
+  {
+   "name": "TK Wilson centrum",
+   "display_name": "TK Wilson centrum, 108, Modletice, okres Praha-východ, Středočeský kraj, 251 01, Česko",
+   "lat": "49.9753637",
+   "lon": "14.5952327",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis"
+   },
+   "osm_type": "node",
+   "osm_id": 1428269701
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cts&viewbox=18.4356715%2C49.787624900000004%2C18.505671500000002%2C49.7416249": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cts&viewbox=15.7937739%2C50.234945700000004%2C15.8637739%2C50.1889457": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cts&viewbox=17.9516369%2C49.494175600000005%2C18.0216369%2C49.4481756": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cts&viewbox=17.0661982%2C49.50399650000001%2C17.1361982%2C49.4579965": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cts&viewbox=13.3344588%2C49.74596450000001%2C13.4044588%2C49.6999645": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cts&viewbox=15.040258099999999%2C50.7977665%2C15.1102581%2C50.751766499999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cts&viewbox=14.3742412%2C50.133364500000006%2C14.4442412%2C50.0873645": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=cts&viewbox=15.8002178%2C50.211790400000005%2C15.8702178%2C50.1657904": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihocesky&viewbox=15.1919819%2C49.459827600000004%2C15.2619819%2C49.4138276": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihocesky&viewbox=14.439285%2C48.9977357%2C14.509285%2C48.95173569999999": [
+  {
+   "name": "Jihočeský vědeckotechnický park",
+   "display_name": "Jihočeský vědeckotechnický park, Lipová, Čtyři Dvory, Územní skupina 2, České Budějovice 3, České Budějovice, okres České Budějovice, Jihočeský kraj, Jihozápad, 370 12, Česko",
+   "lat": "48.9771368",
+   "lon": "14.4543959",
+   "category": "building",
+   "type": "university",
+   "addresstype": "building",
+   "extratags": {
+    "height": "8",
+    "website": "https://www.jvtp.cz",
+    "roof:shape": "flat",
+    "start_date": "2014-10-02",
+    "building:levels": "3"
+   },
+   "osm_type": "way",
+   "osm_id": 432059040
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihocesky&viewbox=14.2720088%2C48.837950000000006%2C14.3420088%2C48.79195": [
+  {
+   "name": "Finanční úřad pro Jihočeský kraj - Územní pracoviště v Českém Krumlově",
+   "display_name": "Finanční úřad pro Jihočeský kraj - Územní pracoviště v Českém Krumlově, 169, Vyšehrad, Nový Vyšný, Nádražní Předměstí, Domoradice, Český Krumlov, okres Český Krumlov, Jihočeský kraj, Jihozápad, 381 01, Česko",
+   "lat": "48.8194202",
+   "lon": "14.3193137",
+   "category": "office",
+   "type": "government",
+   "addresstype": "office",
+   "extratags": {
+    "building": "civic",
+    "government": "tax",
+    "start_date": "2002-04-19",
+    "building:levels": "5"
+   },
+   "osm_type": "way",
+   "osm_id": 70091627
+  },
+  {
+   "name": "Katastrální pracoviště",
+   "display_name": "Katastrální pracoviště, 285, Za Soudem, Plešivec, Domoradice, Český Krumlov, okres Český Krumlov, Jihočeský kraj, Jihozápad, 381 01, Česko",
+   "lat": "48.8079834",
+   "lon": "14.3169981",
+   "category": "office",
+   "type": "government",
+   "addresstype": "office",
+   "extratags": {
+    "website": "https://www.cuzk.cz/Dokument.aspx?AKCE=GEN:UVOD&PRARESKOD=302",
+    "building": "yes",
+    "government": "yes",
+    "building:levels": "3"
+   },
+   "osm_type": "way",
+   "osm_id": 60849582
+  },
+  {
+   "name": "JIHOČESKÝ VODÁCKÝ AUTOBUS",
+   "display_name": "JIHOČESKÝ VODÁCKÝ AUTOBUS, U Trojice, Nový Vyšný, Nádražní Předměstí, Domoradice, Český Krumlov, okres Český Krumlov, Jihočeský kraj, Jihozápad, 381 01, Česko",
+   "lat": "48.8186727",
+   "lon": "14.3260847",
+   "category": "office",
+   "type": "guide",
+   "addresstype": "office",
+   "extratags": {
+    "phone": "+420773957720",
+    "website": "http://www.vodackyautobus.eu/"
+   },
+   "osm_type": "node",
+   "osm_id": 8656728113
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihocesky&viewbox=14.6456704%2C49.410028000000004%2C14.7156704%2C49.364028": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihocesky&viewbox=13.8568012%2C49.289793800000005%2C13.9268012%2C49.2437938": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihomoravsky&viewbox=16.820764%2C48.780478200000005%2C16.890764%2C48.7344782": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihomoravsky&viewbox=16.6061754%2C49.2236563%2C16.6761754%2C49.177656299999995": [
+  {
+   "name": "Finanční úřad pro Jihomoravský kraj",
+   "display_name": "Finanční úřad pro Jihomoravský kraj, náměstí Svobody, Brno-město, Brno-střed, Brno, okres Brno-město, Jihomoravský kraj, 662 26, Česko",
+   "lat": "49.1955925",
+   "lon": "16.6077214",
+   "category": "office",
+   "type": "government",
+   "addresstype": "office",
+   "extratags": {
+    "government": "tax",
+    "wheelchair": "limited",
+    "opening_hours": "Mo,We 08:00-17:00"
+   },
+   "osm_type": "node",
+   "osm_id": 3216633313
+  },
+  {
+   "name": "Katastrální úřad pro Jihomoravský kraj",
+   "display_name": "Katastrální úřad pro Jihomoravský kraj, 1, Moravské náměstí, Zábrdovice, Brno-střed, Brno, okres Brno-město, Jihomoravský kraj, 601 51, Česko",
+   "lat": "49.1982802",
+   "lon": "16.6085016",
+   "category": "office",
+   "type": "government",
+   "addresstype": "office",
+   "extratags": {
+    "phone": "+420 542 521 111",
+    "website": "https://cuzk.gov.cz/ku/jihomoravsky",
+    "opening_hours": "Mo,We 08:00-17:00; Tu,Th 08:00-14:00; Fr 08:00-12:00",
+    "check_date:opening_hours": "2025-10-15"
+   },
+   "osm_type": "node",
+   "osm_id": 6251374037
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihomoravsky&viewbox=15.8610207%2C49.236215300000005%2C15.9310207%2C49.1902153": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihomoravsky&viewbox=15.546622%2C49.428206200000005%2C15.616622%2C49.3822062": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihomoravsky&viewbox=14.3837817%2C50.1091154%2C14.4537817%2C50.063115399999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihomoravsky&viewbox=16.6524834%2C49.230909000000004%2C16.7224834%2C49.184909": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=jihomoravsky&viewbox=16.5761839%2C49.228371800000005%2C16.6461839%2C49.1823718": [
+  {
+   "name": "Finanční úřad pro Jihomoravský kraj",
+   "display_name": "Finanční úřad pro Jihomoravský kraj, náměstí Svobody, Brno-město, Brno-střed, Brno, okres Brno-město, Jihomoravský kraj, 662 26, Česko",
+   "lat": "49.1955925",
+   "lon": "16.6077214",
+   "category": "office",
+   "type": "government",
+   "addresstype": "office",
+   "extratags": {
+    "government": "tax",
+    "wheelchair": "limited",
+    "opening_hours": "Mo,We 08:00-17:00"
+   },
+   "osm_type": "node",
+   "osm_id": 3216633313
+  },
+  {
+   "name": "Katastrální úřad pro Jihomoravský kraj",
+   "display_name": "Katastrální úřad pro Jihomoravský kraj, 1, Moravské náměstí, Zábrdovice, Brno-střed, Brno, okres Brno-město, Jihomoravský kraj, 601 51, Česko",
+   "lat": "49.1982802",
+   "lon": "16.6085016",
+   "category": "office",
+   "type": "government",
+   "addresstype": "office",
+   "extratags": {
+    "phone": "+420 542 521 111",
+    "website": "https://cuzk.gov.cz/ku/jihomoravsky",
+    "opening_hours": "Mo,We 08:00-17:00; Tu,Th 08:00-14:00; Fr 08:00-12:00",
+    "check_date:opening_hours": "2025-10-15"
+   },
+   "osm_type": "node",
+   "osm_id": 6251374037
+  },
+  {
+   "name": "Finanční úřad Brno III",
+   "display_name": "Finanční úřad Brno III, Šumavská, Veveří, Brno-střed, Brno, okres Brno-město, Jihomoravský kraj, 602 00, Česko",
+   "lat": "49.2099018",
+   "lon": "16.5917131",
+   "category": "office",
+   "type": "government",
+   "addresstype": "office",
+   "extratags": {
+    "check_date": "2026-04-18",
+    "government": "tax",
+    "contact:email": "podatelna3003@fs.mfcr.cz",
+    "contact:phone": "+420 5 41511111",
+    "contact:website": "http://www.financnisprava.cz/cs/financni-sprava/organy-financni-spravy/financni-urady/app/urad-kontakt/3003"
+   },
+   "osm_type": "node",
+   "osm_id": 5496944878
+  }
+ ],
+ "loni:Z2425:106800": "Radlická 298/105, Praha 5",
+ "loni:Z2425:206800": "Jeremenkova 106, Praha 4",
+ "loni:Z2425:906622": "V Lukách 276, Ústí nad Orlicí",
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severocesky&viewbox=14.8023563%2C50.880607600000005%2C14.8723563%2C50.8346076": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severocesky&viewbox=13.798963%2C50.661211%2C13.868963%2C50.615210999999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severocesky&viewbox=14.2127453%2C50.4468606%2C14.2827453%2C50.400860599999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severocesky&viewbox=13.5835811%2C50.520295600000004%2C13.6535811%2C50.4742956": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severocesky&viewbox=15.040258099999999%2C50.7977665%2C15.1102581%2C50.751766499999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severomoravsky&viewbox=18.4356715%2C49.787624900000004%2C18.505671500000002%2C49.7416249": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severomoravsky&viewbox=17.9516369%2C49.494175600000005%2C18.0216369%2C49.4481756": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severomoravsky&viewbox=18.1297348%2C49.4882147%2C18.1997348%2C49.442214699999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severomoravsky&viewbox=18.3292512%2C49.6034835%2C18.399251200000002%2C49.5574835": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severomoravsky&viewbox=17.4281168%2C49.479890700000006%2C17.498116800000002%2C49.4338907": [],
+ "loni:Z2425:706610": "",
+ "loni:Z2425:706611": "",
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severomoravsky&viewbox=18.376975%2C49.817883800000004%2C18.446975000000002%2C49.7718838": [],
+ "loni:Z2425:806610": "",
+ "loni:Z2425:806611": "",
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=severomoravsky&viewbox=18.660876299999998%2C49.6809979%2C18.7308763%2C49.634997899999995": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=stredocesky&viewbox=14.6561965%2C50.2125667%2C14.7261965%2C50.1665667": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=stredocesky&viewbox=13.6789977%2C50.127198400000005%2C13.7489977%2C50.0811984": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=stredocesky&viewbox=15.0544613%2C49.7699373%2C15.1244613%2C49.723937299999996": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=stredocesky&viewbox=13.964326%2C49.690629300000005%2C14.034326%2C49.6446293": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=stredocesky&viewbox=14.239005%2C49.9532326%2C14.309005%2C49.90723259999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=stredocesky&viewbox=14.622248299999999%2C50.0051733%2C14.6922483%2C49.959173299999996": [],
+ "loni:Z2425:906060": "Pod Koňským vrchem 1159, Most",
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=15.8002178%2C50.211790400000005%2C15.8702178%2C50.1657904": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=16.1245363%2C49.9802617%2C16.1945363%2C49.93426169999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=15.7937739%2C50.234945700000004%2C15.8637739%2C50.1889457": [
+  {
+   "name": "Východočeský Realitní Fond",
+   "display_name": "Východočeský Realitní Fond, Letců, Střelecká-západ, Pražské Předměstí - sever, Pražské Předměstí, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 02, Česko",
+   "lat": "50.2120942",
+   "lon": "15.8191269",
+   "category": "office",
+   "type": "estate_agent",
+   "addresstype": "office",
+   "extratags": {
+    "opening_hours:signed": "no",
+    "check_date:opening_hours": "2025-12-04"
+   },
+   "osm_type": "node",
+   "osm_id": 13353600023
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=16.4064182%2C49.937350200000004%2C16.4764182%2C49.8913502": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=16.4403804%2C50.1085901%2C16.5103804%2C50.062590099999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=17.224032%2C49.6121403%2C17.294032%2C49.566140299999994": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=zapadocesky&viewbox=13.3551165%2C49.7792514%2C13.4251165%2C49.73325139999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=P%C5%99e%C5%A1tick%C3%A1+1268%2C+Dob%C5%99any": [
+  {
+   "name": "",
+   "display_name": "1268, Přeštická, Dobřany, okres Plzeň-jih, Plzeňský kraj, Jihozápad, 334 41, Česko",
+   "lat": "49.6462671",
+   "lon": "13.2926660",
+   "category": "place",
+   "type": "house",
+   "addresstype": "place",
+   "extratags": null,
+   "osm_type": "node",
+   "osm_id": 2526141566
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenis&viewbox=13.257666%2C49.669267100000006%2C13.327666%2C49.6232671": [
+  {
+   "name": "Stolní tenis",
+   "display_name": "Stolní tenis, Tyršova, Dobřany, okres Plzeň-jih, Plzeňský kraj, Jihozápad, 334 41, Česko",
+   "lat": "49.6554746",
+   "lon": "13.2929982",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "table_tennis",
+    "building": "civic"
+   },
+   "osm_type": "way",
+   "osm_id": 385677931
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tennis&viewbox=13.257666%2C49.669267100000006%2C13.327666%2C49.6232671": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A1+hala&viewbox=13.257666%2C49.669267100000006%2C13.327666%2C49.6232671": [
+  {
+   "name": "Tenisová hala Dobřany",
+   "display_name": "Tenisová hala Dobřany, 18036, Dobřany, okres Plzeň-jih, Plzeňský kraj, Jihozápad, 334 41, Česko",
+   "lat": "49.6462610",
+   "lon": "13.2926688",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure",
+   "extratags": {
+    "sport": "tennis",
+    "building": "yes"
+   },
+   "osm_type": "way",
+   "osm_id": 255803112
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=tenisov%C3%A9+kurty&viewbox=13.257666%2C49.669267100000006%2C13.327666%2C49.6232671": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=zapadocesky&viewbox=13.257666%2C49.669267100000006%2C13.327666%2C49.6232671": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=zapadocesky&viewbox=12.8861454%2C49.4608998%2C12.9561454%2C49.41489979999999": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=zapadocesky&viewbox=13.3344588%2C49.74596450000001%2C13.4044588%2C49.6999645": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=zapadocesky&viewbox=12.323834399999999%2C50.0987141%2C12.3938344%2C50.052714099999996": [],
+ "loni:Z2425:906073": "Úslavská 75 (tenisový areál), Plzeň",
+ "loni:Z2425:906670": "Ledečská 4069, Havlíčkův Brod"
 }

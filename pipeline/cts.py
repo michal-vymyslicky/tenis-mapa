@@ -94,8 +94,8 @@ def parse_detail(body, code):
     return d
 
 
-def fetch_details(codes, season, threads=3):
-    h = Http(pause=0.3)
+def fetch_details(codes, season, threads=3, pause=0.3):
+    h = Http(pause=pause)
 
     def one(code):
         try:

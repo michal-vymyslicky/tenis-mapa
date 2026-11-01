@@ -247,3 +247,13 @@ input.txt:focus{border-color:var(--accent)}
 .about a{color:var(--accent2)}
 .disclaimer{background:var(--surface2);border-left:3px solid var(--accent);padding:10px 12px;border-radius:8px}
 button.logo{border:0;padding:0;cursor:pointer}
+
+/* výběr sezóny */
+.quick button.season{background:var(--accent2);color:#fff;font-weight:600}
+.quick button.season.arch{background:var(--text);color:var(--surface)}
+.seasonmenu{position:fixed;top:calc(var(--top) + 100px);left:10px;z-index:980;background:var(--surface);border-radius:16px;box-shadow:var(--shadow);padding:6px;min-width:260px}
+@media (min-width:900px){.seasonmenu{left:424px;top:56px}}
+.seasonmenu .sh{font-size:12px;font-weight:600;color:var(--muted);padding:6px 10px 4px}
+.seasonmenu button{display:flex;flex-direction:column;align-items:flex-start;width:100%;text-align:left;padding:9px 12px;border-radius:10px}
+.seasonmenu button.on{background:var(--accent-soft);color:var(--accent)}
+.seasonmenu button small{color:var(--muted);font-size:12.5px}
