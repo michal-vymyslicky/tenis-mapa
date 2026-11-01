@@ -185,3 +185,21 @@ details.group summary{cursor:pointer;color:var(--accent2);font-size:14px}
 .focuspin:before{content:"";position:absolute;left:12px;bottom:-6px;width:20px;height:10px;border-radius:50%;background:rgba(212,86,31,.35);animation:pulse 1.6s ease-out infinite}
 .focuslabel{position:absolute;left:50%;bottom:64px;transform:translateX(-50%);background:var(--text);color:var(--surface);font:600 12px/1.3 system-ui,sans-serif;padding:5px 9px;border-radius:9px;white-space:nowrap;max-width:240px;overflow:hidden;text-overflow:ellipsis;box-shadow:var(--shadow-s)}
 @keyframes pulse{0%{transform:scale(.6);opacity:1}100%{transform:scale(2.6);opacity:0}}
+
+/* nahlášení problému */
+.seg .bugtab{flex:0 0 44px;color:var(--muted)}
+.seg .bugtab.on{color:var(--accent)}
+.ptitle{font-size:18px;margin:6px 0 4px}
+.ctxbox{background:var(--surface2);border-radius:12px;padding:10px 12px;font-size:13px;line-height:1.4;margin-bottom:6px}
+.ctxbox b{display:block;font-size:14px}
+.ctxbox .muted{margin:2px 0 0}
+#repType button.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
+textarea{width:100%;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface2);color:var(--text);resize:vertical;outline:none}
+textarea:focus{border-color:var(--accent)}
+.filebtn{flex:1 1 auto;height:36px;border-radius:10px;background:var(--surface2);font-size:13px;font-weight:500;padding:0 10px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+.shot{position:relative;margin-top:8px}
+.shot img{width:100%;max-height:260px;object-fit:contain;border-radius:12px;border:1px solid var(--line);background:var(--surface2)}
+.shot button{position:absolute;top:6px;right:6px;width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;font-size:18px}
+.sticky.col{flex-direction:column}
+.sticky.col button{flex:none;width:100%}
+.reportlink{font-size:12.5px;color:var(--muted);text-decoration:underline;cursor:pointer;margin-top:8px;display:inline-block}

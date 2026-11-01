@@ -3,6 +3,9 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
+const APP_VERSION = "v2.1";
+/* adresa pro hlášení problémů – rozdělená kvůli robotům sbírajícím e-maily; prázdné = tlačítko vypnuto */
+const REPORT_EMAIL = ["tenisova-mapa", "seznam.cz"].filter(Boolean).join("@");
 const CLASS_ORDER = ["MCR", "A", "B", "P", "C", "D", "E", ""];
 const CLASS_LABEL = {MCR: "MČR", A: "A", B: "B", P: "P – přebor", C: "C", D: "D", E: "E", "": "bez třídy"};
 const CAT_ORDER = ["mladsi-zactvo", "starsi-zactvo", "dorost", "dospeli", "babytenis", "stredni-kurt", "minitenis"];
@@ -66,13 +69,14 @@ let F = Object.assign(defaults(), LS.get("tm.filters", {}));
 if (!F.from || F.from < iso(today)) F.from = iso(today);
 F.surf = (F.surf || []).filter(s => /^[gr]:/.test(s));
 let FAV = new Set(LS.get("tm.fav", []));
-let sortMode = "date", pickMode = false, panel = "list", prevPanel = "list";
+let sortMode = "date", pickMode = false, panel = "list", prevPanel = "list", reportFrom = "list";
+let ctx = {}, lastVenue = null;   // kontext pro hlášení problému
 
 /* ---------- mapa ---------- */
 const CZ = [[48.55, 12.09], [51.06, 18.86]];
 const map = L.map("map", {zoomControl: false, attributionControl: true}).fitBounds(CZ);
 if (isDesk()) L.control.zoom({position: "bottomright"}).addTo(map);
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom: 19,
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom: 19, crossOrigin: true,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · data <a href="https://cesky-tenis.cz">ČTS</a>'}).addTo(map);
 const cluster = L.markerClusterGroup({maxClusterRadius: 42, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
   iconCreateFunction: c => { const n = c.getChildCount(); const s = n < 10 ? 34 : n < 50 ? 40 : 46;
@@ -324,13 +328,15 @@ addEventListener("resize", () => setSnap(snap));
 
 /* ---------- panely ---------- */
 function showPanel(name) {
-  if (name !== "detail") { prevPanel = name; clearFocus(); }
+  if (name === "report") { if (panel !== "report") reportFrom = panel; }
+  else if (name !== "detail") { prevPanel = name; clearFocus(); }
   panel = name;
   $$(".panel").forEach(p => p.classList.toggle("on", p.dataset.panel === name));
   $$("#tabs button").forEach(t => t.classList.toggle("on", t.dataset.panel === name));
   sheet.classList.toggle("detail", name === "detail");
-  $("#btnBack").hidden = name !== "detail";
-  if (name !== "detail") render();
+  $("#btnBack").hidden = name !== "detail" && name !== "report";
+  if (name !== "detail" && name !== "report") render();
+  if (name === "report") $("#summary").textContent = "Nahlásit problém";
   $("#sheetBody").scrollTop = 0;
   if (snap === "peek") setSnap(isDesk() ? "full" : "half"); else setSnap(snap);
 }
@@ -384,10 +390,13 @@ function card(e) {
       ${e.mic ? `<div><span>Míče</span>${esc(e.mic)}</div>` : ""}${e.vk ? `<div><span>Vklad</span>${e.vk} Kč</div>` : ""}
       ${e.prez ? `<div><span>Prezentace</span>${esc(e.prez)}</div>` : ""}<div><span>Pořadatel</span>${esc(e.por)}</div></div>
     ${zr ? `<div class="note">Turnaj ${e.zrus ? "zmizel z termínové listiny " + esc(fmtRange(e.zrus)) : "je v listině označen jako zrušený"} – ověřte na webu ČTS.</div>` : ""}
-    <div class="links">${linkSet(e)}</div></div>`;
+    <div class="links">${linkSet(e)}</div>
+    <span class="reportlink" data-report-ev="${esc(e.id)}">Nahlásit chybu u tohoto turnaje</span></div>`;
 }
 function bind(root) {
   root.querySelectorAll("[data-fav]").forEach(b => b.onclick = ev => { ev.stopPropagation(); toggleFav(b.dataset.fav); b.classList.toggle("on", FAV.has(b.dataset.fav)); });
+  root.querySelectorAll("[data-report-ev]").forEach(a => a.onclick = ev => { ev.stopPropagation(); openReport({ev: a.dataset.reportEv, venue: lastVenue}); });
+  root.querySelectorAll("[data-report-venue]").forEach(a => a.onclick = ev => { ev.stopPropagation(); openReport({venue: +a.dataset.reportVenue}); });
   root.querySelectorAll("[data-ev]").forEach(r => r.onclick = () => { const e = EV.find(x => x.id === r.dataset.ev); if (e) openVenue(e.misto, {focus: e.id}); });
 }
 function toggleFav(id) {
@@ -405,8 +414,15 @@ function setFocus(v) {
     icon: L.divIcon({className: "", iconSize: [44, 58], iconAnchor: [22, 57],
       html: `<div class="focuspin">${PIN(css("--accent"), 44, 58)}<span class="focuslabel">${esc(label)}</span></div>`})}).addTo(map);
 }
+const SVAZY = /^(praha|středočeský|jihočeský|západočeský|severočeský|východočeský|jihomoravský|severomoravský|čts)$/i;
+function venueTitle(v) {
+  if (v.nazev_mista && v.presnost === "areal") return v.nazev_mista;
+  if (SVAZY.test((v.poradatel || "").trim()) && v.adresa) return v.adresa.split(",").pop().trim();
+  return v.poradatel;
+}
 function openVenue(vi, opt = {}) {
   const v = VEN[vi];
+  lastVenue = vi;
   const all = byVenue.get(vi) || [];
   const match = all.filter(e => evMatches(e, {ignoreRadius: true}));
   const other = all.filter(e => !match.includes(e) && (e.do || e.od) >= iso(today));
@@ -415,10 +431,16 @@ function openVenue(vi, opt = {}) {
   let [pc, pt] = PREC[v.presnost] || PREC.nezname;
   if (v.presnost === "adresa") [pc, pt] = v.zdroj === "detail" ? ["ok", "Adresa místa konání podle ČTS"] : ["mid", "Adresa klubu (místo konání zatím neuvedeno)"];
   if (v.presnost === "areal" && v.zdroj === "detail") pt = "Adresa podle ČTS, ověřeno v mapě";
-  const nav = v.lat != null ? `<div class="links"><a class="pri" href="https://mapy.com/fnc/v1/route?end=${v.lat},${v.lon}" target="_blank" rel="noopener">Navigovat · Mapy.com</a><a href="https://www.google.com/maps/dir/?api=1&destination=${v.lat},${v.lon}" target="_blank" rel="noopener">Google Maps</a></div>` : "";
-  let html = `<div class="venue"><h2>${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : v.poradatel)}</h2>
-    <div class="addr">${esc(v.poradatel)}${v.adresa ? " · " + esc(v.adresa) : ""}${v.region ? " · " + esc(v.region) : ""}</div>
-    <span class="prec ${pc}">${esc(pt)}</span>${v.poznamka ? `<div class="muted">${esc(v.poznamka)}</div>` : ""}${nav}</div>`;
+  // Mapy.com URL API: souřadnice v pořadí lon,lat (developer.mapy.com – Mapy.cz URL); start = poloha z GPS, jinak ho doplní aplikace
+  const start = F.centerMode === "gps" && F.center ? `start=${F.center[1]},${F.center[0]}&` : "";
+  const nav = v.lat != null ? `<div class="links">
+    <a class="pri" href="https://mapy.com/fnc/v1/route?${start}end=${v.lon},${v.lat}&routeType=car_fast_traffic&navigate=true" target="_blank" rel="noopener">Navigovat · Mapy.com</a>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=${v.lat},${v.lon}&travelmode=driving" target="_blank" rel="noopener">Google Maps</a>
+    <a href="https://mapy.com/fnc/v1/showmap?center=${v.lon},${v.lat}&zoom=17&marker=true" target="_blank" rel="noopener">Ukázat v Mapy.com</a></div>` : "";
+  let html = `<div class="venue"><h2>${esc(venueTitle(v))}</h2>
+    <div class="addr">${SVAZY.test((v.poradatel || "").trim()) ? "Pořadatel: " + esc(v.poradatel) + (v.poradatel === "ČTS" ? "" : " oblastní svaz") : esc(v.poradatel)}${v.adresa ? " · " + esc(v.adresa) : ""}${v.region ? " · " + esc(v.region) : ""}</div>
+    <span class="prec ${pc}">${esc(pt)}</span>${v.poznamka ? `<div class="muted">${esc(v.poznamka)}</div>` : ""}${nav}
+    <span class="reportlink" data-report-venue="${vi}">Nahlásit špatné místo nebo údaje</span></div>`;
   if (!groups.size) html += `<div class="empty">Žádný turnaj tohoto místa neodpovídá filtrům.</div>`;
   for (const [, evs] of [...groups].sort()) {
     const ncat = new Set(evs.map(e => e.kat)).size, ncomp = evs.reduce((a, e) => a + (e.km ? 1 : 0) + (e.kz ? 1 : 0), 0);
@@ -428,7 +450,7 @@ function openVenue(vi, opt = {}) {
   if (other.length) html += `<details class="group"><summary>Další turnaje v tomto místě mimo filtr (${other.length})</summary>${other.map(card).join("")}</details>`;
   $("#detailBody").innerHTML = html;
   bind($("#detailBody"));
-  $("#summary").innerHTML = `${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : v.poradatel)}`;
+  $("#summary").innerHTML = esc(venueTitle(v));
   showPanel("detail");
   if (!isDesk()) setSnap("half");
   setFocus(v);
@@ -479,6 +501,107 @@ function importFromHash() {
   showPanel("favs");
 }
 
+/* ---------- nahlášení problému ---------- */
+let shot = null, repType = "";
+function loadH2C() {
+  if (window.html2canvas) return Promise.resolve();
+  return loadH2C.p ||= new Promise((ok, err) => { const sc = document.createElement("script"); sc.src = "vendor/html2canvas.min.js"; sc.onload = ok; sc.onerror = err; document.head.appendChild(sc); });
+}
+async function captureScreen() {
+  await loadH2C();
+  const canvas = await html2canvas(document.body, {useCORS: true, logging: false, backgroundColor: css("--bg") || "#fff",
+    x: 0, y: 0, width: innerWidth, height: innerHeight, windowWidth: innerWidth, windowHeight: innerHeight, scale: Math.min(2, devicePixelRatio || 1),
+    ignoreElements: el => el.id === "toast"});
+  return new Promise(ok => canvas.toBlob(b => ok(b), "image/jpeg", .82));
+}
+function setShot(blob) {
+  shot = blob;
+  $("#repShot").hidden = !blob;
+  if (blob) $("#repImg").src = URL.createObjectURL(blob);
+  syncReportButtons();
+}
+function ctxLines() {
+  const L1 = [];
+  const e = ctx.ev ? EV.find(x => x.id === ctx.ev) : null;
+  const vi = e ? e.misto : ctx.venue;
+  const v = vi != null ? VEN[vi] : null;
+  if (e) L1.push(`Turnaj: ${e.nz || e.por} | ${CAT_SHORT[e.kat]} | ${e.txt} | třída ${e.tr || "-"} | kódy ${[e.km, e.kz].filter(Boolean).join(", ")} | ${e.st === "zruseno" ? "ZRUŠENO" : "aktivní"}`,
+    `Odkaz ČTS: ${CTS}${e.km || e.kz}?sezona=${DATA.meta.sezona}&tab=seznam`);
+  if (v) L1.push(`Místo: ${v.nazev_mista || "-"} | pořadatel ${v.poradatel} | adresa ${v.adresa || "-"} | přesnost ${v.presnost}/${v.zdroj} | ${v.lat ?? "-"},${v.lon ?? "-"}`);
+  const c = map.getCenter();
+  L1.push(`Mapa: ${c.lat.toFixed(5)},${c.lng.toFixed(5)} z${map.getZoom()} | panel ${reportFrom}`,
+    `Filtry: od ${F.from}${F.to ? " do " + F.to : ""}; kat ${F.cat.join(",") || "vše"}; třída ${F.cls.join(",") || "vše"}; povrch ${F.surf.join(",") || "vše"}; okruh ${F.centerMode === "none" ? "ne" : F.radius + " km"}; text "${F.text}"`,
+    `Data: ${DATA.meta.aktualizace} | aplikace ${APP_VERSION} | ${navigator.userAgent.replace(/\s+/g, " ").slice(0, 140)}`);
+  return L1;
+}
+function renderCtx() {
+  const e = ctx.ev ? EV.find(x => x.id === ctx.ev) : null;
+  const vi = e ? e.misto : ctx.venue, v = vi != null ? VEN[vi] : null;
+  $("#repCtx").innerHTML = e ? `<b>${esc(e.nz || e.por)}</b>${esc(CAT_SHORT[e.kat])} · ${esc(fmtRange(e.od, e.do))} · kód ${esc(e.km || e.kz)}<div class="muted">${esc(v ? (v.nazev_mista || v.poradatel) + " · " + (v.adresa || "") : "")}</div>`
+    : v ? `<b>${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : v.poradatel)}</b>${esc(v.adresa || "adresa neuvedena")}<div class="muted">Místo na mapě · přesnost: ${esc((PREC[v.presnost] || PREC.nezname)[1])}</div>`
+    : `<b>Obecné hlášení</b>Přiloží se aktuální výřez mapy a nastavené filtry.<div class="muted">Tip: pro konkrétní turnaj otevřete jeho detail a klepněte na „Nahlásit chybu“.</div>`;
+}
+function syncReportButtons() {
+  const canShareFile = shot && navigator.canShare && navigator.canShare({files: [new File([shot], "snimek.jpg", {type: "image/jpeg"})]});
+  $("#repSend").textContent = shot && canShareFile ? "Odeslat se snímkem" : "Odeslat e-mailem";
+  $("#repSaveShot").hidden = !shot || canShareFile;
+  $("#repSend").disabled = !REPORT_EMAIL;
+  $("#repNote").textContent = !REPORT_EMAIL ? "Adresa pro hlášení zatím není nastavená." :
+    shot && canShareFile ? `Otevře se sdílení – vyberte Poštu (Mail). Adresát: ${REPORT_EMAIL}` :
+    shot ? "Snímek se uloží do stažených souborů – přiložte ho prosím k e-mailu." : "";
+}
+async function openReport(c) {
+  ctx = c || {};
+  if (!ctx.ev && ctx.venue == null && panel === "detail") ctx.venue = lastVenue;
+  const prevSnap = snap;
+  setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on"));
+  // snímek obrazovky v podobě, jakou uživatel právě vidí (před otevřením formuláře)
+  try { toast("Pořizuji snímek obrazovky…"); setShot(await captureScreen()); $("#toast").hidden = true; } catch { $("#toast").hidden = true; }
+  renderCtx();
+  showPanel("report");
+  setSnap(isDesk() ? "full" : "full");
+  void prevSnap;
+}
+function reportText() {
+  const desc = $("#repText").value.trim();
+  return [`Typ: ${repType || "neuvedeno"}`, "", desc || "(bez popisu)", "", "— kontext (vyplněno automaticky) —", ...ctxLines()].join("\n");
+}
+function reportSubject() {
+  const e = ctx.ev ? EV.find(x => x.id === ctx.ev) : null, v = (e ? VEN[e.misto] : ctx.venue != null ? VEN[ctx.venue] : null);
+  return `Tenisová mapa – ${repType || "hlášení"}${e ? ": " + (e.nz || e.por) + " " + e.txt : v ? ": " + v.poradatel : ""}`;
+}
+function openMail(body) {
+  const b = body.length > 1800 ? body.slice(0, 1800) + "\n…" : body;
+  location.href = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(reportSubject())}&body=${encodeURIComponent(b)}`;
+}
+function downloadShot() {
+  const a = document.createElement("a"); a.href = URL.createObjectURL(shot); a.download = `tenisova-mapa-snimek-${iso(new Date())}.jpg`; a.click();
+}
+$$("#repType button").forEach(b => b.onclick = () => { repType = repType === b.dataset.t ? "" : b.dataset.t; $$("#repType button").forEach(x => x.classList.toggle("on", x.dataset.t === repType)); });
+$("#repCapture").onclick = async () => {
+  // zachytí mapu bez formuláře: panel se dočasně stáhne
+  const keep = snap; if (!isDesk()) setSnap("peek");
+  await new Promise(r => setTimeout(r, 450));
+  try { setShot(await captureScreen()); } catch { toast("Snímek se nepodařilo pořídit – vyberte obrázek z galerie."); }
+  setSnap(keep);
+};
+$("#repFile").onchange = e => { const f = e.target.files?.[0]; if (f) setShot(f); e.target.value = ""; };
+$("#repShotDel").onclick = () => setShot(null);
+$("#repSaveShot").onclick = () => shot && downloadShot();
+$("#repSend").onclick = async () => {
+  if (!REPORT_EMAIL) return;
+  if (!$("#repText").value.trim() && !repType) { toast("Vyberte typ problému nebo napište krátký popis."); return; }
+  const body = reportText();
+  const file = shot ? new File([shot], `tenisova-mapa-${iso(new Date())}.jpg`, {type: shot.type || "image/jpeg"}) : null;
+  if (file && navigator.canShare && navigator.canShare({files: [file]})) {
+    try { await navigator.share({files: [file], title: reportSubject(), text: `Komu: ${REPORT_EMAIL}\nPředmět: ${reportSubject()}\n\n${body}`}); toast("Děkujeme za hlášení!"); return; }
+    catch (err) { if (err && err.name === "AbortError") return; }
+  }
+  if (file) downloadShot();
+  openMail(body);
+  toast("Děkujeme za hlášení!");
+};
+
 /* ---------- vyhledání místa (Nominatim) ---------- */
 $("#placeForm").onsubmit = async ev => {
   ev.preventDefault();
@@ -495,8 +618,12 @@ $("#placeForm").onsubmit = async ev => {
 };
 
 /* ---------- události UI ---------- */
-$$("#tabs button").forEach(t => t.onclick = e => { e.stopPropagation(); showPanel(t.dataset.panel); });
-$("#btnBack").onclick = e => { e.stopPropagation(); showPanel(prevPanel); };
+$$("#tabs button").forEach(t => t.onclick = e => { e.stopPropagation(); t.dataset.panel === "report" ? openReport({venue: panel === "detail" ? lastVenue : null}) : showPanel(t.dataset.panel); });
+$("#btnBack").onclick = e => {
+  e.stopPropagation();
+  if (panel === "report" && reportFrom === "detail" && lastVenue != null) return openVenue(lastVenue, {move: false});
+  showPanel(panel === "report" ? (reportFrom === "detail" ? prevPanel : reportFrom) : prevPanel);
+};
 $("#btnFilters").onclick = () => { showPanel("filters"); setSnap("full"); };
 $("#fFrom").onchange = e => { F.from = e.target.value || iso(today); render(); };
 $("#fTo").onchange = e => { F.to = e.target.value; render(); };
@@ -531,6 +658,7 @@ fetch("data/turnaje.json", {cache: "no-cache"}).then(r => r.json()).then(js => {
   const upd = new Date(js.meta.aktualizace);
   $("#fText").placeholder = `Hledat turnaj… (data ${upd.getDate()}. ${upd.getMonth() + 1}.)`;
   buildFilterUI(); render(); importFromHash();
+  setTimeout(() => loadH2C().catch(() => {}), 4000);
   if (isDesk()) setSnap("full");
   if (F.center && F.centerMode !== "none") fitVisible(L.latLng(F.center).toBounds(F.radius * 2000));
   else fitVisible(L.latLngBounds(CZ));
