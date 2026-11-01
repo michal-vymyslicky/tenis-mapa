@@ -25,20 +25,12 @@ Předávací log pro další chat (stav k 1. 11. 2026, noc).
    nebo jména – jde o údaje nezletilých z veřejného webu ČTS, doporučeno minimum.
 4. Případně: sezóna L27 – v workflow změnit `SEZONA`.
 
-## Stav nasazení na GitHub (1. 11. 2026, noc)
-- V Chrome je otevřená karta github.com/new s vyplněným formulářem (účet **michal-vymyslicky**, repozitář **tenis-mapa**, Public,
-  popis). Vytvoření veřejného repozitáře mi automatická kontrola oprávnění nepovolila – je potřeba kliknout **Create repository** ručně.
-- Kód ještě NENÍ nahraný. Postup (Terminál na Macu, cca 2 minuty):
-  ```
-  cd "$HOME/Documents/Tenis Data/web/tenis-mapa"
-  git init -b main
-  git add -A
-  git commit -m "Tenisová mapa turnajů ČTS"
-  git remote add origin https://github.com/michal-vymyslicky/tenis-mapa.git
-  git push -u origin main
-  ```
-  (při prvním push se macOS/Git zeptá na přihlášení ke GitHubu; alternativa: GitHub Desktop → Add local repository → Publish)
-- Pak na GitHubu: **Settings → Pages → Build and deployment → Source: GitHub Actions**; **Actions → „Denní aktualizace turnajů“ → Run workflow**.
-  Web pak poběží na **https://michal-vymyslicky.github.io/tenis-mapa/** a data se obnoví každý den ve 4:17 (zimní čas).
-- Náhled bez GitHubu: `cd site && python3 -m http.server 8000` → http://localhost:8000 (GPS funguje jen na localhost/https).
-- Pozor: složka `.github/` je v Finderu skrytá (Cmd+Shift+.) – při nahrávání přes web GitHubu by se nepřenesla, proto git.
+## Stav nasazení na GitHub (1. 11. 2026)
+- Repozitář **https://github.com/michal-vymyslicky/tenis-mapa** (veřejný). Obsah nahrán přes web GitHubu (přetažení složky);
+  workflow `.github/workflows/aktualizace.yml` vložen přes editor GitHubu (skryté soubory se přetažením nenahrají – `.gitignore` v repozitáři není).
+- Pages: Settings → Pages → Source = **GitHub Actions** (nastaveno). První běh workflow spuštěn ručně 1. 11. 2026.
+- Web: **https://michal-vymyslicky.github.io/tenis-mapa/** – data se obnovují denně 3:17 UTC (Action commitne data do repozitáře).
+- Lokální kopie v Tenis Data **není git klon** – po změně kódu nahrát změněné soubory na GitHub (web: Add file → Upload files do stejné složky),
+  nebo složku jednou naklonovat (`git clone https://github.com/michal-vymyslicky/tenis-mapa.git`). Aktuální data jsou vždy v repozitáři (commity bota).
+- Workflow: když chybí `site/vendor`, stáhne Leaflet; když chybí `data/clubs.json`, stáhne adresář klubů (`--kluby`); timeout 150 min.
+- Náhled lokálně: `cd site && python3 -m http.server 8000` → http://localhost:8000.

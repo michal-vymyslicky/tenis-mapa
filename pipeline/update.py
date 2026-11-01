@@ -129,6 +129,9 @@ def main():
             s["zruseno"] = TODAY
         if s.get("zruseno"):
             snap.update(st="zruseno", zrus=s["zruseno"], nove=s.get("prvni"))
+            # ČTS u zrušeného turnaje často nechá v listině řádek bez kódů – nahradíme ho původním snímkem s detaily
+            events[:] = [e for e in events if not (not e["km"] and not e["kz"] and e["kat"] == snap["kat"]
+                                                   and e["txt"] == snap["txt"] and e["por"] == snap["por"])]
             events.append(snap)
             vreq.setdefault(snap["misto"], {"poradatel": snap["por"], "adresa_detail": "", "kod": snap.get("km") or snap.get("kz")})
     save("stav.json", stav)

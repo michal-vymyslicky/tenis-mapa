@@ -168,6 +168,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "ev.164, Pod Plynojemem, Palmovka, Praha 8, obvod Praha 8, Praha, 186 00, Česko"
  },
+ "klub:ltc houstka": {
+  "klic": "klub:ltc houstka",
+  "poradatel": "LTC Houštka",
+  "adresa": "Houštka 1259, 250 01 Stará Boleslav",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 50.189567,
+  "lon": 14.691197,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1259, Houštka, Písek, Stará Boleslav, Brandýs nad Labem-Stará Boleslav, okres Praha-východ, Středočeský kraj, 250 01, Česko"
+ },
  "klub:ltc houstka|houstka 1259 stara boleslav": {
   "klic": "klub:ltc houstka|houstka 1259 stara boleslav",
   "poradatel": "LTC Houštka",
@@ -362,6 +375,19 @@
   "nazev_mista": "Hamr",
   "osm_vzdalenost_km": 0.09,
   "geokod": "3200/6, K vodě, Záběhlice, Praha 10, obvod Praha 10, Praha, 106 00, Česko"
+ },
+ "klub:sk hit hradec kralove z s": {
+  "klic": "klub:sk hit hradec kralove z s",
+  "poradatel": "SK HIT Hradec Králové z.s.",
+  "adresa": "Hradecká 775/115, 500 11 Hradec Králové",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 50.18879,
+  "lon": 15.835218,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
  },
  "klub:sk hit hradec kralove z s|hradecka 775 115 hradec kralove": {
   "klic": "klub:sk hit hradec kralove z s|hradecka 775 115 hradec kralove",
@@ -582,6 +608,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "905, V Ráji, Praha-Dolní Počernice, obvod Praha 9, Praha, 190 12, Česko"
+ },
+ "klub:sokol smichov i": {
+  "klic": "klub:sokol smichov i",
+  "poradatel": "Sokol Smíchov I.",
+  "adresa": "U Mrázovky, sport.areál Mrázovka, 15000 Praha 5",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.051918,
+  "lon": 14.38393,
+  "presnost": "obec",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Praha 5, obvod Praha 5, Praha, Česko"
  },
  "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5": {
   "klic": "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5",
@@ -869,6 +908,19 @@
   "osm_vzdalenost_km": 0.06,
   "geokod": "427/1, U Labe, Labská kotlina II, Pražské Předměstí - jih, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 02, Česko"
  },
+ "klub:tenis cibulka": {
+  "klic": "klub:tenis cibulka",
+  "poradatel": "Tenis Cibulka",
+  "adresa": "V Stráni 11, 150 00 Praha 5",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.067211,
+  "lon": 14.361204,
+  "presnost": "areal",
+  "nazev_mista": "Tenis Cibulka",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "485/11, V Stráni, Košíře, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
+ },
  "klub:tenis cibulka|v strani 11 praha 5": {
   "klic": "klub:tenis cibulka|v strani 11 praha 5",
   "poradatel": "Tenis Cibulka",
@@ -1076,6 +1128,19 @@
   "nazev_mista": "Tennis Hill",
   "osm_vzdalenost_km": 0.01,
   "geokod": "401/10a, Padlých hrdinů, Havířov-Životice, Životice, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
+ },
+ "klub:tj brno komin": {
+  "klic": "klub:tj brno komin",
+  "poradatel": "TJ Brno-Komín",
+  "adresa": "Svratecká 11b, 624 00 Brno",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.216546,
+  "lon": 16.553648,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1301/11b, Svratecká, Brno-Komín, Brno, okres Brno-město, Jihomoravský kraj, 624 00, Česko"
  },
  "klub:tj brno komin|svratecka 11b brno": {
   "klic": "klub:tj brno komin|svratecka 11b brno",
@@ -1311,6 +1376,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "1524, U Hřiště, Březenice, Hemže, Choceň, okres Ústí nad Orlicí, Pardubický kraj, 565 01, Česko"
  },
+ "klub:tk chomutov": {
+  "klic": "klub:tk chomutov",
+  "poradatel": "TK Chomutov",
+  "adresa": "Bezručova 4880,PO BOX 36, 43003 Chomutov 3",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.470325,
+  "lon": 13.392857,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "4880, Bezručova, Chomutov, okres Chomutov, Ústecký kraj, 430 03, Česko"
+ },
  "klub:tk chomutov|bezrucova 4880 po box 36 chomutov 3": {
   "klic": "klub:tk chomutov|bezrucova 4880 po box 36 chomutov 3",
   "poradatel": "TK Chomutov",
@@ -1336,6 +1414,19 @@
   "nazev_mista": "Tenisová hala",
   "osm_vzdalenost_km": 0.05,
   "geokod": "1581, Kouty, Město 1, Krásno nad Bečvou, Hrachovec, Valašské Meziříčí, okres Vsetín, Zlínský kraj, 757 01, Česko"
+ },
+ "klub:tk domyno p4 z s": {
+  "klic": "klub:tk domyno p4 z s",
+  "poradatel": "TK DOMYNO P4, z.s.",
+  "adresa": "Chýnovská, 14000 Praha 4",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.01563,
+  "lon": 14.451776,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Chýnovská, Jalový Dvůr, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
  },
  "klub:tk domyno p4 z s|chynovska praha 4": {
   "klic": "klub:tk domyno p4 z s|chynovska praha 4",
@@ -1376,6 +1467,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "Tenisový klub lázně Evženie, 105, Kyselka, Miřetice u Klášterce nad Ohří, Lestkov, Klášterec nad Ohří, okres Chomutov, Ústecký kraj, 431 51, Česko"
  },
+ "klub:tk havirov z s": {
+  "klic": "klub:tk havirov z s",
+  "poradatel": "TK Havířov, z.s.",
+  "adresa": "Opletalova 1218/8b, 73601 Havířov-Šumbark",
+  "zdroj": "adresar",
+  "region": "Severomoravský",
+  "lat": 49.794884,
+  "lon": 18.411975,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1218/8b, Opletalova, Havířov-Šumbark, Šumbark, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
+ },
  "klub:tk havirov z s|opletalova 1218 8b havirov sumbark": {
   "klic": "klub:tk havirov z s|opletalova 1218 8b havirov sumbark",
   "poradatel": "TK Havířov, z.s.",
@@ -1401,6 +1505,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1063, Olšinky, Poličské předměstí, Kouty, Hlinsko, okres Chrudim, Pardubický kraj, 539 01, Česko"
+ },
+ "klub:tk horni mecholupy": {
+  "klic": "klub:tk horni mecholupy",
+  "poradatel": "TK Horní Měcholupy",
+  "adresa": "Hornoměcholupská 564, 10900 Praha 15, Horní Měcholupy",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.04711,
+  "lon": 14.548464,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "564/105, Hornoměcholupská, Horní Měcholupy, Praha 15, obvod Praha 10, Praha, 109 00, Česko"
  },
  "klub:tk horni mecholupy|hornomecholupska 564 praha 15 horni mecholupy": {
   "klic": "klub:tk horni mecholupy|hornomecholupska 564 praha 15 horni mecholupy",
@@ -1609,19 +1726,6 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Budečská, Přívoz, Moravská Ostrava a Přívoz, Ostrava, okres Ostrava-město, Moravskoslezský kraj, 702 72, Česko"
- },
- "klub:tk severni terasa": {
-  "klic": "klub:tk severni terasa",
-  "poradatel": "TK Severní Terasa",
-  "adresa": "V Lánech 405, 40340 Ústí nad Labem",
-  "zdroj": "adresar",
-  "region": "Severočeský",
-  "lat": 50.692863,
-  "lon": 14.012288,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "405, V Lánech, Skorotice, Ústí nad Labem-město, Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, 403 40, Česko"
  },
  "klub:tk severni terasa|v lanech 405 usti nad labem": {
   "klic": "klub:tk severni terasa|v lanech 405 usti nad labem",
@@ -2892,11 +2996,11 @@
   "klic": "svaz:vychodocesky:106920",
   "poradatel": "východočeský",
   "adresa": "Hradecká 775/115, Hradec Králové",
-  "zdroj": "detail",
+  "zdroj": "loni",
   "region": "Východočeský",
   "lat": 50.18879,
   "lon": 15.835218,
-  "presnost": "adresa",
+  "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
@@ -2905,11 +3009,11 @@
   "klic": "svaz:vychodocesky:206920",
   "poradatel": "východočeský",
   "adresa": "Sportovní 224, Vysoké Mýto",
-  "zdroj": "detail",
+  "zdroj": "loni",
   "region": "Východočeský",
   "lat": 49.957262,
   "lon": 16.159536,
-  "presnost": "adresa",
+  "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "224, Sportovní, Lipová, Choceňské Předměstí, Vysoké Mýto, okres Ústí nad Orlicí, Pardubický kraj, 566 01, Česko"
@@ -2918,11 +3022,11 @@
   "klic": "svaz:vychodocesky:306920",
   "poradatel": "východočeský",
   "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "detail",
+  "zdroj": "loni",
   "region": "Východočeský",
   "lat": 50.211946,
   "lon": 15.828774,
-  "presnost": "adresa",
+  "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
@@ -2931,11 +3035,11 @@
   "klic": "svaz:vychodocesky:406920",
   "poradatel": "východočeský",
   "adresa": "Husova 22, Česká Třebová",
-  "zdroj": "detail",
+  "zdroj": "loni",
   "region": "Východočeský",
   "lat": 49.914019,
   "lon": 16.441415,
-  "presnost": "areal",
+  "presnost": "odhad",
   "nazev_mista": "tenis",
   "osm_vzdalenost_km": 0.04,
   "geokod": "22, Husova, Parník, Česká Třebová, okres Ústí nad Orlicí, Pardubický kraj, 560 02, Česko"
@@ -2944,11 +3048,11 @@
   "klic": "svaz:vychodocesky:506920",
   "poradatel": "východočeský",
   "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "detail",
+  "zdroj": "loni",
   "region": "Východočeský",
   "lat": 50.211946,
   "lon": 15.828774,
-  "presnost": "adresa",
+  "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
@@ -2957,11 +3061,11 @@
   "klic": "svaz:vychodocesky:606920",
   "poradatel": "východočeský",
   "adresa": "U koupaliště 1362, Žamberk",
-  "zdroj": "detail",
+  "zdroj": "loni",
   "region": "Východočeský",
   "lat": 50.08559,
   "lon": 16.47538,
-  "presnost": "adresa",
+  "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1362, U Koupaliště, Žamberk, okres Ústí nad Orlicí, Pardubický kraj, 564 01, Česko"
@@ -2969,54 +3073,54 @@
  "svaz:vychodocesky:706920": {
   "klic": "svaz:vychodocesky:706920",
   "poradatel": "východočeský",
-  "adresa": "Hradecká 775/115, Hradec Králové",
-  "zdroj": "detail",
+  "adresa": "U koupaliště 1362, Žamberk",
+  "zdroj": "loni",
   "region": "Východočeský",
-  "lat": 50.18879,
-  "lon": 15.835218,
-  "presnost": "adresa",
+  "lat": 50.08559,
+  "lon": 16.47538,
+  "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
+  "geokod": "1362, U Koupaliště, Žamberk, okres Ústí nad Orlicí, Pardubický kraj, 564 01, Česko"
  },
  "svaz:vychodocesky:806920": {
   "klic": "svaz:vychodocesky:806920",
   "poradatel": "východočeský",
-  "adresa": "Husova 22, Česká Třebová",
-  "zdroj": "detail",
+  "adresa": "Hradecká 775/115, Hradec Králové",
+  "zdroj": "loni",
   "region": "Východočeský",
-  "lat": 49.914019,
-  "lon": 16.441415,
-  "presnost": "areal",
-  "nazev_mista": "tenis",
-  "osm_vzdalenost_km": 0.04,
-  "geokod": "22, Husova, Parník, Česká Třebová, okres Ústí nad Orlicí, Pardubický kraj, 560 02, Česko"
+  "lat": 50.18879,
+  "lon": 15.835218,
+  "presnost": "odhad",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
  },
  "svaz:vychodocesky:906638": {
   "klic": "svaz:vychodocesky:906638",
   "poradatel": "východočeský",
-  "adresa": "Sportovní 224, Vysoké Mýto",
-  "zdroj": "detail",
+  "adresa": "Na Dlouhých 812, Uherský Brod",
+  "zdroj": "loni",
   "region": "Východočeský",
-  "lat": 49.957262,
-  "lon": 16.159536,
-  "presnost": "adresa",
+  "lat": 49.028559,
+  "lon": 17.641883,
+  "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "224, Sportovní, Lipová, Choceňské Předměstí, Vysoké Mýto, okres Ústí nad Orlicí, Pardubický kraj, 566 01, Česko"
+  "geokod": "812, Na Dlouhých, Uherský Brod, okres Uherské Hradiště, Zlínský kraj, 688 01, Česko"
  },
  "svaz:vychodocesky:906639": {
   "klic": "svaz:vychodocesky:906639",
   "poradatel": "východočeský",
-  "adresa": "U koupaliště 1362, Žamberk",
-  "zdroj": "detail",
+  "adresa": "Houštka 1259, Stará Boleslav",
+  "zdroj": "loni",
   "region": "Východočeský",
-  "lat": 50.08559,
-  "lon": 16.47538,
-  "presnost": "adresa",
+  "lat": 50.189567,
+  "lon": 14.691197,
+  "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "1362, U Koupaliště, Žamberk, okres Ústí nad Orlicí, Pardubický kraj, 564 01, Česko"
+  "geokod": "1259, Houštka, Písek, Stará Boleslav, Brandýs nad Labem-Stará Boleslav, okres Praha-východ, Středočeský kraj, 250 01, Česko"
  },
  "svaz:zapadocesky:106880": {
   "klic": "svaz:zapadocesky:106880",

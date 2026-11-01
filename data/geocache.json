@@ -12597,40 +12597,5 @@
    "osm_type": "way",
    "osm_id": 86748655
   }
- ],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=V+L%C3%A1nech+405%2C+40340+%C3%9Ast%C3%AD+nad+Labem": [
-  {
-   "name": "",
-   "display_name": "405, V Lánech, Skorotice, Ústí nad Labem-město, Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, 403 40, Česko",
-   "lat": "50.6928626",
-   "lon": "14.0122881",
-   "category": "place",
-   "type": "house",
-   "addresstype": "place",
-   "extratags": null,
-   "osm_type": "node",
-   "osm_id": 5448440218
-  }
- ],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=15.8002178%2C50.211790400000005%2C15.8702178%2C50.1657904": [],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=16.1245363%2C49.9802617%2C16.1945363%2C49.93426169999999": [],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=15.7937739%2C50.234945700000004%2C15.8637739%2C50.1889457": [
-  {
-   "name": "Východočeský Realitní Fond",
-   "display_name": "Východočeský Realitní Fond, Letců, Střelecká-západ, Pražské Předměstí - sever, Pražské Předměstí, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 02, Česko",
-   "lat": "50.2120942",
-   "lon": "15.8191269",
-   "category": "office",
-   "type": "estate_agent",
-   "addresstype": "office",
-   "extratags": {
-    "opening_hours:signed": "no",
-    "check_date:opening_hours": "2025-12-04"
-   },
-   "osm_type": "node",
-   "osm_id": 13353600023
-  }
- ],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=16.4064182%2C49.937350200000004%2C16.4764182%2C49.8913502": [],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=16.4403804%2C50.1085901%2C16.5103804%2C50.062590099999994": []
+ ]
 }
