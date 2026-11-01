@@ -5,12 +5,16 @@ Pořadí zdrojů (sloupec `presnost` v mista.json):
   2. adresa klubu-pořadatele z adresáře klubů ČTS                         -> zdroj "adresar"
   3. turnaje oblastních svazů / ČTS bez adresy: místo loňského ročníku
      stejného kódu (loňská sezóna)                                                -> zdroj "loni" (odhad)
-Adresa se geokóduje (Nominatim/OSM) a poté se v okolí 2,5 km hledá tenisový areál/hala
-v OSM (sport=tennis, název s „tenis“/„tennis“ nebo shodou s názvem klubu) – `presnost`:
-  "areal"  = bod přichycen na tenisový areál v OSM (ověřeno)
-  "adresa" = bod adresy (areál v OSM nenalezen)
-  "obec"   = jen střed obce
-  "odhad"  = loňské místo (letos zatím nezveřejněno)
+Geokódování (od v2.5): 1) RÚIAN – vyhledávací služba ČÚZK (adresní místa ČR, přesný bod budovy; zkouší varianty
+zápisu: zkratky nábř./nám./tř., bez /orientačního čísla, oprava „Ulice123“), 2) Nominatim (OSM) jako záloha.
+Přichycení na kurty: lokální index tenisových areálů ČR z OSM (data/osm_tenis.json, pipeline/osm_tenis.py – kurty
+sloučené do areálů, názvy hal/areálů, web). Výběr areálu: vzdálenost od adresy, shoda názvu s klubem / s místem
+v adrese / s webem, počet kurtů, hala (zima). `presnost`:
+  "areal"      = bod na tenisovém areálu (u přesné adresy do 350 m nebo shoda názvu do 2,5 km)
+  "areal_obec" = adresa jen na úroveň obce, areál vybrán v obci (nejvíc kurtů / shoda názvu) – neověřeno
+  "adresa"     = bod adresy (areál v OSM v blízkosti není)
+  "obec"       = jen střed obce
+  "odhad"      = místo minulého ročníku (letos zatím nezveřejněno)
 Ruční opravy: data/mista_opravy.csv (mají přednost).
 """
 import csv, json, math, os, re, sys, time, urllib.parse
@@ -47,6 +51,7 @@ def dist_km(a, b):
 def clean_addr(a):
     a = re.sub(r"\([^)]*\)", "", a or "")          # poznámky v závorce („(dvorce: …)“, „(adresa kurtů)“)
     a = re.sub(r"\b0\b\s*", "", a)                # „Nad Újezdem, 0 Praha 1“ -> bez nuly
+    a = re.sub(r"(^|,)\s*\d{3} ?\d{2}\s+(?=[A-ZÁ-Ža-zá-ž])", r"\1 ", a)   # PSČ před obcí (stejné místo s PSČ i bez něj)
     a = re.sub(r"\s+", " ", a).strip(" ,")
     return a
 
@@ -57,68 +62,209 @@ def city_of(addr):
     return re.sub(r"^\d{3}\s?\d{2}\s*", "", last).strip()
 
 
-def geocode_address(addr):
-    addr = clean_addr(addr)
-    if not addr:
+RUIAN = "https://ags.cuzk.cz/arcgis/rest/services/RUIAN/Vyhledavaci_sluzba_nad_daty_RUIAN/MapServer/exts/GeocodeSOE/findAddressCandidates"
+ruian_http = Http(ua=UA_GEO, pause=0.2)
+ABBR = [(r"\bnábřeží\b", "nábř."), (r"\bnáměstí\b", "nám."), (r"\btřída\b", "tř."), (r"\bnábř\b(?!\.)", "nábř."),
+        (r"\bnám\b(?!\.)", "nám."), (r"\bsídliště\b", "sídl.")]
+
+
+def ruian(q):
+    key = "ruian:" + q
+    if key in CACHE:
+        return CACHE[key]
+    url = RUIAN + "?" + urllib.parse.urlencode({"SingleLine": q, "outSR": 4326, "maxLocations": 3, "f": "json"})
+    try:
+        st, body = ruian_http.get(url, tries=2)
+        res = json.loads(body).get("candidates", []) if st == 200 else []
+    except Exception:  # noqa: BLE001 – služba nedostupná → zkusí se Nominatim
+        return []
+    CACHE[key] = [{"a": c["address"], "lat": round(c["location"]["y"], 6), "lon": round(c["location"]["x"], 6), "s": c.get("score", 0)} for c in res]
+    return CACHE[key]
+
+
+def addr_parts(addr):
+    """„Bezručova 4880,PO BOX 36, Chomutov 3“ → (ulice+číslo, obec, části) – pro RÚIAN a kontrolu výsledků."""
+    a = re.sub(r"PO ?BOX ?\d+", "", addr, flags=re.I)
+    a = re.sub(r"\bul\.\s*", "", a, flags=re.I)                                    # „ul.17.listopadu“
+    a = re.sub(r"([A-ZÁ-Ža-zá-ž])\.(?=[A-ZÁ-Ža-zá-ž0-9])", r"\1. ", a)              # „B.Němcové“ → „B. Němcové“
+    a = re.sub(r"(\d)\.(?=[A-Za-zÁ-ž])", r"\1. ", a)                                # „17.listopadu“ → „17. listopadu“
+    a = re.sub(r"\bn\.\s*L\.?", "nad Labem", a)
+    a = re.sub(r"\bn\.\s*Vlt\.?", "nad Vltavou", a)
+    a = re.sub(r"([a-záčďéěíňóřšťúůýž])(\d)", r"\1 \2", a)                         # Salašska2182 → Salašska 2182
+    parts = [p.strip() for p in a.split(",") if p.strip()]
+    cand = parts[:-1] if len(parts) > 1 else parts
+    street = next((p for p in cand if re.search(r"\d", p) and re.search(r"[A-Za-zÁ-ž]", p) and not re.match(r"^\d{3}\s?\d{2}\b", p)
+                   and not re.match(r"^(Praha|Brno|Ostrava|Plzeň|Liberec)\s*\d+$", p)), "")
+    city = city_of(a)
+    city = re.sub(r"\s*-\s*.*$", "", city).strip()                                  # „Praha 8 - Čimice“ → „Praha 8“
+    city = re.sub(r"/.*$", "", city).strip()                                          # „Brno/Kohoutovice“ → „Brno“
+    return street, city, parts
+
+
+def city_in(ck, text):
+    """Obec (klíč) je v textu výsledku – i s drobným překlepem (Vedryně × Vendryně)."""
+    import difflib
+    if not ck:
+        return True
+    words = norm(text).split()
+    return ck in words or any(difflib.SequenceMatcher(None, ck, w).ratio() >= 0.8 for w in words if abs(len(w) - len(ck)) <= 2)
+
+
+def city_key(city):
+    w = [t for t in norm(re.sub(r"\d+", " ", city)).split() if t not in ("nad", "pod", "u", "v")]
+    return w[0] if w else ""
+
+
+def street_key(street):
+    w = [t for t in norm(re.sub(r"\d+\w*", " ", street)).split() if len(t) > 2 and t not in ("nam", "namesti", "nabr", "nabrezi", "trida", "ulice")]
+    return w[0][:5] if w else ""
+
+
+def geocode_ruian(addr):
+    street, city, parts = addr_parts(addr)
+    if not street or not city:
         return None
+    cities = [city]
+    c2 = re.sub(r"\s+\d+$", "", city).strip()                                        # „Liberec 1“, „Praha 22“ → bez čísla obvodu
+    if c2 and c2 != city:
+        cities.append(c2)
+    sts = [street]
+    s2 = re.sub(r"(\d+)\s*/\s*\d+\w*", r"\1", street)                                # bez orientačního čísla
+    if s2 != street:
+        sts.append(s2)
+    for st in list(sts):
+        for a, b in ABBR:
+            v = re.sub(a, b, st, flags=re.I)
+            if v != st and v not in sts:
+                sts.append(v)
+    qs = [f"{st}, {c}" for c in cities for st in sts]
+    if re.match(r"^[A-ZÁ-Ž][^\d]*\s\d+$", street):                                  # „Trojanovice 112“ = obec + č. p.
+        qs.append(street)
+    ck, sk = city_key(city), street_key(street)
+    for q in qs:
+        for c in ruian(q):
+            an = norm(c["a"])
+            words = set(an.split())
+            if c["s"] < 90:
+                continue
+            if q == street:
+                if street_key(street) and an.startswith("c p ") and street_key(street) in an:
+                    return c["lat"], c["lon"], "adresa", "RÚIAN: " + c["a"]
+                continue
+            if not city_in(ck, c["a"]):
+                continue
+            if sk and sk not in an:
+                continue
+            return c["lat"], c["lon"], "adresa", "RÚIAN: " + c["a"]
+    return None
+
+
+PLACE_JUNK = r"\b(sport\.?\s*areál|sportovní areál|areál|tenisové kurty|tenisová hala|kurty|hala|ulice|sportoviště)\b\.?"
+
+
+def geocode_nominatim(addr):
     parts = [p.strip() for p in addr.split(",") if p.strip()]
-    qs = [(addr, "adresa")] + [(p, "adresa") for p in parts[:-1] if re.search(r"\d", p)] + \
-         [(re.sub(r"^[^,]*,\s*", "", addr) if "," in addr else None, "obec"), (city_of(addr), "obec")]
+    city = city_of(addr)
+    cityb = re.sub(r"\s*-\s*.*$", "", city).strip()
+    qs = [(addr, "adresa")] + [(p, "adresa") for p in parts[:-1] if re.search(r"\d", p)]
+    # pojmenovaná místa v adrese („sport.areál Mrázovka“, „tenisové kurty Vyhlídka“) → hledat s obcí
+    for p in parts[:-1]:
+        if not re.search(r"\d", p):
+            core = re.sub(PLACE_JUNK, " ", p, flags=re.I).strip(" .-")
+            if len(core) > 3 and norm(core) != norm(cityb):
+                qs.append((f"{core}, {re.sub(r'[0-9]+', '', cityb).strip()}", "misto"))
+    qs += [(re.sub(r"^[^,]*,\s*", "", addr) if "," in addr else None, "obec"), (city, "obec")]
     for q, prec in qs:
         if not q:
             continue
         r = nominatim({"q": q, "limit": 1})
+        ck = city_key(cityb)
+        if r and not city_in(ck, " ".join(seg for seg in r[0].get("display_name", "").split(",")
+                                          if not seg.strip().startswith(("okres", "Kraj")) and "kraj" not in seg)):
+            r = None                                   # nalezeno v jiné obci → zkusit další dotaz
         if r:
             x = r[0]
-            p = prec
-            if prec == "adresa" and x.get("addresstype") in ("city", "town", "village", "suburb", "municipality", "city_district", "county", "state"):
+            p = "adresa" if prec != "obec" else "obec"
+            if x.get("category") == "highway":
+                p = "ulice"
+            elif x.get("category") == "boundary" or x.get("addresstype") in ("city", "town", "village", "suburb", "municipality", "city_district",
+                                                                                 "county", "state", "hamlet", "neighbourhood", "quarter", "isolated_dwelling"):
                 p = "obec"
-            return float(x["lat"]), float(x["lon"]), p, x.get("display_name", "")
+            elif prec == "misto":
+                p = "ulice"                       # pojmenované místo (park, areál) – hledat kurty v okolí ~1 km
+            return float(x["lat"]), float(x["lon"]), p, "OSM: " + x.get("display_name", "")
     return None
+
+
+def geocode_address(addr):
+    addr = clean_addr(addr)
+    if not addr:
+        return None
+    return geocode_ruian(addr) or geocode_nominatim(addr)
 
 
 def tokens(name):
     return [t for t in norm(name).split() if len(t) > 2 and t not in STOP]
 
 
-def snap_to_tennis(pt, club_name, addr=""):
-    dlat, dlon = 0.023, 0.035  # ≈ 2,5 km
-    vb = f"{pt[1]-dlon},{pt[0]+dlat},{pt[1]+dlon},{pt[0]-dlat}"
-    place = set(norm(addr).split()) | {"praha", "brno", "ostrava", "plzen", "liberec"}
-    toks = [t for t in tokens(club_name) if t not in place]  # název obce v názvu klubu nesmí dělat „shodu“
-    queries = ["tenis", "tennis", "tenisová hala", "tenisové kurty"] + ([" ".join(toks[:3])] if toks else [])
-    cands = {}
-    for q in queries:
-        for x in nominatim({"q": q, "viewbox": vb, "bounded": 1, "limit": 15}):
-            cands[(x.get("osm_type"), x.get("osm_id"))] = x
-    best = None
-    for x in cands.values():
-        et = x.get("extratags") or {}
-        nm = norm(x.get("name") or "")
-        tennis = "tennis" in (et.get("sport") or "") or "tenis" in nm or "tennis" in nm
-        sportish = x.get("category") in ("leisure", "building", "amenity") and x.get("type") in (
-            "sports_centre", "sports_hall", "pitch", "stadium", "track", "fitness_centre", "yes", "club")
-        overlap = len(set(toks) & set(nm.split()))
-        if not (tennis or (sportish and overlap)):
+_OSM = None
+
+
+def osm_index():
+    global _OSM
+    if _OSM is None:
+        d = load("osm_tenis.json", {}) or {}
+        _OSM = [f for f in d.get("arealy", []) if f.get("kurty") or not re.search(r"squash|badminton|bowling|fitness|golf", norm(f.get("nazev", "")))]
+        for f in _OSM:
+            f["_n"] = set(norm(" ".join([f.get("nazev", ""), re.sub(r"https?://|www\.|\.(cz|com|eu|org|net)\b.*", " ", f.get("web", "")),
+                                        f.get("adresa", "")])).split())
+    return _OSM
+
+
+ADDR_STOP = {"ulice", "nam", "namesti", "trida", "nabr", "nabrezi", "areal", "sport", "sportovni", "tenisove", "kurty", "hala", "praha", "brno",
+             "ostrava", "plzen", "psc", "box", "cesky", "ceske", "ceska", "nad", "pod", "pri", "u", "na", "v"}
+
+
+def snap_to_tennis(pt, club_name, addr="", level="adresa", winter=True):
+    """Nejlepší tenisový areál z OSM indexu kolem bodu → (lat, lon, název, vzdálenost km, shoda názvu, kurty) nebo None.
+    level: „adresa“ (přesný bod budovy), „ulice“ (ulice / pojmenované místo), „obec“ (jen obec)."""
+    _, city, _ = addr_parts(addr) if addr else ("", "", [])
+    cityt = set(norm(city).split())
+    toks = {t for t in tokens(club_name) if t not in cityt and t not in {"praha", "brno", "ostrava", "plzen"}}
+    atoks = {t for t in norm(re.sub(r"\d+", " ", addr)).split() if len(t) > 3 and t not in ADDR_STOP and t not in cityt}
+    best, big = None, []
+    for f in osm_index():
+        if abs(f["lat"] - pt[0]) > 0.05 or abs(f["lon"] - pt[1]) > 0.075:
             continue
-        if not tennis and (re.search(r"lukostr|fotbal|hokej|plav|atlet|cyklo|golf|kuzel|bowling", nm) or (et.get("sport") and "tennis" not in et.get("sport", ""))):
-            continue  # jiný sport se shodou názvu oddílu
-        if re.search(r"stoln|table|bar\b|squash|badminton|restaura|hospod|servis|shop|obchod", nm) or "table_tennis" in (et.get("sport") or ""):
-            continue  # stolní tenis, bary apod.
-        if re.search(r"zanikl|byval|bývalé|disused|abandoned|demol", nm) or any(k.startswith(("disused", "abandoned", "was:")) for k in et):
-            continue  # zaniklé kurty
-        d = dist_km(pt, (float(x["lat"]), float(x["lon"])))
-        if d > 2.5:
+        d = dist_km(pt, (f["lat"], f["lon"]))
+        if d > 5:
             continue
-        # zima = kryté kurty: bonus pro haly / budovy / covered
-        indoor = "hala" in nm or "hall" in nm or x.get("category") == "building" or x.get("type") == "sports_hall" or et.get("covered") in ("yes", "roof") or et.get("indoor") == "yes"
-        score = d - 1.2 * overlap - (0.4 if tennis else 0) - (0.3 if et.get("sport") else 0) - (0.2 if x.get("type") in ("sports_centre", "sports_hall") else 0) - (0.25 if indoor else 0)
+        ov = len(toks & f["_n"]) + 0.5 * len(atoks & f["_n"])
+        k = min(f.get("kurty", 0), 8)
+        if k >= 3 and d <= 2.0:
+            big.append(f)
+        if level == "adresa":
+            ok = (d <= 0.35 and (k >= 2 or f.get("nazev") or f.get("hala") or d <= 0.2)) or (ov and d <= 2.5)
+        elif level == "ulice":
+            tn = any(t.startswith(("tenis", "tennis")) for t in f["_n"])
+            ok = (d <= 1.2 and (k >= 2 or (tn and f.get("hala")))) or (ov and d <= 3)
+        else:
+            ok = bool(ov) and d <= 5
+        if not ok:
+            continue
+        score = d - 0.9 * ov - 0.03 * k - (0.12 if winter and f.get("hala") else 0) - (0.05 if f.get("nazev") else 0)
+        if k <= 1 and not ov:
+            score += 0.15                                   # jednotlivý kurt (hotel, soukromý) jen když nic lepšího
         if best is None or score < best[0]:
-            best = (score, d, x, overlap)
+            best = (score, d, f, ov)
+    if not best and level == "obec" and len(big) == 1:    # v obci je jediný větší areál
+        f = big[0]
+        best = (0, dist_km(pt, (f["lat"], f["lon"])), f, 0)
     if not best:
         return None
-    _, d, x, ov = best
-    return float(x["lat"]), float(x["lon"]), x.get("name") or "tenisový areál", round(d, 2), ov
+    _, d, f, ov = best
+    nm = f.get("nazev") or ""          # bez názvu v OSM → v aplikaci se ukáže název pořadatele
+    return f["lat"], f["lon"], nm, round(d, 2), ov, f.get("kurty", 0)
 
 
 def prev_season(season):
@@ -175,7 +321,7 @@ def venue_key(poradatel, code, addr_detail):
     if norm(poradatel) in RA:
         return f"svaz:{norm(poradatel)}:{code}"
     if addr_detail:
-        return f"klub:{norm(poradatel)}|{norm(addr_detail)}"
+        return f"klub:{norm(poradatel)}|{norm(clean_addr(addr_detail))}"
     return f"klub:{norm(poradatel)}"
 
 
@@ -183,6 +329,7 @@ def resolve(requests, clubs, old=None):
     """requests: {klic: {poradatel, adresa_detail, kod}} -> {klic: místo}."""
     idx = club_index(clubs)
     ovr = load_overrides()
+    mem = load("mista_kluby.json", {}) or {}
     old = old or {}
     out = {}
     for i, (key, rq) in enumerate(sorted(requests.items())):
@@ -201,13 +348,13 @@ def resolve(requests, clubs, old=None):
         g = geocode_address(addr) if addr else None
         if g:
             v.update(lat=round(g[0], 6), lon=round(g[1], 6), presnost=g[2], geokod=g[3])
-            s = snap_to_tennis((g[0], g[1]), por if src != "loni" else "", addr)
-            # přijetí areálu: shoda názvu s klubem (do 2,5 km), nebo areál do 400 m od přesné adresy;
-            # u adresy jen na úroveň obce = nejbližší areál v obci, ale označený jako neověřený
-            if s and ((g[2] == "adresa" and (s[3] <= 0.4 or (s[4] > 0 and s[3] <= 0.6))) or (g[2] != "adresa" and s[4] > 0)):
-                v.update(lat=round(s[0], 6), lon=round(s[1], 6), presnost="areal", nazev_mista=s[2], osm_vzdalenost_km=s[3])
-            elif s and g[2] == "obec" and s[3] <= 1.0:
-                v.update(lat=round(s[0], 6), lon=round(s[1], 6), presnost="areal_obec", nazev_mista=s[2], osm_vzdalenost_km=s[3])
+            winter = rq.get("sezona", "Z")[0] == "Z"
+            s = snap_to_tennis((g[0], g[1]), por if src != "loni" else "", addr, level=g[2], winter=winter)
+            if g[2] == "ulice":
+                v["presnost"] = "obec"
+            if s:
+                v.update(lat=round(s[0], 6), lon=round(s[1], 6), nazev_mista=s[2], osm_vzdalenost_km=s[3],
+                         presnost="areal" if (g[2] == "adresa" or s[4] >= 1) else "areal_obec")
             if src == "loni":
                 v["presnost"] = "odhad"
         if key in ovr:
@@ -219,4 +366,30 @@ def resolve(requests, clubs, old=None):
             print(f"  místa {i}/{len(requests)}: {por} -> {v['presnost']} {v['nazev_mista']}", flush=True)
             save("geocache.json", CACHE)
     save("geocache.json", CACHE)
+    # aktualizace paměti míst klubů (ověřené areály a ruční opravy)
+    for key, v in out.items():
+        if not key.startswith("klub:") or v["presnost"] not in ("areal", "rucne") or v.get("pamet") is not None:
+            continue
+        lst = mem.setdefault(norm(v["poradatel"]), [])
+        se = requests[key].get("sezona", "")
+        hit = next((m for m in lst if dist_km((m["lat"], m["lon"]), (v["lat"], v["lon"])) <= 0.15), None)
+        rec = {"lat": v["lat"], "lon": v["lon"], "nazev": v.get("nazev_mista", ""), "presnost": v["presnost"], "adresa": v["adresa"], "sezona": se}
+        if hit is None:
+            lst.append(rec)
+        elif v["presnost"] == "rucne" or hit["presnost"] != "rucne":
+            hit.update(rec)
+    # paměť míst klubu (jiné ročníky / jiný zápis adresy): slabé určení nahradit ověřeným areálem téhož klubu
+    for key, v in out.items():
+        rq = requests[key]
+        if key.startswith("klub:") and v["presnost"] in ("adresa", "obec", "areal_obec", "nezname"):
+            known = [m for m in mem.get(norm(v["poradatel"]), []) if m["presnost"] in ("areal", "rucne")]
+            if v["lat"] is not None:
+                known = [m for m in known if dist_km((v["lat"], v["lon"]), (m["lat"], m["lon"])) <= (3 if v["presnost"] != "adresa" else 0.8)]
+            elif len({(round(m["lat"], 3), round(m["lon"], 3)) for m in known}) != 1:
+                known = []
+            if known:
+                m = min(known, key=lambda m: dist_km((v["lat"], v["lon"]), (m["lat"], m["lon"])) if v["lat"] is not None else 0)
+                v.update(lat=m["lat"], lon=m["lon"], nazev_mista=m.get("nazev", ""), presnost="areal", pamet=m.get("sezona", ""),
+                         poznamka="místo podle ověřeného areálu klubu" + (f" (ročník {m['sezona']})" if m.get("sezona") and m["sezona"] != rq.get("sezona") else ""))
+    save("mista_kluby.json", mem)
     return out

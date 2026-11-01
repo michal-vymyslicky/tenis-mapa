@@ -1,37 +1,37 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log pro další chat (stav k 1. 11. 2026, noc).
+Předávací log (stav k 1. 11. 2026, noc, verze webu v2.5).
 
-## Hotovo
-- Web `site/` (Leaflet, mobil i desktop): mapa se špendlíky podle třídy, filtry termín od–do (kalendář) + rychlé volby,
-  kategorie / pohlaví / třída / povrch (vícenásobný výběr), okruh od GPS polohy / bodu v mapě / hledané obce (5–300 km),
-  seznam (řazení podle data / vzdálenosti), detail místa se souběhem turnajů, kapacitou, obsazeností, dvorci, povrchem,
-  odkazy na přihlášky a hrací plány/výsledky ČTS, navigace (Mapy.com, Google), oblíbené + sdílení odkazem + export .ics,
-  zrušené turnaje přeškrtnuté, PWA (lze přidat na plochu telefonu). Otestováno v Playwright (iPhone 13 + desktop 1400×900), bez chyb v konzoli.
-- Data 1. 11. 2026 0:47: 1 379 turnajů (vč. babytenisu 254 a minitenisu 99, zveřejněny 31. 10./1. 11.), 1 790 detailů, 251 míst.
-- Místa: adresa z detailu ČTS (1 676 detailů už adresu má) → geokódování Nominatim → přichycení na tenisový areál v OSM.
-  Přesnost: areal 36, adresa 114, areal_obec 1, obec 6, odhad 84 (přebory svazů – loňské místo), nezname 10.
-  Přehled k ručnímu ověření: `data/kontrola_mist.csv` (`python3 pipeline/kontrola_mist.py`), opravy do `data/mista_opravy.csv`.
-- Denní GitHub Action `.github/workflows/aktualizace.yml` (3:17 UTC): stáhne listinu + detaily, přepočítá, commitne data, nasadí Pages.
-- Jména přihlášených hráčů se neukládají (jen počty) – repozitář je veřejný.
+## Kde web běží
+- **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
+  github.com/michal-vymyslicky/tenis-mapa. Stará adresa michal-vymyslicky.github.io/tenis-mapa přesměruje.
+- DNS u Active24 (admin.active24.cz → turnajovamapa.cz → DNS): 4× A 185.199.108–111.153, 4× AAAA 2606:50c0:8000–8003::153,
+  www = CNAME michal-vymyslicky.github.io. Pošta (MX, mx10/mx20.active24.cz) beze změny. Wildcard `*` zůstal na Active24.
+- GitHub → Settings → Pages: custom domain turnajovamapa.cz, Enforce HTTPS zapnuto (certifikát vystavil GitHub).
 
-## Rozpracováno / další kroky
-1. **Nasazení na GitHub Pages** – viz README „Nasazení“. Stav pokusu o nahrání: viz sekce níže.
-2. Ruční kontrola míst s přesností `obec`, `nezname`, `odhad` (kontrola_mist.csv) – případně opravy v mista_opravy.csv.
-3. **Další iterace – hráči:** vyhledání hráče ze žebříčku (data Tenis Data `data/01_zebricky/zebricky.csv`, ID hráče) a zobrazení jeho
-   přihlášek v mapě (multiple choice více hráčů). Přihlášky jsou v detailu turnaje (`&tab=seznam`, tabulky „Hlavní soutěž“ /
-   „Seznam odstraněných“, odkaz `/hrac/<id>`) – parser je hotový v `pipeline/cts.py::parse_detail` (pole `prihlaseni`).
-   Rozhodnout: zveřejnit na webu jen index „ID hráče → kódy turnajů“ (bez jmen, jméno se dohledá ze žebříčku v prohlížeči),
-   nebo jména – jde o údaje nezletilých z veřejného webu ČTS, doporučeno minimum.
-4. Případně: sezóna L27 – v workflow změnit `SEZONA`.
+## Hotovo (v2.4 – více sezón)
+- Web: mapa, filtry (termín, kategorie, pohlaví, třída, povrch se skupinami, okruh), seznam, detail místa se souběhem,
+  oblíbené, hledání hráčů a jejich přihlášek, „kam se může přihlásit“, hlášení problému (FormSubmit + e-mail), O aplikaci, PWA.
+- **Sezóny:** Z2425, L25, Z2526, L26 (archiv) + Z2627 (probíhá). Přepínač sezóny v řádku rychlých filtrů.
+  Data `data/<S>/`, web `site/data/<S>/{turnaje,hraci}.json`, rejstřík `site/data/sezony.json`, žebříček `site/data/zebricek.json`.
+- **Budoucí ročníky:** denní workflow `aktualizace.yml` volá `update.py --auto` = probíhající + následující sezóna
+  (+ předchozí 30 dní po konci). L27 / Z2728 se přidají samy, jakmile je ČTS zveřejní. Nic se nemusí přepínat.
+- Ruční doplnění/obnova sezóny: Actions → „Doplnění sezóny“ (`doplneni.yml`) → Run workflow, vstup např. `Z2425 L25`.
 
-## Stav nasazení na GitHub (1. 11. 2026)
-- Repozitář **https://github.com/michal-vymyslicky/tenis-mapa** (veřejný). Obsah nahrán přes web GitHubu (přetažení složky);
-  workflow `.github/workflows/aktualizace.yml` vložen přes editor GitHubu (skryté soubory se přetažením nenahrají – `.gitignore` v repozitáři není).
-- Pages: Settings → Pages → Source = **GitHub Actions** (nastaveno). První běh workflow spuštěn ručně 1. 11. 2026.
-- Web: **https://michal-vymyslicky.github.io/tenis-mapa/** – data se obnovují denně 3:17 UTC (Action commitne data do repozitáře).
-- **Nasazení nové verze (od v2.1):** přetáhnout složky `site` a `pipeline` na github.com/michal-vymyslicky/tenis-mapa/upload/main → **Commit changes** → workflow (event push) web nasadí za ~30 s bez stahování dat. Před nahráním mít v `site/data/turnaje.json` aktuální data z webu (jinak se do dalšího ranního běhu zobrazí starší data).
-- Lokální kopie v Tenis Data **není git klon** – po změně kódu nahrát změněné soubory na GitHub (web: Add file → Upload files do stejné složky),
-  nebo složku jednou naklonovat (`git clone https://github.com/michal-vymyslicky/tenis-mapa.git`). Aktuální data jsou vždy v repozitáři (commity bota).
-- Workflow: když chybí `site/vendor`, stáhne Leaflet; když chybí `data/clubs.json`, stáhne adresář klubů (`--kluby`); timeout 150 min.
+## v2.5 – místa konání
+- Geokódování RÚIAN (ČÚZK) → Nominatim; přichycení na kurty z indexu OSM `data/osm_tenis.json` (`pipeline/osm_tenis.py`,
+  obnova po 30 dnech; Overpass z cloudového kontejneru Claude nejde – spustit na Macu nebo v GitHub Actions).
+- Paměť míst klubů `data/mista_kluby.json` – stejný klub = stejné místo napříč ročníky.
+- Částečně zrušené turnaje (jen dívky / jen chlapci) se už neškrtají celé (pole `zr`).
+- Přepočet míst bez stahování: `python3 pipeline/update.py --sezona Z2627 --bez-stahovani` (lze opakovat `--sezona`).
+
+## Údržba
+- Nový žebříček ČTS: exportovat z Tenis Data `data/01_zebricky/zebricky.csv` do `pipeline/zebricek_<období>.json`
+  (stejný formát jako `zebricek_2027Z.json`); web bere poslední soubor.
+- Kontrola míst: `python3 pipeline/kontrola_mist.py Z2627` → `data/Z2627/kontrola_mist.csv`; opravy `data/mista_opravy.csv` (klíč místa).
+- FormSubmit: první hlášení z webu vyžádá aktivační e-mail na tenisova-mapa@seznam.cz (potvrdit odkaz).
+- **Nasazení (od 1. 11. 2026): složka `web/tenis-mapa` je git repozitář napojený na GitHub.** Claude změny udělá přímo v ní,
+  nejdřív `git pull --rebase` (stáhne denní data od bota), pak `git commit`. Uživatel jen v aplikaci **GitHub Desktop** klikne
+  **Push origin** (účet michal-vymyslicky). Žádné ruční nahrávání přes web GitHubu – nemá limit velikosti a přenese i `.github/workflows`.
+  Při konfliktu v generovaných datech (data/, site/data/) vzít verzi z GitHubu a data přepočítat (`update.py --bez-stahovani`).
 - Náhled lokálně: `cd site && python3 -m http.server 8000` → http://localhost:8000.

@@ -14874,6 +14874,1742 @@
  "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=zapadocesky&viewbox=12.323834399999999%2C50.0987141%2C12.3938344%2C50.052714099999996": [],
  "loni:Z2425:906073": "Úslavská 75 (tenisový areál), Plzeň",
  "loni:Z2425:906670": "Ledečská 4069, Havlíčkův Brod",
+ "ruian:Sportovní 456, Vestec": [
+  {
+   "a": "Sportovní 456, 25250 Vestec",
+   "lat": 49.989787,
+   "lon": 14.488258,
+   "s": 100
+  }
+ ],
+ "ruian:U stadionu 1970/4, Kuřim": [
+  {
+   "a": "U stadionu 1970/4, 66434 Kuřim",
+   "lat": 49.310052,
+   "lon": 16.530828,
+   "s": 100
+  }
+ ],
+ "ruian:Lužánecká 7, Brno": [
+  {
+   "a": "Lužánecká 2016/7, Černá Pole, 60200 Brno",
+   "lat": 49.205372,
+   "lon": 16.611182,
+   "s": 100
+  }
+ ],
+ "ruian:U Tenisu 3859/214, Jablonec n.N.": [],
+ "ruian:U Tenisu 3859, Jablonec n.N.": [],
+ "ruian:214, Jablonec n.N.": [],
+ "ruian:Hořelické náměstí 1130, Rudná u Prahy": [],
+ "ruian:Hořelické nám. 1130, Rudná u Prahy": [],
+ "ruian:Osvobození 524, Vřesina okres Ostrava": [],
+ "ruian:Janáčkovo stromořadí 156, Třebíč": [
+  {
+   "a": "Janáčkovo stromořadí 156, Jejkov, 67401 Třebíč",
+   "lat": 49.213193,
+   "lon": 15.896085,
+   "s": 100
+  }
+ ],
+ "ruian:Ostrov Štvanice 38, Praha 7": [
+  {
+   "a": "Ostrov Štvanice č.ev. 38, Holešovice, 17000 Praha 7",
+   "lat": 50.095827,
+   "lon": 14.440212,
+   "s": 100
+  }
+ ],
+ "ruian:Alej sportovců 256, Velké Březno": [
+  {
+   "a": "Alej sportovců 256, 40323 Velké Březno",
+   "lat": 50.666376,
+   "lon": 14.144525,
+   "s": 100
+  }
+ ],
+ "ruian:Čekanice 245, Tábor": [
+  {
+   "a": "Čekanice 245, 39002 Tábor",
+   "lat": 49.429452,
+   "lon": 14.686334,
+   "s": 100
+  }
+ ],
+ "ruian:Bukolská 838/2a, Praha 8": [],
+ "ruian:Bukolská 838, Praha 8": [],
+ "ruian:2a, Praha 8": [
+  {
+   "a": "K sadu 754/2a, Troja, 18200 Praha 8",
+   "lat": 50.123792,
+   "lon": 14.437516,
+   "s": 100
+  },
+  {
+   "a": "Řepná 1233/2a, Ďáblice, 18200 Praha 8",
+   "lat": 50.150022,
+   "lon": 14.495317,
+   "s": 100
+  },
+  {
+   "a": "Ulčova 740/2a, Dolní Chabry, 18400 Praha 8",
+   "lat": 50.138879,
+   "lon": 14.452289,
+   "s": 100
+  }
+ ],
+ "ruian:Boleslavská 319, Nymburk": [
+  {
+   "a": "Boleslavská třída 319/11, 28802 Nymburk",
+   "lat": 50.188092,
+   "lon": 15.037197,
+   "s": 100
+  }
+ ],
+ "ruian:Pod plynojemem 164, Praha 8": [
+  {
+   "a": "Pod plynojemem č.ev. 164, Karlín, 18600 Praha 8",
+   "lat": 50.097667,
+   "lon": 14.473274,
+   "s": 100
+  }
+ ],
+ "ruian:Houštka 1259, Stará Boleslav": [
+  {
+   "a": "Houštka 1259, Stará Boleslav, 25001 Brandýs nad Labem-Stará Boleslav",
+   "lat": 50.189567,
+   "lon": 14.691196,
+   "s": 100
+  }
+ ],
+ "ruian:Hálkova 1845, Humpolec": [
+  {
+   "a": "Hálkova 1845, 39601 Humpolec",
+   "lat": 49.540423,
+   "lon": 15.347696,
+   "s": 100
+  }
+ ],
+ "ruian:Jiráskova 413, Litvínov": [
+  {
+   "a": "Jiráskova 413, Horní Litvínov, 43601 Litvínov",
+   "lat": 50.599276,
+   "lon": 13.618856,
+   "s": 100
+  }
+ ],
+ "ruian:Šárovo kolo 932/1, Praha 5": [
+  {
+   "a": "Šárovo kolo 932/1, Radotín, 15300 Praha 5",
+   "lat": 49.985774,
+   "lon": 14.372172,
+   "s": 100
+  }
+ ],
+ "ruian:Vltavské nábřeží 930/1, České Budějovice": [],
+ "ruian:Vltavské nábř. 930/1, České Budějovice": [
+  {
+   "a": "Vltavské nábř. 930/1, České Budějovice 2, 37005 České Budějovice",
+   "lat": 48.975685,
+   "lon": 14.465407,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 224, Vysoké Mýto": [
+  {
+   "a": "Sportovní 224, Pražské Předměstí, 56601 Vysoké Mýto",
+   "lat": 49.957281,
+   "lon": 16.159516,
+   "s": 100
+  }
+ ],
+ "ruian:Fibichova 1377/8, Liberec": [
+  {
+   "a": "Fibichova 1377/8, Liberec I-Staré Město, 46001 Liberec",
+   "lat": 50.774746,
+   "lon": 15.075214,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 1530, Frýdlant n.O.": [],
+ "ruian:V Chobotě 2112, Říčany": [
+  {
+   "a": "V Chobotě 2112/21, 25101 Říčany",
+   "lat": 49.982173,
+   "lon": 14.657248,
+   "s": 100
+  }
+ ],
+ "ruian:28.rijna 2236, Frydek": [],
+ "ruian:Na lopatárně 1550/12, Plzeň 4": [],
+ "ruian:Na lopatárně 1550, Plzeň 4": [],
+ "ruian:12, Plzeň 4": [
+  {
+   "a": "náměstí Karla Panušky 4/12, Újezd, 31200 Plzeň",
+   "lat": 49.761033,
+   "lon": 13.43656,
+   "s": 100
+  },
+  {
+   "a": "Plzeň 4 12683/12",
+   "lat": 49.753178,
+   "lon": 13.402448,
+   "s": 100
+  },
+  {
+   "a": "Plzeň 4 12655/12",
+   "lat": 49.756527,
+   "lon": 13.406473,
+   "s": 100
+  }
+ ],
+ "ruian:Družstevní 355, Hvozdná": [
+  {
+   "a": "Družstevní 355, 76310 Hvozdná",
+   "lat": 49.255621,
+   "lon": 17.758488,
+   "s": 100
+  }
+ ],
+ "ruian:Pod Strání 312, Rožnov pod Radhoštěm": [
+  {
+   "a": "Pod strání č.ev. 312, 75661 Rožnov pod Radhoštěm",
+   "lat": 49.465215,
+   "lon": 18.164735,
+   "s": 100
+  }
+ ],
+ "ruian:Tuřanka 1260/1, Brno": [
+  {
+   "a": "Tuřanka 1260/1, Slatina, 62700 Brno",
+   "lat": 49.176424,
+   "lon": 16.688113,
+   "s": 100
+  }
+ ],
+ "ruian:K Vodě 3200/6, Praha 10": [
+  {
+   "a": "K vodě 3200/6, Záběhlice, 10600 Praha 10",
+   "lat": 50.053057,
+   "lon": 14.486055,
+   "s": 100
+  }
+ ],
+ "ruian:Hradecká 775/115, Hradec Králové": [
+  {
+   "a": "Hradecká 775/115, Třebeš, 50011 Hradec Králové",
+   "lat": 50.18837,
+   "lon": 15.834688,
+   "s": 100
+  }
+ ],
+ "ruian:Karlovecká 1B, Opava": [
+  {
+   "a": "Karlovecká 2918/1b, Předměstí, 74707 Opava",
+   "lat": 49.956622,
+   "lon": 17.882745,
+   "s": 100
+  }
+ ],
+ "ruian:Gudrichova 762, Hradec nad Moravicí": [
+  {
+   "a": "Gudrichova 762, 74741 Hradec nad Moravicí",
+   "lat": 49.870293,
+   "lon": 17.873891,
+   "s": 100
+  }
+ ],
+ "ruian:Jeremenkova 106, Praha 4": [
+  {
+   "a": "Jeremenkova 1835/106, Krč, 14000 Praha 4",
+   "lat": 50.0441,
+   "lon": 14.434934,
+   "s": 100
+  }
+ ],
+ "ruian:U Arborky 397, Praha": [
+  {
+   "a": "U Arborky 397, Satalice, 19015 Praha 9",
+   "lat": 50.122629,
+   "lon": 14.567599,
+   "s": 100
+  }
+ ],
+ "ruian:Na Studánkách 2590, Rakovník": [
+  {
+   "a": "Na Studánkách 2590, Rakovník II, 26901 Rakovník",
+   "lat": 50.103972,
+   "lon": 13.714288,
+   "s": 100
+  }
+ ],
+ "ruian:Dlouhá třída 17, Mýto": [
+  {
+   "a": "Dlouhá třída 17, 33805 Mýto",
+   "lat": 49.787915,
+   "lon": 13.732336,
+   "s": 100
+  }
+ ],
+ "ruian:Ostrovec 1897, Tišnov": [
+  {
+   "a": "Ostrovec 1897, 66601 Tišnov",
+   "lat": 49.344282,
+   "lon": 16.41746,
+   "s": 100
+  }
+ ],
+ "ruian:Zátiší 1958, Uherský Brod": [
+  {
+   "a": "Zátiší 1958, 68801 Uherský Brod",
+   "lat": 49.020586,
+   "lon": 17.652297,
+   "s": 100
+  }
+ ],
+ "ruian:Na Statkem 118, Praha 4": [
+  {
+   "a": "Nad statkem 118, Újezd u Průhonic, 14900 Praha 4",
+   "lat": 50.01022,
+   "lon": 14.54407,
+   "s": 100
+  }
+ ],
+ "ruian:Véska 6, Dolany": [
+  {
+   "a": "Véska 6, 78316 Dolany",
+   "lat": 49.656933,
+   "lon": 17.360089,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní areál Vendryně 1017, Vedryně": [],
+ "ruian:Závodní 2885/86, Ostrava Vítkovice": [
+  {
+   "a": "Závodní 2885/86g, Vítkovice, 70300 Ostrava",
+   "lat": 49.803876,
+   "lon": 18.25822,
+   "s": 100
+  }
+ ],
+ "ruian:Na Průhonu 229/20, Praha 8": [
+  {
+   "a": "Na průhonu 229/20, Čimice, 18100 Praha 8",
+   "lat": 50.139076,
+   "lon": 14.433254,
+   "s": 100
+  }
+ ],
+ "ruian:V Raji 905, Narodních hrdinů 290": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=U+Mr%C3%A1zovky%2C+Praha": [
+  {
+   "name": "U Mrázovky",
+   "display_name": "U Mrázovky, Malvazinky, Praha 5, obvod Praha 5, Praha, 150 00, Česko",
+   "lat": "50.0678550",
+   "lon": "14.3925915",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "lit": "yes",
+    "lanes": "1",
+    "maxspeed": "30",
+    "zone:maxspeed": "30",
+    "name:etymology:wikidata": "Q131911450"
+   },
+   "osm_type": "way",
+   "osm_id": 33705691
+  }
+ ],
+ "ruian:Hrušková 2194, Sokolov": [
+  {
+   "a": "Hrušková 2194, 35601 Sokolov",
+   "lat": 50.155391,
+   "lon": 12.711499,
+   "s": 100
+  }
+ ],
+ "ruian:Růžová 1256, Řevnice": [
+  {
+   "a": "Růžová 1256, 25230 Řevnice",
+   "lat": 49.91795,
+   "lon": 14.227831,
+   "s": 100
+  }
+ ],
+ "ruian:Přechodní 1594/1, Praha 4": [
+  {
+   "a": "Přechodní 1594/1, Krč, 14000 Praha 4",
+   "lat": 50.038999,
+   "lon": 14.453164,
+   "s": 100
+  }
+ ],
+ "ruian:Loosova 1b, Brno": [
+  {
+   "a": "Loosova 800/1b, Lesná, 63800 Brno",
+   "lat": 49.230546,
+   "lon": 16.623217,
+   "s": 100
+  }
+ ],
+ "ruian:Masarykova 699/9, Liberec 1": [],
+ "ruian:Masarykova 699, Liberec 1": [],
+ "ruian:9, Liberec 1": [
+  {
+   "a": "1. máje 863/9, Liberec III-Jeřáb, 46007 Liberec",
+   "lat": 50.76642,
+   "lon": 15.053674,
+   "s": 100
+  },
+  {
+   "a": "nám. Dr. E. Beneše 1/9, Liberec III-Jeřáb, 46007 Liberec",
+   "lat": 50.768965,
+   "lon": 15.058267,
+   "s": 100
+  }
+ ],
+ "ruian:Slunečná 4548, Zlín": [
+  {
+   "a": "Slunečná 4548, 76005 Zlín",
+   "lat": 49.231779,
+   "lon": 17.659164,
+   "s": 100
+  }
+ ],
+ "ruian:Na Sladovnách 4255/2, Kroměříž": [
+  {
+   "a": "Na Sladovnách 4255/2, 76701 Kroměříž",
+   "lat": 49.30254,
+   "lon": 17.391515,
+   "s": 100
+  }
+ ],
+ "ruian:Na Valtické 650/85, Břeclav": [
+  {
+   "a": "Na Valtické 650/85, Charvátská Nová Ves, 69141 Břeclav",
+   "lat": 48.757478,
+   "lon": 16.855764,
+   "s": 100
+  }
+ ],
+ "ruian:Herčíkova 19b, Brno": [
+  {
+   "a": "Herčíkova 3071/19b, Královo Pole, 61200 Brno",
+   "lat": 49.231721,
+   "lon": 16.584654,
+   "s": 100
+  }
+ ],
+ "ruian:ul.17.listopadu 485, Dvůr Králové n.L.": [],
+ "ruian:Chabařovická 4, Praha 8": [
+  {
+   "a": "Chabařovická 1125/4, Kobylisy, 18200 Praha 8",
+   "lat": 50.131358,
+   "lon": 14.475623,
+   "s": 100
+  }
+ ],
+ "ruian:Revoluční 1295, Jičín": [
+  {
+   "a": "Revoluční 1295, Valdické Předměstí, 50601 Jičín",
+   "lat": 50.440851,
+   "lon": 15.366012,
+   "s": 100
+  }
+ ],
+ "ruian:Smetanovo náměstí 106, Litomyšl": [
+  {
+   "a": "Smetanovo náměstí 106, Litomyšl-Město, 57001 Litomyšl",
+   "lat": 49.870357,
+   "lon": 16.311774,
+   "s": 100
+  }
+ ],
+ "ruian:Donovalská 1684, Chodov": [
+  {
+   "a": "Donovalská 1684/40, Chodov, 14900 Praha 4",
+   "lat": 50.036863,
+   "lon": 14.503127,
+   "s": 100
+  }
+ ],
+ "ruian:U koupaliště 647, Hrádek nad Nisou": [
+  {
+   "a": "U koupaliště 647, 46334 Hrádek nad Nisou",
+   "lat": 50.857607,
+   "lon": 14.837358,
+   "s": 100
+  }
+ ],
+ "ruian:Na Korunce 580, Praha 9": [
+  {
+   "a": "Na Korunce 580, Běchovice, 19011 Praha 9",
+   "lat": 50.075678,
+   "lon": 14.598676,
+   "s": 100
+  }
+ ],
+ "ruian:Táborská 1071, Sezimovo Ústí": [
+  {
+   "a": "Táborská 1071, 39101 Sezimovo Ústí",
+   "lat": 49.386995,
+   "lon": 14.680771,
+   "s": 100
+  }
+ ],
+ "ruian:U Labe 427, Hradec Králové": [
+  {
+   "a": "U Labe 427/1, 50002 Hradec Králové",
+   "lat": 50.200694,
+   "lon": 15.821206,
+   "s": 100
+  }
+ ],
+ "ruian:V Stráni 11, Praha 5": [
+  {
+   "a": "V stráni 485/11, Košíře, 15000 Praha 5",
+   "lat": 50.06687,
+   "lon": 14.361686,
+   "s": 100
+  }
+ ],
+ "ruian:Jetelová 2183, Černošice": [
+  {
+   "a": "Jetelová 2183, 25228 Černošice",
+   "lat": 49.945452,
+   "lon": 14.333931,
+   "s": 100
+  }
+ ],
+ "ruian:Máchova 178, Strakonice": [
+  {
+   "a": "Máchova 178, Strakonice I, 38601 Strakonice",
+   "lat": 49.266794,
+   "lon": 13.891801,
+   "s": 100
+  }
+ ],
+ "ruian:U Labe 487/1, Hradec Králové": [],
+ "ruian:U Labe 487, Hradec Králové": [],
+ "ruian:1, Hradec Králové": [
+  {
+   "a": "17. listopadu 1202/1, 50003 Hradec Králové",
+   "lat": 50.203005,
+   "lon": 15.834533,
+   "s": 100
+  },
+  {
+   "a": "Malá 191/1a, Pouchov, 50341 Hradec Králové",
+   "lat": 50.231142,
+   "lon": 15.849544,
+   "s": 100
+  },
+  {
+   "a": "Úzká 210/1, 50003 Hradec Králové",
+   "lat": 50.210523,
+   "lon": 15.834693,
+   "s": 100
+  }
+ ],
+ "ruian:Purkyňova 405/46, Nový Jičín": [
+  {
+   "a": "Purkyňova 405/46, 74101 Nový Jičín",
+   "lat": 49.592096,
+   "lon": 18.003882,
+   "s": 100
+  }
+ ],
+ "ruian:Salašska 2182, Staré Město": [
+  {
+   "a": "Salašská 2182, 68603 Staré Město",
+   "lat": 49.080587,
+   "lon": 17.433235,
+   "s": 100
+  }
+ ],
+ "ruian:Veletovská 2358, Újezd nad Lesy": [
+  {
+   "a": "Veletovská 2358, Újezd nad Lesy, 19016 Praha 9",
+   "lat": 50.076216,
+   "lon": 14.679143,
+   "s": 100
+  }
+ ],
+ "ruian:Břehnická 2499/5, Cheb": [
+  {
+   "a": "Břehnická 2499/5, 35002 Cheb",
+   "lat": 50.075714,
+   "lon": 12.358834,
+   "s": 100
+  }
+ ],
+ "ruian:Jiráskova 457, Český Těšín": [],
+ "ruian:Palackého 1316, Červený Kostelec": [
+  {
+   "a": "Palackého 1316, 54941 Červený Kostelec",
+   "lat": 50.474861,
+   "lon": 16.083301,
+   "s": 100
+  }
+ ],
+ "ruian:Mrštíkova 904/8, Hradec Králové": [
+  {
+   "a": "Mrštíkova 904/8, Nový Hradec Králové, 50009 Hradec Králové",
+   "lat": 50.198441,
+   "lon": 15.854193,
+   "s": 100
+  }
+ ],
+ "ruian:Ledečská 4069, Havlíčkův Brod": [
+  {
+   "a": "Ledečská 4069, 58001 Havlíčkův Brod",
+   "lat": 49.604842,
+   "lon": 15.57013,
+   "s": 100
+  }
+ ],
+ "ruian:Jablunkov 298, Jablunkov": [
+  {
+   "a": "č.p. 298, 73991 Jablunkov",
+   "lat": 49.567168,
+   "lon": 18.771955,
+   "s": 100
+  },
+  {
+   "a": "č.p. 298, 73998 Mosty u Jablunkova",
+   "lat": 49.516543,
+   "lon": 18.75097,
+   "s": 100
+  },
+  {
+   "a": "Jablunkov 298",
+   "lat": 49.576522,
+   "lon": 18.761676,
+   "s": 100
+  }
+ ],
+ "ruian:Mezi sklady 3/107, Praha 4": [
+  {
+   "a": "Mezi sklady 107/3, Krč, 14000 Praha 4",
+   "lat": 50.035887,
+   "lon": 14.431662,
+   "s": 100
+  }
+ ],
+ "ruian:Budovatelská 858, Studénka": [
+  {
+   "a": "Budovatelská 858, Butovice, 74213 Studénka",
+   "lat": 49.709957,
+   "lon": 18.049918,
+   "s": 100
+  }
+ ],
+ "ruian:Padlých hrdinů 401/10a, Havířov": [
+  {
+   "a": "Padlých hrdinů 401/10a, Životice, 73601 Havířov",
+   "lat": 49.764662,
+   "lon": 18.470821,
+   "s": 100
+  }
+ ],
+ "ruian:Svratecká 11b, Brno": [
+  {
+   "a": "Svratecká 1301/11b, Komín, 62400 Brno",
+   "lat": 49.216532,
+   "lon": 16.553607,
+   "s": 100
+  }
+ ],
+ "ruian:Bzenecká 1538, Strážnice": [
+  {
+   "a": "Bzenecká 1538, 69662 Strážnice",
+   "lat": 48.905722,
+   "lon": 17.308956,
+   "s": 100
+  }
+ ],
+ "ruian:Dvouletky 1031, Zruč nad Sázavou": [
+  {
+   "a": "Dvouletky 1031, 28522 Zruč nad Sázavou",
+   "lat": 49.746937,
+   "lon": 15.089461,
+   "s": 100
+  }
+ ],
+ "ruian:Bellova 24, Brno": [
+  {
+   "a": "Bellova 353/24, Kohoutovice, 62300 Brno",
+   "lat": 49.195083,
+   "lon": 16.528693,
+   "s": 100
+  }
+ ],
+ "ruian:Jana Opletala 845, Poděbrady": [
+  {
+   "a": "Jana Opletala 845/2, Poděbrady III, 29001 Poděbrady",
+   "lat": 50.143017,
+   "lon": 15.126881,
+   "s": 100
+  }
+ ],
+ "ruian:Radlická 298/105, Praha 5": [
+  {
+   "a": "Radlická 298/105, Radlice, 15000 Praha 5",
+   "lat": 50.058204,
+   "lon": 14.390687,
+   "s": 100
+  }
+ ],
+ "ruian:Hloubětínská 1061, Praha 9": [
+  {
+   "a": "Hloubětínská 1061/1, Hloubětín, 19800 Praha 9",
+   "lat": 50.100684,
+   "lon": 14.533899,
+   "s": 100
+  }
+ ],
+ "ruian:Praha 10 - Královice, Praha 10": [
+  {
+   "a": "Královice 163, 10400 Praha 10",
+   "lat": 50.03813,
+   "lon": 14.662866,
+   "s": 100
+  },
+  {
+   "a": "Královice 121, 10400 Praha 10",
+   "lat": 50.038863,
+   "lon": 14.666125,
+   "s": 100
+  },
+  {
+   "a": "K Hájku 92, Královice, 10400 Praha 10",
+   "lat": 50.03578,
+   "lon": 14.633958,
+   "s": 100
+  }
+ ],
+ "ruian:Na Dlouhých 812, Uherský Brod": [
+  {
+   "a": "Na Dlouhých 812, 68801 Uherský Brod",
+   "lat": 49.028559,
+   "lon": 17.641884,
+   "s": 100
+  }
+ ],
+ "ruian:Revoluční 1015, Polička": [
+  {
+   "a": "Revoluční 1015, Horní Předměstí, 57201 Polička",
+   "lat": 49.717412,
+   "lon": 16.268565,
+   "s": 100
+  }
+ ],
+ "ruian:Slavíkova 6055/14, Ostrava": [
+  {
+   "a": "Slavíkova 6055/14, Poruba, 70800 Ostrava",
+   "lat": 49.836514,
+   "lon": 18.175262,
+   "s": 100
+  }
+ ],
+ "ruian:Studentská 3180, Žatec 1": [],
+ "ruian:Jungmanova 1495/8, Žďár nad Sázavou": [],
+ "ruian:Jungmanova 1495, Žďár nad Sázavou": [],
+ "ruian:8, Žďár nad Sázavou": [
+  {
+   "a": "Žďár nad Sázavou 8",
+   "lat": 49.573781,
+   "lon": 15.934347,
+   "s": 100
+  },
+  {
+   "a": "Zámek 8/8, Žďár nad Sázavou 2, 59102 Žďár nad Sázavou",
+   "lat": 49.581698,
+   "lon": 15.936068,
+   "s": 100
+  },
+  {
+   "a": "U Jezu 874/8, Žďár nad Sázavou 3, 59101 Žďár nad Sázavou",
+   "lat": 49.56241,
+   "lon": 15.933394,
+   "s": 100
+  }
+ ],
+ "ruian:Za Kosteleckou 49, Prostějov": [
+  {
+   "a": "Za Kosteleckou 4161/49, 79601 Prostějov",
+   "lat": 49.481017,
+   "lon": 17.1012,
+   "s": 100
+  },
+  {
+   "a": "Za Kosteleckou 4187/49a, 79601 Prostějov",
+   "lat": 49.481561,
+   "lon": 17.102408,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 5027/10a, Jablonec nad Nisou": [
+  {
+   "a": "Sportovní 5027/10a, Mšeno nad Nisou, 46604 Jablonec nad Nisou",
+   "lat": 50.741372,
+   "lon": 15.176564,
+   "s": 100
+  }
+ ],
+ "ruian:Husova 22, Česká Třebová": [
+  {
+   "a": "Husova 22, Parník, 56002 Česká Třebová",
+   "lat": 49.91435,
+   "lon": 16.441418,
+   "s": 100
+  }
+ ],
+ "ruian:U Hřiště 1524, Choceň": [
+  {
+   "a": "U Hřiště 1524, 56501 Choceň",
+   "lat": 50.000731,
+   "lon": 16.216635,
+   "s": 100
+  }
+ ],
+ "ruian:Bezručova 4880, Chomutov 3": [],
+ "ruian:Kouty 1581, Valašské Meziříčí": [
+  {
+   "a": "Kouty 1581, 75701 Valašské Meziříčí",
+   "lat": 49.471261,
+   "lon": 17.986712,
+   "s": 100
+  }
+ ],
+ "ruian:Brněnská 122, Vyškov": [
+  {
+   "a": "Brněnská 122/212, Nouzka, 68201 Vyškov",
+   "lat": 49.265443,
+   "lon": 16.97718,
+   "s": 100
+  },
+  {
+   "a": "Brněnská 59/122, Nouzka, 68201 Vyškov",
+   "lat": 49.268175,
+   "lon": 16.983273,
+   "s": 100
+  }
+ ],
+ "ruian:Kyselka 105, Klášterec n.Ohř.": [],
+ "ruian:Opletalova 1218/8b, Havířov": [
+  {
+   "a": "Opletalova 1218/8b, Šumbark, 73601 Havířov",
+   "lat": 49.794883,
+   "lon": 18.411976,
+   "s": 100
+  }
+ ],
+ "ruian:Olšinky 1063, Hlinsko": [
+  {
+   "a": "Olšinky 1063, 53901 Hlinsko",
+   "lat": 49.759965,
+   "lon": 15.909226,
+   "s": 100
+  }
+ ],
+ "ruian:Hornoměcholupská 564, Horní Měcholupy": [
+  {
+   "a": "Hornoměcholupská 564/105, Horní Měcholupy, 10900 Praha 10",
+   "lat": 50.047118,
+   "lon": 14.548473,
+   "s": 100
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Ne%C5%A1t%C4%9Bmick%C3%A1%2C+%C3%9Ast%C3%AD+nad+Labem": [
+  {
+   "name": "Neštěmická",
+   "display_name": "Neštěmická, Krásné Březno, Ústí nad Labem-Neštěmice, Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, 400 07, Česko",
+   "lat": "50.6659811",
+   "lon": "14.0653849",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "lit": "yes",
+    "oneway": "yes",
+    "surface": "asphalt",
+    "parking:left": "no",
+    "cycleway:both": "no",
+    "lane_markings": "no",
+    "parking:right": "lane",
+    "sidewalk:both": "separate",
+    "sidewalk:both:surface": "paving_stones",
+    "parking:right:orientation": "parallel"
+   },
+   "osm_type": "way",
+   "osm_id": 95064824
+  }
+ ],
+ "ruian:Freyova 319, Kladno": [
+  {
+   "a": "Freyova 319, Kročehlavy, 27201 Kladno",
+   "lat": 50.138139,
+   "lon": 14.124101,
+   "s": 100
+  }
+ ],
+ "ruian:U hřiště 514, Kunštát": [
+  {
+   "a": "U Hřiště 514, 67972 Kunštát",
+   "lat": 49.503764,
+   "lon": 16.520512,
+   "s": 100
+  }
+ ],
+ "ruian:V Aleji 876, Letohrad": [
+  {
+   "a": "V Aleji 876, 56151 Letohrad",
+   "lat": 50.034518,
+   "lon": 16.511085,
+   "s": 100
+  }
+ ],
+ "ruian:Seifertova 1504, Litvínov": [
+  {
+   "a": "Seifertova 1504, Horní Litvínov, 43601 Litvínov",
+   "lat": 50.611567,
+   "lon": 13.629205,
+   "s": 100
+  }
+ ],
+ "ruian:Úslavská 75, Plzeň": [
+  {
+   "a": "Úslavská 2357/75, Východní Předměstí, 32600 Plzeň",
+   "lat": 49.73801,
+   "lon": 13.398376,
+   "s": 100
+  }
+ ],
+ "ruian:Na střelnici 37, Olomouc": [
+  {
+   "a": "Na střelnici 37/37, Nová Ulice, 77900 Olomouc",
+   "lat": 49.600274,
+   "lon": 17.249881,
+   "s": 100
+  }
+ ],
+ "ruian:Pod Koňským vrchem 1159, Most": [
+  {
+   "a": "Pod Koňským vrchem 1159/5, 43401 Most",
+   "lat": 50.497296,
+   "lon": 13.618581,
+   "s": 100
+  }
+ ],
+ "ruian:Trojanovice 112, Frenštát pod Radhoštěm": [],
+ "ruian:Ulice 1. máje, Náchod": [],
+ "ruian:K tenisu 1741, Pelhřimov": [
+  {
+   "a": "K Tenisu 1741, 39301 Pelhřimov",
+   "lat": 49.436825,
+   "lon": 15.226989,
+   "s": 100
+  }
+ ],
+ "ruian:Na Okruhu 2, Praha 4": [
+  {
+   "a": "Na okruhu č.ev. 2, Písnice, 14200 Praha 4",
+   "lat": 50.000546,
+   "lon": 14.465075,
+   "s": 100
+  }
+ ],
+ "ruian:Kosmákova 55, Přerov": [
+  {
+   "a": "Kosmákova 3364/55, Přerov I-Město, 75002 Přerov",
+   "lat": 49.456891,
+   "lon": 17.463117,
+   "s": 100
+  }
+ ],
+ "ruian:Alej 17.listopadu 265, Roudnice nad Labem": [],
+ "ruian:Budečská 4/3214, Ostrava": [
+  {
+   "a": "Budečská 3214/4, Moravská Ostrava, 70200 Ostrava",
+   "lat": 49.847852,
+   "lon": 18.29095,
+   "s": 100
+  }
+ ],
+ "ruian:V Lánech 405, Ústí nad Labem": [
+  {
+   "a": "V Lánech 405, Skorotice, 40340 Ústí nad Labem",
+   "lat": 50.692863,
+   "lon": 14.012289,
+   "s": 100
+  }
+ ],
+ "ruian:Luční 60a, Plzeň": [
+  {
+   "a": "Luční 1253/60a, Severní Předměstí, 30100 Plzeň",
+   "lat": 49.756251,
+   "lon": 13.390117,
+   "s": 100
+  }
+ ],
+ "ruian:U Borského parku 2916/19, Plzeň": [
+  {
+   "a": "U Borského parku 2916/19, Jižní Předměstí, 30100 Plzeň",
+   "lat": 49.722964,
+   "lon": 13.369459,
+   "s": 100
+  }
+ ],
+ "ruian:Otovická 2865/109, Praha 9": [
+  {
+   "a": "Otovická 2865/109, Horní Počernice, 19300 Praha 9",
+   "lat": 50.118477,
+   "lon": 14.625586,
+   "s": 100
+  }
+ ],
+ "ruian:B.Němcové 1780, Sokolov": [],
+ "ruian:Za Císařským mlýnem 1115/2, Praha 7": [
+  {
+   "a": "Za Císařským mlýnem 1115/2, Bubeneč, 17000 Praha 7",
+   "lat": 50.110263,
+   "lon": 14.409373,
+   "s": 100
+  }
+ ],
+ "ruian:Mostecká 24, Jihlava": [
+  {
+   "a": "Mostecká 3700/24, 58601 Jihlava",
+   "lat": 49.405206,
+   "lon": 15.581622,
+   "s": 100
+  }
+ ],
+ "ruian:Do Hlinek 754/7, Praha 22": [],
+ "ruian:Do Hlinek 754, Praha 22": [],
+ "ruian:7, Praha 22": [
+  {
+   "a": "7. května 486/22, Chodov, 14900 Praha 4",
+   "lat": 50.02853,
+   "lon": 14.503293,
+   "s": 100
+  },
+  {
+   "a": "Veverkova 729/22, Holešovice, 17000 Praha 7",
+   "lat": 50.09963,
+   "lon": 14.432032,
+   "s": 100
+  },
+  {
+   "a": "Šmeralova 272/22, Bubeneč, 17000 Praha 7",
+   "lat": 50.101693,
+   "lon": 14.422204,
+   "s": 100
+  }
+ ],
+ "ruian:Bezděčín 90, Mladá Boleslav": [
+  {
+   "a": "Bezděčín 90, 29301 Mladá Boleslav",
+   "lat": 50.38256,
+   "lon": 14.892273,
+   "s": 100
+  }
+ ],
+ "ruian:Voříškova 59, Brno": [
+  {
+   "a": "Voříškova 864/59, Kohoutovice, 62300 Brno",
+   "lat": 49.199112,
+   "lon": 16.537459,
+   "s": 100
+  }
+ ],
+ "ruian:Na Příkopech 122/45, Třebíč": [
+  {
+   "a": "Na Příkopech 122/45, Týn, 67401 Třebíč",
+   "lat": 49.226496,
+   "lon": 15.867712,
+   "s": 100
+  }
+ ],
+ "ruian:V Lukách 276, Ústí nad Orlicí": [
+  {
+   "a": "V Lukách 276, 56201 Ústí nad Orlicí",
+   "lat": 49.980008,
+   "lon": 16.392367,
+   "s": 100
+  }
+ ],
+ "ruian:Mlýnská 743/12, Vyškov": [],
+ "ruian:Mlýnská 743, Vyškov": [],
+ "ruian:12, Vyškov": [
+  {
+   "a": "č.p. 12, 68774 Vyškovec",
+   "lat": 48.943139,
+   "lon": 17.840377,
+   "s": 100
+  },
+  {
+   "a": "č.p. 12, 44001 Výškov",
+   "lat": 50.395878,
+   "lon": 13.670301,
+   "s": 100
+  },
+  {
+   "a": "č.p. 12, 68201 Křižanovice u Vyškova",
+   "lat": 49.28754,
+   "lon": 17.039775,
+   "s": 100
+  }
+ ],
+ "ruian:Hradská 854, Zlín": [
+  {
+   "a": "Hradská 854, 76001 Zlín",
+   "lat": 49.221951,
+   "lon": 17.666744,
+   "s": 100
+  }
+ ],
+ "ruian:Leska Horní 2135/1, Znojmo": [
+  {
+   "a": "Leska Horní 2135/1, 66902 Znojmo",
+   "lat": 48.86761,
+   "lon": 16.048114,
+   "s": 100
+  }
+ ],
+ "ruian:Na Polabí 3405, Mělník": [],
+ "ruian:U koupaliště 1362, Žamberk": [
+  {
+   "a": "U Koupaliště 1362, 56401 Žamberk",
+   "lat": 50.085591,
+   "lon": 16.47539,
+   "s": 100
+  }
+ ],
+ "ruian:Na Příštipku 135, Nehvizdy": [
+  {
+   "a": "Na Příštipku 135, 25081 Nehvizdy",
+   "lat": 50.129245,
+   "lon": 14.727221,
+   "s": 100
+  }
+ ],
+ "ruian:K Vinici 1901, Pardubice": [
+  {
+   "a": "K Vinici 1901, Zelené Předměstí, 53002 Pardubice",
+   "lat": 50.02904,
+   "lon": 15.781071,
+   "s": 100
+  }
+ ],
+ "ruian:Skautská 3763, Frýdek": [
+  {
+   "a": "Skautská 3763, Frýdek, 73801 Frýdek-Místek",
+   "lat": 49.693289,
+   "lon": 18.329126,
+   "s": 100
+  }
+ ],
+ "ruian:Slezská 2255/5, Krnov": [
+  {
+   "a": "Slezská 2255/5, Pod Bezručovým vrchem, 79401 Krnov",
+   "lat": 50.092745,
+   "lon": 17.712556,
+   "s": 100
+  }
+ ],
+ "ruian:Novoškolská 696/2, Praha 9": [
+  {
+   "a": "Novoškolská 696/2, Vysočany, 19000 Praha 9",
+   "lat": 50.109035,
+   "lon": 14.504811,
+   "s": 100
+  }
+ ],
+ "ruian:Modletice 108, Praha východ": [],
+ "ruian:Vondroušova 1217/32, Praha": [
+  {
+   "a": "Vondroušova 1217/32, Řepy, 16300 Praha 6",
+   "lat": 50.063996,
+   "lon": 14.302831,
+   "s": 100
+  }
+ ],
+ "ruian:Bubeníčkova 52, Brno": [
+  {
+   "a": "Bubeníčkova 4248/52, Židenice, 61500 Brno",
+   "lat": 49.200735,
+   "lon": 16.641235,
+   "s": 100
+  }
+ ],
+ "ruian:Chvalšinská 247, Český Krumlov": [
+  {
+   "a": "Chvalšinská 247, Latrán, 38101 Český Krumlov",
+   "lat": 48.815255,
+   "lon": 14.306984,
+   "s": 100
+  }
+ ],
+ "ruian:Na letné 412/7, Teplice": [
+  {
+   "a": "Na Letné 412/7, 41501 Teplice",
+   "lat": 50.638256,
+   "lon": 13.833955,
+   "s": 100
+  }
+ ],
+ "ruian:Brodská 134, Příbram": [
+  {
+   "a": "Brodská 134, Příbram VIII, 26101 Příbram",
+   "lat": 49.667892,
+   "lon": 13.999029,
+   "s": 100
+  }
+ ],
+ "ruian:Viničná 201, Dobřichovice": [
+  {
+   "a": "Viničná 201, 25229 Dobřichovice",
+   "lat": 49.930233,
+   "lon": 14.274005,
+   "s": 100
+  }
+ ],
+ "ruian:Polní 894, Liberec": [
+  {
+   "a": "Polní 894, Liberec XII-Staré Pavlovice, 46001 Liberec",
+   "lat": 50.783041,
+   "lon": 15.04022,
+   "s": 100
+  }
+ ],
+ "ruian:Elišky Krásnohorské 378, Domažlice": [
+  {
+   "a": "Elišky Krásnohorské 378, Hořejší Předměstí, 34401 Domažlice",
+   "lat": 49.4379,
+   "lon": 12.921145,
+   "s": 100
+  }
+ ],
+ "ruian:Jakuba Obrovského 2, Brno": [
+  {
+   "a": "Jakuba Obrovského 2/2, Bystrc, 63500 Brno",
+   "lat": 49.224966,
+   "lon": 16.532584,
+   "s": 100
+  }
+ ],
+ "ruian:Sázavská 491, Čerčany": [
+  {
+   "a": "Sázavská 491, 25722 Čerčany",
+   "lat": 49.855865,
+   "lon": 14.702109,
+   "s": 100
+  }
+ ],
+ "ruian:Na Skalce 380, Králův Dvůr": [
+  {
+   "a": "Na Skalce 380, Počaply, 26701 Králův Dvůr",
+   "lat": 49.940666,
+   "lon": 14.013952,
+   "s": 100
+  }
+ ],
+ "ruian:Boženy Němcové 3129, Česká Lípa": [
+  {
+   "a": "Boženy Němcové 3129, 47001 Česká Lípa",
+   "lat": 50.683345,
+   "lon": 14.532454,
+   "s": 100
+  }
+ ],
+ "ruian:U Koupaliště 800, Letovice": [
+  {
+   "a": "U koupaliště 800/14, 67961 Letovice",
+   "lat": 49.553388,
+   "lon": 16.583615,
+   "s": 100
+  }
+ ],
+ "ruian:Jáchymovská 613/1, Praha 5": [
+  {
+   "a": "Jáchymovská 613/1, Řeporyje, 15500 Praha 5",
+   "lat": 50.035414,
+   "lon": 14.313125,
+   "s": 100
+  }
+ ],
+ "ruian:Pod Homolkou 1482, Beroun": [
+  {
+   "a": "Pod Homolkou 1482, Beroun-Město, 26601 Beroun",
+   "lat": 49.957815,
+   "lon": 14.047826,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 286/3, Tachlovice": [],
+ "ruian:Sportovní 286, Tachlovice": [],
+ "ruian:3, Tachlovice": [
+  {
+   "a": "č.p. 3, 25217 Tachlovice",
+   "lat": 50.010192,
+   "lon": 14.246127,
+   "s": 100
+  },
+  {
+   "a": "Tachlovice 3",
+   "lat": 50.013597,
+   "lon": 14.241667,
+   "s": 100
+  },
+  {
+   "a": "Tachlovice 3",
+   "lat": 50.014092,
+   "lon": 14.24148,
+   "s": 100
+  }
+ ],
+ "ruian:K sportovnímu areálu 1600, Jesenice": [],
+ "ruian:Röschova 1304, Jindřichův Hradec II": [
+  {
+   "a": "Röschova 1304, Jindřichův Hradec II, 37701 Jindřichův Hradec",
+   "lat": 49.148465,
+   "lon": 14.99725,
+   "s": 100
+  }
+ ],
+ "ruian:Manželů Dostálových 1722, PRAHA 9": [
+  {
+   "a": "Manželů Dostálových 1722, Kyje, 19800 Praha 9",
+   "lat": 50.087312,
+   "lon": 14.550463,
+   "s": 100
+  }
+ ],
+ "ruian:Tomanova 2480/5, Praha 6": [
+  {
+   "a": "Tomanova 2480/5, Břevnov, 16900 Praha 6",
+   "lat": 50.079713,
+   "lon": 14.368506,
+   "s": 100
+  }
+ ],
+ "ruian:Na Balkáně 812, Praha 3": [
+  {
+   "a": "Na Balkáně 812/21, Vysočany, 13000 Praha 3",
+   "lat": 50.095154,
+   "lon": 14.488484,
+   "s": 100
+  }
+ ],
+ "ruian:Ke Stadionu 2037, Benešov": [
+  {
+   "a": "Ke Stadionu 2037, 25601 Benešov",
+   "lat": 49.776956,
+   "lon": 14.676615,
+   "s": 100
+  }
+ ],
+ "ruian:Brtnická 5381/24b, Jihlava": [
+  {
+   "a": "Brtnická 5381/24b, 58601 Jihlava",
+   "lat": 49.387767,
+   "lon": 15.594861,
+   "s": 100
+  }
+ ],
+ "ruian:Osada Míru 313, Dolní Benešov": [
+  {
+   "a": "Osada míru 313, 74722 Dolní Benešov",
+   "lat": 49.922432,
+   "lon": 18.096991,
+   "s": 100
+  }
+ ],
+ "ruian:U stadionu 1860, Kadaň": [],
+ "ruian:Klášterská 1487, Mnichovo Hradiště": [
+  {
+   "a": "Klášterská 1487, 29501 Mnichovo Hradiště",
+   "lat": 50.52596,
+   "lon": 14.966377,
+   "s": 100
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=N%C3%A1m.%C4%8D.povst%C3%A1n%C3%AD%2C+Praha": [],
+ "ruian:F.Kloze 294, Kladno": [],
+ "ruian:Na Topolce 1, Praha 4": [
+  {
+   "a": "Na Topolce 1350/1, Nusle, 14000 Praha 4",
+   "lat": 50.060199,
+   "lon": 14.422964,
+   "s": 100
+  },
+  {
+   "a": "Na Topolce 1714/1b, Nusle, 14000 Praha 4",
+   "lat": 50.059912,
+   "lon": 14.423817,
+   "s": 100
+  },
+  {
+   "a": "Na Topolce 1713/1a, Nusle, 14000 Praha 4",
+   "lat": 50.060084,
+   "lon": 14.42333,
+   "s": 100
+  }
+ ],
+ "ruian:Zborovská 317, Stochov": [
+  {
+   "a": "Zborovská 317, 27303 Stochov",
+   "lat": 50.146535,
+   "lon": 13.954831,
+   "s": 100
+  }
+ ],
+ "ruian:U Stadionu 17, Svitavy": [
+  {
+   "a": "U Stadionu 937/17, Lány, 56802 Svitavy",
+   "lat": 49.75112,
+   "lon": 16.462601,
+   "s": 100
+  },
+  {
+   "a": "U Stadionu 942/17a, Lány, 56802 Svitavy",
+   "lat": 49.751376,
+   "lon": 16.464374,
+   "s": 100
+  },
+  {
+   "a": "U Stadionu 943/17b, Lány, 56802 Svitavy",
+   "lat": 49.750133,
+   "lon": 16.464066,
+   "s": 100
+  }
+ ],
+ "ruian:Masarykovo náměstí 937, Votice": [
+  {
+   "a": "Masarykovo nám. 937, 25901 Votice",
+   "lat": 49.640577,
+   "lon": 14.637511,
+   "s": 100
+  }
+ ],
+ "ruian:Přeštická 1268, Dobřany": [
+  {
+   "a": "Přeštická 1268, 33441 Dobřany",
+   "lat": 49.646267,
+   "lon": 13.292666,
+   "s": 100
+  }
+ ],
+ "ruian:U Tenisu 3859/214, Jablonec n. N.": [
+  {
+   "a": "U Tenisu 3859/214, Proseč nad Nisou, 46804 Jablonec nad Nisou",
+   "lat": 50.728663,
+   "lon": 15.14571,
+   "s": 100
+  }
+ ],
+ "ruian:Hořelické náměstí 1130": [
+  {
+   "a": "Hořelické náměstí 1130/5, 25219 Rudná",
+   "lat": 50.026515,
+   "lon": 14.223934,
+   "s": 100
+  }
+ ],
+ "ruian:Osvobození 524": [
+  {
+   "a": "Osvobození 524, 74285 Vřesina",
+   "lat": 49.829343,
+   "lon": 18.125469,
+   "s": 100
+  },
+  {
+   "a": "Osvobození 524, 27303 Stochov",
+   "lat": 50.147935,
+   "lon": 13.962264,
+   "s": 100
+  }
+ ],
+ "ruian:Bukolská 838/2a, Praha": [],
+ "ruian:Bukolská 838, Praha": [],
+ "ruian:Vltavské nábřeží 930, České Budějovice": [],
+ "ruian:Sportovní 1530, Frýdlant n. O.": [
+  {
+   "a": "Sportovní 1530, Frýdlant, 73911 Frýdlant nad Ostravicí",
+   "lat": 49.580484,
+   "lon": 18.364251,
+   "s": 100
+  }
+ ],
+ "ruian:28. rijna 2236, Frydek": [
+  {
+   "a": "28. října 2236, Místek, 73801 Frýdek-Místek",
+   "lat": 49.673443,
+   "lon": 18.349815,
+   "s": 100
+  }
+ ],
+ "ruian:Na lopatárně 1550/12, Plzeň": [
+  {
+   "a": "Na lopatárně 1550/12, Doubravka, 31200 Plzeň",
+   "lat": 49.753989,
+   "lon": 13.410208,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní areál Vendryně 1017": [],
+ "ruian:V Raji 905, Narodních hrdinů": [],
+ "ruian:V Raji 905": [
+  {
+   "a": "V Ráji 905, Dolní Počernice, 19012 Praha 9",
+   "lat": 50.088256,
+   "lon": 14.575564,
+   "s": 100
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Praha+9-Doln%C3%AD+Po%C4%8Dernice": [
+  {
+   "name": "Praha-Dolní Počernice",
+   "display_name": "Praha-Dolní Počernice, obvod Praha 9, Praha, 190 12, Česko",
+   "lat": "50.0858859",
+   "lon": "14.5757301",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "suburb",
+   "extratags": {
+    "ref:zsj": "029955",
+    "ref:cobe": "538175",
+    "wikidata": "Q3489932",
+    "wikipedia": "cs:Dolní Počernice",
+    "border_type": "borough",
+    "linked_place": "suburb",
+    "official_status": "cz:městská část hlavního města Prahy",
+    "admin_level": "9"
+   },
+   "osm_type": "relation",
+   "osm_id": 19999106
+  }
+ ],
+ "ruian:Praha 5, Praha 5": [
+  {
+   "a": "Praha 5",
+   "lat": 50.047841,
+   "lon": 14.369896,
+   "s": 100
+  },
+  {
+   "a": "Praha 5",
+   "lat": 50.05591,
+   "lon": 14.375939,
+   "s": 100
+  },
+  {
+   "a": "5. máje, Praha",
+   "lat": 50.063373,
+   "lon": 14.324037,
+   "s": 100
+  }
+ ],
+ "ruian:Masarykova 699/9, Liberec": [
+  {
+   "a": "Masarykova 699/9, Liberec I-Staré Město, 46001 Liberec",
+   "lat": 50.774176,
+   "lon": 15.067474,
+   "s": 100
+  }
+ ],
+ "ruian:17. listopadu 485, Dvůr Králové nad Labem": [
+  {
+   "a": "17. listopadu 485, 54401 Dvůr Králové nad Labem",
+   "lat": 50.426083,
+   "lon": 15.818947,
+   "s": 100
+  }
+ ],
+ "ruian:Praha 4, Praha 4": [
+  {
+   "a": "Praha 4",
+   "lat": 50.033095,
+   "lon": 14.451327,
+   "s": 100
+  },
+  {
+   "a": "Praha 4",
+   "lat": 50.039871,
+   "lon": 14.440822,
+   "s": 100
+  },
+  {
+   "a": "Točná 4, 14300 Praha 4",
+   "lat": 49.978799,
+   "lon": 14.42263,
+   "s": 100
+  }
+ ],
+ "ruian:Jiráskova 457": [
+  {
+   "a": "Jiráskova 457/13, 79001 Jeseník",
+   "lat": 50.225249,
+   "lon": 17.204427,
+   "s": 100
+  },
+  {
+   "a": "Jiráskova 457/17, Soběslav II, 39201 Soběslav",
+   "lat": 49.252223,
+   "lon": 14.717279,
+   "s": 100
+  },
+  {
+   "a": "Jiráskova 457/82, Liberec XII-Staré Pavlovice, 46001 Liberec",
+   "lat": 50.787188,
+   "lon": 15.050993,
+   "s": 100
+  }
+ ],
+ "ruian:Studentská 3180, Žatec": [
+  {
+   "a": "Studentská 3180, 43801 Žatec",
+   "lat": 50.322455,
+   "lon": 13.54274,
+   "s": 100
+  }
+ ],
+ "ruian:Bezručova 4880, Chomutov": [
+  {
+   "a": "Bezručova 4880, 43003 Chomutov",
+   "lat": 50.470325,
+   "lon": 13.392857,
+   "s": 100
+  }
+ ],
+ "ruian:Kyselka 105, Klášterec n. Ohř.": [
+  {
+   "a": "Kyselka 105, 43151 Klášterec nad Ohří",
+   "lat": 50.378843,
+   "lon": 13.169495,
+   "s": 100
+  }
+ ],
+ "ruian:Trojanovice 112": [
+  {
+   "a": "č.p. 112, 74401 Trojanovice",
+   "lat": 49.513357,
+   "lon": 18.217841,
+   "s": 100
+  }
+ ],
+ "ruian:Alej 17. listopadu 265, Roudnice nad Labem": [
+  {
+   "a": "Alej 17. listopadu 265, 41301 Roudnice nad Labem",
+   "lat": 50.423861,
+   "lon": 14.247745,
+   "s": 100
+  }
+ ],
+ "ruian:B. Němcové 1780, Sokolov": [
+  {
+   "a": "Boženy Němcové 1780, 35601 Sokolov",
+   "lat": 50.171287,
+   "lon": 12.657297,
+   "s": 100
+  }
+ ],
+ "ruian:Do Hlinek 754/7, Praha": [
+  {
+   "a": "Do Hlinek 754/7, Kolovraty, 10300 Praha 10",
+   "lat": 50.008988,
+   "lon": 14.623829,
+   "s": 100
+  }
+ ],
+ "ruian:Na Polabí 3405": [],
+ "ruian:Modletice 108": [
+  {
+   "a": "č.p. 108, 25101 Modletice",
+   "lat": 49.975433,
+   "lon": 14.59498,
+   "s": 100
+  },
+  {
+   "a": "Modletice u Dobřejovic 436/108",
+   "lat": 49.97497,
+   "lon": 14.610049,
+   "s": 100
+  }
+ ],
+ "ruian:Praha 7, Praha 7": [
+  {
+   "a": "Praha 7",
+   "lat": 50.109267,
+   "lon": 14.427098,
+   "s": 100
+  },
+  {
+   "a": "Praha 7",
+   "lat": 50.104444,
+   "lon": 14.432692,
+   "s": 100
+  },
+  {
+   "a": "7. května, Praha",
+   "lat": 50.029947,
+   "lon": 14.501671,
+   "s": 100
+  }
+ ],
+ "ruian:K sportovnímu areálu 1600": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=73801+%C4%8Cesk%C3%BD+T%C4%9B%C5%A1%C3%ADn": [
+  {
+   "name": "Český Těšín",
+   "display_name": "Český Těšín, náměstí ČSA, Kontešinec, Český Těšín, okres Karviná, Moravskoslezský kraj, 737 01, Česko",
+   "lat": "49.7462856",
+   "lon": "18.6254660",
+   "category": "historic",
+   "type": "memorial",
+   "addresstype": "historic",
+   "extratags": {
+    "image": "https://photos.app.goo.gl/arnpqPeNTmL5QXCT8",
+    "memorial": "plaque",
+    "wikidata": "Q278877",
+    "mapillary": "1056867059864207",
+    "wikipedia": "cs:Český Těšín"
+   },
+   "osm_type": "node",
+   "osm_id": 13230543913
+  }
+ ],
+ "ruian:U stadionu 1860": [],
+ "ruian:Praha 6, Praha 6": [
+  {
+   "a": "Praha 6",
+   "lat": 50.104501,
+   "lon": 14.33556,
+   "s": 100
+  },
+  {
+   "a": "Praha 6",
+   "lat": 50.097651,
+   "lon": 14.332032,
+   "s": 100
+  },
+  {
+   "a": "Obětí 6. května, Praha",
+   "lat": 50.045727,
+   "lon": 14.445578,
+   "s": 100
+  }
+ ],
+ "ruian:F. Kloze 294, Kladno": [
+  {
+   "a": "Fr. Kloze 294, 27201 Kladno",
+   "lat": 50.136988,
+   "lon": 14.090731,
+   "s": 100
+  }
+ ],
  "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Z%C3%A1meck%C3%A1%2C+Lovosice": [
   {
    "name": "Zámecká",
@@ -26035,5 +27771,1498 @@
  ],
  "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=vychodocesky&viewbox=15.7454207%2C50.0643466%2C15.8154207%2C50.018346599999994": [],
  "https://nominatim.openstreetmap.org/search?addressdetails=0&bounded=1&countrycodes=cz&extratags=1&format=jsonv2&limit=15&q=zapadocesky&viewbox=12.8416643%2C50.236929100000005%2C12.9116643%2C50.1909291": [],
- "loni:L24:916528": "Manželů Dostálových 1722, PRAHA 9"
+ "loni:L24:916528": "Manželů Dostálových 1722, PRAHA 9",
+ "ruian:Bečovská 1811/11, Karlovy Vary": [
+  {
+   "a": "Bečovská 1811/11, 36001 Karlovy Vary",
+   "lat": 50.224453,
+   "lon": 12.848552,
+   "s": 100
+  }
+ ],
+ "ruian:Mladcová 493, Zlín": [
+  {
+   "a": "Vinohrádek 493, Mladcová, 76001 Zlín",
+   "lat": 49.244886,
+   "lon": 17.64405,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 863, Frýdlant nad Ostravicí": [
+  {
+   "a": "Sportovní 863, Frýdlant, 73911 Frýdlant nad Ostravicí",
+   "lat": 49.582068,
+   "lon": 18.363762,
+   "s": 100
+  }
+ ],
+ "ruian:Slovenská 2021/5a, Karlovy Vary": [
+  {
+   "a": "Slovenská 2021/5a, 36001 Karlovy Vary",
+   "lat": 50.213929,
+   "lon": 12.876664,
+   "s": 100
+  }
+ ],
+ "ruian:Zázvorková 1480/11, Praha": [
+  {
+   "a": "Zázvorkova 1480/11, Stodůlky, 15500 Praha 5",
+   "lat": 50.046312,
+   "lon": 14.334763,
+   "s": 100
+  }
+ ],
+ "ruian:U cukrovaru 34/4, Benátky n. Jiz.": [
+  {
+   "a": "U Cukrovaru 34/4, Benátky nad Jizerou II, 29471 Benátky nad Jizerou",
+   "lat": 50.287807,
+   "lon": 14.824735,
+   "s": 100
+  }
+ ],
+ "ruian:U rybníka 636, Hovorčovice": [
+  {
+   "a": "U Rybníka 636, 25064 Hovorčovice",
+   "lat": 50.180789,
+   "lon": 14.522476,
+   "s": 100
+  }
+ ],
+ "ruian:Heroutova 1778, Česká Lípa": [
+  {
+   "a": "Heroutova 1778/19, 47001 Česká Lípa",
+   "lat": 50.690611,
+   "lon": 14.523798,
+   "s": 100
+  }
+ ],
+ "ruian:Kladenská 728, Buštěhrad": [
+  {
+   "a": "Kladenská 728, 27343 Buštěhrad",
+   "lat": 50.153706,
+   "lon": 14.191346,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 1279, Hluboká nad Vltavou": [
+  {
+   "a": "Sportovní 1279, 37341 Hluboká nad Vltavou",
+   "lat": 49.04704,
+   "lon": 14.444234,
+   "s": 100
+  }
+ ],
+ "ruian:V Lipkách 1754, Dobříš": [
+  {
+   "a": "V Lipkách 1754, 26301 Dobříš",
+   "lat": 49.778672,
+   "lon": 14.176564,
+   "s": 100
+  }
+ ],
+ "ruian:Anglická 615/10, Mariánské Lázně": [],
+ "ruian:Anglická 615, Mariánské Lázně": [],
+ "ruian:Guth Jarkovského 698, Úvaly": [
+  {
+   "a": "Guth-Jarkovského 698, 25082 Úvaly",
+   "lat": 50.077762,
+   "lon": 14.713805,
+   "s": 100
+  }
+ ],
+ "ruian:Lipůvka 360, Lipůvka": [
+  {
+   "a": "č.p. 360, 67922 Lipůvka",
+   "lat": 49.340213,
+   "lon": 16.555924,
+   "s": 100
+  },
+  {
+   "a": "Lipůvka 360",
+   "lat": 49.339488,
+   "lon": 16.550302,
+   "s": 100
+  },
+  {
+   "a": "Lipůvka 976/360",
+   "lat": 49.34198,
+   "lon": 16.54306,
+   "s": 100
+  }
+ ],
+ "ruian:Povltavská 534, Praha 7": [],
+ "ruian:Povltavská 534, Praha": [],
+ "ruian:Povltavská 534": [],
+ "ruian:Kozelkova 26, Chlumec nad Cidlinou": [
+  {
+   "a": "Kozelkova 26, Chlumec nad Cidlinou IV, 50351 Chlumec nad Cidlinou",
+   "lat": 50.157637,
+   "lon": 15.459752,
+   "s": 100
+  }
+ ],
+ "ruian:Dr. Znojemského 437, Skuteč": [
+  {
+   "a": "Dr. Znojemského 437, 53973 Skuteč",
+   "lat": 49.842805,
+   "lon": 15.999972,
+   "s": 100
+  }
+ ],
+ "ruian:Na Mlíčníku 1790, Lysá nad Labem": [
+  {
+   "a": "Na Mlíčníku 1790, 28922 Lysá nad Labem",
+   "lat": 50.199203,
+   "lon": 14.851177,
+   "s": 100
+  }
+ ],
+ "ruian:Písecká 358, Bechyně": [
+  {
+   "a": "Písecká 358, 39165 Bechyně",
+   "lat": 49.30149,
+   "lon": 14.463951,
+   "s": 100
+  }
+ ],
+ "ruian:Sport. areál TJ Jiskra 1297, Otrokovice": [
+  {
+   "a": "Sport. areál TJ Jiskra 1297, 76502 Otrokovice",
+   "lat": 49.222453,
+   "lon": 17.506179,
+   "s": 100
+  }
+ ],
+ "ruian:Tyršova 85, Beroun": [
+  {
+   "a": "Tyršova 85, Beroun-Město, 26601 Beroun",
+   "lat": 49.959178,
+   "lon": 14.07252,
+   "s": 100
+  }
+ ],
+ "ruian:Stadion 1179, Bakov nad Jizerou": [
+  {
+   "a": "Stadion 1179, 29401 Bakov nad Jizerou",
+   "lat": 50.474745,
+   "lon": 14.933094,
+   "s": 100
+  }
+ ],
+ "ruian:Štěpánkova 612/7přístup ke dvorcům z ulice Vorlova 496, Beroun": [],
+ "ruian:Štěpánkova 612 ke dvorcům z ulice Vorlova 496, Beroun": [],
+ "ruian:Velkomoravská 3535/19, Hodonín": [],
+ "ruian:Velkomoravská 3535, Hodonín": [
+  {
+   "a": "Velkomoravská 3535/10, 69501 Hodonín",
+   "lat": 48.851702,
+   "lon": 17.122804,
+   "s": 100
+  }
+ ],
+ "ruian:5. května 465, Jaroměř": [
+  {
+   "a": "5. května 465, Josefov, 55102 Jaroměř",
+   "lat": 50.339745,
+   "lon": 15.922752,
+   "s": 100
+  }
+ ],
+ "ruian:Brankovická 1007, Kolín": [
+  {
+   "a": "Brankovická 1007, Kolín V, 28002 Kolín",
+   "lat": 50.037953,
+   "lon": 15.186074,
+   "s": 100
+  }
+ ],
+ "ruian:Štěpánka 28, Mladá Boleslav": [
+  {
+   "a": "Štěpánka 28, Mladá Boleslav III, 29301 Mladá Boleslav",
+   "lat": 50.40868,
+   "lon": 14.911997,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 401, Nový Bydžov": [
+  {
+   "a": "Sportovní 401, 50401 Nový Bydžov",
+   "lat": 50.237112,
+   "lon": 15.485203,
+   "s": 100
+  }
+ ],
+ "ruian:U Panoramy 2891, Teplice": [
+  {
+   "a": "U Panoramy 2891, 41501 Teplice",
+   "lat": 50.639862,
+   "lon": 13.85386,
+   "s": 100
+  }
+ ],
+ "ruian:Labská 15, Pardubice": [
+  {
+   "a": "Labská 15, Bílé Předměstí, 53002 Pardubice",
+   "lat": 50.041463,
+   "lon": 15.780254,
+   "s": 100
+  }
+ ],
+ "ruian:Nábřeží T. G. Masaryka 2659, Rakovník": [],
+ "ruian:nábř. T. G. Masaryka 2659, Rakovník": [
+  {
+   "a": "nábř. T. G. Masaryka 2659, Rakovník II, 26901 Rakovník",
+   "lat": 50.104964,
+   "lon": 13.716719,
+   "s": 100
+  }
+ ],
+ "ruian:Legií 750, Řevnice": [
+  {
+   "a": "Legií 750, 25230 Řevnice",
+   "lat": 49.912477,
+   "lon": 14.237133,
+   "s": 100
+  }
+ ],
+ "ruian:Na Sadech 1278, Slaný": [
+  {
+   "a": "Na Sadech 1278, 27401 Slaný",
+   "lat": 50.233752,
+   "lon": 14.082383,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovců 821, Kladno 4": [],
+ "ruian:Sportovců 821, Kladno": [
+  {
+   "a": "Sportovců 821, Rozdělov, 27204 Kladno",
+   "lat": 50.136958,
+   "lon": 14.085896,
+   "s": 100
+  }
+ ],
+ "ruian:Osvobození 912, Sušice II": [
+  {
+   "a": "Osvobození 912, Sušice II, 34201 Sušice",
+   "lat": 49.23775,
+   "lon": 13.513219,
+   "s": 100
+  }
+ ],
+ "ruian:Nad Mlynářkou 1, Praha 5": [
+  {
+   "a": "Nad Mlynářkou 2825/1, Smíchov, 15000 Praha 5",
+   "lat": 50.072461,
+   "lon": 14.382759,
+   "s": 100
+  }
+ ],
+ "ruian:K Vodopádu 1550, Tábor": [
+  {
+   "a": "K Vodopádu 1550, 39001 Tábor",
+   "lat": 49.416065,
+   "lon": 14.6619,
+   "s": 100
+  }
+ ],
+ "ruian:U Čedíku 610, Klatovy": [
+  {
+   "a": "U Čedíku 610, Klatovy IV, 33901 Klatovy",
+   "lat": 49.38955,
+   "lon": 13.30475,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 896, Karviná": [
+  {
+   "a": "Sportovní 896/6, Nové Město, 73506 Karviná",
+   "lat": 49.868793,
+   "lon": 18.542598,
+   "s": 100
+  },
+  {
+   "a": "Sportovní č.ev. 896, Nové Město, 73506 Karviná",
+   "lat": 49.870814,
+   "lon": 18.542199,
+   "s": 100
+  }
+ ],
+ "ruian:Nad lávkou 5, Praha 6": [
+  {
+   "a": "Nad lávkou 672/5, Vokovice, 16000 Praha 6",
+   "lat": 50.098304,
+   "lon": 14.340977,
+   "s": 100
+  }
+ ],
+ "ruian:Nad Kotlaskou I/95, Praha 8": [
+  {
+   "a": "Nad Kotlaskou I č.ev. 95, Libeň, 18000 Praha 8",
+   "lat": 50.107262,
+   "lon": 14.477229,
+   "s": 100
+  }
+ ],
+ "ruian:Kotíkovská 58, Plzeň": [
+  {
+   "a": "Kotíkovská 1089/58, Bolevec, 32300 Plzeň",
+   "lat": 49.770931,
+   "lon": 13.356716,
+   "s": 100
+  }
+ ],
+ "ruian:ČSA 51 stadion, Štětí": [],
+ "ruian:Tyršova 54, Duchcov": [
+  {
+   "a": "Tyršova 1250/54, 41901 Duchcov",
+   "lat": 50.610275,
+   "lon": 13.75325,
+   "s": 100
+  }
+ ],
+ "ruian:Fr. Kloze 294, Kladno": [
+  {
+   "a": "Fr. Kloze 294, 27201 Kladno",
+   "lat": 50.136988,
+   "lon": 14.090731,
+   "s": 100
+  }
+ ],
+ "ruian:Zákostelní 720, Planá nad Lužnicí": [
+  {
+   "a": "Zákostelní 720, 39111 Planá nad Lužnicí",
+   "lat": 49.350953,
+   "lon": 14.704084,
+   "s": 100
+  }
+ ],
+ "ruian:Sokolská 894, Český Brod": [
+  {
+   "a": "Sokolská 894, 28201 Český Brod",
+   "lat": 50.066286,
+   "lon": 14.854398,
+   "s": 100
+  }
+ ],
+ "ruian:Velká Mlýnská 8 - Střelecký ostrov, Litoměřice": [],
+ "ruian:Hradecká 538, Stod": [
+  {
+   "a": "Hradecká 538, 33301 Stod",
+   "lat": 49.638117,
+   "lon": 13.159259,
+   "s": 100
+  }
+ ],
+ "ruian:V Rybářích 112, Žiželice n. C.": [],
+ "ruian:V Rybářích 112": [
+  {
+   "a": "V Rybářích 112, 28129 Žiželice",
+   "lat": 50.133574,
+   "lon": 15.40257,
+   "s": 100
+  }
+ ],
+ "ruian:Haškova 3540/36, Břeclav": [
+  {
+   "a": "Haškova 3540/36, 69002 Břeclav",
+   "lat": 48.767537,
+   "lon": 16.883359,
+   "s": 100
+  }
+ ],
+ "ruian:Pekárkova 570/20, Liberec XV": [
+  {
+   "a": "Pekárkova 570/20, Liberec XV-Starý Harcov, 46015 Liberec",
+   "lat": 50.772247,
+   "lon": 15.086075,
+   "s": 100
+  }
+ ],
+ "ruian:Jana Nečase 1, Brno": [
+  {
+   "a": "Jana Nečase 966/1, Žabovřesky, 61600 Brno",
+   "lat": 49.206452,
+   "lon": 16.575219,
+   "s": 100
+  },
+  {
+   "a": "Jana Nečase 2322/1a, Žabovřesky, 61600 Brno",
+   "lat": 49.206153,
+   "lon": 16.576569,
+   "s": 100
+  }
+ ],
+ "ruian:U Skály 184/10, Praha 5": [
+  {
+   "a": "U skály 184/10, Velká Chuchle, 15900 Praha 5",
+   "lat": 50.013061,
+   "lon": 14.389287,
+   "s": 100
+  }
+ ],
+ "ruian:U Stadionu 419, Lanžhot": [
+  {
+   "a": "U stadionu 419, 69151 Lanžhot",
+   "lat": 48.727733,
+   "lon": 16.962698,
+   "s": 100
+  }
+ ],
+ "ruian:nám. Svobody 249, Libčice nad Vltavou": [
+  {
+   "a": "náměstí Svobody 249, 25266 Libčice nad Vltavou",
+   "lat": 50.19694,
+   "lon": 14.364439,
+   "s": 100
+  }
+ ],
+ "ruian:U Sokolovny 308, Nepomuk": [
+  {
+   "a": "U Sokolovny 308, 33501 Nepomuk",
+   "lat": 49.48837,
+   "lon": 13.585659,
+   "s": 100
+  }
+ ],
+ "ruian:Míru 772, Kaplice": [
+  {
+   "a": "Míru 772, 38241 Kaplice",
+   "lat": 48.746184,
+   "lon": 14.486697,
+   "s": 100
+  }
+ ],
+ "ruian:Sokolská 279, Velké Opatovice": [
+  {
+   "a": "Sokolská 279, 67963 Velké Opatovice",
+   "lat": 49.61102,
+   "lon": 16.673223,
+   "s": 100
+  }
+ ],
+ "ruian:Čáslavská 573, Kutná Hora": [],
+ "ruian:Čáslavská 573": [
+  {
+   "a": "Čáslavská 573, 53842 Ronov nad Doubravou",
+   "lat": 49.890105,
+   "lon": 15.521637,
+   "s": 100
+  }
+ ],
+ "ruian:Vitouškova 959, Třebechovice pod Orebem": [
+  {
+   "a": "Vitouškova 959, 50346 Třebechovice pod Orebem",
+   "lat": 50.195618,
+   "lon": 16.00258,
+   "s": 100
+  }
+ ],
+ "ruian:Pod Lutovem 364, Poříčí nad Sázavou": [
+  {
+   "a": "Pod Lutovem 364, 25721 Poříčí nad Sázavou",
+   "lat": 49.847893,
+   "lon": 14.666332,
+   "s": 100
+  }
+ ],
+ "ruian:Sokolská 12, Lety u Dobřichovic": [],
+ "ruian:Sokolská 12": [
+  {
+   "a": "Sokolská 12, Kolín II, 28002 Kolín",
+   "lat": 50.029653,
+   "lon": 15.197166,
+   "s": 100
+  },
+  {
+   "a": "Sokolská 12, 25229 Lety",
+   "lat": 49.918873,
+   "lon": 14.253358,
+   "s": 100
+  },
+  {
+   "a": "Sokolská 12, 78386 Dlouhá Loučka",
+   "lat": 49.81865,
+   "lon": 17.189525,
+   "s": 100
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Lety+u+Dob%C5%99ichovic": [
+  {
+   "name": "Lety u Dobřichovic",
+   "display_name": "Lety u Dobřichovic, Lety, okres Praha-západ, Středočeský kraj, 252 29, Česko",
+   "lat": "49.9240262",
+   "lon": "14.2496371",
+   "category": "boundary",
+   "type": "cadastral",
+   "addresstype": "cadastral_community",
+   "extratags": {
+    "place": "cadastral_community",
+    "wikidata": "Q110164249",
+    "border_type": "cadastral_community",
+    "official_status": "cz:katastrální území"
+   },
+   "osm_type": "relation",
+   "osm_id": 435142
+  }
+ ],
+ "ruian:U tenisu 1106/4, Šumperk": [
+  {
+   "a": "U tenisu 1106/4, 78701 Šumperk",
+   "lat": 49.958997,
+   "lon": 16.969679,
+   "s": 100
+  }
+ ],
+ "ruian:U stadionu 838/2, Vratimov": [
+  {
+   "a": "U Stadionu 838/2, 73932 Vratimov",
+   "lat": 49.770872,
+   "lon": 18.316892,
+   "s": 100
+  }
+ ],
+ "ruian:U Parku 135, Chrudim": [
+  {
+   "a": "U Parku 135, Chrudim IV, 53701 Chrudim",
+   "lat": 49.955143,
+   "lon": 15.791488,
+   "s": 100
+  }
+ ],
+ "ruian:Střelnice 1410, Holešov": [
+  {
+   "a": "Střelnice 1410/53, 76901 Holešov",
+   "lat": 49.336827,
+   "lon": 17.583901,
+   "s": 100
+  }
+ ],
+ "ruian:Gothardská 1401, Hořice": [],
+ "ruian:Gothardská 1401": [],
+ "ruian:Družstevní ochoz 5a, Praha 4 Nusle": [],
+ "ruian:U Michelského lesa 261, Praha 4": [],
+ "ruian:U Michelského lesa 261, Praha": [],
+ "ruian:U Michelského lesa 261": [],
+ "ruian:Lesní 522, Třinec": [
+  {
+   "a": "Lesní 522, Staré Město, 73961 Třinec",
+   "lat": 49.667196,
+   "lon": 18.664872,
+   "s": 100
+  }
+ ],
+ "ruian:U Hřiště ev. č. 334, Veverská Bítýška": [],
+ "ruian:U Hřiště ev. č. 334": [],
+ "ruian:Dolejšova 412, Osek": [
+  {
+   "a": "Dolejšova 412, 41705 Osek",
+   "lat": 50.626566,
+   "lon": 13.694569,
+   "s": 100
+  }
+ ],
+ "ruian:Tyršova 794, Chotěboř": [
+  {
+   "a": "Tyršova 794, 58301 Chotěboř",
+   "lat": 49.718159,
+   "lon": 15.674157,
+   "s": 100
+  }
+ ],
+ "ruian:Okružní I 637, Jevíčko": [
+  {
+   "a": "Okružní I 637, 56943 Jevíčko",
+   "lat": 49.635708,
+   "lon": 16.710611,
+   "s": 100
+  }
+ ],
+ "ruian:Boženy Koutníkové 2003, Čelákovice": [
+  {
+   "a": "Boženy Koutníkové 2003, 25088 Čelákovice",
+   "lat": 50.156638,
+   "lon": 14.744339,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní areál u koupaliště 932, Nýrsko": [],
+ "ruian:Sportovní areál u koupaliště 932": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=N%C3%BDrsko": [
+  {
+   "name": "Nýrsko",
+   "display_name": "Nýrsko, okres Klatovy, Plzeňský kraj, Jihozápad, Česko",
+   "lat": "49.2936403",
+   "lon": "13.1434627",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town",
+   "extratags": {
+    "place": "town",
+    "ref:zsj": "108456",
+    "website": "https://www.sumavanet.cz/nyrsko",
+    "ref:cobe": "108456",
+    "wikidata": "Q1756903",
+    "wikipedia": "cs:Nýrsko",
+    "population": "5091",
+    "border_type": "town",
+    "name:prefix": "město",
+    "linked_place": "town",
+    "official_status": "cz:město",
+    "admin_level": "8"
+   },
+   "osm_type": "relation",
+   "osm_id": 438207
+  }
+ ],
+ "ruian:F. M. Hilmara 1658, Nová Paka": [
+  {
+   "a": "F. M. Hilmara 1658, 50901 Nová Paka",
+   "lat": 50.492505,
+   "lon": 15.51303,
+   "s": 100
+  }
+ ],
+ "ruian:Semice 346, Semice": [
+  {
+   "a": "č.p. 346, 28917 Semice",
+   "lat": 50.164666,
+   "lon": 14.886532,
+   "s": 100
+  },
+  {
+   "a": "Semice u Písku 346",
+   "lat": 49.282933,
+   "lon": 14.183654,
+   "s": 100
+  }
+ ],
+ "ruian:Obora 670, Vlašim": [
+  {
+   "a": "Obora 670, 25801 Vlašim",
+   "lat": 49.692344,
+   "lon": 14.912847,
+   "s": 100
+  }
+ ],
+ "ruian:Mlýnská 8, Bruntál": [
+  {
+   "a": "Mlýnská 1546/8, 79201 Bruntál",
+   "lat": 49.984639,
+   "lon": 17.465131,
+   "s": 100
+  }
+ ],
+ "ruian:Podolí 1237, Ledeč nad Sázavou": [
+  {
+   "a": "Podolí 1237, 58401 Ledeč nad Sázavou",
+   "lat": 49.698428,
+   "lon": 15.25959,
+   "s": 100
+  }
+ ],
+ "ruian:Štramberská 1361, Příbor": [
+  {
+   "a": "Štramberská 1361, 74258 Příbor",
+   "lat": 49.635318,
+   "lon": 18.140236,
+   "s": 100
+  }
+ ],
+ "ruian:V Alejích 1315, Rokycany": [
+  {
+   "a": "V Alejích 1315, Nové Město, 33701 Rokycany",
+   "lat": 49.733779,
+   "lon": 13.608233,
+   "s": 100
+  }
+ ],
+ "ruian:Jana Dvořáka 1843/120, Šlapanice": [
+  {
+   "a": "Jana Dvořáka 1843/120, 66451 Šlapanice",
+   "lat": 49.158965,
+   "lon": 16.73229,
+   "s": 100
+  }
+ ],
+ "ruian:Svatoplukova 15, Šternberk": [
+  {
+   "a": "Svatoplukova 2404/15, 78501 Šternberk",
+   "lat": 49.723322,
+   "lon": 17.304468,
+   "s": 100
+  }
+ ],
+ "ruian:Údolní 1020/18a, Brno": [
+  {
+   "a": "Údolní 1020/18a, Veveří, 60200 Brno",
+   "lat": 49.198306,
+   "lon": 16.600197,
+   "s": 100
+  }
+ ],
+ "ruian:Hlavní 750, Vnorovy": [
+  {
+   "a": "Hlavní 750, 69661 Vnorovy",
+   "lat": 48.930805,
+   "lon": 17.350827,
+   "s": 100
+  }
+ ],
+ "ruian:Smetanovo náměstí 77, Litomyšl": [
+  {
+   "a": "Smetanovo náměstí 77, Litomyšl-Město, 57001 Litomyšl",
+   "lat": 49.869184,
+   "lon": 16.311857,
+   "s": 100
+  }
+ ],
+ "ruian:Bohmova 684 Zimní stadion, Blatná": [],
+ "ruian:Tyršova 734, Dobřany": [],
+ "ruian:Tyršova 734": [
+  {
+   "a": "Tyršova 734, 56201 Ústí nad Orlicí",
+   "lat": 49.971618,
+   "lon": 16.398441,
+   "s": 100
+  },
+  {
+   "a": "Tyršova 734, 37344 Zliv",
+   "lat": 49.073073,
+   "lon": 14.371804,
+   "s": 100
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Tyr%C5%A1ova+734%2C+Dob%C5%99any": [
+  {
+   "name": "Tyršova",
+   "display_name": "Tyršova, Dobřany, okres Plzeň-jih, Plzeňský kraj, Jihozápad, 334 41, Česko",
+   "lat": "49.6557446",
+   "lon": "13.2931647",
+   "category": "highway",
+   "type": "living_street",
+   "addresstype": "living_street",
+   "extratags": null,
+   "osm_type": "way",
+   "osm_id": 37003360
+  }
+ ],
+ "ruian:Jiráskova 444/II, Třeboň": [
+  {
+   "a": "Jiráskova 444, Třeboň II, 37901 Třeboň",
+   "lat": 49.007363,
+   "lon": 14.769208,
+   "s": 100
+  }
+ ],
+ "ruian:Kuzmínova 372, Kralupy nad Vltavou": [
+  {
+   "a": "Kuzmínova 372/37, Lobeček, 27801 Kralupy nad Vltavou",
+   "lat": 50.254623,
+   "lon": 14.306737,
+   "s": 100
+  }
+ ],
+ "ruian:Vachkova 579, Lázně Bělohrad": [
+  {
+   "a": "Vachkova 579, 50781 Lázně Bělohrad",
+   "lat": 50.425356,
+   "lon": 15.590974,
+   "s": 100
+  }
+ ],
+ "ruian:Sokolská 651, Veselí nad Lužnicí": [
+  {
+   "a": "Sokolská 651, Veselí nad Lužnicí I, 39181 Veselí nad Lužnicí",
+   "lat": 49.190152,
+   "lon": 14.702728,
+   "s": 100
+  }
+ ],
+ "ruian:Valchařska 14, Brno": [
+  {
+   "a": "Valchařská 1667/14, Husovice, 61400 Brno",
+   "lat": 49.214386,
+   "lon": 16.638568,
+   "s": 100
+  },
+  {
+   "a": "Valchařská 1561/14b, Husovice, 61400 Brno",
+   "lat": 49.214138,
+   "lon": 16.639023,
+   "s": 100
+  }
+ ],
+ "ruian:V Šáreckém údolí 2638/82b, Praha 6": [
+  {
+   "a": "V Šáreckém údolí 2638/82b, Dejvice, 16000 Praha 6",
+   "lat": 50.114537,
+   "lon": 14.374289,
+   "s": 100
+  }
+ ],
+ "ruian:Sloup 1, Sloup v Moravské krasu": [
+  {
+   "a": "Sloup v Moravském krasu 1",
+   "lat": 49.415168,
+   "lon": 16.740089,
+   "s": 100
+  },
+  {
+   "a": "Sloup v Moravském krasu 2/1",
+   "lat": 49.415691,
+   "lon": 16.740105,
+   "s": 100
+  },
+  {
+   "a": "Sloup v Moravském krasu 3/1",
+   "lat": 49.416703,
+   "lon": 16.740105,
+   "s": 100
+  }
+ ],
+ "ruian:Nádražní 12, Moravská Třebová": [
+  {
+   "a": "Nádražní 1145/12, Předměstí, 57101 Moravská Třebová",
+   "lat": 49.76615,
+   "lon": 16.660468,
+   "s": 100
+  }
+ ],
+ "ruian:Ke Hřišti 253, Dolany nad Vltavou": [
+  {
+   "a": "Ke Hřišti 253, 27801 Dolany nad Vltavou",
+   "lat": 50.224642,
+   "lon": 14.349547,
+   "s": 100
+  }
+ ],
+ "ruian:Raškovice č. 572, Raškovice": [
+  {
+   "a": "č.p. 572, 73904 Raškovice",
+   "lat": 49.617211,
+   "lon": 18.474253,
+   "s": 100
+  }
+ ],
+ "ruian:Rudice 164, Rudice": [
+  {
+   "a": "č.p. 164, 68732 Rudice",
+   "lat": 49.05491,
+   "lon": 17.735841,
+   "s": 100
+  },
+  {
+   "a": "č.p. 164, 67906 Rudice",
+   "lat": 49.33236,
+   "lon": 16.727329,
+   "s": 100
+  },
+  {
+   "a": "Rudice 164",
+   "lat": 49.055502,
+   "lon": 17.734482,
+   "s": 100
+  }
+ ],
+ "ruian:Magnitogorská 1531/16, Praha": [
+  {
+   "a": "Magnitogorská 1531/16, 10100 Praha 10",
+   "lat": 50.066819,
+   "lon": 14.465889,
+   "s": 100
+  }
+ ],
+ "ruian:Pod Strání 3124/7a, Praha 10": [
+  {
+   "a": "Pod strání 3124/7a, Strašnice, 10000 Praha 10",
+   "lat": 50.069749,
+   "lon": 14.500391,
+   "s": 100
+  }
+ ],
+ "ruian:Kpt. Jaroše 233, Neratovice": [
+  {
+   "a": "Kpt. Jaroše 233/26, 27711 Neratovice",
+   "lat": 50.258503,
+   "lon": 14.521734,
+   "s": 100
+  }
+ ],
+ "ruian:Tyršova 1456, Vsetín": [
+  {
+   "a": "Tyršova 1456, 75501 Vsetín",
+   "lat": 49.338536,
+   "lon": 17.999032,
+   "s": 100
+  }
+ ],
+ "ruian:Lázeňské náměstí 427, Luhačovice": [
+  {
+   "a": "Lázeňské náměstí 427, 76326 Luhačovice",
+   "lat": 49.105993,
+   "lon": 17.758868,
+   "s": 100
+  }
+ ],
+ "ruian:Straškov-Vodochody 24, Straškov": [
+  {
+   "a": "Straškov 24, 41184 Straškov-Vodochody",
+   "lat": 50.365725,
+   "lon": 14.250232,
+   "s": 100
+  },
+  {
+   "a": "Vodochody 24, 41184 Straškov-Vodochody",
+   "lat": 50.357812,
+   "lon": 14.249199,
+   "s": 100
+  }
+ ],
+ "ruian:Pekařská 1916/6, Blansko": [
+  {
+   "a": "Pekařská 1916/6, 67801 Blansko",
+   "lat": 49.371577,
+   "lon": 16.651611,
+   "s": 100
+  }
+ ],
+ "ruian:Náměstí 11, Březnice": [
+  {
+   "a": "Náměstí 11, 26272 Březnice",
+   "lat": 49.557682,
+   "lon": 13.950835,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 258, Bystřice pod Hostýnem": [
+  {
+   "a": "Sportovní 258, 76861 Bystřice pod Hostýnem",
+   "lat": 49.399849,
+   "lon": 17.687435,
+   "s": 100
+  }
+ ],
+ "ruian:nám. Míru 50, Černá Hora": [
+  {
+   "a": "nám. Míru 50, 67921 Černá Hora",
+   "lat": 49.41298,
+   "lon": 16.580586,
+   "s": 100
+  }
+ ],
+ "ruian:Masarykovy sady 3, Doksy": [
+  {
+   "a": "Masarykovy sady 3, 47201 Doksy",
+   "lat": 50.564917,
+   "lon": 14.663185,
+   "s": 100
+  }
+ ],
+ "ruian:Janáčkova E12, Hradec Králové 2": [],
+ "ruian:Janáčkova E12, Hradec Králové": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Hradec+Kr%C3%A1lov%C3%A9+2": [
+  {
+   "name": "Hradec Králové 2",
+   "display_name": "Hradec Králové 2, Riegrovo náměstí, Okrouhlík, Pražské Předměstí - sever, Pražské Předměstí, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 02, Česko",
+   "lat": "50.2136780",
+   "lon": "15.8108745",
+   "category": "amenity",
+   "type": "post_office",
+   "addresstype": "amenity",
+   "extratags": {
+    "operator": "Česká pošta, s.p.",
+    "wikidata": "Q118155098",
+    "wheelchair": "yes",
+    "ref:zabaged": "3115345049026560",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+    "contact:website": "https://www.postaonline.cz/detail-pobocky/-/pobocky/detail/50002",
+    "operator:wikidata": "Q341090",
+    "operator:wikipedia": "cs:Česká pošta"
+   },
+   "osm_type": "node",
+   "osm_id": 314709648
+  }
+ ],
+ "ruian:Socháňova 5b, Praha Řepy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Dlouh%C3%A1%2C+Franti%C5%A1kovy+L%C3%A1zn%C4%9B": [
+  {
+   "name": "Dlouhá",
+   "display_name": "Dlouhá, Dolní Lomany, Františkovy Lázně, okres Cheb, Karlovarský kraj, 351 01, Česko",
+   "lat": "50.1198945",
+   "lon": "12.3475101",
+   "category": "highway",
+   "type": "living_street",
+   "addresstype": "living_street",
+   "extratags": {
+    "lit": "yes",
+    "surface": "paving_stones",
+    "maxspeed": "20"
+   },
+   "osm_type": "way",
+   "osm_id": 231685536
+  }
+ ],
+ "ruian:Jizerská 4077, Frýdlant v Č.": [],
+ "ruian:Jizerská 4077": [
+  {
+   "a": "Jizerská 4077, 46401 Frýdlant",
+   "lat": 50.913114,
+   "lon": 15.084679,
+   "s": 100
+  }
+ ],
+ "ruian:Nemocniční 1194, Uničov": [
+  {
+   "a": "Nemocniční 1194, 78391 Uničov",
+   "lat": 49.766818,
+   "lon": 17.120434,
+   "s": 100
+  }
+ ],
+ "ruian:Nad Šárkou 113, Praha 6": [
+  {
+   "a": "Nad Šárkou 1592/113, Dejvice, 16000 Praha 6",
+   "lat": 50.109162,
+   "lon": 14.374037,
+   "s": 100
+  }
+ ],
+ "ruian:CELNÍ 1879/1a, HLUČÍN": [
+  {
+   "a": "Celní 1879/1a, 74801 Hlučín",
+   "lat": 49.895655,
+   "lon": 18.183735,
+   "s": 100
+  }
+ ],
+ "ruian:Družstevní 879, Holice": [
+  {
+   "a": "Družstevní 879, 53401 Holice",
+   "lat": 50.068713,
+   "lon": 15.979232,
+   "s": 100
+  }
+ ],
+ "ruian:Dolní 46, Kopřivnice": [
+  {
+   "a": "Dolní 46/1a, 74221 Kopřivnice",
+   "lat": 49.604912,
+   "lon": 18.145696,
+   "s": 100
+  }
+ ],
+ "ruian:Smetanův okruh 2518/11, Krnov": [
+  {
+   "a": "Smetanův okruh 2518/11, Pod Bezručovým vrchem, 79401 Krnov",
+   "lat": 50.092658,
+   "lon": 17.700877,
+   "s": 100
+  }
+ ],
+ "ruian:gen. Ludvíka Svobody 1367, Lomnice nad Popelkou": [
+  {
+   "a": "gen. Ludvíka Svobody 1367, 51251 Lomnice nad Popelkou",
+   "lat": 50.538387,
+   "lon": 15.372301,
+   "s": 100
+  }
+ ],
+ "ruian:Masarykovy sady 2790, Louny": [
+  {
+   "a": "Masarykovy sady 2790, 44001 Louny",
+   "lat": 50.361463,
+   "lon": 13.787058,
+   "s": 100
+  }
+ ],
+ "ruian:Hájecká 1099, Bučovice": [
+  {
+   "a": "Hájecká 1099, 68501 Bučovice",
+   "lat": 49.149573,
+   "lon": 17.016089,
+   "s": 100
+  }
+ ],
+ "ruian:Petrovická 1568, Milevsko": [
+  {
+   "a": "Petrovická 1568, 39901 Milevsko",
+   "lat": 49.457752,
+   "lon": 14.363566,
+   "s": 100
+  }
+ ],
+ "ruian:Žitavská 286, Mimoň": [
+  {
+   "a": "Žitavská 286, Mimoň IV, 47124 Mimoň",
+   "lat": 50.668268,
+   "lon": 14.728447,
+   "s": 100
+  }
+ ],
+ "ruian:U Továren 674/12, Praha 15": [],
+ "ruian:U Továren 674, Praha 15": [],
+ "ruian:U Továren 674/12, Praha": [
+  {
+   "a": "U továren 674/12, Hostivař, 10200 Praha 10",
+   "lat": 50.056214,
+   "lon": 14.535463,
+   "s": 100
+  }
+ ],
+ "ruian:Jaselská 2754/20, Opava 7": [],
+ "ruian:Jaselská 2754, Opava 7": [],
+ "ruian:Jaselská 2754/20, Opava": [
+  {
+   "a": "Jaselská 2754/20, Předměstí, 74707 Opava",
+   "lat": 49.955354,
+   "lon": 17.887149,
+   "s": 100
+  }
+ ],
+ "ruian:U Výstaviště 491, Písek": [
+  {
+   "a": "U Výstaviště 491, Pražské Předměstí, 39701 Písek",
+   "lat": 49.307741,
+   "lon": 14.139342,
+   "s": 100
+  }
+ ],
+ "ruian:nám. Přátelství 685, Prachatice": [
+  {
+   "a": "nám. Přátelství 685, Prachatice II, 38301 Prachatice",
+   "lat": 49.019591,
+   "lon": 13.996756,
+   "s": 100
+  }
+ ],
+ "ruian:Sokolovská 1033/304b, Praha 9": [
+  {
+   "a": "Sokolovská 1033/304b, Vysočany, 19000 Praha 9",
+   "lat": 50.108067,
+   "lon": 14.496035,
+   "s": 100
+  }
+ ],
+ "ruian:V Jezírkách 1530, Kolín 5": [],
+ "ruian:V Jezírkách 1530, Kolín": [
+  {
+   "a": "V Jezírkách 1530, Kolín V, 28002 Kolín",
+   "lat": 50.035818,
+   "lon": 15.222097,
+   "s": 100
+  }
+ ],
+ "ruian:Čapkova 1690/4 - pozor, Říčany": [],
+ "ruian:Čapkova 1690 - pozor, Říčany": [],
+ "ruian:Na Žižkově 1080/40a, Liberec 6": [],
+ "ruian:Na Žižkově 1080, Liberec 6": [],
+ "ruian:Na Žižkově 1080/40a, Liberec": [
+  {
+   "a": "Na Žižkově 1080/40a, Liberec VI-Rochlice, 46006 Liberec",
+   "lat": 50.754638,
+   "lon": 15.064746,
+   "s": 100
+  }
+ ],
+ "ruian:Pěšinky 971, Světlá nad Sázavou": [
+  {
+   "a": "Pěšinky 971, 58291 Světlá nad Sázavou",
+   "lat": 49.669889,
+   "lon": 15.410188,
+   "s": 100
+  }
+ ],
+ "ruian:U Vodárny 2215, Benešov": [
+  {
+   "a": "U Vodárny 2215, 25601 Benešov",
+   "lat": 49.773927,
+   "lon": 14.69614,
+   "s": 100
+  }
+ ],
+ "ruian:Nerudova 1248, Sezimovo Ústí 2": [],
+ "ruian:Nerudova 1248, Sezimovo Ústí": [
+  {
+   "a": "Nerudova 1248, 39102 Sezimovo Ústí",
+   "lat": 49.381284,
+   "lon": 14.705801,
+   "s": 100
+  }
+ ],
+ "ruian:Na Stuchlíkovci 340, Orlová": [
+  {
+   "a": "Na Stuchlíkovci 340, Lutyně, 73514 Orlová",
+   "lat": 49.865992,
+   "lon": 18.430004,
+   "s": 100
+  }
+ ],
+ "ruian:U Náhonu 1980, Tachov": [
+  {
+   "a": "U Náhonu 1980, 34701 Tachov",
+   "lat": 49.796501,
+   "lon": 12.628548,
+   "s": 100
+  }
+ ],
+ "ruian:Karkulínova 17, Brno": [
+  {
+   "a": "Karkulínova 801/17, Tuřany, 62000 Brno",
+   "lat": 49.14984,
+   "lon": 16.672445,
+   "s": 100
+  }
+ ],
+ "ruian:Koškova 825, Turnov": [
+  {
+   "a": "Koškova 825, 51101 Turnov",
+   "lat": 50.584485,
+   "lon": 15.14517,
+   "s": 100
+  }
+ ],
+ "ruian:U Moravy 827, Uherské Hradiště": [
+  {
+   "a": "U Moravy 827, Mařatice, 68601 Uherské Hradiště",
+   "lat": 49.07413,
+   "lon": 17.473684,
+   "s": 100
+  }
+ ],
+ "ruian:Masarykova 232, Ústí nad Labemabem": [],
+ "ruian:Masarykova 232": [
+  {
+   "a": "Masarykova 232, 66461 Rajhrad",
+   "lat": 49.092618,
+   "lon": 16.602317,
+   "s": 100
+  },
+  {
+   "a": "Masarykova 232, 76326 Luhačovice",
+   "lat": 49.099112,
+   "lon": 17.756935,
+   "s": 100
+  },
+  {
+   "a": "Masarykova 232, 67521 Okříšky",
+   "lat": 49.244261,
+   "lon": 15.769866,
+   "s": 100
+  }
+ ],
+ "ruian:J. máje 321, Vimperk": [],
+ "ruian:J. máje 321": [],
+ "ruian:Severní 1129, Hrušovany nad Jevišovkou": [
+  {
+   "a": "Severní 1129, 67167 Hrušovany nad Jevišovkou",
+   "lat": 48.834175,
+   "lon": 16.398768,
+   "s": 100
+  }
+ ],
+ "ruian:Nad vodovodem 3503, Praha 10": [
+  {
+   "a": "Nad vodovodem 3503, Strašnice, 10000 Praha 10",
+   "lat": 50.080225,
+   "lon": 14.484036,
+   "s": 100
+  }
+ ],
+ "ruian:Revoluční 217, Planá": [
+  {
+   "a": "Revoluční 217, 34815 Planá",
+   "lat": 49.872161,
+   "lon": 12.73882,
+   "s": 100
+  }
+ ],
+ "ruian:Květná 2785/48, Plzeň": [
+  {
+   "a": "Květná 2785/48, Východní Předměstí, 32600 Plzeň",
+   "lat": 49.727338,
+   "lon": 13.390492,
+   "s": 100
+  }
+ ],
+ "ruian:Jarmilina stezka 275, Doksy": [
+  {
+   "a": "Jarmilina stezka 275, Staré Splavy, 47163 Doksy",
+   "lat": 50.585622,
+   "lon": 14.631402,
+   "s": 100
+  }
+ ],
+ "ruian:Skautská 105, Ostrava Poruba": [],
+ "ruian:Skautská 105": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=SAP+Poruba%2C+Ostrava+Poruba": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Skautsk%C3%A1+105%2C+Ostrava+Poruba": [
+  {
+   "name": "Skautská",
+   "display_name": "Skautská, Poruba, Ostrava, okres Ostrava-město, Moravskoslezský kraj, 708 00, Česko",
+   "lat": "49.8227860",
+   "lon": "18.1774660",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential",
+   "extratags": {
+    "hgv": "destination"
+   },
+   "osm_type": "way",
+   "osm_id": 31258392
+  }
+ ],
+ "ruian:Božanovská 2093, H. Počernice": [],
+ "ruian:Božanovská 2093": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Bo%C5%BEanovsk%C3%A1+2093%2C+H.Po%C4%8Dernice": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=H.Po%C4%8Dernice": [
+  {
+   "name": "Praha-Dolní Počernice",
+   "display_name": "Praha-Dolní Počernice, obvod Praha 9, Praha, 190 12, Česko",
+   "lat": "50.0858859",
+   "lon": "14.5757301",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "suburb",
+   "extratags": {
+    "ref:zsj": "029955",
+    "ref:cobe": "538175",
+    "wikidata": "Q3489932",
+    "wikipedia": "cs:Dolní Počernice",
+    "border_type": "borough",
+    "linked_place": "suburb",
+    "official_status": "cz:městská část hlavního města Prahy",
+    "admin_level": "9"
+   },
+   "osm_type": "relation",
+   "osm_id": 19999106
+  }
+ ],
+ "ruian:17. listopadu 15, Ostrava Poruba": [
+  {
+   "a": "17. listopadu 2172/15, Poruba, 70800 Ostrava",
+   "lat": 49.833685,
+   "lon": 18.163601,
+   "s": 100
+  }
+ ],
+ "ruian:Svojsíkova 833, Český Těšín": [
+  {
+   "a": "Svojsíkova 833, 73701 Český Těšín",
+   "lat": 49.741948,
+   "lon": 18.618637,
+   "s": 100
+  }
+ ],
+ "ruian:17. listopadu 41, Olomouc": [
+  {
+   "a": "17. listopadu 426/41, 77900 Olomouc",
+   "lat": 49.593173,
+   "lon": 17.26147,
+   "s": 100
+  }
+ ],
+ "ruian:U Hradiska 29, Olomouc": [
+  {
+   "a": "U Hradiska 157/29, Klášterní Hradisko, 77900 Olomouc",
+   "lat": 49.610736,
+   "lon": 17.261303,
+   "s": 100
+  }
+ ],
+ "ruian:Sokolská 13, Zábřeh": [
+  {
+   "a": "Sokolská 94/13, 78901 Zábřeh",
+   "lat": 49.883227,
+   "lon": 16.866323,
+   "s": 100
+  }
+ ],
+ "ruian:Kaunicova 633, Slavkov u Brna": [
+  {
+   "a": "Kaunicova 633, 68401 Slavkov u Brna",
+   "lat": 49.15702,
+   "lon": 16.875893,
+   "s": 100
+  }
+ ],
+ "ruian:Kytínská 925, Mníšek pod Brdy": [
+  {
+   "a": "Kytínská 925, 25210 Mníšek pod Brdy",
+   "lat": 49.858041,
+   "lon": 14.251751,
+   "s": 100
+  }
+ ],
+ "ruian:Lista 393, Štěchovice": [
+  {
+   "a": "Prof. Lista 393, 25207 Štěchovice",
+   "lat": 49.847417,
+   "lon": 14.417798,
+   "s": 100
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Nad+%C3%9Ajezdem%2C+Praha": [],
+ "ruian:Nad Rybníkem 1173/7, Ostrava": [
+  {
+   "a": "Nad Rybníkem 1173/7, Stará Bělá, 72400 Ostrava",
+   "lat": 49.765004,
+   "lon": 18.235935,
+   "s": 100
+  }
+ ],
+ "ruian:areál Vodranty 1999, Čáslav": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Tenis.+kurty%2Care%C3%A1l+Vodranty+1999%2C+%C4%8C%C3%A1slav": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=Tenis%2C+%C4%8C%C3%A1slav": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&extratags=1&format=jsonv2&limit=1&q=are%C3%A1l+Vodranty+1999%2C+%C4%8C%C3%A1slav": [],
+ "ruian:U Kapličky 1705, Čelákovice": [
+  {
+   "a": "U Kapličky 1705, 25088 Čelákovice",
+   "lat": 50.166277,
+   "lon": 14.745631,
+   "s": 100
+  }
+ ],
+ "ruian:Sportovní 284/1A, Dubí 2": [],
+ "ruian:Sportovní 284, Dubí 2": [],
+ "ruian:Sportovní 284/1A, Dubí": [
+  {
+   "a": "Sportovní 284/1a, Běhánky, 41702 Dubí",
+   "lat": 50.673303,
+   "lon": 13.803112,
+   "s": 100
+  }
+ ],
+ "ruian:Slepá 89, Dýšina": [
+  {
+   "a": "Slepá 89, Nová Huť, 33002 Dýšina",
+   "lat": 49.778776,
+   "lon": 13.509462,
+   "s": 100
+  }
+ ],
+ "ruian:Tomanova 2703/17, Plzeň": [
+  {
+   "a": "Tomanova 2703/17, Jižní Předměstí, 30100 Plzeň",
+   "lat": 49.735388,
+   "lon": 13.362873,
+   "s": 100
+  }
+ ],
+ "ruian:Práce 17, Děčín": [
+  {
+   "a": "Práce 1966/17, Děčín V-Rozbělesy, 40502 Děčín",
+   "lat": 50.773616,
+   "lon": 14.202294,
+   "s": 100
+  }
+ ],
+ "ruian:Na Balkáně 450/25, Praha 3": [
+  {
+   "a": "Na Balkáně 450/25, Vysočany, 13000 Praha 3",
+   "lat": 50.096078,
+   "lon": 14.490628,
+   "s": 100
+  }
+ ]
 }

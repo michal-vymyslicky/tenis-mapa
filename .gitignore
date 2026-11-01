@@ -1,0 +1,4 @@
+__pycache__/
+*.tmp
+.DS_Store
+data/kontrola_mist.csv

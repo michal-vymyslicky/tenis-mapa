@@ -291,7 +291,6 @@
  "L26-dospeli-116003-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116003-x",
    "kat": "dospeli",
@@ -320,7 +319,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.04.2026 10:00:00 do 17.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -328,7 +328,6 @@
  "L26-dospeli-116004-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116004-x",
    "kat": "dospeli",
@@ -357,7 +356,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.04.2026 10:00:00 do 17.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -365,7 +365,6 @@
  "L26-dospeli-116841-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116841-x",
    "kat": "dospeli",
@@ -394,7 +393,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.04.2026 10:00:00 do 17.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -438,7 +438,6 @@
  "L26-dospeli-116008-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116008-x",
    "kat": "dospeli",
@@ -467,7 +466,8 @@
    "prez": "Čt do 18:00 hod.",
    "el": "od 07.05.2026 10:00:00 do 07.05.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -610,7 +610,6 @@
  "L26-dospeli-116011-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116011-x",
    "kat": "dospeli",
@@ -639,7 +638,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 15.05.2026 10:00:00 do 15.05.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -1193,7 +1193,6 @@
  "L26-dospeli-116019-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116019-x",
    "kat": "dospeli",
@@ -1222,7 +1221,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -1230,7 +1230,6 @@
  "L26-dospeli-116014-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116014-x",
    "kat": "dospeli",
@@ -1259,7 +1258,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -1450,7 +1450,6 @@
  "L26-dospeli-116025-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116025-x",
    "kat": "dospeli",
@@ -1479,7 +1478,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 26.06.2026 09:00:00 do 26.06.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -1523,7 +1523,6 @@
  "L26-dospeli-116021-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116021-x",
    "kat": "dospeli",
@@ -1552,7 +1551,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -1818,7 +1818,6 @@
  "L26-dospeli-116040-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116040-x",
    "kat": "dospeli",
@@ -1847,7 +1846,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 03.07.2026 10:00:00 do 03.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -2041,7 +2041,6 @@
  "L26-dospeli-116037-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116037-x",
    "kat": "dospeli",
@@ -2070,7 +2069,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 03.07.2026 10:00:00 do 03.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -2078,7 +2078,6 @@
  "L26-dospeli-116034-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116034-x",
    "kat": "dospeli",
@@ -2107,7 +2106,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 03.07.2026 10:00:00 do 03.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -2115,7 +2115,6 @@
  "L26-dospeli-116032-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116032-x",
    "kat": "dospeli",
@@ -2141,7 +2140,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 03.07.2026 10:00:00 do 03.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -2188,7 +2188,6 @@
  "L26-dospeli-116042-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116042-x",
    "kat": "dospeli",
@@ -2217,7 +2216,8 @@
    "prez": "So do 18:00 hod.",
    "el": "od 04.07.2026 10:00:00 do 04.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -2672,7 +2672,6 @@
  "L26-dospeli-116046-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116046-x",
    "kat": "dospeli",
@@ -2701,7 +2700,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 10.07.2026 10:00:00 do 10.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -3186,7 +3186,6 @@
  "L26-dospeli-116066-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116066-x",
    "kat": "dospeli",
@@ -3215,7 +3214,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.07.2026 10:00:00 do 17.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -3334,7 +3334,6 @@
  "L26-dospeli-116074-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116074-x",
    "kat": "dospeli",
@@ -3363,7 +3362,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.07.2026 10:00:00 do 17.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -3554,7 +3554,6 @@
  "L26-dospeli-116084-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116084-x",
    "kat": "dospeli",
@@ -3583,7 +3582,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.07.2026 10:00:00 do 24.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -3699,7 +3699,6 @@
  "L26-dospeli-116088-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116088-x",
    "kat": "dospeli",
@@ -3728,7 +3727,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.07.2026 10:00:00 do 24.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -3746,7 +3746,7 @@
    "vk": 400,
    "nz": "Pankrác Cup",
    "por": "TC Pankrác",
-   "misto": "klub:tc pankrac|druzstevni ochoz 5a areal reitknechtka praha 4 nusle",
+   "misto": "klub:tc pankrac|druzstevni ochoz 5a praha 4 nusle",
    "km": "116082",
    "kz": "",
    "mix": false,
@@ -4033,7 +4033,6 @@
  "L26-dospeli-116094-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116094-x",
    "kat": "dospeli",
@@ -4062,7 +4061,8 @@
    "prez": "Čt do 18:00 hod.",
    "el": "od 30.07.2026 10:00:00 do 30.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -4740,7 +4740,7 @@
    "vk": 500,
    "nz": "",
    "por": "TK Milevsko, z.s.",
-   "misto": "klub:tk milevsko z s|petrovicka 1568 bazantnice milevsko",
+   "misto": "klub:tk milevsko z s|petrovicka 1568 milevsko",
    "km": "116120",
    "kz": "",
    "mix": false,
@@ -5856,7 +5856,7 @@
    "vk": 600,
    "nz": "Memoriál Jiřího Folbera",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "116151",
    "kz": "",
    "mix": false,
@@ -5957,7 +5957,6 @@
  "L26-dospeli-116167-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116167-x",
    "kat": "dospeli",
@@ -5986,7 +5985,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -6363,7 +6363,6 @@
  "L26-dospeli-116166-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116166-x",
    "kat": "dospeli",
@@ -6392,7 +6391,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -6410,7 +6410,7 @@
    "vk": 300,
    "nz": "o pohár starosty Města Úpice",
    "por": "TJ Sparta Úpice",
-   "misto": "klub:tj sparta upice|regnerova areal sparta upice upice",
+   "misto": "klub:tj sparta upice|regnerova upice",
    "km": "116157",
    "kz": "",
    "mix": false,
@@ -6436,7 +6436,6 @@
  "L26-dospeli-116165-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116165-x",
    "kat": "dospeli",
@@ -6465,7 +6464,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -6509,7 +6509,6 @@
  "L26-dospeli-116170-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116170-x",
    "kat": "dospeli",
@@ -6538,7 +6537,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 28.08.2026 09:00:00 do 28.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7341,7 +7341,6 @@
  "L26-dospeli-116209-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116209-x",
    "kat": "dospeli",
@@ -7370,7 +7369,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7453,7 +7453,6 @@
  "L26-dospeli-116199-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116199-x",
    "kat": "dospeli",
@@ -7482,7 +7481,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7526,7 +7526,6 @@
  "L26-dospeli-116190-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116190-x",
    "kat": "dospeli",
@@ -7555,7 +7554,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7599,7 +7599,6 @@
  "L26-dospeli-116207-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116207-x",
    "kat": "dospeli",
@@ -7628,7 +7627,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7675,7 +7675,6 @@
  "L26-dospeli-116205-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116205-x",
    "kat": "dospeli",
@@ -7704,7 +7703,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 11.09.2026 09:00:00 do 11.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7712,7 +7712,6 @@
  "L26-dospeli-116202-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116202-x",
    "kat": "dospeli",
@@ -7741,7 +7740,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7749,7 +7749,6 @@
  "L26-dospeli-116220-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116220-x",
    "kat": "dospeli",
@@ -7778,7 +7777,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 18.09.2026 09:00:00 do 18.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7894,7 +7894,6 @@
  "L26-dospeli-116212-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116212-x",
    "kat": "dospeli",
@@ -7923,7 +7922,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 18.09.2026 10:00:00 do 18.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -8114,7 +8114,6 @@
  "L26-dospeli-116210-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116210-x",
    "kat": "dospeli",
@@ -8143,7 +8142,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 18.09.2026 10:00:00 do 18.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -8436,7 +8436,6 @@
  "L26-dospeli-116233-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116233-x",
    "kat": "dospeli",
@@ -8447,7 +8446,7 @@
    "vk": 500,
    "nz": "Koska Cup 9.ročník",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "116233",
    "kz": "",
    "mix": false,
@@ -8465,7 +8464,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 25.09.2026 10:00:00 do 25.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -8545,7 +8545,6 @@
  "L26-dospeli-116238-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dospeli-116238-x",
    "kat": "dospeli",
@@ -8574,7 +8573,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 25.09.2026 10:00:00 do 25.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -8835,7 +8835,6 @@
  "L26-dorost-x-416003": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416003",
    "kat": "dorost",
@@ -8864,7 +8863,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 10.04.2026 10:00:00 do 10.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -8974,7 +8974,6 @@
  "L26-dorost-x-416972": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416972",
    "kat": "dorost",
@@ -9003,7 +9002,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 17.04.2026 09:00:00 do 17.04.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -9044,7 +9044,6 @@
  "L26-dorost-316882-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316882-x",
    "kat": "dorost",
@@ -9073,7 +9072,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.04.2026 10:00:00 do 17.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -9081,7 +9081,6 @@
  "L26-dorost-316892-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316892-x",
    "kat": "dorost",
@@ -9092,7 +9091,7 @@
    "vk": 400,
    "nz": "Sdružený okresní přebor PM, PJ, PS, RO",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "316892",
    "kz": "",
    "mix": false,
@@ -9110,7 +9109,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.04.2026 10:00:00 do 17.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -9253,7 +9253,6 @@
  "L26-dorost-316011-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316011-x",
    "kat": "dorost",
@@ -9282,7 +9281,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.04.2026 10:00:00 do 24.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10289,7 +10289,6 @@
  "L26-dorost-x-416026": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416026",
    "kat": "dorost",
@@ -10318,7 +10317,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 05.06.2026 10:00:00 do 05.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10326,7 +10326,6 @@
  "L26-dorost-316028-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316028-x",
    "kat": "dorost",
@@ -10355,7 +10354,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 05.06.2026 09:30:00 do 05.06.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10603,7 +10603,6 @@
  "L26-dorost-x-416037": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416037",
    "kat": "dorost",
@@ -10632,7 +10631,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10676,7 +10676,6 @@
  "L26-dorost-316037-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316037-x",
    "kat": "dorost",
@@ -10705,7 +10704,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10887,7 +10887,6 @@
  "L26-dorost-316044-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316044-x",
    "kat": "dorost",
@@ -10916,7 +10915,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 26.06.2026 09:00:00 do 26.06.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10960,7 +10960,6 @@
  "L26-dorost-x-416044": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416044",
    "kat": "dorost",
@@ -10989,7 +10988,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 26.06.2026 09:00:00 do 26.06.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10997,7 +10997,6 @@
  "L26-dorost-316052-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316052-x",
    "kat": "dorost",
@@ -11008,7 +11007,7 @@
    "vk": 400,
    "nz": "Letní pohár 2026",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "316052",
    "kz": "",
    "mix": false,
@@ -11026,7 +11025,8 @@
    "prez": "So do 18:00 hod.",
    "el": "od 27.06.2026 10:00:00 do 27.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -11236,7 +11236,7 @@
    "vk": 500,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "",
    "kz": "416058",
    "mix": false,
@@ -11376,7 +11376,6 @@
  "L26-dorost-316068-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316068-x",
    "kat": "dorost",
@@ -11405,7 +11404,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 03.07.2026 09:00:00 do 03.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -11782,7 +11782,6 @@
  "L26-dorost-316084-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316084-x",
    "kat": "dorost",
@@ -11811,7 +11810,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 10.07.2026 10:00:00 do 10.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -11933,7 +11933,6 @@
  "L26-dorost-316082-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316082-x",
    "kat": "dorost",
@@ -11944,7 +11943,7 @@
    "vk": 400,
    "nz": "",
    "por": "TK Milevsko, z.s.",
-   "misto": "klub:tk milevsko z s|petrovicka 1568 bazantnice milevsko",
+   "misto": "klub:tk milevsko z s|petrovicka 1568 milevsko",
    "km": "316082",
    "kz": "",
    "mix": false,
@@ -11962,7 +11961,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 10.07.2026 10:00:00 do 10.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12039,7 +12039,6 @@
  "L26-dorost-x-416089": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416089",
    "kat": "dorost",
@@ -12068,7 +12067,8 @@
    "prez": "Pá do 18:30 hod.",
    "el": "od 10.07.2026 10:30:00 do 10.07.2026 18:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12112,7 +12112,6 @@
  "L26-dorost-316083-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316083-x",
    "kat": "dorost",
@@ -12141,7 +12140,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 10.07.2026 10:00:00 do 10.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12188,7 +12188,6 @@
  "L26-dorost-316088-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316088-x",
    "kat": "dorost",
@@ -12217,7 +12216,8 @@
    "prez": "Pá do 19:00 hod.",
    "el": "od 10.07.2026 11:00:00 do 10.07.2026 19:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12261,7 +12261,6 @@
  "L26-dorost-316086-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316086-x",
    "kat": "dorost",
@@ -12290,7 +12289,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 10.07.2026 09:00:00 do 10.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12298,7 +12298,6 @@
  "L26-dorost-316094-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316094-x",
    "kat": "dorost",
@@ -12327,7 +12326,8 @@
    "prez": "Ne do 18:00 hod.",
    "el": "od 12.07.2026 10:00:00 do 12.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12737,7 +12737,6 @@
  "L26-dorost-316104-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316104-x",
    "kat": "dorost",
@@ -12766,7 +12765,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.07.2026 10:00:00 do 17.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12888,7 +12888,6 @@
  "L26-dorost-316106-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316106-x",
    "kat": "dorost",
@@ -12917,7 +12916,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.07.2026 10:00:00 do 17.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13030,7 +13030,6 @@
  "L26-dorost-x-416106": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416106",
    "kat": "dorost",
@@ -13056,7 +13055,8 @@
    "prez": "Ne do 18:00 hod.",
    "el": "od 19.07.2026 10:00:00 do 19.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13175,7 +13175,6 @@
  "L26-dorost-316114-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316114-x",
    "kat": "dorost",
@@ -13204,7 +13203,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 21.07.2026 10:00:00 do 21.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13356,7 +13356,6 @@
  "L26-dorost-x-416115": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416115",
    "kat": "dorost",
@@ -13385,7 +13384,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 24.07.2026 09:00:00 do 24.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13465,7 +13465,6 @@
  "L26-dorost-316131-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316131-x",
    "kat": "dorost",
@@ -13476,7 +13475,7 @@
    "vk": 400,
    "nz": "Loko Cup",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "316131",
    "kz": "",
    "mix": false,
@@ -13494,7 +13493,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.07.2026 10:00:00 do 24.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13577,7 +13577,6 @@
  "L26-dorost-x-416111": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416111",
    "kat": "dorost",
@@ -13603,7 +13602,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.07.2026 10:00:00 do 24.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13611,7 +13611,6 @@
  "L26-dorost-316125-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316125-x",
    "kat": "dorost",
@@ -13640,7 +13639,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.07.2026 10:00:00 do 24.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13717,7 +13717,6 @@
  "L26-dorost-316123-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316123-x",
    "kat": "dorost",
@@ -13746,7 +13745,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.07.2026 10:00:00 do 24.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14084,7 +14084,6 @@
  "L26-dorost-316318-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316318-x",
    "kat": "dorost",
@@ -14113,7 +14112,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 31.07.2026 10:00:00 do 31.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14193,7 +14193,6 @@
  "L26-dorost-316140-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316140-x",
    "kat": "dorost",
@@ -14222,7 +14221,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 31.07.2026 10:00:00 do 31.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14269,7 +14269,6 @@
  "L26-dorost-316138-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316138-x",
    "kat": "dorost",
@@ -14298,7 +14297,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 31.07.2026 10:00:00 do 31.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14381,7 +14381,6 @@
  "L26-dorost-x-416143": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416143",
    "kat": "dorost",
@@ -14410,7 +14409,8 @@
    "prez": "Ne do 17:00 hod.",
    "el": "od 02.08.2026 09:00:00 do 02.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14598,7 +14598,6 @@
  "L26-dorost-316156-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316156-x",
    "kat": "dorost",
@@ -14627,7 +14626,8 @@
    "prez": "St do 18:00 hod.",
    "el": "od 05.08.2026 10:00:00 do 05.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14782,7 +14782,6 @@
  "L26-dorost-316161-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316161-x",
    "kat": "dorost",
@@ -14811,7 +14810,8 @@
    "prez": "Pá do 12:00 hod.",
    "el": "od 07.08.2026 04:00:00 do 07.08.2026 12:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14897,7 +14897,6 @@
  "L26-dorost-316164-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316164-x",
    "kat": "dorost",
@@ -14926,7 +14925,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 07.08.2026 10:00:00 do 07.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14973,7 +14973,6 @@
  "L26-dorost-x-416158": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416158",
    "kat": "dorost",
@@ -15002,7 +15001,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 07.08.2026 09:00:00 do 07.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -15310,7 +15310,6 @@
  "L26-dorost-316180-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316180-x",
    "kat": "dorost",
@@ -15339,7 +15338,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 14.08.2026 10:00:00 do 14.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -15347,7 +15347,6 @@
  "L26-dorost-x-416167": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416167",
    "kat": "dorost",
@@ -15376,7 +15375,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 14.08.2026 09:00:00 do 14.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -15384,7 +15384,6 @@
  "L26-dorost-316179-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316179-x",
    "kat": "dorost",
@@ -15413,7 +15412,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 14.08.2026 10:00:00 do 14.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -15823,7 +15823,6 @@
  "L26-dorost-316198-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316198-x",
    "kat": "dorost",
@@ -15852,7 +15851,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 21.08.2026 10:00:00 do 21.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -16451,7 +16451,6 @@
  "L26-dorost-316219-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316219-x",
    "kat": "dorost",
@@ -16480,7 +16479,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -16527,7 +16527,6 @@
  "L26-dorost-316233-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316233-x",
    "kat": "dorost",
@@ -16556,7 +16555,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 28.08.2026 09:00:00 do 28.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -16564,7 +16564,6 @@
  "L26-dorost-x-416211": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416211",
    "kat": "dorost",
@@ -16593,7 +16592,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -16601,7 +16601,6 @@
  "L26-dorost-316232-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316232-x",
    "kat": "dorost",
@@ -16630,7 +16629,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17013,7 +17013,6 @@
  "L26-dorost-316250-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316250-x",
    "kat": "dorost",
@@ -17042,7 +17041,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 04.09.2026 10:00:00 do 04.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17311,7 +17311,6 @@
  "L26-dorost-x-416220": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416220",
    "kat": "dorost",
@@ -17340,7 +17339,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 04.09.2026 09:00:00 do 04.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17348,7 +17348,6 @@
  "L26-dorost-316248-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316248-x",
    "kat": "dorost",
@@ -17377,7 +17376,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 04.09.2026 10:00:00 do 04.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17493,7 +17493,6 @@
  "L26-dorost-x-416252": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416252",
    "kat": "dorost",
@@ -17519,7 +17518,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17635,7 +17635,6 @@
  "L26-dorost-316258-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316258-x",
    "kat": "dorost",
@@ -17661,7 +17660,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17705,7 +17705,6 @@
  "L26-dorost-316254-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316254-x",
    "kat": "dorost",
@@ -17734,7 +17733,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17742,7 +17742,6 @@
  "L26-dorost-316265-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316265-x",
    "kat": "dorost",
@@ -17771,7 +17770,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 11.09.2026 09:00:00 do 11.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17857,7 +17857,6 @@
  "L26-dorost-316262-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316262-x",
    "kat": "dorost",
@@ -17886,7 +17885,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 11.09.2026 09:00:00 do 11.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17960,7 +17960,6 @@
  "L26-dorost-x-416266": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416266",
    "kat": "dorost",
@@ -17989,7 +17988,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 18.09.2026 10:00:00 do 18.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -18033,7 +18033,6 @@
  "L26-dorost-x-416289": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416289",
    "kat": "dorost",
@@ -18062,7 +18061,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 18.09.2026 09:00:00 do 18.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -18109,7 +18109,6 @@
  "L26-dorost-x-416257": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416257",
    "kat": "dorost",
@@ -18138,7 +18137,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 18.09.2026 10:00:00 do 18.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -18335,7 +18335,6 @@
  "L26-dorost-316273-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-316273-x",
    "kat": "dorost",
@@ -18364,7 +18363,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 18.09.2026 09:00:00 do 18.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -18936,7 +18936,6 @@
  "L26-dorost-x-416283": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416283",
    "kat": "dorost",
@@ -18965,7 +18964,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 25.09.2026 09:00:00 do 25.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -19318,7 +19318,6 @@
  "L26-dorost-x-416309": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-dorost-x-416309",
    "kat": "dorost",
@@ -19344,7 +19343,8 @@
    "prez": "Ne do 08:50 hod.",
    "el": "od 27.09.2026 00:50:00 do 27.09.2026 08:50:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -19874,7 +19874,6 @@
  "L26-starsi-zactvo-x-616972": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616972",
    "kat": "starsi-zactvo",
@@ -19903,7 +19902,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 17.04.2026 09:00:00 do 17.04.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -19978,7 +19978,6 @@
  "L26-starsi-zactvo-516882-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516882-x",
    "kat": "starsi-zactvo",
@@ -20007,7 +20006,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.04.2026 10:00:00 do 17.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -20090,7 +20090,6 @@
  "L26-starsi-zactvo-516892-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516892-x",
    "kat": "starsi-zactvo",
@@ -20101,7 +20100,7 @@
    "vk": 400,
    "nz": "Sdružený okresní přebor PM, PJ, PS, RO",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "516892",
    "kz": "",
    "mix": false,
@@ -20119,7 +20118,8 @@
    "prez": "So do 18:00 hod.",
    "el": "od 18.04.2026 10:00:00 do 18.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -20202,7 +20202,6 @@
  "L26-starsi-zactvo-x-616009": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616009",
    "kat": "starsi-zactvo",
@@ -20231,7 +20230,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 15.05.2026 10:00:00 do 15.05.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -20239,7 +20239,6 @@
  "L26-starsi-zactvo-516015-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516015-x",
    "kat": "starsi-zactvo",
@@ -20268,7 +20267,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 15.05.2026 10:00:00 do 15.05.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -20312,7 +20312,6 @@
  "L26-starsi-zactvo-x-616012": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616012",
    "kat": "starsi-zactvo",
@@ -20341,7 +20340,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 15.05.2026 10:00:00 do 15.05.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -20388,7 +20388,6 @@
  "L26-starsi-zactvo-x-616017": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616017",
    "kat": "starsi-zactvo",
@@ -20417,7 +20416,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 15.05.2026 09:30:00 do 15.05.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21049,7 +21049,6 @@
  "L26-starsi-zactvo-x-616026": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616026",
    "kat": "starsi-zactvo",
@@ -21078,7 +21077,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 26.06.2026 09:00:00 do 26.06.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21122,7 +21122,6 @@
  "L26-starsi-zactvo-x-616029": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616029",
    "kat": "starsi-zactvo",
@@ -21151,7 +21150,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21159,7 +21159,6 @@
  "L26-starsi-zactvo-x-616025": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616025",
    "kat": "starsi-zactvo",
@@ -21188,7 +21187,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21196,7 +21196,6 @@
  "L26-starsi-zactvo-x-616023": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616023",
    "kat": "starsi-zactvo",
@@ -21225,7 +21224,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21233,7 +21233,6 @@
  "L26-starsi-zactvo-x-616024": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616024",
    "kat": "starsi-zactvo",
@@ -21262,7 +21261,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21306,7 +21306,6 @@
  "L26-starsi-zactvo-516026-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516026-x",
    "kat": "starsi-zactvo",
@@ -21335,7 +21334,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 26.06.2026 09:00:00 do 26.06.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21415,7 +21415,6 @@
  "L26-starsi-zactvo-516030-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516030-x",
    "kat": "starsi-zactvo",
@@ -21444,7 +21443,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 30.06.2026 10:00:00 do 30.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21524,7 +21524,6 @@
  "L26-starsi-zactvo-x-616034": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616034",
    "kat": "starsi-zactvo",
@@ -21553,7 +21552,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 30.06.2026 10:00:00 do 30.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21561,7 +21561,6 @@
  "L26-starsi-zactvo-x-616036": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616036",
    "kat": "starsi-zactvo",
@@ -21590,7 +21589,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 30.06.2026 10:00:00 do 30.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21680,7 +21680,7 @@
    "vk": 400,
    "nz": "",
    "por": "TK Milevsko, z.s.",
-   "misto": "klub:tk milevsko z s|petrovicka 1568 bazantnice milevsko",
+   "misto": "klub:tk milevsko z s|petrovicka 1568 milevsko",
    "km": "516039",
    "kz": "616042",
    "mix": false,
@@ -21787,7 +21787,6 @@
  "L26-starsi-zactvo-516040-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516040-x",
    "kat": "starsi-zactvo",
@@ -21816,7 +21815,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 03.07.2026 09:00:00 do 03.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22004,7 +22004,6 @@
  "L26-starsi-zactvo-x-616055": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616055",
    "kat": "starsi-zactvo",
@@ -22033,7 +22032,8 @@
    "prez": "St do 18:00 hod.",
    "el": "od 08.07.2026 10:00:00 do 08.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22338,7 +22338,6 @@
  "L26-starsi-zactvo-x-616067": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616067",
    "kat": "starsi-zactvo",
@@ -22367,7 +22366,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 10.07.2026 09:30:00 do 10.07.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22486,7 +22486,6 @@
  "L26-starsi-zactvo-516066-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516066-x",
    "kat": "starsi-zactvo",
@@ -22515,7 +22514,8 @@
    "prez": "Po do 17:00 hod.",
    "el": "od 13.07.2026 09:00:00 do 13.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22523,7 +22523,6 @@
  "L26-starsi-zactvo-x-616070": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616070",
    "kat": "starsi-zactvo",
@@ -22552,7 +22551,8 @@
    "prez": "Po do 18:00 hod.",
    "el": "od 13.07.2026 10:00:00 do 13.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22599,7 +22599,6 @@
  "L26-starsi-zactvo-x-616072": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616072",
    "kat": "starsi-zactvo",
@@ -22628,7 +22627,8 @@
    "prez": "St do 17:00 hod.",
    "el": "od 15.07.2026 09:00:00 do 15.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22780,7 +22780,6 @@
  "L26-starsi-zactvo-x-616077": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616077",
    "kat": "starsi-zactvo",
@@ -22809,7 +22808,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.07.2026 10:00:00 do 17.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -23042,7 +23042,6 @@
  "L26-starsi-zactvo-x-616087": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616087",
    "kat": "starsi-zactvo",
@@ -23071,7 +23070,8 @@
    "prez": "Ne do 18:00 hod.",
    "el": "od 19.07.2026 10:00:00 do 19.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -23079,7 +23079,6 @@
  "L26-starsi-zactvo-516082-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516082-x",
    "kat": "starsi-zactvo",
@@ -23108,7 +23107,8 @@
    "prez": "Ne do 18:00 hod.",
    "el": "od 19.07.2026 10:00:00 do 19.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -23194,7 +23194,6 @@
  "L26-starsi-zactvo-516265-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516265-x",
    "kat": "starsi-zactvo",
@@ -23223,7 +23222,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 21.07.2026 10:00:00 do 21.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -23603,7 +23603,6 @@
  "L26-starsi-zactvo-516101-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516101-x",
    "kat": "starsi-zactvo",
@@ -23632,7 +23631,8 @@
    "prez": "Ne do 19:00 hod.",
    "el": "od 26.07.2026 11:00:00 do 26.07.2026 19:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -23979,7 +23979,6 @@
  "L26-starsi-zactvo-x-616109": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616109",
    "kat": "starsi-zactvo",
@@ -24008,7 +24007,8 @@
    "prez": "Pá do 16:30 hod.",
    "el": "od 31.07.2026 08:30:00 do 31.07.2026 16:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24016,7 +24016,6 @@
  "L26-starsi-zactvo-516116-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516116-x",
    "kat": "starsi-zactvo",
@@ -24045,7 +24044,8 @@
    "prez": "Pá do 19:00 hod.",
    "el": "od 31.07.2026 11:00:00 do 31.07.2026 19:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24053,7 +24053,6 @@
  "L26-starsi-zactvo-516119-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516119-x",
    "kat": "starsi-zactvo",
@@ -24082,7 +24081,8 @@
    "prez": "So do 18:00 hod.",
    "el": "od 01.08.2026 10:00:00 do 01.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24279,7 +24279,6 @@
  "L26-starsi-zactvo-x-616136": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616136",
    "kat": "starsi-zactvo",
@@ -24308,7 +24307,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 07.08.2026 09:00:00 do 07.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24469,7 +24469,6 @@
  "L26-starsi-zactvo-x-616139": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616139",
    "kat": "starsi-zactvo",
@@ -24498,7 +24497,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 07.08.2026 09:30:00 do 07.08.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24506,7 +24506,6 @@
  "L26-starsi-zactvo-x-616137": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616137",
    "kat": "starsi-zactvo",
@@ -24535,7 +24534,8 @@
    "prez": "Pá do 16:00 hod.",
    "el": "od 07.08.2026 08:00:00 do 07.08.2026 16:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24543,7 +24543,6 @@
  "L26-starsi-zactvo-516129-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516129-x",
    "kat": "starsi-zactvo",
@@ -24572,7 +24571,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 07.08.2026 10:00:00 do 07.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24799,7 +24799,6 @@
  "L26-starsi-zactvo-x-616142": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616142",
    "kat": "starsi-zactvo",
@@ -24828,7 +24827,8 @@
    "prez": "Út do 17:00 hod.",
    "el": "od 11.08.2026 09:00:00 do 11.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24947,7 +24947,6 @@
  "L26-starsi-zactvo-516154-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516154-x",
    "kat": "starsi-zactvo",
@@ -24976,7 +24975,8 @@
    "prez": "Pá do 15:00 hod.",
    "el": "od 14.08.2026 07:00:00 do 14.08.2026 15:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -25062,7 +25062,6 @@
  "L26-starsi-zactvo-516152-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516152-x",
    "kat": "starsi-zactvo",
@@ -25091,7 +25090,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 14.08.2026 10:00:00 do 14.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -25099,7 +25099,6 @@
  "L26-starsi-zactvo-x-616153": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616153",
    "kat": "starsi-zactvo",
@@ -25128,7 +25127,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 14.08.2026 10:00:00 do 14.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -25172,7 +25172,6 @@
  "L26-starsi-zactvo-x-616146": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616146",
    "kat": "starsi-zactvo",
@@ -25201,7 +25200,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 14.08.2026 10:00:00 do 14.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -25392,7 +25392,6 @@
  "L26-starsi-zactvo-516146-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516146-x",
    "kat": "starsi-zactvo",
@@ -25421,7 +25420,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 14.08.2026 09:30:00 do 14.08.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -25429,7 +25429,6 @@
  "L26-starsi-zactvo-x-616164": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616164",
    "kat": "starsi-zactvo",
@@ -25458,7 +25457,8 @@
    "prez": "Po do 18:00 hod.",
    "el": "od 17.08.2026 10:00:00 do 17.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -25655,7 +25655,6 @@
  "L26-starsi-zactvo-516169-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516169-x",
    "kat": "starsi-zactvo",
@@ -25684,7 +25683,8 @@
    "prez": "Pá do 19:00 hod.",
    "el": "od 21.08.2026 11:00:00 do 21.08.2026 19:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -25692,7 +25692,6 @@
  "L26-starsi-zactvo-x-616166": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616166",
    "kat": "starsi-zactvo",
@@ -25721,7 +25720,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 21.08.2026 10:00:00 do 21.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -25951,7 +25951,6 @@
  "L26-starsi-zactvo-516179-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516179-x",
    "kat": "starsi-zactvo",
@@ -25980,7 +25979,8 @@
    "prez": "Út do 17:00 hod.",
    "el": "od 25.08.2026 09:00:00 do 25.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -26066,7 +26066,6 @@
  "L26-starsi-zactvo-516191-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516191-x",
    "kat": "starsi-zactvo",
@@ -26095,7 +26094,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -26103,7 +26103,6 @@
  "L26-starsi-zactvo-x-616198": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616198",
    "kat": "starsi-zactvo",
@@ -26132,7 +26131,8 @@
    "prez": "Pá do 16:00 hod.",
    "el": "od 28.08.2026 08:00:00 do 28.08.2026 16:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -26329,7 +26329,6 @@
  "L26-starsi-zactvo-x-616191": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616191",
    "kat": "starsi-zactvo",
@@ -26358,7 +26357,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 28.08.2026 09:00:00 do 28.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -26591,7 +26591,6 @@
  "L26-starsi-zactvo-x-616209": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616209",
    "kat": "starsi-zactvo",
@@ -26620,7 +26619,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 04.09.2026 10:00:00 do 04.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -27369,7 +27369,6 @@
  "L26-starsi-zactvo-x-616228": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616228",
    "kat": "starsi-zactvo",
@@ -27398,7 +27397,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -27406,7 +27406,6 @@
  "L26-starsi-zactvo-x-616233": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616233",
    "kat": "starsi-zactvo",
@@ -27435,7 +27434,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -27482,7 +27482,6 @@
  "L26-starsi-zactvo-516223-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516223-x",
    "kat": "starsi-zactvo",
@@ -27493,7 +27492,7 @@
    "vk": 300,
    "nz": "o pohár starosty Města Úpice",
    "por": "TJ Sparta Úpice",
-   "misto": "klub:tj sparta upice|regnerova areal sparta upice upice",
+   "misto": "klub:tj sparta upice|regnerova upice",
    "km": "516223",
    "kz": "",
    "mix": false,
@@ -27511,7 +27510,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -27594,7 +27594,6 @@
  "L26-starsi-zactvo-516231-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516231-x",
    "kat": "starsi-zactvo",
@@ -27623,7 +27622,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -28036,7 +28036,6 @@
  "L26-starsi-zactvo-x-616241": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616241",
    "kat": "starsi-zactvo",
@@ -28065,7 +28064,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 18.09.2026 10:00:00 do 18.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -28073,7 +28073,6 @@
  "L26-starsi-zactvo-516247-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-516247-x",
    "kat": "starsi-zactvo",
@@ -28102,7 +28101,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 18.09.2026 09:00:00 do 18.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -28404,7 +28404,6 @@
  "L26-starsi-zactvo-x-616250": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-starsi-zactvo-x-616250",
    "kat": "starsi-zactvo",
@@ -28433,7 +28432,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 25.09.2026 09:00:00 do 25.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -28777,7 +28777,6 @@
  "L26-mladsi-zactvo-x-816892": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816892",
    "kat": "mladsi-zactvo",
@@ -28788,7 +28787,7 @@
    "vk": 400,
    "nz": "Sdružený okresní přebor PM, PJ, PS, RO",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "",
    "kz": "816892",
    "mix": false,
@@ -28806,7 +28805,8 @@
    "prez": "Čt do 18:00 hod.",
    "el": "od 16.04.2026 10:00:00 do 16.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -29223,7 +29223,6 @@
  "L26-mladsi-zactvo-716007-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716007-x",
    "kat": "mladsi-zactvo",
@@ -29252,7 +29251,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.04.2026 10:00:00 do 17.04.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -29338,7 +29338,6 @@
  "L26-mladsi-zactvo-x-816016": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816016",
    "kat": "mladsi-zactvo",
@@ -29367,7 +29366,8 @@
    "prez": "So do 10:00 hod.",
    "el": "od 25.04.2026 02:00:00 do 25.04.2026 10:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -30437,7 +30437,6 @@
  "L26-mladsi-zactvo-x-816030": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816030",
    "kat": "mladsi-zactvo",
@@ -30463,7 +30462,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 05.06.2026 09:30:00 do 05.06.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -30546,7 +30546,6 @@
  "L26-mladsi-zactvo-x-816032": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816032",
    "kat": "mladsi-zactvo",
@@ -30575,7 +30574,8 @@
    "prez": "Po do 18:00 hod.",
    "el": "od 15.06.2026 10:00:00 do 15.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -30665,7 +30665,7 @@
    "vk": 400,
    "nz": "Letní pohár 2026",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "716033",
    "kz": "816034",
    "mix": false,
@@ -30694,7 +30694,6 @@
  "L26-mladsi-zactvo-716034-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716034-x",
    "kat": "mladsi-zactvo",
@@ -30720,7 +30719,8 @@
    "prez": "Čt do 18:00 hod.",
    "el": "od 25.06.2026 10:00:00 do 25.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -30806,7 +30806,6 @@
  "L26-mladsi-zactvo-716048-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716048-x",
    "kat": "mladsi-zactvo",
@@ -30835,7 +30834,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -30951,7 +30951,6 @@
  "L26-mladsi-zactvo-716038-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716038-x",
    "kat": "mladsi-zactvo",
@@ -30980,7 +30979,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -30988,7 +30988,6 @@
  "L26-mladsi-zactvo-x-816052": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816052",
    "kat": "mladsi-zactvo",
@@ -31017,7 +31016,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 26.06.2026 09:30:00 do 26.06.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -31025,7 +31025,6 @@
  "L26-mladsi-zactvo-x-816045": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816045",
    "kat": "mladsi-zactvo",
@@ -31054,7 +31053,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.06.2026 10:00:00 do 26.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -31284,7 +31284,6 @@
  "L26-mladsi-zactvo-x-816054": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816054",
    "kat": "mladsi-zactvo",
@@ -31313,7 +31312,8 @@
    "prez": "So do 14:00 hod.",
    "el": "od 27.06.2026 06:00:00 do 27.06.2026 14:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -31360,7 +31360,6 @@
  "L26-mladsi-zactvo-716054-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716054-x",
    "kat": "mladsi-zactvo",
@@ -31389,7 +31388,8 @@
    "prez": "Po do 18:00 hod.",
    "el": "od 29.06.2026 10:00:00 do 29.06.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -31664,7 +31664,6 @@
  "L26-mladsi-zactvo-716063-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716063-x",
    "kat": "mladsi-zactvo",
@@ -31693,7 +31692,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 03.07.2026 10:00:00 do 03.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -31845,7 +31845,6 @@
  "L26-mladsi-zactvo-716068-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716068-x",
    "kat": "mladsi-zactvo",
@@ -31874,7 +31873,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 03.07.2026 10:00:00 do 03.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32032,7 +32032,6 @@
  "L26-mladsi-zactvo-716062-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716062-x",
    "kat": "mladsi-zactvo",
@@ -32061,7 +32060,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 03.07.2026 10:00:00 do 03.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32069,7 +32069,6 @@
  "L26-mladsi-zactvo-x-816077": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816077",
    "kat": "mladsi-zactvo",
@@ -32098,7 +32097,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 03.07.2026 09:00:00 do 03.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32106,7 +32106,6 @@
  "L26-mladsi-zactvo-x-816074": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816074",
    "kat": "mladsi-zactvo",
@@ -32135,7 +32134,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 03.07.2026 10:00:00 do 03.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32215,7 +32215,6 @@
  "L26-mladsi-zactvo-x-816357": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816357",
    "kat": "mladsi-zactvo",
@@ -32244,7 +32243,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 07.07.2026 10:00:00 do 07.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32252,7 +32252,6 @@
  "L26-mladsi-zactvo-x-816081": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816081",
    "kat": "mladsi-zactvo",
@@ -32281,7 +32280,8 @@
    "prez": "Čt do 18:00 hod.",
    "el": "od 09.07.2026 10:00:00 do 09.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32406,7 +32406,6 @@
  "L26-mladsi-zactvo-716088-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716088-x",
    "kat": "mladsi-zactvo",
@@ -32435,7 +32434,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 10.07.2026 10:00:00 do 10.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32704,7 +32704,6 @@
  "L26-mladsi-zactvo-x-816098": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816098",
    "kat": "mladsi-zactvo",
@@ -32733,7 +32732,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 10.07.2026 10:00:00 do 10.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32780,7 +32780,6 @@
  "L26-mladsi-zactvo-716090-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716090-x",
    "kat": "mladsi-zactvo",
@@ -32809,7 +32808,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 10.07.2026 09:00:00 do 10.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -33006,7 +33006,6 @@
  "L26-mladsi-zactvo-x-816107": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816107",
    "kat": "mladsi-zactvo",
@@ -33035,7 +33034,8 @@
    "prez": "St do 18:00 hod.",
    "el": "od 15.07.2026 10:00:00 do 15.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -33193,7 +33193,6 @@
  "L26-mladsi-zactvo-x-816112": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816112",
    "kat": "mladsi-zactvo",
@@ -33222,7 +33221,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.07.2026 10:00:00 do 17.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -33459,7 +33459,7 @@
    "vk": 500,
    "nz": "BABOLAT CUP",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "716112",
    "kz": "",
    "mix": false,
@@ -33557,7 +33557,6 @@
  "L26-mladsi-zactvo-716113-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716113-x",
    "kat": "mladsi-zactvo",
@@ -33586,7 +33585,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 17.07.2026 10:00:00 do 17.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -33633,7 +33633,6 @@
  "L26-mladsi-zactvo-x-816127": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816127",
    "kat": "mladsi-zactvo",
@@ -33662,7 +33661,8 @@
    "prez": "Po do 18:00 hod.",
    "el": "od 20.07.2026 10:00:00 do 20.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -33745,7 +33745,6 @@
  "L26-mladsi-zactvo-716121-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716121-x",
    "kat": "mladsi-zactvo",
@@ -33771,7 +33770,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 21.07.2026 10:00:00 do 21.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -33942,7 +33942,7 @@
    "vk": 400,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "716131",
    "kz": "816141",
    "mix": false,
@@ -34059,7 +34059,7 @@
    "vk": 400,
    "nz": "",
    "por": "TK Milevsko, z.s.",
-   "misto": "klub:tk milevsko z s|petrovicka 1568 bazantnice milevsko",
+   "misto": "klub:tk milevsko z s|petrovicka 1568 milevsko",
    "km": "716130",
    "kz": "816138",
    "mix": false,
@@ -34088,7 +34088,6 @@
  "L26-mladsi-zactvo-716133-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716133-x",
    "kat": "mladsi-zactvo",
@@ -34117,7 +34116,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.07.2026 10:00:00 do 24.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -34242,7 +34242,6 @@
  "L26-mladsi-zactvo-716134-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716134-x",
    "kat": "mladsi-zactvo",
@@ -34271,7 +34270,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 24.07.2026 09:00:00 do 24.07.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -34315,7 +34315,6 @@
  "L26-mladsi-zactvo-716137-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716137-x",
    "kat": "mladsi-zactvo",
@@ -34344,7 +34343,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 24.07.2026 10:00:00 do 24.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -34427,7 +34427,6 @@
  "L26-mladsi-zactvo-x-816149": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816149",
    "kat": "mladsi-zactvo",
@@ -34456,7 +34455,8 @@
    "prez": "Pá do 12:00 hod.",
    "el": "od 24.07.2026 04:00:00 do 24.07.2026 12:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -34464,7 +34464,6 @@
  "L26-mladsi-zactvo-x-816151": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816151",
    "kat": "mladsi-zactvo",
@@ -34493,7 +34492,8 @@
    "prez": "Ne do 18:00 hod.",
    "el": "od 26.07.2026 10:00:00 do 26.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -34579,7 +34579,6 @@
  "L26-mladsi-zactvo-716157-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716157-x",
    "kat": "mladsi-zactvo",
@@ -34608,7 +34607,8 @@
    "prez": "Pá do 15:00 hod.",
    "el": "od 31.07.2026 07:00:00 do 31.07.2026 15:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -34913,7 +34913,6 @@
  "L26-mladsi-zactvo-x-816159": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816159",
    "kat": "mladsi-zactvo",
@@ -34942,7 +34941,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 31.07.2026 10:00:00 do 31.07.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -35172,7 +35172,6 @@
  "L26-mladsi-zactvo-x-816177": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816177",
    "kat": "mladsi-zactvo",
@@ -35201,7 +35200,8 @@
    "prez": "Po do 18:00 hod.",
    "el": "od 03.08.2026 10:00:00 do 03.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -35242,7 +35242,6 @@
  "L26-mladsi-zactvo-x-816178": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816178",
    "kat": "mladsi-zactvo",
@@ -35268,7 +35267,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 04.08.2026 10:00:00 do 04.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -35459,7 +35459,6 @@
  "L26-mladsi-zactvo-716176-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716176-x",
    "kat": "mladsi-zactvo",
@@ -35488,7 +35487,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 07.08.2026 10:00:00 do 07.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -35574,7 +35574,6 @@
  "L26-mladsi-zactvo-716188-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716188-x",
    "kat": "mladsi-zactvo",
@@ -35603,7 +35602,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 07.08.2026 09:00:00 do 07.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -35650,7 +35650,6 @@
  "L26-mladsi-zactvo-x-816185": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816185",
    "kat": "mladsi-zactvo",
@@ -35679,7 +35678,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 07.08.2026 10:00:00 do 07.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -35919,7 +35919,7 @@
    "vk": 400,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "716192",
    "kz": "816198",
    "mix": false,
@@ -36065,7 +36065,6 @@
  "L26-mladsi-zactvo-716202-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716202-x",
    "kat": "mladsi-zactvo",
@@ -36094,7 +36093,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 14.08.2026 10:00:00 do 14.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -36405,7 +36405,6 @@
  "L26-mladsi-zactvo-716208-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716208-x",
    "kat": "mladsi-zactvo",
@@ -36434,7 +36433,8 @@
    "prez": "Pá do 19:00 hod.",
    "el": "od 14.08.2026 11:00:00 do 14.08.2026 19:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -36514,7 +36514,6 @@
  "L26-mladsi-zactvo-716197-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716197-x",
    "kat": "mladsi-zactvo",
@@ -36543,7 +36542,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 14.08.2026 10:00:00 do 14.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -36551,7 +36551,6 @@
  "L26-mladsi-zactvo-x-816214": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816214",
    "kat": "mladsi-zactvo",
@@ -36580,7 +36579,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 14.08.2026 10:00:00 do 14.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -36666,7 +36666,6 @@
  "L26-mladsi-zactvo-x-816221": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816221",
    "kat": "mladsi-zactvo",
@@ -36695,7 +36694,8 @@
    "prez": "St do 17:00 hod.",
    "el": "od 19.08.2026 09:00:00 do 19.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -36883,7 +36883,6 @@
  "L26-mladsi-zactvo-x-816238": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816238",
    "kat": "mladsi-zactvo",
@@ -36912,7 +36911,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 21.08.2026 10:00:00 do 21.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -36920,7 +36920,6 @@
  "L26-mladsi-zactvo-716231-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716231-x",
    "kat": "mladsi-zactvo",
@@ -36949,7 +36948,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 21.08.2026 09:00:00 do 21.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -36957,7 +36957,6 @@
  "L26-mladsi-zactvo-x-816234": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816234",
    "kat": "mladsi-zactvo",
@@ -36986,7 +36985,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 21.08.2026 10:00:00 do 21.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -37303,7 +37303,6 @@
  "L26-mladsi-zactvo-716224-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716224-x",
    "kat": "mladsi-zactvo",
@@ -37332,7 +37331,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 21.08.2026 10:00:00 do 21.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -37559,7 +37559,6 @@
  "L26-mladsi-zactvo-x-816241": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816241",
    "kat": "mladsi-zactvo",
@@ -37588,7 +37587,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 25.08.2026 10:00:00 do 25.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -37821,7 +37821,6 @@
  "L26-mladsi-zactvo-x-816250": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816250",
    "kat": "mladsi-zactvo",
@@ -37850,7 +37849,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -38008,7 +38008,6 @@
  "L26-mladsi-zactvo-x-816270": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816270",
    "kat": "mladsi-zactvo",
@@ -38037,7 +38036,8 @@
    "prez": "Pá do 18:30 hod.",
    "el": "od 28.08.2026 10:30:00 do 28.08.2026 18:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -38045,7 +38045,6 @@
  "L26-mladsi-zactvo-716244-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716244-x",
    "kat": "mladsi-zactvo",
@@ -38074,7 +38073,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -38157,7 +38157,6 @@
  "L26-mladsi-zactvo-716266-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716266-x",
    "kat": "mladsi-zactvo",
@@ -38186,7 +38185,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 28.08.2026 09:00:00 do 28.08.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -38308,7 +38308,6 @@
  "L26-mladsi-zactvo-716259-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716259-x",
    "kat": "mladsi-zactvo",
@@ -38337,7 +38336,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 28.08.2026 10:00:00 do 28.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -38384,7 +38384,6 @@
  "L26-mladsi-zactvo-x-816271": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816271",
    "kat": "mladsi-zactvo",
@@ -38413,7 +38412,8 @@
    "prez": "So do 16:00 hod.",
    "el": "od 29.08.2026 08:00:00 do 29.08.2026 16:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -38421,7 +38421,6 @@
  "L26-mladsi-zactvo-716355-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716355-x",
    "kat": "mladsi-zactvo",
@@ -38450,7 +38449,8 @@
    "prez": "Ne do 18:00 hod.",
    "el": "od 30.08.2026 10:00:00 do 30.08.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -38569,7 +38569,6 @@
  "L26-mladsi-zactvo-716273-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716273-x",
    "kat": "mladsi-zactvo",
@@ -38598,7 +38597,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 04.09.2026 10:00:00 do 04.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -38756,7 +38756,6 @@
  "L26-mladsi-zactvo-716281-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716281-x",
    "kat": "mladsi-zactvo",
@@ -38785,7 +38784,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 04.09.2026 10:00:00 do 04.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -39057,7 +39057,6 @@
  "L26-mladsi-zactvo-716275-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716275-x",
    "kat": "mladsi-zactvo",
@@ -39086,7 +39085,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 04.09.2026 10:00:00 do 04.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -39247,7 +39247,6 @@
  "L26-mladsi-zactvo-716296-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716296-x",
    "kat": "mladsi-zactvo",
@@ -39276,7 +39275,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -39398,7 +39398,6 @@
  "L26-mladsi-zactvo-x-816305": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816305",
    "kat": "mladsi-zactvo",
@@ -39427,7 +39426,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -39471,7 +39471,6 @@
  "L26-mladsi-zactvo-716306-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716306-x",
    "kat": "mladsi-zactvo",
@@ -39500,7 +39499,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 11.09.2026 09:00:00 do 11.09.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -39736,7 +39736,6 @@
  "L26-mladsi-zactvo-x-816311": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816311",
    "kat": "mladsi-zactvo",
@@ -39765,7 +39764,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 11.09.2026 10:00:00 do 11.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -40250,7 +40250,6 @@
  "L26-mladsi-zactvo-716319-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-716319-x",
    "kat": "mladsi-zactvo",
@@ -40279,7 +40278,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 18.09.2026 10:00:00 do 18.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -40434,7 +40434,6 @@
  "L26-mladsi-zactvo-x-816322": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816322",
    "kat": "mladsi-zactvo",
@@ -40463,7 +40462,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 18.09.2026 10:00:00 do 18.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -40546,7 +40546,6 @@
  "L26-mladsi-zactvo-x-816323": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816323",
    "kat": "mladsi-zactvo",
@@ -40575,7 +40574,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 18.09.2026 10:00:00 do 18.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -40854,7 +40854,7 @@
    "vk": 400,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "716331",
    "kz": "816333",
    "mix": false,
@@ -41078,7 +41078,6 @@
  "L26-mladsi-zactvo-x-816337": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "L26-mladsi-zactvo-x-816337",
    "kat": "mladsi-zactvo",
@@ -41107,7 +41106,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 25.09.2026 10:00:00 do 25.09.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -41846,7 +41846,7 @@
    "vk": 400,
    "nz": "Loko Baby Tour V.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916520",
    "kz": "",
    "mix": true,
@@ -46895,7 +46895,7 @@
    "vk": 400,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "916714",
    "kz": "",
    "mix": true,
@@ -47786,7 +47786,7 @@
    "vk": 400,
    "nz": "Loko Baby Tour VII.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916764",
    "kz": "",
    "mix": true,
@@ -48545,7 +48545,7 @@
    "vk": 400,
    "nz": "Loko Baby Tour VIII.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916801",
    "kz": "",
    "mix": true,
@@ -50162,7 +50162,7 @@
    "vk": 400,
    "nz": "Loko Mid Tour V.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916519",
    "kz": "",
    "mix": true,
@@ -50394,7 +50394,7 @@
    "vk": 400,
    "nz": "Loko Mid Tour VI.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916578",
    "kz": "",
    "mix": true,
@@ -50889,7 +50889,7 @@
    "vk": 400,
    "nz": "Loko Mid Tour VII.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916763",
    "kz": "",
    "mix": true,
@@ -50988,7 +50988,7 @@
    "vk": 400,
    "nz": "Loko Mid Tour VIII.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916800",
    "kz": "",
    "mix": true,
@@ -51550,7 +51550,7 @@
    "vk": 300,
    "nz": "Loko Mini Tour V.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916010",
    "kz": "",
    "mix": true,
@@ -52375,7 +52375,7 @@
    "vk": 300,
    "nz": "Loko Mini Tour VI.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916030",
    "kz": "",
    "mix": true,
@@ -54355,7 +54355,7 @@
    "vk": 300,
    "nz": "Loko Mini Tour VII.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916102",
    "kz": "",
    "mix": true,
@@ -54751,7 +54751,7 @@
    "vk": 300,
    "nz": "Loko Mini Tour VIII.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "916122",
    "kz": "",
    "mix": true,

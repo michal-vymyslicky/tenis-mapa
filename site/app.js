@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v2.4";
+const APP_VERSION = "v2.5";
 /* adresa pro hlášení problémů – rozdělená kvůli robotům sbírajícím e-maily; prázdné = tlačítko vypnuto */
 const REPORT_EMAIL = ["tenisova-mapa", "seznam.cz"].filter(Boolean).join("@");
 /* FormSubmit (formsubmit.co): po první zprávě přijde na REPORT_EMAIL aktivační e-mail; pak lze adresu nahradit aliasem, který FormSubmit pošle */
@@ -398,8 +398,13 @@ function item(e) {
       <div class="s">${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
       <div class="m"><span class="pill cls" style="background:${colorOf(e.tr, zr)}">${e.tr === "MCR" ? "MČR" : e.tr || "–"}</span><span class="pill">${esc(CAT_QUICK[e.kat])}</span><span class="pill">${sex}</span>
       ${e.kap ? `<span class="pill${full ? " full" : ""}">${full ? "plno" : "max " + e.kap}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfGroup(e.pov))}</span>` : ""}
-      ${zr ? '<span class="pill zr">ZRUŠENO</span>' : ""}${isNew(e) ? '<span class="pill new">NOVÉ</span>' : ""}${playerPills(e)}</div></div>
+      ${zr ? '<span class="pill zr">ZRUŠENO</span>' : ""}${partCancel(e) ? `<span class="pill zr">${partCancel(e)} zrušeno</span>` : ""}${isNew(e) ? '<span class="pill new">NOVÉ</span>' : ""}${playerPills(e)}</div></div>
     <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="Oblíbené">${STAR}</button></div>`;
+}
+/* zrušená jen jedna soutěž turnaje (např. dívky) */
+function partCancel(e) {
+  if (!e.zr || e.st === "zruseno") return "";
+  return e.zr === "m" ? (e.kat === "dospeli" ? "muži" : "chlapci") : (e.kat === "dospeli" ? "ženy" : "dívky");
 }
 /* plná karta v detailu místa */
 function card(e) {
@@ -416,7 +421,7 @@ function card(e) {
       <div style="flex:1;min-width:0"><div class="nm">${esc(e.nz || e.por)}</div><div class="sub">${esc(CAT_SHORT[e.kat] || e.kat)} · ${esc(fmtRange(e.od, e.do))}</div>
       <div class="m" style="display:flex;gap:4px;margin-top:4px">${zr ? '<span class="pill zr">ZRUŠENO</span>' : ""}${isNew(e) ? '<span class="pill new">NOVÉ</span>' : ""}${e.test ? '<span class="pill">TEST</span>' : ""}</div></div>
       <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="Oblíbené">${STAR}</button></div>
-    <div class="occ">${occ.join("")}</div>
+    <div class="occ">${occ.join("")}${partCancel(e) ? `<div><span>${esc(partCancel(e)[0].toUpperCase() + partCancel(e).slice(1))}</span><b class="zrtxt">zrušeno</b></div>` : ""}</div>
     <div class="facts"><div><span>Max. hráčů</span>${e.kap ?? "?"}</div><div><span>Dvorce · povrch</span>${e.dv ?? "?"} · ${esc(e.pov || "neuvedeno")}</div>
       ${e.mic ? `<div><span>Míče</span>${esc(e.mic)}</div>` : ""}${e.vk ? `<div><span>Vklad</span>${e.vk} Kč</div>` : ""}
       ${e.prez ? `<div><span>Prezentace</span>${esc(e.prez)}</div>` : ""}<div><span>Pořadatel</span>${esc(e.por)}</div></div>

@@ -1,0 +1,2804 @@
+{
+ "1 vestecka sportovni o s": [
+  {
+   "lat": 49.989469,
+   "lon": 14.4885,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "Sportovní 456, Vestec",
+   "sezona": "Z2627"
+  }
+ ],
+ "ace team": [
+  {
+   "lat": 49.311475,
+   "lon": 16.533334,
+   "nazev": "Sportovní hala",
+   "presnost": "areal",
+   "adresa": "U stadionu 1970/4, Kuřim",
+   "sezona": "Z2627"
+  }
+ ],
+ "bltc brno": [
+  {
+   "lat": 49.205658,
+   "lon": 16.611204,
+   "nazev": "SK Královo Pole",
+   "presnost": "areal",
+   "adresa": "Lužánecká 7, Brno",
+   "sezona": "Z2627"
+  }
+ ],
+ "cltk bizuterie jablonec n n z s": [
+  {
+   "lat": 50.728764,
+   "lon": 15.145083,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "U Tenisu 3859/214, Jablonec n.N.",
+   "sezona": "Z2627"
+  }
+ ],
+ "cta rudna": [
+  {
+   "lat": 50.026668,
+   "lon": 14.223824,
+   "nazev": "Tenis & Beach Rudná",
+   "presnost": "areal",
+   "adresa": "Hořelické náměstí 1130, Rudná u Prahy",
+   "sezona": "Z2627"
+  }
+ ],
+ "dtj tenis vresina": [
+  {
+   "lat": 49.829098,
+   "lon": 18.121396,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Osvobození 524, Vřesina okres Ostrava-Město",
+   "sezona": "Z2627"
+  }
+ ],
+ "htk trebic": [
+  {
+   "lat": 49.213504,
+   "lon": 15.896066,
+   "nazev": "HTK Třebíč",
+   "presnost": "areal",
+   "adresa": "Janáčkovo stromořadí 156, Třebíč",
+   "sezona": "Z2627"
+  }
+ ],
+ "i cltk praha": [
+  {
+   "lat": 50.095592,
+   "lon": 14.439423,
+   "nazev": "Centrální kurt Štvanice",
+   "presnost": "areal",
+   "adresa": "Ostrov Štvanice 38, Praha 7",
+   "sezona": "Z2627"
+  }
+ ],
+ "i cltpk cercany": [
+  {
+   "lat": 49.855117,
+   "lon": 14.701013,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sázavská 491, Čerčany",
+   "sezona": "L26"
+  }
+ ],
+ "jiskra velke brezno": [
+  {
+   "lat": 50.665974,
+   "lon": 14.145245,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Alej sportovců 256, Velké Březno",
+   "sezona": "Z2627"
+  }
+ ],
+ "lob s a bohnice z s": [
+  {
+   "lat": 50.129801,
+   "lon": 14.434346,
+   "nazev": "Slovan Bohnice",
+   "presnost": "areal",
+   "adresa": "Bukolská 838/2a, Praha 8",
+   "sezona": "Z2627"
+  },
+  {
+   "lat": 50.130854,
+   "lon": 14.436892,
+   "nazev": "Slovan Bohnice",
+   "presnost": "areal",
+   "adresa": "Bukolská 838/2a, Praha 8",
+   "sezona": "L25"
+  }
+ ],
+ "lokomotiva karlovy vary": [
+  {
+   "lat": 50.224493,
+   "lon": 12.848369,
+   "nazev": "TK Lokomotiva Karlovy Vary",
+   "presnost": "areal",
+   "adresa": "Bečovská 1811/11, Karlovy Vary - Tuhnice",
+   "sezona": "L26"
+  }
+ ],
+ "lokomotiva praha": [
+  {
+   "lat": 50.097597,
+   "lon": 14.472563,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Pod plynojemem 164, Praha 8",
+   "sezona": "Z2627"
+  }
+ ],
+ "ltc cesky krumlov": [
+  {
+   "lat": 48.814953,
+   "lon": 14.307545,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "Chvalšinská 247, Český Krumlov",
+   "sezona": "Z2526"
+  }
+ ],
+ "ltc domazlice": [
+  {
+   "lat": 49.437605,
+   "lon": 12.920785,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Elišky Krásnohorské 378, Domažlice",
+   "sezona": "L26"
+  }
+ ],
+ "ltc houstka": [
+  {
+   "lat": 50.189356,
+   "lon": 14.6915,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Houštka 1259, Stará Boleslav",
+   "sezona": "Z2627"
+  }
+ ],
+ "ltc humpolec": [
+  {
+   "lat": 49.540779,
+   "lon": 15.348295,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Hálkova 1845, Humpolec",
+   "sezona": "Z2627"
+  }
+ ],
+ "ltc radotin": [
+  {
+   "lat": 49.986104,
+   "lon": 14.371814,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Šárovo kolo 932/1, Praha 5",
+   "sezona": "Z2627"
+  }
+ ],
+ "ltc viton ceske budejovice z s": [
+  {
+   "lat": 48.975574,
+   "lon": 14.465772,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Vltavské nábřeží 930/1, České Budějovice",
+   "sezona": "Z2627"
+  }
+ ],
+ "ltc vysoke myto": [
+  {
+   "lat": 49.957904,
+   "lon": 16.160053,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sportovní 224, Vysoké Mýto",
+   "sezona": "Z2627"
+  }
+ ],
+ "ltk liberec": [
+  {
+   "lat": 50.77485,
+   "lon": 15.074844,
+   "nazev": "LTK",
+   "presnost": "areal",
+   "adresa": "Fibichova 1377/8, Liberec",
+   "sezona": "Z2627"
+  }
+ ],
+ "ltk teplice o s": [
+  {
+   "lat": 50.638083,
+   "lon": 13.833268,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Na letné 412/7, Teplice",
+   "sezona": "Z2526"
+  }
+ ],
+ "panorama sport frydlant nad ostravici": [
+  {
+   "lat": 49.582293,
+   "lon": 18.364034,
+   "nazev": "Sportovní klub tenis Frýdlant nad Ostravicí",
+   "presnost": "areal",
+   "adresa": "Sportovní 1530, Frýdlant n.O.",
+   "sezona": "Z2627"
+  }
+ ],
+ "pliskova tennis academy ricany": [
+  {
+   "lat": 49.981923,
+   "lon": 14.658103,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "V Chobotě 2112, Říčany",
+   "sezona": "Z2627"
+  }
+ ],
+ "rapid plzen tenis z s": [
+  {
+   "lat": 49.754193,
+   "lon": 13.410083,
+   "nazev": "Sportovní areál Rapid",
+   "presnost": "areal",
+   "adresa": "Na lopatárně 1550/12, Doubravka, Plzeň 4",
+   "sezona": "Z2627"
+  }
+ ],
+ "roznovsky tenisovy klub": [
+  {
+   "lat": 49.465232,
+   "lon": 18.164554,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Pod Strání 312, Rožnov pod Radhoštěm",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk hamr z s": [
+  {
+   "lat": 50.054327,
+   "lon": 14.485383,
+   "nazev": "Hamr",
+   "presnost": "areal",
+   "adresa": "K Vodě 3200/6, Praha 10",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk hit hradec kralove z s": [
+  {
+   "lat": 50.187984,
+   "lon": 15.834938,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Hradecká 775/115, Hradec Králové",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk jc sport opava": [
+  {
+   "lat": 49.956774,
+   "lon": 17.881854,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Karlovecká 1B, Opava",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk lama o s": [
+  {
+   "lat": 49.8702,
+   "lon": 17.873197,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Gudrichova 762, Hradec nad Moravicí",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk matchball ceska lipa": [
+  {
+   "lat": 50.683485,
+   "lon": 14.533094,
+   "nazev": "tenisová hala",
+   "presnost": "areal",
+   "adresa": "Boženy Němcové 3129, Česká Lípa",
+   "sezona": "L26"
+  }
+ ],
+ "sk satalice": [
+  {
+   "lat": 50.122097,
+   "lon": 14.567631,
+   "nazev": "Sportareál Praha - Satalice",
+   "presnost": "areal",
+   "adresa": "U Arborky 397, Praha - Satalice",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk talent 13 spolek": [
+  {
+   "lat": 50.104719,
+   "lon": 13.714258,
+   "nazev": "Tenis Centrum CAFEX, s.r.o.",
+   "presnost": "areal",
+   "adresa": "Na Studánkách 2590, Rakovník",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk tenis tisnov": [
+  {
+   "lat": 49.344185,
+   "lon": 16.417633,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Ostrovec 1897, Tišnov",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk ujezd praha 4 z s": [
+  {
+   "lat": 50.010855,
+   "lon": 14.54426,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Na Statkem 118, Praha 4",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk vitality slezsko o s": [
+  {
+   "lat": 49.658209,
+   "lon": 18.695436,
+   "nazev": "Sportovní areál Vendryně",
+   "presnost": "areal",
+   "adresa": "Sportovní areál Vendryně 1017, Vedryně",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk vitkovice 1926 ridera z s": [
+  {
+   "lat": 49.804184,
+   "lon": 18.257519,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Závodní 2885/86, Ostrava Vítkovice",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk zlin mladcova": [
+  {
+   "lat": 49.245263,
+   "lon": 17.643947,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Mladcová 493, Zlín - Mladcová",
+   "sezona": "Z2425"
+  }
+ ],
+ "skt frydlant n o": [
+  {
+   "lat": 49.582293,
+   "lon": 18.364034,
+   "nazev": "Sportovní klub tenis Frýdlant nad Ostravicí",
+   "presnost": "areal",
+   "adresa": "Sportovní 863 , Frýdlant nad Ostravicí",
+   "sezona": "L26"
+  }
+ ],
+ "sokol cimice": [
+  {
+   "lat": 50.139754,
+   "lon": 14.432373,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Na Průhonu 229/20, Praha 8 - Čimice",
+   "sezona": "Z2627"
+  }
+ ],
+ "sokol reporyje": [
+  {
+   "lat": 50.034848,
+   "lon": 14.312611,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Jáchymovská 613/1, Praha 5 - Řeporyje",
+   "sezona": "Z2526"
+  }
+ ],
+ "sportovni klub ltc modrany 2005 z s": [
+  {
+   "lat": 50.037942,
+   "lon": 14.44856,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Přechodní 1594/1 , Praha 4",
+   "sezona": "Z2627"
+  }
+ ],
+ "tc bors club": [
+  {
+   "lat": 48.757187,
+   "lon": 16.855749,
+   "nazev": "Bors Břeclav",
+   "presnost": "areal",
+   "adresa": "Na Valtické 650/85, Břeclav",
+   "sezona": "Z2627"
+  }
+ ],
+ "tc brno": [
+  {
+   "lat": 49.232032,
+   "lon": 16.585062,
+   "nazev": "TC Brno",
+   "presnost": "areal",
+   "adresa": "Herčíkova 19b, Brno",
+   "sezona": "Z2627"
+  }
+ ],
+ "tc dvur kralove z s": [
+  {
+   "lat": 50.426371,
+   "lon": 15.819408,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "ul.17.listopadu 485, Dvůr Králové n.L.",
+   "sezona": "Z2627"
+  }
+ ],
+ "tc eso praha z s": [
+  {
+   "lat": 50.131913,
+   "lon": 14.474132,
+   "nazev": "Beach klub Ládví",
+   "presnost": "areal",
+   "adresa": "Chabařovická 4, Praha 8",
+   "sezona": "Z2627"
+  }
+ ],
+ "tc jicin": [
+  {
+   "lat": 50.440682,
+   "lon": 15.363164,
+   "nazev": "Aqua centrum",
+   "presnost": "areal",
+   "adresa": "Revoluční 1295, Jičín",
+   "sezona": "Z2627"
+  },
+  {
+   "lat": 50.441373,
+   "lon": 15.367031,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Revoluční 1295, Jičín",
+   "sezona": "L26"
+  }
+ ],
+ "tc vitality breznice": [
+  {
+   "lat": 49.562872,
+   "lon": 13.952289,
+   "nazev": "Sportcentrum Vitality, s.r.o.",
+   "presnost": "areal",
+   "adresa": "Sadová, Březnice",
+   "sezona": "Z2627"
+  }
+ ],
+ "tcd donovalska": [
+  {
+   "lat": 50.037675,
+   "lon": 14.502351,
+   "nazev": "Tenis centrum Donovalská",
+   "presnost": "areal",
+   "adresa": "Donovalská 1684, Jižní Město, Chodov",
+   "sezona": "Z2627"
+  }
+ ],
+ "tcen hradek nad nisou": [
+  {
+   "lat": 50.855363,
+   "lon": 14.838096,
+   "nazev": "Tennis",
+   "presnost": "areal",
+   "adresa": "U koupaliště 647, Hrádek nad Nisou",
+   "sezona": "Z2627"
+  }
+ ],
+ "tcg karlovy vary": [
+  {
+   "lat": 50.213586,
+   "lon": 12.877883,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Slovenská 2021/5a, Karlovy Vary",
+   "sezona": "L26"
+  }
+ ],
+ "tempo praha": [
+  {
+   "lat": 50.019314,
+   "lon": 14.43241,
+   "nazev": "Tenis Tempo Praha Areál Lhotka",
+   "presnost": "areal",
+   "adresa": "Ve lhotce, Praha 4",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenis arena tabor z s": [
+  {
+   "lat": 49.394353,
+   "lon": 14.687797,
+   "nazev": "Jump aréna Tábor",
+   "presnost": "areal",
+   "adresa": "Táborská 1071, Sezimovo Ústí",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenis centrum dtj hk": [
+  {
+   "lat": 50.201393,
+   "lon": 15.821763,
+   "nazev": "Tenis centrum",
+   "presnost": "areal",
+   "adresa": "U Labe 427, Hradec Králové",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenis centrum luziny": [
+  {
+   "lat": 50.046069,
+   "lon": 14.335133,
+   "nazev": "Tenis Centrum Lužiny",
+   "presnost": "areal",
+   "adresa": "Zázvorková 1480/11, Praha",
+   "sezona": "Z2425"
+  }
+ ],
+ "tenis cibulka": [
+  {
+   "lat": 50.067256,
+   "lon": 14.360841,
+   "nazev": "Tenis Cibulka",
+   "presnost": "areal",
+   "adresa": "V Stráni 11, Praha 5",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenis club mokropsy": [
+  {
+   "lat": 49.945183,
+   "lon": 14.33421,
+   "nazev": "Tenis",
+   "presnost": "areal",
+   "adresa": "Jetelová 2183, Černošice",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenis klub jindrichuv hradec z s": [
+  {
+   "lat": 49.148277,
+   "lon": 14.997231,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Röschova 1304, Jindřichův Hradec II",
+   "sezona": "L26"
+  }
+ ],
+ "tenis novy jicin z s": [
+  {
+   "lat": 49.593124,
+   "lon": 18.003413,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Purkyňova 405/46, Nový Jičín",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenis slovacko z s": [
+  {
+   "lat": 49.081207,
+   "lon": 17.432959,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Salašska2182, Staré Město",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenis ujezd nad lesy z s": [
+  {
+   "lat": 50.076311,
+   "lon": 14.679785,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Veletovská 2358, Újezd nad Lesy",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenisklub cheb": [
+  {
+   "lat": 50.076282,
+   "lon": 12.35919,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Břehnická 2499/5, Cheb",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenisova skola lucie hradecke z s": [
+  {
+   "lat": 50.087181,
+   "lon": 14.549739,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Manželů Dostálových 1722, PRAHA 9",
+   "sezona": "L26"
+  }
+ ],
+ "tenisovy klub benatky nad jizerou": [
+  {
+   "lat": 50.287947,
+   "lon": 14.824496,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U cukrovaru 34/4, Benátky n.Jiz.",
+   "sezona": "L26"
+  }
+ ],
+ "tenisovy klub eden hk": [
+  {
+   "lat": 50.200224,
+   "lon": 15.854164,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Mrštíkova 904/8, Hradec Králové",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenisovy klub havlickuv brod z s": [
+  {
+   "lat": 49.605061,
+   "lon": 15.569365,
+   "nazev": "TJ Jiskra Havlíčkův Brod",
+   "presnost": "areal",
+   "adresa": "Ledečská 4069, Havlíčkův Brod",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenisovy klub studenka z s": [
+  {
+   "lat": 49.710252,
+   "lon": 18.050129,
+   "nazev": "Tenisové kurty",
+   "presnost": "areal",
+   "adresa": "Budovatelská 858, Butovice, Studénka",
+   "sezona": "Z2627"
+  }
+ ],
+ "tennis hill havirov o s": [
+  {
+   "lat": 49.764717,
+   "lon": 18.470503,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Padlých hrdinů 401/10a, Havířov - Životice",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj brevnov": [
+  {
+   "lat": 50.079494,
+   "lon": 14.36793,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Tomanova 2480/5, Praha 6 - Břevnov",
+   "sezona": "L26"
+  }
+ ],
+ "tj brno komin": [
+  {
+   "lat": 49.21657,
+   "lon": 16.554195,
+   "nazev": "TJ Komín",
+   "presnost": "areal",
+   "adresa": "Svratecká 11b, Brno",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj cerveny kostelec": [
+  {
+   "lat": 50.474606,
+   "lon": 16.082878,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Palackého 1316, Červený Kostelec",
+   "sezona": "L25"
+  }
+ ],
+ "tj jiskra straznice": [
+  {
+   "lat": 48.903709,
+   "lon": 17.307857,
+   "nazev": "Nafukovací tenisová hala",
+   "presnost": "areal",
+   "adresa": "Bzenecká 1538, Strážnice",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj jiskra zruc n saz": [
+  {
+   "lat": 49.747156,
+   "lon": 15.089317,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Dvouletky 1031, Zruč nad Sázavou",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj ltc podebrady": [
+  {
+   "lat": 50.142551,
+   "lon": 15.127217,
+   "nazev": "Centrální dvorec",
+   "presnost": "areal",
+   "adresa": "Jana Opletala 845, Poděbrady",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj radlice z s": [
+  {
+   "lat": 50.057598,
+   "lon": 14.393913,
+   "nazev": "Sportcentrum Radlice",
+   "presnost": "areal",
+   "adresa": "Radlická 298/105, Praha 5",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj slavoj tesla hloubetin z s": [
+  {
+   "lat": 50.105106,
+   "lon": 14.535804,
+   "nazev": "bazén Hloubětín",
+   "presnost": "areal",
+   "adresa": "Hloubětínská 1061, Praha 9",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj sokol vysocany": [
+  {
+   "lat": 50.10882,
+   "lon": 14.505273,
+   "nazev": "TSM Sokol Vysočany",
+   "presnost": "areal",
+   "adresa": "Novoškolská 696/2, Praha 9",
+   "sezona": "L25"
+  }
+ ],
+ "tj spoje praha": [
+  {
+   "lat": 50.095779,
+   "lon": 14.487747,
+   "nazev": "TJ Sokol Žižkov II.",
+   "presnost": "areal",
+   "adresa": "Na Balkáně 812, Praha 3",
+   "sezona": "Z2526"
+  }
+ ],
+ "tj start ostrava poruba z s": [
+  {
+   "lat": 49.832456,
+   "lon": 18.181768,
+   "nazev": "Koupaliště Ostrava-Poruba",
+   "presnost": "areal",
+   "adresa": "Slavíkova 6055/14, Ostrava - Poruba",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj zatec z s": [
+  {
+   "lat": 50.32242,
+   "lon": 13.54235,
+   "nazev": "Sokolovna",
+   "presnost": "areal",
+   "adresa": "Studentská 3180, Žatec 1",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk agrofert prostejov": [
+  {
+   "lat": 49.47951,
+   "lon": 17.101055,
+   "nazev": "Národní sportovní centrum Prostějov",
+   "presnost": "areal",
+   "adresa": "Za Kosteleckou 49, Prostějov",
+   "sezona": "Z2627"
+  },
+  {
+   "lat": 49.481344,
+   "lon": 17.100516,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Za Kosteleckou 49, Prostějov",
+   "sezona": "L26"
+  }
+ ],
+ "tk benesov": [
+  {
+   "lat": 49.776891,
+   "lon": 14.676504,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Ke Stadionu 2037, Benešov",
+   "sezona": "L26"
+  }
+ ],
+ "tk ceska trebova z s": [
+  {
+   "lat": 49.913996,
+   "lon": 16.441424,
+   "nazev": "tenis",
+   "presnost": "areal",
+   "adresa": "Husova 22, Česká Třebová",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk chocen": [
+  {
+   "lat": 50.000723,
+   "lon": 16.217336,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Hřiště 1524, Choceň",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk chomutov": [
+  {
+   "lat": 50.470777,
+   "lon": 13.392377,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Bezručova 4880,PO BOX 36, Chomutov 3",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk deza valasske mezirici": [
+  {
+   "lat": 49.47123,
+   "lon": 17.985024,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "Kouty 1581, Valašské Meziříčí",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk drnovice": [
+  {
+   "lat": 49.274464,
+   "lon": 16.957022,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "Brněnská 122, Vyškov",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk evzenie klasterec n o": [
+  {
+   "lat": 50.379281,
+   "lon": 13.169704,
+   "nazev": "Tenisový klub lázně Evženie",
+   "presnost": "areal",
+   "adresa": "Kyselka 105, Klášterec n.Ohř.",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk havirov z s": [
+  {
+   "lat": 49.794853,
+   "lon": 18.412673,
+   "nazev": "Slovan Havířov",
+   "presnost": "areal",
+   "adresa": "Opletalova 1218/8b, Havířov-Šumbark",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk hlinsko": [
+  {
+   "lat": 49.758836,
+   "lon": 15.910884,
+   "nazev": "Sportovní areál Olšinky",
+   "presnost": "areal",
+   "adresa": "Olšinky 1063, Hlinsko",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk horni mecholupy": [
+  {
+   "lat": 50.047494,
+   "lon": 14.548074,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Hornoměcholupská 564, Praha 15, Horní Měcholupy",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk hovorcovice": [
+  {
+   "lat": 50.180574,
+   "lon": 14.52244,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U rybníka 636, Hovorčovice",
+   "sezona": "L25"
+  }
+ ],
+ "tk krocehlavy": [
+  {
+   "lat": 50.137829,
+   "lon": 14.126612,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Freyova 319, Kladno",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk letohrad": [
+  {
+   "lat": 50.03419,
+   "lon": 16.511416,
+   "nazev": "TK Letohrad, o.s.",
+   "presnost": "areal",
+   "adresa": "V Aleji 876, Letohrad",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk litvinov z s": [
+  {
+   "lat": 50.610206,
+   "lon": 13.632158,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Seifertova 1504, Litvínov",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk lokomotiva plzen z s": [
+  {
+   "lat": 49.739809,
+   "lon": 13.398284,
+   "nazev": "Stadion Lokomotivy",
+   "presnost": "areal",
+   "adresa": "Úslavská 75 , Plzeň",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk milo olomouc": [
+  {
+   "lat": 49.599767,
+   "lon": 17.249365,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Na střelnici 37, Olomouc",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk mnichovo hradiste": [
+  {
+   "lat": 50.525584,
+   "lon": 14.966646,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Klášterská 1487, Mnichovo Hradiště",
+   "sezona": "L26"
+  }
+ ],
+ "tk most": [
+  {
+   "lat": 50.496691,
+   "lon": 13.618927,
+   "nazev": "Tenisové kurty",
+   "presnost": "areal",
+   "adresa": "Pod Koňským vrchem 1159, Most",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk pelhrimov": [
+  {
+   "lat": 49.436933,
+   "lon": 15.226534,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "K tenisu 1741, Pelhřimov",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk pisnice": [
+  {
+   "lat": 50.000456,
+   "lon": 14.464399,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Na Okruhu 2, Praha 4",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk precheza prerov o s": [
+  {
+   "lat": 49.457055,
+   "lon": 17.462317,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Kosmákova 55, Přerov",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk rapid liberec": [
+  {
+   "lat": 50.782989,
+   "lon": 15.040985,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Polní 894, Liberec",
+   "sezona": "L26"
+  }
+ ],
+ "tk roja pribram z s": [
+  {
+   "lat": 49.668273,
+   "lon": 13.999942,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Brodská 134, Příbram",
+   "sezona": "L26"
+  }
+ ],
+ "tk roudnice n l": [
+  {
+   "lat": 50.423998,
+   "lon": 14.248406,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Alej 17.listopadu 265, Roudnice nad Labem",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk sc ostrava": [
+  {
+   "lat": 49.847793,
+   "lon": 18.290218,
+   "nazev": "SC Ostrava",
+   "presnost": "areal",
+   "adresa": "Budečská 4/3214, Ostrava",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk sk kladno z s": [
+  {
+   "lat": 50.137447,
+   "lon": 14.09045,
+   "nazev": "SK Kladno",
+   "presnost": "areal",
+   "adresa": "F.Kloze 294, Kladno",
+   "sezona": "L26"
+  }
+ ],
+ "tk slavia plzen": [
+  {
+   "lat": 49.723507,
+   "lon": 13.36892,
+   "nazev": "TJ Slavia VŠ",
+   "presnost": "areal",
+   "adresa": "U Borského parku 2916/19, Plzeň",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk sokol horni pocernice p s": [
+  {
+   "lat": 50.11871,
+   "lon": 14.625803,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Otovická 2865/109, Praha 9 - Horní Počernice",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk sokolov": [
+  {
+   "lat": 50.171929,
+   "lon": 12.655279,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "B.Němcové 1780, Sokolov",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk sparta praha": [
+  {
+   "lat": 50.109465,
+   "lon": 14.407759,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Za Císařským mlýnem 1115/2, Praha 7",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk spartak jihlava": [
+  {
+   "lat": 49.405394,
+   "lon": 15.581099,
+   "nazev": "SH Teniscentrum",
+   "presnost": "areal",
+   "adresa": "Mostecká 24, Jihlava",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk sport kolovraty": [
+  {
+   "lat": 50.009488,
+   "lon": 14.624182,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Do Hlinek 754/7, Praha 22-Kolovraty",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk sportcentrum mlada boleslav": [
+  {
+   "lat": 50.383322,
+   "lon": 14.894967,
+   "nazev": "Sport centrum",
+   "presnost": "areal",
+   "adresa": "Bezděčín 90, Mladá Boleslav",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk spytihnev": [
+  {
+   "lat": 49.255583,
+   "lon": 17.758896,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Družstevní 355, Hvozdná",
+   "sezona": "L25"
+  }
+ ],
+ "tk stochov": [
+  {
+   "lat": 50.145769,
+   "lon": 13.950514,
+   "nazev": "Sportovní hala Stochov",
+   "presnost": "areal",
+   "adresa": "Zborovská 317, Stochov",
+   "sezona": "L26"
+  }
+ ],
+ "tk strakonice": [
+  {
+   "lat": 49.266353,
+   "lon": 13.89245,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Máchova 178, Strakonice",
+   "sezona": "L25"
+  }
+ ],
+ "tk tennispoint fm": [
+  {
+   "lat": 49.693189,
+   "lon": 18.329338,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Skautská 3763, Frýdek-Místek",
+   "sezona": "L26"
+  },
+  {
+   "lat": 49.47123,
+   "lon": 17.985024,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "Kouty 1581, Valašské Meziříčí",
+   "sezona": "L26"
+  }
+ ],
+ "tk tilia brno": [
+  {
+   "lat": 49.198623,
+   "lon": 16.537694,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Voříškova 59, Brno/Kohoutovice",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk usti n orlici": [
+  {
+   "lat": 49.979799,
+   "lon": 16.391282,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "V Lukách 276, Ústí nad Orlicí",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk zlin": [
+  {
+   "lat": 49.221167,
+   "lon": 17.669604,
+   "nazev": "Lázně Zlín",
+   "presnost": "areal",
+   "adresa": "Hradská 854, Zlín",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk znojmo": [
+  {
+   "lat": 48.867218,
+   "lon": 16.048444,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Leska Horní 2135/1, Znojmo",
+   "sezona": "Z2627"
+  }
+ ],
+ "to sk melnik": [
+  {
+   "lat": 50.343605,
+   "lon": 14.485178,
+   "nazev": "TO SK Mělník",
+   "presnost": "areal",
+   "adresa": "Na Polabí 3405, Mělník",
+   "sezona": "Z2627"
+  }
+ ],
+ "to sk zamberk": [
+  {
+   "lat": 50.085701,
+   "lon": 16.475259,
+   "nazev": "TOSK Žamberk",
+   "presnost": "areal",
+   "adresa": "U koupaliště 1362, Žamberk",
+   "sezona": "Z2627"
+  }
+ ],
+ "to sokol nehvizdy": [
+  {
+   "lat": 50.12921,
+   "lon": 14.727228,
+   "nazev": "Sokolovna",
+   "presnost": "areal",
+   "adresa": "Na Příštipku 135, Nehvizdy",
+   "sezona": "Z2627"
+  }
+ ],
+ "to tj svitavy": [
+  {
+   "lat": 49.749838,
+   "lon": 16.463706,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Stadionu 17, Svitavy",
+   "sezona": "L26"
+  }
+ ],
+ "to tj tesla pardubice": [
+  {
+   "lat": 50.028515,
+   "lon": 15.783335,
+   "nazev": "TJ Tesla Pardubice",
+   "presnost": "areal",
+   "adresa": "K Vinici 1901, Pardubice",
+   "sezona": "Z2627"
+  }
+ ],
+ "tsport votice o s": [
+  {
+   "lat": 49.640759,
+   "lon": 14.637262,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Masarykovo náměstí 937, Votice",
+   "sezona": "Z2526"
+  }
+ ],
+ "wilson tenis centrum z s": [
+  {
+   "lat": 49.974497,
+   "lon": 14.595438,
+   "nazev": "Tenisové kurty",
+   "presnost": "areal",
+   "adresa": "Modletice 108, Praha východ",
+   "sezona": "Z2627"
+  }
+ ],
+ "zltc brno": [
+  {
+   "lat": 49.19957,
+   "lon": 16.641809,
+   "nazev": "ŽLTC",
+   "presnost": "areal",
+   "adresa": "Bubeníčkova 52, Brno",
+   "sezona": "Z2627"
+  }
+ ],
+ "ask lipuvka": [
+  {
+   "lat": 49.33489,
+   "lon": 16.556793,
+   "nazev": "ASK Lipůvka",
+   "presnost": "areal",
+   "adresa": "Lipůvka 360, Lipůvka",
+   "sezona": "L25"
+  }
+ ],
+ "ask lovosice": [
+  {
+   "lat": 50.513607,
+   "lon": 14.058647,
+   "nazev": "Městský bazén ASK Lovosice",
+   "presnost": "areal",
+   "adresa": "Zámecká, Lovosice",
+   "sezona": "L26"
+  }
+ ],
+ "btk brno": [
+  {
+   "lat": 49.225161,
+   "lon": 16.533367,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Jakuba Obrovského 2, Brno-Bystrc",
+   "sezona": "L26"
+  }
+ ],
+ "chlumec n cidlinou": [
+  {
+   "lat": 50.156799,
+   "lon": 15.460444,
+   "nazev": "Slavíčkova hala",
+   "presnost": "areal",
+   "adresa": "Kozelkova 26, Chlumec nad Cidlinou",
+   "sezona": "L26"
+  }
+ ],
+ "fit klub lysa nad labem": [
+  {
+   "lat": 50.198939,
+   "lon": 14.850601,
+   "nazev": "Relax Easy",
+   "presnost": "areal",
+   "adresa": "Na Mlíčníku 1790, Lysá nad Labem",
+   "sezona": "L25"
+  }
+ ],
+ "jiskra bechyne": [
+  {
+   "lat": 49.300805,
+   "lon": 14.464936,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Písecká 358, Bechyně",
+   "sezona": "L26"
+  }
+ ],
+ "jiskra otrokovice": [
+  {
+   "lat": 49.221359,
+   "lon": 17.5075,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sport. areál TJ Jiskra 1297, Otrokovice",
+   "sezona": "L26"
+  }
+ ],
+ "lokomotiva beroun": [
+  {
+   "lat": 49.960205,
+   "lon": 14.074121,
+   "nazev": "tenisové hřiště",
+   "presnost": "areal",
+   "adresa": "Tyršova 85, Beroun",
+   "sezona": "L26"
+  }
+ ],
+ "ltc bakov n jiz": [
+  {
+   "lat": 50.474615,
+   "lon": 14.934035,
+   "nazev": "Tenisové kurty",
+   "presnost": "areal",
+   "adresa": "Stadion 1179, Bakov nad Jizerou",
+   "sezona": "L26"
+  }
+ ],
+ "ltc hodonin": [
+  {
+   "lat": 48.853003,
+   "lon": 17.123814,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Velkomoravská 3535/19, Hodonín",
+   "sezona": "L26"
+  }
+ ],
+ "ltc jaromer": [
+  {
+   "lat": 50.339935,
+   "lon": 15.923448,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "5.května 465, Jaroměř",
+   "sezona": "L26"
+  }
+ ],
+ "ltc kolin": [
+  {
+   "lat": 50.037807,
+   "lon": 15.185393,
+   "nazev": "Sportovní hala Kolín",
+   "presnost": "areal",
+   "adresa": "Brankovická 1007, Kolín",
+   "sezona": "L26"
+  }
+ ],
+ "ltc mlada boleslav z s": [
+  {
+   "lat": 50.409816,
+   "lon": 14.911844,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Štěpánka 28, Mladá Boleslav",
+   "sezona": "L26"
+  }
+ ],
+ "ltc novy bydzov": [
+  {
+   "lat": 50.237091,
+   "lon": 15.485547,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sportovní 401, Nový Bydžov",
+   "sezona": "L26"
+  }
+ ],
+ "ltc panorama teplice": [
+  {
+   "lat": 50.640161,
+   "lon": 13.853625,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Panoramy 2891, Teplice",
+   "sezona": "L26"
+  }
+ ],
+ "ltc pardubice": [
+  {
+   "lat": 50.041412,
+   "lon": 15.779364,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Labská 15, Pardubice",
+   "sezona": "L26"
+  }
+ ],
+ "ltc rakovnik": [
+  {
+   "lat": 50.104719,
+   "lon": 13.714258,
+   "nazev": "Tenis Centrum CAFEX, s.r.o.",
+   "presnost": "areal",
+   "adresa": "Nábřeží T.G.Masaryka 2659, Rakovník",
+   "sezona": "L26"
+  }
+ ],
+ "ltc revnice": [
+  {
+   "lat": 49.912849,
+   "lon": 14.237478,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Legií 750, Řevnice",
+   "sezona": "L26"
+  }
+ ],
+ "ltc slany": [
+  {
+   "lat": 50.23356,
+   "lon": 14.082797,
+   "nazev": "Tenisové kurty",
+   "presnost": "areal",
+   "adresa": "Na Sadech 1278, Slaný",
+   "sezona": "L26"
+  }
+ ],
+ "ltc slovan kladno": [
+  {
+   "lat": 50.136845,
+   "lon": 14.084066,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "Sportovců 821, Kladno 4",
+   "sezona": "L26"
+  }
+ ],
+ "ltc svoboda praha": [
+  {
+   "lat": 50.072412,
+   "lon": 14.382687,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Nad Mlynářkou 1, Praha 5",
+   "sezona": "L26"
+  }
+ ],
+ "ltc tabor 1903": [
+  {
+   "lat": 49.416212,
+   "lon": 14.661456,
+   "nazev": "LTC Tábor 1903",
+   "presnost": "areal",
+   "adresa": "K Vodopádu 1550, Tábor",
+   "sezona": "L26"
+  }
+ ],
+ "ltk klatovy": [
+  {
+   "lat": 49.38949,
+   "lon": 13.305318,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Čedíku 610, Klatovy",
+   "sezona": "L26"
+  }
+ ],
+ "mestsky tenisovy klub karvina": [
+  {
+   "lat": 49.868838,
+   "lon": 18.542279,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sportovní 896, Karviná-Nové Město",
+   "sezona": "L26"
+  }
+ ],
+ "shark brno": [
+  {
+   "lat": 49.176013,
+   "lon": 16.688138,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Tuřanka 1260/1, Brno",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk aritma praha": [
+  {
+   "lat": 50.097876,
+   "lon": 14.341417,
+   "nazev": "SK Aritma Praha",
+   "presnost": "areal",
+   "adresa": "Nad lávkou 5, Praha 6",
+   "sezona": "L26"
+  }
+ ],
+ "sk meteor praha": [
+  {
+   "lat": 50.106895,
+   "lon": 14.477357,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Nad Kotlaskou I/95, Praha 8",
+   "sezona": "L26"
+  }
+ ],
+ "sk tenis duchcov": [
+  {
+   "lat": 50.610091,
+   "lon": 13.753171,
+   "nazev": "Tenisové kurty",
+   "presnost": "areal",
+   "adresa": "Tyršova 54, Duchcov",
+   "sezona": "L26"
+  }
+ ],
+ "sk tenis kladno": [
+  {
+   "lat": 50.137447,
+   "lon": 14.09045,
+   "nazev": "SK Kladno",
+   "presnost": "areal",
+   "adresa": "Fr. Kloze 294, Kladno",
+   "sezona": "L26"
+  }
+ ],
+ "sk tenis myto z s": [
+  {
+   "lat": 49.786584,
+   "lon": 13.732359,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Dlouhá třída 17, Mýto",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk veska": [
+  {
+   "lat": 49.656876,
+   "lon": 17.360857,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Véska 6, Dolany - Véska",
+   "sezona": "Z2627"
+  }
+ ],
+ "slavoj cesky brod": [
+  {
+   "lat": 50.06633,
+   "lon": 14.853964,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sokolská 894, Český Brod",
+   "sezona": "L26"
+  }
+ ],
+ "slavoj stod": [
+  {
+   "lat": 49.638014,
+   "lon": 13.159871,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Hradecká 538, Stod",
+   "sezona": "L26"
+  }
+ ],
+ "slavoj zizelice": [
+  {
+   "lat": 50.133722,
+   "lon": 15.401894,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "V Rybářích 112, Žiželice n.C.",
+   "sezona": "L26"
+  }
+ ],
+ "slovacky tk breclav": [
+  {
+   "lat": 48.76729,
+   "lon": 16.882839,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Haškova 3540/36, Břeclav",
+   "sezona": "L26"
+  }
+ ],
+ "slovan liberec": [
+  {
+   "lat": 50.772078,
+   "lon": 15.088719,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Pekárkova 570/20, Liberec XV-Starý Harcov",
+   "sezona": "L26"
+  }
+ ],
+ "sokol brno zabovresky": [
+  {
+   "lat": 49.205063,
+   "lon": 16.575459,
+   "nazev": "TJ Sokol Žabovřesky",
+   "presnost": "areal",
+   "adresa": "Jana Nečase 1, Brno",
+   "sezona": "L26"
+  }
+ ],
+ "sokol chuchle": [
+  {
+   "lat": 50.01332,
+   "lon": 14.389576,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Skály 184/10, Praha 5 – Velká Chuchle, Praha 5",
+   "sezona": "L26"
+  }
+ ],
+ "sokol lanzhot": [
+  {
+   "lat": 48.727992,
+   "lon": 16.962464,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Stadionu 419, Lanžhot",
+   "sezona": "L26"
+  }
+ ],
+ "sokol letovice": [
+  {
+   "lat": 49.553409,
+   "lon": 16.584189,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Koupaliště 800, Letovice",
+   "sezona": "L26"
+  }
+ ],
+ "sokol libcice n vl": [
+  {
+   "lat": 50.19659,
+   "lon": 14.365859,
+   "nazev": "Sokol Libčice",
+   "presnost": "areal",
+   "adresa": "nám. Svobody 249, Libčice nad Vltavou",
+   "sezona": "L25"
+  }
+ ],
+ "sokol nepomuk": [
+  {
+   "lat": 49.487976,
+   "lon": 13.585531,
+   "nazev": "Městská sportovní hala",
+   "presnost": "areal",
+   "adresa": "U Sokolovny 308, Nepomuk",
+   "sezona": "L26"
+  }
+ ],
+ "sokol vrbno p pradedem": [
+  {
+   "lat": 50.112261,
+   "lon": 17.394521,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Vrbno p.Pradědem",
+   "sezona": "L25"
+  }
+ ],
+ "sparta kutna hora": [
+  {
+   "lat": 49.949475,
+   "lon": 15.256922,
+   "nazev": "TJ Sparta Kutná Hora",
+   "presnost": "areal",
+   "adresa": "Čáslavská 573, Kutná Hora",
+   "sezona": "L26"
+  }
+ ],
+ "spartak policka": [
+  {
+   "lat": 49.717847,
+   "lon": 16.268587,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Revoluční 1015, Polička",
+   "sezona": "Z2526"
+  }
+ ],
+ "sportovni klub trebechovice pod orebem z s": [
+  {
+   "lat": 50.194326,
+   "lon": 16.006259,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Vitouškova 959, Třebechovice pod Orebem",
+   "sezona": "L26"
+  }
+ ],
+ "sporttenis": [
+  {
+   "lat": 49.847854,
+   "lon": 14.665728,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Pod Lutovem 364, Poříčí nad Sázavou",
+   "sezona": "L25"
+  }
+ ],
+ "start brno": [
+  {
+   "lat": 49.231068,
+   "lon": 16.623315,
+   "nazev": "TJ Start",
+   "presnost": "areal",
+   "adresa": "Loosova 1b, Brno",
+   "sezona": "Z2627"
+  }
+ ],
+ "t j sokol sumperk": [
+  {
+   "lat": 49.957888,
+   "lon": 16.970606,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U tenisu 1106/4, Šumperk",
+   "sezona": "L26"
+  }
+ ],
+ "tc bajda kromeriz": [
+  {
+   "lat": 49.301773,
+   "lon": 17.390415,
+   "nazev": "Tenisový klub Bajda",
+   "presnost": "areal",
+   "adresa": "Na Sladovnách 4255/2, Kroměříž",
+   "sezona": "Z2627"
+  }
+ ],
+ "tc biocel vratimov z s": [
+  {
+   "lat": 49.770334,
+   "lon": 18.317976,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U stadionu 838/2, Vratimov",
+   "sezona": "L26"
+  }
+ ],
+ "tc chrudim z s": [
+  {
+   "lat": 49.955326,
+   "lon": 15.791707,
+   "nazev": "TC Chrudim",
+   "presnost": "areal",
+   "adresa": "U Parku 135, Chrudim",
+   "sezona": "L26"
+  }
+ ],
+ "tc holesov o s": [
+  {
+   "lat": 49.336791,
+   "lon": 17.5838,
+   "nazev": "TC Holešov",
+   "presnost": "areal",
+   "adresa": "Střelnice 1410, Holešov",
+   "sezona": "L26"
+  }
+ ],
+ "tc pankrac": [
+  {
+   "lat": 50.057209,
+   "lon": 14.431624,
+   "nazev": "Pankrác House",
+   "presnost": "areal",
+   "adresa": "Družstevní ochoz 5a , Praha 4 Nusle",
+   "sezona": "L26"
+  }
+ ],
+ "tc trinec": [
+  {
+   "lat": 49.667214,
+   "lon": 18.666228,
+   "nazev": "Tennis Club Třinec",
+   "presnost": "areal",
+   "adresa": "Lesní 522, Třinec - Staré Město",
+   "sezona": "L26"
+  }
+ ],
+ "telocvicna jednota sokol osek": [
+  {
+   "lat": 50.626799,
+   "lon": 13.695099,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Dolejšova 412, Osek",
+   "sezona": "L26"
+  }
+ ],
+ "telovychovna jednota chs chotebor z s": [
+  {
+   "lat": 49.718253,
+   "lon": 15.67488,
+   "nazev": "Aréna Chotěboř",
+   "presnost": "areal",
+   "adresa": "Tyršova 794, Chotěboř",
+   "sezona": "L26"
+  }
+ ],
+ "tenis club jevicko z s": [
+  {
+   "lat": 49.635252,
+   "lon": 16.711151,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Okružní I 637, Jevíčko",
+   "sezona": "L26"
+  }
+ ],
+ "tenis dobris": [
+  {
+   "lat": 49.777893,
+   "lon": 14.175051,
+   "nazev": "Sportovní hala Dobříš",
+   "presnost": "areal",
+   "adresa": "V Lipkách 1754, Dobříš",
+   "sezona": "L26"
+  }
+ ],
+ "tenis nova paka": [
+  {
+   "lat": 50.492362,
+   "lon": 15.512655,
+   "nazev": "Tenisová hala Nová Paka",
+   "presnost": "areal",
+   "adresa": "F.M.Hilmara 1658, Nová Paka",
+   "sezona": "L26"
+  }
+ ],
+ "tenisovy klub bruntal z s": [
+  {
+   "lat": 49.98429,
+   "lon": 17.465157,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Mlýnská 8, , Bruntál",
+   "sezona": "L26"
+  }
+ ],
+ "tenisovy klub konstruktiva z s": [
+  {
+   "lat": 50.035556,
+   "lon": 14.430826,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Mezi sklady 3/107, Praha 4",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenisovy klub pribor z s": [
+  {
+   "lat": 49.635297,
+   "lon": 18.140236,
+   "nazev": "Fit centrum",
+   "presnost": "areal",
+   "adresa": "Štramberská 1361, Příbor",
+   "sezona": "L26"
+  }
+ ],
+ "tenisovy klub rokycany": [
+  {
+   "lat": 49.733914,
+   "lon": 13.607988,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "V Alejích 1315, Rokycany",
+   "sezona": "L26"
+  }
+ ],
+ "tenisovy klub slapanice": [
+  {
+   "lat": 49.158796,
+   "lon": 16.732002,
+   "nazev": "Tenisový klub Šlapanice",
+   "presnost": "areal",
+   "adresa": "Jana Dvořáka 1843/120, Šlapanice",
+   "sezona": "L26"
+  }
+ ],
+ "tenisovy klub sternberk z s": [
+  {
+   "lat": 49.723893,
+   "lon": 17.303688,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Svatoplukova 15, Šternberk",
+   "sezona": "L25"
+  }
+ ],
+ "tenisovy klub tesla brno": [
+  {
+   "lat": 49.195996,
+   "lon": 16.602957,
+   "nazev": "Tělocvična pod hradem",
+   "presnost": "areal",
+   "adresa": "Údolní 1020/18a, Brno-Veveří",
+   "sezona": "L26"
+  }
+ ],
+ "tj banik ostrava okd": [
+  {
+   "lat": 49.847793,
+   "lon": 18.290218,
+   "nazev": "SC Ostrava",
+   "presnost": "areal",
+   "adresa": "Budečská 4/3214, Ostrava",
+   "sezona": "L25"
+  }
+ ],
+ "tj blatna": [
+  {
+   "lat": 49.425657,
+   "lon": 13.878993,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Bohmova 684 Zimní stadion, Blatná",
+   "sezona": "L26"
+  }
+ ],
+ "tj jiskra trebon z s oddil tenisu": [
+  {
+   "lat": 49.007083,
+   "lon": 14.771119,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Jiráskova 444/II, Třeboň",
+   "sezona": "L26"
+  }
+ ],
+ "tj kralupy": [
+  {
+   "lat": 50.254917,
+   "lon": 14.30686,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Kuzmínova 372, Kralupy nad Vltavou",
+   "sezona": "L26"
+  }
+ ],
+ "tj lazne belohrad": [
+  {
+   "lat": 50.425726,
+   "lon": 15.590899,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Vachkova 579, Lázně Bělohrad",
+   "sezona": "L26"
+  }
+ ],
+ "tj lokomotiva veseli n l": [
+  {
+   "lat": 49.191317,
+   "lon": 14.702354,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sokolská 651, Veselí nad Lužnicí",
+   "sezona": "L26"
+  }
+ ],
+ "tj mosilana brno": [
+  {
+   "lat": 49.213729,
+   "lon": 16.639924,
+   "nazev": "TJ Mosilana",
+   "presnost": "areal",
+   "adresa": "Valchařska 14, Brno",
+   "sezona": "L26"
+  }
+ ],
+ "tj republikan": [
+  {
+   "lat": 50.114695,
+   "lon": 14.374004,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "V Šáreckém údolí 2638/82b, Praha 6",
+   "sezona": "L26"
+  }
+ ],
+ "tj slovan moravska trebova z s": [
+  {
+   "lat": 49.765445,
+   "lon": 16.659603,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Nádražní 12, Moravská Třebová",
+   "sezona": "L26"
+  }
+ ],
+ "tj sokol dolany z s": [
+  {
+   "lat": 50.224564,
+   "lon": 14.350139,
+   "nazev": "Tenisový kurt TJ Sokol Dolany",
+   "presnost": "areal",
+   "adresa": "Ke Hřišti 253, Dolany nad Vltavou",
+   "sezona": "L26"
+  }
+ ],
+ "tj sokol uhersky brod": [
+  {
+   "lat": 49.02787,
+   "lon": 17.641558,
+   "nazev": "Sportovní hala TJ Spartak",
+   "presnost": "areal",
+   "adresa": "Na Dlouhých 812, Uherský Brod",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj sokol vrsovice ii": [
+  {
+   "lat": 50.066786,
+   "lon": 14.466247,
+   "nazev": "TJ Sokol Vršovice II. – tenis",
+   "presnost": "areal",
+   "adresa": "Magnitogorská 1531/16, Praha",
+   "sezona": "L26"
+  }
+ ],
+ "tj solidarita praha 10": [
+  {
+   "lat": 50.070041,
+   "lon": 14.502281,
+   "nazev": "TJ Solidarita Praha",
+   "presnost": "areal",
+   "adresa": "Pod Strání 3124/7a, Praha 10",
+   "sezona": "L26"
+  }
+ ],
+ "tj tk neratovice": [
+  {
+   "lat": 50.259471,
+   "lon": 14.521918,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Kpt. Jaroše 233, Neratovice",
+   "sezona": "L26"
+  }
+ ],
+ "tj zbrojovka vsetin": [
+  {
+   "lat": 49.338196,
+   "lon": 17.99909,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Tyršova 1456, Vsetín",
+   "sezona": "L26"
+  }
+ ],
+ "tk 2000 luhacovice": [
+  {
+   "lat": 49.105703,
+   "lon": 17.759141,
+   "nazev": "Tenisový pavilón",
+   "presnost": "areal",
+   "adresa": "Lázeňské náměstí 427, Luhačovice",
+   "sezona": "L26"
+  }
+ ],
+ "tk brizky jablonec n nis": [
+  {
+   "lat": 50.741705,
+   "lon": 15.176824,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sportovní 5027/10a, Jablonec nad Nisou",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk bystrice p h": [
+  {
+   "lat": 49.40005,
+   "lon": 17.68637,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sportovní 258, Bystřice pod Hostýnem",
+   "sezona": "L26"
+  }
+ ],
+ "tk doksy": [
+  {
+   "lat": 50.565184,
+   "lon": 14.663713,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Masarykovy sady 3, Doksy",
+   "sezona": "L26"
+  }
+ ],
+ "tk frydlant v cechach": [
+  {
+   "lat": 50.912992,
+   "lon": 15.083701,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Jizerská 4077, Frýdlant v Č.",
+   "sezona": "L26"
+  }
+ ],
+ "tk gymnazium unicov": [
+  {
+   "lat": 49.765519,
+   "lon": 17.120906,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Nemocniční 1194, Uničov",
+   "sezona": "L25"
+  }
+ ],
+ "tk hanspaulka": [
+  {
+   "lat": 50.108573,
+   "lon": 14.373593,
+   "nazev": "TK Hanspaulka",
+   "presnost": "areal",
+   "adresa": "Nad Šárkou 113, Praha 6",
+   "sezona": "L26"
+  }
+ ],
+ "tk hlucin": [
+  {
+   "lat": 49.895411,
+   "lon": 18.183636,
+   "nazev": "Tenisový klub Hlučín",
+   "presnost": "areal",
+   "adresa": "CELNÍ 1879/1a, HLUČÍN",
+   "sezona": "L26"
+  }
+ ],
+ "tk koprivnice z s": [
+  {
+   "lat": 49.604588,
+   "lon": 18.145436,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "Dolní 46, Kopřivnice",
+   "sezona": "L26"
+  }
+ ],
+ "tk krnov": [
+  {
+   "lat": 50.093228,
+   "lon": 17.701411,
+   "nazev": "Hala K3",
+   "presnost": "areal",
+   "adresa": "Smetanův okruh 2518/11, Krnov",
+   "sezona": "L26"
+  }
+ ],
+ "tk kunstat": [
+  {
+   "lat": 49.503726,
+   "lon": 16.52048,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U hřiště 514, Kunštát",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk lomnice n pop": [
+  {
+   "lat": 50.537987,
+   "lon": 15.371817,
+   "nazev": "Letní stadion generála Ludvíka Svobody",
+   "presnost": "areal",
+   "adresa": "gen. Ludvíka Svobody 1367, Lomnice nad Popelkou",
+   "sezona": "L26"
+  }
+ ],
+ "tk louny": [
+  {
+   "lat": 50.361241,
+   "lon": 13.787711,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Masarykovy sady 2790, Louny",
+   "sezona": "L26"
+  }
+ ],
+ "tk mesta bucovice": [
+  {
+   "lat": 49.151012,
+   "lon": 17.015581,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Hájecká 1099, Bučovice",
+   "sezona": "L26"
+  }
+ ],
+ "tk milevsko z s": [
+  {
+   "lat": 49.457953,
+   "lon": 14.36453,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Petrovická 1568 , Milevsko",
+   "sezona": "L26"
+  }
+ ],
+ "tk neride": [
+  {
+   "lat": 50.05603,
+   "lon": 14.534191,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Továren 674/12, Praha 15 - Hostivař",
+   "sezona": "L26"
+  }
+ ],
+ "tk opava": [
+  {
+   "lat": 49.955498,
+   "lon": 17.888041,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Jaselská 2754/20, Opava 7",
+   "sezona": "L26"
+  }
+ ],
+ "tk pisek": [
+  {
+   "lat": 49.307071,
+   "lon": 14.140146,
+   "nazev": "Loděnice",
+   "presnost": "areal",
+   "adresa": "U Výstaviště 491, Písek",
+   "sezona": "L26"
+  }
+ ],
+ "tk praga vysocany": [
+  {
+   "lat": 50.10882,
+   "lon": 14.505273,
+   "nazev": "TSM Sokol Vysočany",
+   "presnost": "areal",
+   "adresa": "Sokolovská 1033/304b, Praha 9",
+   "sezona": "L26"
+  }
+ ],
+ "tk pta kolin": [
+  {
+   "lat": 50.035485,
+   "lon": 15.222427,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "V Jezírkách 1530, Kolín 5",
+   "sezona": "L26"
+  }
+ ],
+ "tk rochlice liberec": [
+  {
+   "lat": 50.754228,
+   "lon": 15.064689,
+   "nazev": "Tenis Rochlice",
+   "presnost": "areal",
+   "adresa": "Na Žižkově 1080/40a, Liberec 6",
+   "sezona": "L26"
+  }
+ ],
+ "tk sb svetla n saz": [
+  {
+   "lat": 49.669964,
+   "lon": 15.410623,
+   "nazev": "Sportovní centrum Pěšinky",
+   "presnost": "areal",
+   "adresa": "Pěšinky 971, Světlá nad Sázavou",
+   "sezona": "L26"
+  }
+ ],
+ "tk scentrum benesov z s": [
+  {
+   "lat": 49.775206,
+   "lon": 14.696291,
+   "nazev": "Sportoviště ISŠT Benešov",
+   "presnost": "areal",
+   "adresa": "U Vodárny 2215, Benešov",
+   "sezona": "L25"
+  }
+ ],
+ "tk sezimovo usti": [
+  {
+   "lat": 49.381591,
+   "lon": 14.705441,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Nerudova 1248, Sezimovo Ústí 2",
+   "sezona": "L26"
+  }
+ ],
+ "tk skoda plzen z s": [
+  {
+   "lat": 49.755984,
+   "lon": 13.391189,
+   "nazev": "Tenisový klub Škoda Plzeň",
+   "presnost": "areal",
+   "adresa": "Luční 60a, Plzeň - Roudná",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk slavia orlova": [
+  {
+   "lat": 49.866844,
+   "lon": 18.431444,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Na Stuchlíkovci 340, Orlová - Lutyně",
+   "sezona": "L26"
+  }
+ ],
+ "tk tachov": [
+  {
+   "lat": 49.796145,
+   "lon": 12.628777,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Náhonu 1980, Tachov",
+   "sezona": "L25"
+  }
+ ],
+ "tk turany": [
+  {
+   "lat": 49.151627,
+   "lon": 16.663463,
+   "nazev": "Sportovní hala Brno-Tuřany",
+   "presnost": "areal",
+   "adresa": "Karkulínova 17, Brno",
+   "sezona": "L26"
+  }
+ ],
+ "tk turnov": [
+  {
+   "lat": 50.584701,
+   "lon": 15.144731,
+   "nazev": "TK Turnov",
+   "presnost": "areal",
+   "adresa": "Koškova 825, Turnov",
+   "sezona": "L26"
+  }
+ ],
+ "tk uherske hradiste": [
+  {
+   "lat": 49.074312,
+   "lon": 17.475119,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Moravy 827, Uherské Hradiště",
+   "sezona": "L26"
+  }
+ ],
+ "tk usti n labem": [
+  {
+   "lat": 50.677532,
+   "lon": 14.015515,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Masarykova 232, Ústí n.Labem",
+   "sezona": "L26"
+  }
+ ],
+ "tkb hrusovany z s": [
+  {
+   "lat": 48.834032,
+   "lon": 16.39858,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "ul.Severní 1129, Hrušovany nad Jevišovkou",
+   "sezona": "L26"
+  }
+ ],
+ "to bohemians praha": [
+  {
+   "lat": 50.080233,
+   "lon": 14.483289,
+   "nazev": "TJ Bohemians Praha",
+   "presnost": "areal",
+   "adresa": "Nad vodovodem 3503, Praha 10",
+   "sezona": "L26"
+  }
+ ],
+ "to plana z s": [
+  {
+   "lat": 49.871728,
+   "lon": 12.739218,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Revoluční 217, Planá",
+   "sezona": "L26"
+  }
+ ],
+ "to sokol plzen doudlevce": [
+  {
+   "lat": 49.727115,
+   "lon": 13.390149,
+   "nazev": "Sokol Plzeň - Doudlevce",
+   "presnost": "areal",
+   "adresa": "Květná 2785/48, Plzeň",
+   "sezona": "L26"
+  }
+ ],
+ "to stare splavy": [
+  {
+   "lat": 50.584781,
+   "lon": 14.632977,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Jarmilina stezka 275, Doksy - Staré Splavy",
+   "sezona": "L26"
+  }
+ ],
+ "tsm sokol vysocany z s": [
+  {
+   "lat": 50.10882,
+   "lon": 14.505273,
+   "nazev": "TSM Sokol Vysočany",
+   "presnost": "areal",
+   "adresa": "Novoškolská 696/2, Praha 9",
+   "sezona": "Z2627"
+  }
+ ],
+ "vsk vsb tu ostrava": [
+  {
+   "lat": 49.835643,
+   "lon": 18.160902,
+   "nazev": "Sportovní hala (SH)",
+   "presnost": "areal",
+   "adresa": "17. listopadu 15, Ostrava Poruba",
+   "sezona": "L26"
+  }
+ ],
+ "renata voracova akademie z s": [
+  {
+   "lat": 49.255583,
+   "lon": 17.758896,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Družstevní 355, Hvozdná",
+   "sezona": "Z2627"
+  }
+ ],
+ "sport eden beroun": [
+  {
+   "lat": 49.95742,
+   "lon": 14.046861,
+   "nazev": "Sportcentrum Eden",
+   "presnost": "areal",
+   "adresa": "Pod Homolkou 1482, Beroun",
+   "sezona": "Z2526"
+  }
+ ],
+ "tenis klub strakonice spolek": [
+  {
+   "lat": 49.266353,
+   "lon": 13.89245,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Máchova 178, Strakonice",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenisovy klub cerveny kostelec z s": [
+  {
+   "lat": 50.474606,
+   "lon": 16.082878,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Palackého 1316, Červený Kostelec",
+   "sezona": "Z2627"
+  }
+ ],
+ "tenisovy klub jablunkov z s": [
+  {
+   "lat": 49.567091,
+   "lon": 18.77234,
+   "nazev": "Sport resort Jablunkov – sportovní hala",
+   "presnost": "areal",
+   "adresa": "Jablunkov 298, Jablunkov",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk start praha topolka": [
+  {
+   "lat": 50.060791,
+   "lon": 14.423097,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Na Topolce 1, Praha 4",
+   "sezona": "Z2526"
+  }
+ ],
+ "cltk 1928 olomouc": [
+  {
+   "lat": 49.593182,
+   "lon": 17.262296,
+   "nazev": "LTC",
+   "presnost": "areal",
+   "adresa": "17. listopadu 41, Olomouc",
+   "sezona": "L26"
+  }
+ ],
+ "ravelin tennis club": [
+  {
+   "lat": 49.61076,
+   "lon": 17.259651,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Hradiska 29, Olomouc",
+   "sezona": "L26"
+  }
+ ],
+ "sokol zabreh": [
+  {
+   "lat": 49.882757,
+   "lon": 16.864861,
+   "nazev": "Tenisová hala",
+   "presnost": "areal",
+   "adresa": "Sokolská 13, Zábřeh",
+   "sezona": "L26"
+  }
+ ],
+ "tc austerlitz": [
+  {
+   "lat": 49.157061,
+   "lon": 16.874832,
+   "nazev": "Městský stadion Slavkov u Brna",
+   "presnost": "areal",
+   "adresa": "Kaunicova 633, Slavkov u Brna",
+   "sezona": "L26"
+  }
+ ],
+ "tenisovy klub stechovice 2024 z s": [
+  {
+   "lat": 49.847875,
+   "lon": 14.417243,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Lista 393, Štěchovice",
+   "sezona": "L26"
+  }
+ ],
+ "tj spartak policka": [
+  {
+   "lat": 49.717847,
+   "lon": 16.268587,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Revoluční 1015, Polička",
+   "sezona": "Z2627"
+  }
+ ],
+ "tj to sokol stara bela": [
+  {
+   "lat": 49.765507,
+   "lon": 18.2359,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Nad Rybníkem 1173/7, Ostrava-Stará Bělá",
+   "sezona": "L26"
+  }
+ ],
+ "tk brno bosonohy z s": [
+  {
+   "lat": 49.175403,
+   "lon": 16.527461,
+   "nazev": "TK Bosonohy",
+   "presnost": "areal",
+   "adresa": "Hoštická, Brno",
+   "sezona": "L26"
+  }
+ ],
+ "tk celakovice": [
+  {
+   "lat": 50.166205,
+   "lon": 14.745828,
+   "nazev": "Cvičný kurt",
+   "presnost": "areal",
+   "adresa": "U Kapličky 1705, Čelákovice",
+   "sezona": "L26"
+  }
+ ],
+ "tk dubi": [
+  {
+   "lat": 50.673524,
+   "lon": 13.803043,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Sportovní 284/1A, Dubí 2",
+   "sezona": "L26"
+  }
+ ],
+ "tk dysina": [
+  {
+   "lat": 49.778746,
+   "lon": 13.504881,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Slepá 89, Dýšina",
+   "sezona": "L26"
+  }
+ ],
+ "tk hvezda plzen z s": [
+  {
+   "lat": 49.735008,
+   "lon": 13.362862,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Tomanova 2703/17, Plzeň",
+   "sezona": "L26"
+  }
+ ],
+ "tk ltc decin": [
+  {
+   "lat": 50.77347,
+   "lon": 14.20388,
+   "nazev": "Lokotka Děčín",
+   "presnost": "areal",
+   "adresa": "ul. Práce 17, Děčín",
+   "sezona": "L26"
+  }
+ ],
+ "tk spoje praha z s": [
+  {
+   "lat": 50.095779,
+   "lon": 14.487747,
+   "nazev": "TJ Sokol Žižkov II.",
+   "presnost": "areal",
+   "adresa": "Na Balkáně 450/25, Praha 3",
+   "sezona": "L26"
+  }
+ ],
+ "tk tachov z s": [
+  {
+   "lat": 49.796145,
+   "lon": 12.628777,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "U Náhonu 1980, Tachov",
+   "sezona": "L26"
+  }
+ ],
+ "zazit repy z s": [
+  {
+   "lat": 50.06723,
+   "lon": 14.296811,
+   "nazev": "Sportovní centrum Řepy",
+   "presnost": "areal",
+   "adresa": "Vondroušova 1217/32, Praha",
+   "sezona": "Z2627"
+  }
+ ],
+ "prestige tennis club frydek mistek": [
+  {
+   "lat": 49.673164,
+   "lon": 18.350479,
+   "nazev": "Prestige tennis park",
+   "presnost": "areal",
+   "adresa": "28.rijna 2236, Frydek-Mistek",
+   "sezona": "Z2627"
+  }
+ ],
+ "sk oaza praha": [
+  {
+   "lat": 50.043171,
+   "lon": 14.43507,
+   "nazev": "SPORTOVNÍ KLUB OAZA PRAHA",
+   "presnost": "areal",
+   "adresa": "Jeremenkova 106, Praha 4",
+   "sezona": "Z2627"
+  }
+ ],
+ "tcm dubec z s": [
+  {
+   "lat": 50.075449,
+   "lon": 14.598716,
+   "nazev": "Na Korunce",
+   "presnost": "areal",
+   "adresa": "Na Korunce 580, Praha 9",
+   "sezona": "Z2627"
+  }
+ ],
+ "tk na doline o s": [
+  {
+   "lat": 49.511572,
+   "lon": 18.218575,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Trojanovice 112, Frenštát pod Radhoštěm",
+   "sezona": "Z2627"
+  }
+ ],
+ "tp point fm": [
+  {
+   "lat": 49.693189,
+   "lon": 18.329338,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Skautská 3763, Frýdek-Místek",
+   "sezona": "Z2627"
+  }
+ ]
+}

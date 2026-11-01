@@ -186,6 +186,13 @@ def process(season, download=True, threads=3, pause=0.3, clubs=None):
             vreq.setdefault(vk, {"poradatel": r["poradatel"], "adresa_detail": ad, "kod": km or kz, "sezona": season})
             m = re.match(r"^\s*(\d+)\s*•\s*(.*)$", d.get("dvorce_povrch", ""))
             text = " ".join([r.get("radek", ""), d.get("nazev", ""), d.get("h1", "")]).lower()
+            # zrušení: ČTS píše ZRUŠENO do sloupce obsazenosti zvlášť pro chlapce/muže a dívky/ženy –
+            # celý turnaj je zrušený, jen když jsou zrušené všechny existující soutěže (jinak zr = "m"/"z")
+            cm, cz = "zruš" in (r.get("obs_m") or "").lower(), "zruš" in (r.get("obs_z") or "").lower()
+            has_m, has_z = bool(km) or cm, bool(kz) or cz
+            whole = "zruš" in " ".join([d.get("nazev", ""), d.get("h1", "")]).lower() or \
+                ((cm or cz) and (not has_m or cm) and (not has_z or cz)) or ("zruš" in r.get("radek", "").lower() and not (cm or cz))
+            part = "" if whole else ("m" if cm else "z" if cz else "")
             ent = {k: dd.get("prihlaseno") for k, dd in (("m", dm), ("z", dz))}
             events.append({
                 "id": f"{season}-{slug}-{km or 'x'}-{kz or 'x'}", "kat": slug, "od": od.isoformat() if od else None,
@@ -196,7 +203,7 @@ def process(season, download=True, threads=3, pause=0.3, clubs=None):
                 "pov": (m.group(2).strip() if m else d.get("dvorce_povrch", "")) or "", "mic": d.get("mice", ""),
                 "prez": d.get("prezentace", ""), "el": d.get("el_prezence", "") if d.get("el_prezence") not in ("—", "-") else "",
                 "hp": bool(dm.get("hraci_plany") or dz.get("hraci_plany")),
-                "st": "zruseno" if "zruš" in text else "ok",
+                "st": "zruseno" if whole else "ok", **({"zr": part} if part else {}),
                 "test": "nepřihlašujte" in text or "testovací" in text})
 
     # --- stav (první výskyt, zrušené) ---
@@ -211,6 +218,8 @@ def process(season, download=True, threads=3, pause=0.3, clubs=None):
         s["posledni"] = today
         if e["st"] == "zruseno":
             s.setdefault("zruseno", today)
+        else:
+            s.pop("zruseno", None)              # dřív chybně celé zrušení (zrušena jen jedna soutěž) nebo obnovený turnaj
         s["snimek"] = e
         e["nove"] = s["prvni"]
     for eid, s in stav.items():
@@ -324,6 +333,14 @@ def main():
     a = ap.parse_args()
 
     migrate_legacy()
+    osm = os.path.join(DATA, "osm_tenis.json")
+    stazeno = (load("osm_tenis.json", {}) or {}).get("meta", {}).get("stazeno", "2000-01-01")
+    if not a.index and (dt.date.today() - dt.date.fromisoformat(stazeno)).days > 30:
+        try:                                   # index tenisových areálů z OSM – obnova jednou za 30 dní
+            import osm_tenis
+            osm_tenis.main()
+        except Exception as e:  # noqa: BLE001 – bez obnovy se použije stávající index
+            print("OSM index se nepodařilo obnovit:", e, flush=True)
     if a.kluby:
         import subprocess
         subprocess.run([sys.executable, os.path.join(PIPE, "_puvodni_scrape_clubs.py"), DATA], check=True)

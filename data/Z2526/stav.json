@@ -252,7 +252,6 @@
  "Z2526-dospeli-106010-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106010-x",
    "kat": "dospeli",
@@ -281,7 +280,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 07.11.2025 10:00:00 do 07.11.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -328,7 +328,6 @@
  "Z2526-dospeli-106011-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106011-x",
    "kat": "dospeli",
@@ -357,7 +356,8 @@
    "prez": "Čt do 21:00 hod.",
    "el": "od 13.11.2025 13:00:00 do 13.11.2025 21:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -1010,7 +1010,6 @@
  "Z2526-dospeli-106026-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106026-x",
    "kat": "dospeli",
@@ -1039,7 +1038,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 21.11.2025 10:00:00 do 21.11.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -1155,7 +1155,6 @@
  "Z2526-dospeli-106019-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106019-x",
    "kat": "dospeli",
@@ -1184,7 +1183,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 21.11.2025 10:00:00 do 21.11.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -1552,7 +1552,6 @@
  "Z2526-dospeli-106035-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106035-x",
    "kat": "dospeli",
@@ -1581,7 +1580,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 05.12.2025 10:00:00 do 05.12.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -3731,7 +3731,6 @@
  "Z2526-dospeli-106136-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106136-x",
    "kat": "dospeli",
@@ -3760,7 +3759,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 06.02.2026 09:30:00 do 06.02.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -4305,7 +4305,6 @@
  "Z2526-dospeli-106097-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106097-x",
    "kat": "dospeli",
@@ -4334,7 +4333,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 20.02.2026 09:00:00 do 20.02.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -4528,7 +4528,6 @@
  "Z2526-dospeli-106100-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106100-x",
    "kat": "dospeli",
@@ -4557,7 +4556,8 @@
    "prez": "Čt do 21:00 hod.",
    "el": "od 26.02.2026 13:00:00 do 26.02.2026 21:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -5477,7 +5477,6 @@
  "Z2526-dospeli-106118-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106118-x",
    "kat": "dospeli",
@@ -5506,7 +5505,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 20.03.2026 09:00:00 do 20.03.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -5514,7 +5514,6 @@
  "Z2526-dospeli-106119-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106119-x",
    "kat": "dospeli",
@@ -5543,7 +5542,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 20.03.2026 09:00:00 do 20.03.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -5623,7 +5623,6 @@
  "Z2526-dospeli-106124-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106124-x",
    "kat": "dospeli",
@@ -5652,7 +5651,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 20.03.2026 10:00:00 do 20.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -5990,7 +5990,6 @@
  "Z2526-dospeli-106128-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dospeli-106128-x",
    "kat": "dospeli",
@@ -6019,7 +6018,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 27.03.2026 10:00:00 do 27.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -6037,7 +6037,7 @@
    "vk": 800,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "106135",
    "kz": "206064",
    "mix": false,
@@ -6468,7 +6468,6 @@
  "Z2526-dorost-306007-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306007-x",
    "kat": "dorost",
@@ -6497,7 +6496,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 28.11.2025 09:00:00 do 28.11.2025 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -6616,7 +6616,6 @@
  "Z2526-dorost-306016-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306016-x",
    "kat": "dorost",
@@ -6645,7 +6644,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 05.12.2025 10:00:00 do 05.12.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -7657,7 +7657,7 @@
    "vk": 800,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "306024",
    "kz": "406022",
    "mix": false,
@@ -8235,7 +8235,6 @@
  "Z2526-dorost-306191-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306191-x",
    "kat": "dorost",
@@ -8264,7 +8263,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 19.12.2025 10:00:00 do 19.12.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -9385,7 +9385,6 @@
  "Z2526-dorost-x-406065": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-x-406065",
    "kat": "dorost",
@@ -9414,7 +9413,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 09.01.2026 10:00:00 do 09.01.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -9647,7 +9647,6 @@
  "Z2526-dorost-x-406056": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-x-406056",
    "kat": "dorost",
@@ -9676,7 +9675,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 09.01.2026 10:00:00 do 09.01.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10125,7 +10125,6 @@
  "Z2526-dorost-x-406078": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-x-406078",
    "kat": "dorost",
@@ -10154,7 +10153,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 23.01.2026 10:00:00 do 23.01.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -10891,7 +10891,6 @@
  "Z2526-dorost-306102-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306102-x",
    "kat": "dorost",
@@ -10920,7 +10919,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 30.01.2026 09:00:00 do 30.01.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12053,7 +12053,6 @@
  "Z2526-dorost-306117-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306117-x",
    "kat": "dorost",
@@ -12082,7 +12081,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 13.02.2026 09:00:00 do 13.02.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12387,7 +12387,6 @@
  "Z2526-dorost-x-406111": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-x-406111",
    "kat": "dorost",
@@ -12416,7 +12415,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 20.02.2026 09:00:00 do 20.02.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -12460,7 +12460,6 @@
  "Z2526-dorost-306131-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306131-x",
    "kat": "dorost",
@@ -12489,7 +12488,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 20.02.2026 10:00:00 do 20.02.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13121,7 +13121,6 @@
  "Z2526-dorost-306144-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306144-x",
    "kat": "dorost",
@@ -13150,7 +13149,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 27.02.2026 09:00:00 do 27.02.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13734,7 +13734,6 @@
  "Z2526-dorost-306165-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306165-x",
    "kat": "dorost",
@@ -13763,7 +13762,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 13.03.2026 10:00:00 do 13.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -13820,7 +13820,7 @@
    "vk": 800,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "306155",
    "kz": "406129",
    "mix": false,
@@ -14224,7 +14224,6 @@
  "Z2526-dorost-306157-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306157-x",
    "kat": "dorost",
@@ -14253,7 +14252,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 13.03.2026 10:00:00 do 13.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14375,7 +14375,6 @@
  "Z2526-dorost-306171-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306171-x",
    "kat": "dorost",
@@ -14404,7 +14403,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 20.03.2026 10:00:00 do 20.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -14964,7 +14964,6 @@
  "Z2526-dorost-306183-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-dorost-306183-x",
    "kat": "dorost",
@@ -14993,7 +14992,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 27.03.2026 10:00:00 do 27.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -16106,7 +16106,6 @@
  "Z2526-starsi-zactvo-x-606015": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606015",
    "kat": "starsi-zactvo",
@@ -16135,7 +16134,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 05.12.2025 09:00:00 do 05.12.2025 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17079,7 +17079,6 @@
  "Z2526-starsi-zactvo-x-606037": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606037",
    "kat": "starsi-zactvo",
@@ -17108,7 +17107,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 19.12.2025 10:00:00 do 19.12.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17155,7 +17155,6 @@
  "Z2526-starsi-zactvo-x-606044": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606044",
    "kat": "starsi-zactvo",
@@ -17184,7 +17183,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.12.2025 10:00:00 do 26.12.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17483,7 +17483,6 @@
  "Z2526-starsi-zactvo-506043-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-506043-x",
    "kat": "starsi-zactvo",
@@ -17512,7 +17511,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 26.12.2025 09:30:00 do 26.12.2025 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17556,7 +17556,6 @@
  "Z2526-starsi-zactvo-506044-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-506044-x",
    "kat": "starsi-zactvo",
@@ -17585,7 +17584,8 @@
    "prez": "Čt do 18:00 hod.",
    "el": "od 01.01.2026 10:00:00 do 01.01.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17851,7 +17851,6 @@
  "Z2526-starsi-zactvo-506049-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-506049-x",
    "kat": "starsi-zactvo",
@@ -17880,7 +17879,8 @@
    "prez": "Pá do 17:45 hod.",
    "el": "od 02.01.2026 09:45:00 do 02.01.2026 17:45:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -17960,7 +17960,6 @@
  "Z2526-starsi-zactvo-506051-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-506051-x",
    "kat": "starsi-zactvo",
@@ -17989,7 +17988,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 02.01.2026 09:30:00 do 02.01.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -18474,7 +18474,6 @@
  "Z2526-starsi-zactvo-x-606072": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606072",
    "kat": "starsi-zactvo",
@@ -18503,7 +18502,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 16.01.2026 09:00:00 do 16.01.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -18583,7 +18583,6 @@
  "Z2526-starsi-zactvo-x-606070": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606070",
    "kat": "starsi-zactvo",
@@ -18612,7 +18611,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 16.01.2026 10:00:00 do 16.01.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -19067,7 +19067,6 @@
  "Z2526-starsi-zactvo-x-606083": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606083",
    "kat": "starsi-zactvo",
@@ -19096,7 +19095,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 23.01.2026 10:00:00 do 23.01.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -19372,7 +19372,7 @@
    "vk": 800,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "506073",
    "kz": "606077",
    "mix": false,
@@ -19401,7 +19401,6 @@
  "Z2526-starsi-zactvo-506081-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-506081-x",
    "kat": "starsi-zactvo",
@@ -19430,7 +19429,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 23.01.2026 09:30:00 do 23.01.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -19873,7 +19873,6 @@
  "Z2526-starsi-zactvo-506084-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-506084-x",
    "kat": "starsi-zactvo",
@@ -19902,7 +19901,8 @@
    "prez": "Pá do 17:45 hod.",
    "el": "od 30.01.2026 09:45:00 do 30.01.2026 17:45:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -20786,7 +20786,6 @@
  "Z2526-starsi-zactvo-x-606109": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606109",
    "kat": "starsi-zactvo",
@@ -20815,7 +20814,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 13.02.2026 09:00:00 do 13.02.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21048,7 +21048,6 @@
  "Z2526-starsi-zactvo-x-606120": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606120",
    "kat": "starsi-zactvo",
@@ -21077,7 +21076,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 20.02.2026 10:00:00 do 20.02.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -21941,7 +21941,7 @@
    "vk": 800,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "506126",
    "kz": "606136",
    "mix": false,
@@ -22222,7 +22222,6 @@
  "Z2526-starsi-zactvo-x-606138": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606138",
    "kat": "starsi-zactvo",
@@ -22251,7 +22250,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 06.03.2026 09:00:00 do 06.03.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22298,7 +22298,6 @@
  "Z2526-starsi-zactvo-506165-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-506165-x",
    "kat": "starsi-zactvo",
@@ -22327,7 +22326,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 06.03.2026 09:30:00 do 06.03.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22482,7 +22482,6 @@
  "Z2526-starsi-zactvo-x-606151": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606151",
    "kat": "starsi-zactvo",
@@ -22511,7 +22510,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 13.03.2026 10:00:00 do 13.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -22669,7 +22669,6 @@
  "Z2526-starsi-zactvo-506143-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-506143-x",
    "kat": "starsi-zactvo",
@@ -22698,7 +22697,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 13.03.2026 09:00:00 do 13.03.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -23303,7 +23303,6 @@
  "Z2526-starsi-zactvo-x-606165": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-starsi-zactvo-x-606165",
    "kat": "starsi-zactvo",
@@ -23332,7 +23331,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 20.03.2026 10:00:00 do 20.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -24397,7 +24397,7 @@
    "vk": 800,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "706002",
    "kz": "806002",
    "mix": false,
@@ -25063,7 +25063,7 @@
    "vk": 900,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "706023",
    "kz": "",
    "mix": false,
@@ -25722,7 +25722,6 @@
  "Z2526-mladsi-zactvo-x-806038": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-x-806038",
    "kat": "mladsi-zactvo",
@@ -25751,7 +25750,8 @@
    "prez": "Pá do 17:45 hod.",
    "el": "od 12.12.2025 09:45:00 do 12.12.2025 17:45:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -26488,7 +26488,6 @@
  "Z2526-mladsi-zactvo-706048-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-706048-x",
    "kat": "mladsi-zactvo",
@@ -26514,7 +26513,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 26.12.2025 10:00:00 do 26.12.2025 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -26858,7 +26858,6 @@
  "Z2526-mladsi-zactvo-706052-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-706052-x",
    "kat": "mladsi-zactvo",
@@ -26887,7 +26886,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 26.12.2025 09:30:00 do 26.12.2025 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -29248,7 +29248,6 @@
  "Z2526-mladsi-zactvo-x-806078": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-x-806078",
    "kat": "mladsi-zactvo",
@@ -29274,7 +29273,8 @@
    "prez": "Pá do 16:00 hod.",
    "el": "od 16.01.2026 08:00:00 do 16.01.2026 16:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -29948,7 +29948,6 @@
  "Z2526-mladsi-zactvo-706098-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-706098-x",
    "kat": "mladsi-zactvo",
@@ -29977,7 +29976,8 @@
    "prez": "Pá do 17:30 hod.",
    "el": "od 23.01.2026 09:30:00 do 23.01.2026 17:30:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -30429,7 +30429,6 @@
  "Z2526-mladsi-zactvo-x-806120": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-x-806120",
    "kat": "mladsi-zactvo",
@@ -30458,7 +30457,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 30.01.2026 10:00:00 do 30.01.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -30656,7 +30656,7 @@
    "vk": 800,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "706106",
    "kz": "806111",
    "mix": false,
@@ -31837,7 +31837,6 @@
  "Z2526-mladsi-zactvo-706129-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-706129-x",
    "kat": "mladsi-zactvo",
@@ -31866,7 +31865,8 @@
    "prez": "Pá do 17:00 hod.",
    "el": "od 13.02.2026 09:00:00 do 13.02.2026 17:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32112,7 +32112,7 @@
    "vk": 800,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "706149",
    "kz": "806159",
    "mix": false,
@@ -32564,7 +32564,6 @@
  "Z2526-mladsi-zactvo-x-806160": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-x-806160",
    "kat": "mladsi-zactvo",
@@ -32593,7 +32592,8 @@
    "prez": "Út do 18:00 hod.",
    "el": "od 24.02.2026 10:00:00 do 24.02.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "m",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32601,7 +32601,6 @@
  "Z2526-mladsi-zactvo-706153-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-706153-x",
    "kat": "mladsi-zactvo",
@@ -32630,7 +32629,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 27.02.2026 10:00:00 do 27.02.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -32723,7 +32723,7 @@
    "vk": 700,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "706151",
    "kz": "806161",
    "mix": false,
@@ -33127,7 +33127,6 @@
  "Z2526-mladsi-zactvo-706161-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-706161-x",
    "kat": "mladsi-zactvo",
@@ -33156,7 +33155,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 27.02.2026 10:00:00 do 27.02.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -34533,7 +34533,7 @@
    "vk": 800,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "706189",
    "kz": "806200",
    "mix": false,
@@ -35003,7 +35003,6 @@
  "Z2526-mladsi-zactvo-706192-x": {
   "prvni": "2026-11-01",
   "posledni": "2026-11-01",
-  "zruseno": "2026-11-01",
   "snimek": {
    "id": "Z2526-mladsi-zactvo-706192-x",
    "kat": "mladsi-zactvo",
@@ -35032,7 +35031,8 @@
    "prez": "Pá do 18:00 hod.",
    "el": "od 20.03.2026 10:00:00 do 20.03.2026 18:00:00",
    "hp": true,
-   "st": "zruseno",
+   "st": "ok",
+   "zr": "z",
    "test": false,
    "nove": "2026-11-01"
   }
@@ -35230,7 +35230,7 @@
    "vk": 800,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "706188",
    "kz": "806199",
    "mix": false,
@@ -36878,7 +36878,7 @@
    "vk": 500,
    "nz": "Loko Baby Tour I.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906537",
    "kz": "",
    "mix": true,
@@ -37142,7 +37142,7 @@
    "vk": 500,
    "nz": "Loko Mid Tour I.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906544",
    "kz": "",
    "mix": true,
@@ -38297,7 +38297,7 @@
    "vk": 500,
    "nz": "Loko Baby Tour II.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906597",
    "kz": "",
    "mix": true,
@@ -38462,7 +38462,7 @@
    "vk": 500,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "906594",
    "kz": "",
    "mix": true,
@@ -38528,7 +38528,7 @@
    "vk": 500,
    "nz": "Loko Mid Tour II.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906601",
    "kz": "",
    "mix": true,
@@ -39551,7 +39551,7 @@
    "vk": 500,
    "nz": "Loko Baby Tour III.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906640",
    "kz": "",
    "mix": true,
@@ -39815,7 +39815,7 @@
    "vk": 500,
    "nz": "Loko Mid Tour III.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906650",
    "kz": "",
    "mix": true,
@@ -41102,7 +41102,7 @@
    "vk": 500,
    "nz": "",
    "por": "Sportovní klub LTC Modřany 2005 z.s.",
-   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
+   "misto": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 praha 4",
    "km": "906689",
    "kz": "",
    "mix": true,
@@ -41168,7 +41168,7 @@
    "vk": 500,
    "nz": "JODA CUP",
    "por": "TC-MJ TENIS Líšeň",
-   "misto": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
+   "misto": "klub:tc mj tenis lisen|novolisenska brno lisen",
    "km": "906703",
    "kz": "",
    "mix": true,
@@ -42852,7 +42852,7 @@
    "vk": 400,
    "nz": "Loko Mini Tour I.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906018",
    "kz": "",
    "mix": true,
@@ -43413,7 +43413,7 @@
    "vk": 400,
    "nz": "Loko Mini Tour II.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906042",
    "kz": "",
    "mix": true,
@@ -43908,7 +43908,7 @@
    "vk": 400,
    "nz": "Loko Mini Tour III.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906062",
    "kz": "",
    "mix": true,
@@ -44733,7 +44733,7 @@
    "vk": 400,
    "nz": "Loko Mini Tour IV.",
    "por": "TK Lokomotiva Plzeň z.s.",
-   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 tenisovy areal plzen",
+   "misto": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
    "km": "906088",
    "kz": "",
    "mix": true,

@@ -41,7 +41,7 @@ cd site && python3 -m http.server 8000  # http://localhost:8000
 1. Na GitHubu vytvořit veřejný repozitář (např. `tenis-mapa`) a nahrát obsah této složky.
 2. Settings → Pages → Source: **GitHub Actions**.
 3. Actions → „Denní aktualizace turnajů“ → **Run workflow** (první nasazení). Dál běží samo každý den.
-4. Web: `https://<uživatel>.github.io/tenis-mapa/`
+4. Web: `https://turnajovamapa.cz` (záloha `https://<uživatel>.github.io/tenis-mapa/`)
 
 Nová sezóna: v `.github/workflows/aktualizace.yml` změnit `SEZONA` (např. `L27`).
 Zdroje dat: © ČTS (cesky-tenis.cz), mapa © přispěvatelé OpenStreetMap, geokódování Nominatim.

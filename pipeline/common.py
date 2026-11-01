@@ -5,7 +5,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 SITE_DATA = os.path.join(ROOT, "site", "data")
 UA_CTS = "Mozilla/5.0 (TenisMapa; +https://github.com)"
-UA_GEO = "TenisMapa/1.0 (mapa turnaju CTS; kontakt vymyslicky@oculus.cz)"
+UA_GEO = "TenisovaMapa/2.5 (+https://turnajovamapa.cz; tenisova-mapa@seznam.cz)"
 
 
 def norm(s):
