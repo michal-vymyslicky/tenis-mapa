@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "17 3 * * *"   # denně 3:17 UTC (4:17 / 5:17 v ČR)
   workflow_dispatch: {}      # ruční spuštění z karty Actions
+  push:                      # nahrání nové verze webu = rychlé nasazení bez stahování dat
+    branches: [main]
+    paths: ["site/**", "pipeline/**"]
 
 permissions:
   contents: write
@@ -30,6 +33,7 @@ jobs:
           [ -f site/vendor/leaflet.js ] || for f in leaflet.js leaflet.css images/marker-icon.png; do curl -sfL "https://unpkg.com/leaflet@1.9.4/dist/$f" -o "site/vendor/$f"; done
           [ -f site/vendor/leaflet.markercluster.js ] || for f in leaflet.markercluster.js MarkerCluster.css MarkerCluster.Default.css; do curl -sfL "https://unpkg.com/leaflet.markercluster@1.5.3/dist/$f" -o "site/vendor/$f"; done
       - name: Stažení listiny ČTS a přepočet dat
+        if: github.event_name != 'push'
         env:
           SEZONA: Z2627
           TZ: Europe/Prague
@@ -37,6 +41,7 @@ jobs:
           if [ -f data/clubs.json ]; then python3 pipeline/update.py; else python3 pipeline/update.py --kluby; fi
           python3 pipeline/kontrola_mist.py
       - name: Uložení změn dat do repozitáře
+        if: github.event_name != 'push'
         run: |
           git config user.name "tenismapa-bot"
           git config user.email "actions@users.noreply.github.com"
