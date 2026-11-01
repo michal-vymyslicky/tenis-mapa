@@ -30,6 +30,7 @@
 <div class="mapctl">
   <button class="iconbtn" id="btnLocate" title="Moje poloha" aria-label="Moje poloha"><svg viewBox="0 0 24 24"><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.5" class="fill"/></svg></button>
   <button class="iconbtn" id="btnPick" title="Okruh od bodu v mapě" aria-label="Okruh od bodu v mapě"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></button>
+  <button class="iconbtn lang" id="btnLang" title="Jazyk" aria-label="Jazyk"></button>
   <button class="iconbtn" id="btnLegend" title="Legenda" aria-label="Legenda"><svg viewBox="0 0 24 24"><path d="M4 7h3M4 12h3M4 17h3M10 7h10M10 12h10M10 17h10"/></svg></button>
 </div>
 <div id="legend" class="legend" hidden></div>
@@ -103,19 +104,19 @@
 
     <div class="panel" data-panel="about">
       <div class="about">
-        <p><b>Tenisová mapa</b> ukazuje turnaje jednotlivců z termínové listiny Českého tenisového svazu na mapě – s filtry podle termínu, kategorie, třídy, povrchu a vzdálenosti, s přihláškami hráčů a oblíbenými turnaji.</p>
+        <p data-i18n="about.intro"><b>Tenisová mapa</b> ukazuje turnaje jednotlivců z termínové listiny Českého tenisového svazu na mapě – s filtry podle termínu, kategorie, třídy, povrchu a vzdálenosti, s přihláškami hráčů a oblíbenými turnaji.</p>
         <h3>Upozornění</h3>
-        <p class="disclaimer">Jde o soukromý, nekomerční projekt, který není provozován Českým tenisovým svazem ani s ním není nijak spojen. Údaje se automaticky přebírají z veřejných stránek <a href="https://cesky-tenis.cz" target="_blank" rel="noopener">cesky-tenis.cz</a> a mohou být neúplné, zpožděné nebo chybné – zejména místa konání, která se dopočítávají z adres. Aplikace je poskytována <b>bez jakékoli záruky a bez odpovědnosti</b> za škody vzniklé jejím použitím. Je tvořena s nejlepším vědomím a svědomím. Před cestou na turnaj si vždy ověřte údaje na oficiálním webu ČTS a u pořadatele.</p>
+        <p class="disclaimer" data-i18n="about.disclaimer">Jde o soukromý, nekomerční projekt, který není provozován Českým tenisovým svazem ani s ním není nijak spojen. Údaje se automaticky přebírají z veřejných stránek <a href="https://cesky-tenis.cz" target="_blank" rel="noopener">cesky-tenis.cz</a> a mohou být neúplné, zpožděné nebo chybné – zejména místa konání, která se dopočítávají z adres. Aplikace je poskytována <b>bez jakékoli záruky a bez odpovědnosti</b> za škody vzniklé jejím použitím. Je tvořena s nejlepším vědomím a svědomím. Před cestou na turnaj si vždy ověřte údaje na oficiálním webu ČTS a u pořadatele.</p>
         <h3>Data</h3>
         <ul>
-          <li>Turnaje, přihlášky a žebříček: Český tenisový svaz, veřejné stránky cesky-tenis.cz (<span id="aboutData"></span>).</li>
-          <li>Sezóny v aplikaci: <span id="aboutSez"></span>. Aktuální a nadcházející sezóna se obnovují denně, starší sezóny jsou archiv s odkazy na výsledky.</li>
-          <li>Mapa: © přispěvatelé OpenStreetMap; vyhledávání míst: Nominatim (OSM).</li>
-          <li>Jména v přihláškách pocházejí z veřejných seznamů ČTS. Pokud si nepřejete být v aplikaci uvedeni, napište nám přes „Nahlásit problém“ – údaje odstraníme.</li>
-          <li>Oblíbené turnaje a filtry se ukládají jen ve vašem prohlížeči.</li>
+          <li data-i18n="about.d1">Turnaje, přihlášky a žebříček: Český tenisový svaz, veřejné stránky cesky-tenis.cz (<span id="aboutData"></span>).</li>
+          <li data-i18n="about.d2">Sezóny v aplikaci: <span id="aboutSez"></span>. Aktuální a nadcházející sezóna se obnovují denně, starší sezóny jsou archiv s odkazy na výsledky.</li>
+          <li data-i18n="about.d3">Mapa: © přispěvatelé OpenStreetMap; vyhledávání míst: Nominatim (OSM); adresy: RÚIAN (ČÚZK).</li>
+          <li data-i18n="about.d4">Jména v přihláškách pocházejí z veřejných seznamů ČTS. Pokud si nepřejete být v aplikaci uvedeni, napište nám přes „Nahlásit problém“ – údaje odstraníme.</li>
+          <li data-i18n="about.d5">Oblíbené turnaje a filtry se ukládají jen ve vašem prohlížeči.</li>
         </ul>
         <h3>Kontakt</h3>
-        <p>Chyby a náměty: <a href="#" id="aboutReport">Nahlásit problém</a> · <span id="aboutVer"></span></p>
+        <p>Chyby a náměty: <a href="#" id="aboutReport">Nahlásit problém</a> · <span id="aboutVer"></span> · <a href="#" id="aboutLang"></a></p>
       </div>
     </div>
 
@@ -154,6 +155,7 @@
 <script src="vendor/leaflet.js"></script>
 <script src="vendor/leaflet.markercluster.js"></script>
 <iframe name="repFrame" id="repFrame" title="odeslání hlášení" hidden></iframe>
+<script src="i18n.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -3,16 +3,23 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v2.5";
+const APP_VERSION = "v2.6";
+const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
+const EN = !!(window.I18N && I18N.en);
+if (window.I18N) I18N.applyDOM();
 /* adresa pro hlášení problémů – rozdělená kvůli robotům sbírajícím e-maily; prázdné = tlačítko vypnuto */
 const REPORT_EMAIL = ["tenisova-mapa", "seznam.cz"].filter(Boolean).join("@");
 /* FormSubmit (formsubmit.co): po první zprávě přijde na REPORT_EMAIL aktivační e-mail; pak lze adresu nahradit aliasem, který FormSubmit pošle */
 const REPORT_FORM = REPORT_EMAIL;
 const CLASS_ORDER = ["MCR", "A", "B", "P", "C", "D", "E", ""];
-const CLASS_LABEL = {MCR: "MČR", A: "A", B: "B", P: "P – přebor", C: "C", D: "D", E: "E", "": "bez třídy"};
+const CLASS_LABEL = {MCR: T("MČR"), A: "A", B: "B", P: T("P – přebor"), C: "C", D: "D", E: "E", "": T("bez třídy")};
 const CAT_ORDER = ["mladsi-zactvo", "starsi-zactvo", "dorost", "dospeli", "babytenis", "stredni-kurt", "minitenis"];
-const CAT_SHORT = {"dospeli": "Dospělí", "dorost": "Dorost", "starsi-zactvo": "Starší žactvo", "mladsi-zactvo": "Mladší žactvo", "babytenis": "Babytenis", "stredni-kurt": "Střední kurt", "minitenis": "Minitenis"};
-const CAT_QUICK = {"mladsi-zactvo": "Ml. žactvo", "starsi-zactvo": "St. žactvo", "dorost": "Dorost", "dospeli": "Dospělí", "babytenis": "Babytenis", "stredni-kurt": "Střední kurt", "minitenis": "Minitenis"};
+const CAT_SHORT = Object.fromEntries(Object.entries({"dospeli": "Dospělí", "dorost": "Dorost", "starsi-zactvo": "Starší žactvo", "mladsi-zactvo": "Mladší žactvo", "babytenis": "Babytenis", "stredni-kurt": "Střední kurt", "minitenis": "Minitenis"}).map(([k, v]) => [k, T(v)]));
+const CAT_QUICK = EN ? {"mladsi-zactvo": "U12", "starsi-zactvo": "U14", "dorost": "U18", "dospeli": "Adults", "babytenis": "Babytennis", "stredni-kurt": "Midcourt", "minitenis": "Minitennis"}
+  : {"mladsi-zactvo": "Ml. žactvo", "starsi-zactvo": "St. žactvo", "dorost": "Dorost", "dospeli": "Dospělí", "babytenis": "Babytenis", "stredni-kurt": "Střední kurt", "minitenis": "Minitenis"};
+/* zobrazení povrchu v jazyce aplikace (klíče filtrů zůstávají české) */
+const surfLabel = g => T(g);
+const rawSurf = r => { if (!EN || !r) return r; const k = r.toLowerCase(), t = T(k); return t === k ? r : t; };
 /* povrchy: hlavní skupiny + konkrétní typy (názvy z IS ČTS) */
 const SURF_GROUPS = [
   ["Antuka", ["antuka"]],
@@ -33,10 +40,11 @@ function surfGroup(p) {
   if (/cushion|turf|acryl|akryl|hard|plexi|beton/.test(s)) return "Tvrdý";
   return "Jiný";
 }
-const PREC = {areal: ["ok", "Místo ověřeno – tenisový areál v mapě"], rucne: ["ok", "Místo ručně ověřeno"], adresa: ["mid", "Bod adresy (areál v mapě nenalezen)"],
-  areal_obec: ["mid", "Tenisový areál v obci – neověřeno"], obec: ["mid", "Jen obec – přesné místo neznámé"],
-  odhad: ["bad", "Odhad: místo loňského ročníku"], nezname: ["bad", "Místo neznámé"]};
-const DOW = ["Ne", "Po", "Út", "St", "Čt", "Pá", "So"];
+const PREC = {areal: ["ok", T("Místo ověřeno – tenisový areál v mapě")], rucne: ["ok", T("Místo ručně ověřeno")], adresa: ["mid", T("Bod adresy (areál v mapě nenalezen)")],
+  areal_obec: ["mid", T("Tenisový areál v obci – neověřeno")], obec: ["mid", T("Jen obec – přesné místo neznámé")],
+  odhad: ["bad", T("Odhad: místo loňského ročníku")], nezname: ["bad", T("Místo neznámé")]};
+const DOW = EN ? ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"] : ["Ne", "Po", "Út", "St", "Čt", "Pá", "So"];
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const LS = {get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
             set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }};
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
@@ -45,9 +53,15 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate() + n); return x; };
 const pd = s => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
-const dShort = s => { const a = pd(s); return `${a.getDate()}. ${a.getMonth() + 1}.`; };
+const dShort = s => { const a = pd(s); return EN ? `${a.getDate()} ${MON[a.getMonth()]}` : `${a.getDate()}. ${a.getMonth() + 1}.`; };
 function fmtRange(od, d2, short) {
   if (!od) return "";
+  if (EN) {
+    const a = pd(od), b = pd(d2 || od), y = short ? "" : " " + b.getFullYear();
+    if (od === d2 || !d2) return `${DOW[a.getDay()]} ${a.getDate()} ${MON[a.getMonth()]}${y}`;
+    if (a.getMonth() === b.getMonth()) return `${DOW[a.getDay()]}–${DOW[b.getDay()]} ${a.getDate()}–${b.getDate()} ${MON[b.getMonth()]}${y}`;
+    return `${DOW[a.getDay()]} ${a.getDate()} ${MON[a.getMonth()]} – ${DOW[b.getDay()]} ${b.getDate()} ${MON[b.getMonth()]}${y}`;
+  }
   const a = pd(od), b = pd(d2 || od), y = short ? "" : " " + b.getFullYear();
   if (od === d2 || !d2) return `${DOW[a.getDay()]} ${a.getDate()}. ${a.getMonth() + 1}.${y}`;
   if (a.getMonth() === b.getMonth()) return `${DOW[a.getDay()]}–${DOW[b.getDay()]} ${a.getDate()}.–${b.getDate()}. ${b.getMonth() + 1}.${y}`;
@@ -58,7 +72,12 @@ function km(a, b) {
   const h = Math.sin(dLa / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin(dLo / 2) ** 2;
   return 2 * R * Math.asin(Math.sqrt(h));
 }
-const nf = n => n.toLocaleString("cs-CZ");
+const nf = n => n.toLocaleString(EN ? "en-GB" : "cs-CZ");
+/* čas prezentace z ČTS („Pá do 18:00 hod.“) */
+const DOW_CS = {Po: "Mon", Út: "Tue", St: "Wed", Čt: "Thu", Pá: "Fri", So: "Sat", Ne: "Sun"};
+const prezText = s => !EN || !s ? s : s.replace(/(^|[\s,(])(Po|Út|St|Čt|Pá|So|Ne)(?=[\s.,]|$)/g, (m, a, d) => a + DOW_CS[d]).replace(/\bdo\b/g, "until").replace(/\s*hod\.?/g, "").trim();
+/* poznámka k místu z pipeline (česky) */
+const noteText = s => !EN || !s ? s : s.replace("místo podle ověřeného areálu klubu", T("místo podle ověřeného areálu klubu")).replace("ročník", T("ročník"));
 function toast(t) { const el = $("#toast"); el.textContent = t; el.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => el.hidden = true, 2600); }
 const isDesk = () => innerWidth >= 900;
 
@@ -71,7 +90,8 @@ let F = Object.assign(defaults(), LS.get("tm.filters", {}));
 let SEZ = null, SEZONY = [];          // vybraná sezóna a přehled sezón (data/sezony.json)
 const sezInfo = () => SEZONY.find(x => x.id === SEZ) || {od: iso(today), do: "9999-12-31"};
 const isArchive = () => sezInfo().do < iso(today);
-const sezLabel = (x, short) => { const n = x.nazev || x.id; return short ? n.replace(/^zima (\d{2})(\d{2})\/(\d{2})/, "Zima $2/$3").replace(/^léto/, "Léto") : n[0].toUpperCase() + n.slice(1); };
+const sezLabel = (x, short) => { let n = x.nazev || x.id; if (short) n = n.replace(/^zima (\d{2})(\d{2})\/(\d{2})/, "zima $2/$3"); if (EN) n = n.replace(/^zima/, "winter").replace(/^léto/, "summer"); return n[0].toUpperCase() + n.slice(1); };
+const sezName = x => sezLabel(x || {});
 const sezIcon = id => id[0] === "Z" ? "❄" : "☀";
 F.surf = (F.surf || []).filter(s => /^[gr]:/.test(s));
 F.players = F.players || []; F.pmode = F.pmode || "entries";
@@ -182,7 +202,7 @@ function render() {
   }
   cluster.addLayers(markers);
   const noLoc = shown.filter(e => { const v = VEN[e.misto]; return !v || v.lat == null; }).length;
-  $("#summary").innerHTML = panel === "detail" ? $("#summary").innerHTML : `${nf(shown.length)} turnajů <small>· ${vmap.size} míst${noLoc ? ` · ${noLoc} bez místa` : ""}</small>`;
+  $("#summary").innerHTML = panel === "detail" ? $("#summary").innerHTML : `${nf(shown.length)} ${T("turnajů")} <small>· ${vmap.size} ${T("míst")}${noLoc ? ` · ${noLoc} ${T("bez místa")}` : ""}</small>`;
   $("#countBadge").textContent = nf(shown.length);
   $("#showCount").textContent = `(${nf(shown.length)})`;
   const nfil = [F.cat.length, F.sex.length, F.cls.length, F.surf.length, F.to, F.centerMode !== "none", F.free, F.favOnly, !F.cancelled, !F.guess].filter(Boolean).length;
@@ -204,12 +224,12 @@ function drawCircle() {
 /* ---------- rychlé volby + filtry ---------- */
 function renderQuick() {
   const q = $("#quick");
-  const dateTxt = F.to ? `${dShort(F.from)} – ${dShort(F.to)}` : F.from === iso(today) ? "Od dnes" : F.from <= sezInfo().od ? "Celá sezóna" : `Od ${dShort(F.from)}`;
+  const dateTxt = F.to ? `${dShort(F.from)} – ${dShort(F.to)}` : F.from === iso(today) ? T("Od dnes") : F.from <= sezInfo().od ? T("Celá sezóna") : `${T("Od")} ${dShort(F.from)}`;
   const counts = {}; for (const e of EV) counts[e.kat] = (counts[e.kat] || 0) + 1;
   q.innerHTML = (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") + `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button>` +
     CAT_ORDER.filter(k => counts[k]).map(k => `<button data-q="${k}" class="${F.cat.includes(k) ? "on" : ""}">${CAT_QUICK[k]}</button>`).join("") +
     (F.centerMode !== "none" ? `<button class="on" data-q="radius">≤ ${F.radius} km ✕</button>` : "") +
-    (F.favOnly ? `<button class="on" data-q="fav">★ Oblíbené ✕</button>` : "");
+    (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "");
   q.insertAdjacentHTML("afterbegin", F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join(""));
   q.querySelectorAll(".x").forEach(x => x.onclick = ev => { ev.stopPropagation(); togglePlayer(x.dataset.x, false); });
   q.querySelectorAll("button").forEach(b => b.onclick = () => {
@@ -237,25 +257,25 @@ function buildFilterUI() {
   const cnt = f => { const c = {}; for (const e of EV) { const k = f(e); c[k] = (c[k] || 0) + 1; } return c; };
   const cc = cnt(e => e.kat);
   chip("#fCat", CAT_ORDER.map(k => ({v: k, l: CAT_SHORT[k], n: cc[k] || 0})), "cat");
-  chip("#fSex", [{v: "m", l: "Chlapci / muži"}, {v: "z", l: "Dívky / ženy"}], "sex");
+  chip("#fSex", [{v: "m", l: T("Chlapci / muži")}, {v: "z", l: T("Dívky / ženy")}], "sex");
   const tc = cnt(e => e.tr || "");
   chip("#fClass", CLASS_ORDER.filter(k => tc[k]).map(k => ({v: k, l: CLASS_LABEL[k], n: tc[k], color: colorOf(k)})), "cls");
   $$("#fClass button").forEach(b => b.style.setProperty("--c", colorOf(b.dataset.v)));
   const gc = cnt(e => surfGroup(e.pov));
   const groups = Object.keys(gc).sort((a, b) => gc[b] - gc[a]);
-  chip("#fSurf", groups.map(g => ({v: "g:" + g, l: g, n: gc[g]})), "surf");
+  chip("#fSurf", groups.map(g => ({v: "g:" + g, l: surfLabel(g), n: gc[g]})), "surf");
   const rc = cnt(e => (e.pov || "").toLowerCase());
   const disp = {}; for (const e of EV) if (e.pov) disp[e.pov.toLowerCase()] ??= e.pov;
   const box = $("#fSurfRaw"); box.innerHTML = "";
   for (const g of groups) {
     const raws = Object.keys(rc).filter(r => r && surfGroup(r) === g).sort((a, b) => rc[b] - rc[a]);
     if (raws.length < 2) continue;
-    const wrap = document.createElement("div"); wrap.className = "subgrp"; wrap.innerHTML = `<h4>${esc(g)}</h4>`;
+    const wrap = document.createElement("div"); wrap.className = "subgrp"; wrap.innerHTML = `<h4>${esc(surfLabel(g))}</h4>`;
     const ch = document.createElement("div"); ch.className = "chips"; wrap.appendChild(ch); box.appendChild(wrap);
-    chip(ch, raws.map(r => ({v: "r:" + r, l: disp[r] || r, n: rc[r]})), "surf");
+    chip(ch, raws.map(r => ({v: "r:" + r, l: rawSurf(disp[r] || r), n: rc[r]})), "surf");
   }
-  $("#legend").innerHTML = "<b>Třída turnaje <small>(klepnutím filtrujete)</small></b>" + CLASS_ORDER.filter(k => tc[k]).map(k => `<button class="lg" data-k="cls" data-v="${k}" style="--c:${colorOf(k)}"><i style="background:${colorOf(k)}">${k === "MCR" ? "M" : k || "–"}</i>${CLASS_LABEL[k]} <small>${tc[k]}</small></button>`).join("") +
-    `<div><i style="background:${css("--c-zr")}"></i>zrušeno</div><div><i class="ring"></i>čárkovaně = místo odhadnuté</div><div>písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů</div>`;
+  $("#legend").innerHTML = `<b>${T("Třída turnaje <small>(klepnutím filtrujete)</small>")}</b>` + CLASS_ORDER.filter(k => tc[k]).map(k => `<button class="lg" data-k="cls" data-v="${k}" style="--c:${colorOf(k)}"><i style="background:${colorOf(k)}">${k === "MCR" ? "M" : k || "–"}</i>${CLASS_LABEL[k]} <small>${tc[k]}</small></button>`).join("") +
+    `<div><i style="background:${css("--c-zr")}"></i>${T("zrušeno")}</div><div><i class="ring"></i>${T("čárkovaně = místo odhadnuté")}</div><div>${T("písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů")}</div>`;
 }
 function syncFilterUI() {
   $$(".chips button[data-k], #legend button.lg").forEach(b => b.classList.toggle("on", F[b.dataset.k].includes(b.dataset.v)));
@@ -265,8 +285,8 @@ function syncFilterUI() {
   $("#fFree").checked = F.free; $("#fCancelled").checked = F.cancelled; $("#fGuess").checked = F.guess;
   $$("#fCenterMode button").forEach(b => b.classList.toggle("on", b.dataset.c === F.centerMode));
   $("#rangeBox").classList.toggle("off", F.centerMode === "none");
-  $("#centerInfo").textContent = F.centerMode === "none" ? "Zobrazuje se celá ČR." :
-    F.center ? `Střed: ${F.centerLabel || F.center.map(x => x.toFixed(4)).join(", ")}` : "";
+  $("#centerInfo").textContent = F.centerMode === "none" ? T("Zobrazuje se celá ČR.") :
+    F.center ? `${T("Střed")}: ${T(F.centerLabel) || F.center.map(x => x.toFixed(4)).join(", ")}` : "";
   $("#btnLocate").classList.toggle("on", F.centerMode === "gps");
   $("#btnPick").classList.toggle("on", pickMode || F.centerMode === "pick");
   $("#btnFavMap").classList.toggle("on", F.favOnly);
@@ -288,10 +308,10 @@ function setCenter(ll, mode, label) {
   fitVisible(L.latLng(F.center).toBounds(F.radius * 2000));
 }
 function locate() {
-  if (!navigator.geolocation) return toast("Prohlížeč neumí zjistit polohu.");
-  toast("Zjišťuji polohu…");
+  if (!navigator.geolocation) return toast(T("Prohlížeč neumí zjistit polohu."));
+  toast(T("Zjišťuji polohu…"));
   navigator.geolocation.getCurrentPosition(p => setCenter([p.coords.latitude, p.coords.longitude], "gps", "moje poloha"),
-    err => toast(err.code === 1 ? "Přístup k poloze je zakázaný – povolte ho v nastavení prohlížeče." : "Polohu se nepodařilo zjistit."),
+    err => toast(err.code === 1 ? T("Přístup k poloze je zakázaný – povolte ho v nastavení prohlížeče.") : T("Polohu se nepodařilo zjistit.")),
     {enableHighAccuracy: true, timeout: 15000, maximumAge: 60000});
 }
 function setPick(on) { pickMode = on; $("#pickHint").hidden = !on; syncFilterUI(); if (on && !isDesk()) setSnap("peek"); }
@@ -359,26 +379,26 @@ function showPanel(name) {
   sheet.classList.toggle("detail", SUB.has(name) && name !== "report");
   $("#btnBack").hidden = !SUB.has(name);
   if (!SUB.has(name)) render();
-  if (name === "report") $("#summary").textContent = "Nahlásit problém";
-  if (name === "about") $("#summary").textContent = "O aplikaci";
+  if (name === "report") $("#summary").textContent = T("Nahlásit problém");
+  if (name === "about") $("#summary").textContent = T("O aplikaci");
   $("#sheetBody").scrollTop = 0;
   if (snap === "peek") setSnap(isDesk() ? "full" : "half"); else setSnap(snap);
 }
 
 function linkSet(e) {
   const out = [];
-  const g = (e.mix ? ["Děti", ""] : e.kat === "dospeli" ? ["Muži", "Ženy"] : ["Chlapci", "Dívky"]).map(x => x ? " – " + x.toLowerCase() : "");
+  const g = (e.mix ? ["Děti", ""] : e.kat === "dospeli" ? ["Muži", "Ženy"] : ["Chlapci", "Dívky"]).map(x => x ? " – " + T(x).toLowerCase() : "");
   const s = DATA.meta.sezona, done = (e.do || e.od || "9999") < iso(today);
   const pri = (cls) => done ? (cls === "res" ? ' class="pri"' : "") : (cls === "reg" ? ' class="pri"' : "");
   if (done) {
-    if (e.km) out.push(`<a${pri("res")} href="${CTS}${e.km}?sezona=${s}" target="_blank" rel="noopener">Výsledky${g[0]}</a>`);
-    if (e.kz) out.push(`<a${pri("res")} href="${CTS}${e.kz}?sezona=${s}" target="_blank" rel="noopener">Výsledky${g[1]}</a>`);
+    if (e.km) out.push(`<a${pri("res")} href="${CTS}${e.km}?sezona=${s}" target="_blank" rel="noopener">${T("Výsledky")}${g[0]}</a>`);
+    if (e.kz) out.push(`<a${pri("res")} href="${CTS}${e.kz}?sezona=${s}" target="_blank" rel="noopener">${T("Výsledky")}${g[1]}</a>`);
   }
-  if (e.km) out.push(`<a${pri("reg")} href="${CTS}${e.km}?sezona=${s}&tab=seznam" target="_blank" rel="noopener">${done ? "Hráči" : "Přihlášky"}${g[0]}</a>`);
-  if (e.kz) out.push(`<a${pri("reg")} href="${CTS}${e.kz}?sezona=${s}&tab=seznam" target="_blank" rel="noopener">${done ? "Hráči" : "Přihlášky"}${g[1]}</a>`);
+  if (e.km) out.push(`<a${pri("reg")} href="${CTS}${e.km}?sezona=${s}&tab=seznam" target="_blank" rel="noopener">${T(done ? "Hráči" : "Přihlášky")}${g[0]}</a>`);
+  if (e.kz) out.push(`<a${pri("reg")} href="${CTS}${e.kz}?sezona=${s}&tab=seznam" target="_blank" rel="noopener">${T(done ? "Hráči" : "Přihlášky")}${g[1]}</a>`);
   if (!done) {
-    if (e.km) out.push(`<a href="${CTS}${e.km}?sezona=${s}" target="_blank" rel="noopener">Hrací plány / výsledky${g[0]}</a>`);
-    if (e.kz) out.push(`<a href="${CTS}${e.kz}?sezona=${s}" target="_blank" rel="noopener">Hrací plány / výsledky${g[1]}</a>`);
+    if (e.km) out.push(`<a href="${CTS}${e.km}?sezona=${s}" target="_blank" rel="noopener">${T("Hrací plány / výsledky")}${g[0]}</a>`);
+    if (e.kz) out.push(`<a href="${CTS}${e.kz}?sezona=${s}" target="_blank" rel="noopener">${T("Hrací plány / výsledky")}${g[1]}</a>`);
   }
   return out.join("");
 }
@@ -391,43 +411,43 @@ function item(e) {
   const d = F.center && F.centerMode !== "none" && v.lat != null ? ` · ${Math.round(km(F.center, [v.lat, v.lon]))} km` : "";
   const occ = occOf(e).filter(Boolean);
   const full = occ.length && occ.every(o => o[0] >= o[1]);
-  const sex = e.mix ? "děti" : [e.km && (e.kat === "dospeli" ? "muži" : "chlapci"), e.kz && (e.kat === "dospeli" ? "ženy" : "dívky")].filter(Boolean).join(" + ");
+  const sex = e.mix ? T("děti") : [e.km && T(e.kat === "dospeli" ? "muži" : "chlapci"), e.kz && T(e.kat === "dospeli" ? "ženy" : "dívky")].filter(Boolean).join(" + ");
   return `<div class="item${zr ? " zr" : ""}" data-ev="${esc(e.id)}">
     <i class="bar" style="background:${colorOf(e.tr, zr)}"></i>
     <div class="main"><div class="t">${esc(e.nz || e.por)}</div>
       <div class="s">${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
       <div class="m"><span class="pill cls" style="background:${colorOf(e.tr, zr)}">${e.tr === "MCR" ? "MČR" : e.tr || "–"}</span><span class="pill">${esc(CAT_QUICK[e.kat])}</span><span class="pill">${sex}</span>
-      ${e.kap ? `<span class="pill${full ? " full" : ""}">${full ? "plno" : "max " + e.kap}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfGroup(e.pov))}</span>` : ""}
-      ${zr ? '<span class="pill zr">ZRUŠENO</span>' : ""}${partCancel(e) ? `<span class="pill zr">${partCancel(e)} zrušeno</span>` : ""}${isNew(e) ? '<span class="pill new">NOVÉ</span>' : ""}${playerPills(e)}</div></div>
-    <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="Oblíbené">${STAR}</button></div>`;
+      ${e.kap ? `<span class="pill${full ? " full" : ""}">${full ? T("plno") : "max " + e.kap}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfLabel(surfGroup(e.pov)))}</span>` : ""}
+      ${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${partCancel(e) ? `<span class="pill zr">${partCancel(e)} ${T("zrušeno")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${playerPills(e)}</div></div>
+    <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="${T("Oblíbené")}">${STAR}</button></div>`;
 }
 /* zrušená jen jedna soutěž turnaje (např. dívky) */
 function partCancel(e) {
   if (!e.zr || e.st === "zruseno") return "";
-  return e.zr === "m" ? (e.kat === "dospeli" ? "muži" : "chlapci") : (e.kat === "dospeli" ? "ženy" : "dívky");
+  return T(e.zr === "m" ? (e.kat === "dospeli" ? "muži" : "chlapci") : (e.kat === "dospeli" ? "ženy" : "dívky"));
 }
 /* plná karta v detailu místa */
 function card(e) {
   const zr = e.st === "zruseno";
-  const g = e.mix ? ["Děti", ""] : e.kat === "dospeli" ? ["Muži", "Ženy"] : ["Chlapci", "Dívky"];
+  const g = (e.mix ? ["Děti", ""] : e.kat === "dospeli" ? ["Muži", "Ženy"] : ["Chlapci", "Dívky"]).map(x => T(x));
   const occ = [];
   for (const [code, o, p, lab] of [[e.km, e.om, e.pm, g[0]], [e.kz, e.oz, e.pz, g[1]]]) {
     if (!code) continue;
     const t = occText(o, p, e.kap);
-    occ.push(`<div><span>${lab} <small class="muted">· kód ${code}</small></span><b>${t.t}</b></div><div class="bar5"><i style="width:${Math.min(100, t.pct * 100)}%"></i></div>`);
+    occ.push(`<div><span>${lab} <small class="muted">· ${T("kód")} ${code}</small></span><b>${t.t}</b></div><div class="bar5"><i style="width:${Math.min(100, t.pct * 100)}%"></i></div>`);
   }
   return `<div class="card${zr ? " zr" : ""}" id="c-${esc(e.id)}">
     <div class="top"><span class="badgecls" style="background:${colorOf(e.tr, zr)}">${esc(e.tr === "MCR" ? "MČR" : e.tr || "–")}</span>
       <div style="flex:1;min-width:0"><div class="nm">${esc(e.nz || e.por)}</div><div class="sub">${esc(CAT_SHORT[e.kat] || e.kat)} · ${esc(fmtRange(e.od, e.do))}</div>
-      <div class="m" style="display:flex;gap:4px;margin-top:4px">${zr ? '<span class="pill zr">ZRUŠENO</span>' : ""}${isNew(e) ? '<span class="pill new">NOVÉ</span>' : ""}${e.test ? '<span class="pill">TEST</span>' : ""}</div></div>
-      <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="Oblíbené">${STAR}</button></div>
-    <div class="occ">${occ.join("")}${partCancel(e) ? `<div><span>${esc(partCancel(e)[0].toUpperCase() + partCancel(e).slice(1))}</span><b class="zrtxt">zrušeno</b></div>` : ""}</div>
-    <div class="facts"><div><span>Max. hráčů</span>${e.kap ?? "?"}</div><div><span>Dvorce · povrch</span>${e.dv ?? "?"} · ${esc(e.pov || "neuvedeno")}</div>
-      ${e.mic ? `<div><span>Míče</span>${esc(e.mic)}</div>` : ""}${e.vk ? `<div><span>Vklad</span>${e.vk} Kč</div>` : ""}
-      ${e.prez ? `<div><span>Prezentace</span>${esc(e.prez)}</div>` : ""}<div><span>Pořadatel</span>${esc(e.por)}</div></div>
-    ${zr ? `<div class="note">Turnaj ${e.zrus ? "zmizel z termínové listiny " + esc(fmtRange(e.zrus)) : "je v listině označen jako zrušený"} – ověřte na webu ČTS.</div>` : ""}
+      <div class="m" style="display:flex;gap:4px;margin-top:4px">${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${e.test ? '<span class="pill">TEST</span>' : ""}</div></div>
+      <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="${T("Oblíbené")}">${STAR}</button></div>
+    <div class="occ">${occ.join("")}${partCancel(e) ? `<div><span>${esc(partCancel(e)[0].toUpperCase() + partCancel(e).slice(1))}</span><b class="zrtxt">${T("zrušeno")}</b></div>` : ""}</div>
+    <div class="facts"><div><span>${T("Max. hráčů")}</span>${e.kap ?? "?"}</div><div><span>${T("Dvorce · povrch")}</span>${e.dv ?? "?"} · ${esc(e.pov ? rawSurf(e.pov) : T("neuvedeno"))}</div>
+      ${e.mic ? `<div><span>${T("Míče")}</span>${esc(e.mic)}</div>` : ""}${e.vk ? `<div><span>${T("Vklad")}</span>${e.vk} ${EN ? "CZK" : "Kč"}</div>` : ""}
+      ${e.prez ? `<div><span>${T("Prezentace")}</span>${esc(prezText(e.prez))}</div>` : ""}<div><span>${T("Pořadatel")}</span>${esc(e.por)}</div></div>
+    ${zr ? `<div class="note">${e.zrus ? T("Turnaj zmizel z termínové listiny {d} – ověřte na webu ČTS.", {d: esc(fmtRange(e.zrus))}) : T("Turnaj je v listině označen jako zrušený – ověřte na webu ČTS.")}</div>` : ""}
     <div class="links">${linkSet(e)}</div>
-    <span class="reportlink" data-report-ev="${esc(e.id)}">Nahlásit chybu u tohoto turnaje</span></div>`;
+    <span class="reportlink" data-report-ev="${esc(e.id)}">${T("Nahlásit chybu u tohoto turnaje")}</span></div>`;
 }
 function bind(root) {
   root.querySelectorAll("[data-fav]").forEach(b => b.onclick = ev => { ev.stopPropagation(); toggleFav(b.dataset.fav); b.classList.toggle("on", FAV.has(b.dataset.fav)); });
@@ -465,25 +485,25 @@ function openVenue(vi, opt = {}) {
   const groups = new Map();
   for (const e of match) { const k = e.od + "|" + e.do; (groups.get(k) || groups.set(k, []).get(k)).push(e); }
   let [pc, pt] = PREC[v.presnost] || PREC.nezname;
-  if (v.presnost === "adresa") [pc, pt] = v.zdroj === "detail" ? ["ok", "Adresa místa konání podle ČTS"] : ["mid", "Adresa klubu (místo konání zatím neuvedeno)"];
-  if (v.presnost === "areal" && v.zdroj === "detail") pt = "Adresa podle ČTS, ověřeno v mapě";
+  if (v.presnost === "adresa") [pc, pt] = v.zdroj === "detail" ? ["ok", T("Adresa místa konání podle ČTS")] : ["mid", T("Adresa klubu (místo konání zatím neuvedeno)")];
+  if (v.presnost === "areal" && v.zdroj === "detail") pt = T("Adresa podle ČTS, ověřeno v mapě");
   // Mapy.com URL API: souřadnice v pořadí lon,lat (developer.mapy.com – Mapy.cz URL); start = poloha z GPS, jinak ho doplní aplikace
   const start = F.centerMode === "gps" && F.center ? `start=${F.center[1]},${F.center[0]}&` : "";
   const nav = v.lat != null ? `<div class="links">
-    <a class="pri" href="https://mapy.com/fnc/v1/route?${start}end=${v.lon},${v.lat}&routeType=car_fast_traffic&navigate=true" target="_blank" rel="noopener">Navigovat · Mapy.com</a>
+    <a class="pri" href="https://mapy.com/fnc/v1/route?${start}end=${v.lon},${v.lat}&routeType=car_fast_traffic&navigate=true" target="_blank" rel="noopener">${T("Navigovat · Mapy.com")}</a>
     <a href="https://www.google.com/maps/dir/?api=1&destination=${v.lat},${v.lon}&travelmode=driving" target="_blank" rel="noopener">Google Maps</a>
-    <a href="https://mapy.com/fnc/v1/showmap?center=${v.lon},${v.lat}&zoom=17&marker=true" target="_blank" rel="noopener">Ukázat v Mapy.com</a></div>` : "";
+    <a href="https://mapy.com/fnc/v1/showmap?center=${v.lon},${v.lat}&zoom=17&marker=true" target="_blank" rel="noopener">${T("Ukázat v Mapy.com")}</a></div>` : "";
   let html = `<div class="venue"><h2>${esc(venueTitle(v))}</h2>
-    <div class="addr">${SVAZY.test((v.poradatel || "").trim()) ? "Pořadatel: " + esc(v.poradatel) + (v.poradatel === "ČTS" ? "" : " oblastní svaz") : esc(v.poradatel)}${v.adresa ? " · " + esc(v.adresa) : ""}${v.region ? " · " + esc(v.region) : ""}</div>
-    <span class="prec ${pc}">${esc(pt)}</span>${v.poznamka ? `<div class="muted">${esc(v.poznamka)}</div>` : ""}${nav}
-    <span class="reportlink" data-report-venue="${vi}">Nahlásit špatné místo nebo údaje</span></div>`;
-  if (!groups.size) html += `<div class="empty">Žádný turnaj tohoto místa neodpovídá filtrům.</div>`;
+    <div class="addr">${SVAZY.test((v.poradatel || "").trim()) ? T(v.poradatel === "ČTS" ? "Pořadatel: {p}" : "Pořadatel: {p} oblastní svaz", {p: esc(v.poradatel)}) : esc(v.poradatel)}${v.adresa ? " · " + esc(v.adresa) : ""}${v.region ? " · " + esc(v.region) : ""}</div>
+    <span class="prec ${pc}">${esc(pt)}</span>${v.poznamka ? `<div class="muted">${esc(noteText(v.poznamka))}</div>` : ""}${nav}
+    <span class="reportlink" data-report-venue="${vi}">${T("Nahlásit špatné místo nebo údaje")}</span></div>`;
+  if (!groups.size) html += `<div class="empty">${T("Žádný turnaj tohoto místa neodpovídá filtrům.")}</div>`;
   for (const [, evs] of [...groups].sort()) {
     const ncat = new Set(evs.map(e => e.kat)).size, ncomp = evs.reduce((a, e) => a + (e.km ? 1 : 0) + (e.kz ? 1 : 0), 0);
-    html += `<div class="group"><h4>${esc(fmtRange(evs[0].od, evs[0].do))}</h4>${ncomp > 1 ? `<div class="concur">Souběh: ${ncomp} soutěží${ncat > 1 ? ` v ${ncat} kategoriích` : ""} ve stejném termínu</div>` : ""}
+    html += `<div class="group"><h4>${esc(fmtRange(evs[0].od, evs[0].do))}</h4>${ncomp > 1 ? `<div class="concur">${T(ncat > 1 ? "Souběh: {n} soutěží v {c} kategoriích ve stejném termínu" : "Souběh: {n} soutěží ve stejném termínu", {n: ncomp, c: ncat})}</div>` : ""}
       ${evs.map(card).join("")}</div>`;
   }
-  if (other.length) html += `<details class="group"><summary>Další turnaje v tomto místě mimo filtr (${other.length})</summary>${other.map(card).join("")}</details>`;
+  if (other.length) html += `<details class="group"><summary>${T("Další turnaje v tomto místě mimo filtr ({n})", {n: other.length})}</summary>${other.map(card).join("")}</details>`;
   $("#detailBody").innerHTML = html;
   bind($("#detailBody"));
   $("#summary").innerHTML = esc(venueTitle(v));
@@ -497,7 +517,7 @@ function openVenue(vi, opt = {}) {
 function renderList() {
   let xs = shown.slice();
   if (sortMode === "dist" && F.center && F.centerMode !== "none") xs.sort((a, b) => dist(a) - dist(b));
-  $("#listBody").innerHTML = xs.length ? xs.slice(0, 300).map(item).join("") + (xs.length > 300 ? `<div class="empty">Zobrazeno prvních 300 – zužte filtr.</div>` : "") : `<div class="empty">Filtrům neodpovídá žádný turnaj.</div>`;
+  $("#listBody").innerHTML = xs.length ? xs.slice(0, 300).map(item).join("") + (xs.length > 300 ? `<div class="empty">${T("Zobrazeno prvních 300 – zužte filtr.")}</div>` : "") : `<div class="empty">${T("Filtrům neodpovídá žádný turnaj.")}</div>`;
   bind($("#listBody"));
 }
 function renderFavs() {
@@ -506,20 +526,20 @@ function renderFavs() {
   const gone = mine.filter(id => !EV.some(e => e.id === id));
   const others = [...FAV].filter(id => !id.startsWith(SEZ + "-"));
   const bySez = {}; others.forEach(id => { const k = id.split("-")[0]; bySez[k] = (bySez[k] || 0) + 1; });
-  $("#favBody").innerHTML = (xs.length ? xs.map(item).join("") : `<div class="empty">V sezóně ${esc(sezInfo().nazev || SEZ)} zatím žádné oblíbené – přidáte je hvězdičkou u turnaje.</div>`) +
-    (gone.length ? `<div class="muted">${gone.length} oblíbených turnajů už v datech není.</div>` : "") +
-    (others.length ? `<div class="muted">Další oblíbené v jiných sezónách: ${Object.entries(bySez).map(([k, n]) => `${esc((SEZONY.find(x => x.id === k) || {nazev: k}).nazev)} (${n})`).join(", ")} – přepněte sezónu nahoře.</div>` : "");
+  $("#favBody").innerHTML = (xs.length ? xs.map(item).join("") : `<div class="empty">${T("V sezóně {s} zatím žádné oblíbené – přidáte je hvězdičkou u turnaje.", {s: esc(sezName(sezInfo()) || SEZ)})}</div>`) +
+    (gone.length ? `<div class="muted">${T("{n} oblíbených turnajů už v datech není.", {n: gone.length})}</div>` : "") +
+    (others.length ? `<div class="muted">${T("Další oblíbené v jiných sezónách: {x} – přepněte sezónu nahoře.", {x: Object.entries(bySez).map(([k, n]) => `${esc(sezName(SEZONY.find(x => x.id === k) || {nazev: k}))} (${n})`).join(", ")})}</div>` : "");
   bind($("#favBody"));
 }
 function shareFavs() {
-  if (!FAV.size) return toast("Nejdřív přidejte oblíbené turnaje.");
+  if (!FAV.size) return toast(T("Nejdřív přidejte oblíbené turnaje."));
   const url = location.origin + location.pathname + "#obl=" + [...FAV].join(",");
-  if (navigator.share) navigator.share({title: "Moje tenisové turnaje", url}).catch(() => {});
-  else navigator.clipboard?.writeText(url).then(() => toast("Odkaz zkopírován."), () => prompt("Odkaz:", url));
+  if (navigator.share) navigator.share({title: T("Moje tenisové turnaje"), url}).catch(() => {});
+  else navigator.clipboard?.writeText(url).then(() => toast(T("Odkaz zkopírován.")), () => prompt(T("Odkaz:"), url));
 }
 function icsFavs() {
   const xs = EV.filter(e => FAV.has(e.id) && e.od && e.st !== "zruseno");
-  if (!xs.length) return toast("Žádné oblíbené turnaje k exportu.");
+  if (!xs.length) return toast(T("Žádné oblíbené turnaje k exportu."));
   const d = s => s.replace(/-/g, ""), esI = s => String(s).replace(/[,;\\]/g, m => "\\" + m).replace(/\n/g, "\\n");
   const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//TenisMapa//CS", "CALSCALE:GREGORIAN"];
   for (const e of xs) { const v = VEN[e.misto] || {};
@@ -535,7 +555,7 @@ function importFromHash() {
   history.replaceState(null, "", location.pathname);
   if (!ids.length) return;
   const box = $("#favImport"); box.hidden = false;
-  box.innerHTML = `<div class="card">Sdílený seznam obsahuje <b>${ids.length}</b> turnajů.<div class="links"><a href="#" class="pri" id="impAdd">Přidat do mých oblíbených</a><a href="#" id="impNo">Ne</a></div></div>`;
+  box.innerHTML = `<div class="card">${T("Sdílený seznam obsahuje <b>{n}</b> turnajů.", {n: ids.length})}<div class="links"><a href="#" class="pri" id="impAdd">${T("Přidat do mých oblíbených")}</a><a href="#" id="impNo">${T("Ne")}</a></div></div>`;
   $("#impAdd").onclick = ev => { ev.preventDefault(); ids.forEach(i => FAV.add(i)); LS.set("tm.fav", [...FAV]); box.hidden = true; showPanel("favs"); };
   $("#impNo").onclick = ev => { ev.preventDefault(); box.hidden = true; };
   showPanel("favs");
@@ -577,13 +597,13 @@ function ctxLines() {
 function renderCtx() {
   const e = ctx.ev ? EV.find(x => x.id === ctx.ev) : null;
   const vi = e ? e.misto : ctx.venue, v = vi != null ? VEN[vi] : null;
-  $("#repCtx").innerHTML = e ? `<b>${esc(e.nz || e.por)}</b>${esc(CAT_SHORT[e.kat])} · ${esc(fmtRange(e.od, e.do))} · kód ${esc(e.km || e.kz)}<div class="muted">${esc(v ? (v.nazev_mista || v.poradatel) + " · " + (v.adresa || "") : "")}</div>`
-    : v ? `<b>${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : v.poradatel)}</b>${esc(v.adresa || "adresa neuvedena")}<div class="muted">Místo na mapě · přesnost: ${esc((PREC[v.presnost] || PREC.nezname)[1])}</div>`
-    : `<b>Obecné hlášení</b>Přiloží se aktuální výřez mapy a nastavené filtry.<div class="muted">Tip: pro konkrétní turnaj otevřete jeho detail a klepněte na „Nahlásit chybu“.</div>`;
+  $("#repCtx").innerHTML = e ? `<b>${esc(e.nz || e.por)}</b>${esc(CAT_SHORT[e.kat])} · ${esc(fmtRange(e.od, e.do))} · ${T("kód")} ${esc(e.km || e.kz)}<div class="muted">${esc(v ? (v.nazev_mista || v.poradatel) + " · " + (v.adresa || "") : "")}</div>`
+    : v ? `<b>${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : v.poradatel)}</b>${esc(v.adresa || T("adresa neuvedena"))}<div class="muted">${T("Místo na mapě · přesnost: {p}", {p: esc((PREC[v.presnost] || PREC.nezname)[1])})}</div>`
+    : T(`<b>Obecné hlášení</b>Přiloží se aktuální výřez mapy a nastavené filtry.<div class="muted">Tip: pro konkrétní turnaj otevřete jeho detail a klepněte na „Nahlásit chybu“.</div>`);
 }
 function syncReportButtons() {
   $("#repSend").disabled = !REPORT_FORM;
-  $("#repNote").textContent = "Hlášení se odešle přímo z aplikace (služba FormSubmit) – nepotřebujete účet ani vlastní e-mail." + (shot ? " Snímek se přiloží." : "");
+  $("#repNote").textContent = T("Hlášení se odešle přímo z aplikace (služba FormSubmit) – nepotřebujete účet ani vlastní e-mail.") + (shot ? T(" Snímek se přiloží.") : "");
 }
 async function openReport(c) {
   ctx = c || {};
@@ -591,7 +611,7 @@ async function openReport(c) {
   const prevSnap = snap;
   setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on"));
   // snímek obrazovky v podobě, jakou uživatel právě vidí (před otevřením formuláře)
-  try { toast("Pořizuji snímek obrazovky…"); setShot(await captureScreen()); $("#toast").hidden = true; } catch { $("#toast").hidden = true; }
+  try { toast(T("Pořizuji snímek obrazovky…")); setShot(await captureScreen()); $("#toast").hidden = true; } catch { $("#toast").hidden = true; }
   renderCtx();
   showPanel("report");
   setSnap(isDesk() ? "full" : "full");
@@ -617,17 +637,17 @@ $("#repCapture").onclick = async () => {
   // zachytí mapu bez formuláře: panel se dočasně stáhne
   const keep = snap; if (!isDesk()) setSnap("peek");
   await new Promise(r => setTimeout(r, 450));
-  try { setShot(await captureScreen()); } catch { toast("Snímek se nepodařilo pořídit – vyberte obrázek z galerie."); }
+  try { setShot(await captureScreen()); } catch { toast(T("Snímek se nepodařilo pořídit – vyberte obrázek z galerie.")); }
   setSnap(keep);
 };
 $("#repFile").onchange = e => { const f = e.target.files?.[0]; if (f) setShot(f); e.target.value = ""; };
 $("#repShotDel").onclick = () => setShot(null);
 $("#repSend").onclick = () => {
-  if (!$("#repText").value.trim() && !repType) { toast("Vyberte typ problému nebo napište krátký popis."); return; }
+  if (!$("#repText").value.trim() && !repType) { toast(T("Vyberte typ problému nebo napište krátký popis.")); return; }
   sendForm();
 };
 function sendForm() {
-  const btn = $("#repSend"); btn.disabled = true; btn.textContent = "Odesílám…";
+  const btn = $("#repSend"); btn.disabled = true; btn.textContent = T("Odesílám…");
   const f = document.createElement("form");
   f.method = "POST"; f.action = "https://formsubmit.co/" + REPORT_FORM; f.enctype = "multipart/form-data"; f.target = "repFrame"; f.hidden = true;
   const add = (n, v) => { const i = document.createElement("input"); i.type = "hidden"; i.name = n; i.value = v; f.appendChild(i); };
@@ -643,32 +663,32 @@ function sendForm() {
   document.body.appendChild(f);
   const frame = $("#repFrame");
   let done = false;
-  const finish = ok => { if (done) return; done = true; btn.disabled = false; btn.textContent = "Odeslat hlášení"; f.remove();
-    if (ok) { toast("Děkujeme, hlášení bylo odesláno."); $("#repText").value = ""; setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on")); $("#btnBack").click(); }
-    else toast("Odeslání se možná nepovedlo – zkuste „Poslat raději vlastním e-mailem“."); };
+  const finish = ok => { if (done) return; done = true; btn.disabled = false; btn.textContent = T("Odeslat hlášení"); f.remove();
+    if (ok) { toast(T("Děkujeme, hlášení bylo odesláno.")); $("#repText").value = ""; setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on")); $("#btnBack").click(); }
+    else toast(T("Odeslání se možná nepovedlo – zkuste „Poslat raději vlastním e-mailem“.")); };
   frame.onload = () => finish(true);
   setTimeout(() => finish(false), 20000);
   f.submit();
 }
 $("#repMail").onclick = async () => {
   if (!REPORT_EMAIL) return;
-  if (!$("#repText").value.trim() && !repType) { toast("Vyberte typ problému nebo napište krátký popis."); return; }
+  if (!$("#repText").value.trim() && !repType) { toast(T("Vyberte typ problému nebo napište krátký popis.")); return; }
   const body = reportText();
   const file = shot ? new File([shot], `tenisova-mapa-${iso(new Date())}.jpg`, {type: shot.type || "image/jpeg"}) : null;
   if (file && navigator.canShare && navigator.canShare({files: [file]})) {
-    try { await navigator.share({files: [file], title: reportSubject(), text: `Komu: ${REPORT_EMAIL}\nPředmět: ${reportSubject()}\n\n${body}`}); toast("Děkujeme za hlášení!"); return; }
+    try { await navigator.share({files: [file], title: reportSubject(), text: `${T("Komu")}: ${REPORT_EMAIL}\n${T("Předmět")}: ${reportSubject()}\n\n${body}`}); toast(T("Děkujeme za hlášení!")); return; }
     catch (err) { if (err && err.name === "AbortError") return; }
   }
   if (file) downloadShot();
   openMail(body);
-  toast("Děkujeme za hlášení!");
+  toast(T("Děkujeme za hlášení!"));
 };
 
 /* ---------- hráči a jejich přihlášky ---------- */
 let HR = null, curPlayer = null, normIdx = null;
 const PERSON = '<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>';
 const ZK = {mz: ["mladsi-zactvo", "m"], mzk: ["mladsi-zactvo", "z"], sz: ["starsi-zactvo", "m"], szk: ["starsi-zactvo", "z"], d: ["dorost", "m"], dk: ["dorost", "z"], m: ["dospeli", "m"], z: ["dospeli", "z"]};
-const ZK_LABEL = {mz: "ml. žák", mzk: "ml. žákyně", sz: "st. žák", szk: "st. žákyně", d: "dorostenec", dk: "dorostenka", m: "muž", z: "žena"};
+const ZK_LABEL = Object.fromEntries(Object.entries({mz: "ml. žák", mzk: "ml. žákyně", sz: "st. žák", szk: "st. žákyně", d: "dorostenec", dk: "dorostenka", m: "muž", z: "žena"}).map(([k, v]) => [k, T(v)]));
 const LADDER = ["mladsi-zactvo", "starsi-zactvo", "dorost", "dospeli"];
 const fold = s => (s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 let ZEB = null;
@@ -685,7 +705,7 @@ function loadPlayers() {
   }).catch(() => (loadPlayers.p = null));
 }
 const entrySet = pid => HR.sets[pid] ||= new Set((HR.e[pid] || []).map(x => x[0]));
-const pinfo = pid => HR?.p[pid] || ["hráč " + pid, "", []];
+const pinfo = pid => HR?.p[pid] || [T("hráč") + " " + pid, "", []];
 const shortName = pid => { const n = pinfo(pid)[0].split(" "); return n.length > 1 ? `${n[0]} ${n[1][0]}.` : n[0]; };
 /* podle soutěžního řádu může hráč startovat ve své věkové kategorii i ve starších (ne v mladších);
    kategorie a pohlaví se odvozují ze žebříčku zima 2026/27 – nejmladší kategorie, ve které je hráč veden */
@@ -705,7 +725,7 @@ function playerPills(e) {
   if (!F.players.length || !HR) return "";
   return F.players.filter(pid => entrySet(pid).has(e.id)).map(pid => {
     const x = HR.e[pid].find(y => y[0] === e.id);
-    return `<span class="pill pl">${PERSON}${esc(shortName(pid))}${x && x[2] === "Q" ? " · kval." : x && x[2] === "N" ? " · náhr." : ""}</span>`;
+    return `<span class="pill pl">${PERSON}${esc(shortName(pid))}${x && x[2] === "Q" ? " · " + T("kval.") : x && x[2] === "N" ? " · " + T("náhr.") : ""}</span>`;
   }).join("");
 }
 function hideSuggest() { $("#suggest").hidden = true; }
@@ -723,11 +743,11 @@ function suggest() {
   }
   hits.sort((a, b) => a[0] - b[0] || pinfo(a[1])[0].localeCompare(pinfo(b[1])[0], "cs"));
   const top = hits.slice(0, 8);
-  box.innerHTML = (top.length ? `<div class="sh">Hráči</div>` + top.map(([, id]) => {
-      const p = pinfo(id), n = (HR.e[id] || []).length, cat = (p[2] || []).map(c => `${ZK_LABEL[c[0]]}${c[1] ? " " + c[1] + "." : ""}`).join(", ");
-      return `<button class="sg" data-pid="${esc(id)}">${PERSON}<span><b>${esc(p[0])}</b><small>${esc(p[1])}${cat ? " · " + esc(cat) : ""}</small></span><em class="${n ? "has" : ""}">${n ? n + "× přihl." : "bez přihlášek"}</em></button>`;
-    }).join("") : `<div class="sh">Žádný hráč neodpovídá</div>`) +
-    `<button class="sg all" data-all="1"><span>Hledat „${esc(F.text)}“ v turnajích (${nf(shown.length)})</span></button>`;
+  box.innerHTML = (top.length ? `<div class="sh">${T("Hráči")}</div>` + top.map(([, id]) => {
+      const p = pinfo(id), n = (HR.e[id] || []).length, cat = (p[2] || []).map(c => `${ZK_LABEL[c[0]]}${c[1] ? (EN ? " #" + c[1] : " " + c[1] + ".") : ""}`).join(", ");
+      return `<button class="sg" data-pid="${esc(id)}">${PERSON}<span><b>${esc(p[0])}</b><small>${esc(p[1])}${cat ? " · " + esc(cat) : ""}</small></span><em class="${n ? "has" : ""}">${n ? T("{n}× přihl.", {n}) : T("bez přihlášek")}</em></button>`;
+    }).join("") : `<div class="sh">${T("Žádný hráč neodpovídá")}</div>`) +
+    `<button class="sg all" data-all="1"><span>${T("Hledat „{q}“ v turnajích ({n})", {q: esc(F.text), n: nf(shown.length)})}</span></button>`;
   box.hidden = false;
   box.querySelectorAll("[data-pid]").forEach(b => b.onclick = () => { $("#fText").value = ""; F.text = ""; hideSuggest(); togglePlayer(b.dataset.pid, true); openPlayer(b.dataset.pid); });
   box.querySelector("[data-all]").onclick = () => { hideSuggest(); showPanel("list"); };
@@ -743,15 +763,15 @@ function openPlayer(pid) {
   const p = pinfo(pid), ents = (HR?.e[pid] || []).map(x => [EV.find(e => e.id === x[0]), x]).filter(x => x[0]).sort((a, b) => (a[0].od || "").localeCompare(b[0].od || ""));
   if (isArchive() && F.pmode === "eligible") F.pmode = "entries";
   const el = eligibility(pid);
-  const cats = (p[2] || []).map(c => `<span class="pill">${ZK_LABEL[c[0]]}${c[1] ? " · " + c[1] + ". v ČR" : ""}</span>`).join("");
+  const cats = (p[2] || []).map(c => `<span class="pill">${ZK_LABEL[c[0]]}${c[1] ? " · " + T("{r}. v ČR", {r: c[1]}) : ""}</span>`).join("");
   const sel = F.players.includes(pid);
   $("#playerBody").innerHTML = `<div class="venue"><h2>${esc(p[0])}</h2><div class="addr">${esc(p[1])}</div>
-    <div class="m" style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px">${cats || `<span class="pill">mimo žebříček ${esc(HR?.zebricek || "")}</span>`}</div>
-    <div class="links"><a class="pri" href="#" id="plToggle">${sel ? "Odebrat z mapy" : "Zobrazit v mapě"}</a><a href="https://cesky-tenis.cz/hrac/${encodeURIComponent(pid)}" target="_blank" rel="noopener">Profil na ČTS</a></div></div>
-    ${isArchive() ? `<p class="muted" style="margin-top:14px">Turnaje sezóny ${esc(sezInfo().nazev || SEZ)}, kterých se hráč účastnil.</p>` : `<div class="seg small" id="pmode" style="margin-top:14px"><button data-m="entries" class="${F.pmode === "entries" ? "on" : ""}">Kde je přihlášen</button><button data-m="eligible" class="${F.pmode === "eligible" ? "on" : ""}">Kam se může přihlásit</button></div>`}
-    <p class="muted">${F.pmode === "eligible" ? (el ? `Podle soutěžního řádu může hráč startovat ve své kategorii i ve starších: ${el.cats.map(c => CAT_SHORT[c]).join(", ")} (${el.sex === "m" ? "chlapci / muži" : "dívky / ženy"}). Kategorie je odvozená ze žebříčku ${esc(HR?.zebricek || "")} – ověřte si to v propozicích turnaje.` : "Hráč není v žebříčku, kategorii nelze určit – zobrazujeme jen jeho přihlášky.") : "Přihlášky z veřejných seznamů ČTS (hlavní soutěž, kvalifikace, náhradníci), obnovují se denně."}</p>
-    <div id="plList">${F.pmode === "entries" ? (ents.length ? ents.map(([e]) => item(e)).join("") : `<div class="empty">Zatím žádná přihláška.</div>`)
-      : (() => { const xs = EV.filter(e => evMatchesBase(e) && eligible(pid, e)); return xs.length ? xs.slice(0, 200).map(item).join("") + (xs.length > 200 ? `<div class="empty">Zobrazeno 200 z ${xs.length} – zužte filtr.</div>` : "") : `<div class="empty">Žádný vhodný turnaj v nastaveném termínu.</div>`; })()}</div>`;
+    <div class="m" style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px">${cats || `<span class="pill">${T("mimo žebříček {z}", {z: esc(HR?.zebricek || "")})}</span>`}</div>
+    <div class="links"><a class="pri" href="#" id="plToggle">${T(sel ? "Odebrat z mapy" : "Zobrazit v mapě")}</a><a href="https://cesky-tenis.cz/hrac/${encodeURIComponent(pid)}" target="_blank" rel="noopener">${T("Profil na ČTS")}</a></div></div>
+    ${isArchive() ? `<p class="muted" style="margin-top:14px">${T("Turnaje sezóny {s}, kterých se hráč účastnil.", {s: esc(sezName(sezInfo()) || SEZ)})}</p>` : `<div class="seg small" id="pmode" style="margin-top:14px"><button data-m="entries" class="${F.pmode === "entries" ? "on" : ""}">${T("Kde je přihlášen")}</button><button data-m="eligible" class="${F.pmode === "eligible" ? "on" : ""}">${T("Kam se může přihlásit")}</button></div>`}
+    <p class="muted">${F.pmode === "eligible" ? (el ? T("Podle soutěžního řádu může hráč startovat ve své kategorii i ve starších: {c} ({g}). Kategorie je odvozená ze žebříčku {z} – ověřte si to v propozicích turnaje.", {c: el.cats.map(c => CAT_SHORT[c]).join(", "), g: T(el.sex === "m" ? "chlapci / muži" : "dívky / ženy"), z: esc(HR?.zebricek || "")}) : T("Hráč není v žebříčku, kategorii nelze určit – zobrazujeme jen jeho přihlášky.")) : T("Přihlášky z veřejných seznamů ČTS (hlavní soutěž, kvalifikace, náhradníci), obnovují se denně.")}</p>
+    <div id="plList">${F.pmode === "entries" ? (ents.length ? ents.map(([e]) => item(e)).join("") : `<div class="empty">${T("Zatím žádná přihláška.")}</div>`)
+      : (() => { const xs = EV.filter(e => evMatchesBase(e) && eligible(pid, e)); return xs.length ? xs.slice(0, 200).map(item).join("") + (xs.length > 200 ? `<div class="empty">${T("Zobrazeno 200 z {n} – zužte filtr.", {n: xs.length})}</div>` : "") : `<div class="empty">${T("Žádný vhodný turnaj v nastaveném termínu.")}</div>`; })()}</div>`;
   $("#plToggle").onclick = ev => { ev.preventDefault(); togglePlayer(pid, !F.players.includes(pid)); openPlayer(pid); };
   $$("#pmode button").forEach(b => b.onclick = () => { F.pmode = b.dataset.m; render(); openPlayer(pid); });
   bind($("#playerBody"));
@@ -765,9 +785,9 @@ function evMatchesBase(e) { const keep = F.players; F.players = []; const r = ev
 /* ---------- o aplikaci ---------- */
 function openAbout() {
   const upd = new Date(DATA.meta.aktualizace);
-  $("#aboutData").textContent = `data k ${upd.toLocaleString("cs-CZ", {day: "numeric", month: "numeric", year: "numeric", hour: "2-digit", minute: "2-digit"})}`;
-  $("#aboutVer").textContent = "verze " + APP_VERSION;
-  $("#aboutSez").textContent = SEZONY.map(x => x.nazev).join(", ");
+  $("#aboutData").textContent = T("data k {d}", {d: upd.toLocaleString(EN ? "en-GB" : "cs-CZ", {day: "numeric", month: EN ? "short" : "numeric", year: "numeric", hour: "2-digit", minute: "2-digit"})});
+  $("#aboutVer").textContent = T("verze {v}", {v: APP_VERSION});
+  $("#aboutSez").textContent = SEZONY.map(x => EN ? sezName(x) : x.nazev).join(", ");
   showPanel("about");
   if (!isDesk()) setSnap(snap === "peek" ? "half" : snap);
 }
@@ -776,15 +796,15 @@ function openAbout() {
 $("#placeForm").onsubmit = async ev => {
   ev.preventDefault();
   const q = $("#placeQ").value.trim(); if (!q) return;
-  $("#placeRes").innerHTML = '<div class="muted">Hledám…</div>';
+  $("#placeRes").innerHTML = `<div class="muted">${T("Hledám…")}</div>`;
   try {
-    const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=cz&limit=6&accept-language=cs&q=${encodeURIComponent(q)}`);
+    const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=cz&limit=6&accept-language=${EN ? "en" : "cs"}&q=${encodeURIComponent(q)}`);
     const js = await r.json();
-    $("#placeRes").innerHTML = js.length ? "" : '<div class="muted">Nic nenalezeno.</div>';
+    $("#placeRes").innerHTML = js.length ? "" : `<div class="muted">${T("Nic nenalezeno.")}</div>`;
     for (const x of js) { const b = document.createElement("button"); b.type = "button"; b.textContent = x.display_name;
       b.onclick = () => { $("#placeRes").innerHTML = ""; $("#placeQ").value = ""; setCenter([+x.lat, +x.lon], "pick", x.display_name.split(",").slice(0, 2).join(",")); };
       $("#placeRes").appendChild(b); }
-  } catch { $("#placeRes").innerHTML = '<div class="muted">Vyhledávání se nepodařilo.</div>'; }
+  } catch { $("#placeRes").innerHTML = `<div class="muted">${T("Vyhledávání se nepodařilo.")}</div>`; }
 };
 
 /* ---------- události UI ---------- */
@@ -825,10 +845,17 @@ $("#btnLegend").onclick = () => { $("#legend").hidden = !$("#legend").hidden; $(
 $("#legend").addEventListener("click", e => { const b = e.target.closest("button.lg"); if (!b) return; const a = F.cls, i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v); render(); });
 $("#btnReset").onclick = () => { F = defaults(); render(); };
 $("#btnShow").onclick = () => { showPanel("list"); if (!isDesk()) setSnap("peek"); };
-$$("#listSort button").forEach(b => b.onclick = () => { sortMode = b.dataset.s; if (sortMode === "dist" && (!F.center || F.centerMode === "none")) toast("Nejdřív nastavte okruh – polohu nebo bod v mapě."); $$("#listSort button").forEach(x => x.classList.toggle("on", x === b)); renderList(); });
+$$("#listSort button").forEach(b => b.onclick = () => { sortMode = b.dataset.s; if (sortMode === "dist" && (!F.center || F.centerMode === "none")) toast(T("Nejdřív nastavte okruh – polohu nebo bod v mapě.")); $$("#listSort button").forEach(x => x.classList.toggle("on", x === b)); renderList(); });
 $("#btnShare").onclick = shareFavs;
 $("#btnIcs").onclick = icsFavs;
 $("#btnFavMap").onclick = () => { F.favOnly = !F.favOnly; render(); };
+/* přepínač jazyka: tlačítko ukazuje jazyk, na který se přepne */
+const otherLang = EN ? "cs" : "en";
+$("#btnLang").textContent = otherLang === "en" ? "EN" : "CZ";
+$("#btnLang").title = otherLang === "en" ? "English" : "Čeština"; $("#btnLang").setAttribute("aria-label", $("#btnLang").title);
+$("#btnLang").onclick = () => window.I18N && I18N.set(otherLang);
+$("#aboutLang").textContent = otherLang === "en" ? "English version" : "Česká verze";
+$("#aboutLang").onclick = ev => { ev.preventDefault(); window.I18N && I18N.set(otherLang); };
 
 /* ---------- start ---------- */
 setSnap("peek");
@@ -839,7 +866,7 @@ function defaultSeason() {
 }
 function loadSeason(id, opt = {}) {
   SEZ = id; LS.set("tm.sez", id === defaultSeason() ? null : id);
-  $("#summary").textContent = "Načítám " + (sezInfo().nazev || id) + "…";
+  $("#summary").textContent = T("Načítám {s}…", {s: sezName(sezInfo()) || id});
   return fetch(`data/${id}/turnaje.json`, {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(js => {
     DATA = js; EV = js.turnaje; VEN = js.mista; byVenue = new Map();
     for (const e of EV) (byVenue.get(e.misto) || byVenue.set(e.misto, []).get(e.misto)).push(e);
@@ -848,7 +875,7 @@ function loadSeason(id, opt = {}) {
     else if (!isArchive() && (!F.from || F.from < iso(today))) F.from = iso(today);
     else if (isArchive() && (!F.from || F.from > si.do || F.from < si.od)) { F.from = si.od; F.to = ""; }
     const upd = new Date(js.meta.aktualizace);
-    $("#fText").placeholder = `Hráč, klub, turnaj… (data ${upd.getDate()}. ${upd.getMonth() + 1}.)`;
+    $("#fText").placeholder = T("Hráč, klub, turnaj… (data {d})", {d: dShort(iso(upd))});
     clearFocus(); buildFilterUI();
     HR = null; if (F.players.length) loadPlayers();
     showPanel(panel === "detail" || panel === "player" ? "list" : (SUB.has(panel) ? "list" : panel));
@@ -859,7 +886,7 @@ function toggleSeasonMenu() {
   let m = $("#seasonMenu");
   if (m) { m.remove(); return; }
   m = document.createElement("div"); m.id = "seasonMenu"; m.className = "seasonmenu";
-  m.innerHTML = `<div class="sh">Sezóna</div>` + SEZONY.map(x => `<button data-s="${x.id}" class="${x.id === SEZ ? "on" : ""}"><span>${sezIcon(x.id)} ${esc(sezLabel(x))}</span><small>${nf(x.pocet)} turnajů${x.archiv ? " · archiv" : x.od > iso(today) ? " · připravuje se" : " · probíhá"}</small></button>`).join("");
+  m.innerHTML = `<div class="sh">${T("Sezóna")}</div>` + SEZONY.map(x => `<button data-s="${x.id}" class="${x.id === SEZ ? "on" : ""}"><span>${sezIcon(x.id)} ${esc(sezLabel(x))}</span><small>${nf(x.pocet)} ${T("turnajů")} · ${T(x.archiv ? "archiv" : x.od > iso(today) ? "připravuje se" : "probíhá")}</small></button>`).join("");
   document.body.appendChild(m);
   m.querySelectorAll("[data-s]").forEach(b => b.onclick = () => { m.remove(); if (b.dataset.s !== SEZ) loadSeason(b.dataset.s, {reset: true}).then(() => fitVisible(L.latLngBounds(CZ))); });
 }
@@ -877,6 +904,6 @@ fetch("data/sezony.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null)
   if (isDesk()) setSnap("full");
   if (F.center && F.centerMode !== "none") fitVisible(L.latLng(F.center).toBounds(F.radius * 2000));
   else fitVisible(L.latLngBounds(CZ));
-}).catch(err => { $("#summary").textContent = "Data se nepodařilo načíst: " + err; });
+}).catch(err => { $("#summary").textContent = T("Data se nepodařilo načíst: ") + err; });
 if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
 })();

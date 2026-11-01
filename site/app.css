@@ -258,3 +258,4 @@ button.logo{border:0;padding:0;cursor:pointer}
 .seasonmenu button.on{background:var(--accent-soft);color:var(--accent)}
 .seasonmenu button small{color:var(--muted);font-size:12.5px}
 .occ .zrtxt{color:var(--bad)}
+.iconbtn.lang{font:700 13px/1 inherit;letter-spacing:.04em}

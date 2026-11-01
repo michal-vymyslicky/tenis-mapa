@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 1. 11. 2026, noc, verze webu v2.5).
+Předávací log (stav k 1. 11. 2026, noc, verze webu v2.6).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -24,6 +24,12 @@ Předávací log (stav k 1. 11. 2026, noc, verze webu v2.5).
 - Paměť míst klubů `data/mista_kluby.json` – stejný klub = stejné místo napříč ročníky.
 - Částečně zrušené turnaje (jen dívky / jen chlapci) se už neškrtají celé (pole `zr`).
 - Přepočet míst bez stahování: `python3 pipeline/update.py --sezona Z2627 --bez-stahovani` (lze opakovat `--sezona`).
+
+## v2.6 – anglická verze
+- `site/i18n.js`: slovník čeština → angličtina (klíč = český text), `T("text", {proměnné})` v app.js, statické HTML se přeloží
+  při startu (textové uzly + atributy, delší bloky O aplikaci přes `data-i18n`). Jazyk: `?lang=en|cs` > uložená volba > jazyk prohlížeče.
+- Přepínač CZ/EN v pravém sloupci tlačítek mapy a v O aplikaci. Názvy turnajů, klubů a adresy zůstávají česky (data ČTS).
+- Nový text v aplikaci = přidat anglický překlad do `EN` v i18n.js (jinak se ukáže česky).
 
 ## Údržba
 - Nový žebříček ČTS: exportovat z Tenis Data `data/01_zebricky/zebricky.csv` do `pipeline/zebricek_<období>.json`
