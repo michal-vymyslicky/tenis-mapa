@@ -1,5 +1,5 @@
 {
- "aktualizace": "2026-11-01T20:28+01:00",
+ "aktualizace": "2026-11-01T22:44+01:00",
  "zebricek": "zima 2026/27",
  "sezony": [
   {
@@ -12,12 +12,39 @@
    "archiv": false
   },
   {
+   "id": "L26",
+   "nazev": "léto 2026",
+   "od": "2026-04-01",
+   "do": "2026-09-30",
+   "pocet": 2064,
+   "aktualizace": "2026-11-01T21:45+01:00",
+   "archiv": true
+  },
+  {
    "id": "Z2526",
    "nazev": "zima 2025/26",
    "od": "2025-10-01",
    "do": "2026-03-31",
    "pocet": 1395,
    "aktualizace": "2026-11-01T20:25+01:00",
+   "archiv": true
+  },
+  {
+   "id": "L25",
+   "nazev": "léto 2025",
+   "od": "2025-04-01",
+   "do": "2025-09-30",
+   "pocet": 1836,
+   "aktualizace": "2026-11-01T22:44+01:00",
+   "archiv": true
+  },
+  {
+   "id": "Z2425",
+   "nazev": "zima 2024/25",
+   "od": "2024-10-01",
+   "do": "2025-03-31",
+   "pocet": 1292,
+   "aktualizace": "2026-11-01T22:10+01:00",
    "archiv": true
   }
  ]

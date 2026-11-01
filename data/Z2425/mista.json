@@ -38,6 +38,19 @@
   "osm_vzdalenost_km": 0.25,
   "geokod": "2016/7, Lužánecká, Zábrdovice, Brno-střed, Brno, okres Brno-město, Jihomoravský kraj, 602 00, Česko"
  },
+ "klub:cltk bizuterie jablonec n n z s": {
+  "klic": "klub:cltk bizuterie jablonec n n z s",
+  "poradatel": "ČLTK Bižuterie Jablonec n. N., z. s.",
+  "adresa": "U Tenisu 3859/214, 46804 Jablonec n.N.",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.728894,
+  "lon": 15.145999,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala",
+  "osm_vzdalenost_km": 0.03,
+  "geokod": "3859/214, U Tenisu, Proseč nad Nisou, Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, 468 04, Česko"
+ },
  "klub:cltk bizuterie jablonec n n z s|u tenisu 3859 214 jablonec n n": {
   "klic": "klub:cltk bizuterie jablonec n n z s|u tenisu 3859 214 jablonec n n",
   "poradatel": "ČLTK Bižuterie Jablonec n. N., z. s.",
@@ -50,6 +63,19 @@
   "nazev_mista": "Tenisová hala",
   "osm_vzdalenost_km": 0.03,
   "geokod": "3859/214, U Tenisu, Proseč nad Nisou, Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, 468 04, Česko"
+ },
+ "klub:cta rudna": {
+  "klic": "klub:cta rudna",
+  "poradatel": "CTA Rudná",
+  "adresa": "Hořelické náměstí 1130, 25219 Rudná u Prahy",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 50.026545,
+  "lon": 14.223906,
+  "presnost": "areal",
+  "nazev_mista": "Tenis & Beach Rudná",
+  "osm_vzdalenost_km": 0.01,
+  "geokod": "1130/5, Hořelické náměstí, Hořelice, Rudná, okres Praha-západ, Středočeský kraj, 252 19, Česko"
  },
  "klub:cta rudna|horelicke namesti 1130 rudna u prahy": {
   "klic": "klub:cta rudna|horelicke namesti 1130 rudna u prahy",
@@ -77,6 +103,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "524, Osvobození, Nová Plzeň, Vřesina, okres Ostrava-město, Moravskoslezský kraj, 742 85, Česko"
  },
+ "klub:htk trebic": {
+  "klic": "klub:htk trebic",
+  "poradatel": "HTK Třebíč",
+  "adresa": "Janáčkovo stromořadí 156, 67401 Třebíč",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.213204,
+  "lon": 15.895733,
+  "presnost": "areal",
+  "nazev_mista": "HTK Třebíč",
+  "osm_vzdalenost_km": 0.02,
+  "geokod": "156, Janáčkovo stromořadí, Jejkov, Třebíč, okres Třebíč, Kraj Vysočina, 674 01, Česko"
+ },
  "klub:htk trebic|janackovo stromoradi 156 trebic": {
   "klic": "klub:htk trebic|janackovo stromoradi 156 trebic",
   "poradatel": "HTK Třebíč",
@@ -103,6 +142,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "ev.38, ostrov Štvanice, Holešovice, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
  },
+ "klub:i cltpk cercany|sazavska 491 cercany": {
+  "klic": "klub:i cltpk cercany|sazavska 491 cercany",
+  "poradatel": "I. ČLTPK Čerčany",
+  "adresa": "Sázavská 491, Čerčany",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 49.855865,
+  "lon": 14.702109,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "491, Sázavská, Vysoká Lhota, Čerčany, okres Benešov, Středočeský kraj, 257 22, Česko"
+ },
  "klub:jiskra velke brezno|alej sportovcu 256 velke brezno": {
   "klic": "klub:jiskra velke brezno|alej sportovcu 256 velke brezno",
   "poradatel": "Jiskra Velké Březno",
@@ -116,18 +168,18 @@
   "osm_vzdalenost_km": null,
   "geokod": "256, Alej sportovců, Valtířov, Velké Březno, okres Ústí nad Labem, Ústecký kraj, 403 23, Česko"
  },
- "klub:kelly tennis academy z s|cekanice 245 tabor": {
-  "klic": "klub:kelly tennis academy z s|cekanice 245 tabor",
-  "poradatel": "Kelly Tennis Academy z.s.",
-  "adresa": "Čekanice 245, Tábor",
-  "zdroj": "detail",
-  "region": "Jihočeský",
-  "lat": 49.429452,
-  "lon": 14.686334,
+ "klub:lob s a bohnice z s": {
+  "klic": "klub:lob s a bohnice z s",
+  "poradatel": "LOB S.A. Bohnice, z.s.",
+  "adresa": "Bukolská 838/2a, 18100 Praha 8",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.130225,
+  "lon": 14.433265,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "245, Čekanice, Tábor, okres Tábor, Jihočeský kraj, Jihozápad, 390 02, Česko"
+  "geokod": "Bukolská, Čimice, Praha 8, obvod Praha 8, Praha, 181 06, Česko"
  },
  "klub:lob s a bohnice z s|bukolska 838 2a praha 8": {
   "klic": "klub:lob s a bohnice z s|bukolska 838 2a praha 8",
@@ -142,6 +194,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "Bukolská, Čimice, Praha 8, obvod Praha 8, Praha, 181 06, Česko"
  },
+ "klub:lokomotiva karlovy vary|becovska 1811 11 karlovy vary tuhnice": {
+  "klic": "klub:lokomotiva karlovy vary|becovska 1811 11 karlovy vary tuhnice",
+  "poradatel": "Lokomotiva Karlovy Vary",
+  "adresa": "Bečovská 1811/11, Karlovy Vary - Tuhnice",
+  "zdroj": "detail",
+  "region": "Západočeský",
+  "lat": 50.224453,
+  "lon": 12.848552,
+  "presnost": "areal",
+  "nazev_mista": "TK Lokomotiva Karlovy Vary",
+  "osm_vzdalenost_km": 0.0,
+  "geokod": "TK Lokomotiva Karlovy Vary, 1811/11, Bečovská, Tuhnice, Karlovy Vary, okres Karlovy Vary, Karlovarský kraj, 360 01, Česko"
+ },
  "klub:lokomotiva nymburk|boleslavska 319 nymburk": {
   "klic": "klub:lokomotiva nymburk|boleslavska 319 nymburk",
   "poradatel": "Lokomotiva Nymburk",
@@ -155,6 +220,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "319/11, Boleslavská třída, Drahelice, Nymburk, okres Nymburk, Středočeský kraj, 288 02, Česko"
  },
+ "klub:lokomotiva praha": {
+  "klic": "klub:lokomotiva praha",
+  "poradatel": "Lokomotiva Praha",
+  "adresa": "Pod plynojemem 164, 18000 Praha 8",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.097667,
+  "lon": 14.473274,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "ev.164, Pod Plynojemem, Palmovka, Praha 8, obvod Praha 8, Praha, 186 00, Česko"
+ },
  "klub:lokomotiva praha|pod plynojemem 164 praha 8": {
   "klic": "klub:lokomotiva praha|pod plynojemem 164 praha 8",
   "poradatel": "Lokomotiva Praha",
@@ -167,6 +245,32 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "ev.164, Pod Plynojemem, Palmovka, Praha 8, obvod Praha 8, Praha, 186 00, Česko"
+ },
+ "klub:ltc cesky krumlov|chvalsinska 247 cesky krumlov": {
+  "klic": "klub:ltc cesky krumlov|chvalsinska 247 cesky krumlov",
+  "poradatel": "LTC Český Krumlov",
+  "adresa": "Chvalšinská 247, Český Krumlov",
+  "zdroj": "detail",
+  "region": "Jihočeský",
+  "lat": 48.814982,
+  "lon": 14.306937,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala",
+  "osm_vzdalenost_km": 0.01,
+  "geokod": "Lawn Tennis Club Český Krumlov, 247, Chvalšinská, Nový Vyšný, Nové Dobrkovice, Vyšný, Český Krumlov, okres Český Krumlov, Jihočeský kraj, Jihozápad, 381 01, Česko"
+ },
+ "klub:ltc domazlice|elisky krasnohorske 378 domazlice": {
+  "klic": "klub:ltc domazlice|elisky krasnohorske 378 domazlice",
+  "poradatel": "LTC Domažlice",
+  "adresa": "Elišky Krásnohorské 378, Domažlice",
+  "zdroj": "detail",
+  "region": "Západočeský",
+  "lat": 49.4379,
+  "lon": 12.921145,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "378, Elišky Krásnohorské, Indie, Hořejší Předměstí, Domažlice, okres Domažlice, Plzeňský kraj, Jihozápad, 344 01, Česko"
  },
  "klub:ltc houstka": {
   "klic": "klub:ltc houstka",
@@ -194,6 +298,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "1259, Houštka, Písek, Stará Boleslav, Brandýs nad Labem-Stará Boleslav, okres Praha-východ, Středočeský kraj, 250 01, Česko"
  },
+ "klub:ltc humpolec": {
+  "klic": "klub:ltc humpolec",
+  "poradatel": "LTC Humpolec",
+  "adresa": "Hálkova 1845, 39601 Humpolec",
+  "zdroj": "adresar",
+  "region": "Jihočeský",
+  "lat": 49.540365,
+  "lon": 15.348115,
+  "presnost": "areal",
+  "nazev_mista": "V Brance, tenisová hala",
+  "osm_vzdalenost_km": 0.03,
+  "geokod": "1845, Hálkova, Humpolec, okres Pelhřimov, Kraj Vysočina, 396 01, Česko"
+ },
  "klub:ltc humpolec|halkova 1845 humpolec": {
   "klic": "klub:ltc humpolec|halkova 1845 humpolec",
   "poradatel": "LTC Humpolec",
@@ -206,19 +323,6 @@
   "nazev_mista": "V Brance, tenisová hala",
   "osm_vzdalenost_km": 0.03,
   "geokod": "1845, Hálkova, Humpolec, okres Pelhřimov, Kraj Vysočina, 396 01, Česko"
- },
- "klub:ltc litvinov|jiraskova 413 litvinov": {
-  "klic": "klub:ltc litvinov|jiraskova 413 litvinov",
-  "poradatel": "LTC Litvínov",
-  "adresa": "Jiráskova 413, Litvínov",
-  "zdroj": "detail",
-  "region": "Severočeský",
-  "lat": 50.599167,
-  "lon": 13.618692,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "413, Jiráskova, Horní Litvínov, Litvínov, okres Most, Ústecký kraj, 436 01, Česko"
  },
  "klub:ltc radotin|sarovo kolo 932 1 praha 5": {
   "klic": "klub:ltc radotin|sarovo kolo 932 1 praha 5",
@@ -259,6 +363,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "224, Sportovní, Lipová, Choceňské Předměstí, Vysoké Mýto, okres Ústí nad Orlicí, Pardubický kraj, 566 01, Česko"
  },
+ "klub:ltk liberec": {
+  "klic": "klub:ltk liberec",
+  "poradatel": "LTK Liberec",
+  "adresa": "Fibichova 1377/8, 46001 Liberec",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.775165,
+  "lon": 15.075029,
+  "presnost": "areal",
+  "nazev_mista": "LTK",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "1377/8, Fibichova, Staré Město, Kristiánov, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
+ },
  "klub:ltk liberec|fibichova 1377 8 liberec": {
   "klic": "klub:ltk liberec|fibichova 1377 8 liberec",
   "poradatel": "LTK Liberec",
@@ -271,6 +388,32 @@
   "nazev_mista": "LTK",
   "osm_vzdalenost_km": 0.05,
   "geokod": "Restaurace Wimbledon, 1377/8, Fibichova, Staré Město, Kristiánov, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
+ },
+ "klub:ltk teplice o s": {
+  "klic": "klub:ltk teplice o s",
+  "poradatel": "LTK TEPLICE o.s.",
+  "adresa": "Na letné 412/7, 41501 Teplice",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.638211,
+  "lon": 13.833963,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "412/7, Na Letné, Prosetice, Teplice, okres Teplice, Ústecký kraj, 415 01, Česko"
+ },
+ "klub:ltk teplice o s|na letne 412 7 teplice": {
+  "klic": "klub:ltk teplice o s|na letne 412 7 teplice",
+  "poradatel": "LTK TEPLICE o.s.",
+  "adresa": "Na letné 412/7, Teplice",
+  "zdroj": "detail",
+  "region": "Severočeský",
+  "lat": 50.638211,
+  "lon": 13.833963,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "412/7, Na Letné, Prosetice, Teplice, okres Teplice, Ústecký kraj, 415 01, Česko"
  },
  "klub:panorama sport frydlant nad ostravici|sportovni 1530 frydlant n o": {
   "klic": "klub:panorama sport frydlant nad ostravici|sportovni 1530 frydlant n o",
@@ -285,6 +428,19 @@
   "osm_vzdalenost_km": 0.18,
   "geokod": "1530, Sportovní, Frýdlant, Nová Ves, Frýdlant nad Ostravicí, okres Frýdek-Místek, Moravskoslezský kraj, 739 11, Česko"
  },
+ "klub:pliskova tennis academy ricany": {
+  "klic": "klub:pliskova tennis academy ricany",
+  "poradatel": "Pliskova Tennis Academy-Říčany",
+  "adresa": "V Chobotě 2112, 25101 Říčany",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 49.982173,
+  "lon": 14.657248,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "2112/21, V Chobotě, Říčany, okres Praha-východ, Středočeský kraj, 251 01, Česko"
+ },
  "klub:pliskova tennis academy ricany|v chobote 2112 ricany": {
   "klic": "klub:pliskova tennis academy ricany|v chobote 2112 ricany",
   "poradatel": "Pliskova Tennis Academy-Říčany",
@@ -298,18 +454,18 @@
   "osm_vzdalenost_km": null,
   "geokod": "2112/21, V Chobotě, Říčany, okres Praha-východ, Středočeský kraj, 251 01, Česko"
  },
- "klub:prestige tennis club frydek mistek|28 rijna 2236 frydek mistek": {
-  "klic": "klub:prestige tennis club frydek mistek|28 rijna 2236 frydek mistek",
-  "poradatel": "Prestige tennis club Frýdek-Místek",
-  "adresa": "28.rijna 2236, Frydek-Mistek",
+ "klub:radost kraluv dvur|na skalce 380 kraluv dvur": {
+  "klic": "klub:radost kraluv dvur|na skalce 380 kraluv dvur",
+  "poradatel": "RADOST Králův Dvůr",
+  "adresa": "Na Skalce 380, Králův Dvůr",
   "zdroj": "detail",
-  "region": "Severomoravský",
-  "lat": 49.673148,
-  "lon": 18.35047,
-  "presnost": "areal",
-  "nazev_mista": "Prestige tennis park",
-  "osm_vzdalenost_km": 0.06,
-  "geokod": "2236, 28. října, Místek, Bahno, Frýdek-Místek, okres Frýdek-Místek, Moravskoslezský kraj, 738 01, Česko"
+  "region": "Středočeský",
+  "lat": 49.940666,
+  "lon": 14.013952,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "380, Na Skalce, Počaply, Popovice, Králův Dvůr, okres Beroun, Středočeský kraj, 267 01, Česko"
  },
  "klub:rapid plzen tenis z s|na lopatarne 1550 12 doubravka plzen 4": {
   "klic": "klub:rapid plzen tenis z s|na lopatarne 1550 12 doubravka plzen 4",
@@ -324,19 +480,6 @@
   "osm_vzdalenost_km": 0.12,
   "geokod": "1550/12, Na Lopatárně, Doubravka, Plzeň 4, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 312 00, Česko"
  },
- "klub:renata voracova akademie z s|druzstevni 355 hvozdna": {
-  "klic": "klub:renata voracova akademie z s|druzstevni 355 hvozdna",
-  "poradatel": "Renáta Voráčová akademie, z.s.",
-  "adresa": "Družstevní 355, Hvozdná",
-  "zdroj": "detail",
-  "region": "Jihomoravský",
-  "lat": 49.255604,
-  "lon": 17.758499,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "355, Družstevní, Hvozdná, okres Zlín, Zlínský kraj, 763 10, Česko"
- },
  "klub:roznovsky tenisovy klub|pod strani 312 roznov pod radhostem": {
   "klic": "klub:roznovsky tenisovy klub|pod strani 312 roznov pod radhostem",
   "poradatel": "Rožnovský tenisový klub",
@@ -350,18 +493,18 @@
   "osm_vzdalenost_km": null,
   "geokod": "ev.312, Pod strání, Rožnov pod Radhoštěm, okres Vsetín, Zlínský kraj, 756 61, Česko"
  },
- "klub:shark brno|turanka 1260 1 brno": {
-  "klic": "klub:shark brno|turanka 1260 1 brno",
-  "poradatel": "SHARK Brno",
-  "adresa": "Tuřanka 1260/1, Brno",
-  "zdroj": "detail",
-  "region": "Jihomoravský",
-  "lat": 49.176418,
-  "lon": 16.688123,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1260/1, Tuřanka, Brno-Slatina, Brno, okres Brno-město, Jihomoravský kraj, 627 00, Česko"
+ "klub:sk hamr z s": {
+  "klic": "klub:sk hamr z s",
+  "poradatel": "SK HAMR, z.s.",
+  "adresa": "K Vodě 3200/6, 10600 Praha 10",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.053958,
+  "lon": 14.48576,
+  "presnost": "areal",
+  "nazev_mista": "Hamr",
+  "osm_vzdalenost_km": 0.09,
+  "geokod": "3200/6, K vodě, Záběhlice, Praha 10, obvod Praha 10, Praha, 106 00, Česko"
  },
  "klub:sk hamr z s|k vode 3200 6 praha 10": {
   "klic": "klub:sk hamr z s|k vode 3200 6 praha 10",
@@ -415,6 +558,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "2918/1b, Karlovecká, Vávrovice, Opava, okres Opava, Moravskoslezský kraj, 747 07, Česko"
  },
+ "klub:sk lama o s": {
+  "klic": "klub:sk lama o s",
+  "poradatel": "SK LAMA o.s.",
+  "adresa": "Gudrichova 762, 747 41 Hradec nad Moravicí",
+  "zdroj": "adresar",
+  "region": "Severomoravský",
+  "lat": 49.870277,
+  "lon": 17.873909,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "762, Gudrichova, Kajlovec, Hradec nad Moravicí, okres Opava, Moravskoslezský kraj, 747 41, Česko"
+ },
  "klub:sk lama o s|gudrichova 762 hradec nad moravici": {
   "klic": "klub:sk lama o s|gudrichova 762 hradec nad moravici",
   "poradatel": "SK LAMA o.s.",
@@ -428,18 +584,18 @@
   "osm_vzdalenost_km": null,
   "geokod": "762, Gudrichova, Kajlovec, Hradec nad Moravicí, okres Opava, Moravskoslezský kraj, 747 41, Česko"
  },
- "klub:sk oaza praha|jeremenkova 106 praha 4": {
-  "klic": "klub:sk oaza praha|jeremenkova 106 praha 4",
-  "poradatel": "SK OAZA Praha",
-  "adresa": "Jeremenkova 106, Praha 4",
+ "klub:sk matchball ceska lipa|bozeny nemcove 3129 ceska lipa": {
+  "klic": "klub:sk matchball ceska lipa|bozeny nemcove 3129 ceska lipa",
+  "poradatel": "SK Matchball Česká Lípa",
+  "adresa": "Boženy Němcové 3129, Česká Lípa",
   "zdroj": "detail",
-  "region": "Praha",
-  "lat": 50.043722,
-  "lon": 14.434876,
+  "region": "Severočeský",
+  "lat": 50.683485,
+  "lon": 14.533094,
   "presnost": "areal",
-  "nazev_mista": "SPORTOVNÍ KLUB OAZA PRAHA",
-  "osm_vzdalenost_km": 0.02,
-  "geokod": "1835/106, Jeremenkova, Zelená Liška, Krč, Praha 4, obvod Praha 4, Praha, 140 00, Česko"
+  "nazev_mista": "tenisové kurty",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "3129, Boženy Němcové, Dolní Libchava, Česká Lípa, okres Česká Lípa, Liberecký kraj, 470 01, Česko"
  },
  "klub:sk satalice|u arborky 397 praha satalice": {
   "klic": "klub:sk satalice|u arborky 397 praha satalice",
@@ -467,18 +623,18 @@
   "osm_vzdalenost_km": 0.0,
   "geokod": "Tenis Centrum CAFEX, s.r.o., 2590, Na Studánkách, Rakovník II, Rakovník, okres Rakovník, Středočeský kraj, 269 01, Česko"
  },
- "klub:sk tenis myto z s|dlouha trida 17 myto": {
-  "klic": "klub:sk tenis myto z s|dlouha trida 17 myto",
-  "poradatel": "SK Tenis Mýto, z.s.",
-  "adresa": "Dlouhá třída 17, Mýto",
-  "zdroj": "detail",
-  "region": "Západočeský",
-  "lat": 49.787915,
-  "lon": 13.732336,
+ "klub:sk tenis tisnov": {
+  "klic": "klub:sk tenis tisnov",
+  "poradatel": "SK Tenis Tišnov",
+  "adresa": "Ostrovec 1897, 666 01 Tišnov",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.344282,
+  "lon": 16.41746,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "17, Dlouhá třída, Mýto, okres Rokycany, Plzeňský kraj, Jihozápad, 338 05, Česko"
+  "geokod": "1897, Ostrovec, Tišnov, okres Brno-venkov, Jihomoravský kraj, 666 01, Česko"
  },
  "klub:sk tenis tisnov|ostrovec 1897 tisnov": {
   "klic": "klub:sk tenis tisnov|ostrovec 1897 tisnov",
@@ -493,19 +649,6 @@
   "osm_vzdalenost_km": null,
   "geokod": "1897, Ostrovec, Tišnov, okres Brno-venkov, Jihomoravský kraj, 666 01, Česko"
  },
- "klub:sk uhersky brod|zatisi 1958 uhersky brod": {
-  "klic": "klub:sk uhersky brod|zatisi 1958 uhersky brod",
-  "poradatel": "SK Uherský Brod",
-  "adresa": "Zátiší 1958, Uherský Brod",
-  "zdroj": "detail",
-  "region": "Jihomoravský",
-  "lat": 49.020586,
-  "lon": 17.652297,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1958, Zátiší, sídliště Olšava, Uherský Brod, okres Uherské Hradiště, Zlínský kraj, 688 01, Česko"
- },
  "klub:sk ujezd praha 4 z s|na statkem 118 praha 4": {
   "klic": "klub:sk ujezd praha 4 z s|na statkem 118 praha 4",
   "poradatel": "SK Újezd Praha 4, z.s.",
@@ -518,19 +661,6 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Nad Statkem, Praha-Újezd, obvod Praha 4, Praha, 252 43, Česko"
- },
- "klub:sk veska|veska 6 dolany veska": {
-  "klic": "klub:sk veska|veska 6 dolany veska",
-  "poradatel": "SK Véska",
-  "adresa": "Véska 6, Dolany - Véska",
-  "zdroj": "detail",
-  "region": "Severomoravský",
-  "lat": 49.656928,
-  "lon": 17.360202,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "6, Véska, Dolany, okres Olomouc, Olomoucký kraj, 783 16, Česko"
  },
  "klub:sk vitality slezsko o s|sportovni areal vendryne 1017 vedryne": {
   "klic": "klub:sk vitality slezsko o s|sportovni areal vendryne 1017 vedryne",
@@ -558,17 +688,44 @@
   "osm_vzdalenost_km": null,
   "geokod": "Závodní, Vítkovice, Ostrava, okres Ostrava-město, Moravskoslezský kraj, 703 00, Česko"
  },
- "klub:slavia vsst liberec": {
-  "klic": "klub:slavia vsst liberec",
-  "poradatel": "Slavia VŠST Liberec",
-  "adresa": "",
+ "klub:sk zlin mladcova": {
+  "klic": "klub:sk zlin mladcova",
+  "poradatel": "SK Zlín-Mladcová",
+  "adresa": "Mladcová 493, 76001 Zlín - Mladcová",
   "zdroj": "adresar",
-  "region": "Severočeský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
+  "region": "Jihomoravský",
+  "lat": 49.247517,
+  "lon": 17.633135,
+  "presnost": "adresa",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "osm_vzdalenost_km": null,
+  "geokod": "Mladcová, Zlín, okres Zlín, Zlínský kraj, Česko"
+ },
+ "klub:sk zlin mladcova|mladcova 493 zlin mladcova": {
+  "klic": "klub:sk zlin mladcova|mladcova 493 zlin mladcova",
+  "poradatel": "SK Zlín-Mladcová",
+  "adresa": "Mladcová 493, Zlín - Mladcová",
+  "zdroj": "detail",
+  "region": "Jihomoravský",
+  "lat": 49.247517,
+  "lon": 17.633135,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Mladcová, Zlín, okres Zlín, Zlínský kraj, Česko"
+ },
+ "klub:skt frydlant n o|sportovni 863 frydlant nad ostravici": {
+  "klic": "klub:skt frydlant n o|sportovni 863 frydlant nad ostravici",
+  "poradatel": "SKT Frýdlant n.O.",
+  "adresa": "Sportovní 863 , Frýdlant nad Ostravicí",
+  "zdroj": "detail",
+  "region": "Severomoravský",
+  "lat": 49.582042,
+  "lon": 18.363819,
+  "presnost": "areal",
+  "nazev_mista": "Sportovní klub tenis Frýdlant nad Ostravicí",
+  "osm_vzdalenost_km": 0.01,
+  "geokod": "863, Sportovní, Frýdlant, Nová Ves, Frýdlant nad Ostravicí, okres Frýdek-Místek, Moravskoslezský kraj, 739 11, Česko"
  },
  "klub:slovan hranice z s|hranice": {
   "klic": "klub:slovan hranice z s|hranice",
@@ -596,70 +753,56 @@
   "osm_vzdalenost_km": null,
   "geokod": "229/20, Na Průhonu, Čimice, Praha 8, obvod Praha 8, Praha, 181 00, Česko"
  },
- "klub:sokol dolni pocernice z s|v raji 905 praha 9 dolni pocernice narodnich hrdinu 290": {
-  "klic": "klub:sokol dolni pocernice z s|v raji 905 praha 9 dolni pocernice narodnich hrdinu 290",
-  "poradatel": "Sokol Dolní Počernice z.s.",
-  "adresa": "V Raji 905, Praha 9-Dolní Počernice ,Narodních hrdinů 290",
+ "klub:sokol kralovice": {
+  "klic": "klub:sokol kralovice",
+  "poradatel": "Sokol Královice",
+  "adresa": "",
+  "zdroj": "nezname",
+  "region": "",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
+ },
+ "klub:sokol kralovice|pod hradem praha 10 kralovice": {
+  "klic": "klub:sokol kralovice|pod hradem praha 10 kralovice",
+  "poradatel": "Sokol Královice",
+  "adresa": "Pod Hradem, Praha 10 - Královice",
   "zdroj": "detail",
-  "region": "Praha",
-  "lat": 50.088256,
-  "lon": 14.575565,
+  "region": "",
+  "lat": 50.038407,
+  "lon": 14.637124,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "905, V Ráji, Praha-Dolní Počernice, obvod Praha 9, Praha, 190 12, Česko"
+  "geokod": "Pod Hradem, Praha-Královice, obvod Praha 10, Praha, 103 00, Česko"
  },
- "klub:sokol smichov i": {
-  "klic": "klub:sokol smichov i",
-  "poradatel": "Sokol Smíchov I.",
-  "adresa": "U Mrázovky, sport.areál Mrázovka, 15000 Praha 5",
+ "klub:sokol reporyje|jachymovska 613 1 praha 5 reporyje": {
+  "klic": "klub:sokol reporyje|jachymovska 613 1 praha 5 reporyje",
+  "poradatel": "Sokol Řeporyje",
+  "adresa": "Jáchymovská 613/1, Praha 5 - Řeporyje",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.03535,
+  "lon": 14.312967,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "613/1, Jáchymovská, Řeporyje, Praha-Řeporyje, obvod Praha 5, Praha, 155 00, Česko"
+ },
+ "klub:sportovni klub ltc modrany 2005 z s": {
+  "klic": "klub:sportovni klub ltc modrany 2005 z s",
+  "poradatel": "Sportovní klub LTC Modřany 2005 z.s.",
+  "adresa": "Přechodní 1594/1 , 14000 Praha 4",
   "zdroj": "adresar",
   "region": "Praha",
-  "lat": 50.051918,
-  "lon": 14.38393,
-  "presnost": "obec",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "Praha 5, obvod Praha 5, Praha, Česko"
- },
- "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5": {
-  "klic": "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5",
-  "poradatel": "Sokol Smíchov I.",
-  "adresa": "U Mrázovky, sport.areál Mrázovka, Praha 5",
-  "zdroj": "detail",
-  "region": "Praha",
-  "lat": 50.051918,
-  "lon": 14.38393,
-  "presnost": "obec",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "Praha 5, obvod Praha 5, Praha, Česko"
- },
- "klub:sportcentrum hruskova z s|hruskova 2194 sokolov": {
-  "klic": "klub:sportcentrum hruskova z s|hruskova 2194 sokolov",
-  "poradatel": "Sportcentrum Hrušková z.s.",
-  "adresa": "Hrušková 2194, Sokolov",
-  "zdroj": "detail",
-  "region": "Západočeský",
-  "lat": 50.155391,
-  "lon": 12.711499,
+  "lat": 50.039001,
+  "lon": 14.453165,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "2194, Hrušková, Vítkov, Sokolov, okres Sokolov, Karlovarský kraj, 356 01, Česko"
- },
- "klub:sportclub revnice z s|ruzova 1256 revnice": {
-  "klic": "klub:sportclub revnice z s|ruzova 1256 revnice",
-  "poradatel": "Sportclub Řevnice, z.s.",
-  "adresa": "Růžová 1256, Řevnice",
-  "zdroj": "detail",
-  "region": "Středočeský",
-  "lat": 49.917951,
-  "lon": 14.22783,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1256, Růžová, Řevnice, okres Praha-západ, Středočeský kraj, 252 30, Česko"
+  "geokod": "1594/1, Přechodní, Krč, Praha 4, obvod Praha 4, Praha, 140 00, Česko"
  },
  "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany": {
   "klic": "klub:sportovni klub ltc modrany 2005 z s|prechodni 1594 1 dvorce komoranska ulice praha 4 dvorce praha 4 modrany",
@@ -674,57 +817,18 @@
   "osm_vzdalenost_km": null,
   "geokod": "1594/1, Přechodní, Krč, Praha 4, obvod Praha 4, Praha, 140 00, Česko"
  },
- "klub:start brno|loosova 1b brno": {
-  "klic": "klub:start brno|loosova 1b brno",
-  "poradatel": "Start Brno",
-  "adresa": "Loosova 1b, Brno",
-  "zdroj": "detail",
+ "klub:tc bors club": {
+  "klic": "klub:tc bors club",
+  "poradatel": "TC BORS CLUB",
+  "adresa": "Na Valtické 650/85, 69141 Břeclav",
+  "zdroj": "adresar",
   "region": "Jihomoravský",
-  "lat": 49.231177,
-  "lon": 16.622294,
-  "presnost": "areal",
-  "nazev_mista": "TJ Start",
-  "osm_vzdalenost_km": 0.1,
-  "geokod": "800/1b, Loosova, Lesná, Brno-sever, Brno, okres Brno-město, Jihomoravský kraj, 638 00, Česko"
- },
- "klub:start liberec|masarykova 699 9 liberec 1": {
-  "klic": "klub:start liberec|masarykova 699 9 liberec 1",
-  "poradatel": "Start Liberec",
-  "adresa": "Masarykova 699/9, Liberec 1",
-  "zdroj": "detail",
-  "region": "Severočeský",
-  "lat": 50.774176,
-  "lon": 15.067474,
+  "lat": 48.757478,
+  "lon": 16.855764,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "699/9, Masarykova, Staré Město, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
- },
- "klub:ta l n zlin mladcova z s|slunecna 4548 zlin": {
-  "klic": "klub:ta l n zlin mladcova z s|slunecna 4548 zlin",
-  "poradatel": "TA L&N Zlín-Mladcová,z.s.",
-  "adresa": "Slunečná 4548, Zlín",
-  "zdroj": "detail",
-  "region": "Jihomoravský",
-  "lat": 49.23178,
-  "lon": 17.659164,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "4548, Slunečná, Jižní Svahy I, Mladcová, Zlín, okres Zlín, Zlínský kraj, 760 05, Česko"
- },
- "klub:tc bajda kromeriz|na sladovnach 4255 2 kromeriz": {
-  "klic": "klub:tc bajda kromeriz|na sladovnach 4255 2 kromeriz",
-  "poradatel": "TC Bajda Kroměříž",
-  "adresa": "Na Sladovnách 4255/2, Kroměříž",
-  "zdroj": "detail",
-  "region": "Jihomoravský",
-  "lat": 49.301766,
-  "lon": 17.391206,
-  "presnost": "areal",
-  "nazev_mista": "Tenisový klub Bajda",
-  "osm_vzdalenost_km": 0.09,
-  "geokod": "4255/2, Na Sladovnách, Kroměříž, okres Kroměříž, Zlínský kraj, 767 01, Česko"
+  "geokod": "650/85, Na Valtické, Charvátská Nová Ves, Břeclav, okres Břeclav, Jihomoravský kraj, 691 41, Česko"
  },
  "klub:tc bors club|na valticke 650 85 breclav": {
   "klic": "klub:tc bors club|na valticke 650 85 breclav",
@@ -765,6 +869,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "17. listopadu, Envelopa, Olomouc-střed, Nové Sady, Olomouc, okres Olomouc, Olomoucký kraj, 770 06, Česko"
  },
+ "klub:tc eso praha z s": {
+  "klic": "klub:tc eso praha z s",
+  "poradatel": "TC ESO Praha z.s.",
+  "adresa": "Chabařovická 4, 18200 Praha 8",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.131361,
+  "lon": 14.475626,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1125/4, Chabařovická, Kobylisy, Praha 8, obvod Praha 8, Praha, 182 00, Česko"
+ },
  "klub:tc eso praha z s|chabarovicka 4 praha 8": {
   "klic": "klub:tc eso praha z s|chabarovicka 4 praha 8",
   "poradatel": "TC ESO Praha z.s.",
@@ -777,6 +894,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1125/4, Chabařovická, Kobylisy, Praha 8, obvod Praha 8, Praha, 182 00, Česko"
+ },
+ "klub:tc jicin": {
+  "klic": "klub:tc jicin",
+  "poradatel": "TC Jičín",
+  "adresa": "Revoluční 1295, 50601 Jičín",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 50.440905,
+  "lon": 15.365944,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1295, Revoluční, Soudná, Jičín, okres Jičín, Královéhradecký kraj, 506 01, Česko"
  },
  "klub:tc jicin|revolucni 1295 jicin": {
   "klic": "klub:tc jicin|revolucni 1295 jicin",
@@ -791,6 +921,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "1295, Revoluční, Soudná, Jičín, okres Jičín, Královéhradecký kraj, 506 01, Česko"
  },
+ "klub:tc mj tenis lisen": {
+  "klic": "klub:tc mj tenis lisen",
+  "poradatel": "TC-MJ TENIS Líšeň",
+  "adresa": "Novolíšeňská , 628 00 BRNO-LÍŠEŇ",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.207105,
+  "lon": 16.686395,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"
+ },
  "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen": {
   "klic": "klub:tc mj tenis lisen|novolisenska adresa kurtu brno lisen",
   "poradatel": "TC-MJ TENIS Líšeň",
@@ -804,6 +947,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"
  },
+ "klub:tc sanitino academy z s": {
+  "klic": "klub:tc sanitino academy z s",
+  "poradatel": "TC SANITINO Academy, z.s.",
+  "adresa": "Smetanovo náměstí 106, 570 01 Litomyšl",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 49.870356,
+  "lon": 16.311774,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "106, Smetanovo náměstí, Litomyšl-Město, Litomyšl, okres Svitavy, Pardubický kraj, 570 01, Česko"
+ },
  "klub:tc sanitino academy z s|smetanovo namesti 106 litomysl": {
   "klic": "klub:tc sanitino academy z s|smetanovo namesti 106 litomysl",
   "poradatel": "TC SANITINO Academy, z.s.",
@@ -816,6 +972,32 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "106, Smetanovo náměstí, Litomyšl-Město, Litomyšl, okres Svitavy, Pardubický kraj, 570 01, Česko"
+ },
+ "klub:tc tachlovice|sportovni 286 3 tachlovice": {
+  "klic": "klub:tc tachlovice|sportovni 286 3 tachlovice",
+  "poradatel": "TC Tachlovice",
+  "adresa": "Sportovní 286/3, Tachlovice",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 50.009046,
+  "lon": 14.244374,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Sportovní, Tachlovice, okres Praha-západ, Středočeský kraj, 252 17, Česko"
+ },
+ "klub:tc vitality breznice": {
+  "klic": "klub:tc vitality breznice",
+  "poradatel": "TC VITALITY Březnice",
+  "adresa": "Sadová, 26272 Březnice",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 49.563225,
+  "lon": 13.95165,
+  "presnost": "areal",
+  "nazev_mista": "Sportcentrum Vitality, s.r.o.",
+  "osm_vzdalenost_km": 0.24,
+  "geokod": "Sadová, Přední Poříčí, Březnice, okres Příbram, Středočeský kraj, 262 72, Česko"
  },
  "klub:tc vitality breznice|sadova breznice": {
   "klic": "klub:tc vitality breznice|sadova breznice",
@@ -856,18 +1038,18 @@
   "osm_vzdalenost_km": 0.19,
   "geokod": "647, U koupaliště, Loučná, Hrádek nad Nisou, okres Liberec, Liberecký kraj, 463 34, Česko"
  },
- "klub:tcm dubec z s|na korunce 580 praha 9": {
-  "klic": "klub:tcm dubec z s|na korunce 580 praha 9",
-  "poradatel": "TCM Dubeč, z.s.",
-  "adresa": "Na Korunce 580, Praha 9",
+ "klub:tcg karlovy vary|slovenska 2021 5a karlovy vary": {
+  "klic": "klub:tcg karlovy vary|slovenska 2021 5a karlovy vary",
+  "poradatel": "TCG Karlovy Vary",
+  "adresa": "Slovenská 2021/5a, Karlovy Vary",
   "zdroj": "detail",
-  "region": "Praha",
-  "lat": 50.075678,
-  "lon": 14.598676,
+  "region": "Západočeský",
+  "lat": 50.213929,
+  "lon": 12.876664,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "580, Na Korunce, Nová Dubeč, Praha-Běchovice, obvod Praha 9, Praha, 190 11, Česko"
+  "geokod": "2021/5a, Slovenská, Tuhnice, Karlovy Vary, okres Karlovy Vary, Karlovarský kraj, 360 01, Česko"
  },
  "klub:tempo praha|ve lhotce praha 4": {
   "klic": "klub:tempo praha|ve lhotce praha 4",
@@ -895,6 +1077,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "1071, Táborská, Sezimovo Ústí Ⅰ, Sezimovo Ústí, okres Tábor, Jihočeský kraj, Jihozápad, 391 01, Česko"
  },
+ "klub:tenis centrum dtj hk": {
+  "klic": "klub:tenis centrum dtj hk",
+  "poradatel": "TENIS-CENTRUM DTJ HK",
+  "adresa": "U Labe 427, 50002 Hradec Králové",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 50.201171,
+  "lon": 15.821553,
+  "presnost": "areal",
+  "nazev_mista": "Tenis centrum",
+  "osm_vzdalenost_km": 0.06,
+  "geokod": "427/1, U Labe, Labská kotlina II, Pražské Předměstí - jih, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 02, Česko"
+ },
  "klub:tenis centrum dtj hk|u labe 427 hradec kralove": {
   "klic": "klub:tenis centrum dtj hk|u labe 427 hradec kralove",
   "poradatel": "TENIS-CENTRUM DTJ HK",
@@ -907,6 +1102,19 @@
   "nazev_mista": "Tenis centrum",
   "osm_vzdalenost_km": 0.06,
   "geokod": "427/1, U Labe, Labská kotlina II, Pražské Předměstí - jih, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 02, Česko"
+ },
+ "klub:tenis centrum luziny|zazvorkova 1480 11 praha": {
+  "klic": "klub:tenis centrum luziny|zazvorkova 1480 11 praha",
+  "poradatel": "Tenis Centrum Lužiny",
+  "adresa": "Zázvorková 1480/11, Praha",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.046437,
+  "lon": 14.335027,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1480/11, Zázvorkova, Malá Ohrada, Velká Ohrada, Praha 13, obvod Praha 5, Praha, 155 00, Česko"
  },
  "klub:tenis cibulka": {
   "klic": "klub:tenis cibulka",
@@ -947,31 +1155,18 @@
   "osm_vzdalenost_km": 0.0,
   "geokod": "2183, Jetelová, Dolní Mokropsy, Černošice, okres Praha-západ, Středočeský kraj, 252 28, Česko"
  },
- "klub:tenis klub strakonice spolek|machova 178 strakonice": {
-  "klic": "klub:tenis klub strakonice spolek|machova 178 strakonice",
-  "poradatel": "Tenis Klub Strakonice, spolek",
-  "adresa": "Máchova 178, Strakonice",
+ "klub:tenis klub jindrichuv hradec z s|roschova 1304 jindrichuv hradec ii": {
+  "klic": "klub:tenis klub jindrichuv hradec z s|roschova 1304 jindrichuv hradec ii",
+  "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+  "adresa": "Röschova 1304, Jindřichův Hradec II",
   "zdroj": "detail",
   "region": "Jihočeský",
-  "lat": 49.266794,
-  "lon": 13.891801,
+  "lat": 49.148465,
+  "lon": 14.99725,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "178, Máchova, Strakonice II, Virt, Strakonice, okres Strakonice, Jihočeský kraj, Jihozápad, 386 01, Česko"
- },
- "klub:tenis malsovice z s|u labe 487 1 hradec kralove": {
-  "klic": "klub:tenis malsovice z s|u labe 487 1 hradec kralove",
-  "poradatel": "Tenis Malšovice, z.s.",
-  "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "detail",
-  "region": "Východočeský",
-  "lat": 50.211946,
-  "lon": 15.828774,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
+  "geokod": "1304, Röschova, Pražské Předměstí, Sídliště U Nádraží, Jindřichův Hradec II, Jindřichův Hradec, okres Jindřichův Hradec, Jihočeský kraj, Jihozápad, 377 01, Česko"
  },
  "klub:tenis novy jicin z s|purkynova 405 46 novy jicin": {
   "klic": "klub:tenis novy jicin z s|purkynova 405 46 novy jicin",
@@ -998,6 +1193,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Staré Město, obvod Praha 1, Praha, Česko"
+ },
+ "klub:tenis ujezd nad lesy z s": {
+  "klic": "klub:tenis ujezd nad lesy z s",
+  "poradatel": "Tenis Újezd nad Lesy, z.s.",
+  "adresa": "Veletovská 2358, 19016 Újezd nad Lesy",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.076212,
+  "lon": 14.679172,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "2358, Veletovská, Rohožník, Újezd nad Lesy, Praha 21, obvod Praha 9, Praha, 190 16, Česko"
  },
  "klub:tenis ujezd nad lesy z s|veletovska 2358 ujezd nad lesy": {
   "klic": "klub:tenis ujezd nad lesy z s|veletovska 2358 ujezd nad lesy",
@@ -1038,18 +1246,57 @@
   "osm_vzdalenost_km": null,
   "geokod": "457/82, Jiráskova, Staré Pavlovice-východ, Staré Pavlovice, Nové Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
  },
- "klub:tenisovy klub cerveny kostelec z s|palackeho 1316 cerveny kostelec": {
-  "klic": "klub:tenisovy klub cerveny kostelec z s|palackeho 1316 cerveny kostelec",
-  "poradatel": "Tenisový klub Červený Kostelec, z.s.",
-  "adresa": "Palackého 1316, Červený Kostelec",
-  "zdroj": "detail",
-  "region": "Východočeský",
-  "lat": 50.474861,
-  "lon": 16.083301,
+ "klub:tenisova skola lucie hradecke z s": {
+  "klic": "klub:tenisova skola lucie hradecke z s",
+  "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+  "adresa": "Manželů Dostálových 1722, 19000 PRAHA 9",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.087313,
+  "lon": 14.550462,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "1316, Palackého, Lhota za Červeným Kostelcem, Červený Kostelec, okres Náchod, Královéhradecký kraj, 549 41, Česko"
+  "geokod": "1722, Manželů Dostálových, Jahodnice, Praha 14, obvod Praha 9, Praha, 198 00, Česko"
+ },
+ "klub:tenisova skola lucie hradecke z s|manzelu dostalovych 1722 praha 9": {
+  "klic": "klub:tenisova skola lucie hradecke z s|manzelu dostalovych 1722 praha 9",
+  "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+  "adresa": "Manželů Dostálových 1722, PRAHA 9",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.087313,
+  "lon": 14.550462,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1722, Manželů Dostálových, Jahodnice, Praha 14, obvod Praha 9, Praha, 198 00, Česko"
+ },
+ "klub:tenisovy klub benatky nad jizerou|u cukrovaru 34 4 benatky n jiz": {
+  "klic": "klub:tenisovy klub benatky nad jizerou|u cukrovaru 34 4 benatky n jiz",
+  "poradatel": "Tenisový klub Benátky nad Jizerou",
+  "adresa": "U cukrovaru 34/4, Benátky n.Jiz.",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 50.287807,
+  "lon": 14.824735,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "34/4, U Cukrovaru, Benátky nad Jizerou Ⅰ, Kbel, Benátky nad Jizerou, okres Mladá Boleslav, Středočeský kraj, 294 71, Česko"
+ },
+ "klub:tenisovy klub eden hk": {
+  "klic": "klub:tenisovy klub eden hk",
+  "poradatel": "Tenisový klub Eden HK",
+  "adresa": "Mrštíkova 904/8, 50009 Hradec Králové",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 50.198407,
+  "lon": 15.854126,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "904/8, Mrštíkova, Malšovice-jih, Malšovice, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 09, Česko"
  },
  "klub:tenisovy klub eden hk|mrstikova 904 8 hradec kralove": {
   "klic": "klub:tenisovy klub eden hk|mrstikova 904 8 hradec kralove",
@@ -1064,6 +1311,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "904/8, Mrštíkova, Malšovice-jih, Malšovice, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 09, Česko"
  },
+ "klub:tenisovy klub havlickuv brod z s": {
+  "klic": "klub:tenisovy klub havlickuv brod z s",
+  "poradatel": "Tenisový klub Havlíčkův Brod,z.s.",
+  "adresa": "Ledečská 4069, 580 01 Havlíčkův Brod",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 49.604907,
+  "lon": 15.570241,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "4069, Ledečská, Havlíčkův Brod, okres Havlíčkův Brod, Kraj Vysočina, 580 01, Česko"
+ },
  "klub:tenisovy klub havlickuv brod z s|ledecska 4069 havlickuv brod": {
   "klic": "klub:tenisovy klub havlickuv brod z s|ledecska 4069 havlickuv brod",
   "poradatel": "Tenisový klub Havlíčkův Brod,z.s.",
@@ -1076,32 +1336,6 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "4069, Ledečská, Havlíčkův Brod, okres Havlíčkův Brod, Kraj Vysočina, 580 01, Česko"
- },
- "klub:tenisovy klub jablunkov z s|jablunkov 298 jablunkov": {
-  "klic": "klub:tenisovy klub jablunkov z s|jablunkov 298 jablunkov",
-  "poradatel": "Tenisový klub Jablunkov z.s.",
-  "adresa": "Jablunkov 298, Jablunkov",
-  "zdroj": "detail",
-  "region": "Severomoravský",
-  "lat": 49.582223,
-  "lon": 18.763498,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "S1 Center Jablunkov, Purkrechtní Bělá, Jablunkov, okres Frýdek-Místek, Moravskoslezský kraj, 739 91, Česko"
- },
- "klub:tenisovy klub konstruktiva z s|mezi sklady 3 107 praha 4": {
-  "klic": "klub:tenisovy klub konstruktiva z s|mezi sklady 3 107 praha 4",
-  "poradatel": "Tenisový klub KONSTRUKTIVA, z.s.",
-  "adresa": "Mezi sklady 3/107, Praha 4",
-  "zdroj": "detail",
-  "region": "Praha",
-  "lat": 50.035092,
-  "lon": 14.433842,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "Mezi sklady, Braník, Praha 4, obvod Praha 4, Praha, 140 02, Česko"
  },
  "klub:tenisovy klub studenka z s|budovatelska 858 butovice studenka": {
   "klic": "klub:tenisovy klub studenka z s|budovatelska 858 butovice studenka",
@@ -1129,6 +1363,19 @@
   "osm_vzdalenost_km": 0.01,
   "geokod": "401/10a, Padlých hrdinů, Havířov-Životice, Životice, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
  },
+ "klub:tj brevnov|tomanova 2480 5 praha 6 brevnov": {
+  "klic": "klub:tj brevnov|tomanova 2480 5 praha 6 brevnov",
+  "poradatel": "TJ Břevnov",
+  "adresa": "Tomanova 2480/5, Praha 6 - Břevnov",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.079713,
+  "lon": 14.368504,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "2480/5, Tomanova, Břevnov, Praha 6, obvod Praha 6, Praha, 169 00, Česko"
+ },
  "klub:tj brno komin": {
   "klic": "klub:tj brno komin",
   "poradatel": "TJ Brno-Komín",
@@ -1154,6 +1401,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1301/11b, Svratecká, Brno-Komín, Brno, okres Brno-město, Jihomoravský kraj, 624 00, Česko"
+ },
+ "klub:tj cerveny kostelec|palackeho 1316 cerveny kostelec": {
+  "klic": "klub:tj cerveny kostelec|palackeho 1316 cerveny kostelec",
+  "poradatel": "TJ Červený Kostelec",
+  "adresa": "Palackého 1316, Červený Kostelec",
+  "zdroj": "detail",
+  "region": "",
+  "lat": 50.474861,
+  "lon": 16.083301,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1316, Palackého, Lhota za Červeným Kostelcem, Červený Kostelec, okres Náchod, Královéhradecký kraj, 549 41, Česko"
  },
  "klub:tj jiskra straznice|bzenecka 1538 straznice": {
   "klic": "klub:tj jiskra straznice|bzenecka 1538 straznice",
@@ -1181,19 +1441,6 @@
   "osm_vzdalenost_km": 0.0,
   "geokod": "Tenisové kurty, 1031, Dvouletky, Domahoř, Zruč nad Sázavou, okres Kutná Hora, Středočeský kraj, 285 22, Česko"
  },
- "klub:tj kravi hora brno|bellova 24 brno": {
-  "klic": "klub:tj kravi hora brno|bellova 24 brno",
-  "poradatel": "TJ Kraví Hora Brno",
-  "adresa": "Bellova 24, Brno",
-  "zdroj": "detail",
-  "region": "Jihomoravský",
-  "lat": 49.195076,
-  "lon": 16.528686,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "353/24, Bellova, Kohoutovice, Brno-Kohoutovice, Brno, okres Brno-město, Jihomoravský kraj, 623 00, Česko"
- },
  "klub:tj ltc podebrady|jana opletala 845 podebrady": {
   "klic": "klub:tj ltc podebrady|jana opletala 845 podebrady",
   "poradatel": "TJ LTC Poděbrady",
@@ -1206,6 +1453,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "845/2, Jana Opletala, Poděbrady III, Velké Zboží, Poděbrady, okres Nymburk, Středočeský kraj, 290 01, Česko"
+ },
+ "klub:tj radlice z s": {
+  "klic": "klub:tj radlice z s",
+  "poradatel": "TJ Radlice z.s.",
+  "adresa": "Radlická 298/105, 15000 Praha 5",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.058211,
+  "lon": 14.39086,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Střihomat, 298/105, Radlická, Radlice, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
  },
  "klub:tj radlice z s|radlicka 298 105 praha 5": {
   "klic": "klub:tj radlice z s|radlicka 298 105 praha 5",
@@ -1246,44 +1506,57 @@
   "osm_vzdalenost_km": null,
   "geokod": "Sportovní, Dolní Lhota, okres Ostrava-město, Moravskoslezský kraj, 747 66, Česko"
  },
- "klub:tj sokol kralovice z s|pod hradem praha 10 kralovice": {
-  "klic": "klub:tj sokol kralovice z s|pod hradem praha 10 kralovice",
-  "poradatel": "TJ Sokol Královice, z.s.",
-  "adresa": "Pod Hradem, Praha 10 - Královice",
+ "klub:tj sokol vysocany": {
+  "klic": "klub:tj sokol vysocany",
+  "poradatel": "TJ Sokol Vysočany",
+  "adresa": "Novoškolská 696/2, 19000 Praha 9",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.109054,
+  "lon": 14.504841,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "696/2, Novoškolská, Vysočany, Praha 9, obvod Praha 9, Praha, 190 00, Česko"
+ },
+ "klub:tj sokol vysocany|novoskolska 696 2 praha 9": {
+  "klic": "klub:tj sokol vysocany|novoskolska 696 2 praha 9",
+  "poradatel": "TJ Sokol Vysočany",
+  "adresa": "Novoškolská 696/2, Praha 9",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.038407,
-  "lon": 14.637124,
+  "lat": 50.109443,
+  "lon": 14.50621,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "Pod Hradem, Praha-Královice, obvod Praha 10, Praha, 103 00, Česko"
+  "geokod": "One Box, 696/2, Novoškolská, Vysočany, Praha 9, obvod Praha 9, Praha, 190 00, Česko"
  },
- "klub:tj sokol uhersky brod|na dlouhych 812 uhersky brod": {
-  "klic": "klub:tj sokol uhersky brod|na dlouhych 812 uhersky brod",
-  "poradatel": "TJ Sokol Uherský Brod",
-  "adresa": "Na Dlouhých 812, Uherský Brod",
-  "zdroj": "detail",
-  "region": "Jihomoravský",
-  "lat": 49.028559,
-  "lon": 17.641883,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "812, Na Dlouhých, Uherský Brod, okres Uherské Hradiště, Zlínský kraj, 688 01, Česko"
+ "klub:tj spoje praha": {
+  "klic": "klub:tj spoje praha",
+  "poradatel": "TJ Spoje Praha",
+  "adresa": "Na Balkáně 812, 13000 Praha 3",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.096117,
+  "lon": 14.490779,
+  "presnost": "areal",
+  "nazev_mista": "TJ Spoje Praha",
+  "osm_vzdalenost_km": 0.17,
+  "geokod": "TJ Sokol Žižkov II., 812, Na Balkáně, Žižkov, obvod Praha 3, Praha, 130 00, Česko"
  },
- "klub:tj spartak policka|revolucni 1015 policka": {
-  "klic": "klub:tj spartak policka|revolucni 1015 policka",
-  "poradatel": "TJ Spartak Polička",
-  "adresa": "Revoluční 1015, Polička",
+ "klub:tj spoje praha|na balkane 812 praha 3": {
+  "klic": "klub:tj spoje praha|na balkane 812 praha 3",
+  "poradatel": "TJ Spoje Praha",
+  "adresa": "Na Balkáně 812, Praha 3",
   "zdroj": "detail",
-  "region": "Východočeský",
-  "lat": 49.717413,
-  "lon": 16.268565,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1015, Revoluční, Polička-Město, Polička, okres Svitavy, Pardubický kraj, 572 01, Česko"
+  "region": "Praha",
+  "lat": 50.096117,
+  "lon": 14.490779,
+  "presnost": "areal",
+  "nazev_mista": "TJ Spoje Praha",
+  "osm_vzdalenost_km": 0.17,
+  "geokod": "TJ Sokol Žižkov II., 812, Na Balkáně, Žižkov, obvod Praha 3, Praha, 130 00, Česko"
  },
  "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba": {
   "klic": "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba",
@@ -1297,6 +1570,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "6055/14, Slavíkova, Poruba, Ostrava, okres Ostrava-město, Moravskoslezský kraj, 708 00, Česko"
+ },
+ "klub:tj zatec z s": {
+  "klic": "klub:tj zatec z s",
+  "poradatel": "TJ Žatec z.s.",
+  "adresa": "Studentská 3180, 43801 Žatec 1",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.322494,
+  "lon": 13.542788,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "3180, Studentská, Žatec, okres Louny, Ústecký kraj, 438 01, Česko"
  },
  "klub:tj zatec z s|studentska 3180 zatec 1": {
   "klic": "klub:tj zatec z s|studentska 3180 zatec 1",
@@ -1337,18 +1623,44 @@
   "osm_vzdalenost_km": null,
   "geokod": "4161/49, Za Kosteleckou, Prostějov, město, Krasice, Prostějov, okres Prostějov, Olomoucký kraj, 796 01, Česko"
  },
- "klub:tk brizky jablonec n nis|sportovni 5027 10a jablonec nad nisou": {
-  "klic": "klub:tk brizky jablonec n nis|sportovni 5027 10a jablonec nad nisou",
-  "poradatel": "TK Břízky Jablonec n.Nis.",
-  "adresa": "Sportovní 5027/10a, Jablonec nad Nisou",
+ "klub:tk benesov|ke stadionu 2037 benesov": {
+  "klic": "klub:tk benesov|ke stadionu 2037 benesov",
+  "poradatel": "TK Benešov",
+  "adresa": "Ke Stadionu 2037, Benešov",
   "zdroj": "detail",
-  "region": "Severočeský",
-  "lat": 50.741372,
-  "lon": 15.176564,
+  "region": "Středočeský",
+  "lat": 49.776956,
+  "lon": 14.676615,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "5027/10a, Sportovní, Areál Břízky, Mšeno nad Nisou, Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, 466 04, Česko"
+  "geokod": "2037, Ke Stadionu, Konopiště, Benešov, okres Benešov, Středočeský kraj, 256 01, Česko"
+ },
+ "klub:tk bh jihlava z s|brtnicka 5381 24b jihlava": {
+  "klic": "klub:tk bh jihlava z s|brtnicka 5381 24b jihlava",
+  "poradatel": "TK BH Jihlava z.s.",
+  "adresa": "Brtnická 5381/24b, Jihlava",
+  "zdroj": "detail",
+  "region": "Jihomoravský",
+  "lat": 49.387808,
+  "lon": 15.594869,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "5381/24b, Brtnická, Brtnické předměstí, Jihlava, okres Jihlava, Kraj Vysočina, 586 01, Česko"
+ },
+ "klub:tk ceska trebova z s": {
+  "klic": "klub:tk ceska trebova z s",
+  "poradatel": "TK Česká Třebová, z.s.",
+  "adresa": "Husova 22, 56002 Česká Třebová",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 49.914019,
+  "lon": 16.441415,
+  "presnost": "areal",
+  "nazev_mista": "tenis",
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "22, Husova, Parník, Česká Třebová, okres Ústí nad Orlicí, Pardubický kraj, 560 02, Česko"
  },
  "klub:tk ceska trebova z s|husova 22 ceska trebova": {
   "klic": "klub:tk ceska trebova z s|husova 22 ceska trebova",
@@ -1362,6 +1674,19 @@
   "nazev_mista": "tenis",
   "osm_vzdalenost_km": 0.04,
   "geokod": "22, Husova, Parník, Česká Třebová, okres Ústí nad Orlicí, Pardubický kraj, 560 02, Česko"
+ },
+ "klub:tk chocen": {
+  "klic": "klub:tk chocen",
+  "poradatel": "TK Choceň",
+  "adresa": "U Hřiště 1524, 56501 Choceň",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 50.00075,
+  "lon": 16.216553,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1524, U Hřiště, Březenice, Hemže, Choceň, okres Ústí nad Orlicí, Pardubický kraj, 565 01, Česko"
  },
  "klub:tk chocen|u hriste 1524 chocen": {
   "klic": "klub:tk chocen|u hriste 1524 chocen",
@@ -1415,19 +1740,6 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "1581, Kouty, Město 1, Krásno nad Bečvou, Hrachovec, Valašské Meziříčí, okres Vsetín, Zlínský kraj, 757 01, Česko"
  },
- "klub:tk domyno p4 z s": {
-  "klic": "klub:tk domyno p4 z s",
-  "poradatel": "TK DOMYNO P4, z.s.",
-  "adresa": "Chýnovská, 14000 Praha 4",
-  "zdroj": "adresar",
-  "region": "Praha",
-  "lat": 50.01563,
-  "lon": 14.451776,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "Chýnovská, Jalový Dvůr, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
- },
  "klub:tk domyno p4 z s|chynovska praha 4": {
   "klic": "klub:tk domyno p4 z s|chynovska praha 4",
   "poradatel": "TK DOMYNO P4, z.s.",
@@ -1440,6 +1752,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Chýnovská, Jalový Dvůr, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
+ },
+ "klub:tk drnovice": {
+  "klic": "klub:tk drnovice",
+  "poradatel": "TK Drnovice",
+  "adresa": "Brněnská 122, 68201 Vyškov",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.268175,
+  "lon": 16.983273,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "59/122, Brněnská, Nouzka, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
  },
  "klub:tk drnovice|brnenska 122 vyskov": {
   "klic": "klub:tk drnovice|brnenska 122 vyskov",
@@ -1454,6 +1779,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "59/122, Brněnská, Nouzka, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
  },
+ "klub:tk evzenie klasterec n o": {
+  "klic": "klub:tk evzenie klasterec n o",
+  "poradatel": "TK Evženie Klášterec n/O",
+  "adresa": "Kyselka 105, 43151 Klášterec n.Ohř.",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.378875,
+  "lon": 13.169484,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Tenisový klub lázně Evženie, 105, Kyselka, Miřetice u Klášterce nad Ohří, Lestkov, Klášterec nad Ohří, okres Chomutov, Ústecký kraj, 431 51, Česko"
+ },
  "klub:tk evzenie klasterec n o|kyselka 105 klasterec n ohr": {
   "klic": "klub:tk evzenie klasterec n o|kyselka 105 klasterec n ohr",
   "poradatel": "TK Evženie Klášterec n/O",
@@ -1467,19 +1805,6 @@
   "osm_vzdalenost_km": null,
   "geokod": "Tenisový klub lázně Evženie, 105, Kyselka, Miřetice u Klášterce nad Ohří, Lestkov, Klášterec nad Ohří, okres Chomutov, Ústecký kraj, 431 51, Česko"
  },
- "klub:tk havirov z s": {
-  "klic": "klub:tk havirov z s",
-  "poradatel": "TK Havířov, z.s.",
-  "adresa": "Opletalova 1218/8b, 73601 Havířov-Šumbark",
-  "zdroj": "adresar",
-  "region": "Severomoravský",
-  "lat": 49.794884,
-  "lon": 18.411975,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1218/8b, Opletalova, Havířov-Šumbark, Šumbark, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
- },
  "klub:tk havirov z s|opletalova 1218 8b havirov sumbark": {
   "klic": "klub:tk havirov z s|opletalova 1218 8b havirov sumbark",
   "poradatel": "TK Havířov, z.s.",
@@ -1492,6 +1817,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1218/8b, Opletalova, Havířov-Šumbark, Šumbark, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
+ },
+ "klub:tk hlinsko": {
+  "klic": "klub:tk hlinsko",
+  "poradatel": "TK Hlinsko",
+  "adresa": "Olšinky 1063, 53901 Hlinsko",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 49.75995,
+  "lon": 15.909326,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1063, Olšinky, Poličské předměstí, Kouty, Hlinsko, okres Chrudim, Pardubický kraj, 539 01, Česko"
  },
  "klub:tk hlinsko|olsinky 1063 hlinsko": {
   "klic": "klub:tk hlinsko|olsinky 1063 hlinsko",
@@ -1532,18 +1870,57 @@
   "osm_vzdalenost_km": null,
   "geokod": "564/105, Hornoměcholupská, Horní Měcholupy, Praha 15, obvod Praha 10, Praha, 109 00, Česko"
  },
- "klub:tk krasne brezno|nestemicka tenisove kurty vyhlidka usti nad labem krasne brezno vyhlidka": {
-  "klic": "klub:tk krasne brezno|nestemicka tenisove kurty vyhlidka usti nad labem krasne brezno vyhlidka",
-  "poradatel": "TK Krásné Březno",
-  "adresa": "Neštěmická, tenisové kurty Vyhlídka, Ústí nad Labem - Krásné Březno - Vyhlídka",
+ "klub:tk hovorcovice|u rybnika 636 hovorcovice": {
+  "klic": "klub:tk hovorcovice|u rybnika 636 hovorcovice",
+  "poradatel": "TK Hovorčovice",
+  "adresa": "U rybníka 636, Hovorčovice",
   "zdroj": "detail",
-  "region": "Severočeský",
-  "lat": 50.665537,
-  "lon": 14.058522,
-  "presnost": "obec",
+  "region": "Praha",
+  "lat": 50.18079,
+  "lon": 14.522475,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "Vyhlídka do korun stromů, Dobětická, Nad zoologickou zahradou, Krásné Březno, Ústí nad Labem-Neštěmice, Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, 400 06, Česko"
+  "geokod": "636, U Rybníka, Hovorčovice, okres Praha-východ, Středočeský kraj, 250 64, Česko"
+ },
+ "klub:tk kadan": {
+  "klic": "klub:tk kadan",
+  "poradatel": "TK Kadaň",
+  "adresa": "U stadionu 1860, 43201 Kadaň",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.385337,
+  "lon": 13.271725,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "U Stadionu, Kadaň, okres Chomutov, Ústecký kraj, 432 01, Česko"
+ },
+ "klub:tk kadan|u stadionu 1860 kadan": {
+  "klic": "klub:tk kadan|u stadionu 1860 kadan",
+  "poradatel": "TK Kadaň",
+  "adresa": "U stadionu 1860, Kadaň",
+  "zdroj": "detail",
+  "region": "Severočeský",
+  "lat": 50.385337,
+  "lon": 13.271725,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "U Stadionu, Kadaň, okres Chomutov, Ústecký kraj, 432 01, Česko"
+ },
+ "klub:tk krocehlavy": {
+  "klic": "klub:tk krocehlavy",
+  "poradatel": "TK Kročehlavy",
+  "adresa": "Freyova 319, 27201 Kladno",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 50.138142,
+  "lon": 14.124101,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "319, Freyova, Kročehlavy, Kladno, okres Kladno, Středočeský kraj, 272 01, Česko"
  },
  "klub:tk krocehlavy|freyova 319 kladno": {
   "klic": "klub:tk krocehlavy|freyova 319 kladno",
@@ -1557,19 +1934,6 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "319, Freyova, Kročehlavy, Kladno, okres Kladno, Středočeský kraj, 272 01, Česko"
- },
- "klub:tk kunstat|u hriste 514 kunstat": {
-  "klic": "klub:tk kunstat|u hriste 514 kunstat",
-  "poradatel": "TK Kunštát",
-  "adresa": "U hřiště 514, Kunštát",
-  "zdroj": "detail",
-  "region": "Jihomoravský",
-  "lat": 49.503763,
-  "lon": 16.52051,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "514, U Hřiště, Újezd, Kunštát, okres Blansko, Jihomoravský kraj, 679 72, Česko"
  },
  "klub:tk letohrad|v aleji 876 letohrad": {
   "klic": "klub:tk letohrad|v aleji 876 letohrad",
@@ -1623,6 +1987,32 @@
   "osm_vzdalenost_km": null,
   "geokod": "37/37, Na střelnici, Olomouc-střed, Lazce, Olomouc, okres Olomouc, Olomoucký kraj, 779 00, Česko"
  },
+ "klub:tk mnichovo hradiste|klasterska 1487 mnichovo hradiste": {
+  "klic": "klub:tk mnichovo hradiste|klasterska 1487 mnichovo hradiste",
+  "poradatel": "TK Mnichovo Hradiště",
+  "adresa": "Klášterská 1487, Mnichovo Hradiště",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 50.525968,
+  "lon": 14.966399,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1487, Klášterská, Hněvousice, Mnichovo Hradiště, okres Mladá Boleslav, Středočeský kraj, 295 01, Česko"
+ },
+ "klub:tk most": {
+  "klic": "klub:tk most",
+  "poradatel": "TK Most",
+  "adresa": "Pod Koňským vrchem 1159, 43401 Most",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.497017,
+  "lon": 13.619155,
+  "presnost": "areal",
+  "nazev_mista": "Tenisové kurty",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "1159/5, Pod Koňským vrchem, Čepirohy, Most, okres Most, Ústecký kraj, 434 01, Česko"
+ },
  "klub:tk most|pod konskym vrchem 1159 most": {
   "klic": "klub:tk most|pod konskym vrchem 1159 most",
   "poradatel": "TK Most",
@@ -1636,32 +2026,6 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "1159/5, Pod Koňským vrchem, Čepirohy, Most, okres Most, Ústecký kraj, 434 01, Česko"
  },
- "klub:tk na doline o s|trojanovice 112 frenstat pod radhostem": {
-  "klic": "klub:tk na doline o s|trojanovice 112 frenstat pod radhostem",
-  "poradatel": "TK Na Dolině o.s.",
-  "adresa": "Trojanovice 112, Frenštát pod Radhoštěm",
-  "zdroj": "detail",
-  "region": "Severomoravský",
-  "lat": 49.533538,
-  "lon": 18.232704,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "Trojanovice (ZD), Lomná, Planiska, Frenštát pod Radhoštěm, okres Nový Jičín, Moravskoslezský kraj, 742 96, Česko"
- },
- "klub:tk nachod|ulice 1 maje nachod beloves": {
-  "klic": "klub:tk nachod|ulice 1 maje nachod beloves",
-  "poradatel": "TK Náchod",
-  "adresa": "Ulice 1. máje, Náchod - Běloves",
-  "zdroj": "detail",
-  "region": "Východočeský",
-  "lat": 50.419163,
-  "lon": 16.185098,
-  "presnost": "areal_obec",
-  "nazev_mista": "Tenis club Běloves",
-  "osm_vzdalenost_km": 0.5,
-  "geokod": "Náchod-Běloves, Polská, Běloves, Náchod, okres Náchod, Královéhradecký kraj, 574 01, Česko"
- },
  "klub:tk pelhrimov|k tenisu 1741 pelhrimov": {
   "klic": "klub:tk pelhrimov|k tenisu 1741 pelhrimov",
   "poradatel": "TK Pelhřimov",
@@ -1674,6 +2038,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1741, K Tenisu, Pelhřimov, okres Pelhřimov, Kraj Vysočina, 393 01, Česko"
+ },
+ "klub:tk pernstyn 1897 pardubice|kuneticka pardubice": {
+  "klic": "klub:tk pernstyn 1897 pardubice|kuneticka pardubice",
+  "poradatel": "TK Pernštýn 1897 Pardubice",
+  "adresa": "Kunětická , Pardubice",
+  "zdroj": "detail",
+  "region": "Východočeský",
+  "lat": 50.048796,
+  "lon": 15.779207,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Kunětická, Na slepých ramenech, Cihelna, Pardubice II, Pardubice, okres Pardubice, Pardubický kraj, 530 00, Česko"
  },
  "klub:tk pisnice|na okruhu 2 praha 4": {
   "klic": "klub:tk pisnice|na okruhu 2 praha 4",
@@ -1701,6 +2078,45 @@
   "osm_vzdalenost_km": null,
   "geokod": "3364/55, Kosmákova, Město, Přerov, okres Přerov, Olomoucký kraj, 750 02, Česko"
  },
+ "klub:tk rapid liberec": {
+  "klic": "klub:tk rapid liberec",
+  "poradatel": "TK RAPID LIBEREC",
+  "adresa": "Polní 894, 460 01 Liberec",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.783039,
+  "lon": 15.040218,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "894, Polní, Staré Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
+ },
+ "klub:tk rapid liberec|polni 894 liberec": {
+  "klic": "klub:tk rapid liberec|polni 894 liberec",
+  "poradatel": "TK RAPID LIBEREC",
+  "adresa": "Polní 894, Liberec",
+  "zdroj": "detail",
+  "region": "Severočeský",
+  "lat": 50.783039,
+  "lon": 15.040218,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "894, Polní, Staré Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
+ },
+ "klub:tk roja pribram z s": {
+  "klic": "klub:tk roja pribram z s",
+  "poradatel": "TK Roja Příbram z.s.",
+  "adresa": "Brodská 134, 26101 Příbram",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 49.667629,
+  "lon": 13.999326,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "134, Brodská, Příbram V-Zdaboř, Příbram V - Zdaboř, Příbram, okres Příbram, Středočeský kraj, 261 01, Česko"
+ },
  "klub:tk roudnice n l|alej 17 listopadu 265 roudnice nad labem": {
   "klic": "klub:tk roudnice n l|alej 17 listopadu 265 roudnice nad labem",
   "poradatel": "TK Roudnice n.L.",
@@ -1727,6 +2143,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "Budečská, Přívoz, Moravská Ostrava a Přívoz, Ostrava, okres Ostrava-město, Moravskoslezský kraj, 702 72, Česko"
  },
+ "klub:tk severni terasa": {
+  "klic": "klub:tk severni terasa",
+  "poradatel": "TK Severní Terasa",
+  "adresa": "V Lánech 405, 40340 Ústí nad Labem",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.692863,
+  "lon": 14.012288,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "405, V Lánech, Skorotice, Ústí nad Labem-město, Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, 403 40, Česko"
+ },
  "klub:tk severni terasa|v lanech 405 usti nad labem": {
   "klic": "klub:tk severni terasa|v lanech 405 usti nad labem",
   "poradatel": "TK Severní Terasa",
@@ -1740,18 +2169,18 @@
   "osm_vzdalenost_km": null,
   "geokod": "405, V Lánech, Skorotice, Ústí nad Labem-město, Ústí nad Labem, okres Ústí nad Labem, Ústecký kraj, 403 40, Česko"
  },
- "klub:tk skoda plzen z s|lucni 60a plzen roudna": {
-  "klic": "klub:tk skoda plzen z s|lucni 60a plzen roudna",
-  "poradatel": "TK Škoda Plzeň z.s.",
-  "adresa": "Luční 60a, Plzeň - Roudná",
+ "klub:tk sk kladno z s|f kloze 294 kladno": {
+  "klic": "klub:tk sk kladno z s|f kloze 294 kladno",
+  "poradatel": "TK SK Kladno, z.s.",
+  "adresa": "F.Kloze 294, Kladno",
   "zdroj": "detail",
-  "region": "Západočeský",
-  "lat": 49.756208,
-  "lon": 13.390792,
-  "presnost": "areal",
-  "nazev_mista": "Tenisový klub Škoda Plzeň",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "1253/60a, Luční, Roudná, Severní Předměstí, Plzeň 1, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
+  "region": "Středočeský",
+  "lat": 50.139344,
+  "lon": 14.090938,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Fr. Kloze, Kladno, okres Kladno, Středočeský kraj, 272 52, Česko"
  },
  "klub:tk slavia plzen|u borskeho parku 2916 19 plzen": {
   "klic": "klub:tk slavia plzen|u borskeho parku 2916 19 plzen",
@@ -1765,6 +2194,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "2916/19, U Borského parku, Bory, Plzeň 3, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
+ },
+ "klub:tk slovanka c lipa|heroutova 1778 ceska lipa": {
+  "klic": "klub:tk slovanka c lipa|heroutova 1778 ceska lipa",
+  "poradatel": "TK SLOVANKA Č. Lípa",
+  "adresa": "Heroutova 1778, Česká Lípa",
+  "zdroj": "detail",
+  "region": "Severočeský",
+  "lat": 50.69059,
+  "lon": 14.523797,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1778/19, Heroutova, Dolní Libchava, Česká Lípa, okres Česká Lípa, Liberecký kraj, 470 01, Česko"
  },
  "klub:tk sokol horni pocernice p s|otovicka 2865 109 praha 9 horni pocernice": {
   "klic": "klub:tk sokol horni pocernice p s|otovicka 2865 109 praha 9 horni pocernice",
@@ -1791,6 +2233,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "B. Němcové, Sever, Zelená Hora, Kraslice, okres Sokolov, Karlovarský kraj, 357 21, Česko"
+ },
+ "klub:tk sparta praha": {
+  "klic": "klub:tk sparta praha",
+  "poradatel": "TK Sparta Praha",
+  "adresa": "Za Císařským mlýnem 1115/2, 17000 Praha 7",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.110365,
+  "lon": 14.409241,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1115/2, Za Císařským mlýnem, Bubeneč, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
  },
  "klub:tk sparta praha|za cisarskym mlynem 1115 2 praha 7": {
   "klic": "klub:tk sparta praha|za cisarskym mlynem 1115 2 praha 7",
@@ -1831,6 +2286,19 @@
   "osm_vzdalenost_km": 0.0,
   "geokod": "754/7, Do Hlinek, Kolovraty, Praha-Kolovraty, obvod Praha 10, Praha, 103 00, Česko"
  },
+ "klub:tk sportcentrum mlada boleslav": {
+  "klic": "klub:tk sportcentrum mlada boleslav",
+  "poradatel": "TK SPORTCENTRUM Mladá Boleslav",
+  "adresa": "Bezděčín 90, 293 01 Mladá Boleslav",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 50.38256,
+  "lon": 14.892273,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "90, Bezděčín, Mladá Boleslav, okres Mladá Boleslav, Středočeský kraj, 293 01, Česko"
+ },
  "klub:tk sportcentrum mlada boleslav|bezdecin 90 mlada boleslav": {
   "klic": "klub:tk sportcentrum mlada boleslav|bezdecin 90 mlada boleslav",
   "poradatel": "TK SPORTCENTRUM Mladá Boleslav",
@@ -1843,6 +2311,83 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "90, Bezděčín, Mladá Boleslav, okres Mladá Boleslav, Středočeský kraj, 293 01, Česko"
+ },
+ "klub:tk spytihnev|druzstevni 355 hvozdna": {
+  "klic": "klub:tk spytihnev|druzstevni 355 hvozdna",
+  "poradatel": "TK Spytihněv",
+  "adresa": "Družstevní 355, Hvozdná",
+  "zdroj": "detail",
+  "region": "",
+  "lat": 49.255604,
+  "lon": 17.758499,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "355, Družstevní, Hvozdná, okres Zlín, Zlínský kraj, 763 10, Česko"
+ },
+ "klub:tk stochov|zborovska 317 stochov": {
+  "klic": "klub:tk stochov|zborovska 317 stochov",
+  "poradatel": "TK Stochov",
+  "adresa": "Zborovská 317, Stochov",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 50.146536,
+  "lon": 13.95483,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "317, Zborovská, Honice, Stochov, okres Kladno, Středočeský kraj, 273 03, Česko"
+ },
+ "klub:tk strakonice": {
+  "klic": "klub:tk strakonice",
+  "poradatel": "TK Strakonice",
+  "adresa": "",
+  "zdroj": "nezname",
+  "region": "",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
+ },
+ "klub:tk strakonice|machova 178 strakonice": {
+  "klic": "klub:tk strakonice|machova 178 strakonice",
+  "poradatel": "TK Strakonice",
+  "adresa": "Máchova 178, Strakonice",
+  "zdroj": "detail",
+  "region": "",
+  "lat": 49.266794,
+  "lon": 13.891801,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "178, Máchova, Strakonice II, Virt, Strakonice, okres Strakonice, Jihočeský kraj, Jihozápad, 386 01, Česko"
+ },
+ "klub:tk tenisek bustehrad|kladenska 728 bustehrad": {
+  "klic": "klub:tk tenisek bustehrad|kladenska 728 bustehrad",
+  "poradatel": "TK Tenisek Buštěhrad",
+  "adresa": "Kladenská 728, Buštěhrad",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 50.153706,
+  "lon": 14.191345,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "728, Kladenská, Buštěhrad, okres Kladno, Středočeský kraj, 273 43, Česko"
+ },
+ "klub:tk tennispoint fm|skautska 3763 frydek mistek": {
+  "klic": "klub:tk tennispoint fm|skautska 3763 frydek mistek",
+  "poradatel": "TK TENNISPOINT FM",
+  "adresa": "Skautská 3763, Frýdek-Místek",
+  "zdroj": "detail",
+  "region": "Severomoravský",
+  "lat": 49.693289,
+  "lon": 18.329126,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "3763, Skautská, Frýdek, Frýdek-Místek, okres Frýdek-Místek, Moravskoslezský kraj, 738 01, Česko"
  },
  "klub:tk tilia brno|voriskova 59 brno kohoutovice": {
   "klic": "klub:tk tilia brno|voriskova 59 brno kohoutovice",
@@ -1857,6 +2402,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "864/59, Voříškova, Kohoutovice, Brno-Kohoutovice, Brno, okres Brno-město, Jihomoravský kraj, 623 00, Česko"
  },
+ "klub:tk trebic": {
+  "klic": "klub:tk trebic",
+  "poradatel": "TK Třebíč",
+  "adresa": "Na Příkopech 122/45, 67401 Třebíč",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.226496,
+  "lon": 15.867712,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "122/45, Na Příkopech, Týn, Třebíč, okres Třebíč, Kraj Vysočina, 674 01, Česko"
+ },
  "klub:tk trebic|na prikopech 122 45 trebic": {
   "klic": "klub:tk trebic|na prikopech 122 45 trebic",
   "poradatel": "TK Třebíč",
@@ -1869,6 +2427,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "122/45, Na Příkopech, Týn, Třebíč, okres Třebíč, Kraj Vysočina, 674 01, Česko"
+ },
+ "klub:tk usti n orlici": {
+  "klic": "klub:tk usti n orlici",
+  "poradatel": "TK Ústí n. Orlicí",
+  "adresa": "V Lukách 276, 56201 Ústí nad Orlicí",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 49.980008,
+  "lon": 16.392367,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "276, V Lukách, Kerhartice, Ústí nad Orlicí, okres Ústí nad Orlicí, Pardubický kraj, 562 01, Česko"
  },
  "klub:tk usti n orlici|v lukach 276 usti nad orlici": {
   "klic": "klub:tk usti n orlici|v lukach 276 usti nad orlici",
@@ -1883,6 +2454,32 @@
   "osm_vzdalenost_km": null,
   "geokod": "276, V Lukách, Kerhartice, Ústí nad Orlicí, okres Ústí nad Orlicí, Pardubický kraj, 562 01, Česko"
  },
+ "klub:tk vodni stavby plzen|slovanske udoli plzen zadni skvrnany smer na obec vejprnice": {
+  "klic": "klub:tk vodni stavby plzen|slovanske udoli plzen zadni skvrnany smer na obec vejprnice",
+  "poradatel": "TK Vodní stavby Plzeň",
+  "adresa": "Slovanské údolí, Plzeň - Zadní Skvrňany",
+  "zdroj": "detail",
+  "region": "Západočeský",
+  "lat": 49.740179,
+  "lon": 13.328045,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Slovanské údolí, Zadní Skvrňany, Skvrňany, Plzeň 3, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 318 00, Česko"
+ },
+ "klub:tk vyskov": {
+  "klic": "klub:tk vyskov",
+  "poradatel": "TK Vyškov",
+  "adresa": "Mlýnská 743/12, 68201 Vyškov",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.281229,
+  "lon": 16.995997,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Mlýnská, Vyškov-Město, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
+ },
  "klub:tk vyskov|mlynska 743 12 vyskov": {
   "klic": "klub:tk vyskov|mlynska 743 12 vyskov",
   "poradatel": "TK Vyškov",
@@ -1895,6 +2492,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Mlýnská, Vyškov-Město, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
+ },
+ "klub:tk zlin": {
+  "klic": "klub:tk zlin",
+  "poradatel": "TK Zlín",
+  "adresa": "Hradská 854, 76001 Zlín",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.221951,
+  "lon": 17.666744,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "854, Hradská, Zlín - centrum, Mladcová, Zlín, okres Zlín, Zlínský kraj, 760 01, Česko"
  },
  "klub:tk zlin|hradska 854 zlin": {
   "klic": "klub:tk zlin|hradska 854 zlin",
@@ -1909,6 +2519,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "854, Hradská, Zlín - centrum, Mladcová, Zlín, okres Zlín, Zlínský kraj, 760 01, Česko"
  },
+ "klub:tk znojmo": {
+  "klic": "klub:tk znojmo",
+  "poradatel": "TK Znojmo",
+  "adresa": "Leska Horní 2135/1, 66902 Znojmo",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 48.86761,
+  "lon": 16.048114,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "2135/1, Leska Horní, Znojmo, okres Znojmo, Jihomoravský kraj, 669 02, Česko"
+ },
  "klub:tk znojmo|leska horni 2135 1 znojmo": {
   "klic": "klub:tk znojmo|leska horni 2135 1 znojmo",
   "poradatel": "TK Znojmo",
@@ -1921,6 +2544,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "2135/1, Leska Horní, Znojmo, okres Znojmo, Jihomoravský kraj, 669 02, Česko"
+ },
+ "klub:to mezibori|mezibori": {
+  "klic": "klub:to mezibori|mezibori",
+  "poradatel": "TO Meziboří",
+  "adresa": "Meziboří",
+  "zdroj": "detail",
+  "region": "Severočeský",
+  "lat": 50.620308,
+  "lon": 13.607138,
+  "presnost": "obec",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Meziboří, okres Most, Ústecký kraj, Česko"
  },
  "klub:to sk melnik|na polabi 3405 melnik": {
   "klic": "klub:to sk melnik|na polabi 3405 melnik",
@@ -1961,6 +2597,32 @@
   "osm_vzdalenost_km": null,
   "geokod": "135, Na Příštipku, Nehvizdy, okres Praha-východ, Středočeský kraj, 250 81, Česko"
  },
+ "klub:to tj svitavy": {
+  "klic": "klub:to tj svitavy",
+  "poradatel": "TO TJ Svitavy",
+  "adresa": "U Stadionu 17, 56802 Svitavy",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 49.75112,
+  "lon": 16.462601,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "937/17, U Stadionu, Lány, Svitavy, okres Svitavy, Pardubický kraj, 568 02, Česko"
+ },
+ "klub:to tj svitavy|u stadionu 17 svitavy": {
+  "klic": "klub:to tj svitavy|u stadionu 17 svitavy",
+  "poradatel": "TO TJ Svitavy",
+  "adresa": "U Stadionu 17, Svitavy",
+  "zdroj": "detail",
+  "region": "Východočeský",
+  "lat": 49.75112,
+  "lon": 16.462601,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "937/17, U Stadionu, Lány, Svitavy, okres Svitavy, Pardubický kraj, 568 02, Česko"
+ },
  "klub:to tj tesla pardubice|k vinici 1901 pardubice": {
   "klic": "klub:to tj tesla pardubice|k vinici 1901 pardubice",
   "poradatel": "TO TJ Tesla Pardubice",
@@ -1973,19 +2635,6 @@
   "nazev_mista": "TJ Tesla Pardubice",
   "osm_vzdalenost_km": 0.0,
   "geokod": "TJ Tesla Pardubice, 1901, K Vinici, Na spravedlnosti, Nové Jesenčany, Pardubice V, Pardubice, okres Pardubice, Pardubický kraj, 530 02, Česko"
- },
- "klub:tp point fm|skautska 3763 frydek mistek": {
-  "klic": "klub:tp point fm|skautska 3763 frydek mistek",
-  "poradatel": "TP POINT FM",
-  "adresa": "Skautská 3763, Frýdek-Místek",
-  "zdroj": "detail",
-  "region": "Severomoravský",
-  "lat": 49.693289,
-  "lon": 18.329126,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "3763, Skautská, Frýdek, Frýdek-Místek, okres Frýdek-Místek, Moravskoslezský kraj, 738 01, Česko"
  },
  "klub:trend sport z s|slezska 2255 5 krnov": {
   "klic": "klub:trend sport z s|slezska 2255 5 krnov",
@@ -2000,18 +2649,18 @@
   "osm_vzdalenost_km": null,
   "geokod": "2255/5, Slezská, Leobschützer Vorstadt, Pod Bezručovým vrchem, Krnov, okres Bruntál, Moravskoslezský kraj, 794 01, Česko"
  },
- "klub:tsm sokol vysocany z s|novoskolska 696 2 praha 9": {
-  "klic": "klub:tsm sokol vysocany z s|novoskolska 696 2 praha 9",
-  "poradatel": "TSM Sokol Vysočany z.s.",
-  "adresa": "Novoškolská 696/2, Praha 9",
+ "klub:tsport votice o s|masarykovo namesti 937 votice": {
+  "klic": "klub:tsport votice o s|masarykovo namesti 937 votice",
+  "poradatel": "Tsport Votice o.s.",
+  "adresa": "Masarykovo náměstí 937, Votice",
   "zdroj": "detail",
-  "region": "Praha",
-  "lat": 50.109443,
-  "lon": 14.50621,
+  "region": "Středočeský",
+  "lat": 49.003934,
+  "lon": 14.771066,
   "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "One Box, 696/2, Novoškolská, Vysočany, Praha 9, obvod Praha 9, Praha, 190 00, Česko"
+  "geokod": "Masarykovo náměstí, Třeboň Ⅰ, Třeboň, okres Jindřichův Hradec, Jihočeský kraj, Jihozápad, Česko"
  },
  "klub:wilson tenis centrum z s|modletice 108 praha vychod": {
   "klic": "klub:wilson tenis centrum z s|modletice 108 praha vychod",
@@ -2025,19 +2674,6 @@
   "nazev_mista": "TK Wilson centrum",
   "osm_vzdalenost_km": 0.0,
   "geokod": "TK Wilson centrum, 108, Modletice, okres Praha-východ, Středočeský kraj, 251 01, Česko"
- },
- "klub:zazit repy z s|vondrousova 1217 32 praha": {
-  "klic": "klub:zazit repy z s|vondrousova 1217 32 praha",
-  "poradatel": "Zažít Řepy, z.s.",
-  "adresa": "Vondroušova 1217/32, Praha",
-  "zdroj": "detail",
-  "region": "Praha",
-  "lat": 50.064045,
-  "lon": 14.302871,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1217/32, Vondroušova, Řepy, Praha 17, obvod Praha 6, Praha, 163 00, Česko"
  },
  "klub:zltc brno|bubenickova 52 brno": {
   "klic": "klub:zltc brno|bubenickova 52 brno",
@@ -2056,11 +2692,11 @@
   "klic": "svaz:cts:106700",
   "poradatel": "ČTS",
   "adresa": "Padlých hrdinů 401/10a, Havířov - Životice",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "ČTS",
   "lat": 49.764639,
   "lon": 18.470756,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tennis Hill",
   "osm_vzdalenost_km": 0.01,
   "geokod": "401/10a, Padlých hrdinů, Havířov-Životice, Životice, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
@@ -2068,25 +2704,25 @@
  "svaz:cts:306700": {
   "klic": "svaz:cts:306700",
   "poradatel": "ČTS",
-  "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "loni",
+  "adresa": "Karlovecká 1B, Opava",
+  "zdroj": "detail",
   "region": "ČTS",
-  "lat": 50.211946,
-  "lon": 15.828774,
-  "presnost": "odhad",
+  "lat": 49.956623,
+  "lon": 17.882745,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
+  "geokod": "2918/1b, Karlovecká, Vávrovice, Opava, okres Opava, Moravskoslezský kraj, 747 07, Česko"
  },
  "svaz:cts:506700": {
   "klic": "svaz:cts:506700",
   "poradatel": "ČTS",
   "adresa": "Za Kosteleckou 49, Prostějov",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "ČTS",
   "lat": 49.480997,
   "lon": 17.101198,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "4161/49, Za Kosteleckou, Prostějov, město, Krasice, Prostějov, okres Prostějov, Olomoucký kraj, 796 01, Česko"
@@ -2095,62 +2731,76 @@
   "klic": "svaz:cts:706700",
   "poradatel": "ČTS",
   "adresa": "Fibichova 1377/8, Liberec",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "ČTS",
   "lat": 50.774766,
   "lon": 15.075258,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Restaurace Wimbledon, 1377/8, Fibichova, Staré Město, Kristiánov, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
  },
- "svaz:cts:906711": {
-  "klic": "svaz:cts:906711",
+ "svaz:cts:806700": {
+  "klic": "svaz:cts:806700",
   "poradatel": "ČTS",
-  "adresa": "Karlovecká 1B, Opava",
-  "zdroj": "loni",
+  "adresa": "Za Císařským mlýnem 1115/2, Praha 7",
+  "zdroj": "detail",
   "region": "ČTS",
-  "lat": 49.956623,
-  "lon": 17.882745,
-  "presnost": "odhad",
+  "lat": 50.110365,
+  "lon": 14.409241,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "2918/1b, Karlovecká, Vávrovice, Opava, okres Opava, Moravskoslezský kraj, 747 07, Česko"
+  "geokod": "1115/2, Za Císařským mlýnem, Bubeneč, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
  },
- "svaz:cts:906731": {
-  "klic": "svaz:cts:906731",
+ "svaz:cts:906635": {
+  "klic": "svaz:cts:906635",
   "poradatel": "ČTS",
-  "adresa": "",
-  "zdroj": "loni",
+  "adresa": "Hradecká 775/115, Hradec Králové",
+  "zdroj": "detail",
   "region": "ČTS",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
+  "lat": 50.18879,
+  "lon": 15.835218,
+  "presnost": "adresa",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "osm_vzdalenost_km": null,
+  "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
+ },
+ "svaz:cts:906636": {
+  "klic": "svaz:cts:906636",
+  "poradatel": "ČTS",
+  "adresa": "Hradecká 775/115, Hradec Králové",
+  "zdroj": "detail",
+  "region": "ČTS",
+  "lat": 50.18879,
+  "lon": 15.835218,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
  },
  "svaz:jihocesky:106860": {
   "klic": "svaz:jihocesky:106860",
   "poradatel": "jihočeský",
-  "adresa": "K tenisu 1741, Pelhřimov",
-  "zdroj": "loni",
+  "adresa": "Máchova 178, Strakonice",
+  "zdroj": "detail",
   "region": "Jihočeský",
-  "lat": 49.436828,
-  "lon": 15.226982,
-  "presnost": "odhad",
+  "lat": 49.266794,
+  "lon": 13.891801,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "1741, K Tenisu, Pelhřimov, okres Pelhřimov, Kraj Vysočina, 393 01, Česko"
+  "geokod": "178, Máchova, Strakonice II, Virt, Strakonice, okres Strakonice, Jihočeský kraj, Jihozápad, 386 01, Česko"
  },
  "svaz:jihocesky:206860": {
   "klic": "svaz:jihocesky:206860",
   "poradatel": "jihočeský",
   "adresa": "Vltavské nábřeží 930/1, České Budějovice",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihočeský",
   "lat": 48.974736,
   "lon": 14.474285,
-  "presnost": "odhad",
+  "presnost": "obec",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "České Budějovice, okres České Budějovice, Jihočeský kraj, Jihozápad, Česko"
@@ -2159,11 +2809,11 @@
   "klic": "svaz:jihocesky:306860",
   "poradatel": "jihočeský",
   "adresa": "K tenisu 1741, Pelhřimov",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihočeský",
   "lat": 49.436828,
   "lon": 15.226982,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1741, K Tenisu, Pelhřimov, okres Pelhřimov, Kraj Vysočina, 393 01, Česko"
@@ -2171,51 +2821,51 @@
  "svaz:jihocesky:406860": {
   "klic": "svaz:jihocesky:406860",
   "poradatel": "jihočeský",
-  "adresa": "Vltavské nábřeží 930/1, České Budějovice",
-  "zdroj": "loni",
+  "adresa": "Sportovní 1279, Hluboká nad Vltavou",
+  "zdroj": "detail",
   "region": "Jihočeský",
-  "lat": 48.974736,
-  "lon": 14.474285,
-  "presnost": "odhad",
+  "lat": 49.04704,
+  "lon": 14.444234,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "České Budějovice, okres České Budějovice, Jihočeský kraj, Jihozápad, Česko"
+  "geokod": "1279, Sportovní, Hluboká nad Vltavou, okres České Budějovice, Jihočeský kraj, Jihozápad, 373 41, Česko"
  },
  "svaz:jihocesky:506860": {
   "klic": "svaz:jihocesky:506860",
   "poradatel": "jihočeský",
-  "adresa": "Chvalšinská 247, Český Krumlov",
-  "zdroj": "loni",
+  "adresa": "Hálkova 1845, Humpolec",
+  "zdroj": "detail",
   "region": "Jihočeský",
-  "lat": 48.814982,
-  "lon": 14.306937,
-  "presnost": "odhad",
-  "nazev_mista": "Tenisová hala",
-  "osm_vzdalenost_km": 0.01,
-  "geokod": "Lawn Tennis Club Český Krumlov, 247, Chvalšinská, Nový Vyšný, Nové Dobrkovice, Vyšný, Český Krumlov, okres Český Krumlov, Jihočeský kraj, Jihozápad, 381 01, Česko"
+  "lat": 49.540365,
+  "lon": 15.348115,
+  "presnost": "areal",
+  "nazev_mista": "V Brance, tenisová hala",
+  "osm_vzdalenost_km": 0.03,
+  "geokod": "1845, Hálkova, Humpolec, okres Pelhřimov, Kraj Vysočina, 396 01, Česko"
  },
  "svaz:jihocesky:606860": {
   "klic": "svaz:jihocesky:606860",
   "poradatel": "jihočeský",
-  "adresa": "Vltavské nábřeží 930/1, České Budějovice",
-  "zdroj": "loni",
+  "adresa": "Chvalšinská 247, Český Krumlov",
+  "zdroj": "detail",
   "region": "Jihočeský",
-  "lat": 48.974736,
-  "lon": 14.474285,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "České Budějovice, okres České Budějovice, Jihočeský kraj, Jihozápad, Česko"
+  "lat": 48.814982,
+  "lon": 14.306937,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala",
+  "osm_vzdalenost_km": 0.01,
+  "geokod": "Lawn Tennis Club Český Krumlov, 247, Chvalšinská, Nový Vyšný, Nové Dobrkovice, Vyšný, Český Krumlov, okres Český Krumlov, Jihočeský kraj, Jihozápad, 381 01, Česko"
  },
  "svaz:jihocesky:706860": {
   "klic": "svaz:jihocesky:706860",
   "poradatel": "jihočeský",
   "adresa": "Táborská 1071, Sezimovo Ústí",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihočeský",
   "lat": 49.387028,
   "lon": 14.68067,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1071, Táborská, Sezimovo Ústí Ⅰ, Sezimovo Ústí, okres Tábor, Jihočeský kraj, Jihozápad, 391 01, Česko"
@@ -2223,38 +2873,38 @@
  "svaz:jihocesky:806860": {
   "klic": "svaz:jihocesky:806860",
   "poradatel": "jihočeský",
-  "adresa": "Máchova 178, Strakonice",
-  "zdroj": "loni",
+  "adresa": "Vltavské nábřeží 930/1, České Budějovice",
+  "zdroj": "detail",
   "region": "Jihočeský",
-  "lat": 49.266794,
-  "lon": 13.891801,
-  "presnost": "odhad",
+  "lat": 48.974736,
+  "lon": 14.474285,
+  "presnost": "obec",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "178, Máchova, Strakonice II, Virt, Strakonice, okres Strakonice, Jihočeský kraj, Jihozápad, 386 01, Česko"
+  "geokod": "České Budějovice, okres České Budějovice, Jihočeský kraj, Jihozápad, Česko"
  },
- "svaz:jihocesky:906640": {
-  "klic": "svaz:jihocesky:906640",
+ "svaz:jihocesky:906609": {
+  "klic": "svaz:jihocesky:906609",
   "poradatel": "jihočeský",
-  "adresa": "Úslavská 75 (tenisový areál), Plzeň",
-  "zdroj": "loni",
+  "adresa": "Táborská 1071, Sezimovo Ústí",
+  "zdroj": "detail",
   "region": "Jihočeský",
-  "lat": 49.737696,
-  "lon": 13.398738,
-  "presnost": "odhad",
+  "lat": 49.387028,
+  "lon": 14.68067,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "2357/75, Úslavská, Slovany, Plzeň 2-Slovany, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 326 00, Česko"
+  "geokod": "1071, Táborská, Sezimovo Ústí Ⅰ, Sezimovo Ústí, okres Tábor, Jihočeský kraj, Jihozápad, 391 01, Česko"
  },
  "svaz:jihomoravsky:106940": {
   "klic": "svaz:jihomoravsky:106940",
   "poradatel": "jihomoravský",
   "adresa": "Na Valtické 650/85, Břeclav",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 48.757478,
   "lon": 16.855764,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "650/85, Na Valtické, Charvátská Nová Ves, Břeclav, okres Břeclav, Jihomoravský kraj, 691 41, Česko"
@@ -2263,11 +2913,11 @@
   "klic": "svaz:jihomoravsky:206940",
   "poradatel": "jihomoravský",
   "adresa": "Bubeníčkova 52, Brno",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.200656,
   "lon": 16.641175,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Tenis bar, 52, Bubeníčkova, Brno-Židenice, Brno, okres Brno-město, Jihomoravský kraj, 615 00, Česko"
@@ -2276,11 +2926,11 @@
   "klic": "svaz:jihomoravsky:306940",
   "poradatel": "jihomoravský",
   "adresa": "Na Valtické 650/85, Břeclav",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 48.757478,
   "lon": 16.855764,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "650/85, Na Valtické, Charvátská Nová Ves, Břeclav, okres Břeclav, Jihomoravský kraj, 691 41, Česko"
@@ -2288,64 +2938,64 @@
  "svaz:jihomoravsky:406940": {
   "klic": "svaz:jihomoravsky:406940",
   "poradatel": "jihomoravský",
-  "adresa": "Janáčkovo stromořadí 156, Třebíč",
-  "zdroj": "loni",
-  "region": "Jihomoravský",
-  "lat": 49.213215,
-  "lon": 15.896021,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "156, Janáčkovo stromořadí, Jejkov, Třebíč, okres Třebíč, Kraj Vysočina, 674 01, Česko"
- },
- "svaz:jihomoravsky:506940": {
-  "klic": "svaz:jihomoravsky:506940",
-  "poradatel": "jihomoravský",
-  "adresa": "Mostecká 24, Jihlava",
-  "zdroj": "loni",
-  "region": "Jihomoravský",
-  "lat": 49.405206,
-  "lon": 15.581622,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "3700/24, Mostecká, Brtnické předměstí, Jihlava, okres Jihlava, Kraj Vysočina, 586 01, Česko"
- },
- "svaz:jihomoravsky:606940": {
-  "klic": "svaz:jihomoravsky:606940",
-  "poradatel": "jihomoravský",
   "adresa": "Salašska2182, Staré Město",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 50.086115,
   "lon": 14.418782,
-  "presnost": "odhad",
+  "presnost": "obec",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Staré Město, obvod Praha 1, Praha, Česko"
  },
- "svaz:jihomoravsky:706940": {
-  "klic": "svaz:jihomoravsky:706940",
+ "svaz:jihomoravsky:506940": {
+  "klic": "svaz:jihomoravsky:506940",
   "poradatel": "jihomoravský",
   "adresa": "Bubeníčkova 52, Brno",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.200656,
   "lon": 16.641175,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Tenis bar, 52, Bubeníčkova, Brno-Židenice, Brno, okres Brno-město, Jihomoravský kraj, 615 00, Česko"
  },
- "svaz:jihomoravsky:706941": {
-  "klic": "svaz:jihomoravsky:706941",
+ "svaz:jihomoravsky:606940": {
+  "klic": "svaz:jihomoravsky:606940",
   "poradatel": "jihomoravský",
-  "adresa": "Novolíšeňská (adresa kurtů), BRNO-LÍŠEŇ",
-  "zdroj": "loni",
+  "adresa": "Herčíkova 19b, Brno",
+  "zdroj": "detail",
+  "region": "Jihomoravský",
+  "lat": 49.23172,
+  "lon": 16.584656,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "3071/19b, Herčíkova, Královo Pole, Brno-Královo Pole, Brno, okres Brno-město, Jihomoravský kraj, 612 00, Česko"
+ },
+ "svaz:jihomoravsky:706940": {
+  "klic": "svaz:jihomoravsky:706940",
+  "poradatel": "jihomoravský",
+  "adresa": "Mostecká 24, Jihlava",
+  "zdroj": "detail",
+  "region": "Jihomoravský",
+  "lat": 49.405206,
+  "lon": 15.581622,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "3700/24, Mostecká, Brtnické předměstí, Jihlava, okres Jihlava, Kraj Vysočina, 586 01, Česko"
+ },
+ "svaz:jihomoravsky:706971": {
+  "klic": "svaz:jihomoravsky:706971",
+  "poradatel": "jihomoravský",
+  "adresa": "Novolíšeňská , BRNO-LÍŠEŇ",
+  "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.207909,
   "lon": 16.687483,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"
@@ -2354,11 +3004,11 @@
   "klic": "svaz:jihomoravsky:806940",
   "poradatel": "jihomoravský",
   "adresa": "Lužánecká 7, Brno",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.203769,
   "lon": 16.613685,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tenis team",
   "osm_vzdalenost_km": 0.25,
   "geokod": "2016/7, Lužánecká, Zábrdovice, Brno-střed, Brno, okres Brno-město, Jihomoravský kraj, 602 00, Česko"
@@ -2366,36 +3016,38 @@
  "svaz:praha:106800": {
   "klic": "svaz:praha:106800",
   "poradatel": "Praha",
-  "adresa": "",
-  "zdroj": "loni",
+  "adresa": "Radlická 298/105, Praha 5",
+  "zdroj": "detail",
   "region": "Praha",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
+  "lat": 50.0582,
+  "lon": 14.390685,
+  "presnost": "adresa",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "osm_vzdalenost_km": null,
+  "geokod": "298/105, Radlická, Radlice, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
  },
  "svaz:praha:206800": {
   "klic": "svaz:praha:206800",
   "poradatel": "Praha",
-  "adresa": "",
-  "zdroj": "loni",
+  "adresa": "Jeremenkova 106, Praha 4",
+  "zdroj": "detail",
   "region": "Praha",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
+  "lat": 50.043879,
+  "lon": 14.435045,
+  "presnost": "adresa",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "osm_vzdalenost_km": null,
+  "geokod": "1835/106, Jeremenkova, Zelená Liška, Krč, Praha 4, obvod Praha 4, Praha, 140 00, Česko"
  },
  "svaz:praha:306800": {
   "klic": "svaz:praha:306800",
   "poradatel": "Praha",
   "adresa": "Radlická 298/105, Praha 5",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Praha",
   "lat": 50.0582,
   "lon": 14.390685,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "298/105, Radlická, Radlice, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
@@ -2403,12 +3055,12 @@
  "svaz:praha:406800": {
   "klic": "svaz:praha:406800",
   "poradatel": "Praha",
-  "adresa": "Přechodní 1594/1 (dvorce: Komořanská ulice), Praha 4 (dvorce: Praha 4 - Modřany)",
-  "zdroj": "loni",
+  "adresa": "Přechodní 1594/1 , Praha 4",
+  "zdroj": "detail",
   "region": "Praha",
   "lat": 50.039001,
   "lon": 14.453165,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1594/1, Přechodní, Krč, Praha 4, obvod Praha 4, Praha, 140 00, Česko"
@@ -2416,90 +3068,89 @@
  "svaz:praha:506800": {
   "klic": "svaz:praha:506800",
   "poradatel": "Praha",
-  "adresa": "K Vodě 3200/6, Praha 10",
-  "zdroj": "loni",
-  "region": "Praha",
-  "lat": 50.052295,
-  "lon": 14.489932,
-  "presnost": "odhad",
-  "nazev_mista": "Driving Range Pupp Tenis Resort",
-  "osm_vzdalenost_km": 0.29,
-  "geokod": "3200/6, K vodě, Záběhlice, Praha 10, obvod Praha 10, Praha, 106 00, Česko"
- },
- "svaz:praha:606800": {
-  "klic": "svaz:praha:606800",
-  "poradatel": "Praha",
-  "adresa": "Mezi sklady 3/107, Praha 4",
-  "zdroj": "loni",
-  "region": "Praha",
-  "lat": 50.035092,
-  "lon": 14.433842,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "Mezi sklady, Braník, Praha 4, obvod Praha 4, Praha, 140 02, Česko"
- },
- "svaz:praha:706800": {
-  "klic": "svaz:praha:706800",
-  "poradatel": "Praha",
   "adresa": "Ostrov Štvanice 38, Praha 7",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Praha",
   "lat": 50.096242,
   "lon": 14.440263,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "ev.38, ostrov Štvanice, Holešovice, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
  },
- "svaz:praha:706815": {
-  "klic": "svaz:praha:706815",
+ "svaz:praha:606800": {
+  "klic": "svaz:praha:606800",
   "poradatel": "Praha",
-  "adresa": "Ve lhotce, Praha 4",
-  "zdroj": "loni",
+  "adresa": "K Vodě 3200/6, Praha 10",
+  "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.019163,
-  "lon": 14.432613,
-  "presnost": "odhad",
-  "nazev_mista": "Tenis Tempo Praha Areál Lhotka",
-  "osm_vzdalenost_km": 0.27,
-  "geokod": "Ve Lhotce, Lhotka, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
+  "lat": 50.052295,
+  "lon": 14.489932,
+  "presnost": "areal",
+  "nazev_mista": "Driving Range Pupp Tenis Resort",
+  "osm_vzdalenost_km": 0.29,
+  "geokod": "3200/6, K vodě, Záběhlice, Praha 10, obvod Praha 10, Praha, 106 00, Česko"
+ },
+ "svaz:praha:706800": {
+  "klic": "svaz:praha:706800",
+  "poradatel": "Praha",
+  "adresa": "Bukolská 838/2a, Praha 8",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.130225,
+  "lon": 14.433265,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Bukolská, Čimice, Praha 8, obvod Praha 8, Praha, 181 06, Česko"
  },
  "svaz:praha:806800": {
   "klic": "svaz:praha:806800",
   "poradatel": "Praha",
   "adresa": "Za Císařským mlýnem 1115/2, Praha 7",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Praha",
   "lat": 50.110365,
   "lon": 14.409241,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1115/2, Za Císařským mlýnem, Bubeneč, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
  },
- "svaz:praha:906636": {
-  "klic": "svaz:praha:906636",
+ "svaz:praha:906587": {
+  "klic": "svaz:praha:906587",
   "poradatel": "Praha",
-  "adresa": "Seifertova 1504, Litvínov",
+  "adresa": "Brněnská 122, Vyškov",
   "zdroj": "loni",
   "region": "Praha",
-  "lat": 50.611567,
-  "lon": 13.629205,
+  "lat": 49.268175,
+  "lon": 16.983273,
   "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "1504, Seifertova, Horní Litvínov, Litvínov, okres Most, Ústecký kraj, 436 01, Česko"
+  "geokod": "59/122, Brněnská, Nouzka, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
+ },
+ "svaz:severocesky:": {
+  "klic": "svaz:severocesky:",
+  "poradatel": "severočeský",
+  "adresa": "",
+  "zdroj": "nezname",
+  "region": "Severočeský",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
  },
  "svaz:severocesky:106900": {
   "klic": "svaz:severocesky:106900",
   "poradatel": "severočeský",
   "adresa": "U koupaliště 647, Hrádek nad Nisou",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severočeský",
   "lat": 50.855862,
   "lon": 14.83732,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tennis",
   "osm_vzdalenost_km": 0.19,
   "geokod": "647, U koupaliště, Loučná, Hrádek nad Nisou, okres Liberec, Liberecký kraj, 463 34, Česko"
@@ -2507,25 +3158,25 @@
  "svaz:severocesky:206900": {
   "klic": "svaz:severocesky:206900",
   "poradatel": "severočeský",
-  "adresa": "U Tenisu 3859/214, Jablonec n.N.",
-  "zdroj": "loni",
+  "adresa": "Pod Koňským vrchem 1159, Most",
+  "zdroj": "detail",
   "region": "Severočeský",
-  "lat": 50.728894,
-  "lon": 15.145999,
-  "presnost": "odhad",
-  "nazev_mista": "Tenisová hala",
-  "osm_vzdalenost_km": 0.03,
-  "geokod": "3859/214, U Tenisu, Proseč nad Nisou, Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, 468 04, Česko"
+  "lat": 50.497017,
+  "lon": 13.619155,
+  "presnost": "areal",
+  "nazev_mista": "Tenisové kurty",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "1159/5, Pod Koňským vrchem, Čepirohy, Most, okres Most, Ústecký kraj, 434 01, Česko"
  },
  "svaz:severocesky:306900": {
   "klic": "svaz:severocesky:306900",
   "poradatel": "severočeský",
   "adresa": "U koupaliště 647, Hrádek nad Nisou",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severočeský",
   "lat": 50.855862,
   "lon": 14.83732,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tennis",
   "osm_vzdalenost_km": 0.19,
   "geokod": "647, U koupaliště, Loučná, Hrádek nad Nisou, okres Liberec, Liberecký kraj, 463 34, Česko"
@@ -2533,103 +3184,90 @@
  "svaz:severocesky:406900": {
   "klic": "svaz:severocesky:406900",
   "poradatel": "severočeský",
-  "adresa": "Na letné 412/7, Teplice",
-  "zdroj": "loni",
+  "adresa": "Pod Koňským vrchem 1159, Most",
+  "zdroj": "detail",
   "region": "Severočeský",
-  "lat": 50.638211,
-  "lon": 13.833963,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "412/7, Na Letné, Prosetice, Teplice, okres Teplice, Ústecký kraj, 415 01, Česko"
+  "lat": 50.497017,
+  "lon": 13.619155,
+  "presnost": "areal",
+  "nazev_mista": "Tenisové kurty",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "1159/5, Pod Koňským vrchem, Čepirohy, Most, okres Most, Ústecký kraj, 434 01, Česko"
  },
  "svaz:severocesky:506900": {
   "klic": "svaz:severocesky:506900",
   "poradatel": "severočeský",
-  "adresa": "Alej 17.listopadu 265, Roudnice nad Labem",
-  "zdroj": "loni",
+  "adresa": "Polní 894, Liberec",
+  "zdroj": "detail",
   "region": "Severočeský",
-  "lat": 50.423861,
-  "lon": 14.247745,
-  "presnost": "odhad",
+  "lat": 50.783039,
+  "lon": 15.040218,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "265, Alej 17. listopadu, Podlusky, Roudnice nad Labem, okres Litoměřice, Ústecký kraj, 413 01, Česko"
- },
- "svaz:severocesky:606900": {
-  "klic": "svaz:severocesky:606900",
-  "poradatel": "severočeský",
-  "adresa": "Pod Koňským vrchem 1159, Most",
-  "zdroj": "loni",
-  "region": "Severočeský",
-  "lat": 50.497017,
-  "lon": 13.619155,
-  "presnost": "odhad",
-  "nazev_mista": "Tenisové kurty",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "1159/5, Pod Koňským vrchem, Čepirohy, Most, okres Most, Ústecký kraj, 434 01, Česko"
+  "geokod": "894, Polní, Staré Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
  },
  "svaz:severocesky:706900": {
   "klic": "svaz:severocesky:706900",
   "poradatel": "severočeský",
   "adresa": "Fibichova 1377/8, Liberec",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severočeský",
   "lat": 50.774766,
   "lon": 15.075258,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Restaurace Wimbledon, 1377/8, Fibichova, Staré Město, Kristiánov, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
  },
+ "svaz:severocesky:806038": {
+  "klic": "svaz:severocesky:806038",
+  "poradatel": "severočeský",
+  "adresa": "U Tenisu 3859/214, Jablonec n.N.",
+  "zdroj": "detail",
+  "region": "Severočeský",
+  "lat": 50.728894,
+  "lon": 15.145999,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala",
+  "osm_vzdalenost_km": 0.03,
+  "geokod": "3859/214, U Tenisu, Proseč nad Nisou, Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, 468 04, Česko"
+ },
  "svaz:severocesky:806900": {
   "klic": "svaz:severocesky:806900",
   "poradatel": "severočeský",
-  "adresa": "Alej 17.listopadu 265, Roudnice nad Labem",
-  "zdroj": "loni",
+  "adresa": "U Tenisu 3859/214, Jablonec n.N.",
+  "zdroj": "detail",
   "region": "Severočeský",
-  "lat": 50.423861,
-  "lon": 14.247745,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "265, Alej 17. listopadu, Podlusky, Roudnice nad Labem, okres Litoměřice, Ústecký kraj, 413 01, Česko"
+  "lat": 50.728894,
+  "lon": 15.145999,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala",
+  "osm_vzdalenost_km": 0.03,
+  "geokod": "3859/214, U Tenisu, Proseč nad Nisou, Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, 468 04, Česko"
  },
- "svaz:severocesky:906646": {
-  "klic": "svaz:severocesky:906646",
+ "svaz:severocesky:906683": {
+  "klic": "svaz:severocesky:906683",
   "poradatel": "severočeský",
-  "adresa": "Veletovská 2358, Újezd nad Lesy",
-  "zdroj": "loni",
+  "adresa": "Fibichova 1377/8, Liberec",
+  "zdroj": "detail",
   "region": "Severočeský",
-  "lat": 50.076212,
-  "lon": 14.679172,
-  "presnost": "odhad",
+  "lat": 50.774766,
+  "lon": 15.075258,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "2358, Veletovská, Rohožník, Újezd nad Lesy, Praha 21, obvod Praha 9, Praha, 190 16, Česko"
+  "geokod": "Restaurace Wimbledon, 1377/8, Fibichova, Staré Město, Kristiánov, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
  },
  "svaz:severomoravsky:106970": {
   "klic": "svaz:severomoravsky:106970",
   "poradatel": "severomoravský",
   "adresa": "Padlých hrdinů 401/10a, Havířov - Životice",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severomoravský",
   "lat": 49.764639,
   "lon": 18.470756,
-  "presnost": "odhad",
-  "nazev_mista": "Tennis Hill",
-  "osm_vzdalenost_km": 0.01,
-  "geokod": "401/10a, Padlých hrdinů, Havířov-Životice, Životice, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
- },
- "svaz:severomoravsky:206970": {
-  "klic": "svaz:severomoravsky:206970",
-  "poradatel": "severomoravský",
-  "adresa": "Padlých hrdinů 401/10a, Havířov - Životice",
-  "zdroj": "loni",
-  "region": "Severomoravský",
-  "lat": 49.764639,
-  "lon": 18.470756,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tennis Hill",
   "osm_vzdalenost_km": 0.01,
   "geokod": "401/10a, Padlých hrdinů, Havířov-Životice, Životice, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
@@ -2638,11 +3276,11 @@
   "klic": "svaz:severomoravsky:306970",
   "poradatel": "severomoravský",
   "adresa": "Kouty 1581, Valašské Meziříčí",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severomoravský",
   "lat": 49.470808,
   "lon": 17.986217,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tenisová hala",
   "osm_vzdalenost_km": 0.05,
   "geokod": "1581, Kouty, Město 1, Krásno nad Bečvou, Hrachovec, Valašské Meziříčí, okres Vsetín, Zlínský kraj, 757 01, Česko"
@@ -2650,41 +3288,53 @@
  "svaz:severomoravsky:406970": {
   "klic": "svaz:severomoravsky:406970",
   "poradatel": "severomoravský",
-  "adresa": "Pod Strání 312, Rožnov pod Radhoštěm",
-  "zdroj": "loni",
+  "adresa": "Sportovní areál Vendryně 1017, Vedryně",
+  "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.465215,
-  "lon": 18.164735,
-  "presnost": "odhad",
+  "lat": 49.657998,
+  "lon": 18.695876,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "ev.312, Pod strání, Rožnov pod Radhoštěm, okres Vsetín, Zlínský kraj, 756 61, Česko"
+  "geokod": "Sportovní areál Vendryně, 4682, Vendryně, okres Frýdek-Místek, Moravskoslezský kraj, 739 94, Česko"
  },
  "svaz:severomoravsky:506970": {
   "klic": "svaz:severomoravsky:506970",
   "poradatel": "severomoravský",
-  "adresa": "Sportovní 1530, Frýdlant n.O.",
-  "zdroj": "loni",
+  "adresa": "Opletalova 1218/8b, Havířov-Šumbark",
+  "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.580469,
-  "lon": 18.36408,
-  "presnost": "odhad",
-  "nazev_mista": "Tenisová hala",
-  "osm_vzdalenost_km": 0.01,
-  "geokod": "1530, Sportovní, Frýdlant, Nová Ves, Frýdlant nad Ostravicí, okres Frýdek-Místek, Moravskoslezský kraj, 739 11, Česko"
+  "lat": 49.794884,
+  "lon": 18.411975,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "1218/8b, Opletalova, Havířov-Šumbark, Šumbark, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
  },
  "svaz:severomoravsky:606970": {
   "klic": "svaz:severomoravsky:606970",
   "poradatel": "severomoravský",
   "adresa": "Kosmákova 55, Přerov",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severomoravský",
   "lat": 49.456891,
   "lon": 17.463117,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "3364/55, Kosmákova, Město, Přerov, okres Přerov, Olomoucký kraj, 750 02, Česko"
+ },
+ "svaz:severomoravsky:706610": {
+  "klic": "svaz:severomoravsky:706610",
+  "poradatel": "severomoravský",
+  "adresa": "",
+  "zdroj": "loni",
+  "region": "Severomoravský",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
  },
  "svaz:severomoravsky:706611": {
   "klic": "svaz:severomoravsky:706611",
@@ -2701,27 +3351,15 @@
  "svaz:severomoravsky:706970": {
   "klic": "svaz:severomoravsky:706970",
   "poradatel": "severomoravský",
-  "adresa": "Opletalova 1218/8b, Havířov-Šumbark",
-  "zdroj": "loni",
+  "adresa": "Sportovní 1530, Frýdlant n.O.",
+  "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.794884,
-  "lon": 18.411975,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1218/8b, Opletalova, Havířov-Šumbark, Šumbark, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
- },
- "svaz:severomoravsky:708610": {
-  "klic": "svaz:severomoravsky:708610",
-  "poradatel": "severomoravský",
-  "adresa": "",
-  "zdroj": "loni",
-  "region": "Severomoravský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "lat": 49.580469,
+  "lon": 18.36408,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala",
+  "osm_vzdalenost_km": 0.01,
+  "geokod": "1530, Sportovní, Frýdlant, Nová Ves, Frýdlant nad Ostravicí, okres Frýdek-Místek, Moravskoslezský kraj, 739 11, Česko"
  },
  "svaz:severomoravsky:806610": {
   "klic": "svaz:severomoravsky:806610",
@@ -2751,113 +3389,50 @@
   "klic": "svaz:severomoravsky:806970",
   "poradatel": "severomoravský",
   "adresa": "Sportovní areál Vendryně 1017, Vedryně",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severomoravský",
   "lat": 49.657998,
   "lon": 18.695876,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "Sportovní areál Vendryně, 4682, Vendryně, okres Frýdek-Místek, Moravskoslezský kraj, 739 94, Česko"
  },
- "svaz:severomoravsky:906005": {
-  "klic": "svaz:severomoravsky:906005",
+ "svaz:severomoravsky:906071": {
+  "klic": "svaz:severomoravsky:906071",
   "poradatel": "severomoravský",
-  "adresa": "Lužánecká 7, Brno",
-  "zdroj": "loni",
+  "adresa": "Padlých hrdinů 401/10a, Havířov - Životice",
+  "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.203769,
-  "lon": 16.613685,
-  "presnost": "odhad",
-  "nazev_mista": "Tenis team",
-  "osm_vzdalenost_km": 0.25,
-  "geokod": "2016/7, Lužánecká, Zábrdovice, Brno-střed, Brno, okres Brno-město, Jihomoravský kraj, 602 00, Česko"
+  "lat": 49.764639,
+  "lon": 18.470756,
+  "presnost": "areal",
+  "nazev_mista": "Tennis Hill",
+  "osm_vzdalenost_km": 0.01,
+  "geokod": "401/10a, Padlých hrdinů, Havířov-Životice, Životice, Havířov, okres Karviná, Moravskoslezský kraj, 736 01, Česko"
  },
- "svaz:severomoravsky:906037": {
-  "klic": "svaz:severomoravsky:906037",
+ "svaz:severomoravsky:906571": {
+  "klic": "svaz:severomoravsky:906571",
   "poradatel": "severomoravský",
-  "adresa": "Pod Koňským vrchem 1159, Most",
-  "zdroj": "loni",
+  "adresa": "Kouty 1581, Valašské Meziříčí",
+  "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 50.497017,
-  "lon": 13.619155,
-  "presnost": "odhad",
-  "nazev_mista": "Tenisové kurty",
+  "lat": 49.470808,
+  "lon": 17.986217,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala",
   "osm_vzdalenost_km": 0.05,
-  "geokod": "1159/5, Pod Koňským vrchem, Čepirohy, Most, okres Most, Ústecký kraj, 434 01, Česko"
- },
- "svaz:severomoravsky:906097": {
-  "klic": "svaz:severomoravsky:906097",
-  "poradatel": "severomoravský",
-  "adresa": "",
-  "zdroj": "loni",
-  "region": "Severomoravský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
- },
- "svaz:severomoravsky:906540": {
-  "klic": "svaz:severomoravsky:906540",
-  "poradatel": "severomoravský",
-  "adresa": "Bezděčín 90, Mladá Boleslav",
-  "zdroj": "loni",
-  "region": "Severomoravský",
-  "lat": 50.38256,
-  "lon": 14.892273,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "90, Bezděčín, Mladá Boleslav, okres Mladá Boleslav, Středočeský kraj, 293 01, Česko"
- },
- "svaz:severomoravsky:906587": {
-  "klic": "svaz:severomoravsky:906587",
-  "poradatel": "severomoravský",
-  "adresa": "Břehnická 2499/5, Cheb",
-  "zdroj": "loni",
-  "region": "Severomoravský",
-  "lat": 50.075714,
-  "lon": 12.358834,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "2499/5, Břehnická, Pelhřimov, Cheb, okres Cheb, Karlovarský kraj, 350 02, Česko"
- },
- "svaz:severomoravsky:906643": {
-  "klic": "svaz:severomoravsky:906643",
-  "poradatel": "severomoravský",
-  "adresa": "Za Císařským mlýnem 1115/2, Praha 7",
-  "zdroj": "loni",
-  "region": "Severomoravský",
-  "lat": 50.110365,
-  "lon": 14.409241,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1115/2, Za Císařským mlýnem, Bubeneč, Praha 7, obvod Praha 7, Praha, 170 00, Česko"
- },
- "svaz:severomoravsky:906751": {
-  "klic": "svaz:severomoravsky:906751",
-  "poradatel": "severomoravský",
-  "adresa": "",
-  "zdroj": "loni",
-  "region": "Severomoravský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "geokod": "1581, Kouty, Město 1, Krásno nad Bečvou, Hrachovec, Valašské Meziříčí, okres Vsetín, Zlínský kraj, 757 01, Česko"
  },
  "svaz:stredocesky:106830": {
   "klic": "svaz:stredocesky:106830",
   "poradatel": "středočeský",
   "adresa": "Houštka 1259, Stará Boleslav",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Středočeský",
   "lat": 50.189567,
   "lon": 14.691197,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1259, Houštka, Písek, Stará Boleslav, Brandýs nad Labem-Stará Boleslav, okres Praha-východ, Středočeský kraj, 250 01, Česko"
@@ -2865,142 +3440,141 @@
  "svaz:stredocesky:206830": {
   "klic": "svaz:stredocesky:206830",
   "poradatel": "středočeský",
-  "adresa": "Na Studánkách 2590, Rakovník",
-  "zdroj": "loni",
-  "region": "Středočeský",
-  "lat": 50.104198,
-  "lon": 13.713998,
-  "presnost": "odhad",
-  "nazev_mista": "Tenis Centrum CAFEX, s.r.o.",
-  "osm_vzdalenost_km": 0.0,
-  "geokod": "Tenis Centrum CAFEX, s.r.o., 2590, Na Studánkách, Rakovník II, Rakovník, okres Rakovník, Středočeský kraj, 269 01, Česko"
- },
- "svaz:stredocesky:306830": {
-  "klic": "svaz:stredocesky:306830",
-  "poradatel": "středočeský",
-  "adresa": "Houštka 1259, Stará Boleslav",
-  "zdroj": "loni",
-  "region": "Středočeský",
-  "lat": 50.189567,
-  "lon": 14.691197,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1259, Houštka, Písek, Stará Boleslav, Brandýs nad Labem-Stará Boleslav, okres Praha-východ, Středočeský kraj, 250 01, Česko"
- },
- "svaz:stredocesky:406830": {
-  "klic": "svaz:stredocesky:406830",
-  "poradatel": "středočeský",
   "adresa": "Dvouletky 1031, Zruč nad Sázavou",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Středočeský",
   "lat": 49.746937,
   "lon": 15.089461,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tenisové kurty",
   "osm_vzdalenost_km": 0.0,
   "geokod": "Tenisové kurty, 1031, Dvouletky, Domahoř, Zruč nad Sázavou, okres Kutná Hora, Středočeský kraj, 285 22, Česko"
  },
+ "svaz:stredocesky:306830": {
+  "klic": "svaz:stredocesky:306830",
+  "poradatel": "středočeský",
+  "adresa": "V Chobotě 2112, Říčany",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 49.982173,
+  "lon": 14.657248,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "2112/21, V Chobotě, Říčany, okres Praha-východ, Středočeský kraj, 251 01, Česko"
+ },
+ "svaz:stredocesky:406830": {
+  "klic": "svaz:stredocesky:406830",
+  "poradatel": "středočeský",
+  "adresa": "Sadová, Březnice",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 49.561535,
+  "lon": 13.953638,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "Sadová, Přední Poříčí, Březnice, okres Příbram, Středočeský kraj, 262 72, Česko"
+ },
  "svaz:stredocesky:506830": {
   "klic": "svaz:stredocesky:506830",
   "poradatel": "středočeský",
-  "adresa": "Brodská 134, Příbram",
-  "zdroj": "loni",
+  "adresa": "Bezděčín 90, Mladá Boleslav",
+  "zdroj": "detail",
   "region": "Středočeský",
-  "lat": 49.667629,
-  "lon": 13.999326,
-  "presnost": "odhad",
+  "lat": 50.38256,
+  "lon": 14.892273,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "134, Brodská, Příbram V-Zdaboř, Příbram V - Zdaboř, Příbram, okres Příbram, Středočeský kraj, 261 01, Česko"
+  "geokod": "90, Bezděčín, Mladá Boleslav, okres Mladá Boleslav, Středočeský kraj, 293 01, Česko"
  },
  "svaz:stredocesky:606830": {
   "klic": "svaz:stredocesky:606830",
   "poradatel": "středočeský",
-  "adresa": "Viničná 201, Dobřichovice",
-  "zdroj": "loni",
+  "adresa": "V Lipkách 1754, Dobříš",
+  "zdroj": "detail",
   "region": "Středočeský",
-  "lat": 49.930233,
-  "lon": 14.274005,
-  "presnost": "odhad",
+  "lat": 49.778672,
+  "lon": 14.176564,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "201, Viničná, Dobřichovice, okres Praha-západ, Středočeský kraj, 252 29, Česko"
+  "geokod": "1754, V Lipkách, Dobříš, okres Příbram, Středočeský kraj, 263 01, Česko"
  },
  "svaz:stredocesky:706830": {
   "klic": "svaz:stredocesky:706830",
   "poradatel": "středočeský",
-  "adresa": "V Chobotě 2112, Říčany",
-  "zdroj": "loni",
+  "adresa": "Na Studánkách 2590, Rakovník",
+  "zdroj": "detail",
   "region": "Středočeský",
-  "lat": 49.982173,
-  "lon": 14.657248,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "2112/21, V Chobotě, Říčany, okres Praha-východ, Středočeský kraj, 251 01, Česko"
+  "lat": 50.104198,
+  "lon": 13.713998,
+  "presnost": "areal",
+  "nazev_mista": "Tenis Centrum CAFEX, s.r.o.",
+  "osm_vzdalenost_km": 0.0,
+  "geokod": "Tenis Centrum CAFEX, s.r.o., 2590, Na Studánkách, Rakovník II, Rakovník, okres Rakovník, Středočeský kraj, 269 01, Česko"
  },
  "svaz:stredocesky:806830": {
   "klic": "svaz:stredocesky:806830",
   "poradatel": "středočeský",
   "adresa": "Viničná 201, Dobřichovice",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Středočeský",
   "lat": 49.930233,
   "lon": 14.274005,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "201, Viničná, Dobřichovice, okres Praha-západ, Středočeský kraj, 252 29, Česko"
  },
- "svaz:stredocesky:906072": {
-  "klic": "svaz:stredocesky:906072",
+ "svaz:stredocesky:906046": {
+  "klic": "svaz:stredocesky:906046",
   "poradatel": "středočeský",
-  "adresa": "Polní 894, Liberec",
-  "zdroj": "loni",
+  "adresa": "Sadová, Březnice",
+  "zdroj": "detail",
   "region": "Středočeský",
-  "lat": 50.783039,
-  "lon": 15.040218,
-  "presnost": "odhad",
+  "lat": 49.561535,
+  "lon": 13.953638,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "894, Polní, Staré Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
+  "geokod": "Sadová, Přední Poříčí, Březnice, okres Příbram, Středočeský kraj, 262 72, Česko"
  },
- "svaz:stredocesky:906641": {
-  "klic": "svaz:stredocesky:906641",
+ "svaz:stredocesky:906608": {
+  "klic": "svaz:stredocesky:906608",
   "poradatel": "středočeský",
-  "adresa": "Kouty 1581, Valašské Meziříčí",
-  "zdroj": "loni",
+  "adresa": "Viničná 201, Dobřichovice",
+  "zdroj": "detail",
   "region": "Středočeský",
-  "lat": 49.470808,
-  "lon": 17.986217,
-  "presnost": "odhad",
-  "nazev_mista": "Tenisová hala",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "1581, Kouty, Město 1, Krásno nad Bečvou, Hrachovec, Valašské Meziříčí, okres Vsetín, Zlínský kraj, 757 01, Česko"
- },
- "svaz:stredocesky:906658": {
-  "klic": "svaz:stredocesky:906658",
-  "poradatel": "středočeský",
-  "adresa": "Mlýnská 743/12, Vyškov",
-  "zdroj": "loni",
-  "region": "Středočeský",
-  "lat": 49.281229,
-  "lon": 16.995997,
-  "presnost": "odhad",
+  "lat": 49.930233,
+  "lon": 14.274005,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "Mlýnská, Vyškov-Město, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
+  "geokod": "201, Viničná, Dobřichovice, okres Praha-západ, Středočeský kraj, 252 29, Česko"
+ },
+ "svaz:vychodocesky:": {
+  "klic": "svaz:vychodocesky:",
+  "poradatel": "východočeský",
+  "adresa": "",
+  "zdroj": "nezname",
+  "region": "Východočeský",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
  },
  "svaz:vychodocesky:106920": {
   "klic": "svaz:vychodocesky:106920",
   "poradatel": "východočeský",
   "adresa": "Hradecká 775/115, Hradec Králové",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.18879,
   "lon": 15.835218,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
@@ -3009,11 +3583,11 @@
   "klic": "svaz:vychodocesky:206920",
   "poradatel": "východočeský",
   "adresa": "Sportovní 224, Vysoké Mýto",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 49.957262,
   "lon": 16.159536,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "224, Sportovní, Lipová, Choceňské Předměstí, Vysoké Mýto, okres Ústí nad Orlicí, Pardubický kraj, 566 01, Česko"
@@ -3021,25 +3595,25 @@
  "svaz:vychodocesky:306920": {
   "klic": "svaz:vychodocesky:306920",
   "poradatel": "východočeský",
-  "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "loni",
+  "adresa": "Hradecká 775/115, Hradec Králové",
+  "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 50.211946,
-  "lon": 15.828774,
-  "presnost": "odhad",
+  "lat": 50.18879,
+  "lon": 15.835218,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
+  "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
  },
  "svaz:vychodocesky:406920": {
   "klic": "svaz:vychodocesky:406920",
   "poradatel": "východočeský",
   "adresa": "Husova 22, Česká Třebová",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 49.914019,
   "lon": 16.441415,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "tenis",
   "osm_vzdalenost_km": 0.04,
   "geokod": "22, Husova, Parník, Česká Třebová, okres Ústí nad Orlicí, Pardubický kraj, 560 02, Česko"
@@ -3047,25 +3621,25 @@
  "svaz:vychodocesky:506920": {
   "klic": "svaz:vychodocesky:506920",
   "poradatel": "východočeský",
-  "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "loni",
+  "adresa": "Husova 22, Česká Třebová",
+  "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 50.211946,
-  "lon": 15.828774,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
+  "lat": 49.914019,
+  "lon": 16.441415,
+  "presnost": "areal",
+  "nazev_mista": "tenis",
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "22, Husova, Parník, Česká Třebová, okres Ústí nad Orlicí, Pardubický kraj, 560 02, Česko"
  },
  "svaz:vychodocesky:606920": {
   "klic": "svaz:vychodocesky:606920",
   "poradatel": "východočeský",
   "adresa": "U koupaliště 1362, Žamberk",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.08559,
   "lon": 16.47538,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1362, U Koupaliště, Žamberk, okres Ústí nad Orlicí, Pardubický kraj, 564 01, Česko"
@@ -3074,11 +3648,11 @@
   "klic": "svaz:vychodocesky:706920",
   "poradatel": "východočeský",
   "adresa": "U koupaliště 1362, Žamberk",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.08559,
   "lon": 16.47538,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1362, U Koupaliště, Žamberk, okres Ústí nad Orlicí, Pardubický kraj, 564 01, Česko"
@@ -3086,170 +3660,170 @@
  "svaz:vychodocesky:806920": {
   "klic": "svaz:vychodocesky:806920",
   "poradatel": "východočeský",
-  "adresa": "Hradecká 775/115, Hradec Králové",
-  "zdroj": "loni",
+  "adresa": "Sportovní 224, Vysoké Mýto",
+  "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 50.18879,
-  "lon": 15.835218,
-  "presnost": "odhad",
+  "lat": 49.957262,
+  "lon": 16.159536,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "775/115, Hradecká, Nová Třebeš, Třebeš, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 11, Česko"
+  "geokod": "224, Sportovní, Lipová, Choceňské Předměstí, Vysoké Mýto, okres Ústí nad Orlicí, Pardubický kraj, 566 01, Česko"
  },
- "svaz:vychodocesky:906638": {
-  "klic": "svaz:vychodocesky:906638",
+ "svaz:vychodocesky:906615": {
+  "klic": "svaz:vychodocesky:906615",
   "poradatel": "východočeský",
-  "adresa": "Na Dlouhých 812, Uherský Brod",
-  "zdroj": "loni",
+  "adresa": "ul.17.listopadu 485, Dvůr Králové n.L.",
+  "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 49.028559,
-  "lon": 17.641883,
-  "presnost": "odhad",
+  "lat": 49.58914,
+  "lon": 17.259032,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "812, Na Dlouhých, Uherský Brod, okres Uherské Hradiště, Zlínský kraj, 688 01, Česko"
- },
- "svaz:vychodocesky:906639": {
-  "klic": "svaz:vychodocesky:906639",
-  "poradatel": "východočeský",
-  "adresa": "Houštka 1259, Stará Boleslav",
-  "zdroj": "loni",
-  "region": "Východočeský",
-  "lat": 50.189567,
-  "lon": 14.691197,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "1259, Houštka, Písek, Stará Boleslav, Brandýs nad Labem-Stará Boleslav, okres Praha-východ, Středočeský kraj, 250 01, Česko"
+  "geokod": "17. listopadu, Envelopa, Olomouc-střed, Nové Sady, Olomouc, okres Olomouc, Olomoucký kraj, 770 06, Česko"
  },
  "svaz:zapadocesky:106880": {
   "klic": "svaz:zapadocesky:106880",
   "poradatel": "západočeský",
   "adresa": "Luční 60a, Plzeň - Roudná",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Západočeský",
   "lat": 49.756251,
   "lon": 13.390116,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1253/60a, Luční, Roudná, Severní Předměstí, Plzeň 1, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
+ },
+ "svaz:zapadocesky:206880": {
+  "klic": "svaz:zapadocesky:206880",
+  "poradatel": "západočeský",
+  "adresa": "Přeštická 1268, Dobřany",
+  "zdroj": "detail",
+  "region": "Západočeský",
+  "lat": 49.646261,
+  "lon": 13.292669,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala Dobřany",
+  "osm_vzdalenost_km": 0.0,
+  "geokod": "1268, Přeštická, Dobřany, okres Plzeň-jih, Plzeňský kraj, Jihozápad, 334 41, Česko"
  },
  "svaz:zapadocesky:306880": {
   "klic": "svaz:zapadocesky:306880",
   "poradatel": "západočeský",
-  "adresa": "Elišky Krásnohorské 378, Domažlice",
-  "zdroj": "loni",
-  "region": "Západočeský",
-  "lat": 49.4379,
-  "lon": 12.921145,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "378, Elišky Krásnohorské, Indie, Hořejší Předměstí, Domažlice, okres Domažlice, Plzeňský kraj, Jihozápad, 344 01, Česko"
- },
- "svaz:zapadocesky:406880": {
-  "klic": "svaz:zapadocesky:406880",
-  "poradatel": "západočeský",
   "adresa": "Luční 60a, Plzeň - Roudná",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Západočeský",
   "lat": 49.756251,
   "lon": 13.390116,
-  "presnost": "odhad",
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "1253/60a, Luční, Roudná, Severní Předměstí, Plzeň 1, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
  },
+ "svaz:zapadocesky:406880": {
+  "klic": "svaz:zapadocesky:406880",
+  "poradatel": "západočeský",
+  "adresa": "Břehnická 2499/5, Cheb",
+  "zdroj": "detail",
+  "region": "Západočeský",
+  "lat": 50.075714,
+  "lon": 12.358834,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "2499/5, Břehnická, Pelhřimov, Cheb, okres Cheb, Karlovarský kraj, 350 02, Česko"
+ },
  "svaz:zapadocesky:506880": {
   "klic": "svaz:zapadocesky:506880",
   "poradatel": "západočeský",
-  "adresa": "U Borského parku 2916/19, Plzeň",
-  "zdroj": "loni",
+  "adresa": "Anglická 615/10, Mariánské Lázně",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 49.722965,
-  "lon": 13.369459,
-  "presnost": "odhad",
+  "lat": 49.968688,
+  "lon": 12.70517,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "2916/19, U Borského parku, Bory, Plzeň 3, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
+  "geokod": "Anglická, Úšovice, Mariánské Lázně, okres Cheb, Karlovarský kraj, 353 43, Česko"
  },
  "svaz:zapadocesky:606880": {
   "klic": "svaz:zapadocesky:606880",
   "poradatel": "západočeský",
-  "adresa": "Břehnická 2499/5, Cheb",
-  "zdroj": "loni",
+  "adresa": "Anglická 615/10, Mariánské Lázně",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 50.075714,
-  "lon": 12.358834,
-  "presnost": "odhad",
+  "lat": 49.968688,
+  "lon": 12.70517,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "2499/5, Břehnická, Pelhřimov, Cheb, okres Cheb, Karlovarský kraj, 350 02, Česko"
+  "geokod": "Anglická, Úšovice, Mariánské Lázně, okres Cheb, Karlovarský kraj, 353 43, Česko"
  },
  "svaz:zapadocesky:706880": {
   "klic": "svaz:zapadocesky:706880",
   "poradatel": "západočeský",
-  "adresa": "Břehnická 2499/5, Cheb",
-  "zdroj": "loni",
+  "adresa": "U Borského parku 2916/19, Plzeň",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 50.075714,
-  "lon": 12.358834,
-  "presnost": "odhad",
+  "lat": 49.722965,
+  "lon": 13.369459,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "2499/5, Břehnická, Pelhřimov, Cheb, okres Cheb, Karlovarský kraj, 350 02, Česko"
+  "geokod": "2916/19, U Borského parku, Bory, Plzeň 3, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
  },
- "svaz:zapadocesky:906076": {
-  "klic": "svaz:zapadocesky:906076",
+ "svaz:zapadocesky:806880": {
+  "klic": "svaz:zapadocesky:806880",
   "poradatel": "západočeský",
-  "adresa": "Seifertova 1504, Litvínov",
-  "zdroj": "loni",
+  "adresa": "Luční 60a, Plzeň - Roudná",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 50.611567,
-  "lon": 13.629205,
-  "presnost": "odhad",
+  "lat": 49.756251,
+  "lon": 13.390116,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "1504, Seifertova, Horní Litvínov, Litvínov, okres Most, Ústecký kraj, 436 01, Česko"
+  "geokod": "1253/60a, Luční, Roudná, Severní Předměstí, Plzeň 1, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
  },
- "svaz:zapadocesky:906677": {
-  "klic": "svaz:zapadocesky:906677",
+ "svaz:zapadocesky:906065": {
+  "klic": "svaz:zapadocesky:906065",
   "poradatel": "západočeský",
-  "adresa": "Družstevní 355, Hvozdná",
+  "adresa": "Guth Jarkovského 698, Úvaly",
   "zdroj": "loni",
   "region": "Západočeský",
-  "lat": 49.255604,
-  "lon": 17.758499,
+  "lat": 50.077762,
+  "lon": 14.713804,
   "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "355, Družstevní, Hvozdná, okres Zlín, Zlínský kraj, 763 10, Česko"
+  "geokod": "698, Guth-Jarkovského, Pařezina, Úvaly, okres Praha-východ, Středočeský kraj, 250 82, Česko"
  },
- "svaz:zapadocesky:906678": {
-  "klic": "svaz:zapadocesky:906678",
+ "svaz:zapadocesky:906590": {
+  "klic": "svaz:zapadocesky:906590",
   "poradatel": "západočeský",
-  "adresa": "Sportovní areál Vendryně 1017, Vedryně",
-  "zdroj": "loni",
+  "adresa": "Luční 60a, Plzeň - Roudná",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 49.657998,
-  "lon": 18.695876,
-  "presnost": "odhad",
+  "lat": 49.756251,
+  "lon": 13.390116,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "Sportovní areál Vendryně, 4682, Vendryně, okres Frýdek-Místek, Moravskoslezský kraj, 739 94, Česko"
+  "geokod": "1253/60a, Luční, Roudná, Severní Předměstí, Plzeň 1, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
  },
- "svaz:zapadocesky:906704": {
-  "klic": "svaz:zapadocesky:906704",
+ "svaz:zapadocesky:906591": {
+  "klic": "svaz:zapadocesky:906591",
   "poradatel": "západočeský",
-  "adresa": "Úslavská 75 (tenisový areál), Plzeň",
-  "zdroj": "loni",
+  "adresa": "Luční 60a, Plzeň - Roudná",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 49.737696,
-  "lon": 13.398738,
-  "presnost": "odhad",
+  "lat": 49.756251,
+  "lon": 13.390116,
+  "presnost": "adresa",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
-  "geokod": "2357/75, Úslavská, Slovany, Plzeň 2-Slovany, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 326 00, Česko"
+  "geokod": "1253/60a, Luční, Roudná, Severní Předměstí, Plzeň 1, Plzeň, okres Plzeň-město, Plzeňský kraj, Jihozápad, 301 00, Česko"
  }
 }
