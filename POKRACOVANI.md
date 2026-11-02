@@ -64,6 +64,9 @@ Předávací log (stav k 2. 11. 2026, verze webu v3.3).
   Volba v `localStorage` (tm.map). Vše bez klíče. Možné rozšíření: Mapy.com (základní/turistická/letecká/zimní) – potřebuje
   bezplatný API klíč z developer.mapy.com (vytvoří uživatel). Google Maps nedoporučeno (klíč + platební účet, podmínky).
 
+### Návštěvnost (2. 11. 2026)
+- Měření GoatCounter (bez cookies): skript v index.html, kód webu „turnajovamapa“ → přehled https://turnajovamapa.goatcounter.com (účet zakládá Michal na goatcounter.com/signup s kódem turnajovamapa). Zmínka v O aplikaci (about.d7).
+
 ### v3.3 (2. 11. 2026) – seznam podle vzdálenosti, návrat na stejné místo
 - Při přiblížení mapy (zoom ≥ 8, NEAR_ZOOM) se seznam Turnaje řadí podle vzdálenosti od středu viditelné části mapy (shoda → podle data); u turnaje je vzdálenost v km, nahoře poznámka „Seřazeno podle vzdálenosti od středu mapy“. Po posunu mapy se seznam přeřadí (moveend, 250 ms).
 - Šipka zpět z detailu turnaje otevřeného ze seznamu vrátí výřez mapy, výšku panelu i pozici v seznamu (listState).

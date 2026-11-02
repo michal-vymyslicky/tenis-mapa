@@ -225,6 +225,7 @@ window.I18N = (() => {
   /* delší HTML bloky (O aplikaci) – data-i18n="klíč" */
   const EN_HTML = {
     "about.intro": "<b>Tennis map</b> shows individual tournaments from the calendar of the Czech Tennis Association (ČTS) and international Tennis Europe junior tournaments on a map – with filters by date, category, grade, surface and distance, players' entries and favourite tournaments. Tournament names, clubs and the linked ČTS pages are in Czech.",
+    "about.d7": "Visits are counted anonymously with GoatCounter – no cookies and no personal data.",
     "about.disclaimer": "This is a private, non-commercial project that is not run by or affiliated with the Czech Tennis Association. Data is taken automatically from the public website <a href=\"https://cesky-tenis.cz\" target=\"_blank\" rel=\"noopener\">cesky-tenis.cz</a> and may be incomplete, delayed or wrong – especially venues, which are derived from addresses. The app is provided <b>without any warranty and without liability</b> for any damage arising from its use. It is made to the best of our knowledge and belief. Always check the details on the official ČTS website and with the organiser before travelling to a tournament.",
     "about.d1": "Tournaments, entries and ranking: Czech Tennis Association, public website cesky-tenis.cz (<span id=\"aboutData\"></span>).",
     "about.d2": "Seasons in the app: <span id=\"aboutSez\"></span>. The current and upcoming seasons are updated daily; older seasons are an archive with links to results.",
