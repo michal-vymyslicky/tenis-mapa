@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 1. 11. 2026, noc, verze webu v2.9).
+Předávací log (stav k 2. 11. 2026, verze webu v3.0).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -63,6 +63,13 @@ Předávací log (stav k 1. 11. 2026, noc, verze webu v2.9).
   Základní (OSM, místní písmo – v Srbsku azbuka), Latinka (Esri), Turistická (OpenTopoMap), Letecká (Esri World Imagery + popisky).
   Volba v `localStorage` (tm.map). Vše bez klíče. Možné rozšíření: Mapy.com (základní/turistická/letecká/zimní) – potřebuje
   bezplatný API klíč z developer.mapy.com (vytvoří uživatel). Google Maps nedoporučeno (klíč + platební účet, podmínky).
+
+### v3.0 (2. 11. 2026) – přestavba horní lišty
+- Pořadí v liště: období (sezóna) · Od dnes | 🇨🇿 ČTS · 🇪🇺 Tennis Europe | kategorie | oblíbené | hráči.
+- ČTS a Tennis Europe se zapínají nezávisle (jen ČTS, jen TE, obojí); aspoň jeden zůstane zapnutý (F.src = cts/te/all).
+- Klik na kategorii ji vybere a rozbalí pod lištou panel #catPanel: pohlaví a třída turnaje (ČTS i TE) zvlášť pro každou kategorii (F.sub[kat] = {sex, cls}); odznak na čipu ukazuje počet podfiltrů. Panel Filtry (vícenásobné filtrování) zůstává.
+- Spodní panel na mobilu lze stáhnout až na úchyt (snap „min“ 26 px).
+- Mapové podklady jen tři: Základní (dřív Automaticky – OSM v ČR, latinka v zahraničí), Turistická, Letecká.
 
 ## Údržba
 - Nový žebříček ČTS: exportovat z Tenis Data `data/01_zebricky/zebricky.csv` do `pipeline/zebricek_<období>.json`
