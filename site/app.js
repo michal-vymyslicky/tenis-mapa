@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.1";
+const APP_VERSION = "v3.2";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -610,7 +610,7 @@ function bind(root) {
   root.querySelectorAll("[data-fav]").forEach(b => b.onclick = ev => { ev.stopPropagation(); toggleFav(b.dataset.fav); b.classList.toggle("on", FAV.has(b.dataset.fav)); });
   root.querySelectorAll("[data-report-ev]").forEach(a => a.onclick = ev => { ev.stopPropagation(); openReport({ev: a.dataset.reportEv, venue: lastVenue}); });
   root.querySelectorAll("[data-report-venue]").forEach(a => a.onclick = ev => { ev.stopPropagation(); openReport({venue: +a.dataset.reportVenue}); });
-  root.querySelectorAll("[data-ev]").forEach(r => r.onclick = () => { const e = EV.find(x => x.id === r.dataset.ev); if (e) openVenue(e.misto, {focus: e.id}); });
+  root.querySelectorAll("[data-ev]").forEach(r => r.onclick = () => { const e = EV.find(x => x.id === r.dataset.ev); if (e) openVenue(e.misto, {focus: e.id, solo: true}); });
 }
 function toggleFav(id) {
   FAV.has(id) ? FAV.delete(id) : FAV.add(id); LS.set("tm.fav", [...FAV]);
@@ -618,7 +618,7 @@ function toggleFav(id) {
   const keep = panel; render(); panel = keep;
 }
 
-function clearFocus() { if (focusMarker) { map.removeLayer(focusMarker); focusMarker = null; } }
+function clearFocus() { if (focusMarker) { map.removeLayer(focusMarker); focusMarker = null; } if (!map.hasLayer(cluster)) map.addLayer(cluster); }
 function setFocus(v) {
   clearFocus();
   if (v.lat == null) return;
@@ -669,7 +669,13 @@ function openVenue(vi, opt = {}) {
   showPanel("detail");
   if (!isDesk()) setSnap("half");
   setFocus(v);
-  if (v.lat != null && opt.move !== false) showLatLng([v.lat, v.lon], Math.max(map.getZoom(), 15));
+  /* výběr ze seznamu: přehledová mapa (ČTS = celá ČR, Tennis Europe = Evropa) jen se špendlíkem turnaje */
+  if (opt.solo && v.lat != null) {
+    map.removeLayer(cluster);
+    const te = v.zdroj === "te", b = L.latLngBounds(te ? EUROPE : CZ);
+    if (!b.contains([v.lat, v.lon])) b.extend([v.lat, v.lon]);
+    requestAnimationFrame(() => fitVisible(b));
+  } else if (v.lat != null && opt.move !== false) showLatLng([v.lat, v.lon], Math.max(map.getZoom(), 15));
   else if (v.lat != null) showLatLng([v.lat, v.lon]);
   if (opt.focus) setTimeout(() => document.getElementById("c-" + opt.focus)?.scrollIntoView({block: "start", behavior: "smooth"}), 60);
 }
