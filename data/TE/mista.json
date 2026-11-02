@@ -161,12 +161,14 @@
   "adresa": "Slovenska Lupca, Slovakia",
   "zdroj": "te",
   "region": "Slovakia",
-  "lat": 48.767361,
-  "lon": 19.275983,
-  "presnost": "obec",
+  "lat": 48.765764,
+  "lon": 19.264126,
+  "presnost": "areal_obec",
   "nazev_mista": "SK PEPAS",
   "zeme": "sk",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "GRE|chalkida tennis club|chalkida": {
   "poradatel": "Chalkida Tennis Club",
@@ -190,19 +192,22 @@
   "nazev_mista": "TENNIS CLUB CRVENA ZVEZDA",
   "zeme": "rs",
   "poznamka": "tenisový areál v obci podle OSM: Тениски центар Новак",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|new country tennis academy|bari": {
   "poradatel": "New Country Tennis Academy",
   "adresa": "Bari, Italy",
   "zdroj": "te",
   "region": "Italy",
-  "lat": 41.125784,
-  "lon": 16.862029,
-  "presnost": "obec",
+  "lat": 41.099834,
+  "lon": 16.835985,
+  "presnost": "areal",
   "nazev_mista": "New Country Tennis Academy",
   "zeme": "it",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Country Club Bari"
  },
  "POR|complexo desportivo monte aventino|porto": {
   "poradatel": "Complexo Desportivo Monte Aventino",
@@ -220,13 +225,14 @@
   "adresa": "Tallinn, Estonia",
   "zdroj": "te",
   "region": "Estonia",
-  "lat": 59.453208,
-  "lon": 24.695673,
-  "presnost": "areal_obec",
+  "lat": 59.437185,
+  "lon": 24.866518,
+  "presnost": "areal",
   "nazev_mista": "Tallink Tennisclub",
   "zeme": "ee",
-  "poznamka": "tenisový areál v obci podle OSM: SK Pinksi Keskus",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: TALLINK Tennisekeskus",
+  "v2": 1,
+  "osm3": 1
  },
  "DEN|holte tennisklub|holte": {
   "poradatel": "Holte Tennisklub",
@@ -255,12 +261,14 @@
   "adresa": "İZMİR, Turkiye",
   "zdroj": "te",
   "region": "Turkiye",
-  "lat": 38.419254,
-  "lon": 27.128469,
-  "presnost": "obec",
+  "lat": 38.429592,
+  "lon": 27.147964,
+  "presnost": "areal_obec",
   "nazev_mista": "ALTIN RAKET TENİS KULÜBÜ",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "CYP|eleon tennis club|nicosia": {
   "poradatel": "Eleon Tennis Club",
@@ -294,7 +302,8 @@
   "presnost": "obec",
   "nazev_mista": "Tumba Tennis Club-Kumanovo",
   "zeme": "mk",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|kalaja|palermo": {
   "poradatel": "Kalaja",
@@ -318,19 +327,22 @@
   "nazev_mista": "Tennis Club Mak Tennis Pro-Skopje",
   "zeme": "mk",
   "poznamka": "tenisový areál v obci podle OSM: Тениски клуб Евро Сет",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "SVK|tc humenne|humenne": {
   "poradatel": "TC Humenne",
   "adresa": "Humenne, Slovakia",
   "zdroj": "te",
   "region": "Slovakia",
-  "lat": 48.935003,
-  "lon": 21.902027,
-  "presnost": "obec",
+  "lat": 48.927705,
+  "lon": 21.906492,
+  "presnost": "areal",
   "nazev_mista": "TC Humenne",
   "zeme": "sk",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: 1. Tenisový klub Humenné"
  },
  "ESP|sporting club casino de la coruna|a coruna": {
   "poradatel": "Sporting Club Casino de la Coruña",
@@ -348,13 +360,14 @@
   "adresa": "Dunakeszi, Hungary",
   "zdroj": "te",
   "region": "Hungary",
-  "lat": 47.607787,
-  "lon": 19.189412,
-  "presnost": "areal_obec",
+  "lat": 47.654705,
+  "lon": 19.133184,
+  "presnost": "areal",
   "nazev_mista": "Dunakeszi Varosi Tenisz Klub",
   "zeme": "hu",
-  "poznamka": "tenisový areál v obci podle OSM: Future Tennis Club",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Dunakeszi sportpálya",
+  "v2": 1,
+  "osm3": 1
  },
  "GER|safo frankfurt|frankfurt am main": {
   "poradatel": "SaFo Frankfurt",
@@ -372,12 +385,14 @@
   "adresa": "Plovdiv, Bulgaria",
   "zdroj": "te",
   "region": "Bulgaria",
-  "lat": 42.141854,
-  "lon": 24.74993,
-  "presnost": "obec",
+  "lat": 42.147518,
+  "lon": 24.718252,
+  "presnost": "areal_obec",
   "nazev_mista": "Max Pro Tennis and Padel club",
   "zeme": "bg",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "ESP|club esportiu laieta|barcelona": {
   "poradatel": "Club Esportiu Laietà",
@@ -400,31 +415,36 @@
   "presnost": "obec",
   "nazev_mista": "Larnaka Tennis Club",
   "zeme": "cy",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "BIH|teniski klub borac|banja luka": {
   "poradatel": "TENISKI KLUB BORAC",
   "adresa": "BANJA LUKA, Bosnia and Herzegovina",
   "zdroj": "te",
   "region": "Bosnia and Herzegovina",
-  "lat": 44.772084,
-  "lon": 17.191765,
-  "presnost": "obec",
+  "lat": 44.773066,
+  "lon": 17.203667,
+  "presnost": "areal",
   "nazev_mista": "TENISKI KLUB BORAC",
   "zeme": "ba",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Teniski tereni TK Borac"
  },
  "TUR|megasaray mount erciyes|erciyes kayseri": {
   "poradatel": "Megasaray Mount Erciyes",
   "adresa": "Erciyes/Kayseri, Turkiye",
   "zdroj": "te",
   "region": "Turkiye",
-  "lat": 38.53274,
-  "lon": 35.450225,
-  "presnost": "obec",
+  "lat": 38.599466,
+  "lon": 35.502809,
+  "presnost": "areal",
   "nazev_mista": "Megasaray Mount Erciyes",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Erciyes Yüksek İrtifa Kamp Merkezi"
  },
  "SLO|teniski klub krsko|krsko": {
   "poradatel": "Teniški klub Krško",
@@ -475,12 +495,14 @@
   "adresa": "Vrsar, Croatia",
   "zdroj": "te",
   "region": "Croatia",
-  "lat": 45.149078,
-  "lon": 13.606347,
-  "presnost": "obec",
+  "lat": 45.142159,
+  "lon": 13.60318,
+  "presnost": "areal_obec",
   "nazev_mista": "Tennis center Petalon",
   "zeme": "hr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "LAT|vilar tk|aizkraukle": {
   "poradatel": "Vilar TK",
