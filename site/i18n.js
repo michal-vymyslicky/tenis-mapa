@@ -46,7 +46,7 @@ window.I18N = (() => {
     "30 dní": "30 days",
     "Celá sezóna": "Whole season",
     "Kategorie": "Category",
-    "Pohlaví": "Gender",
+    "Pohlaví": "Gender", "Třída": "Grade", "Odebrat kategorii": "Remove category", "Hotovo": "Done",
     "Třída turnaje": "Tournament grade",
     "Povrch": "Surface",
     "Konkrétní typy povrchů": "Specific surface types",

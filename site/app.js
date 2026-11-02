@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v2.9";
+const APP_VERSION = "v3.0";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -95,7 +95,7 @@ const isDesk = () => innerWidth >= 900;
 let DATA, EV = [], VEN = [], byVenue = new Map();
 const today = new Date(); today.setHours(0, 0, 0, 0);
 const defaults = () => ({from: iso(today), to: "", cat: [], sex: [], cls: [], surf: [],
-  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries", src: "cts"});
+  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries", src: "cts", sub: {}});
 let F = Object.assign(defaults(), LS.get("tm.filters", {}));
 // v2.8: okruh vzdálenosti zrušen; Tennis Europe je doplněk – výchozí zobrazení jen ČTS
 for (const k of ["center", "centerMode", "centerLabel", "radius"]) delete F[k];
@@ -108,7 +108,8 @@ const sezLabel = (x, short) => { let n = x.nazev || x.id; if (short) n = n.repla
 const sezName = x => sezLabel(x || {});
 const sezIcon = id => id[0] === "Z" ? "❄" : "☀";
 F.surf = (F.surf || []).filter(s => /^[gr]:/.test(s));
-F.players = F.players || []; F.pmode = F.pmode || "entries"; F.src = F.src || "cts";
+F.players = F.players || []; F.pmode = F.pmode || "entries"; F.src = F.src || "cts"; F.sub = F.sub || {};
+let catOpen = null;   // kategorie, jejíž rozbalovací volby jsou otevřené pod lištou
 let TEDATA = null;   // turnaje Tennis Europe (data/TE/turnaje.json) – přimíchají se do sezóny podle termínu
 // oblíbené: ID turnaje obsahuje sezónu (od v2.4); starší ID bez sezóny patří k Z2627
 let FAV = new Set(LS.get("tm.fav", []).map(id => /^([ZL]\d{2}|TE-)/.test(id) ? id : "Z2627-" + id));
@@ -135,10 +136,10 @@ const BASES = {
       attribution: "Tiles &copy; Esri – Esri, Maxar, Earthstar Geographics" + DATA_ATTR}),
     L.tileLayer(ESRI + "Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}", {maxZoom: 19, crossOrigin: true})]),
 };
-const BASE_LABEL = {auto: "Automaticky", osm: "Základní", latin: "Latinka", topo: "Turistická", aerial: "Letecká"};
-const BASE_HINT = {auto: "OpenStreetMap v ČR, v zahraničí popisky latinkou", osm: "OpenStreetMap – místní písmo (v Srbsku azbuka)",
-  latin: "Esri – všechny názvy latinkou", topo: "OpenTopoMap – vrstevnice, turistické trasy", aerial: "Esri – satelitní snímky s popisky"};
+const BASE_LABEL = {auto: "Základní", topo: "Turistická", aerial: "Letecká"};
+const BASE_HINT = {auto: "OpenStreetMap v ČR, v zahraničí popisky latinkou", topo: "OpenTopoMap – vrstevnice, turistické trasy", aerial: "Esri – satelitní snímky s popisky"};
 let baseMode = LS.get("tm.map", "auto"), baseKey = null, baseLayer = null;
+if (!BASE_LABEL[baseMode]) baseMode = "auto";
 const inCZ = c => c.lat > 48.4 && c.lat < 51.2 && c.lng > 11.9 && c.lng < 19.0;
 function applyBase() {
   let c = map.getCenter();
@@ -197,7 +198,8 @@ function evMatches(e, opt = {}) {
   if (e.od && (e.do || e.od) < F.from) return false;
   if (e.od && e.od > to) return false;
   if (F.src !== "all" && (e.src === "te") !== (F.src === "te")) return false;
-  if (F.cat.length && !(e.kats || [e.kat]).some(k => F.cat.includes(k))) return false;
+  if (F.cat.length && !(e.kats || [e.kat]).some(k => F.cat.includes(k) && subOk(k, e))) return false;
+  if (!F.cat.length && Object.keys(F.sub).length && !(e.kats || [e.kat]).some(k => subOk(k, e))) return false;
   if (F.sex.length && !e.mix && !((F.sex.includes("m") && e.km) || (F.sex.includes("z") && e.kz))) return false;
   if (F.cls.length && !F.cls.includes(e.tr || "")) return false;
   if (!surfMatch(e)) return false;
@@ -212,6 +214,15 @@ function evMatches(e, opt = {}) {
   }
   return true;
 }
+/* doplňkové volby jedné kategorie (pohlaví, třída) z rozbalovacího panelu pod lištou */
+function subOk(k, e) {
+  const s = F.sub[k];
+  if (!s) return true;
+  if (s.sex && s.sex.length && !e.mix && !((s.sex.includes("m") && e.km) || (s.sex.includes("z") && e.kz))) return false;
+  if (s.cls && s.cls.length && !s.cls.includes(e.tr || "")) return false;
+  return true;
+}
+const subCount = k => { const s = F.sub[k]; return s ? (s.sex || []).length + (s.cls || []).length : 0; };
 function occOf(e) {
   const xs = [];
   if (e.km) xs.push(e.om || (e.kap ? [e.pm || 0, e.kap] : null));
@@ -247,7 +258,7 @@ function render() {
   $("#summary").innerHTML = panel === "detail" ? $("#summary").innerHTML : `${nf(shown.length)} ${T("turnajů")} <small>· ${vmap.size} ${T("míst")}${noLoc ? ` · ${noLoc} ${T("bez místa")}` : ""}</small>`;
   $("#countBadge").textContent = nf(shown.length);
   $("#showCount").textContent = `(${nf(shown.length)})`;
-  const nfil = [F.cat.length, F.sex.length, F.cls.length, F.surf.length, F.to, F.free, F.favOnly, !F.cancelled, !F.guess, F.src !== "cts"].filter(Boolean).length;
+  const nfil = [F.cat.length, F.sex.length, F.cls.length, F.surf.length, F.to, F.free, F.favOnly, !F.cancelled, !F.guess, F.src !== "cts", Object.keys(F.sub).length].filter(Boolean).length;
   $("#filterBadge").hidden = !nfil; $("#filterBadge").textContent = nfil; $("#filterBadge2").textContent = nfil || "";
   $("#favBadge").textContent = FAV.size || "";
   renderQuick(); syncFilterUI();
@@ -267,10 +278,14 @@ function drawMyPos(acc) {
 function renderQuick() {
   const q = $("#quick");
   const dateTxt = F.to ? `${dShort(F.from)} – ${dShort(F.to)}` : F.from === iso(today) ? T("Od dnes") : F.from <= sezInfo().od ? T("Celá sezóna") : `${T("Od")} ${dShort(F.from)}`;
-  const counts = {}; for (const e of EV) counts[e.kat] = (counts[e.kat] || 0) + 1;
-  q.innerHTML = (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") + `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button>` +
-    CAT_ORDER.filter(k => counts[k]).map(k => `<button data-q="${k}" class="${F.cat.includes(k) ? "on" : ""}">${CAT_QUICK[k]}</button>`).join("") +
-    (TEDATA && TEDATA.turnaje.length ? `<button class="te${F.src !== "cts" ? " on" : ""}" data-q="te">🇪🇺 ${F.src === "te" ? T("Jen Tennis Europe") + " ✕" : F.src === "all" ? "+ Tennis Europe ✕" : "+ Tennis Europe"}</button>` : "") +
+  const counts = {}; for (const e of EV) if (srcOn(e)) for (const k of (e.kats || [e.kat])) counts[k] = (counts[k] || 0) + 1;
+  const hasTE = TEDATA && TEDATA.turnaje.length;
+  const ctsOn = F.src !== "te", teOn = F.src !== "cts";
+  // 1) období  2) země / zdroj  3) kategorie (klepnutí rozbalí další volby)
+  q.innerHTML = (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") +
+    `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button><i class="qsep"></i>` +
+    `<button class="src${ctsOn ? " on" : ""}" data-q="src:cts">🇨🇿 ČTS</button>` + (hasTE ? `<button class="src te${teOn ? " on" : ""}" data-q="src:te">🇪🇺 Tennis Europe</button>` : "") + `<i class="qsep"></i>` +
+    CAT_ORDER.filter(k => counts[k]).map(k => `<button data-q="${k}" class="cat${F.cat.includes(k) ? " on" : ""}${catOpen === k ? " open" : ""}">${CAT_QUICK[k]}${subCount(k) ? ` <b class="sc">${subCount(k)}</b>` : ""} <span class="car">▾</span></button>`).join("") +
     (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "");
   q.insertAdjacentHTML("afterbegin", F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join(""));
   q.querySelectorAll(".x").forEach(x => x.onclick = ev => { ev.stopPropagation(); togglePlayer(x.dataset.x, false); });
@@ -279,11 +294,55 @@ function renderQuick() {
     if (k === "date") { showPanel("filters"); setSnap("full"); return; }
     if (k === "season") return toggleSeasonMenu();
     if (k === "fav") { F.favOnly = false; return render(); }
-    if (k === "te") { const on = F.src === "cts"; F.src = on ? "all" : "cts"; render(); if (on) { toast(T("Přidány mezinárodní turnaje Tennis Europe")); fitShown(); } else fitVisible(L.latLngBounds(CZ)); return; }
+    if (k.startsWith("src:")) return toggleSrc(k.slice(4));
     if (k.startsWith("pl:")) return openPlayer(k.slice(3));
-    const i = F.cat.indexOf(k); i >= 0 ? F.cat.splice(i, 1) : F.cat.push(k); render();
+    // kategorie: první klepnutí vybere a rozbalí volby, další klepnutí volby sbalí / znovu rozbalí
+    if (!F.cat.includes(k)) { F.cat.push(k); catOpen = k; }
+    else catOpen = catOpen === k ? null : k;
+    render();
   });
+  renderCatPanel();
 }
+const srcOn = e => F.src === "all" || (e.src === "te") === (F.src === "te");
+/* zdroj: ČTS a Tennis Europe lze zapnout zvlášť i současně, aspoň jeden zůstane zapnutý */
+function toggleSrc(which) {
+  let cts = F.src !== "te", te = F.src !== "cts";
+  if (which === "cts") cts = !cts; else te = !te;
+  if (!cts && !te) { if (which === "cts") te = true; else cts = true; }
+  const was = F.src;
+  F.src = cts && te ? "all" : te ? "te" : "cts";
+  catOpen = null; render();
+  if (F.src !== "cts" && was === "cts") { toast(T("Přidány mezinárodní turnaje Tennis Europe")); fitShown(); }
+  else if (F.src === "cts" && was !== "cts") fitVisible(L.latLngBounds(CZ));
+  else if (F.src === "te") fitShown();
+}
+/* rozbalovací panel kategorie pod lištou: pohlaví, třída ČTS, kategorie Tennis Europe */
+function renderCatPanel() {
+  const box = $("#catPanel");
+  if (!catOpen || !F.cat.includes(catOpen)) { box.hidden = true; box.innerHTML = ""; return; }
+  const k = catOpen, s = F.sub[k] || {sex: [], cls: []};
+  const evs = EV.filter(e => srcOn(e) && (e.kats || [e.kat]).includes(k));
+  const tc = {}; for (const e of evs) tc[e.tr || ""] = (tc[e.tr || ""] || 0) + 1;
+  const mix = evs.length && evs.every(e => e.mix && e.src !== "te");
+  const sexLab = k === "dospeli" ? [T("Muži"), T("Ženy")] : [T("Chlapci"), T("Dívky")];
+  const btn = (grp, v, l, on, color) => `<button data-g="${grp}" data-v="${esc(v)}" class="${on ? "on" : ""}"${color ? ` style="--c:${color}"` : ""}>${color ? `<i class="dot" style="background:${color}"></i>` : ""}${esc(l)}</button>`;
+  const cls = CLASS_ORDER.filter(c => tc[c]);
+  box.innerHTML = `<div class="cp-head"><b>${esc(CAT_SHORT[k])}</b><small>${nf(evs.length)} ${T("turnajů")}</small></div>` +
+    (mix ? "" : `<div class="cp-row"><span>${T("Pohlaví")}</span><div class="chips">${btn("sex", "m", sexLab[0], (s.sex || []).includes("m"))}${btn("sex", "z", sexLab[1], (s.sex || []).includes("z"))}</div></div>`) +
+    (cls.length > 1 ? `<div class="cp-row"><span>${T("Třída")}</span><div class="chips">${cls.map(c => btn("cls", c, clsShort(c) === "–" ? T("bez třídy") : clsShort(c), (s.cls || []).includes(c), colorOf(c))).join("")}</div></div>` : "") +
+    `<div class="cp-foot"><button data-a="remove" class="ghost">${T("Odebrat kategorii")}</button><button data-a="done" class="primary">${T("Hotovo")}</button></div>`;
+  box.hidden = false;
+  box.querySelectorAll("[data-g]").forEach(b => b.onclick = () => {
+    const cur = F.sub[k] || {sex: [], cls: []}, a = cur[b.dataset.g] || (cur[b.dataset.g] = []);
+    const i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v);
+    if (cur.sex.length || cur.cls.length) F.sub[k] = cur; else delete F.sub[k];
+    render();
+  });
+  box.querySelector('[data-a="remove"]').onclick = () => { F.cat = F.cat.filter(x => x !== k); delete F.sub[k]; catOpen = null; render(); };
+  box.querySelector('[data-a="done"]').onclick = () => { catOpen = null; render(); };
+}
+document.addEventListener("pointerdown", e => { if (catOpen && !e.target.closest("#catPanel, .quick")) { catOpen = null; renderQuick(); } });
+
 function chip(container, items, key) {
   const el = typeof container === "string" ? $(container) : container; el.innerHTML = "";
   for (const it of items) {
@@ -361,7 +420,7 @@ let snap = "peek";
 const fullH = () => innerHeight - $(".topbar").getBoundingClientRect().top - 8;
 function snapPx(name) {
   const H = fullH(), peek = $("#sheetHead").offsetHeight + 2;
-  return name === "peek" ? peek : name === "half" ? Math.max(peek + 140, Math.round(innerHeight * .5)) : H;
+  return name === "min" ? 26 : name === "peek" ? peek : name === "half" ? Math.max(peek + 140, Math.round(innerHeight * .5)) : H;
 }
 function sheetVisible() { return isDesk() ? 0 : snapPx(snap); }
 function setSnap(name) {
@@ -381,7 +440,7 @@ function setSnap(name) {
     const dy = e.clientY - y0;
     if (!moved && Math.abs(dy) < 6) return;
     if (!moved) { moved = true; sheet.classList.add("dragging"); head.setPointerCapture?.(e.pointerId); }
-    const vis = Math.min(fullH(), Math.max(snapPx("peek"), vis0 - dy));
+    const vis = Math.min(fullH(), Math.max(snapPx("min"), vis0 - dy));
     sheet.style.height = vis + "px";
   });
   addEventListener("pointerup", e => {
@@ -390,14 +449,14 @@ function setSnap(name) {
     sheet.classList.remove("dragging");
     const dy = e.clientY - y0, v = dy / Math.max(1, performance.now() - t0);
     const vis = vis0 - dy;
-    const order = ["peek", "half", "full"];
+    const order = ["min", "peek", "half", "full"];
     let best = order.reduce((a, b) => Math.abs(snapPx(b) - vis) < Math.abs(snapPx(a) - vis) ? b : a);
-    if (Math.abs(v) > .6) best = order[Math.max(0, Math.min(2, order.indexOf(snap) + (v < 0 ? 1 : -1)))];
+    if (Math.abs(v) > .6) best = order[Math.max(0, Math.min(3, order.indexOf(snap) + (v < 0 ? 1 : -1)))];
     setSnap(best);
   });
   head.addEventListener("click", e => {
     if (moved || isDesk() || e.target.closest("button")) return;
-    setSnap(snap === "peek" ? "half" : snap === "half" ? "full" : "half");
+    setSnap(snap === "min" ? "peek" : snap === "peek" ? "half" : snap === "half" ? "full" : "half");
   });
 })();
 $("#btnMin").onclick = () => setSnap(snap === "peek" ? (isDesk() ? "full" : "half") : "peek");
@@ -875,7 +934,7 @@ $("#btnBase").onclick = () => toggleBaseMenu();
 $("#btnLocate").onclick = () => { if (MYPOS) { MYPOS = null; drawMyPos(); render(); } else locate(); };
 $("#btnLegend").onclick = () => { $("#legend").hidden = !$("#legend").hidden; $("#btnLegend").classList.toggle("on", !$("#legend").hidden); };
 $("#legend").addEventListener("click", e => { const b = e.target.closest("button.lg"); if (!b) return; const a = F.cls, i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v); render(); });
-$("#btnReset").onclick = () => { F = defaults(); render(); };
+$("#btnReset").onclick = () => { F = defaults(); catOpen = null; render(); };
 $("#btnShow").onclick = () => { showPanel("list"); if (!isDesk()) setSnap("peek"); };
 $$("#fSrc button").forEach(b => b.onclick = () => { F.src = b.dataset.src; render(); });
 $("#btnShare").onclick = shareFavs;

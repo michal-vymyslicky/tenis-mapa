@@ -279,3 +279,36 @@ button.logo{border:0;padding:0;cursor:pointer}
 .basemenu{left:auto!important;right:64px;top:calc(var(--top) + 150px)}
 @media (min-width:900px){.basemenu{left:auto!important;right:70px;top:120px}}
 .basemenu button small{max-width:230px}
+
+/* v3.0 – horní lišta: období · termín | ČTS · Tennis Europe | kategorie (rozbalovací) */
+.quick .qsep{flex:none;width:1px;align-self:center;height:22px;background:rgba(16,24,40,.18);margin:0 2px}
+.quick button.src{border:1.5px solid transparent}
+.quick button.src:not(.on){background:var(--surface);color:var(--muted);border-color:var(--surface3)}
+.quick button.src.on{background:var(--text);color:var(--surface)}
+.quick button.src.te.on{background:#164e9c;color:#fff}
+.quick button.src.te:not(.on){border-style:dashed;color:#164e9c}
+.quick button.cat .car{font-size:11px;opacity:.7;transition:transform .2s;margin-left:-2px}
+.quick button.cat.open .car{transform:rotate(180deg)}
+.quick button.cat.open{box-shadow:0 0 0 2px var(--accent)}
+.quick button .sc{font-size:11px;font-weight:700;background:var(--accent);color:#fff;border-radius:8px;padding:0 5px;line-height:16px}
+.quick button.on .sc{background:var(--surface);color:var(--text)}
+.catpanel{position:fixed;top:calc(var(--top) + 100px);left:10px;right:10px;z-index:860;background:var(--surface);border-radius:16px;box-shadow:var(--shadow);
+  padding:12px 14px;max-height:calc(100dvh - var(--top) - 220px);overflow:auto;animation:cpdown .18s ease-out}
+.catpanel[hidden]{display:none}
+@keyframes cpdown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+.cp-head{display:flex;align-items:baseline;gap:8px;margin-bottom:8px}
+.cp-head b{font-size:16px}.cp-head small{color:var(--muted)}
+.cp-row{padding:6px 0;border-top:1px solid var(--line)}
+.cp-row>span{display:block;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;margin-bottom:6px}
+.cp-row .chips{display:flex;flex-wrap:wrap;gap:6px}
+.cp-row .chips button{height:32px;padding:0 12px;border-radius:16px;background:var(--surface2);font-size:14px;font-weight:500;display:inline-flex;align-items:center;gap:6px}
+.cp-row .chips button.on{background:var(--text);color:var(--surface)}
+.cp-row .chips .dot{width:10px;height:10px;border-radius:50%;flex:none}
+.cp-foot{display:flex;justify-content:space-between;gap:8px;margin-top:10px}
+.cp-foot button{height:36px;padding:0 14px;border-radius:10px;font-weight:600;font-size:14px}
+.cp-foot .ghost{color:var(--muted);background:var(--surface2)}
+.cp-foot .primary{background:var(--accent);color:#fff}
+.sheet{overflow:hidden}
+.sheet[data-snap="min"] .headrow,.sheet[data-snap="min"] #tabs{visibility:hidden}
+@media (min-width:900px){ .catpanel{top:58px;left:424px;right:auto;width:380px;max-height:calc(100dvh - 90px)} }
+@media (prefers-color-scheme: dark){ .quick .qsep{background:rgba(255,255,255,.2)} .quick button.src.te:not(.on){color:#9fb6dd} }
