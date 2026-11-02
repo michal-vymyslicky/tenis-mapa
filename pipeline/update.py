@@ -328,6 +328,7 @@ def main():
     ap.add_argument("--bez-stahovani", action="store_true")
     ap.add_argument("--kluby", action="store_true")
     ap.add_argument("--index", action="store_true", help="jen přehled sezón a žebříček")
+    ap.add_argument("--te", action="store_true", help="stáhnout i turnaje Tennis Europe (u --auto automaticky)")
     ap.add_argument("--vlakna", type=int, default=3)
     ap.add_argument("--pauza", type=float, default=0.3)
     a = ap.parse_args()
@@ -348,6 +349,12 @@ def main():
     clubs = load("clubs.json", [])
     for s in seasons:
         process(s, download=not a.bez_stahovani, threads=a.vlakna, pause=a.pauza, clubs=clubs)
+    if (a.auto or a.te) and not a.bez_stahovani:
+        try:                                    # Tennis Europe – chyba zdroje nesmí shodit denní aktualizaci ČTS
+            import te
+            te.process()
+        except Exception as e:  # noqa: BLE001
+            print("Tennis Europe se nepodařilo aktualizovat:", e, flush=True)
     build_index()
 
 

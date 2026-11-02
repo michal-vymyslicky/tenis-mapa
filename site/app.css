@@ -2,6 +2,7 @@
   --bg:#f4f5f7; --surface:#ffffff; --surface2:#f2f3f5; --surface3:#e9ebee; --text:#14181f; --muted:#69717d; --line:#e3e6ea;
   --accent:#d4561f; --accent-soft:#fbeee7; --accent2:#2f6f9f; --ok:#1f7a45; --warn:#9a6b00; --bad:#b3261e;
   --c-MCR:#7b2cbf; --c-A:#d62839; --c-B:#f77f00; --c-P:#0a9396; --c-C:#e0b100; --c-D:#3a9d23; --c-E:#2d6cdf; --c-x:#8a94a3; --c-zr:#b5bcc6;
+  --c-TS:#0b2559; --c-TM:#12507a; --c-TEC:#0b2559; --c-T1:#164e9c; --c-T2:#2f74c8; --c-T3:#5e9be0; --c-TF:#3a8fa5; --c-TI:#6b7c93; --c-TSS:#6b7c93; --c-TX:#6b7c93;
   --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px rgba(16,24,40,.12); --shadow-s:0 1px 2px rgba(16,24,40,.08),0 2px 8px rgba(16,24,40,.08);
   --r:18px; --top:calc(env(safe-area-inset-top) + 10px);
   color-scheme:light;
@@ -259,3 +260,9 @@ button.logo{border:0;padding:0;cursor:pointer}
 .seasonmenu button small{color:var(--muted);font-size:12.5px}
 .occ .zrtxt{color:var(--bad)}
 .iconbtn.lang{font:700 13px/1 inherit;letter-spacing:.04em}
+
+/* Tennis Europe: modré odstíny + žlutý okraj špendlíku (jako hvězdy vlajky EU) */
+.pin.te svg path:first-child{stroke:#ffcc00;stroke-width:2.2}
+.pill.te{background:#e8eefb;color:#164e9c}
+.pill.flag{background:transparent;padding-left:0;padding-right:0}
+.legend .sep{margin-top:6px;font-weight:700}

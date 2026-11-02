@@ -3,7 +3,8 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v2.6";
+const APP_VERSION = "v2.7";
+const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
 if (window.I18N) I18N.applyDOM();
@@ -11,8 +12,15 @@ if (window.I18N) I18N.applyDOM();
 const REPORT_EMAIL = ["tenisova-mapa", "seznam.cz"].filter(Boolean).join("@");
 /* FormSubmit (formsubmit.co): po první zprávě přijde na REPORT_EMAIL aktivační e-mail; pak lze adresu nahradit aliasem, který FormSubmit pošle */
 const REPORT_FORM = REPORT_EMAIL;
-const CLASS_ORDER = ["MCR", "A", "B", "P", "C", "D", "E", ""];
-const CLASS_LABEL = {MCR: T("MČR"), A: "A", B: "B", P: T("P – přebor"), C: "C", D: "D", E: "E", "": T("bez třídy")};
+const CLASS_ORDER = ["MCR", "A", "B", "P", "C", "D", "E", "", "TS", "TEC", "TM", "T1", "T2", "T3", "TF", "TI", "TSS", "TX"];
+const TE_CLS = new Set(["TS", "TEC", "TM", "T1", "T2", "T3", "TF", "TI", "TSS", "TX"]);
+/* písmeno ve špendlíku / štítek třídy */
+const PIN_LAB = {MCR: "MČR", TS: "S", TEC: "EC", TM: "M", T1: "1", T2: "2", T3: "3", TF: "F", TI: "I", TSS: "SS", TX: "TE"};
+const clsShort = tr => TE_CLS.has(tr) ? "TE " + PIN_LAB[tr] : tr === "MCR" ? "MČR" : tr || "–";
+const flag = cc => cc && cc.length === 2 ? String.fromCodePoint(...[...cc.toUpperCase()].map(c => 127397 + c.charCodeAt(0))) : "";
+const CLASS_LABEL = {MCR: T("MČR"), A: "A", B: "B", P: T("P – přebor"), C: "C", D: "D", E: "E", "": T("bez třídy"),
+  TS: "TE Super Category", TEC: T("TE mistrovství Evropy"), TM: "TE Masters", T1: T("TE kategorie 1"), T2: T("TE kategorie 2"), T3: T("TE kategorie 3"),
+  TF: "TE Festival", TI: "TE Invitational", TSS: "TE Small States", TX: T("TE ostatní")};
 const CAT_ORDER = ["mladsi-zactvo", "starsi-zactvo", "dorost", "dospeli", "babytenis", "stredni-kurt", "minitenis"];
 const CAT_SHORT = Object.fromEntries(Object.entries({"dospeli": "Dospělí", "dorost": "Dorost", "starsi-zactvo": "Starší žactvo", "mladsi-zactvo": "Mladší žactvo", "babytenis": "Babytenis", "stredni-kurt": "Střední kurt", "minitenis": "Minitenis"}).map(([k, v]) => [k, T(v)]));
 const CAT_QUICK = EN ? {"mladsi-zactvo": "U12", "starsi-zactvo": "U14", "dorost": "U18", "dospeli": "Adults", "babytenis": "Babytennis", "stredni-kurt": "Midcourt", "minitenis": "Minitennis"}
@@ -33,7 +41,9 @@ function surfGroup(p) {
   const s = (p || "").toLowerCase().trim();
   if (!s) return "Neuvedeno";
   for (const [g, xs] of SURF_GROUPS) if (xs.includes(s)) return g;
-  if (/umělá antuka/.test(s)) return "Umělá antuka";
+  if (/umělá antuka|artificial clay/.test(s)) return "Umělá antuka";
+  if (/^clay$|red clay|green clay/.test(s)) return "Antuka";
+  if (/acryl|asphalt|concrete|hard|resin/.test(s)) return "Tvrdý";
   if (/antuk/.test(s)) return "Antuka";
   if (/kober|carpet/.test(s)) return "Koberec";
   if (/tráv|grass/.test(s)) return "Umělá tráva";
@@ -85,7 +95,7 @@ const isDesk = () => innerWidth >= 900;
 let DATA, EV = [], VEN = [], byVenue = new Map();
 const today = new Date(); today.setHours(0, 0, 0, 0);
 const defaults = () => ({from: iso(today), to: "", cat: [], sex: [], cls: [], surf: [], center: null, centerMode: "none", centerLabel: "", radius: 50,
-  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries"});
+  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries", src: "all"});
 let F = Object.assign(defaults(), LS.get("tm.filters", {}));
 let SEZ = null, SEZONY = [];          // vybraná sezóna a přehled sezón (data/sezony.json)
 const sezInfo = () => SEZONY.find(x => x.id === SEZ) || {od: iso(today), do: "9999-12-31"};
@@ -94,9 +104,10 @@ const sezLabel = (x, short) => { let n = x.nazev || x.id; if (short) n = n.repla
 const sezName = x => sezLabel(x || {});
 const sezIcon = id => id[0] === "Z" ? "❄" : "☀";
 F.surf = (F.surf || []).filter(s => /^[gr]:/.test(s));
-F.players = F.players || []; F.pmode = F.pmode || "entries";
+F.players = F.players || []; F.pmode = F.pmode || "entries"; F.src = F.src || "all";
+let TEDATA = null;   // turnaje Tennis Europe (data/TE/turnaje.json) – přimíchají se do sezóny podle termínu
 // oblíbené: ID turnaje obsahuje sezónu (od v2.4); starší ID bez sezóny patří k Z2627
-let FAV = new Set(LS.get("tm.fav", []).map(id => /^[ZL]\d{2}/.test(id) ? id : "Z2627-" + id));
+let FAV = new Set(LS.get("tm.fav", []).map(id => /^([ZL]\d{2}|TE-)/.test(id) ? id : "Z2627-" + id));
 let sortMode = "date", pickMode = false, panel = "list", stack = [], popping = false;
 const SUB = new Set(["detail", "report", "about", "player"]);
 let ctx = {}, lastVenue = null;   // kontext pro hlášení problému
@@ -115,8 +126,8 @@ let circle = null, centerMarker = null, focusMarker = null;
 const PIN = (color, w = 30, h = 40) => `<svg viewBox="0 0 30 40" width="${w}" height="${h}"><path d="M15 1C7.3 1 1 7.1 1 14.7 1 25 15 39 15 39s14-14 14-24.3C29 7.1 22.7 1 15 1z" fill="${color}"/></svg>`;
 /* špendlík: barva i písmeno = nejvyšší třída v místě (MČR, A, B, P, C, D, E), bublina = počet turnajů */
 function pinIcon(color, n, guess, fav, cls) {
-  const lab = cls === "MCR" ? "MČR" : cls || "–";
-  return L.divIcon({html: `<div class="pin${guess ? " guess" : ""}${fav ? " fav" : ""}">${PIN(color)}<b class="${lab.length > 1 ? "long" : ""}">${lab}</b>${n > 1 ? `<i class="cnt">${n}</i>` : ""}</div>`,
+  const lab = PIN_LAB[cls] || cls || "–";
+  return L.divIcon({html: `<div class="pin${guess ? " guess" : ""}${fav ? " fav" : ""}${TE_CLS.has(cls) ? " te" : ""}">${PIN(color)}<b class="${lab.length > 1 ? "long" : ""}">${lab}</b>${n > 1 ? `<i class="cnt">${n}</i>` : ""}</div>`,
     className: "", iconSize: [30, 40], iconAnchor: [15, 39]});
 }
 
@@ -150,7 +161,8 @@ function evMatches(e, opt = {}) {
   const to = F.to || "9999";
   if (e.od && (e.do || e.od) < F.from) return false;
   if (e.od && e.od > to) return false;
-  if (F.cat.length && !F.cat.includes(e.kat)) return false;
+  if (F.src !== "all" && (e.src === "te") !== (F.src === "te")) return false;
+  if (F.cat.length && !(e.kats || [e.kat]).some(k => F.cat.includes(k))) return false;
   if (F.sex.length && !e.mix && !((F.sex.includes("m") && e.km) || (F.sex.includes("z") && e.kz))) return false;
   if (F.cls.length && !F.cls.includes(e.tr || "")) return false;
   if (!surfMatch(e)) return false;
@@ -175,7 +187,7 @@ function occOf(e) {
   if (e.kz) xs.push(e.oz || (e.kap ? [e.pz || 0, e.kap] : null));
   return xs;
 }
-const hasFree = e => occOf(e).some(o => !o || o[0] < o[1]);
+const hasFree = e => e.src === "te" || occOf(e).some(o => !o || o[0] < o[1]);
 function occText(o, p, kap) {
   if (o) return {t: `${o[0]} / ${o[1]}`, pct: o[1] ? o[0] / o[1] : 0};
   if (p != null && kap) return {t: `${p} / ${kap}`, pct: p / kap};
@@ -205,7 +217,7 @@ function render() {
   $("#summary").innerHTML = panel === "detail" ? $("#summary").innerHTML : `${nf(shown.length)} ${T("turnajů")} <small>· ${vmap.size} ${T("míst")}${noLoc ? ` · ${noLoc} ${T("bez místa")}` : ""}</small>`;
   $("#countBadge").textContent = nf(shown.length);
   $("#showCount").textContent = `(${nf(shown.length)})`;
-  const nfil = [F.cat.length, F.sex.length, F.cls.length, F.surf.length, F.to, F.centerMode !== "none", F.free, F.favOnly, !F.cancelled, !F.guess].filter(Boolean).length;
+  const nfil = [F.cat.length, F.sex.length, F.cls.length, F.surf.length, F.to, F.centerMode !== "none", F.free, F.favOnly, !F.cancelled, !F.guess, F.src !== "all"].filter(Boolean).length;
   $("#filterBadge").hidden = !nfil; $("#filterBadge").textContent = nfil; $("#filterBadge2").textContent = nfil || "";
   $("#favBadge").textContent = FAV.size || "";
   drawCircle(); renderQuick(); syncFilterUI();
@@ -226,7 +238,8 @@ function renderQuick() {
   const q = $("#quick");
   const dateTxt = F.to ? `${dShort(F.from)} – ${dShort(F.to)}` : F.from === iso(today) ? T("Od dnes") : F.from <= sezInfo().od ? T("Celá sezóna") : `${T("Od")} ${dShort(F.from)}`;
   const counts = {}; for (const e of EV) counts[e.kat] = (counts[e.kat] || 0) + 1;
-  q.innerHTML = (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") + `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button>` +
+  q.innerHTML = (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") + (TEDATA && TEDATA.turnaje.length ? `<button class="te${F.src === "te" ? " on" : ""}" data-q="te">🇪🇺 Tennis Europe${F.src === "te" ? " ✕" : ""}</button>` : "") +
+    (F.src === "cts" ? `<button class="on" data-q="cts">${T("Jen ČTS")} ✕</button>` : "") + `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button>` +
     CAT_ORDER.filter(k => counts[k]).map(k => `<button data-q="${k}" class="${F.cat.includes(k) ? "on" : ""}">${CAT_QUICK[k]}</button>`).join("") +
     (F.centerMode !== "none" ? `<button class="on" data-q="radius">≤ ${F.radius} km ✕</button>` : "") +
     (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "");
@@ -238,6 +251,8 @@ function renderQuick() {
     if (k === "season") return toggleSeasonMenu();
     if (k === "radius") { F.centerMode = "none"; return render(); }
     if (k === "fav") { F.favOnly = false; return render(); }
+    if (k === "te") { F.src = F.src === "te" ? "all" : "te"; render(); return fitShown(); }
+    if (k === "cts") { F.src = "all"; return render(); }
     if (k.startsWith("pl:")) return openPlayer(k.slice(3));
     const i = F.cat.indexOf(k); i >= 0 ? F.cat.splice(i, 1) : F.cat.push(k); render();
   });
@@ -274,8 +289,8 @@ function buildFilterUI() {
     const ch = document.createElement("div"); ch.className = "chips"; wrap.appendChild(ch); box.appendChild(wrap);
     chip(ch, raws.map(r => ({v: "r:" + r, l: rawSurf(disp[r] || r), n: rc[r]})), "surf");
   }
-  $("#legend").innerHTML = `<b>${T("Třída turnaje <small>(klepnutím filtrujete)</small>")}</b>` + CLASS_ORDER.filter(k => tc[k]).map(k => `<button class="lg" data-k="cls" data-v="${k}" style="--c:${colorOf(k)}"><i style="background:${colorOf(k)}">${k === "MCR" ? "M" : k || "–"}</i>${CLASS_LABEL[k]} <small>${tc[k]}</small></button>`).join("") +
-    `<div><i style="background:${css("--c-zr")}"></i>${T("zrušeno")}</div><div><i class="ring"></i>${T("čárkovaně = místo odhadnuté")}</div><div>${T("písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů")}</div>`;
+  $("#legend").innerHTML = `<b>${T("Třída turnaje <small>(klepnutím filtrujete)</small>")}</b>` + CLASS_ORDER.filter(k => tc[k]).map(k => `<button class="lg" data-k="cls" data-v="${k}" style="--c:${colorOf(k)}"><i style="background:${colorOf(k)}">${k === "MCR" ? "M" : PIN_LAB[k] || k || "–"}</i>${CLASS_LABEL[k]} <small>${tc[k]}</small></button>`).join("") +
+    (CLASS_ORDER.some(k => TE_CLS.has(k) && tc[k]) ? `<div class="sep">🇪🇺 ${T("Tennis Europe – žlutý okraj špendlíku")}</div>` : "") + `<div><i style="background:${css("--c-zr")}"></i>${T("zrušeno")}</div><div><i class="ring"></i>${T("čárkovaně = místo odhadnuté")}</div><div>${T("písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů")}</div>`;
 }
 function syncFilterUI() {
   $$(".chips button[data-k], #legend button.lg").forEach(b => b.classList.toggle("on", F[b.dataset.k].includes(b.dataset.v)));
@@ -284,8 +299,9 @@ function syncFilterUI() {
   if (document.activeElement !== $("#fText")) $("#fText").value = F.text;
   $("#fFree").checked = F.free; $("#fCancelled").checked = F.cancelled; $("#fGuess").checked = F.guess;
   $$("#fCenterMode button").forEach(b => b.classList.toggle("on", b.dataset.c === F.centerMode));
+  $$("#fSrc button").forEach(b => b.classList.toggle("on", b.dataset.src === F.src));
   $("#rangeBox").classList.toggle("off", F.centerMode === "none");
-  $("#centerInfo").textContent = F.centerMode === "none" ? T("Zobrazuje se celá ČR.") :
+  $("#centerInfo").textContent = F.centerMode === "none" ? T("Bez omezení vzdálenosti.") :
     F.center ? `${T("Střed")}: ${T(F.centerLabel) || F.center.map(x => x.toFixed(4)).join(", ")}` : "";
   $("#btnLocate").classList.toggle("on", F.centerMode === "gps");
   $("#btnPick").classList.toggle("on", pickMode || F.centerMode === "pick");
@@ -403,7 +419,7 @@ function linkSet(e) {
   return out.join("");
 }
 const STAR = '<svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>';
-const isNew = e => e.nove && (today - pd(e.nove)) / 864e5 <= 7 && DATA.meta.prvni_beh !== e.nove;
+const isNew = e => e.nove && (today - pd(e.nove)) / 864e5 <= 7 && (e.src === "te" ? TEDATA?.meta?.prvni_beh : DATA.meta.prvni_beh) !== e.nove;
 
 /* kompaktní řádek do seznamu */
 function item(e) {
@@ -411,12 +427,13 @@ function item(e) {
   const d = F.center && F.centerMode !== "none" && v.lat != null ? ` · ${Math.round(km(F.center, [v.lat, v.lon]))} km` : "";
   const occ = occOf(e).filter(Boolean);
   const full = occ.length && occ.every(o => o[0] >= o[1]);
-  const sex = e.mix ? T("děti") : [e.km && T(e.kat === "dospeli" ? "muži" : "chlapci"), e.kz && T(e.kat === "dospeli" ? "ženy" : "dívky")].filter(Boolean).join(" + ");
+  const te = e.src === "te";
+  const sex = te ? "" : e.mix ? T("děti") : [e.km && T(e.kat === "dospeli" ? "muži" : "chlapci"), e.kz && T(e.kat === "dospeli" ? "ženy" : "dívky")].filter(Boolean).join(" + ");
   return `<div class="item${zr ? " zr" : ""}" data-ev="${esc(e.id)}">
     <i class="bar" style="background:${colorOf(e.tr, zr)}"></i>
     <div class="main"><div class="t">${esc(e.nz || e.por)}</div>
       <div class="s">${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
-      <div class="m"><span class="pill cls" style="background:${colorOf(e.tr, zr)}">${e.tr === "MCR" ? "MČR" : e.tr || "–"}</span><span class="pill">${esc(CAT_QUICK[e.kat])}</span><span class="pill">${sex}</span>
+      <div class="m"><span class="pill cls" style="background:${colorOf(e.tr, zr)}">${esc(clsShort(e.tr))}</span>${te ? `<span class="pill">${esc((e.ages || []).join(", ").replace(/&U/g, "U") || "–")}</span><span class="pill flag">${flag(e.zeme)}</span>` : `<span class="pill">${esc(CAT_QUICK[e.kat])}</span><span class="pill">${sex}</span>`}
       ${e.kap ? `<span class="pill${full ? " full" : ""}">${full ? T("plno") : "max " + e.kap}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfLabel(surfGroup(e.pov)))}</span>` : ""}
       ${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${partCancel(e) ? `<span class="pill zr">${partCancel(e)} ${T("zrušeno")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${playerPills(e)}</div></div>
     <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="${T("Oblíbené")}">${STAR}</button></div>`;
@@ -426,8 +443,25 @@ function partCancel(e) {
   if (!e.zr || e.st === "zruseno") return "";
   return T(e.zr === "m" ? (e.kat === "dospeli" ? "muži" : "chlapci") : (e.kat === "dospeli" ? "ženy" : "dívky"));
 }
+/* karta turnaje Tennis Europe (bez kapacity a přihlášek – ty jsou na webu TE) */
+function teCard(e) {
+  const zr = e.st === "zruseno", v = VEN[e.misto] || {};
+  return `<div class="card${zr ? " zr" : ""}" id="c-${esc(e.id)}">
+    <div class="top"><span class="badgecls" style="background:${colorOf(e.tr, zr)}">${esc(PIN_LAB[e.tr] || "TE")}</span>
+      <div style="flex:1;min-width:0"><div class="nm">${esc(e.nz)}</div><div class="sub">Tennis Europe · ${esc((e.ages || []).join(", ").replace(/&U/g, "U"))} · ${esc(fmtRange(e.od, e.do))}</div>
+      <div class="m" style="display:flex;gap:4px;margin-top:4px">${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${e.entry ? `<span class="pill te">${T("online přihlášky")}</span>` : ""}</div></div>
+      <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="${T("Oblíbené")}">${STAR}</button></div>
+    <div class="facts"><div><span>${T("Kategorie TE")}</span>${esc(CLASS_LABEL[e.tr] || e.tecat || "–")}</div><div><span>${T("Věk")}</span>${esc((e.ages || []).join(", ") || "–")}</div>
+      <div><span>${T("Povrch")}</span>${esc(e.pov || T("neuvedeno"))}</div><div><span>${T("Země")}</span>${flag(e.zeme)} ${esc(v.region || "")}</div>
+      <div><span>${T("Místo")}</span>${esc(e.por)}</div></div>
+    ${zr ? `<div class="note">${T("Turnaj zmizel z kalendáře Tennis Europe – ověřte na jejich webu.")}</div>` : ""}
+    <div class="muted" style="margin-top:8px">${T("Kapacita, přihlášky, losy a výsledky jsou na webu Tennis Europe.")}</div>
+    <div class="links"><a class="pri" href="${TEURL}${esc(e.id.slice(3))}" target="_blank" rel="noopener">${T("Detail a přihlášky · Tennis Europe")}</a></div>
+    <span class="reportlink" data-report-ev="${esc(e.id)}">${T("Nahlásit chybu u tohoto turnaje")}</span></div>`;
+}
 /* plná karta v detailu místa */
 function card(e) {
+  if (e.src === "te") return teCard(e);
   const zr = e.st === "zruseno";
   const g = (e.mix ? ["Děti", ""] : e.kat === "dospeli" ? ["Muži", "Ženy"] : ["Chlapci", "Dívky"]).map(x => T(x));
   const occ = [];
@@ -472,6 +506,7 @@ function setFocus(v) {
 }
 const SVAZY = /^(praha|středočeský|jihočeský|západočeský|severočeský|východočeský|jihomoravský|severomoravský|čts)$/i;
 function venueTitle(v) {
+  if (v.zdroj === "te") return v.nazev_mista || v.poradatel;
   if (v.nazev_mista && v.presnost === "areal") return v.nazev_mista;
   if (SVAZY.test((v.poradatel || "").trim()) && v.adresa) return v.adresa.split(",").pop().trim();
   return v.poradatel;
@@ -487,6 +522,7 @@ function openVenue(vi, opt = {}) {
   let [pc, pt] = PREC[v.presnost] || PREC.nezname;
   if (v.presnost === "adresa") [pc, pt] = v.zdroj === "detail" ? ["ok", T("Adresa místa konání podle ČTS")] : ["mid", T("Adresa klubu (místo konání zatím neuvedeno)")];
   if (v.presnost === "areal" && v.zdroj === "detail") pt = T("Adresa podle ČTS, ověřeno v mapě");
+  if (v.zdroj === "te") [pc, pt] = v.presnost === "areal" ? ["ok", T("Areál dohledán v mapě (OpenStreetMap)")] : v.presnost === "obec" ? ["mid", T("Jen obec – areál v mapě nedohledán")] : ["bad", T("Místo neznámé")];
   // Mapy.com URL API: souřadnice v pořadí lon,lat (developer.mapy.com – Mapy.cz URL); start = poloha z GPS, jinak ho doplní aplikace
   const start = F.centerMode === "gps" && F.center ? `start=${F.center[1]},${F.center[0]}&` : "";
   const nav = v.lat != null ? `<div class="links">
@@ -494,7 +530,7 @@ function openVenue(vi, opt = {}) {
     <a href="https://www.google.com/maps/dir/?api=1&destination=${v.lat},${v.lon}&travelmode=driving" target="_blank" rel="noopener">Google Maps</a>
     <a href="https://mapy.com/fnc/v1/showmap?center=${v.lon},${v.lat}&zoom=17&marker=true" target="_blank" rel="noopener">${T("Ukázat v Mapy.com")}</a></div>` : "";
   let html = `<div class="venue"><h2>${esc(venueTitle(v))}</h2>
-    <div class="addr">${SVAZY.test((v.poradatel || "").trim()) ? T(v.poradatel === "ČTS" ? "Pořadatel: {p}" : "Pořadatel: {p} oblastní svaz", {p: esc(v.poradatel)}) : esc(v.poradatel)}${v.adresa ? " · " + esc(v.adresa) : ""}${v.region ? " · " + esc(v.region) : ""}</div>
+    <div class="addr">${v.zdroj === "te" ? `${flag(v.zeme)} ${esc(v.adresa)} · Tennis Europe` : SVAZY.test((v.poradatel || "").trim()) ? T(v.poradatel === "ČTS" ? "Pořadatel: {p}" : "Pořadatel: {p} oblastní svaz", {p: esc(v.poradatel)}) : esc(v.poradatel) + (v.adresa ? " · " + esc(v.adresa) : "") + (v.region ? " · " + esc(v.region) : "")}</div>
     <span class="prec ${pc}">${esc(pt)}</span>${v.poznamka ? `<div class="muted">${esc(noteText(v.poznamka))}</div>` : ""}${nav}
     <span class="reportlink" data-report-venue="${vi}">${T("Nahlásit špatné místo nebo údaje")}</span></div>`;
   if (!groups.size) html += `<div class="empty">${T("Žádný turnaj tohoto místa neodpovídá filtrům.")}</div>`;
@@ -524,7 +560,7 @@ function renderFavs() {
   const xs = EV.filter(e => FAV.has(e.id)).sort((a, b) => (a.od || "").localeCompare(b.od || ""));
   const mine = [...FAV].filter(id => id.startsWith(SEZ + "-"));
   const gone = mine.filter(id => !EV.some(e => e.id === id));
-  const others = [...FAV].filter(id => !id.startsWith(SEZ + "-"));
+  const others = [...FAV].filter(id => !id.startsWith(SEZ + "-") && !id.startsWith("TE-"));
   const bySez = {}; others.forEach(id => { const k = id.split("-")[0]; bySez[k] = (bySez[k] || 0) + 1; });
   $("#favBody").innerHTML = (xs.length ? xs.map(item).join("") : `<div class="empty">${T("V sezóně {s} zatím žádné oblíbené – přidáte je hvězdičkou u turnaje.", {s: esc(sezName(sezInfo()) || SEZ)})}</div>`) +
     (gone.length ? `<div class="muted">${T("{n} oblíbených turnajů už v datech není.", {n: gone.length})}</div>` : "") +
@@ -544,8 +580,8 @@ function icsFavs() {
   const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//TenisMapa//CS", "CALSCALE:GREGORIAN"];
   for (const e of xs) { const v = VEN[e.misto] || {};
     lines.push("BEGIN:VEVENT", `UID:${e.id}@tenismapa`, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").slice(0, 15)}Z`, `DTSTART;VALUE=DATE:${d(e.od)}`,
-      `DTEND;VALUE=DATE:${d(iso(addDays(pd(e.do || e.od), 1)))}`, `SUMMARY:${esI(`${e.tr === "MCR" ? "MČR" : e.tr} ${CAT_SHORT[e.kat]} – ${e.nz || e.por}`)}`,
-      `LOCATION:${esI([v.nazev_mista, v.adresa].filter(Boolean).join(", "))}`, `DESCRIPTION:${esI(`${e.por}\n${CTS}${e.km || e.kz}?sezona=${DATA.meta.sezona}&tab=seznam`)}`, "END:VEVENT"); }
+      `DTEND;VALUE=DATE:${d(iso(addDays(pd(e.do || e.od), 1)))}`, `SUMMARY:${esI(e.src === "te" ? `Tennis Europe ${PIN_LAB[e.tr] || ""} ${(e.ages || []).join(",")} – ${e.nz}` : `${e.tr === "MCR" ? "MČR" : e.tr} ${CAT_SHORT[e.kat]} – ${e.nz || e.por}`)}`,
+      `LOCATION:${esI([v.nazev_mista, v.adresa].filter(Boolean).join(", "))}`, `DESCRIPTION:${esI(e.src === "te" ? `Tennis Europe – ${e.por}\n${TEURL}${e.id.slice(3)}` : `${e.por}\n${CTS}${e.km || e.kz}?sezona=${DATA.meta.sezona}&tab=seznam`)}`, "END:VEVENT"); }
   lines.push("END:VCALENDAR");
   const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([lines.join("\r\n")], {type: "text/calendar"})); a.download = "tenisove-turnaje.ics"; a.click();
 }
@@ -586,7 +622,7 @@ function ctxLines() {
   const vi = e ? e.misto : ctx.venue;
   const v = vi != null ? VEN[vi] : null;
   if (e) L1.push(`Turnaj: ${e.nz || e.por} | ${CAT_SHORT[e.kat]} | ${e.txt} | třída ${e.tr || "-"} | kódy ${[e.km, e.kz].filter(Boolean).join(", ")} | ${e.st === "zruseno" ? "ZRUŠENO" : "aktivní"}`,
-    `Odkaz ČTS: ${CTS}${e.km || e.kz}?sezona=${DATA.meta.sezona}&tab=seznam`);
+    e.src === "te" ? `Odkaz TE: ${TEURL}${e.id.slice(3)}` : `Odkaz ČTS: ${CTS}${e.km || e.kz}?sezona=${DATA.meta.sezona}&tab=seznam`);
   if (v) L1.push(`Místo: ${v.nazev_mista || "-"} | pořadatel ${v.poradatel} | adresa ${v.adresa || "-"} | přesnost ${v.presnost}/${v.zdroj} | ${v.lat ?? "-"},${v.lon ?? "-"}`);
   const c = map.getCenter();
   L1.push(`Mapa: ${c.lat.toFixed(5)},${c.lng.toFixed(5)} z${map.getZoom()} | panel ${stack[stack.length - 1] || panel}`,
@@ -597,7 +633,7 @@ function ctxLines() {
 function renderCtx() {
   const e = ctx.ev ? EV.find(x => x.id === ctx.ev) : null;
   const vi = e ? e.misto : ctx.venue, v = vi != null ? VEN[vi] : null;
-  $("#repCtx").innerHTML = e ? `<b>${esc(e.nz || e.por)}</b>${esc(CAT_SHORT[e.kat])} · ${esc(fmtRange(e.od, e.do))} · ${T("kód")} ${esc(e.km || e.kz)}<div class="muted">${esc(v ? (v.nazev_mista || v.poradatel) + " · " + (v.adresa || "") : "")}</div>`
+  $("#repCtx").innerHTML = e ? `<b>${esc(e.nz || e.por)}</b>${esc(CAT_SHORT[e.kat])} · ${esc(fmtRange(e.od, e.do))} · ${e.src === "te" ? "Tennis Europe" : T("kód") + " " + esc(e.km || e.kz)}<div class="muted">${esc(v ? (v.nazev_mista || v.poradatel) + " · " + (v.adresa || "") : "")}</div>`
     : v ? `<b>${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : v.poradatel)}</b>${esc(v.adresa || T("adresa neuvedena"))}<div class="muted">${T("Místo na mapě · přesnost: {p}", {p: esc((PREC[v.presnost] || PREC.nezname)[1])})}</div>`
     : T(`<b>Obecné hlášení</b>Přiloží se aktuální výřez mapy a nastavené filtry.<div class="muted">Tip: pro konkrétní turnaj otevřete jeho detail a klepněte na „Nahlásit chybu“.</div>`);
 }
@@ -798,7 +834,7 @@ $("#placeForm").onsubmit = async ev => {
   const q = $("#placeQ").value.trim(); if (!q) return;
   $("#placeRes").innerHTML = `<div class="muted">${T("Hledám…")}</div>`;
   try {
-    const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=cz&limit=6&accept-language=${EN ? "en" : "cs"}&q=${encodeURIComponent(q)}`);
+    const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&limit=6&accept-language=${EN ? "en" : "cs"}&q=${encodeURIComponent(q)}`);
     const js = await r.json();
     $("#placeRes").innerHTML = js.length ? "" : `<div class="muted">${T("Nic nenalezeno.")}</div>`;
     for (const x of js) { const b = document.createElement("button"); b.type = "button"; b.textContent = x.display_name;
@@ -846,6 +882,7 @@ $("#legend").addEventListener("click", e => { const b = e.target.closest("button
 $("#btnReset").onclick = () => { F = defaults(); render(); };
 $("#btnShow").onclick = () => { showPanel("list"); if (!isDesk()) setSnap("peek"); };
 $$("#listSort button").forEach(b => b.onclick = () => { sortMode = b.dataset.s; if (sortMode === "dist" && (!F.center || F.centerMode === "none")) toast(T("Nejdřív nastavte okruh – polohu nebo bod v mapě.")); $$("#listSort button").forEach(x => x.classList.toggle("on", x === b)); renderList(); });
+$$("#fSrc button").forEach(b => b.onclick = () => { F.src = b.dataset.src; render(); });
 $("#btnShare").onclick = shareFavs;
 $("#btnIcs").onclick = icsFavs;
 $("#btnFavMap").onclick = () => { F.favOnly = !F.favOnly; render(); };
@@ -867,8 +904,14 @@ function defaultSeason() {
 function loadSeason(id, opt = {}) {
   SEZ = id; LS.set("tm.sez", id === defaultSeason() ? null : id);
   $("#summary").textContent = T("Načítám {s}…", {s: sezName(sezInfo()) || id});
-  return fetch(`data/${id}/turnaje.json`, {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(js => {
+  return Promise.all([fetch(`data/${id}/turnaje.json`, {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }), loadTE()]).then(([js, te]) => {
     DATA = js; EV = js.turnaje; VEN = js.mista; byVenue = new Map();
+    // Tennis Europe: turnaje v rozsahu sezóny (u nejnovější sezóny i všechny pozdější), místa připojená za místa ČTS
+    if (te && te.turnaje.length) {
+      const si0 = sezInfo(), latest = SEZONY[0] && SEZONY[0].id === id, end = latest ? "9999" : si0.do, off = VEN.length;
+      const xs = te.turnaje.filter(e => (e.do || e.od) >= si0.od && e.od <= end).map(e => Object.assign({}, e, {misto: e.misto + off}));
+      if (xs.length) { EV = EV.concat(xs); VEN = VEN.concat(te.mista); }
+    }
     for (const e of EV) (byVenue.get(e.misto) || byVenue.set(e.misto, []).get(e.misto)).push(e);
     const si = sezInfo();
     if (opt.reset) { F.from = isArchive() ? si.od : (si.od > iso(today) ? si.od : iso(today)); F.to = ""; }
@@ -881,6 +924,16 @@ function loadSeason(id, opt = {}) {
     showPanel(panel === "detail" || panel === "player" ? "list" : (SUB.has(panel) ? "list" : panel));
     render();
   });
+}
+function loadTE() {
+  if (TEDATA) return Promise.resolve(TEDATA);
+  return fetch("data/TE/turnaje.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null)
+    .then(js => (TEDATA = js && js.turnaje ? js : {meta: {}, mista: [], turnaje: []}));
+}
+/* přiblížit mapu na zobrazená místa (např. po zapnutí Tennis Europe) */
+function fitShown() {
+  const pts = [...new Set(shown.map(e => e.misto))].map(i => VEN[i]).filter(v => v && v.lat != null).map(v => [v.lat, v.lon]);
+  if (pts.length) fitVisible(L.latLngBounds(pts));
 }
 function toggleSeasonMenu() {
   let m = $("#seasonMenu");

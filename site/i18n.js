@@ -14,7 +14,7 @@ window.I18N = (() => {
   const EN = {
     // --- hlavička, mapa, panel ---
     "Tenisová mapa turnajů": "Tennis tournament map",
-    "Mapa turnajů jednotlivců ČTS – filtr podle termínu, kategorie, třídy, povrchu a vzdálenosti.": "Map of Czech Tennis Association (ČTS) individual tournaments – filter by date, category, grade, surface and distance.",
+    "Mapa turnajů jednotlivců ČTS a mezinárodních turnajů Tennis Europe – filtr podle termínu, kategorie, třídy, povrchu a vzdálenosti.": "Map of Czech Tennis Association (ČTS) and international Tennis Europe tournaments – filter by date, category, grade, surface and distance.",
     "Mapa turnajů": "Tournament map",
     "O aplikaci": "About",
     "Hráč, klub, město, turnaj…": "Player, club, town, tournament…",
@@ -96,6 +96,19 @@ window.I18N = (() => {
     "Adresa podle ČTS, ověřeno v mapě": "Address according to ČTS, verified on the map",
     "místo podle ověřeného areálu klubu": "location from the club's verified venue",
     "ročník": "season",
+    "místo podle areálu klubu v datech ČTS": "location from the club's venue in ČTS data",
+    // --- Tennis Europe ---
+    "Turnaje": "Tournaments", "Vše": "All", "Bez okruhu": "No radius", "Jen ČTS": "ČTS only",
+    "Bez omezení vzdálenosti.": "No distance limit.",
+    "TE mistrovství Evropy": "TE European Championship", "TE kategorie 1": "TE Category 1", "TE kategorie 2": "TE Category 2",
+    "TE kategorie 3": "TE Category 3", "TE ostatní": "TE other",
+    "Tennis Europe – žlutý okraj špendlíku": "Tennis Europe – yellow pin outline",
+    "online přihlášky": "online entry", "Kategorie TE": "TE category", "Věk": "Age group", "Země": "Country", "Místo": "Venue",
+    "Turnaj zmizel z kalendáře Tennis Europe – ověřte na jejich webu.": "The tournament disappeared from the Tennis Europe calendar – please check their website.",
+    "Kapacita, přihlášky, losy a výsledky jsou na webu Tennis Europe.": "Capacity, entries, draws and results are on the Tennis Europe website.",
+    "Detail a přihlášky · Tennis Europe": "Details and entry · Tennis Europe",
+    "Areál dohledán v mapě (OpenStreetMap)": "Venue found on the map (OpenStreetMap)",
+    "Jen obec – areál v mapě nedohledán": "Town only – venue not found on the map",
     "místo podle rozpisu svazu": "venue according to the regional association's schedule",
     // --- seznam a karty ---
     "turnajů": "tournaments", "míst": "venues", "bez místa": "without location",
@@ -200,10 +213,11 @@ window.I18N = (() => {
 
   /* delší HTML bloky (O aplikaci) – data-i18n="klíč" */
   const EN_HTML = {
-    "about.intro": "<b>Tennis map</b> shows individual tournaments from the calendar of the Czech Tennis Association (ČTS) on a map – with filters by date, category, grade, surface and distance, players' entries and favourite tournaments. Tournament names, clubs and the linked ČTS pages are in Czech.",
+    "about.intro": "<b>Tennis map</b> shows individual tournaments from the calendar of the Czech Tennis Association (ČTS) and international Tennis Europe junior tournaments on a map – with filters by date, category, grade, surface and distance, players' entries and favourite tournaments. Tournament names, clubs and the linked ČTS pages are in Czech.",
     "about.disclaimer": "This is a private, non-commercial project that is not run by or affiliated with the Czech Tennis Association. Data is taken automatically from the public website <a href=\"https://cesky-tenis.cz\" target=\"_blank\" rel=\"noopener\">cesky-tenis.cz</a> and may be incomplete, delayed or wrong – especially venues, which are derived from addresses. The app is provided <b>without any warranty and without liability</b> for any damage arising from its use. It is made to the best of our knowledge and belief. Always check the details on the official ČTS website and with the organiser before travelling to a tournament.",
     "about.d1": "Tournaments, entries and ranking: Czech Tennis Association, public website cesky-tenis.cz (<span id=\"aboutData\"></span>).",
     "about.d2": "Seasons in the app: <span id=\"aboutSez\"></span>. The current and upcoming seasons are updated daily; older seasons are an archive with links to results.",
+    "about.d6": "International tournaments: Tennis Europe Junior Tour, public search at te.tournamentsoftware.com – dates, venue, surface, category and age group; entries and results on the Tennis Europe website.",
     "about.d3": "Map: © OpenStreetMap contributors; place search: Nominatim (OSM); addresses: RÚIAN (ČÚZK).",
     "about.d4": "Names in entry lists come from public ČTS lists. If you do not wish to be listed in the app, let us know via “Report a problem” and we will remove the data.",
     "about.d5": "Favourite tournaments and filters are stored only in your browser.",

@@ -29264,5 +29264,3342 @@
    "lon": 14.490628,
    "s": 100
   }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=JC+Sport+Opava%2C+Opava": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=JC+Sport+Opava": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=Opava": [
+  {
+   "name": "Opava",
+   "display_name": "Opava, okres Opava, Moravskoslezský kraj, Česko",
+   "lat": "49.9389004",
+   "lon": "17.9024174",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Athens+Lawn+Tennis+Club%2C+Athens": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Athens+Lawn+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Athens": [
+  {
+   "name": "Athény",
+   "display_name": "Athény, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 57, Řecko",
+   "lat": "37.9755648",
+   "lon": "23.7348324",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=md&format=jsonv2&limit=1&q=TBC%2C+Chisinau": [
+  {
+   "name": "TBC",
+   "display_name": "TBC, Strada Bogdan-Voievod, Pan-Com, Kišiněv, sectorul Rîșcani, Municipiul Chișinău, MD-2068, Moldavsko",
+   "lat": "47.0430743",
+   "lon": "28.8552561",
+   "category": "office",
+   "type": "it",
+   "addresstype": "office"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=dk&format=jsonv2&limit=1&q=Birker%C3%B8d+Tennisklub%2C+Birker%C3%B8d": [
+  {
+   "name": "Birkerød Tennisklub",
+   "display_name": "Birkerød Tennisklub, Hammerbakken, Høvelte Overdrev, Bistrup, Birkerød, Rudersdal Kommune, Hovedstaden, 3460, Dánsko",
+   "lat": "55.8335840",
+   "lon": "12.4045979",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=FIELD+CLUB+NICOSIA%2C+NICOSIA": [
+  {
+   "name": "Field Club Nicosia",
+   "display_name": "Field Club Nicosia, 9, Aigyptou, Αγιος Ανδρέας, Agios Andreas, Άγιοι Ομολογητές, Nikósie, Δήμος Λευκωσίας, Nikósie, Kypr, 1097, Kypr",
+   "lat": "35.1724724",
+   "lon": "33.3570170",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Club+Tennis+LLafranc%2C+Llafranc": [
+  {
+   "name": "Club de Tennis Llafranc",
+   "display_name": "Club de Tennis Llafranc, Carrer de la Font d'en Xecu, Llafranc, Palafrugell, Baix Empordà, Girona, Katalánsko, 17211, Španělsko",
+   "lat": "41.9060794",
+   "lon": "3.1856560",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=TC+Rot-Weiss+Passau%2C+Passau": [
+  {
+   "name": "TC Rot-Weiß Passau e.V.",
+   "display_name": "TC Rot-Weiß Passau e.V., Freudenhain, Thanöd, Ries, Pasov, Bavorsko, 94034, Německo",
+   "lat": "48.5794050",
+   "lon": "13.4465616",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Zadar+08+-+Vi%C5%A1njik%2C+Zadar": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Zadar+08+-+Vi%C5%A1njik": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Zadar": [
+  {
+   "name": "Zadar",
+   "display_name": "Zadar, Grad Zadar, Zadarska županija, Chorvatsko",
+   "lat": "44.1168594",
+   "lon": "15.2353257",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+DOBOJ%2C+DOBOJ": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+DOBOJ": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=DOBOJ": [
+  {
+   "name": "Doboj",
+   "display_name": "Doboj, Grad Doboj, Republika srbská, Bosna a Hercegovina",
+   "lat": "44.7324559",
+   "lon": "18.0850157",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Carcavelos+T%C3%A9nis+e+Padel%2C+Carcavelos": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Carcavelos+T%C3%A9nis+e+Padel": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Carcavelos": [
+  {
+   "name": "Carcavelos",
+   "display_name": "Carcavelos, Carcavelos e Parede, Cascais, Lisboa, Portugalsko",
+   "lat": "38.6921092",
+   "lon": "-9.3354702",
+   "category": "boundary",
+   "type": "historic",
+   "addresstype": "historic"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=az&format=jsonv2&limit=1&q=Baku+Tennis+Academy%2C+Baku": [
+  {
+   "name": "Bakı Tennis Akademiyası",
+   "display_name": "Bakı Tennis Akademiyası, 157, İbrahimpaşa Dadaşov küçəsi, Dərnəgül, Binəqədi 1 siəd, Baku, Binəqədi rayonu, 1130, Ázerbájdžán",
+   "lat": "40.4225202",
+   "lon": "49.8423472",
+   "category": "leisure",
+   "type": "sports_centre;pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=al&format=jsonv2&limit=1&q=National+Sport+Park%2C+Tirana": [
+  {
+   "name": "National Sport Park",
+   "display_name": "National Sport Park, Rruga Dine Hoxha, Njësia Bashkiake Nr. 9, Tirana, Bashkia Tiranë, Tiranë (kraj), 1066, Albánie",
+   "lat": "41.3495225",
+   "lon": "19.8094725",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Beloura+Tennis+Academy%2C+Sintra": [
+  {
+   "name": "Beloura Tennis Academy",
+   "display_name": "Beloura Tennis Academy, 5, Alameda da Beloura, Quinta da Beloura I, Sintra, Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim), Sintra, Lisboa, 2710-693, Portugalsko",
+   "lat": "38.7639025",
+   "lon": "-9.3746013",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=SK+PEPAS%2C+Slovenska+Lupca": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=SK+PEPAS": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=Slovenska+Lupca": [
+  {
+   "name": "Slovenská Ľupča",
+   "display_name": "Slovenská Ľupča, okres Banská Bystrica, Banskobystrický kraj, 976 13, Slovensko",
+   "lat": "48.7673613",
+   "lon": "19.2759831",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "municipality"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Chalkida+Tennis+Club%2C+CHALKIDA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Chalkida+Tennis+Club": [
+  {
+   "name": "mr&mrs spa (wellness club)",
+   "display_name": "mr&mrs spa (wellness club), 3, Ορέστη Μακρή, Τέννις, Μακεδονικά, Χαλκίδα, Δήμος Χαλκιδέων, Περιφερειακή Ενότητα Ευβοίας, Περιφέρεια Στερεάς Ελλάδας, Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος, 341 00, Řecko",
+   "lat": "38.4694638",
+   "lon": "23.6162146",
+   "category": "shop",
+   "type": "beauty",
+   "addresstype": "shop"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+CRVENA+ZVEZDA%2C+BELGRADE": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+CRVENA+ZVEZDA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=BELGRADE": [
+  {
+   "name": "Bělehrad",
+   "display_name": "Bělehrad, Централна Србија, Srbsko",
+   "lat": "44.8153318",
+   "lon": "20.4456588",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=New+Country+Tennis+Academy%2C+Bari": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=New+Country+Tennis+Academy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Bari": [
+  {
+   "name": "Bari",
+   "display_name": "Bari, Apulie, Itálie",
+   "lat": "41.1257843",
+   "lon": "16.8620293",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Complexo+Desportivo+Monte+Aventino%2C+Porto": [
+  {
+   "name": "Complexo Desportivo do Monte Aventino (Federação Portuguesa de Tenis)",
+   "display_name": "Complexo Desportivo do Monte Aventino (Federação Portuguesa de Tenis), 1, Rua do Monte Aventino, Monte Aventino, Campanhã, Porto, 4350-233, Portugalsko",
+   "lat": "41.1613122",
+   "lon": "-8.5892829",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Tallink+Tennisclub%2C+Tallinn": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Tallink+Tennisclub": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Tallinn": [
+  {
+   "name": "Tallinn",
+   "display_name": "Tallinn, Harju maakond, Estonsko",
+   "lat": "59.4372420",
+   "lon": "24.7572693",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=dk&format=jsonv2&limit=1&q=Holte+Tennisklub%2C+Holte": [
+  {
+   "name": "Holte Tennisklub (Trekanten)",
+   "display_name": "Holte Tennisklub (Trekanten), Vangebovej, Øverød, Rudegård, Rudersdal Kommune, Hovedstaden, 2840, Dánsko",
+   "lat": "55.8102036",
+   "lon": "12.4891616",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ie&format=jsonv2&limit=1&q=National+Tennis+Centre%2C+Dublin": [
+  {
+   "name": "National Tennis Centre",
+   "display_name": "National Tennis Centre, Albert College Avenue, Albert College Estate, Drumcondra North C ED, Dublin, County Dublin, Leinster, Irsko",
+   "lat": "53.3841190",
+   "lon": "-6.2609661",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ALTIN+RAKET+TEN%C4%B0S+KUL%C3%9CB%C3%9C%2C+%C4%B0ZM%C4%B0R": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ALTIN+RAKET+TEN%C4%B0S+KUL%C3%9CB%C3%9C": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=%C4%B0ZM%C4%B0R": [
+  {
+   "name": "Smyrna",
+   "display_name": "Smyrna, Konak, İzmir, Egejský region, 35250, Turecko",
+   "lat": "38.4192537",
+   "lon": "27.1284690",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Eleon+Tennis+Club%2C+NICOSIA": [
+  {
+   "name": "Eleon Tennis Club",
+   "display_name": "Eleon Tennis Club, 8, Vasili Michaelide, Έγκωμη, Nikósie, Δήμος Λευκωσίας, Nikósie, Kypr, 3046, Kypr",
+   "lat": "35.1642012",
+   "lon": "33.3448499",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Tondiraba+Tennisekeskus%2C+Tallinn": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Tondiraba+Tennisekeskus": [
+  {
+   "name": "Tallinki tennisekeskus",
+   "display_name": "Tallinki tennisekeskus, 7, Osmussaare, Tondiraba, Lasnamäe linnaosa, Tallinn, Harju maakond, 13811, Estonsko",
+   "lat": "59.4369473",
+   "lon": "24.8656710",
+   "category": "building",
+   "type": "yes",
+   "addresstype": "building"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tumba+Tennis+Club-Kumanovo%2C+Kumanovo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tumba+Tennis+Club-Kumanovo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Kumanovo": [
+  {
+   "name": "Куманово",
+   "display_name": "Куманово, Општина Куманово, Severní Makedonie",
+   "lat": "42.1359130",
+   "lon": "21.7185474",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Kalaja%2C+Palermo": [
+  {
+   "name": "Kalaja Tennis Club",
+   "display_name": "Kalaja Tennis Club, Via Messina Marine, Acqua dei Corsari, II Circoscrizione, Palermo, Sicílie, 90039, Itálie",
+   "lat": "38.0923895",
+   "lon": "13.4427925",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Mak+Tennis+Pro-Skopje%2C+Skopje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Mak+Tennis+Pro-Skopje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Skopje": [
+  {
+   "name": "Skopje",
+   "display_name": "Skopje, Град Скопје, Severní Makedonie",
+   "lat": "41.9962054",
+   "lon": "21.4318881",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=TC+Humenne%2C+Humenne": [
+  {
+   "name": "Humenné",
+   "display_name": "Humenné, okres Humenné, Prešovský kraj, 066 01, Slovensko",
+   "lat": "48.9350033",
+   "lon": "21.9020268",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Sporting+Club+Casino+de+la+Coru%C3%B1a%2C+A+Coru%C3%B1a": [
+  {
+   "name": "Sporting Club Casino",
+   "display_name": "Sporting Club Casino, Autovía de Acceso á Coruña, O Portádego, Rutis, Culleredo, A Coruña, Galicie, 15192, Španělsko",
+   "lat": "43.3151455",
+   "lon": "-8.4142603",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Dunakeszi+Varosi+Tenisz+Klub%2C+Dunakeszi": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Dunakeszi+Varosi+Tenisz+Klub": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Dunakeszi": [
+  {
+   "name": "Dunakeszi",
+   "display_name": "Dunakeszi, Dunakeszi járás, Pest megye, 2120, Maďarsko",
+   "lat": "47.6316697",
+   "lon": "19.1294055",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=SaFo+Frankfurt%2C+Frankfurt+am+Main": [
+  {
+   "name": "Sportclub SAFO Sachsenhausen Forsthausstraße",
+   "display_name": "Sportclub SAFO Sachsenhausen Forsthausstraße, 129, Kennedyallee, Sachsenhausen Nord, Sachsenhausen, Süd, Frankfurt nad Mohanem, Hesensko, 60596, Německo",
+   "lat": "50.0916040",
+   "lon": "8.6660592",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Max+Pro+Tennis+and+Padel+club%2C+Plovdiv": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Max+Pro+Tennis+and+Padel+club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Plovdiv": [
+  {
+   "name": "Plovdiv",
+   "display_name": "Plovdiv, Район Централен, Пловдив, 4000, Bulharsko",
+   "lat": "42.1418541",
+   "lon": "24.7499297",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Club+Esportiu+Laiet%C3%A0%2C+Barcelona": [
+  {
+   "name": "Club esportiu Laietà",
+   "display_name": "Club esportiu Laietà, Carrer del Pintor Ribalta, Sant Ramon, la Maternitat i Sant Ramon, les Corts, Barcelona, Barcelonès, Barcelona, Katalánsko, 08904, Španělsko",
+   "lat": "41.3787879",
+   "lon": "2.1161611",
+   "category": "leisure",
+   "type": "fitness_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Larnaka+Tennis+Club%2C+Larnaka": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Larnaka+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Larnaka": [
+  {
+   "name": "Larnaka",
+   "display_name": "Larnaka, Δήμος Λάρνακας, Επαρχία Λάρνακας, Kypr",
+   "lat": "34.9236095",
+   "lon": "33.6236184",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+BORAC%2C+BANJA+LUKA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+BORAC": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=BANJA+LUKA": [
+  {
+   "name": "Banja Luka",
+   "display_name": "Banja Luka, Grad Banja Luka, Republika srbská, Bosna a Hercegovina",
+   "lat": "44.7720845",
+   "lon": "17.1917651",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Megasaray+Mount+Erciyes%2C+Erciyes%2FKayseri": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Megasaray+Mount+Erciyes": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Erciyes%2FKayseri": [
+  {
+   "name": "Erciyes Dağı",
+   "display_name": "Erciyes Dağı, Hacılar, Kayseri, Střední Anatolie, Turecko",
+   "lat": "38.5327397",
+   "lon": "35.4502248",
+   "category": "natural",
+   "type": "volcano",
+   "addresstype": "volcano"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Teni%C5%A1ki+klub+Kr%C5%A1ko%2C+Kr%C5%A1ko": [
+  {
+   "name": "Teniški klub Krško",
+   "display_name": "Teniški klub Krško, 5, Leskovec pri Krškem, Krško, 8270, Slovinsko",
+   "lat": "45.9471356",
+   "lon": "15.4894396",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=al&format=jsonv2&limit=1&q=National+Sport+Park%2C+Shkoder": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=al&format=jsonv2&limit=1&q=National+Sport+Park": [
+  {
+   "name": "National Sport Park",
+   "display_name": "National Sport Park, Rruga Dine Hoxha, Njësia Bashkiake Nr. 9, Tirana, Bashkia Tiranë, Tiranë (kraj), 1066, Albánie",
+   "lat": "41.3495225",
+   "lon": "19.8094725",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=TC+Jug-Skopje%2C+Skopje": [
+  {
+   "name": "Институт за заварување ЈУГ",
+   "display_name": "Институт за заварување ЈУГ, 1, Автокоманда, Гази Баба, Skopje, Општина Гази Баба, Град Скопје, Severní Makedonie",
+   "lat": "42.0001698",
+   "lon": "21.4727242",
+   "category": "landuse",
+   "type": "industrial",
+   "addresstype": "industrial"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Club+de+Tenis+Pontevedra%2C+Pontevedra": [
+  {
+   "name": "Club de Tenis Monterrei",
+   "display_name": "Club de Tenis Monterrei, Camiño do Xuncal, As Fontiñas, O Xuncal, Santa Cristina da Ramallosa, Baiona, Vigo, Pontevedra, Galicie, 36378, Španělsko",
+   "lat": "42.1057546",
+   "lon": "-8.8182211",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Tennis+center+Petalon%2C+Vrsar": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Tennis+center+Petalon": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Vrsar": [
+  {
+   "name": "Općina Vrsar",
+   "display_name": "Općina Vrsar, Istarska županija, Chorvatsko",
+   "lat": "45.1490782",
+   "lon": "13.6063472",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Vilar+TK%2C+Aizkraukle": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Vilar+TK": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Aizkraukle": [
+  {
+   "name": "Aizkraukle",
+   "display_name": "Aizkraukle, Aizkraukles novads, LV-5101, Lotyšsko",
+   "lat": "56.6010778",
+   "lon": "25.2542544",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=dk&format=jsonv2&limit=1&q=B.93+Tennis+Club%2C+Copenhagen": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=dk&format=jsonv2&limit=1&q=B.93+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=dk&format=jsonv2&limit=1&q=Copenhagen": [
+  {
+   "name": "Kodaň",
+   "display_name": "Kodaň, Københavns Kommune, Hovedstaden, 1357, Dánsko",
+   "lat": "55.6867243",
+   "lon": "12.5700724",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Sporting+Club+Parma%2C+Parma": [
+  {
+   "name": "Sporting Club",
+   "display_name": "Sporting Club, Strada Tronchi, Vigheffio, Molinetto, Vicofertile, Parma, Emilia-Romagna, 43134, Itálie",
+   "lat": "44.7776834",
+   "lon": "10.2880676",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=TEN+CLUB+TENIS+BUZAU%2C+Buzau": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=TEN+CLUB+TENIS+BUZAU": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Buzau": [
+  {
+   "name": "Buzău",
+   "display_name": "Buzău, Rumunsko",
+   "lat": "45.2692582",
+   "lon": "26.7748173",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "county"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=BAZA+SPORTIVA+CIRIC%2C+Iasi": [
+  {
+   "name": "Baza Sportivă Ciric",
+   "display_name": "Baza Sportivă Ciric, Strada Moara de Vânt, Moara de Vânt, Jasy, Zona Metropolitană Iași, Iași, 700376, Rumunsko",
+   "lat": "47.1815702",
+   "lon": "27.5984182",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=al&format=jsonv2&limit=1&q=Adriatic+Tennis+Park%2C+Shkoder": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=al&format=jsonv2&limit=1&q=Adriatic+Tennis+Park": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=al&format=jsonv2&limit=1&q=Shkoder": [
+  {
+   "name": "Skadar",
+   "display_name": "Skadar, Bashkia Shkodër, Shkodër (kraj), 4001-4007, Albánie",
+   "lat": "42.0681371",
+   "lon": "19.5121437",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=TK+As+Litija%2C+Litija": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=TK+As+Litija": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Litija": [
+  {
+   "name": "Litija",
+   "display_name": "Litija, Upravna Enota Litija, Slovinsko",
+   "lat": "46.0496825",
+   "lon": "14.9910757",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "municipality"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Omilos+Antisferisis+Alexandroupolis%2C+Alexandroupoli": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Omilos+Antisferisis+Alexandroupolis": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Alexandroupoli": [
+  {
+   "name": "Alexandrupoli",
+   "display_name": "Alexandrupoli, Δήμος Αλεξανδρούπολης, Περιφερειακή Ενότητα Έβρου, Περιφέρεια Ανατολικής Μακεδονίας και Θράκης, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 681 00, Řecko",
+   "lat": "40.8456660",
+   "lon": "25.8778814",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=SIRNAK+YURDUM+GEN%C3%87L%C4%B0K+VE+SPOR+KUL%C3%9CB%C3%9C%2C+Yenimahalle": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=SIRNAK+YURDUM+GEN%C3%87L%C4%B0K+VE+SPOR+KUL%C3%9CB%C3%9C": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Yenimahalle": [
+  {
+   "name": "Yenimahalle",
+   "display_name": "Yenimahalle, Rıfkı Işık Sokağı, Kartaltepe Mahallesi, Bakırköy, İstanbul, Marmarský region, 34145, Turecko",
+   "lat": "40.9817239",
+   "lon": "28.8810386",
+   "category": "railway",
+   "type": "station",
+   "addresstype": "railway"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+centar+Diamant%2C+Pore%C4%8D": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+centar+Diamant": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Pore%C4%8D": [
+  {
+   "name": "Grad Poreč",
+   "display_name": "Grad Poreč, Istarska županija, Chorvatsko",
+   "lat": "45.2271961",
+   "lon": "13.5957333",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Conde+Jackson+Maspalomas%2C+Maspalomas": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Conde+Jackson+Maspalomas": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Maspalomas": [
+  {
+   "name": "Maspalomas",
+   "display_name": "Maspalomas, San Bartolomé de Tirajana, Las Palmas, Canarias, 35100, Španělsko",
+   "lat": "27.7527731",
+   "lon": "-15.5970832",
+   "category": "place",
+   "type": "hamlet",
+   "addresstype": "hamlet"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Tennis+Club+Izida%2C+Dobrich": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Tennis+Club+Izida": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Dobrich": [
+  {
+   "name": "Добрич",
+   "display_name": "Добрич, Bulharsko",
+   "lat": "43.6637775",
+   "lon": "27.9002123",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "state"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=TEC+Carles+Ferrer+Salat%2C+Barcelona": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=TEC+Carles+Ferrer+Salat": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Barcelona": [
+  {
+   "name": "Barcelona",
+   "display_name": "Barcelona, Barcelonès, Barcelona, Katalánsko, Španělsko",
+   "lat": "41.3825802",
+   "lon": "2.1770730",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Tennis+Club+Lokomotiv+Plovdiv%2C+Plovdiv": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Tennis+Club+Lokomotiv+Plovdiv": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Tennis+Club+Max+Pro%2C+Plovdiv": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Tennis+Club+Max+Pro": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Erzincan+Gen%C3%A7lik+Spor+Kul%C3%BCb%C3%BC+%E2%80%93+%C3%9Clk%C3%BC+Spor+Kompleksi%2C+Merkez%2FErzincan": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Erzincan+Gen%C3%A7lik+Spor+Kul%C3%BCb%C3%BC+%E2%80%93+%C3%9Clk%C3%BC+Spor+Kompleksi": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Merkez%2FErzincan": [
+  {
+   "name": "Erzincan",
+   "display_name": "Erzincan, Východní Anatolie, Turecko",
+   "lat": "39.7467552",
+   "lon": "39.4910300",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=TK+Terme+Ptuj%2C+Ptuj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=TK+Terme+Ptuj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Ptuj": [
+  {
+   "name": "Ptuj",
+   "display_name": "Ptuj, 2250, Slovinsko",
+   "lat": "46.4198096",
+   "lon": "15.8717378",
+   "category": "place",
+   "type": "town",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=TENNIS+CLUB+of+SERRES%2C+SERRES": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=TENNIS+CLUB+of+SERRES": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=SERRES": [
+  {
+   "name": "Σέρρες",
+   "display_name": "Σέρρες, Δήμος Σερρών, Περιφερειακή Ενότητα Σερρών, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 621 00, Řecko",
+   "lat": "41.0910711",
+   "lon": "23.5498031",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Club+Tennis+Barcino%2C+Barcelona": [
+  {
+   "name": "Reial Club de Tennis Barcelona",
+   "display_name": "Reial Club de Tennis Barcelona, Avinguda de Pedralbes, Pedralbes, les Corts, Barcelona, Barcelonès, Barcelona, Katalánsko, 08034, Španělsko",
+   "lat": "41.3932727",
+   "lon": "2.1172541",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=Ararat+Tennis+Club%2C+Yerevan": [
+  {
+   "name": "Արարատ Թենիսի Ակումբ",
+   "display_name": "Արարատ Թենիսի Ակումբ, Ալեք Մանուկյանի փողոց, Կենտրոն, Jerevan, 0025, Arménie",
+   "lat": "40.1816588",
+   "lon": "44.5246262",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tennis+club+Eminent%2C+Podgorica": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tennis+club+Eminent": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Podgorica": [
+  {
+   "name": "Podgorica",
+   "display_name": "Podgorica, Občina Podgorica, Černá Hora",
+   "lat": "42.4415238",
+   "lon": "19.2621081",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Famagusta+Tennis+Club%2C+Limassol": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Famagusta+Tennis+Club": [
+  {
+   "name": "Tennis Club",
+   "display_name": "Tennis Club, Αρχιεπισκόπου Μακαρίου Γ’, Δερύνεια, Δήμος Παραλιμνίου - Δερύνειας, Επαρχία Αμμοχώστου, Kypr, 5380, Kypr",
+   "lat": "35.0542951",
+   "lon": "33.9425809",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=INVENT%C4%B0ST+ACADEMY%2C+Istanbul": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=INVENT%C4%B0ST+ACADEMY": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Istanbul": [
+  {
+   "name": "Istanbul",
+   "display_name": "Istanbul, Fatih, İstanbul, Marmarský region, 34122, Turecko",
+   "lat": "41.0063810",
+   "lon": "28.9758715",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Fthiotikos+Omilos+Antisfairisis%2C+Lamia": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Fthiotikos+Omilos+Antisfairisis": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Lamia": [
+  {
+   "name": "Lamia",
+   "display_name": "Lamia, Δημοτική Ενότητα Λαμιέων, Δήμος Λαμιέων, Περιφερειακή Ενότητα Φθιώτιδας, Περιφέρεια Στερεάς Ελλάδας, Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος, 351 00, Řecko",
+   "lat": "38.8993832",
+   "lon": "22.4335820",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Tennis+Club+Rafina%2C+Rafina": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Tennis+Club+Rafina": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Rafina": [
+  {
+   "name": "Ραφήνα",
+   "display_name": "Ραφήνα, Δημοτική Ενότητα Ραφήνας, Δήμος Ραφήνας - Πικερμίου, Περιφερειακή Ενότητα Ανατολικής Αττικής, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 190 09, Řecko",
+   "lat": "38.0203695",
+   "lon": "24.0073367",
+   "category": "place",
+   "type": "town",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mt&format=jsonv2&limit=1&q=Tennis+Club+Kordin%2C+Paola": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mt&format=jsonv2&limit=1&q=Tennis+Club+Kordin": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mt&format=jsonv2&limit=1&q=Paola": [
+  {
+   "name": "Raħal Ġdid",
+   "display_name": "Raħal Ġdid, Reġjun tal-Port, Malta",
+   "lat": "35.8717994",
+   "lon": "14.5073748",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Tennis+Club+Haskovo+2015%2C+Haskovo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Tennis+Club+Haskovo+2015": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=Haskovo": [
+  {
+   "name": "Хасково",
+   "display_name": "Хасково, Bulharsko",
+   "lat": "41.7631010",
+   "lon": "25.9256255",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "state"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Tennis+center+Adazi%2C+%C4%80da%C5%BEi": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Tennis+center+Adazi": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=%C4%80da%C5%BEi": [
+  {
+   "name": "Ādaži",
+   "display_name": "Ādaži, Ādažu novads, LV-2164, Lotyšsko",
+   "lat": "57.0819829",
+   "lon": "24.3243287",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=CENTRE+INTERNACIONAL+DE+TENNIS%2C+Cornell%C3%A0+de+Llobregat": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=CENTRE+INTERNACIONAL+DE+TENNIS": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Cornell%C3%A0+de+Llobregat": [
+  {
+   "name": "Cornellà de Llobregat",
+   "display_name": "Cornellà de Llobregat, Baix Llobregat, Barcelona, Katalánsko, 08940, Španělsko",
+   "lat": "41.3557240",
+   "lon": "2.0706225",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=MUNICIPAL+SPORTS+CENTER+OF+CORINTH%2C+Corinth": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=MUNICIPAL+SPORTS+CENTER+OF+CORINTH": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Corinth": [
+  {
+   "name": "Κόρινθος",
+   "display_name": "Κόρινθος, Δημοτική Ενότητα Κορινθίων, Δήμος Κορινθίων, Περιφερειακή Ενότητα Κορινθίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 201 00, Řecko",
+   "lat": "37.9385413",
+   "lon": "22.9273768",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Racket+Sports+Club+Leiria%2C+Leiria": [
+  {
+   "name": "Racket Sports Club Leiria",
+   "display_name": "Racket Sports Club Leiria, 1300, Rua da Mata, Azabucho, Leiria, Pousos, Barreira e Cortes, Leiria, 2410-021, Portugalsko",
+   "lat": "39.7411094",
+   "lon": "-8.7527979",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Tennishal+de+Bontekoe%2C+Leeuwarden": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Tennishal+de+Bontekoe": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Leeuwarden": [
+  {
+   "name": "Leeuwarden;Ljouwert",
+   "display_name": "Leeuwarden;Ljouwert, Leeuwarden, Fryslân, Nizozemsko",
+   "lat": "53.2005936",
+   "lon": "5.7918548",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Herodotou+Tennis+Academy%2C+Larnaka": [
+  {
+   "name": "Herodotou Tennis Academy",
+   "display_name": "Herodotou Tennis Academy, Agias Marinas, Μενεού, Σκάλα, Larnaka, Δήμος Λάρνακας, Επαρχία Λάρνακας, Kypr, 7000, Kypr",
+   "lat": "34.8548113",
+   "lon": "33.6039421",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=Ararat+Tennis+Club%2C+Tsaghkadzor": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=Ararat+Tennis+Club": [
+  {
+   "name": "Արարատ Թենիսի Ակումբ",
+   "display_name": "Արարատ Թենիսի Ակումբ, Ալեք Մանուկյանի փողոց, Կենտրոն, Jerevan, 0025, Arménie",
+   "lat": "40.1816588",
+   "lon": "44.5246262",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Split+1950%2C+Split": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Split+1950": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Split": [
+  {
+   "name": "Split",
+   "display_name": "Split, Grad Split, Splitsko-dalmatinska županija, Chorvatsko",
+   "lat": "43.5116383",
+   "lon": "16.4399659",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=El+Cortijo+Club+de+Campo%2C+Telde": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=El+Cortijo+Club+de+Campo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Telde": [
+  {
+   "name": "Telde",
+   "display_name": "Telde, Las Palmas, Canarias, Španělsko",
+   "lat": "27.9984538",
+   "lon": "-15.4166761",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mt&format=jsonv2&limit=1&q=Marsa+Sports+Club%2C+Marsa": [
+  {
+   "name": "Marsa Sports Club",
+   "display_name": "Marsa Sports Club, Triq Emmanuele Luigi Galizia, Il-Marsa, Reġjun tan-Nofsinhar, MRS 9064, Malta",
+   "lat": "35.8757921",
+   "lon": "14.4870672",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Tennis+club+de+Bressuire%2C+Bressuire": [
+  {
+   "name": "ALKENA Tennis Club Bressuire",
+   "display_name": "ALKENA Tennis Club Bressuire, 234, Boulevard de l'Europe, Saint-Porchaire, Bressuire, Deux-Sèvres, Nová Akvitánie, Metropolitní Francie, 79300, Francie",
+   "lat": "46.8436473",
+   "lon": "-0.4817905",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=C%C3%ADrculo+Cultural+Deportivo+Sanxenxo%2C+Sanxenxo": [
+  {
+   "name": "Círculo Cultural Deportivo Sanxenxo",
+   "display_name": "Círculo Cultural Deportivo Sanxenxo, PO-9203, A Revolta, Nantes, Sanxenxo, O Salnés, Pontevedra, Galicie, 36969, Španělsko",
+   "lat": "42.4202865",
+   "lon": "-8.8111139",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Associa%C3%A7ao+Academica+Coimbra%2C+Coimbra": [
+  {
+   "name": "Associação Académica de Coimbra",
+   "display_name": "Associação Académica de Coimbra, Rua Padre António Vieira, Sé Nova, Alta, Coimbra (Sé Nova, Santa Cruz, Almedina e São Bartolomeu), Coimbra, 3000-315, Portugalsko",
+   "lat": "40.2094779",
+   "lon": "-8.4213236",
+   "category": "office",
+   "type": "association",
+   "addresstype": "office"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=VILAS+TENNIS+ACADEMY+MALLORCA%2C+Palmanova+-+Calvia": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=VILAS+TENNIS+ACADEMY+MALLORCA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Palmanova+-+Calvia": [
+  {
+   "name": "Palmanova",
+   "display_name": "Palmanova, Calvià, Serra de Tramuntana, Baleáry, 07171, Španělsko",
+   "lat": "39.5237047",
+   "lon": "2.5383777",
+   "category": "place",
+   "type": "village",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Vilar+Tennis+Club%2C+Aizkraukle": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Vilar+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=INOROUT+TENNIS+CLUB%2C+ADANA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=INOROUT+TENNIS+CLUB": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ADANA": [
+  {
+   "name": "Adana",
+   "display_name": "Adana, Seyhan, Adana, Středomořský region, 01010, Turecko",
+   "lat": "36.9863599",
+   "lon": "35.3252861",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=de+Rhijenhof%2C+Den+Haag": [
+  {
+   "name": "De Rhijenhof",
+   "display_name": "De Rhijenhof, Erasmusveld, Wateringse Veld, Escamp, Haag, Den Haag, Zuid-Holland, Nizozemsko, 2548 ED, Nizozemsko",
+   "lat": "52.0332676",
+   "lon": "4.2775630",
+   "category": "highway",
+   "type": "living_street",
+   "addresstype": "living_street"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Monte-Carlo+Country+Club%2C+Roquebrune-Cap-Martin": [
+  {
+   "name": "Monte-Carlo Country Club",
+   "display_name": "Monte-Carlo Country Club, Sentier des Tennis, Monaco Country Park, Roquebrune-Cap-Martin, Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, Metropolitní Francie, 06190, Francie",
+   "lat": "43.7521951",
+   "lon": "7.4413448",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ie&format=jsonv2&limit=1&q=National+Tennis+Centre%2C+Greystones+Co+Wicklow": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ie&format=jsonv2&limit=1&q=National+Tennis+Centre": [
+  {
+   "name": "National Tennis Centre",
+   "display_name": "National Tennis Centre, Albert College Avenue, Albert College Estate, Drumcondra North C ED, Dublin, County Dublin, Leinster, Irsko",
+   "lat": "53.3841190",
+   "lon": "-6.2609661",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=be&format=jsonv2&limit=1&q=TC+Odrimont%2C+Lasne": [
+  {
+   "name": "Odrimont",
+   "display_name": "Odrimont, Ohain, Lasne, Nivelles, Brabant wallon, Wallonie, 1380, Belgie",
+   "lat": "50.7001827",
+   "lon": "4.4769884",
+   "category": "place",
+   "type": "locality",
+   "addresstype": "locality"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=NANA+Tennis+Club%2C+Heraklion": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=NANA+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Heraklion": [
+  {
+   "name": "Iraklion",
+   "display_name": "Iraklion, Δημοτική Ενότητα Ηρακλείου, Δήμος Ηρακλείου, Περιφερειακή Ενότητα Ηρακλείου, Περιφέρεια Κρήτης, Αποκεντρωμένη Διοίκηση Κρήτης, 712 02, Řecko",
+   "lat": "35.3390800",
+   "lon": "25.1332843",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Tennis+Club+Gradignan%2C+Gradignan": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Tennis+Club+Gradignan": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Gradignan": [
+  {
+   "name": "Gradignan",
+   "display_name": "Gradignan, Bordeaux, Gironde, Nová Akvitánie, Metropolitní Francie, 33170, Francie",
+   "lat": "44.7739701",
+   "lon": "-0.6139070",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKA+AKADEMIJA+SET%2C+SIROKI+BRIJEG": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKA+AKADEMIJA+SET": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=SIROKI+BRIJEG": [
+  {
+   "name": "Široki Brijeg",
+   "display_name": "Široki Brijeg, Grad Široki Brijeg, Županija Zapadnohercegovačka, Federace Bosny a Hercegoviny, 88220, Bosna a Hercegovina",
+   "lat": "43.3831944",
+   "lon": "17.5929153",
+   "category": "place",
+   "type": "town",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=Sportaktivpark+Bad+Waltersdorf%2C+Bad+Waltersdorf": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=Sportaktivpark+Bad+Waltersdorf": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=Bad+Waltersdorf": [
+  {
+   "name": "Bad Waltersdorf",
+   "display_name": "Bad Waltersdorf, Bezirk Hartberg-Fürstenfeld, Štýrsko, Rakousko",
+   "lat": "47.1685060",
+   "lon": "16.0088882",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=VS+Tennis+Academy%2C+Villingen-Schwenningen": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=VS+Tennis+Academy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=Villingen-Schwenningen": [
+  {
+   "name": "Villingen-Schwenningen",
+   "display_name": "Villingen-Schwenningen, VVG der Stadt Villingen-Schwenningen, Schwarzwald-Baar-Kreis, Bádensko-Württembersko, Německo",
+   "lat": "48.0631520",
+   "lon": "8.4929618",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=HNTA+Tennis+Academy%2C+Szabolcsveresmart": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=HNTA+Tennis+Academy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Szabolcsveresmart": [
+  {
+   "name": "Szabolcsveresmart",
+   "display_name": "Szabolcsveresmart, Kisvárdai járás, Szabolcs-Szatmár-Bereg megye, Észak-Alföld, Alföld és Észak, 4496, Maďarsko",
+   "lat": "48.2924404",
+   "lon": "22.0198090",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ANTALYA+TEN%C4%B0S+%C4%B0HT%C4%B0SAS+VE+SPOR+KUL%C3%9CB%C3%9C+%28ATIK%29%2C+Antalya": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ANTALYA+TEN%C4%B0S+%C4%B0HT%C4%B0SAS+VE+SPOR+KUL%C3%9CB%C3%9C+%28ATIK%29": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Antalya": [
+  {
+   "name": "Antalya",
+   "display_name": "Antalya, Muratpaşa, Antalya, Středomořský region, 07050, Turecko",
+   "lat": "36.8865728",
+   "lon": "30.7030242",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Lyttos+Beach+Sportscenter%2C+Heraklion": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Lyttos+Beach+Sportscenter": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Sportplus+Tennis+Club%2C+%C4%B0STANBUL": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Sportplus+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=%C4%B0STANBUL": [
+  {
+   "name": "Istanbul",
+   "display_name": "Istanbul, Fatih, İstanbul, Marmarský region, 34122, Turecko",
+   "lat": "41.0063810",
+   "lon": "28.9758715",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=ITC+HAIFA%2C+Haifa": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=ITC+HAIFA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=Haifa": [
+  {
+   "name": "Haifa",
+   "display_name": "Haifa, נפת חיפה, Haifský distrikt, Izrael",
+   "lat": "32.8191218",
+   "lon": "34.9983856",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=PISTAS+MUNICIPALES+MAGALUF%2C+MAGALUF": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=PISTAS+MUNICIPALES+MAGALUF": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=MAGALUF": [
+  {
+   "name": "Magaluf",
+   "display_name": "Magaluf, Palmanova, Calvià, Serra de Tramuntana, Baleáry, 07181, Španělsko",
+   "lat": "39.5095681",
+   "lon": "2.5357240",
+   "category": "place",
+   "type": "suburb",
+   "addresstype": "suburb"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Liverpool+Tennis+Centre+-+Main+Draw+only+Wirral+Tennis+Centre+-+Qualifying+only%2C+Main+Draw+-+Wavertree+Sports+Park%2C+Wellington+Road": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Liverpool+Tennis+Centre+-+Main+Draw+only+Wirral+Tennis+Centre+-+Qualifying+only": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Main+Draw+-+Wavertree+Sports+Park%2C+Wellington+Road": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Lexus+Nottingham+Tennis+Centre%2C+Nottingham": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Lexus+Nottingham+Tennis+Centre": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Nottingham": [
+  {
+   "name": "Nottingham",
+   "display_name": "Nottingham, Nottinghamshire, East Midlands, Anglie, Spojené království",
+   "lat": "52.9534193",
+   "lon": "-1.1496461",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Kalymnos+Tennis+Club%2C+Kalymnos": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Kalymnos+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Kalymnos": [
+  {
+   "name": "Κάλυμνος",
+   "display_name": "Κάλυμνος, Περιφερειακή Ενότητα Καλύμνου, Περιφέρεια Νοτίου Αιγαίου, Αποκεντρωμένη Διοίκηση Αιγαίου, 852 00, Řecko",
+   "lat": "37.0025735",
+   "lon": "26.9923072",
+   "category": "place",
+   "type": "island",
+   "addresstype": "island"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Akademia+Tenisowa+Tenis+Kozerki%2C+Grodzisk+Mazowiecki": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Akademia+Tenisowa+Tenis+Kozerki": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Grodzisk+Mazowiecki": [
+  {
+   "name": "Grodzisk Mazowiecki",
+   "display_name": "Grodzisk Mazowiecki, gmina Grodzisk Mazowiecki, powiat grodziski, Mazovské vojvodství, 05-827, Polsko",
+   "lat": "52.1066223",
+   "lon": "20.6313441",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fi&format=jsonv2&limit=1&q=Vierum%C3%A4ki%2C+Vierum%C3%A4ki": [
+  {
+   "name": "Vierumäki",
+   "display_name": "Vierumäki, Vääksyntie, Vierumäki, Heinola, Lahden seutukunta, Päijät-Häme, Manner-Suomi, 19110, Finsko",
+   "lat": "61.1089431",
+   "lon": "25.9334633",
+   "category": "highway",
+   "type": "bus_stop",
+   "addresstype": "highway"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=JC+FERRERO+TENNIS+ACADEMY%2C+Villena": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=JC+FERRERO+TENNIS+ACADEMY": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Villena": [
+  {
+   "name": "Villena",
+   "display_name": "Villena, l'Alt Vinalopó / El Alto Vinalopó, Alacant / Alicante, Valencijské společenství, Španělsko",
+   "lat": "38.6360967",
+   "lon": "-0.8659745",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Venus+Tennis+Club%2C+DRAMA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Venus+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=DRAMA": [
+  {
+   "name": "Δράμα",
+   "display_name": "Δράμα, Δημοτική Ενότητα Δράμας, Δήμος Δράμας, Περιφερειακή Ενότητα Δράμας, Περιφέρεια Ανατολικής Μακεδονίας και Θράκης, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 661 00, Řecko",
+   "lat": "41.1499120",
+   "lon": "24.1468836",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=CLUB+TENNIS+URGELL%2C+Lleida": [
+  {
+   "name": "Club Tennis Urgell",
+   "display_name": "Club Tennis Urgell, Camí de Balàfia pel Tennis Urgell, Vila Montcada, Lleida, Segrià, Lleida, Katalánsko, 25196, Španělsko",
+   "lat": "41.6347898",
+   "lon": "0.6142733",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=ITC+Yafo%2C+Tel-Aviv+Yafo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=ITC+Yafo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=Tel-Aviv+Yafo": [
+  {
+   "name": "Tel Aviv",
+   "display_name": "Tel Aviv, נפת תל אביב, Telavivský distrikt, Izrael",
+   "lat": "32.0852997",
+   "lon": "34.7818064",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Rafa+Nadal+Academy+by+Movistar%2C+Manacor": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Rafa+Nadal+Academy+by+Movistar": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Manacor": [
+  {
+   "name": "Manacor",
+   "display_name": "Manacor, Llevant, Baleáry, Španělsko",
+   "lat": "39.5696458",
+   "lon": "3.2106461",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=LAWN+TENNIS+CLUB%2C+Angra+Do+Heroismo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=LAWN+TENNIS+CLUB": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Angra+Do+Heroismo": [
+  {
+   "name": "Angra do Heroísmo",
+   "display_name": "Angra do Heroísmo, Azory, Portugalsko",
+   "lat": "38.6593167",
+   "lon": "-27.2195578",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ADANA+TEN%C4%B0S+DAG+VE+SU+SPORLARI+KULUBU%2C+ADANA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ADANA+TEN%C4%B0S+DAG+VE+SU+SPORLARI+KULUBU": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=9Jumate+Tennis+Club+Constanta%2C+Constanta": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=9Jumate+Tennis+Club+Constanta": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Constanta": [
+  {
+   "name": "Constanța",
+   "display_name": "Constanța, Zona Metropolitană Constanța, Constanța, Rumunsko",
+   "lat": "44.1767161",
+   "lon": "28.6507598",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=Tennishalle+Liezen%2C+Liezen": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=Tennishalle+Liezen": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=Liezen": [
+  {
+   "name": "Bezirk Liezen",
+   "display_name": "Bezirk Liezen, Štýrsko, Rakousko",
+   "lat": "47.5070965",
+   "lon": "14.2125684",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "county"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=Racketstadion%2C+Norrk%C3%B6ping": [
+  {
+   "name": "Racketstadion",
+   "display_name": "Racketstadion, Vattenverksvägen, Kärrhagen, Norrköping, Norrköpings kommun, Östergötland, 603 78, Švédsko",
+   "lat": "58.5888512",
+   "lon": "16.1364078",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Olimpija+Osijek+1984%2C+Osijek": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Olimpija+Osijek+1984": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Osijek": [
+  {
+   "name": "Osijek",
+   "display_name": "Osijek, Grad Osijek, Osječko-baranjska županija, Chorvatsko",
+   "lat": "45.5548793",
+   "lon": "18.6953685",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Soul+Entertainment+Group%2C+%C4%B0STANBUL": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=Soul+Entertainment+Group": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=National+Tennis+Centre%2C+Nicosia": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=National+Tennis+Centre": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Nicosia": [
+  {
+   "name": "Nikósie",
+   "display_name": "Nikósie, Δήμος Λευκωσίας, Nikósie, Kypr, 1107, Kypr",
+   "lat": "35.1746503",
+   "lon": "33.3638783",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=GLTK%2C+G%C3%B6teborg": [
+  {
+   "name": "Göteborgs Lawn Tennis Klubb",
+   "display_name": "Göteborgs Lawn Tennis Klubb, 7, Töpelsgatan, Torp, Kärralund, Centrum, Göteborg, Göteborgs Stad, Västra Götaland, 416 55, Švédsko",
+   "lat": "57.7003151",
+   "lon": "12.0261044",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=CS+INTARO%2C+Targu+Mures": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=CS+INTARO": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Targu+Mures": [
+  {
+   "name": "Târgu Mureș",
+   "display_name": "Târgu Mureș, Zona Metropolitană Târgu Mureș, Mureș, Rumunsko",
+   "lat": "46.5446253",
+   "lon": "24.5611960",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Club+Tennis+D%27Aro%2C+Platja+d%27Aro+-+Girona": [
+  {
+   "name": "SetMatch tennis club",
+   "display_name": "SetMatch tennis club, 14, Carrer de les Tosses, Platja d'Aro, Castell d'Aro, Platja d'Aro i s'Agaró, Baix Empordà, Girona, Katalánsko, 17250, Španělsko",
+   "lat": "41.8075739",
+   "lon": "3.0554563",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Hala+Tenisowa+Akwawit%2C+Leszno": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Hala+Tenisowa+Akwawit": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Leszno": [
+  {
+   "name": "Leszno",
+   "display_name": "Leszno, Lešno, Velkopolské vojvodství, Polsko",
+   "lat": "51.8436068",
+   "lon": "16.5804227",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "administrative"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=no&format=jsonv2&limit=1&q=Clarksons+Tennis+Arena%2C+Oslo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=no&format=jsonv2&limit=1&q=Clarksons+Tennis+Arena": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=no&format=jsonv2&limit=1&q=Oslo": [
+  {
+   "name": "Oslo",
+   "display_name": "Oslo, Norsko",
+   "lat": "59.9133301",
+   "lon": "10.7389701",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "county"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=TENNIS+CLUB+BOULOGNE-BILLANCOURT%2C+BOULOGNE-BILLANCOURT": [
+  {
+   "name": "Tennis Club",
+   "display_name": "Tennis Club, Rue de Wolfenbuttel, Bruyères - Postillons - Jaurès, Les Bruyères, Sèvres, Boulogne-Billancourt, Hauts-de-Seine, Île-de-France, Metropolitní Francie, 92310, Francie",
+   "lat": "48.8150530",
+   "lon": "2.2142844",
+   "category": "building",
+   "type": "yes",
+   "addresstype": "building"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENISKI+KLUB+CRVENA+ZVEZDA%2C+BEOGRAD": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENISKI+KLUB+CRVENA+ZVEZDA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=BEOGRAD": [
+  {
+   "name": "Bělehrad",
+   "display_name": "Bělehrad, Централна Србија, Srbsko",
+   "lat": "44.8153318",
+   "lon": "20.4456588",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Narva+Spordikeskus%2C+Narva": [
+  {
+   "name": "Narva Spordikooli Energia Siivertsi motokrossirada",
+   "display_name": "Narva Spordikooli Energia Siivertsi motokrossirada, Jõesuu, Siivertsi, Narva linn, Ida-Viru maakond, 21034, Estonsko",
+   "lat": "59.4019712",
+   "lon": "28.1727568",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Ligue+des+Hauts+de+France%2C+MARCQ+EN+BAROEUL": [
+  {
+   "name": "Ligue des Hauts-de-France de Tennis",
+   "display_name": "Ligue des Hauts-de-France de Tennis, Pavé Stratégique, Parc Europe, Marcq-en-Barœul, Lille, Nord, Hauts-de-France, Metropolitní Francie, 59700, Francie",
+   "lat": "50.6875498",
+   "lon": "3.1084649",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=Olympiahallen%2C+Helsingborg": [
+  {
+   "name": "Olympiahallen",
+   "display_name": "Olympiahallen, 11, Filbornavägen, Olympia, Helsingborg, Helsingborgs kommun, Skåne, 252 76, Švédsko",
+   "lat": "56.0508157",
+   "lon": "12.7090238",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=UNION+TENNIS+BAR-LE-DUC%2C+BAR-LE-DUC": [
+  {
+   "name": "Union Tennis Bar-le-Duc",
+   "display_name": "Union Tennis Bar-le-Duc, Rue du Docteur Wagner, Behonne, Bar-le-Duc, Meuse, Grand Est, Metropolitní Francie, 55000, Francie",
+   "lat": "48.7836832",
+   "lon": "5.1737391",
+   "category": "leisure",
+   "type": "sports_hall",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lu&format=jsonv2&limit=1&q=National+Tennis+Center%2C+ESCH-SUR-ALZETTE": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lu&format=jsonv2&limit=1&q=National+Tennis+Center": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lu&format=jsonv2&limit=1&q=ESCH-SUR-ALZETTE": [
+  {
+   "name": "Esch-sur-Alzette",
+   "display_name": "Esch-sur-Alzette, Canton Esch-sur-Alzette, Lucembursko",
+   "lat": "49.4959628",
+   "lon": "5.9850306",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lt&format=jsonv2&limit=1&q=Siauliai+Tennis+Academy%2C+%C5%A0iauliai": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lt&format=jsonv2&limit=1&q=Siauliai+Tennis+Academy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lt&format=jsonv2&limit=1&q=%C5%A0iauliai": [
+  {
+   "name": "Šiauliai",
+   "display_name": "Šiauliai, Šiaulių miesto savivaldybė, Šiaulių apskritis, Litva",
+   "lat": "55.9340823",
+   "lon": "23.3157775",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Bolton+Arena%2C+Bolton": [
+  {
+   "name": "Bolton Arena",
+   "display_name": "Bolton Arena, Arena Approach, Middlebrook, Horwich, Bolton, Velký Manchester, Anglie, BL6 6LB, Spojené království",
+   "lat": "53.5794258",
+   "lon": "-2.5393322",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=Swiss+Tennis%2C+Biel": [
+  {
+   "name": "Swiss Tennis",
+   "display_name": "Swiss Tennis, Allée Roger-Federer / Roger-Federer-Allee, Boujean/Bözingen, Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern, 2504, Švýcarsko",
+   "lat": "47.1586469",
+   "lon": "7.2787759",
+   "category": "highway",
+   "type": "bus_stop",
+   "addresstype": "highway"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=Prestige+tennis+park%2C+Frydek+Mistek": [
+  {
+   "name": "Prestige tennis park",
+   "display_name": "Prestige tennis park, Bezručova, Místek, Bahno, Frýdek-Místek, okres Frýdek-Místek, Moravskoslezský kraj, 738 01, Česko",
+   "lat": "49.6731482",
+   "lon": "18.3504698",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Marcos+Baghdatis+Tennis+Academy%2C+Limassol": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Marcos+Baghdatis+Tennis+Academy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Limassol": [
+  {
+   "name": "Lemesos",
+   "display_name": "Lemesos, Λεμεσός, Δήμος Λεμεσού, Επαρχία Λεμεσού, Kypr, 3085, Kypr",
+   "lat": "34.6852901",
+   "lon": "33.0332657",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=no&format=jsonv2&limit=1&q=Stavanger+Tennisklubb%2C+Stavanger": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=no&format=jsonv2&limit=1&q=Stavanger+Tennisklubb": [
+  {
+   "name": "Hafrsfjord tennisklubb",
+   "display_name": "Hafrsfjord tennisklubb, Rollaugs gate, Ljosheim, Madlamark, Madla, Stavanger, Rogaland, 4041, Norsko",
+   "lat": "58.9493102",
+   "lon": "5.6867170",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Tarbes+Expo+Pyr%C3%A9n%C3%A9es+Congr%C3%A8s%2C+Tarbes": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Tarbes+Expo+Pyr%C3%A9n%C3%A9es+Congr%C3%A8s": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Tarbes": [
+  {
+   "name": "Tarbes",
+   "display_name": "Tarbes, Hautes-Pyrénées, Okcitánie, Metropolitní Francie, 65000, Francie",
+   "lat": "43.2328580",
+   "lon": "0.0781021",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Herodotou+Tennis+Academy%2C+Meneou+Larnaka": [
+  {
+   "name": "Herodotou Tennis Academy",
+   "display_name": "Herodotou Tennis Academy, Agias Marinas, Μενεού, Σκάλα, Larnaka, Δήμος Λάρνακας, Επαρχία Λάρνακας, Kypr, 7000, Kypr",
+   "lat": "34.8548113",
+   "lon": "33.6039421",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Racket+en+Fit+Center+Borne%2C+Borne": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Racket+en+Fit+Center+Borne": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Borne": [
+  {
+   "name": "Borne",
+   "display_name": "Borne, Overijssel, Nizozemsko",
+   "lat": "52.3018287",
+   "lon": "6.7502395",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Tenniscentrum+de+Wildenhorst%2C+Badhoevedorp": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Tenniscentrum+de+Wildenhorst": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Badhoevedorp": [
+  {
+   "name": "Badhoevedorp",
+   "display_name": "Badhoevedorp, Haarlemmermeer, Noord-Holland, Nizozemsko",
+   "lat": "52.3388803",
+   "lon": "4.7844704",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tenis+Club+Bucuresti%2C+Bucharest": [
+  {
+   "name": "Al-Body Tenis Club",
+   "display_name": "Al-Body Tenis Club, 2, Șoseaua București-Ploiești, Băneasa, Sector 1, Bukurešť, 013692, Rumunsko",
+   "lat": "44.4856135",
+   "lon": "26.0795427",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=TC+Baseline%2C+Banska+Bystrica": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=TC+Baseline": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=Banska+Bystrica": [
+  {
+   "name": "Banská Bystrica",
+   "display_name": "Banská Bystrica, okres Banská Bystrica, Banskobystrický kraj, Slovensko",
+   "lat": "48.7354290",
+   "lon": "19.1457338",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=Tsaghkadzor+Main+Sport+Complx%2C+Tsaghkadzor": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=Tsaghkadzor+Main+Sport+Complx": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=Tsaghkadzor": [
+  {
+   "name": "Ծաղկաձոր",
+   "display_name": "Ծաղկաձոր, Գ-2 թաղ, Hrazdan, Հրազդան, Հրազդան համայնք, Կոտայքի մարզ, 2302, Arménie",
+   "lat": "40.5374228",
+   "lon": "44.7604549",
+   "category": "waterway",
+   "type": "river",
+   "addresstype": "river"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lt&format=jsonv2&limit=1&q=Tennis+Space%2C+Kaunas": [
+  {
+   "name": "Tennis Space",
+   "display_name": "Tennis Space, 9C, Islandijos pl., Murava, Eigulių seniūnija, Kaunas, Kauno miesto savivaldybė, Kaunaský kraj, 49185, Litva",
+   "lat": "54.9310259",
+   "lon": "23.9727696",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=Lidk%C3%B6pings+Tennisklubb%2C+Lidk%C3%B6ping": [
+  {
+   "name": "Lidköpings  Tennisklubb",
+   "display_name": "Lidköpings  Tennisklubb, Bollgatan, Ågårdsområdet, Lidköping distrikt, Lidköping, Lidköpings kommun, Västra Götaland, 531 51, Švédsko",
+   "lat": "58.4952191",
+   "lon": "13.1415653",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=Svedala+Tennisklubb%2C+Svedala": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=Svedala+Tennisklubb": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=Svedala": [
+  {
+   "name": "Svedala kommun",
+   "display_name": "Svedala kommun, Skåne, Švédsko",
+   "lat": "55.5513434",
+   "lon": "13.2166760",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "municipality"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Clube+T%C3%A9nis+Braga%2C+Braga": [
+  {
+   "name": "Clube de Ténis de Braga",
+   "display_name": "Clube de Ténis de Braga, Ecovia do Rio Este, Santa Tecla, Braga (São Vítor), Lamaçães, Braga, 4715-384, Portugalsko",
+   "lat": "41.5503216",
+   "lon": "-8.4070416",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=CLUB+DE+TENIS+TORRENT%2C+Torrent": [
+  {
+   "name": "Aparcament Club de Tenis de Torrent",
+   "display_name": "Aparcament Club de Tenis de Torrent, Carrer de Ausias March, Torrent, l'Horta Sud, València / Valencia, Valencijské společenství, 46901, Španělsko",
+   "lat": "39.4022627",
+   "lon": "-0.5031523",
+   "category": "amenity",
+   "type": "parking",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Les+Raquettes+Tennis+Club%2C+Thessaloniki": [
+  {
+   "name": "Les Raquettes Tennis Club",
+   "display_name": "Les Raquettes Tennis Club, Σοφοκλέους, Θέρμη, Δήμος Θέρμης, Μητροπολιτική Ενότητα Θεσσαλονίκης, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 570 01, Řecko",
+   "lat": "40.5563642",
+   "lon": "23.0071450",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Nottingham+Tennis+Centre%2C+Nottingham": [
+  {
+   "name": "Nottingham Tennis Centre",
+   "display_name": "Nottingham Tennis Centre, University Boulevard, Lenton Abbey, Wollaton, Nottingham, East Midlands, Anglie, NG7 2PS, Spojené království",
+   "lat": "52.9345712",
+   "lon": "-1.1901503",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Tennishal+Victoria%2C+Rotterdam": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Tennishal+Victoria": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Rotterdam": [
+  {
+   "name": "Rotterdam",
+   "display_name": "Rotterdam, Zuid-Holland, Nizozemsko",
+   "lat": "51.9244424",
+   "lon": "4.4777500",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Centrum+Tenisowe+Sobota%2C+Sobota%2FRokietnica": [
+  {
+   "name": "Centrum Tenisowe Sobota",
+   "display_name": "Centrum Tenisowe Sobota, 43, Poznańska, Sobota, gmina Rokietnica, powiat poznański, Velkopolské vojvodství, 62-090, Polsko",
+   "lat": "52.5204376",
+   "lon": "16.8181942",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Comit%C3%A9+Essonne+Tennis%2C+Sainte-Genevi%C3%A8ve-des-Bois": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Comit%C3%A9+Essonne+Tennis": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Sainte-Genevi%C3%A8ve-des-Bois": [
+  {
+   "name": "Sainte-Geneviève-des-Bois",
+   "display_name": "Sainte-Geneviève-des-Bois, Palaiseau, Essonne, Île-de-France, Metropolitní Francie, 91700, Francie",
+   "lat": "48.6407872",
+   "lon": "2.3259129",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=Sportpark+Isernhagen%2C+Isernhagen": [
+  {
+   "name": "Sportpark",
+   "display_name": "Sportpark, 3A, Dieselstraße, Niedernhägener Bauerschaft, Isernhagen, Region Hannover, Dolní Sasko, 30916, Německo",
+   "lat": "52.4499878",
+   "lon": "9.7833217",
+   "category": "building",
+   "type": "sports_centre",
+   "addresstype": "building"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Auray+Tennis+Club%2C+Auray": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Auray+Tennis+Club": [
+  {
+   "name": "Tennis Club Alréen",
+   "display_name": "Tennis Club Alréen, Avenue Yves Kerroux, Le Gumenen, Treulen, La Petite Forêt, Auray, Lorient, Morbihan, Bretaň, Metropolitní Francie, 56400, Francie",
+   "lat": "47.6747756",
+   "lon": "-2.9876013",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=TENNIS+ICON%2C+Larissa": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=TENNIS+ICON": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Larissa": [
+  {
+   "name": "Larisa",
+   "display_name": "Larisa, Δημοτική Ενότητα Λαρισαίων, Δήμος Λαρισαίων, Περιφερειακή Ενότητα Λάρισας, Περιφέρεια Θεσσαλίας, Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος, 422 22, Řecko",
+   "lat": "39.6383092",
+   "lon": "22.4160706",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=The+Royal+Tennis+Hall%2C+Stockholm": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=The+Royal+Tennis+Hall": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=Stockholm": [
+  {
+   "name": "Stockholm",
+   "display_name": "Stockholm, Stockholms kommun, Stockholms län, 111 29, Švédsko",
+   "lat": "59.3251172",
+   "lon": "18.0710935",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Racing+Tennis+Club+de+Roubaix%2C+ROUBAIX": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Racing+Tennis+Club+de+Roubaix": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=ROUBAIX": [
+  {
+   "name": "Roubaix",
+   "display_name": "Roubaix, Lille, Nord, Hauts-de-France, Metropolitní Francie, 59100, Francie",
+   "lat": "50.6915893",
+   "lon": "3.1741734",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ie&format=jsonv2&limit=1&q=St+Anne%27s+Waterford+Tennis+Club%2C+Waterford": [
+  {
+   "name": "St. Anne's Waterford Tennis Club",
+   "display_name": "St. Anne's Waterford Tennis Club, Richardson's Folly, Grange North, Waterford, Hrabství Waterford, Munster, Irsko",
+   "lat": "52.2478836",
+   "lon": "-7.1041770",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ie&format=jsonv2&limit=1&q=Belfast+Boat+Club%2C+Antrim": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ie&format=jsonv2&limit=1&q=Belfast+Boat+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ie&format=jsonv2&limit=1&q=Antrim": [
+  {
+   "name": "New Antrim Street",
+   "display_name": "New Antrim Street, Carrowncurry, Castlebar Urban ED, Castlebar Municipal District, County Mayo, Connacht, F23 TP40, Irsko",
+   "lat": "53.8588940",
+   "lon": "-9.2982932",
+   "category": "highway",
+   "type": "secondary",
+   "addresstype": "secondary"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Volvex+Tennis+SE%2C+Dunakeszi": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Volvex+Tennis+SE": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Clube+de+T%C3%A9nis+do+Estoril%2C+Estoril": [
+  {
+   "name": "Clube de Ténis do Estoril",
+   "display_name": "Clube de Ténis do Estoril, Avenida Condes de Barcelona, Monte Estoril, Estoril, Cascais, Lisboa, 2765-470, Portugalsko",
+   "lat": "38.7154819",
+   "lon": "-9.3921983",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Iraklio+OA+%26+A%2C+Heraklio": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Iraklio+OA+%26+A": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Heraklio": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Arc+Pro+Tenis%2C+Bucharest": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Arc+Pro+Tenis": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Bucharest": [
+  {
+   "name": "Bukurešť",
+   "display_name": "Bukurešť, Rumunsko",
+   "lat": "44.4361414",
+   "lon": "26.1026840",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Wrexham+Tennis+Centre%2C+City+Plas+Coch+Road.+Wrexham": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Wrexham+Tennis+Centre": [
+  {
+   "name": "Wrexham Tennis Centre",
+   "display_name": "Wrexham Tennis Centre, Plas Coch Road, Plas Coch, Rhosddu, Stansty, Wrexham, Wales, LL11 2BW, Spojené království",
+   "lat": "53.0562919",
+   "lon": "-3.0040012",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Tennis+Academy+Ljubicic%2C+Veli+Lo%C5%A1inj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Tennis+Academy+Ljubicic": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Veli+Lo%C5%A1inj": [
+  {
+   "name": "Veli Lošinj",
+   "display_name": "Veli Lošinj, Grad Mali Lošinj, Primorsko-goranska županija, 51551, Chorvatsko",
+   "lat": "44.5210690",
+   "lon": "14.5017167",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Paralimni+Tennis+Club%2C+Paralimni": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Paralimni+Tennis+Club": [
+  {
+   "name": "Tennis Club",
+   "display_name": "Tennis Club, Αρχιεπισκόπου Μακαρίου Γ’, Δερύνεια, Δήμος Παραλιμνίου - Δερύνειας, Επαρχία Αμμοχώστου, Kypr, 5380, Kypr",
+   "lat": "35.0542951",
+   "lon": "33.9425809",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENISKI+KLUB+ELITE%2C+NOVI+SAD": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENISKI+KLUB+ELITE": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=NOVI+SAD": [
+  {
+   "name": "Nový Sad",
+   "display_name": "Nový Sad, Град Нови Сад, Јужнобачки управни округ, Vojvodina, Srbsko",
+   "lat": "45.2551338",
+   "lon": "19.8451756",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=COMPLEXO+DE+TENIS+DA+MAIA%2C+Maia": [
+  {
+   "name": "Complexo de Ténis da Maia",
+   "display_name": "Complexo de Ténis da Maia, Avenida Luís de Camões, Vermoim, Cidade da Maia, Maia, Porto, 4470-233, Portugalsko",
+   "lat": "41.2342199",
+   "lon": "-8.6158127",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=GS+Tennis+Club+Bistrita%2C+Bistrita": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=GS+Tennis+Club+Bistrita": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Bistrita": [
+  {
+   "name": "Bistrița",
+   "display_name": "Bistrița, Bistrița-Năsăud, 420048, Rumunsko",
+   "lat": "47.1327012",
+   "lon": "24.4963949",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENISKI+KLUB+DINAMO%2C+PANCEVO": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENISKI+KLUB+DINAMO": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=PANCEVO": [
+  {
+   "name": "Pančevo",
+   "display_name": "Pančevo, Град Панчево, Јужнобанатски управни округ, Vojvodina, Srbsko",
+   "lat": "44.8705686",
+   "lon": "20.6399643",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Eurobank+Masters+Tennis+Academy%2C+Nicosia": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Eurobank+Masters+Tennis+Academy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=CLUB+TENNIS+TORELL%C3%93%2C+Torell%C3%B3": [
+  {
+   "name": "Club de Tennis Torelló",
+   "display_name": "Club de Tennis Torelló, SC-B2, Serrallonga, Vilardell, Sant Vicenç de Torelló, Osona, Barcelona, Katalánsko, 08570, Španělsko",
+   "lat": "42.0545144",
+   "lon": "2.2773194",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+DJUKIC%2C+BEOGRAD": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+DJUKIC": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Soroksari+Tenisz+Tanoda%2C+BUDAPEST": [
+  {
+   "name": "Soroksári tenisz tanoda",
+   "display_name": "Soroksári tenisz tanoda, Homokszem utca, Soroksár, XXIII. kerület, Budapešť, Budapest, 1238, Maďarsko",
+   "lat": "47.4143130",
+   "lon": "19.1137242",
+   "category": "building",
+   "type": "yes",
+   "addresstype": "building"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=TC+Empire%2C+Trnava": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=TC+Empire": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=Trnava": [
+  {
+   "name": "Trnava",
+   "display_name": "Trnava, okres Trnava, Trnavský kraj, Slovensko",
+   "lat": "48.3767652",
+   "lon": "17.5858175",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=CLUB+TENNIS+VIC%2C+Gurb": [
+  {
+   "name": "Club Tennis Vic",
+   "display_name": "Club Tennis Vic, Gurb, Osona, Barcelona, Katalánsko, Španělsko",
+   "lat": "41.9341491",
+   "lon": "2.2329926",
+   "category": "landuse",
+   "type": "recreation_ground",
+   "addresstype": "recreation_ground"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tenis+Club+Bellevue%2C+Ulcinj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tenis+Club+Bellevue": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Ulcinj": [
+  {
+   "name": "Ulcinj - Ulqin",
+   "display_name": "Ulcinj - Ulqin, Občina Ulcinj, 85360, Černá Hora",
+   "lat": "41.9260120",
+   "lon": "19.2055563",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Premier+Tennis+Club%2C+Limassol": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Premier+Tennis+Club": [
+  {
+   "name": "Premier Tennis Club",
+   "display_name": "Premier Tennis Club, Voiotias, Τραχώνι, Akrotiri, 4151, Kypr",
+   "lat": "34.6750035",
+   "lon": "32.9790992",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tennis+Club+Bellevue%2C+Ulcinj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tennis+Club+Bellevue": [
+  {
+   "name": "Drummond Lawn Tennis Club",
+   "display_name": "Drummond Lawn Tennis Club, East Scotland Street Lane, Bellevue, Canonmills, New Town/Broughton, Edinburgh, Skotsko, EH3 6PR, Spojené království",
+   "lat": "55.9596874",
+   "lon": "-3.1936822",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Kiskunf%C3%A9legyh%C3%A1zi+V%C3%A1rosi+Tenisz+Klub%2C+Kiskunf%C3%A9legyh%C3%A1za": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Kiskunf%C3%A9legyh%C3%A1zi+V%C3%A1rosi+Tenisz+Klub": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Kiskunf%C3%A9legyh%C3%A1za": [
+  {
+   "name": "Kiskunfélegyháza",
+   "display_name": "Kiskunfélegyháza, Kiskunfélegyházi járás, Bács-Kiskun megye, Alföld és Észak, 6100, Maďarsko",
+   "lat": "46.7114381",
+   "lon": "19.8501648",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Erzs%C3%A9bet+Ligeti+Teniszk%C3%B6zpont%2C+Szeged": [
+  {
+   "name": "SZTE Erzsébet Ligeti Teniszközpont",
+   "display_name": "SZTE Erzsébet Ligeti Teniszközpont, 1, Népkert sor, Odessza, Segedín, Szegedi járás, Csongrád-Csanád megye, Alföld és Észak, 6726, Maďarsko",
+   "lat": "46.2488297",
+   "lon": "20.1647188",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Circolo+Tennis+Maglie%2C+Maglie": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Circolo+Tennis+Maglie": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Maglie": [
+  {
+   "name": "Maglie",
+   "display_name": "Maglie, Lecce, Apulie, 73024, Itálie",
+   "lat": "40.1184626",
+   "lon": "18.2988529",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=BKT+Advantage+Bielsko-Biala%2C+Bielsko-Bia%C5%82a": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=BKT+Advantage+Bielsko-Biala": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Bielsko-Bia%C5%82a": [
+  {
+   "name": "Bielsko-Biała",
+   "display_name": "Bielsko-Biała, Slezské vojvodství, Polsko",
+   "lat": "49.8120785",
+   "lon": "19.0291988",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "administrative"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=no&format=jsonv2&limit=1&q=Holmenkollen+Tennisklubb%2C+Oslo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=no&format=jsonv2&limit=1&q=Holmenkollen+Tennisklubb": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=AS+Passage+Tennis%2C+Le+Passage": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=AS+Passage+Tennis": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Le+Passage": [
+  {
+   "name": "Le Passage",
+   "display_name": "Le Passage, La Tour-du-Pin, Isère, Auvergne-Rhône-Alpes, Metropolitní Francie, 38490, Francie",
+   "lat": "45.5326000",
+   "lon": "5.5125300",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Tennis+Club+Pavia%2C+Pavia": [
+  {
+   "name": "Tennis Club Voghera",
+   "display_name": "Tennis Club Voghera, 8, Via Emilio Sturla, Benvenuti, Voghera, Pavia, Lombardie, 27058, Itálie",
+   "lat": "44.9817802",
+   "lon": "9.0125603",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=ZTK+Maribor%2C+MARIBOR": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=ZTK+Maribor": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=MARIBOR": [
+  {
+   "name": "Maribor",
+   "display_name": "Maribor, 2000, Slovinsko",
+   "lat": "46.5576439",
+   "lon": "15.6455854",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Open+Tennis+Valley%2C+Mogyorod": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Open+Tennis+Valley": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Mogyorod": [
+  {
+   "name": "Mogyoród",
+   "display_name": "Mogyoród, Gödöllői járás, Pest megye, 2146, Maďarsko",
+   "lat": "47.5986636",
+   "lon": "19.2384215",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=CS+Ceramus%2C+Campulung-Arges": [
+  {
+   "name": "Ceramus",
+   "display_name": "Ceramus, Câmpulung, Argeș, Rumunsko",
+   "lat": "45.2805384",
+   "lon": "25.0329938",
+   "category": "landuse",
+   "type": "industrial",
+   "addresstype": "industrial"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Foro+Italico%2C+Rome": [
+  {
+   "name": "Foro Italico",
+   "display_name": "Foro Italico, Municipio Roma XV, Řím, Roma Capitale, Lazio, Itálie",
+   "lat": "41.9325174",
+   "lon": "12.4570742",
+   "category": "place",
+   "type": "square",
+   "addresstype": "square"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Akademia+Tenisowa+Zabrze%2C+Zabrze": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Akademia+Tenisowa+Zabrze": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Zabrze": [
+  {
+   "name": "Zabrze",
+   "display_name": "Zabrze, Górnośląsko-Zagłębiowska Metropolia, Slezské vojvodství, Polsko",
+   "lat": "50.3142806",
+   "lon": "18.7815763",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "administrative"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Teni%C5%A1ki+klub+Luka+Koper%2C+Koper": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Teni%C5%A1ki+klub+Luka+Koper": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Koper": [
+  {
+   "name": "Koper / Capodistria",
+   "display_name": "Koper / Capodistria, Upravna enota Koper / Unità amministrativa Capodistria, 6000, Slovinsko",
+   "lat": "45.5479864",
+   "lon": "13.7304781",
+   "category": "place",
+   "type": "town",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Alfa+Tenisziskola%2C+Budapest": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Alfa+Tenisziskola": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Budapest": [
+  {
+   "name": "Budapešť",
+   "display_name": "Budapešť, Budapest, Maďarsko",
+   "lat": "47.4978789",
+   "lon": "19.0402383",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=ALL+IN+ACADEMY+C%C3%94TE+D%27AZUR%2C+Villeneuve-Loubet": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=ALL+IN+ACADEMY+C%C3%94TE+D%27AZUR": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Villeneuve-Loubet": [
+  {
+   "name": "Villeneuve-Loubet",
+   "display_name": "Villeneuve-Loubet, Grasse, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, Metropolitní Francie, 06270, Francie",
+   "lat": "43.6579947",
+   "lon": "7.1217592",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Niki+Patras+Tennis+Club%2C+Patra": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=Niki+Patras+Tennis+Club": [
+  {
+   "name": "Niki Patras Tennis Club",
+   "display_name": "Niki Patras Tennis Club, Ηρακλέους, Εγλυκάδα, 3η Κοινότητα Πατρών - Ανατολικός Τομέας, Δημοτική Ενότητα Πατρέων, Δήμος Πατρέων, Περιφερειακή Ενότητα Αχαΐας, Περιφέρεια Δυτικής Ελλάδας, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 265 00, Řecko",
+   "lat": "38.2213266",
+   "lon": "21.7701521",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Szczeci%C5%84ski+Klub+Tenisowy%2C+Szczecin": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Szczeci%C5%84ski+Klub+Tenisowy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Szczecin": [
+  {
+   "name": "Szczecin",
+   "display_name": "Szczecin, Západopomořanské vojvodství, Polsko",
+   "lat": "53.4298114",
+   "lon": "14.5928676",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "administrative"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Forus+Spordikeskus+N%C3%B5mme%2C+Tallinn": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Forus+Spordikeskus+N%C3%B5mme": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Circolo+Tennis+Correggio%2C+Correggio": [
+  {
+   "name": "Circolo Tennis Correggio",
+   "display_name": "Circolo Tennis Correggio, 2, Via Bruto Terrachini, Espansione Sud, San Pietro Espansione Sud, Correggio, Pianura Reggiana, Reggio Emilia, Emilia-Romagna, 42015, Itálie",
+   "lat": "44.7621942",
+   "lon": "10.7742897",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tennis+Profi%2C+Arad": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tennis+Profi": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Arad": [
+  {
+   "name": "Arad",
+   "display_name": "Arad, Rumunsko",
+   "lat": "46.1753793",
+   "lon": "21.3196342",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Teni%C5%A1ki+klub+Celje%2C+Celje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Teni%C5%A1ki+klub+Celje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Celje": [
+  {
+   "name": "Celje",
+   "display_name": "Celje, 3000, Slovinsko",
+   "lat": "46.2293889",
+   "lon": "15.2616828",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Circolo+Tennis+Pescara%2C+Pescara": [
+  {
+   "name": "Circolo Tennis Pescara",
+   "display_name": "Circolo Tennis Pescara, 355, Viale Guglielmo Marconi, Porta Nuova, Pescara, Abruzzo, 65126, Itálie",
+   "lat": "42.4538556",
+   "lon": "14.2263268",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Associazione+Tennis+Tolentino%2C+Tolentino": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Associazione+Tennis+Tolentino": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Tolentino": [
+  {
+   "name": "Tolentino",
+   "display_name": "Tolentino, Macerata, Marche, 62029, Itálie",
+   "lat": "43.2087546",
+   "lon": "13.2844096",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Miejski+Klub+Tenisowy+Lodz%2C+Lodz": [
+  {
+   "name": "Miejski Klub Tenisowy",
+   "display_name": "Miejski Klub Tenisowy, Aleja Adama Mickiewicza, Stare Polesie, Łódź-Polesie, Lodž, Lodžské vojvodství, 90-553, Polsko",
+   "lat": "51.7548643",
+   "lon": "19.4417522",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Tallink+Tenniscentre%2C+Tallinn": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=Tallink+Tenniscentre": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=CLTK+Bizuterie+Jablonec+nad+Nisou%2C+Jablonec+nad+Nisou": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=CLTK+Bizuterie+Jablonec+nad+Nisou": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=Jablonec+nad+Nisou": [
+  {
+   "name": "Jablonec nad Nisou",
+   "display_name": "Jablonec nad Nisou, okres Jablonec nad Nisou, Liberecký kraj, Česko",
+   "lat": "50.7240899",
+   "lon": "15.1710958",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ge&format=jsonv2&limit=1&q=Leila+Meskhi+Tennis+Academy%2C+Tbilisi": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ge&format=jsonv2&limit=1&q=Leila+Meskhi+Tennis+Academy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ge&format=jsonv2&limit=1&q=Tbilisi": [
+  {
+   "name": "Tbilisi",
+   "display_name": "Tbilisi, Gruzie",
+   "lat": "41.6934591",
+   "lon": "44.8014495",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Tennis+Club+Ambrosiano%2C+Milano": [
+  {
+   "name": "Tennis Club Ambrosiano",
+   "display_name": "Tennis Club Ambrosiano, Via Crescenzago, Parco Lambro - Cimiano, Municipio 3, Milán, Rodano, Milán, Lombardie, 20132, Itálie",
+   "lat": "45.4921747",
+   "lon": "9.2425620",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Junior+Tennis+Perugia%2C+Perugia": [
+  {
+   "name": "Junior Tennis Perugia",
+   "display_name": "Junior Tennis Perugia, 65, Via Venti Settembre, Sant'Erminio, Ponte Rio, Perugia, Umbrie, 06124, Itálie",
+   "lat": "43.1075685",
+   "lon": "12.3809308",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Klub+MTP-Skopje%2C+Skopje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Klub+MTP-Skopje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Racket+%26+Fit+Center+Borne+Borne%2C+Borne": [
+  {
+   "name": "Racket & Fit Center Borne",
+   "display_name": "Racket & Fit Center Borne, 5, Hosbekkeweg, Borne, Overijssel, Nizozemsko, 7621 AC, Nizozemsko",
+   "lat": "52.3005006",
+   "lon": "6.7301387",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fi&format=jsonv2&limit=1&q=Nallisport%2C+Oulu": [
+  {
+   "name": "Nallisport",
+   "display_name": "Nallisport, 9, Vellamontie, Hietasaari, Tuira, Oulu, Oulun seutukunta, Severní Pohjanmaa, Manner-Suomi, 90510, Finsko",
+   "lat": "65.0262639",
+   "lon": "25.4232828",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Queenswood+School%2C+Hatfield": [
+  {
+   "name": "Queenswood School",
+   "display_name": "Queenswood School, Shepherds Way, Swanley Bar, North Mymms, Brookmans Park, Welwyn Hatfield, Hertfordshire, Anglie, AL9 6NS, Spojené království",
+   "lat": "51.7158420",
+   "lon": "-0.1681737",
+   "category": "amenity",
+   "type": "school",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Tenis+Club+IDU+Mamaia%2C+Constanta": [
+  {
+   "name": "Tenis Club IDU",
+   "display_name": "Tenis Club IDU, Bulevardul Mamaia, Mamaia, Constanța, Zona Metropolitană Constanța, Constanța, 900001, Rumunsko",
+   "lat": "44.2291459",
+   "lon": "28.6256285",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+SLOBODA%2C+Tuzla": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+SLOBODA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=Tuzla": [
+  {
+   "name": "Tuzla",
+   "display_name": "Tuzla, Grad Tuzla, Tuzlanski kanton, Federace Bosny a Hercegoviny, 75000, Bosna a Hercegovina",
+   "lat": "44.5392980",
+   "lon": "18.6749337",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ge&format=jsonv2&limit=1&q=Tennis+Club+%22Telavi%22%2C+Telavi": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ge&format=jsonv2&limit=1&q=Tennis+Club+%22Telavi%22": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ge&format=jsonv2&limit=1&q=Telavi": [
+  {
+   "name": "Telavi",
+   "display_name": "Telavi, Municipalita Telavi, Kachetie, Gruzie",
+   "lat": "41.9197221",
+   "lon": "45.4703169",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Pasar%C3%A9t+Tenisz+Klub%2C+Budapest": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=Pasar%C3%A9t+Tenisz+Klub": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUP+TENNIS+POINT%2C+CACAK": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUP+TENNIS+POINT": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=CACAK": [
+  {
+   "name": "Чачак",
+   "display_name": "Чачак, Град Чачак, Моравички управни округ, Централна Србија, Srbsko",
+   "lat": "43.8914332",
+   "lon": "20.3491624",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Circolo+Tennis+Brindisi%2C+Brindisi": [
+  {
+   "name": "Circolo Tennis",
+   "display_name": "Circolo Tennis, Via Ettore Ciciriello, Paradiso, Brindisi, Apulie, 72100, Itálie",
+   "lat": "40.6410230",
+   "lon": "17.9272946",
+   "category": "building",
+   "type": "yes",
+   "addresstype": "building"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Tennis+Club+Crema%2C+Crema": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Tennis+Club+Crema": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Crema": [
+  {
+   "name": "Crema",
+   "display_name": "Crema, Cremona, Lombardie, 26013, Itálie",
+   "lat": "45.3661004",
+   "lon": "9.6847053",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=VILAMOURA+TENNIS+%26+PADEL+ACADEMY%2C+Vilamoura": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=VILAMOURA+TENNIS+%26+PADEL+ACADEMY": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Vilamoura": [
+  {
+   "name": "Vilamoura",
+   "display_name": "Vilamoura, Quarteira, Loulé, Faro, 8125-410, Portugalsko",
+   "lat": "37.0759505",
+   "lon": "-8.1165401",
+   "category": "place",
+   "type": "suburb",
+   "addresstype": "suburb"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=CLUBE+T%C3%89NIS+E+PADEL+DE+PORTIM%C3%83O%2C+Portim%C3%A3o": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=CLUBE+T%C3%89NIS+E+PADEL+DE+PORTIM%C3%83O": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=Portim%C3%A3o": [
+  {
+   "name": "Portimão",
+   "display_name": "Portimão, Faro, Portugalsko",
+   "lat": "37.1375808",
+   "lon": "-8.5368426",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=SKF+Klub+Tenisowy+Szczawno+Zdroj%2C+Szczawno+Zdroj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=SKF+Klub+Tenisowy+Szczawno+Zdroj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=Szczawno+Zdroj": [
+  {
+   "name": "Szczawno-Zdrój",
+   "display_name": "Szczawno-Zdrój, powiat wałbrzyski, Dolnoslezské vojvodství, 58-310, Polsko",
+   "lat": "50.8008062",
+   "lon": "16.2515692",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Tennis+Club+Triestino%2C+Trieste": [
+  {
+   "name": "Tennis Club Triestino",
+   "display_name": "Tennis Club Triestino, 175, Galleria Carso, canna per Venezia, Altipiano Est, Padriciano / Padriče, Terst, Trieste, Furlansko-Julské Benátsko, 34149, Itálie",
+   "lat": "45.6508202",
+   "lon": "13.8403790",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=THC+M%C3%BCnster+e.V.%2C+Muenster": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=THC+M%C3%BCnster+e.V.": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=Muenster": [
+  {
+   "name": "Münster",
+   "display_name": "Münster, Severní Porýní-Vestfálsko, Německo",
+   "lat": "51.9625101",
+   "lon": "7.6251879",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Circolo+Tennis+Porto+San+Giorgio%2C+Porto+San+Giorgio": [
+  {
+   "name": "Circolo Tennis Porto San Giorgio",
+   "display_name": "Circolo Tennis Porto San Giorgio, Porto San Giorgio, Fermo, Marche, Itálie",
+   "lat": "43.1816037",
+   "lon": "13.7976131",
+   "category": "landuse",
+   "type": "recreation_ground",
+   "addresstype": "recreation_ground"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Colle+degli+Dei%2C+Velletri": [
+  {
+   "name": "Colle degli Dei",
+   "display_name": "Colle degli Dei, Velletri, Roma Capitale, Lazio, 00049, Itálie",
+   "lat": "41.6701778",
+   "lon": "12.8039169",
+   "category": "place",
+   "type": "hamlet",
+   "addresstype": "hamlet"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=TC+Sport-Hotel+Kurz%2C+Oberpullendorf": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=TC+Sport-Hotel+Kurz": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=Oberpullendorf": [
+  {
+   "name": "Oberpullendorf/Felsőpulya",
+   "display_name": "Oberpullendorf/Felsőpulya, Bezirk Oberpullendorf, Hradsko, 7350, Rakousko",
+   "lat": "47.5012609",
+   "lon": "16.5054577",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=tennis+Opava": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+Athens": [
+  {
+   "name": "Τέννις",
+   "display_name": "Τέννις, Στρατηγού Μακρυγιάννη, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Athény, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 154 51, Řecko",
+   "lat": "37.9995779",
+   "lon": "23.7795843",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=tennis+Zadar": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+DOBOJ": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=tennis+Carcavelos": [
+  {
+   "name": "Tennis Rivieira",
+   "display_name": "Tennis Rivieira, Rua Infante Dom Henrique, Junqueiro, Carcavelos e Parede, Cascais, Lisboa, 2775-551, Portugalsko",
+   "lat": "38.6856559",
+   "lon": "-9.3437674",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=tennis+Slovenska+Lupca": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=tennis+BELGRADE": [
+  {
+   "name": "Тениски центар Новак",
+   "display_name": "Тениски центар Новак, 65, Тадеуша Кошћушка, Дорћол, Београд (Стари град), Bělehrad, Градска општина Стари град, Bělehrad, Централна Србија, 11000, Srbsko",
+   "lat": "44.8296529",
+   "lon": "20.4514363",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=tennis+Bari": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, Via dello Sport, Pozzo, Bardolino, Verona, Benátsko, 37011, Itálie",
+   "lat": "45.5529639",
+   "lon": "10.7247568",
+   "category": "amenity",
+   "type": "bar",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=tennis+Tallinn": [
+  {
+   "name": "SK Pinksi Keskus",
+   "display_name": "SK Pinksi Keskus, Puuvilla, Sitsi, Põhja-Tallinna linnaosa, Tallinn, Harju maakond, 10314, Estonsko",
+   "lat": "59.4532081",
+   "lon": "24.6956728",
+   "category": "leisure",
+   "type": "fitness_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+%C4%B0ZM%C4%B0R": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=tennis+Kumanovo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=tennis+Skopje": [
+  {
+   "name": "Тениски клуб Евро Сет",
+   "display_name": "Тениски клуб Евро Сет, 20, Скупи, Момин Поток, Карпош, Skopje, Општина Карпош, Град Скопје, 1000, Severní Makedonie",
+   "lat": "42.0153481",
+   "lon": "21.3980161",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=tennis+Humenne": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=tennis+Dunakeszi": [
+  {
+   "name": "Future Tennis Club",
+   "display_name": "Future Tennis Club, Sport utca, Fótújfalu, Fót, Dunakeszi járás, Pest megye, 2151, Maďarsko",
+   "lat": "47.6077867",
+   "lon": "19.1894123",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=tennis+Plovdiv": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=tennis+Larnaka": [
+  {
+   "name": "Herodotou Tennis Academy",
+   "display_name": "Herodotou Tennis Academy, Agias Marinas, Μενεού, Σκάλα, Larnaka, Δήμος Λάρνακας, Επαρχία Λάρνακας, Kypr, 7000, Kypr",
+   "lat": "34.8548113",
+   "lon": "33.6039421",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+BANJA+LUKA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+Erciyes%2FKayseri": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=tennis+Vrsar": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=tennis+Aizkraukle": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=dk&format=jsonv2&limit=1&q=tennis+Copenhagen": [
+  {
+   "name": "Kløvermarkens Tennis Klub",
+   "display_name": "Kløvermarkens Tennis Klub, Gammelholm, Amagerbro, Kodaň, Københavns Kommune, Hovedstaden, 1440, Dánsko",
+   "lat": "55.6700323",
+   "lon": "12.6046209",
+   "category": "highway",
+   "type": "service",
+   "addresstype": "road"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=tennis+Buzau": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=al&format=jsonv2&limit=1&q=tennis+Shkoder": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=tennis+Litija": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+Alexandroupoli": [
+  {
+   "name": "Κλειστο Γυμναστήριο / Sports Center, Tennis Courts",
+   "display_name": "Κλειστο Γυμναστήριο / Sports Center, Tennis Courts, Δημοκρατίας, Alexandrupoli, Δήμος Αλεξανδρούπολης, Περιφερειακή Ενότητα Έβρου, Περιφέρεια Ανατολικής Μακεδονίας και Θράκης, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 681 00, Řecko",
+   "lat": "40.8446469",
+   "lon": "25.8673333",
+   "category": "highway",
+   "type": "bus_stop",
+   "addresstype": "highway"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+Yenimahalle": [
+  {
+   "name": "Türkiye Tenis Federasyonu Tenis Eğitim Merkezi",
+   "display_name": "Türkiye Tenis Federasyonu Tenis Eğitim Merkezi, 12/6, Ankara Bulvarı, Gazi Mahallesi, Yenimahalle, Ankara, Střední Anatolie, 06560, Turecko",
+   "lat": "39.9421353",
+   "lon": "32.7932920",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=tennis+Pore%C4%8D": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Maspalomas": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=tennis+Dobrich": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, DOB1149, Balčik, Балчик, Добрич, 9601, Bulharsko",
+   "lat": "43.4114261",
+   "lon": "28.2324020",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Barcelona": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, GR 3, Pineda de Bages, Sant Fruitós de Bages, Bages, Barcelona, Katalánsko, 08272, Španělsko",
+   "lat": "41.7509277",
+   "lon": "1.8442297",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+Merkez%2FErzincan": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=tennis+Ptuj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+SERRES": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=tennis+Podgorica": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+Istanbul": [
+  {
+   "name": "mashattan tennis court",
+   "display_name": "mashattan tennis court, Söğütözü Sokağı, Maslak Mahallesi, Sarıyer, İstanbul, Marmarský region, 34485, Turecko",
+   "lat": "41.1124842",
+   "lon": "29.0145178",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+Lamia": [
+  {
+   "name": "ΓΗΠΕΔΑ ΤΕΝΝΙΣ",
+   "display_name": "ΓΗΠΕΔΑ ΤΕΝΝΙΣ, Μχάλη Παπαμαύρου, Νέα Άμπλιανη, Κοινότητα Λαμίας, Δημοτική Ενότητα Λαμιέων, Δήμος Λαμιέων, Περιφερειακή Ενότητα Φθιώτιδας, Περιφέρεια Στερεάς Ελλάδας, Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος, 351 33, Řecko",
+   "lat": "38.8910323",
+   "lon": "22.4456863",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+Rafina": [
+  {
+   "name": "tennis court",
+   "display_name": "tennis court, Μανώλη Καλομοίρη, Καλλιτεχνούπολη, Κοινότητα Ραφήνας, Δημοτική Ενότητα Ραφήνας, Δήμος Ραφήνας - Πικερμίου, Περιφερειακή Ενότητα Ανατολικής Αττικής, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 190 09, Řecko",
+   "lat": "38.0261773",
+   "lon": "23.9581700",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mt&format=jsonv2&limit=1&q=tennis+Paola": [
+  {
+   "name": "Vittoriosa Lawn Tennis Club (VLTC)",
+   "display_name": "Vittoriosa Lawn Tennis Club (VLTC), It-Telgħa ta' Ras Ħanżir, Raħal Ġdid, Reġjun tal-Port, PLA 3000, Malta",
+   "lat": "35.8800093",
+   "lon": "14.5100614",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=bg&format=jsonv2&limit=1&q=tennis+Haskovo": [
+  {
+   "name": "Tennis Court",
+   "display_name": "Tennis Court, Генерал Гурко, Харманли, Хасково, 6450, Bulharsko",
+   "lat": "41.9321105",
+   "lon": "25.8968199",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=tennis+%C4%80da%C5%BEi": [
+  {
+   "name": "Ādažu tenisa centrs",
+   "display_name": "Ādažu tenisa centrs, 26, Gaujas iela, Ādaži, Ādažu novads, LV-2164, Lotyšsko",
+   "lat": "57.0792009",
+   "lon": "24.3355169",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Cornell%C3%A0+de+Llobregat": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+Corinth": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=tennis+Leeuwarden": [
+  {
+   "name": "Padel & Tennis Fabriek",
+   "display_name": "Padel & Tennis Fabriek, 76b, Kalverdijkje, Heechterp, Leeuwarden;Ljouwert, Leeuwarden, Fryslân, Nizozemsko, 8924 JJ, Nizozemsko",
+   "lat": "53.2128917",
+   "lon": "5.8283380",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=tennis+Split": [
+  {
+   "name": "Table tennis",
+   "display_name": "Table tennis, Pujanke, Gradski kotar Pujanke, Split, Grad Split, Splitsko-dalmatinska županija, 21112, Chorvatsko",
+   "lat": "43.5178463",
+   "lon": "16.4772343",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Telde": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Palmanova+-+Calvia": [
+  {
+   "name": "club de tennis Guillermo Vilas",
+   "display_name": "club de tennis Guillermo Vilas, carrer del Mar Carib, Magaluf, Palmanova, Calvià, Serra de Tramuntana, Baleáry, 07181, Španělsko",
+   "lat": "39.5280546",
+   "lon": "2.5384971",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+ADANA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+Heraklion": [
+  {
+   "name": "Γήπεδο Τέννις",
+   "display_name": "Γήπεδο Τέννις, Σήραγγα Hρακλείου, Πράσινος Λόφος, Ηράκλειο, Δήμος Ηρακλείου Αττικής, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 141 22, Řecko",
+   "lat": "38.0535825",
+   "lon": "23.7782370",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=tennis+Gradignan": [
+  {
+   "name": "Terrain de tennis A",
+   "display_name": "Terrain de tennis A, Rue Lucie Aubrac, Faugère, Gradignan, Bordeaux, Gironde, Nová Akvitánie, Metropolitní Francie, 33170, Francie",
+   "lat": "44.7910499",
+   "lon": "-0.6152607",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+SIROKI+BRIJEG": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=tennis+Bad+Waltersdorf": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=tennis+Villingen-Schwenningen": [
+  {
+   "name": "Tennis-Club Schwenningen eV",
+   "display_name": "Tennis-Club Schwenningen eV, 25, Waldeckweg, Frühlingshalde, Schwenningen, Villingen-Schwenningen, VVG der Stadt Villingen-Schwenningen, Schwarzwald-Baar-Kreis, Bádensko-Württembersko, 78056, Německo",
+   "lat": "48.0501580",
+   "lon": "8.5425015",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=tennis+Szabolcsveresmart": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+Antalya": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, Lara Caddesi, Kemerağzı Mahallesi, Aksu, Antalya, Středomořský region, 07003, Turecko",
+   "lat": "36.8541690",
+   "lon": "30.8847187",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+%C4%B0STANBUL": [
+  {
+   "name": "mashattan tennis court",
+   "display_name": "mashattan tennis court, Söğütözü Sokağı, Maslak Mahallesi, Sarıyer, İstanbul, Marmarský region, 34485, Turecko",
+   "lat": "41.1124081",
+   "lon": "29.0146933",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=tennis+Haifa": [
+  {
+   "name": "מועדון טניס קריית ביאליק",
+   "display_name": "מועדון טניס קריית ביאליק, כיכר מצילי יהדות הולנד, קריית ביאליק, נפת חיפה, Haifský distrikt, 2703124, Izrael",
+   "lat": "32.8221080",
+   "lon": "35.0809656",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+MAGALUF": [
+  {
+   "name": "club de tennis Guillermo Vilas",
+   "display_name": "club de tennis Guillermo Vilas, Ma-1C, Magaluf, Palmanova, Calvià, Serra de Tramuntana, Baleáry, 07181, Španělsko",
+   "lat": "39.5280546",
+   "lon": "2.5384971",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=tennis+Nottingham": [
+  {
+   "name": "Carlton le Willows Academy : Table-Tennis Centre",
+   "display_name": "Carlton le Willows Academy : Table-Tennis Centre, Wood Lane, Gedling, Netherfield, Nottingham, Nottinghamshire, East Midlands, Anglie, NG4 4AA, Spojené království",
+   "lat": "52.9756133",
+   "lon": "-1.0711899",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+Kalymnos": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=tennis+Grodzisk+Mazowiecki": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Villena": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+DRAMA": [
+  {
+   "name": "Γήπεδο Τέννις",
+   "display_name": "Γήπεδο Τέννις, Διοικητηρίου, Σαρανταεκκλησιώτικα, Εβραίικα, Δράμα, Δημοτική Ενότητα Δράμας, Δήμος Δράμας, Περιφερειακή Ενότητα Δράμας, Περιφέρεια Ανατολικής Μακεδονίας και Θράκης, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 661 00, Řecko",
+   "lat": "41.1455238",
+   "lon": "24.1553376",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=tennis+Tel-Aviv+Yafo": [
+  {
+   "name": "האקדמיה לטניס",
+   "display_name": "האקדמיה לטניס, שדרות רוקח, תל־אביב–יפו, הצפון הישן, העיר הלבנה בתל אביב, Tel Aviv, נפת תל אביב, Telavivský distrikt, 6340506, Izrael",
+   "lat": "32.0971646",
+   "lon": "34.7801333",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Manacor": [
+  {
+   "name": "Club de tennis",
+   "display_name": "Club de tennis, avinguda del Parc, Manacor, Llevant, Baleáry, 07500, Španělsko",
+   "lat": "39.5680113",
+   "lon": "3.2209424",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=tennis+Angra+Do+Heroismo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=tennis+Constanta": [
+  {
+   "name": "Tennis Club Easy",
+   "display_name": "Tennis Club Easy, Bulevardul Mamaia, Mamaia Nord, Mamaia, Constanța, Zona Metropolitană Constanța, Constanța, 900001, Rumunsko",
+   "lat": "44.2621656",
+   "lon": "28.6174088",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=tennis+Liezen": [
+  {
+   "name": "Tennisplatz",
+   "display_name": "Tennisplatz, Leitenstraße, Leiten, Katastralgemeinde Leiten, Ramsau am Dachstein, Politische Expositur Gröbming, Bezirk Liezen, Štýrsko, 8972, Rakousko",
+   "lat": "47.4117222",
+   "lon": "13.7035905",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=tennis+Osijek": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=tennis+Nicosia": [
+  {
+   "name": "Max Tennis School",
+   "display_name": "Max Tennis School, Στέλιου Μαυρομμάτη, Άγιος Δημήτριος, Άγιοι Ομολογητές, Strovolos, Δήμος Στροβόλου, Nikósie, Kypr, 1085, Kypr",
+   "lat": "35.1542465",
+   "lon": "33.3519337",
+   "category": "building",
+   "type": "yes",
+   "addresstype": "building"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=tennis+Targu+Mures": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=tennis+Leszno": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=no&format=jsonv2&limit=1&q=tennis+Oslo": [
+  {
+   "name": "Nordstrand tennis",
+   "display_name": "Nordstrand tennis, Sæter, Nordstrand, Oslo, Norsko",
+   "lat": "59.8631566",
+   "lon": "10.7966705",
+   "category": "landuse",
+   "type": "recreation_ground",
+   "addresstype": "recreation_ground"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=tennis+BEOGRAD": [
+  {
+   "name": "Тениски центар Новак",
+   "display_name": "Тениски центар Новак, 65, Тадеуша Кошћушка, Дорћол, Београд (Стари град), Bělehrad, Градска општина Стари град, Bělehrad, Централна Србија, 11000, Srbsko",
+   "lat": "44.8296529",
+   "lon": "20.4514363",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lu&format=jsonv2&limit=1&q=tennis+ESCH-SUR-ALZETTE": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, Rue du Stade, Park, Esch-sur-Alzette, Canton Esch-sur-Alzette, 4045, Lucembursko",
+   "lat": "49.4907363",
+   "lon": "5.9881397",
+   "category": "highway",
+   "type": "bus_stop",
+   "addresstype": "highway"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lt&format=jsonv2&limit=1&q=tennis+%C5%A0iauliai": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=tennis+Limassol": [
+  {
+   "name": "Smash Tennis Academy",
+   "display_name": "Smash Tennis Academy, Δρόμος Αριθμός 118, Παναγία Ευαγγελίστρια, Πάνω Πολεμίδια, Δήμος Κάτω Πολεμιδίων, Δήμος Πολεμιδιών, Επαρχία Λεμεσού, Kypr, 4131, Kypr",
+   "lat": "34.7005588",
+   "lon": "32.9936695",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=tennis+Tarbes": [
+  {
+   "name": "Impasse du Tennis",
+   "display_name": "Impasse du Tennis, Campuzan, Tarbes, Hautes-Pyrénées, Okcitánie, Metropolitní Francie, 65230, Francie",
+   "lat": "43.2712446",
+   "lon": "0.4304639",
+   "category": "highway",
+   "type": "service",
+   "addresstype": "road"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=tennis+Borne": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=tennis+Badhoevedorp": [
+  {
+   "name": "Tennis- en Padelvereniging Badhoevedorp",
+   "display_name": "Tennis- en Padelvereniging Badhoevedorp, 41, Snelliuslaan, Quatrebras, Badhoevedorp, Haarlemmermeer, Noord-Holland, Nizozemsko, 1171 CZ, Nizozemsko",
+   "lat": "52.3415030",
+   "lon": "4.7727532",
+   "category": "amenity",
+   "type": "community_centre",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=tennis+Banska+Bystrica": [
+  {
+   "name": "Tennis center",
+   "display_name": "Tennis center, Nová, Mazorníkovo, Brezno, okres Brezno, Banskobystrický kraj, 977 03, Slovensko",
+   "lat": "48.7942118",
+   "lon": "19.6357571",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=tennis+Tsaghkadzor": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=tennis+Svedala": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=tennis+Rotterdam": [
+  {
+   "name": "Tennisstraat",
+   "display_name": "Tennisstraat, Sportdorp, Groot-IJsselmonde, IJsselmonde, Rotterdam, Zuid-Holland, Nizozemsko, 3078 ZK, Nizozemsko",
+   "lat": "51.8934868",
+   "lon": "4.5324008",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=tennis+Sainte-Genevi%C3%A8ve-des-Bois": [
+  {
+   "name": "Stade de Tennis Guy Môquet",
+   "display_name": "Stade de Tennis Guy Môquet, Avenue Guy Môquet, Sainte-Geneviève-des-Bois, Palaiseau, Essonne, Île-de-France, Metropolitní Francie, 91700, Francie",
+   "lat": "48.6417943",
+   "lon": "2.3371488",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gr&format=jsonv2&limit=1&q=tennis+Larissa": [
+  {
+   "name": "Tennis Hall Academy",
+   "display_name": "Tennis Hall Academy, Περιφερειακή Οδός Λάρισας, Larisa, Δημοτική Ενότητα Λαρισαίων, Δήμος Λαρισαίων, Περιφερειακή Ενότητα Λάρισας, Περιφέρεια Θεσσαλίας, Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος, 415 00, Řecko",
+   "lat": "39.5967629",
+   "lon": "22.4295595",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=se&format=jsonv2&limit=1&q=tennis+Stockholm": [
+  {
+   "name": "Tennisvägen",
+   "display_name": "Tennisvägen, Nockebyhov, Bromma stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 168 41, Švédsko",
+   "lat": "59.3337038",
+   "lon": "17.9035785",
+   "category": "highway",
+   "type": "residential",
+   "addresstype": "residential"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=tennis+ROUBAIX": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ie&format=jsonv2&limit=1&q=tennis+Antrim": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=tennis+Bucharest": [
+  {
+   "name": "Tennis Hero",
+   "display_name": "Tennis Hero, 2, Șoseaua București-Ploiești, Băneasa, Sector 1, Bukurešť, 013692, Rumunsko",
+   "lat": "44.4860752",
+   "lon": "26.0792888",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=tennis+Veli+Lo%C5%A1inj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=tennis+NOVI+SAD": [
+  {
+   "name": "Tennis academy elite",
+   "display_name": "Tennis academy elite, 35, Булевар Јована Дучића, Шаренград, МЗ Бистрица, Nový Sad, Град Нови Сад, Јужнобачки управни округ, Vojvodina, 21137, Srbsko",
+   "lat": "45.2497767",
+   "lon": "19.7951210",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=tennis+Bistrita": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=tennis+PANCEVO": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=tennis+Trnava": [
+  {
+   "name": "Football tennis field Slávia",
+   "display_name": "Football tennis field Slávia, Jána Hajdóczyho, Kopánka, Trnava, okres Trnava, Trnavský kraj, 917 01, Slovensko",
+   "lat": "48.3851714",
+   "lon": "17.5883613",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=tennis+Ulcinj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=tennis+Kiskunf%C3%A9legyh%C3%A1za": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=tennis+Maglie": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=tennis+Bielsko-Bia%C5%82a": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=tennis+Le+Passage": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, Passage des Brières du Bourg, Le Clos d'Orange, Saint-Lyphard, Saint-Nazaire, Loire-Atlantique, Pays de la Loire, Metropolitní Francie, 44410, Francie",
+   "lat": "47.3957822",
+   "lon": "-2.3008243",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=tennis+MARIBOR": [
+  {
+   "name": "Elite Tennis Tour Academy",
+   "display_name": "Elite Tennis Tour Academy, Ribniško selo, Maribor, 2000, Slovinsko",
+   "lat": "46.5749569",
+   "lon": "15.6467897",
+   "category": "landuse",
+   "type": "recreation_ground",
+   "addresstype": "recreation_ground"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=tennis+Mogyorod": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=tennis+Zabrze": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=tennis+Koper": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hu&format=jsonv2&limit=1&q=tennis+Budapest": [
+  {
+   "name": "Mártonhegyi Tennis Club",
+   "display_name": "Mártonhegyi Tennis Club, Mártonhegyi út, Mártonhegy, XII. kerület, Budapešť, Budapest, 1121, Maďarsko",
+   "lat": "47.4906651",
+   "lon": "18.9974826",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=tennis+Villeneuve-Loubet": [
+  {
+   "name": "All in Tennis Nice",
+   "display_name": "All in Tennis Nice, Route de Grasse, Villeneuve-Loubet, Grasse, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, Metropolitní Francie, 06270, Francie",
+   "lat": "43.6585880",
+   "lon": "7.0943998",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=tennis+Szczecin": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=tennis+Arad": [
+  {
+   "name": "Tennis Club Pro",
+   "display_name": "Tennis Club Pro, Strada 9 Mai, Subcetate, Arad, 310119, Rumunsko",
+   "lat": "46.1665010",
+   "lon": "21.3253829",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=tennis+Celje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=tennis+Tolentino": [
+  {
+   "name": "Campi da Tennis Comunali",
+   "display_name": "Campi da Tennis Comunali, Via Arduino Germondani, Contrada Ributino, Tolentino, Macerata, Marche, 62029, Itálie",
+   "lat": "43.2106979",
+   "lon": "13.2889824",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=tennis+Jablonec+nad+Nisou": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ge&format=jsonv2&limit=1&q=tennis+Tbilisi": [
+  {
+   "name": "ალექსანდრე მეტრეველის სახელობის საჩოგბურთო კომპლექსი",
+   "display_name": "ალექსანდრე მეტრეველის სახელობის საჩოგბურთო კომპლექსი, ნინო რამიშვილის ქუჩა, ვაკე, ვაკის რაიონი, Tbilisi, 0179, Gruzie",
+   "lat": "41.7130176",
+   "lon": "44.7658141",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+Tuzla": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ge&format=jsonv2&limit=1&q=tennis+Telavi": [
+  {
+   "name": "Telavi Tennis Courts",
+   "display_name": "Telavi Tennis Courts, 26 მაისის ქუჩა, Telavi, Municipalita Telavi, Kachetie, 2200, Gruzie",
+   "lat": "41.9162324",
+   "lon": "45.4718407",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=tennis+CACAK": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=tennis+Crema": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=tennis+Vilamoura": [
+  {
+   "name": "Vilamoura Tennis Academy",
+   "display_name": "Vilamoura Tennis Academy, Avenida Engenheiro João Meireles, Vilamoura, Quarteira, Loulé, Faro, 8125-406, Portugalsko",
+   "lat": "37.0842660",
+   "lon": "-8.1170174",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pt&format=jsonv2&limit=1&q=tennis+Portim%C3%A3o": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=pl&format=jsonv2&limit=1&q=tennis+Szczawno+Zdroj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=tennis+Muenster": [
+  {
+   "name": "Tennis Central",
+   "display_name": "Tennis Central, 4, Osttor, Hiltrup-West, Hiltrup, Münster-Hiltrup, Münster, Severní Porýní-Vestfálsko, 48165, Německo",
+   "lat": "51.9052312",
+   "lon": "7.6556564",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=tennis+Velletri": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=tennis+Oberpullendorf": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, Föhrenhain, Katastralgemeinde Lackenbach, Lackenbach, Bezirk Oberpullendorf, Hradsko, 7322, Rakousko",
+   "lat": "47.5952789",
+   "lon": "16.4597789",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
  ]
 }
