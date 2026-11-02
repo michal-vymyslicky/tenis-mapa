@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 2. 11. 2026, verze webu v3.0).
+Předávací log (stav k 2. 11. 2026, verze webu v3.1).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -63,6 +63,11 @@ Předávací log (stav k 2. 11. 2026, verze webu v3.0).
   Základní (OSM, místní písmo – v Srbsku azbuka), Latinka (Esri), Turistická (OpenTopoMap), Letecká (Esri World Imagery + popisky).
   Volba v `localStorage` (tm.map). Vše bez klíče. Možné rozšíření: Mapy.com (základní/turistická/letecká/zimní) – potřebuje
   bezplatný API klíč z developer.mapy.com (vytvoří uživatel). Google Maps nedoporučeno (klíč + platební účet, podmínky).
+
+### v3.1 (2. 11. 2026) – lišta s rozbalovacími menu
+- Lišta: [Období / pod ním Od dnes] [Region ▾] [Kategorie ▾] (+ oblíbené, hráči).
+- Region: ČTS a Tennis Europe zaškrtávací, aspoň jeden zapnutý; vypnutí regionu zruší jeho kategorie.
+- Kategorie: vícenásobný výběr; ČTS v pořadí Babytenis, Střední kurt, Minitenis, Mladší žactvo, Starší žactvo, Dorost, Dospělí; pak Tennis Europe U12/U14/U16 (klíče te-u12… podle věku 12&U…, ne podle mapování na ČTS kategorie). U vybrané kategorie „upřesnit ▾“ rozbalí pohlaví a třídu (F.sub).
 
 ### v3.0 (2. 11. 2026) – přestavba horní lišty
 - Pořadí v liště: období (sezóna) · Od dnes | 🇨🇿 ČTS · 🇪🇺 Tennis Europe | kategorie | oblíbené | hráči.
