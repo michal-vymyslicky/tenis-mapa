@@ -312,3 +312,33 @@ button.logo{border:0;padding:0;cursor:pointer}
 .sheet[data-snap="min"] .headrow,.sheet[data-snap="min"] #tabs{visibility:hidden}
 @media (min-width:900px){ .catpanel{top:58px;left:424px;right:auto;width:380px;max-height:calc(100dvh - 90px)} }
 @media (prefers-color-scheme: dark){ .quick .qsep{background:rgba(255,255,255,.2)} .quick button.src.te:not(.on){color:#9fb6dd} }
+
+/* v3.1 – lišta: [období / Od dnes] [Region ▾] [Kategorie ▾] */
+.quick{align-items:flex-start;pointer-events:none}
+.quick>*{pointer-events:auto}
+.quick .qcol{display:flex;flex-direction:column;gap:6px;flex:none;pointer-events:none}
+.quick .qcol>*{pointer-events:auto;align-self:flex-start}
+.quick button.drop{font-weight:600}
+.quick button.drop.reg{background:var(--surface);color:var(--text)}
+.quick button.drop.cat.on{background:var(--text);color:var(--surface)}
+.quick button.drop .car{font-size:11px;opacity:.7;transition:transform .2s;margin-left:-2px}
+.quick button.drop.open .car{transform:rotate(180deg)}
+.quick button.drop.open{box-shadow:0 0 0 2px var(--accent)}
+.catpanel,.seasonmenu{top:calc(var(--top) + 140px)}
+.hint{top:calc(var(--top) + 148px)}
+.catpanel{max-height:calc(100dvh - var(--top) - 190px)}
+.cp-grp{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;padding:10px 2px 4px;border-top:1px solid var(--line)}
+.cp-head+.cp-grp{border-top:0;padding-top:2px}
+.cp-opt{display:flex;align-items:center;gap:10px;width:100%;min-height:42px;padding:6px 6px;border-radius:10px;text-align:left;font-size:15px}
+.cp-opt:hover{background:var(--surface2)}
+.cp-opt .ck{flex:none;width:20px;height:20px;border-radius:6px;border:2px solid var(--surface3);display:grid;place-items:center}
+.cp-opt.on .ck{background:var(--accent);border-color:var(--accent)}
+.cp-opt.on .ck::after{content:"";width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:translateY(-1px) rotate(45deg)}
+.cp-opt .l{flex:1;font-weight:500}
+.cp-opt small{color:var(--muted);font-size:13px;min-width:28px;text-align:right}
+.cp-opt .more{font-size:12.5px;font-weight:600;color:var(--accent);background:var(--accent-soft);border-radius:12px;padding:3px 9px;display:inline-flex;gap:4px;align-items:center}
+.cp-opt .more .sc{font-size:11px;background:var(--accent);color:#fff;border-radius:8px;padding:0 5px;line-height:16px}
+.cp-sub{margin:0 0 6px 36px;padding:2px 0 4px}
+.cp-sub .cp-row:first-child{border-top:0}
+@media (min-width:900px){ .catpanel,.seasonmenu{top:96px} .hint{top:104px} .catpanel{max-height:calc(100dvh - 120px)} }
+.catpanel{z-index:985}

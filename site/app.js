@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.0";
+const APP_VERSION = "v3.1";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -21,7 +21,8 @@ const flag = cc => cc && cc.length === 2 ? String.fromCodePoint(...[...cc.toUppe
 const CLASS_LABEL = {MCR: T("MČR"), A: "A", B: "B", P: T("P – přebor"), C: "C", D: "D", E: "E", "": T("bez třídy"),
   TS: "TE Super Category", TEC: T("TE mistrovství Evropy"), TM: "TE Masters", T1: T("TE kategorie 1"), T2: T("TE kategorie 2"), T3: T("TE kategorie 3"),
   TF: "TE Festival", TI: "TE Invitational", TSS: "TE Small States", TX: T("TE ostatní")};
-const CAT_ORDER = ["mladsi-zactvo", "starsi-zactvo", "dorost", "dospeli", "babytenis", "stredni-kurt", "minitenis"];
+/* pořadí podle ČTS: od nejmladších */
+const CAT_ORDER = ["babytenis", "stredni-kurt", "minitenis", "mladsi-zactvo", "starsi-zactvo", "dorost", "dospeli"];
 const CAT_SHORT = Object.fromEntries(Object.entries({"dospeli": "Dospělí", "dorost": "Dorost", "starsi-zactvo": "Starší žactvo", "mladsi-zactvo": "Mladší žactvo", "babytenis": "Babytenis", "stredni-kurt": "Střední kurt", "minitenis": "Minitenis"}).map(([k, v]) => [k, T(v)]));
 const CAT_QUICK = EN ? {"mladsi-zactvo": "U12", "starsi-zactvo": "U14", "dorost": "U18", "dospeli": "Adults", "babytenis": "Babytennis", "stredni-kurt": "Midcourt", "minitenis": "Minitennis"}
   : {"mladsi-zactvo": "Ml. žactvo", "starsi-zactvo": "St. žactvo", "dorost": "Dorost", "dospeli": "Dospělí", "babytenis": "Babytenis", "stredni-kurt": "Střední kurt", "minitenis": "Minitenis"};
@@ -198,8 +199,8 @@ function evMatches(e, opt = {}) {
   if (e.od && (e.do || e.od) < F.from) return false;
   if (e.od && e.od > to) return false;
   if (F.src !== "all" && (e.src === "te") !== (F.src === "te")) return false;
-  if (F.cat.length && !(e.kats || [e.kat]).some(k => F.cat.includes(k) && subOk(k, e))) return false;
-  if (!F.cat.length && Object.keys(F.sub).length && !(e.kats || [e.kat]).some(k => subOk(k, e))) return false;
+  if (F.cat.length && !catKeys(e).some(k => F.cat.includes(k) && subOk(k, e))) return false;
+  if (!F.cat.length && Object.keys(F.sub).length && !catKeys(e).some(k => subOk(k, e))) return false;
   if (F.sex.length && !e.mix && !((F.sex.includes("m") && e.km) || (F.sex.includes("z") && e.kz))) return false;
   if (F.cls.length && !F.cls.includes(e.tr || "")) return false;
   if (!surfMatch(e)) return false;
@@ -275,73 +276,117 @@ function drawMyPos(acc) {
 }
 
 /* ---------- rychlé volby + filtry ---------- */
+/* v3.1: [Období / Od dnes] [Region ▾] [Kategorie ▾] – rozbalovací panely pod lištou (#catPanel) */
+let dropOpen = null;   // "region" | "cat" | null
 function renderQuick() {
   const q = $("#quick");
   const dateTxt = F.to ? `${dShort(F.from)} – ${dShort(F.to)}` : F.from === iso(today) ? T("Od dnes") : F.from <= sezInfo().od ? T("Celá sezóna") : `${T("Od")} ${dShort(F.from)}`;
-  const counts = {}; for (const e of EV) if (srcOn(e)) for (const k of (e.kats || [e.kat])) counts[k] = (counts[k] || 0) + 1;
-  const hasTE = TEDATA && TEDATA.turnaje.length;
   const ctsOn = F.src !== "te", teOn = F.src !== "cts";
-  // 1) období  2) země / zdroj  3) kategorie (klepnutí rozbalí další volby)
-  q.innerHTML = (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") +
-    `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button><i class="qsep"></i>` +
-    `<button class="src${ctsOn ? " on" : ""}" data-q="src:cts">🇨🇿 ČTS</button>` + (hasTE ? `<button class="src te${teOn ? " on" : ""}" data-q="src:te">🇪🇺 Tennis Europe</button>` : "") + `<i class="qsep"></i>` +
-    CAT_ORDER.filter(k => counts[k]).map(k => `<button data-q="${k}" class="cat${F.cat.includes(k) ? " on" : ""}${catOpen === k ? " open" : ""}">${CAT_QUICK[k]}${subCount(k) ? ` <b class="sc">${subCount(k)}</b>` : ""} <span class="car">▾</span></button>`).join("") +
-    (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "");
-  q.insertAdjacentHTML("afterbegin", F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join(""));
+  const regTxt = ctsOn && teOn ? "🇨🇿 ČTS + 🇪🇺 TE" : teOn ? "🇪🇺 Tennis Europe" : "🇨🇿 ČTS";
+  const sel = CAT_ALL.filter(k => F.cat.includes(k));
+  const catTxt = !sel.length ? T("Všechny kategorie") : sel.length === 1 ? catLab(sel[0]) : T("Kategorie") + " (" + sel.length + ")";
+  const nsub = Object.keys(F.sub).reduce((a, k) => a + subCount(k), 0);
+  q.innerHTML = `<div class="qcol">` +
+      (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") +
+      `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button></div>` +
+    `<button class="drop reg${dropOpen === "region" ? " open" : ""}" data-q="region">${regTxt} <span class="car">▾</span></button>` +
+    `<button class="drop cat${sel.length ? " on" : ""}${dropOpen === "cat" ? " open" : ""}" data-q="cat">${esc(catTxt)}${nsub ? ` <b class="sc">${nsub}</b>` : ""} <span class="car">▾</span></button>` +
+    (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "") +
+    F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join("");
   q.querySelectorAll(".x").forEach(x => x.onclick = ev => { ev.stopPropagation(); togglePlayer(x.dataset.x, false); });
   q.querySelectorAll("button").forEach(b => b.onclick = () => {
     const k = b.dataset.q;
-    if (k === "date") { showPanel("filters"); setSnap("full"); return; }
-    if (k === "season") return toggleSeasonMenu();
+    if (k === "date") { dropOpen = null; renderDrop(); showPanel("filters"); setSnap("full"); return; }
+    if (k === "season") { dropOpen = null; renderDrop(); return toggleSeasonMenu(); }
     if (k === "fav") { F.favOnly = false; return render(); }
-    if (k.startsWith("src:")) return toggleSrc(k.slice(4));
     if (k.startsWith("pl:")) return openPlayer(k.slice(3));
-    // kategorie: první klepnutí vybere a rozbalí volby, další klepnutí volby sbalí / znovu rozbalí
-    if (!F.cat.includes(k)) { F.cat.push(k); catOpen = k; }
-    else catOpen = catOpen === k ? null : k;
-    render();
+    $("#seasonMenu")?.remove();
+    dropOpen = dropOpen === k ? null : k;
+    if (k === "cat" && dropOpen) catOpen = null;
+    renderQuick();
   });
-  renderCatPanel();
+  renderDrop();
 }
+const TE_CATS = ["te-u12", "te-u14", "te-u16"];
+const CAT_ALL = [...CAT_ORDER, ...TE_CATS];
+const catLab = k => k.startsWith("te-") ? "TE " + k.slice(3).toUpperCase() : CAT_QUICK[k];
+/* kategorie turnaje pro filtr: ČTS podle soutěžního řádu, Tennis Europe podle věku (12&U → U12 …) */
+const catKeys = e => e.src === "te" ? (e.ages || []).map(a => "te-u" + parseInt(a, 10)).filter(k => TE_CATS.includes(k)) : (e.kats || [e.kat]);
 const srcOn = e => F.src === "all" || (e.src === "te") === (F.src === "te");
-/* zdroj: ČTS a Tennis Europe lze zapnout zvlášť i současně, aspoň jeden zůstane zapnutý */
+/* region: ČTS a Tennis Europe lze zapnout zvlášť i současně, aspoň jeden zůstane zapnutý */
 function toggleSrc(which) {
   let cts = F.src !== "te", te = F.src !== "cts";
   if (which === "cts") cts = !cts; else te = !te;
   if (!cts && !te) { if (which === "cts") te = true; else cts = true; }
   const was = F.src;
   F.src = cts && te ? "all" : te ? "te" : "cts";
-  catOpen = null; render();
+  // kategorie vypnutého regionu se zruší
+  const keep = k => (k.startsWith("te-") ? te : cts);
+  F.cat = F.cat.filter(keep); for (const k of Object.keys(F.sub)) if (!keep(k)) delete F.sub[k];
+  render();
   if (F.src !== "cts" && was === "cts") { toast(T("Přidány mezinárodní turnaje Tennis Europe")); fitShown(); }
   else if (F.src === "cts" && was !== "cts") fitVisible(L.latLngBounds(CZ));
   else if (F.src === "te") fitShown();
 }
-/* rozbalovací panel kategorie pod lištou: pohlaví, třída ČTS, kategorie Tennis Europe */
-function renderCatPanel() {
+/* rozbalovací panel pod lištou: Region (ČTS / Tennis Europe) nebo Kategorie (vícenásobný výběr + upřesnění) */
+function renderDrop() {
   const box = $("#catPanel");
-  if (!catOpen || !F.cat.includes(catOpen)) { box.hidden = true; box.innerHTML = ""; return; }
-  const k = catOpen, s = F.sub[k] || {sex: [], cls: []};
-  const evs = EV.filter(e => srcOn(e) && (e.kats || [e.kat]).includes(k));
-  const tc = {}; for (const e of evs) tc[e.tr || ""] = (tc[e.tr || ""] || 0) + 1;
-  const mix = evs.length && evs.every(e => e.mix && e.src !== "te");
-  const sexLab = k === "dospeli" ? [T("Muži"), T("Ženy")] : [T("Chlapci"), T("Dívky")];
-  const btn = (grp, v, l, on, color) => `<button data-g="${grp}" data-v="${esc(v)}" class="${on ? "on" : ""}"${color ? ` style="--c:${color}"` : ""}>${color ? `<i class="dot" style="background:${color}"></i>` : ""}${esc(l)}</button>`;
-  const cls = CLASS_ORDER.filter(c => tc[c]);
-  box.innerHTML = `<div class="cp-head"><b>${esc(CAT_SHORT[k])}</b><small>${nf(evs.length)} ${T("turnajů")}</small></div>` +
-    (mix ? "" : `<div class="cp-row"><span>${T("Pohlaví")}</span><div class="chips">${btn("sex", "m", sexLab[0], (s.sex || []).includes("m"))}${btn("sex", "z", sexLab[1], (s.sex || []).includes("z"))}</div></div>`) +
-    (cls.length > 1 ? `<div class="cp-row"><span>${T("Třída")}</span><div class="chips">${cls.map(c => btn("cls", c, clsShort(c) === "–" ? T("bez třídy") : clsShort(c), (s.cls || []).includes(c), colorOf(c))).join("")}</div></div>` : "") +
-    `<div class="cp-foot"><button data-a="remove" class="ghost">${T("Odebrat kategorii")}</button><button data-a="done" class="primary">${T("Hotovo")}</button></div>`;
-  box.hidden = false;
+  if (!dropOpen) { box.hidden = true; box.innerHTML = ""; return; }
+  const inDate = e => { const to = F.to || "9999"; return !(e.od && ((e.do || e.od) < F.from || e.od > to)) && (F.cancelled || e.st !== "zruseno"); };
+  const ctsOn = F.src !== "te", teOn = F.src !== "cts";
+  const row = (attr, on, label, n, extra = "") => `<button class="cp-opt${on ? " on" : ""}" ${attr}><i class="ck"></i><span class="l">${label}</span>${extra}<small>${n == null ? "" : nf(n)}</small></button>`;
+  let h = "";
+  if (dropOpen === "region") {
+    const nC = EV.filter(e => e.src !== "te" && inDate(e)).length, nT = EV.filter(e => e.src === "te" && inDate(e)).length;
+    h = `<div class="cp-head"><b>${T("Region")}</b><small>${T("lze vybrat oba")}</small></div>` +
+      row('data-src="cts"', ctsOn, "🇨🇿 " + T("ČTS – turnaje v ČR"), nC) +
+      (TEDATA && TEDATA.turnaje.length ? row('data-src="te"', teOn, "🇪🇺 " + T("Tennis Europe – mezinárodní"), nT) : "");
+  } else {
+    const cnt = {}; for (const e of EV) if (srcOn(e) && inDate(e)) for (const k of catKeys(e)) cnt[k] = (cnt[k] || 0) + 1;
+    const opt = k => {
+      const on = F.cat.includes(k), s = F.sub[k] || {}, te = k.startsWith("te-");
+      const sc = subCount(k);
+      let out = row(`data-c="${k}"`, on, esc(te ? "Tennis Europe " + k.slice(3).toUpperCase() : CAT_SHORT[k]), cnt[k] || 0,
+        on ? `<span class="more${catOpen === k ? " open" : ""}" data-more="${k}">${sc ? `<b class="sc">${sc}</b>` : T("upřesnit")} ▾</span>` : "");
+      if (on && catOpen === k) {
+        const evs = EV.filter(e => srcOn(e) && inDate(e) && catKeys(e).includes(k));
+        const tc = {}; for (const e of evs) tc[e.tr || ""] = (tc[e.tr || ""] || 0) + 1;
+        const mix = te || (evs.length && evs.every(e => e.mix));
+        const sexLab = k === "dospeli" ? [T("Muži"), T("Ženy")] : [T("Chlapci"), T("Dívky")];
+        const b = (g, v, l, color) => `<button data-g="${g}" data-ck="${k}" data-v="${esc(v)}" class="${(s[g] || []).includes(v) ? "on" : ""}">${color ? `<i class="dot" style="background:${color}"></i>` : ""}${esc(l)}</button>`;
+        const cls = CLASS_ORDER.filter(c => tc[c]);
+        out += `<div class="cp-sub">` +
+          (mix ? "" : `<div class="cp-row"><span>${T("Pohlaví")}</span><div class="chips">${b("sex", "m", sexLab[0])}${b("sex", "z", sexLab[1])}</div></div>`) +
+          (cls.length > 1 ? `<div class="cp-row"><span>${T("Třída")}</span><div class="chips">${cls.map(c => b("cls", c, clsShort(c) === "–" ? T("bez třídy") : clsShort(c), colorOf(c))).join("")}</div></div>` : "") +
+          (mix && cls.length < 2 ? `<div class="cp-row"><span class="muted">${T("Bez dalších voleb")}</span></div>` : "") + `</div>`;
+      }
+      return out;
+    };
+    const cts = CAT_ORDER.filter(k => cnt[k] || F.cat.includes(k)), te = TE_CATS.filter(k => cnt[k] || F.cat.includes(k));
+    h = `<div class="cp-head"><b>${T("Kategorie")}</b><small>${T("lze vybrat více")}</small></div>` +
+      (ctsOn && cts.length ? `<div class="cp-grp">🇨🇿 ČTS</div>` + cts.map(opt).join("") : "") +
+      (teOn && te.length ? `<div class="cp-grp">🇪🇺 Tennis Europe</div>` + te.map(opt).join("") : "");
+  }
+  h += `<div class="cp-foot">${dropOpen === "cat" ? `<button data-a="clear" class="ghost">${T("Všechny kategorie")}</button>` : "<span></span>"}<button data-a="done" class="primary">${T("Hotovo")}</button></div>`;
+  box.innerHTML = h; box.hidden = false;
+  box.querySelectorAll("[data-src]").forEach(b => b.onclick = () => toggleSrc(b.dataset.src));
+  box.querySelectorAll("[data-c]").forEach(b => b.onclick = ev => {
+    const k = b.dataset.c;
+    if (ev.target.closest("[data-more]")) { catOpen = catOpen === k ? null : k; return renderQuick(); }
+    if (F.cat.includes(k)) { F.cat = F.cat.filter(x => x !== k); delete F.sub[k]; if (catOpen === k) catOpen = null; }
+    else { F.cat.push(k); catOpen = k; }
+    render();
+  });
   box.querySelectorAll("[data-g]").forEach(b => b.onclick = () => {
-    const cur = F.sub[k] || {sex: [], cls: []}, a = cur[b.dataset.g] || (cur[b.dataset.g] = []);
-    const i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v);
+    const k = b.dataset.ck, cur = F.sub[k] || {sex: [], cls: []}; cur.sex ||= []; cur.cls ||= [];
+    const a = cur[b.dataset.g], i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v);
     if (cur.sex.length || cur.cls.length) F.sub[k] = cur; else delete F.sub[k];
     render();
   });
-  box.querySelector('[data-a="remove"]').onclick = () => { F.cat = F.cat.filter(x => x !== k); delete F.sub[k]; catOpen = null; render(); };
-  box.querySelector('[data-a="done"]').onclick = () => { catOpen = null; render(); };
+  box.querySelector('[data-a="clear"]')?.addEventListener("click", () => { F.cat = []; F.sub = {}; catOpen = null; render(); });
+  box.querySelector('[data-a="done"]').onclick = () => { dropOpen = null; catOpen = null; renderQuick(); };
 }
-document.addEventListener("pointerdown", e => { if (catOpen && !e.target.closest("#catPanel, .quick")) { catOpen = null; renderQuick(); } });
+document.addEventListener("pointerdown", e => { if (dropOpen && !e.target.closest("#catPanel, .quick")) { dropOpen = null; catOpen = null; renderQuick(); } });
 
 function chip(container, items, key) {
   const el = typeof container === "string" ? $(container) : container; el.innerHTML = "";
@@ -356,8 +401,8 @@ function chip(container, items, key) {
 }
 function buildFilterUI() {
   const cnt = f => { const c = {}; for (const e of EV) { const k = f(e); c[k] = (c[k] || 0) + 1; } return c; };
-  const cc = cnt(e => e.kat);
-  chip("#fCat", CAT_ORDER.map(k => ({v: k, l: CAT_SHORT[k], n: cc[k] || 0})), "cat");
+  const cc = {}; for (const e of EV) for (const k of catKeys(e)) cc[k] = (cc[k] || 0) + 1;
+  chip("#fCat", CAT_ALL.filter(k => cc[k] || !k.startsWith("te-")).map(k => ({v: k, l: k.startsWith("te-") ? "Tennis Europe " + k.slice(3).toUpperCase() : CAT_SHORT[k], n: cc[k] || 0})), "cat");
   chip("#fSex", [{v: "m", l: T("Chlapci / muži")}, {v: "z", l: T("Dívky / ženy")}], "sex");
   const tc = cnt(e => e.tr || "");
   chip("#fClass", CLASS_ORDER.filter(k => tc[k] && !TE_CLS.has(k)).map(k => ({v: k, l: CLASS_LABEL[k], n: tc[k], color: colorOf(k)})), "cls");
@@ -934,7 +979,7 @@ $("#btnBase").onclick = () => toggleBaseMenu();
 $("#btnLocate").onclick = () => { if (MYPOS) { MYPOS = null; drawMyPos(); render(); } else locate(); };
 $("#btnLegend").onclick = () => { $("#legend").hidden = !$("#legend").hidden; $("#btnLegend").classList.toggle("on", !$("#legend").hidden); };
 $("#legend").addEventListener("click", e => { const b = e.target.closest("button.lg"); if (!b) return; const a = F.cls, i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v); render(); });
-$("#btnReset").onclick = () => { F = defaults(); catOpen = null; render(); };
+$("#btnReset").onclick = () => { F = defaults(); catOpen = null; dropOpen = null; render(); };
 $("#btnShow").onclick = () => { showPanel("list"); if (!isDesk()) setSnap("peek"); };
 $$("#fSrc button").forEach(b => b.onclick = () => { F.src = b.dataset.src; render(); });
 $("#btnShare").onclick = shareFavs;
