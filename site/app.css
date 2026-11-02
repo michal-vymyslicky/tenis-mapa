@@ -19,6 +19,7 @@ svg .fill{fill:currentColor;stroke:none}
 #map{position:fixed;inset:0;background:var(--surface3)}
 .leaflet-container{font:inherit}
 .leaflet-tile-pane{filter:saturate(.45) contrast(.92) brightness(1.04)}
+body.map-photo .leaflet-tile-pane{filter:none!important}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .leaflet-tile-pane{filter:invert(.92) hue-rotate(180deg) saturate(.35) brightness(.95) contrast(.9)}}
 .leaflet-control-attribution{font-size:10px;background:rgba(255,255,255,.75)!important;border-radius:8px 0 0 0}
 
@@ -273,3 +274,8 @@ button.logo{border:0;padding:0;cursor:pointer}
 .fsec.te-sec{background:#f2f6fd;border-radius:14px;padding:12px;margin-left:-4px;margin-right:-4px}
 .fsec.te-sec h4{margin:12px 0 6px;font-size:13px;color:var(--muted)}
 @media (prefers-color-scheme: dark){ .fsec.te-sec{background:rgba(80,120,200,.12)} .quick button.te:not(.on){color:#9fb6dd} }
+
+/* v2.9: výběr mapového podkladu (vedle tlačítek mapy) */
+.basemenu{left:auto!important;right:64px;top:calc(var(--top) + 150px)}
+@media (min-width:900px){.basemenu{left:auto!important;right:70px;top:120px}}
+.basemenu button small{max-width:230px}

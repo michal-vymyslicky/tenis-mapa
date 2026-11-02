@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 1. 11. 2026, noc, verze webu v2.8).
+Předávací log (stav k 1. 11. 2026, noc, verze webu v2.9).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -57,6 +57,12 @@ Předávací log (stav k 1. 11. 2026, noc, verze webu v2.8).
 - Přesná adresa, počet přihlášených a kapacita turnajů TE: jsou jen na stránkách detailu (/sport/), které robots.txt Tennis Europe
   zakazuje strojově číst → čeká se na svolení Tennis Europe (koncept e-mailu: `web/tenis-mapa_TE_zadost.html`). Po svolení doplnit
   skript pro detail (adresa, přihlášení, max. hráčů) – data pak do karty turnaje TE.
+
+## v2.9 – mapové podklady
+- Tlačítko „Mapový podklad“ (ikona vrstev): Automaticky (výchozí – OSM v ČR, mimo ČR Esri World Street Map s názvy latinkou),
+  Základní (OSM, místní písmo – v Srbsku azbuka), Latinka (Esri), Turistická (OpenTopoMap), Letecká (Esri World Imagery + popisky).
+  Volba v `localStorage` (tm.map). Vše bez klíče. Možné rozšíření: Mapy.com (základní/turistická/letecká/zimní) – potřebuje
+  bezplatný API klíč z developer.mapy.com (vytvoří uživatel). Google Maps nedoporučeno (klíč + platební účet, podmínky).
 
 ## Údržba
 - Nový žebříček ČTS: exportovat z Tenis Data `data/01_zebricky/zebricky.csv` do `pipeline/zebricek_<období>.json`

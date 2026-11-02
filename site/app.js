@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v2.8";
+const APP_VERSION = "v2.9";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -120,8 +120,39 @@ let ctx = {}, lastVenue = null;   // kontext pro hlášení problému
 const CZ = [[48.55, 12.09], [51.06, 18.86]];
 const map = L.map("map", {zoomControl: false, attributionControl: true}).fitBounds(CZ);
 if (isDesk()) L.control.zoom({position: "bottomright"}).addTo(map);
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom: 19, crossOrigin: true,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · data <a href="https://cesky-tenis.cz">ČTS</a>'}).addTo(map);
+/* mapové podklady: automaticky (OSM v ČR, latinka v zahraničí), základní OSM, latinka (Esri), turistická (OpenTopoMap), letecká (Esri) */
+const DATA_ATTR = ' · data <a href="https://cesky-tenis.cz">ČTS</a>, <a href="https://www.tenniseurope.org">Tennis Europe</a>';
+const OSM_ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
+const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/";
+const BASES = {
+  osm: () => L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom: 19, crossOrigin: true, attribution: OSM_ATTR + DATA_ATTR}),
+  latin: () => L.tileLayer(ESRI + "World_Street_Map/MapServer/tile/{z}/{y}/{x}", {maxZoom: 19, crossOrigin: true,
+    attribution: "Tiles &copy; Esri – Esri, HERE, Garmin, " + OSM_ATTR + DATA_ATTR}),
+  topo: () => L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {maxZoom: 17, subdomains: "abc", crossOrigin: true,
+    attribution: OSM_ATTR + ', SRTM · styl <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA)' + DATA_ATTR}),
+  aerial: () => L.layerGroup([
+    L.tileLayer(ESRI + "World_Imagery/MapServer/tile/{z}/{y}/{x}", {maxZoom: 19, crossOrigin: true,
+      attribution: "Tiles &copy; Esri – Esri, Maxar, Earthstar Geographics" + DATA_ATTR}),
+    L.tileLayer(ESRI + "Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}", {maxZoom: 19, crossOrigin: true})]),
+};
+const BASE_LABEL = {auto: "Automaticky", osm: "Základní", latin: "Latinka", topo: "Turistická", aerial: "Letecká"};
+const BASE_HINT = {auto: "OpenStreetMap v ČR, v zahraničí popisky latinkou", osm: "OpenStreetMap – místní písmo (v Srbsku azbuka)",
+  latin: "Esri – všechny názvy latinkou", topo: "OpenTopoMap – vrstevnice, turistické trasy", aerial: "Esri – satelitní snímky s popisky"};
+let baseMode = LS.get("tm.map", "auto"), baseKey = null, baseLayer = null;
+const inCZ = c => c.lat > 48.4 && c.lat < 51.2 && c.lng > 11.9 && c.lng < 19.0;
+function applyBase() {
+  let c = map.getCenter();
+  try { const r = visibleRect(); c = map.containerPointToLatLng([(r.left + r.right) / 2, (r.top + r.bottom) / 2]); } catch {}
+  const want = baseMode === "auto" ? (inCZ(c) ? "osm" : "latin") : baseMode;
+  if (want === baseKey) return;
+  const nl = BASES[want]();
+  nl.addTo(map);
+  if (baseLayer) map.removeLayer(baseLayer);
+  baseLayer = nl; baseKey = want;
+  document.body.classList.toggle("map-photo", want === "topo" || want === "aerial");
+}
+applyBase();
+map.on("moveend", () => { if (baseMode === "auto") applyBase(); });
 const cluster = L.markerClusterGroup({maxClusterRadius: 42, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
   iconCreateFunction: c => { const n = c.getChildCount(); const s = n < 10 ? 34 : n < 50 ? 40 : 46;
     return L.divIcon({html: `<div class="cluster" style="width:${s}px;height:${s}px">${n}</div>`, className: "", iconSize: [s, s]}); }});
@@ -840,6 +871,7 @@ document.addEventListener("pointerdown", e => { if (!e.target.closest("#suggest,
 $("#fFree").onchange = e => { F.free = e.target.checked; render(); };
 $("#fCancelled").onchange = e => { F.cancelled = e.target.checked; render(); };
 $("#fGuess").onchange = e => { F.guess = e.target.checked; render(); };
+$("#btnBase").onclick = () => toggleBaseMenu();
 $("#btnLocate").onclick = () => { if (MYPOS) { MYPOS = null; drawMyPos(); render(); } else locate(); };
 $("#btnLegend").onclick = () => { $("#legend").hidden = !$("#legend").hidden; $("#btnLegend").classList.toggle("on", !$("#legend").hidden); };
 $("#legend").addEventListener("click", e => { const b = e.target.closest("button.lg"); if (!b) return; const a = F.cls, i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v); render(); });
@@ -900,6 +932,15 @@ function fitShown() {
   const pts = [...new Set(shown.map(e => e.misto))].map(i => VEN[i]).filter(v => v && v.lat != null).map(v => [v.lat, v.lon]);
   if (pts.length) fitVisible(L.latLngBounds(pts));
 }
+function toggleBaseMenu() {
+  let m = $("#baseMenu");
+  if (m) { m.remove(); return; }
+  m = document.createElement("div"); m.id = "baseMenu"; m.className = "seasonmenu basemenu";
+  m.innerHTML = `<div class="sh">${T("Mapový podklad")}</div>` + Object.keys(BASE_LABEL).map(k => `<button data-b="${k}" class="${k === baseMode ? "on" : ""}"><span>${esc(T(BASE_LABEL[k]))}</span><small>${esc(T(BASE_HINT[k]))}</small></button>`).join("");
+  document.body.appendChild(m);
+  m.querySelectorAll("[data-b]").forEach(b => b.onclick = () => { m.remove(); baseMode = b.dataset.b; LS.set("tm.map", baseMode); baseKey = null; applyBase(); });
+}
+document.addEventListener("pointerdown", e => { const m = $("#baseMenu"); if (m && !e.target.closest("#baseMenu, #btnBase")) m.remove(); });
 function toggleSeasonMenu() {
   let m = $("#seasonMenu");
   if (m) { m.remove(); return; }
