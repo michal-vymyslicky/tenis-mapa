@@ -46,7 +46,7 @@ window.I18N = (() => {
     "30 dní": "30 days",
     "Celá sezóna": "Whole season",
     "Kategorie": "Category",
-    "Pohlaví": "Gender", "Třída": "Grade", "Odebrat kategorii": "Remove category", "Hotovo": "Done", "Region": "Region", "lze vybrat oba": "choose one or both", "lze vybrat více": "multiple choice", "Všechny kategorie": "All categories", "{n} kategorie": "{n} categories", "upřesnit": "refine", "Bez dalších voleb": "No further options", "ČTS – turnaje v ČR": "ČTS – Czech tournaments", "Tennis Europe – mezinárodní": "Tennis Europe – international",
+    "Pohlaví": "Gender", "Třída": "Grade", "Odebrat kategorii": "Remove category", "Hotovo": "Done", "Seřazeno podle vzdálenosti od středu mapy": "Sorted by distance from the map centre", "Region": "Region", "lze vybrat oba": "choose one or both", "lze vybrat více": "multiple choice", "Všechny kategorie": "All categories", "{n} kategorie": "{n} categories", "upřesnit": "refine", "Bez dalších voleb": "No further options", "ČTS – turnaje v ČR": "ČTS – Czech tournaments", "Tennis Europe – mezinárodní": "Tennis Europe – international",
     "Třída turnaje": "Tournament grade",
     "Povrch": "Surface",
     "Konkrétní typy povrchů": "Specific surface types",

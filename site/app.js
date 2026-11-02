@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.2";
+const APP_VERSION = "v3.3";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -114,7 +114,7 @@ let catOpen = null;   // kategorie, jejíž rozbalovací volby jsou otevřené p
 let TEDATA = null;   // turnaje Tennis Europe (data/TE/turnaje.json) – přimíchají se do sezóny podle termínu
 // oblíbené: ID turnaje obsahuje sezónu (od v2.4); starší ID bez sezóny patří k Z2627
 let FAV = new Set(LS.get("tm.fav", []).map(id => /^([ZL]\d{2}|TE-)/.test(id) ? id : "Z2627-" + id));
-let panel = "list", stack = [], popping = false;
+let panel = "list", stack = [], popping = false, listState = null;
 const SUB = new Set(["detail", "report", "about", "player"]);
 let ctx = {}, lastVenue = null;   // kontext pro hlášení problému
 
@@ -154,7 +154,10 @@ function applyBase() {
   document.body.classList.toggle("map-photo", want === "topo" || want === "aerial");
 }
 applyBase();
-map.on("moveend", () => { if (baseMode === "auto") applyBase(); });
+map.on("moveend", () => {
+  if (baseMode === "auto") applyBase();
+  if (panel === "list" && viewKey() !== listKey) { clearTimeout(map._lt); map._lt = setTimeout(() => { if (panel === "list" && viewKey() !== listKey) { renderList(); $("#sheetBody").scrollTop = 0; } }, 250); }
+});
 const cluster = L.markerClusterGroup({maxClusterRadius: 42, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
   iconCreateFunction: c => { const n = c.getChildCount(); const s = n < 10 ? 34 : n < 50 ? 40 : 46;
     return L.divIcon({html: `<div class="cluster" style="width:${s}px;height:${s}px">${n}</div>`, className: "", iconSize: [s, s]}); }});
@@ -547,7 +550,8 @@ const isNew = e => e.nove && (today - pd(e.nove)) / 864e5 <= 7 && (e.src === "te
 /* kompaktní řádek do seznamu */
 function item(e) {
   const v = VEN[e.misto] || {}, zr = e.st === "zruseno";
-  const d = MYPOS && v.lat != null ? ` · ${Math.round(km(MYPOS, [v.lat, v.lon]))} km` : "";
+  const dn = NEAR && v.lat != null ? `<b class="dist">${fmtKm(km(NEAR, [v.lat, v.lon]))}</b> · ` : "";
+  const d = NEAR ? "" : MYPOS && v.lat != null ? ` · ${Math.round(km(MYPOS, [v.lat, v.lon]))} km` : "";
   const occ = occOf(e).filter(Boolean);
   const full = occ.length && occ.every(o => o[0] >= o[1]);
   const te = e.src === "te";
@@ -555,7 +559,7 @@ function item(e) {
   return `<div class="item${zr ? " zr" : ""}" data-ev="${esc(e.id)}">
     <i class="bar" style="background:${colorOf(e.tr, zr)}"></i>
     <div class="main"><div class="t">${esc(e.nz || e.por)}</div>
-      <div class="s">${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
+      <div class="s">${dn}${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
       <div class="m"><span class="pill cls" style="background:${colorOf(e.tr, zr)}">${esc(clsShort(e.tr))}</span>${te ? `<span class="pill">${esc((e.ages || []).join(", ").replace(/&U/g, "U") || "–")}</span><span class="pill flag">${flag(e.zeme)}</span>` : `<span class="pill">${esc(CAT_QUICK[e.kat])}</span><span class="pill">${sex}</span>`}
       ${e.kap ? `<span class="pill${full ? " full" : ""}">${full ? T("plno") : "max " + e.kap}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfLabel(surfGroup(e.pov)))}</span>` : ""}
       ${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${partCancel(e) ? `<span class="pill zr">${partCancel(e)} ${T("zrušeno")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${playerPills(e)}</div></div>
@@ -610,7 +614,7 @@ function bind(root) {
   root.querySelectorAll("[data-fav]").forEach(b => b.onclick = ev => { ev.stopPropagation(); toggleFav(b.dataset.fav); b.classList.toggle("on", FAV.has(b.dataset.fav)); });
   root.querySelectorAll("[data-report-ev]").forEach(a => a.onclick = ev => { ev.stopPropagation(); openReport({ev: a.dataset.reportEv, venue: lastVenue}); });
   root.querySelectorAll("[data-report-venue]").forEach(a => a.onclick = ev => { ev.stopPropagation(); openReport({venue: +a.dataset.reportVenue}); });
-  root.querySelectorAll("[data-ev]").forEach(r => r.onclick = () => { const e = EV.find(x => x.id === r.dataset.ev); if (e) openVenue(e.misto, {focus: e.id, solo: true}); });
+  root.querySelectorAll("[data-ev]").forEach(r => r.onclick = () => { const e = EV.find(x => x.id === r.dataset.ev); if (e) { if (panel === "list") listState = {top: $("#sheetBody").scrollTop, center: map.getCenter(), zoom: map.getZoom(), snap}; openVenue(e.misto, {focus: e.id, solo: true}); } });
 }
 function toggleFav(id) {
   FAV.has(id) ? FAV.delete(id) : FAV.add(id); LS.set("tm.fav", [...FAV]);
@@ -679,9 +683,25 @@ function openVenue(vi, opt = {}) {
   else if (v.lat != null) showLatLng([v.lat, v.lon]);
   if (opt.focus) setTimeout(() => document.getElementById("c-" + opt.focus)?.scrollIntoView({block: "start", behavior: "smooth"}), 60);
 }
+/* přiblížená mapa → seznam podle vzdálenosti od středu viditelné části mapy */
+const NEAR_ZOOM = 8;
+let NEAR = null, listKey = "";
+const fmtKm = d => d < 10 ? d.toFixed(1).replace(".", EN ? "." : ",") + " km" : Math.round(d) + " km";
+function mapCenter() {
+  const r = visibleRect(), ll = map.containerPointToLatLng([(r.left + r.right) / 2, (r.top + r.bottom) / 2]);
+  return [ll.lat, ll.lng];
+}
+function viewKey() { return map.getZoom() >= NEAR_ZOOM ? mapCenter().map(x => x.toFixed(3)).join(",") + "@" + map.getZoom() : "all"; }
 function renderList() {
-  const xs = shown;
-  $("#listBody").innerHTML = xs.length ? xs.slice(0, 300).map(item).join("") + (xs.length > 300 ? `<div class="empty">${T("Zobrazeno prvních 300 – zužte filtr.")}</div>` : "") : `<div class="empty">${T("Filtrům neodpovídá žádný turnaj.")}</div>`;
+  listKey = viewKey();
+  NEAR = map.getZoom() >= NEAR_ZOOM ? mapCenter() : null;
+  let xs = shown;
+  if (NEAR) {
+    const dist = e => { const v = VEN[e.misto]; return v && v.lat != null ? km(NEAR, [v.lat, v.lon]) : 1e9; };
+    const dm = new Map(xs.map(e => [e, dist(e)]));
+    xs = [...xs].sort((a, b) => dm.get(a) - dm.get(b) || (a.od || "").localeCompare(b.od || ""));
+  }
+  $("#listBody").innerHTML = (NEAR && xs.length ? `<div class="sortnote">${T("Seřazeno podle vzdálenosti od středu mapy")}</div>` : "") + (xs.length ? xs.slice(0, 300).map(item).join("") + (xs.length > 300 ? `<div class="empty">${T("Zobrazeno prvních 300 – zužte filtr.")}</div>` : "") : `<div class="empty">${T("Filtrům neodpovídá žádný turnaj.")}</div>`);
   bind($("#listBody"));
 }
 function renderFavs() {
@@ -965,6 +985,14 @@ $("#btnBack").onclick = e => {
   try {
     if (prev === "detail" && lastVenue != null) openVenue(lastVenue, {move: false});
     else if (prev === "player" && curPlayer) openPlayer(curPlayer);
+    else if (prev === "list" && listState) {
+      // návrat do seznamu: stejný výřez mapy (a tedy stejné řazení) a stejná pozice v seznamu
+      const st = listState; listState = null;
+      map.setView(st.center, st.zoom, {animate: false});
+      showPanel("list"); setSnap(st.snap);
+      listKey = viewKey();
+      requestAnimationFrame(() => { $("#sheetBody").scrollTop = st.top; });
+    }
     else showPanel(prev);
   } finally { popping = false; }
 };

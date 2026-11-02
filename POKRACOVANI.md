@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 2. 11. 2026, verze webu v3.2).
+Předávací log (stav k 2. 11. 2026, verze webu v3.3).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -63,6 +63,10 @@ Předávací log (stav k 2. 11. 2026, verze webu v3.2).
   Základní (OSM, místní písmo – v Srbsku azbuka), Latinka (Esri), Turistická (OpenTopoMap), Letecká (Esri World Imagery + popisky).
   Volba v `localStorage` (tm.map). Vše bez klíče. Možné rozšíření: Mapy.com (základní/turistická/letecká/zimní) – potřebuje
   bezplatný API klíč z developer.mapy.com (vytvoří uživatel). Google Maps nedoporučeno (klíč + platební účet, podmínky).
+
+### v3.3 (2. 11. 2026) – seznam podle vzdálenosti, návrat na stejné místo
+- Při přiblížení mapy (zoom ≥ 8, NEAR_ZOOM) se seznam Turnaje řadí podle vzdálenosti od středu viditelné části mapy (shoda → podle data); u turnaje je vzdálenost v km, nahoře poznámka „Seřazeno podle vzdálenosti od středu mapy“. Po posunu mapy se seznam přeřadí (moveend, 250 ms).
+- Šipka zpět z detailu turnaje otevřeného ze seznamu vrátí výřez mapy, výšku panelu i pozici v seznamu (listState).
 
 ### v3.2 (2. 11. 2026) – turnaj ze seznamu na přehledové mapě
 - Klik na turnaj v záložce Turnaje: mapa ukáže celou ČR (ČTS) nebo celou Evropu (Tennis Europe) a jen špendlík místa turnaje (ostatní značky skryté – openVenue(…, {solo: true})). Návrat zpět do seznamu značky obnoví (clearFocus). Klik na špendlík v mapě funguje jako dřív (přiblížení).
