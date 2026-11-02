@@ -266,3 +266,10 @@ button.logo{border:0;padding:0;cursor:pointer}
 .pill.te{background:#e8eefb;color:#164e9c}
 .pill.flag{background:transparent;padding-left:0;padding-right:0}
 .legend .sep{margin-top:6px;font-weight:700}
+
+/* v2.8: Tennis Europe jako doplněk – čip v rychlé liště čárkovaně, sekce ve filtrech odlišená */
+.quick button.te:not(.on){border:1.5px dashed #9fb6dd;color:#164e9c;background:var(--surface)}
+.quick button.te.on{background:#164e9c;color:#fff}
+.fsec.te-sec{background:#f2f6fd;border-radius:14px;padding:12px;margin-left:-4px;margin-right:-4px}
+.fsec.te-sec h4{margin:12px 0 6px;font-size:13px;color:var(--muted)}
+@media (prefers-color-scheme: dark){ .fsec.te-sec{background:rgba(80,120,200,.12)} .quick button.te:not(.on){color:#9fb6dd} }

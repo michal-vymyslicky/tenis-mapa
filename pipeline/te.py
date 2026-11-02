@@ -237,6 +237,11 @@ def process(pause=1.5, today=None):
                            "do": snap["do"], "txt": "", "tr": cls_of(snap["tags"]), "tecat": "", "nz": snap["nz"], "por": snap["venue"],
                            "misto": vidx[vk], "pov": snap["pov"], "zeme": vcache[vk].get("zeme", ""), "entry": False, "st": "zruseno",
                            "zrus": s["zruseno"], "nove": s.get("prvni"), "km": "", "kz": "", "mix": True})
+    try:                                        # zpřesnění míst přes OpenStreetMap (Overpass) – jen kde je dostupný
+        import te_mista
+        te_mista.improve(vcache, budget=float(os.environ.get("TE_OSM_LIMIT", "600")))
+    except Exception as e:  # noqa: BLE001
+        print("TE místa přes OSM přeskočena:", e, flush=True)
     save("mista.json", vcache, folder=TDIR)
     save("stav.json", stav, folder=TDIR)
     save("geocache.json", CACHE)

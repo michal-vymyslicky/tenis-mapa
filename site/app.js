@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v2.7";
+const APP_VERSION = "v2.8";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -94,9 +94,13 @@ const isDesk = () => innerWidth >= 900;
 /* ---------- stav ---------- */
 let DATA, EV = [], VEN = [], byVenue = new Map();
 const today = new Date(); today.setHours(0, 0, 0, 0);
-const defaults = () => ({from: iso(today), to: "", cat: [], sex: [], cls: [], surf: [], center: null, centerMode: "none", centerLabel: "", radius: 50,
-  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries", src: "all"});
+const defaults = () => ({from: iso(today), to: "", cat: [], sex: [], cls: [], surf: [],
+  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries", src: "cts"});
 let F = Object.assign(defaults(), LS.get("tm.filters", {}));
+// v2.8: okruh vzdálenosti zrušen; Tennis Europe je doplněk – výchozí zobrazení jen ČTS
+for (const k of ["center", "centerMode", "centerLabel", "radius"]) delete F[k];
+if (LS.get("tm.ui", 0) < 28) { F.src = "cts"; LS.set("tm.ui", 28); }
+let MYPOS = null, myMarker = null, myCircle = null;   // poloha uživatele – jen zobrazení v mapě a vzdálenost v seznamu
 let SEZ = null, SEZONY = [];          // vybraná sezóna a přehled sezón (data/sezony.json)
 const sezInfo = () => SEZONY.find(x => x.id === SEZ) || {od: iso(today), do: "9999-12-31"};
 const isArchive = () => sezInfo().do < iso(today);
@@ -104,11 +108,11 @@ const sezLabel = (x, short) => { let n = x.nazev || x.id; if (short) n = n.repla
 const sezName = x => sezLabel(x || {});
 const sezIcon = id => id[0] === "Z" ? "❄" : "☀";
 F.surf = (F.surf || []).filter(s => /^[gr]:/.test(s));
-F.players = F.players || []; F.pmode = F.pmode || "entries"; F.src = F.src || "all";
+F.players = F.players || []; F.pmode = F.pmode || "entries"; F.src = F.src || "cts";
 let TEDATA = null;   // turnaje Tennis Europe (data/TE/turnaje.json) – přimíchají se do sezóny podle termínu
 // oblíbené: ID turnaje obsahuje sezónu (od v2.4); starší ID bez sezóny patří k Z2627
 let FAV = new Set(LS.get("tm.fav", []).map(id => /^([ZL]\d{2}|TE-)/.test(id) ? id : "Z2627-" + id));
-let sortMode = "date", pickMode = false, panel = "list", stack = [], popping = false;
+let panel = "list", stack = [], popping = false;
 const SUB = new Set(["detail", "report", "about", "player"]);
 let ctx = {}, lastVenue = null;   // kontext pro hlášení problému
 
@@ -122,7 +126,7 @@ const cluster = L.markerClusterGroup({maxClusterRadius: 42, showCoverageOnHover:
   iconCreateFunction: c => { const n = c.getChildCount(); const s = n < 10 ? 34 : n < 50 ? 40 : 46;
     return L.divIcon({html: `<div class="cluster" style="width:${s}px;height:${s}px">${n}</div>`, className: "", iconSize: [s, s]}); }});
 map.addLayer(cluster);
-let circle = null, centerMarker = null, focusMarker = null;
+let focusMarker = null;
 const PIN = (color, w = 30, h = 40) => `<svg viewBox="0 0 30 40" width="${w}" height="${h}"><path d="M15 1C7.3 1 1 7.1 1 14.7 1 25 15 39 15 39s14-14 14-24.3C29 7.1 22.7 1 15 1z" fill="${color}"/></svg>`;
 /* špendlík: barva i písmeno = nejvyšší třída v místě (MČR, A, B, P, C, D, E), bublina = počet turnajů */
 function pinIcon(color, n, guess, fav, cls) {
@@ -170,10 +174,6 @@ function evMatches(e, opt = {}) {
   const v = VEN[e.misto];
   if (!F.guess && v && (v.presnost === "odhad" || v.presnost === "nezname")) return false;
   if (F.text) { const t = F.text.toLowerCase(); if (!(`${e.nz} ${e.por} ${v?.adresa || ""} ${v?.nazev_mista || ""} ${e.km} ${e.kz}`.toLowerCase().includes(t))) return false; }
-  if (!opt.ignoreRadius && F.center && F.centerMode !== "none") {
-    if (!v || v.lat == null) return false;
-    if (km(F.center, [v.lat, v.lon]) > F.radius) return false;
-  }
   if (F.favOnly && !FAV.has(e.id)) return false;
   if (F.players.length && HR) {
     if (F.pmode === "entries" || isArchive()) { if (!F.players.some(pid => entrySet(pid).has(e.id))) return false; }
@@ -193,7 +193,6 @@ function occText(o, p, kap) {
   if (p != null && kap) return {t: `${p} / ${kap}`, pct: p / kap};
   return {t: kap ? `– / ${kap}` : "–", pct: 0};
 }
-const dist = e => { const v = VEN[e.misto]; return F.center && v && v.lat != null ? km(F.center, [v.lat, v.lon]) : 1e9; };
 
 let shown = [];
 function render() {
@@ -217,20 +216,20 @@ function render() {
   $("#summary").innerHTML = panel === "detail" ? $("#summary").innerHTML : `${nf(shown.length)} ${T("turnajů")} <small>· ${vmap.size} ${T("míst")}${noLoc ? ` · ${noLoc} ${T("bez místa")}` : ""}</small>`;
   $("#countBadge").textContent = nf(shown.length);
   $("#showCount").textContent = `(${nf(shown.length)})`;
-  const nfil = [F.cat.length, F.sex.length, F.cls.length, F.surf.length, F.to, F.centerMode !== "none", F.free, F.favOnly, !F.cancelled, !F.guess, F.src !== "all"].filter(Boolean).length;
+  const nfil = [F.cat.length, F.sex.length, F.cls.length, F.surf.length, F.to, F.free, F.favOnly, !F.cancelled, !F.guess, F.src !== "cts"].filter(Boolean).length;
   $("#filterBadge").hidden = !nfil; $("#filterBadge").textContent = nfil; $("#filterBadge2").textContent = nfil || "";
   $("#favBadge").textContent = FAV.size || "";
-  drawCircle(); renderQuick(); syncFilterUI();
+  renderQuick(); syncFilterUI();
   if (panel === "list") renderList();
   if (panel === "favs") renderFavs();
 }
-function drawCircle() {
-  if (circle) { map.removeLayer(circle); circle = null; }
-  if (centerMarker) { map.removeLayer(centerMarker); centerMarker = null; }
-  if (F.center && F.centerMode !== "none") {
-    circle = L.circle(F.center, {radius: F.radius * 1000, color: css("--accent2"), weight: 2, fillOpacity: .05, dashArray: "6 6", interactive: false}).addTo(map);
-    centerMarker = L.marker(F.center, {icon: L.divIcon({html: '<div class="center-dot"></div>', className: "", iconSize: [16, 16], iconAnchor: [8, 8]}), interactive: false}).addTo(map);
-  }
+/* moje poloha: modrá tečka + kruh přesnosti, bez filtrování */
+function drawMyPos(acc) {
+  if (myMarker) { map.removeLayer(myMarker); myMarker = null; }
+  if (myCircle) { map.removeLayer(myCircle); myCircle = null; }
+  if (!MYPOS) return;
+  if (acc) myCircle = L.circle(MYPOS, {radius: Math.min(acc, 3000), color: css("--accent2"), weight: 1, fillOpacity: .08, interactive: false}).addTo(map);
+  myMarker = L.marker(MYPOS, {icon: L.divIcon({html: '<div class="center-dot"></div>', className: "", iconSize: [16, 16], iconAnchor: [8, 8]}), interactive: false, zIndexOffset: 1500}).addTo(map);
 }
 
 /* ---------- rychlé volby + filtry ---------- */
@@ -238,10 +237,9 @@ function renderQuick() {
   const q = $("#quick");
   const dateTxt = F.to ? `${dShort(F.from)} – ${dShort(F.to)}` : F.from === iso(today) ? T("Od dnes") : F.from <= sezInfo().od ? T("Celá sezóna") : `${T("Od")} ${dShort(F.from)}`;
   const counts = {}; for (const e of EV) counts[e.kat] = (counts[e.kat] || 0) + 1;
-  q.innerHTML = (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") + (TEDATA && TEDATA.turnaje.length ? `<button class="te${F.src === "te" ? " on" : ""}" data-q="te">🇪🇺 Tennis Europe${F.src === "te" ? " ✕" : ""}</button>` : "") +
-    (F.src === "cts" ? `<button class="on" data-q="cts">${T("Jen ČTS")} ✕</button>` : "") + `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button>` +
+  q.innerHTML = (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") + `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button>` +
     CAT_ORDER.filter(k => counts[k]).map(k => `<button data-q="${k}" class="${F.cat.includes(k) ? "on" : ""}">${CAT_QUICK[k]}</button>`).join("") +
-    (F.centerMode !== "none" ? `<button class="on" data-q="radius">≤ ${F.radius} km ✕</button>` : "") +
+    (TEDATA && TEDATA.turnaje.length ? `<button class="te${F.src !== "cts" ? " on" : ""}" data-q="te">🇪🇺 ${F.src === "te" ? T("Jen Tennis Europe") + " ✕" : F.src === "all" ? "+ Tennis Europe ✕" : "+ Tennis Europe"}</button>` : "") +
     (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "");
   q.insertAdjacentHTML("afterbegin", F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join(""));
   q.querySelectorAll(".x").forEach(x => x.onclick = ev => { ev.stopPropagation(); togglePlayer(x.dataset.x, false); });
@@ -249,10 +247,8 @@ function renderQuick() {
     const k = b.dataset.q;
     if (k === "date") { showPanel("filters"); setSnap("full"); return; }
     if (k === "season") return toggleSeasonMenu();
-    if (k === "radius") { F.centerMode = "none"; return render(); }
     if (k === "fav") { F.favOnly = false; return render(); }
-    if (k === "te") { F.src = F.src === "te" ? "all" : "te"; render(); return fitShown(); }
-    if (k === "cts") { F.src = "all"; return render(); }
+    if (k === "te") { const on = F.src === "cts"; F.src = on ? "all" : "cts"; render(); if (on) { toast(T("Přidány mezinárodní turnaje Tennis Europe")); fitShown(); } else fitVisible(L.latLngBounds(CZ)); return; }
     if (k.startsWith("pl:")) return openPlayer(k.slice(3));
     const i = F.cat.indexOf(k); i >= 0 ? F.cat.splice(i, 1) : F.cat.push(k); render();
   });
@@ -274,8 +270,9 @@ function buildFilterUI() {
   chip("#fCat", CAT_ORDER.map(k => ({v: k, l: CAT_SHORT[k], n: cc[k] || 0})), "cat");
   chip("#fSex", [{v: "m", l: T("Chlapci / muži")}, {v: "z", l: T("Dívky / ženy")}], "sex");
   const tc = cnt(e => e.tr || "");
-  chip("#fClass", CLASS_ORDER.filter(k => tc[k]).map(k => ({v: k, l: CLASS_LABEL[k], n: tc[k], color: colorOf(k)})), "cls");
-  $$("#fClass button").forEach(b => b.style.setProperty("--c", colorOf(b.dataset.v)));
+  chip("#fClass", CLASS_ORDER.filter(k => tc[k] && !TE_CLS.has(k)).map(k => ({v: k, l: CLASS_LABEL[k], n: tc[k], color: colorOf(k)})), "cls");
+  chip("#fClassTE", CLASS_ORDER.filter(k => tc[k] && TE_CLS.has(k)).map(k => ({v: k, l: CLASS_LABEL[k], n: tc[k], color: colorOf(k)})), "cls");
+  $$("#fClass button, #fClassTE button").forEach(b => b.style.setProperty("--c", colorOf(b.dataset.v)));
   const gc = cnt(e => surfGroup(e.pov));
   const groups = Object.keys(gc).sort((a, b) => gc[b] - gc[a]);
   chip("#fSurf", groups.map(g => ({v: "g:" + g, l: surfLabel(g), n: gc[g]})), "surf");
@@ -289,22 +286,17 @@ function buildFilterUI() {
     const ch = document.createElement("div"); ch.className = "chips"; wrap.appendChild(ch); box.appendChild(wrap);
     chip(ch, raws.map(r => ({v: "r:" + r, l: rawSurf(disp[r] || r), n: rc[r]})), "surf");
   }
-  $("#legend").innerHTML = `<b>${T("Třída turnaje <small>(klepnutím filtrujete)</small>")}</b>` + CLASS_ORDER.filter(k => tc[k]).map(k => `<button class="lg" data-k="cls" data-v="${k}" style="--c:${colorOf(k)}"><i style="background:${colorOf(k)}">${k === "MCR" ? "M" : PIN_LAB[k] || k || "–"}</i>${CLASS_LABEL[k]} <small>${tc[k]}</small></button>`).join("") +
-    (CLASS_ORDER.some(k => TE_CLS.has(k) && tc[k]) ? `<div class="sep">🇪🇺 ${T("Tennis Europe – žlutý okraj špendlíku")}</div>` : "") + `<div><i style="background:${css("--c-zr")}"></i>${T("zrušeno")}</div><div><i class="ring"></i>${T("čárkovaně = místo odhadnuté")}</div><div>${T("písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů")}</div>`;
+  $("#legend").innerHTML = `<b>${T("Třída turnaje <small>(klepnutím filtrujete)</small>")}</b>` + CLASS_ORDER.filter(k => tc[k] && (F.src !== "cts" || !TE_CLS.has(k))).map(k => `<button class="lg" data-k="cls" data-v="${k}" style="--c:${colorOf(k)}"><i style="background:${colorOf(k)}">${k === "MCR" ? "M" : PIN_LAB[k] || k || "–"}</i>${CLASS_LABEL[k]} <small>${tc[k]}</small></button>`).join("") +
+    (F.src !== "cts" && CLASS_ORDER.some(k => TE_CLS.has(k) && tc[k]) ? `<div class="sep">🇪🇺 ${T("Tennis Europe – žlutý okraj špendlíku")}</div>` : "") + `<div><i style="background:${css("--c-zr")}"></i>${T("zrušeno")}</div><div><i class="ring"></i>${T("čárkovaně = místo odhadnuté")}</div><div>${T("písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů")}</div>`;
 }
 function syncFilterUI() {
   $$(".chips button[data-k], #legend button.lg").forEach(b => b.classList.toggle("on", F[b.dataset.k].includes(b.dataset.v)));
   $("#fFrom").value = F.from || ""; $("#fTo").value = F.to || "";
-  $("#fRadius").value = F.radius; $("#radiusVal").textContent = F.radius + " km";
   if (document.activeElement !== $("#fText")) $("#fText").value = F.text;
   $("#fFree").checked = F.free; $("#fCancelled").checked = F.cancelled; $("#fGuess").checked = F.guess;
-  $$("#fCenterMode button").forEach(b => b.classList.toggle("on", b.dataset.c === F.centerMode));
   $$("#fSrc button").forEach(b => b.classList.toggle("on", b.dataset.src === F.src));
-  $("#rangeBox").classList.toggle("off", F.centerMode === "none");
-  $("#centerInfo").textContent = F.centerMode === "none" ? T("Bez omezení vzdálenosti.") :
-    F.center ? `${T("Střed")}: ${T(F.centerLabel) || F.center.map(x => x.toFixed(4)).join(", ")}` : "";
-  $("#btnLocate").classList.toggle("on", F.centerMode === "gps");
-  $("#btnPick").classList.toggle("on", pickMode || F.centerMode === "pick");
+  $("#teClassBox").hidden = F.src === "cts" || !$("#fClassTE").children.length;
+  $("#btnLocate").classList.toggle("on", !!MYPOS);
   $("#btnFavMap").classList.toggle("on", F.favOnly);
 }
 function presets(p) {
@@ -317,22 +309,18 @@ function presets(p) {
   if (p === "all") { F.from = isArchive() ? sezInfo().od : iso(d); F.to = ""; }
   render();
 }
-function setCenter(ll, mode, label) {
-  F.center = [+ll[0].toFixed(5), +ll[1].toFixed(5)]; F.centerMode = mode; F.centerLabel = label || "";
-  render();
-  if (!isDesk() && panel !== "filters") setSnap("peek");
-  fitVisible(L.latLng(F.center).toBounds(F.radius * 2000));
-}
 function locate() {
   if (!navigator.geolocation) return toast(T("Prohlížeč neumí zjistit polohu."));
   toast(T("Zjišťuji polohu…"));
-  navigator.geolocation.getCurrentPosition(p => setCenter([p.coords.latitude, p.coords.longitude], "gps", "moje poloha"),
+  navigator.geolocation.getCurrentPosition(p => {
+      MYPOS = [p.coords.latitude, p.coords.longitude]; drawMyPos(p.coords.accuracy); $("#toast").hidden = true;
+      if (!isDesk()) setSnap("peek");
+      showLatLng(MYPOS, Math.max(map.getZoom(), 10)); render();
+    },
     err => toast(err.code === 1 ? T("Přístup k poloze je zakázaný – povolte ho v nastavení prohlížeče.") : T("Polohu se nepodařilo zjistit.")),
     {enableHighAccuracy: true, timeout: 15000, maximumAge: 60000});
 }
-function setPick(on) { pickMode = on; $("#pickHint").hidden = !on; syncFilterUI(); if (on && !isDesk()) setSnap("peek"); }
-map.on("click", e => {
-  if (pickMode) { setPick(false); return setCenter([e.latlng.lat, e.latlng.lng], "pick", "bod v mapě"); }
+map.on("click", () => {
   if (!isDesk() && snap !== "peek") setSnap("peek");
 });
 
@@ -424,7 +412,7 @@ const isNew = e => e.nove && (today - pd(e.nove)) / 864e5 <= 7 && (e.src === "te
 /* kompaktní řádek do seznamu */
 function item(e) {
   const v = VEN[e.misto] || {}, zr = e.st === "zruseno";
-  const d = F.center && F.centerMode !== "none" && v.lat != null ? ` · ${Math.round(km(F.center, [v.lat, v.lon]))} km` : "";
+  const d = MYPOS && v.lat != null ? ` · ${Math.round(km(MYPOS, [v.lat, v.lon]))} km` : "";
   const occ = occOf(e).filter(Boolean);
   const full = occ.length && occ.every(o => o[0] >= o[1]);
   const te = e.src === "te";
@@ -524,7 +512,7 @@ function openVenue(vi, opt = {}) {
   if (v.presnost === "areal" && v.zdroj === "detail") pt = T("Adresa podle ČTS, ověřeno v mapě");
   if (v.zdroj === "te") [pc, pt] = v.presnost === "areal" ? ["ok", T("Areál dohledán v mapě (OpenStreetMap)")] : v.presnost === "obec" ? ["mid", T("Jen obec – areál v mapě nedohledán")] : ["bad", T("Místo neznámé")];
   // Mapy.com URL API: souřadnice v pořadí lon,lat (developer.mapy.com – Mapy.cz URL); start = poloha z GPS, jinak ho doplní aplikace
-  const start = F.centerMode === "gps" && F.center ? `start=${F.center[1]},${F.center[0]}&` : "";
+  const start = MYPOS ? `start=${MYPOS[1]},${MYPOS[0]}&` : "";
   const nav = v.lat != null ? `<div class="links">
     <a class="pri" href="https://mapy.com/fnc/v1/route?${start}end=${v.lon},${v.lat}&routeType=car_fast_traffic&navigate=true" target="_blank" rel="noopener">${T("Navigovat · Mapy.com")}</a>
     <a href="https://www.google.com/maps/dir/?api=1&destination=${v.lat},${v.lon}&travelmode=driving" target="_blank" rel="noopener">Google Maps</a>
@@ -551,8 +539,7 @@ function openVenue(vi, opt = {}) {
   if (opt.focus) setTimeout(() => document.getElementById("c-" + opt.focus)?.scrollIntoView({block: "start", behavior: "smooth"}), 60);
 }
 function renderList() {
-  let xs = shown.slice();
-  if (sortMode === "dist" && F.center && F.centerMode !== "none") xs.sort((a, b) => dist(a) - dist(b));
+  const xs = shown;
   $("#listBody").innerHTML = xs.length ? xs.slice(0, 300).map(item).join("") + (xs.length > 300 ? `<div class="empty">${T("Zobrazeno prvních 300 – zužte filtr.")}</div>` : "") : `<div class="empty">${T("Filtrům neodpovídá žádný turnaj.")}</div>`;
   bind($("#listBody"));
 }
@@ -626,7 +613,7 @@ function ctxLines() {
   if (v) L1.push(`Místo: ${v.nazev_mista || "-"} | pořadatel ${v.poradatel} | adresa ${v.adresa || "-"} | přesnost ${v.presnost}/${v.zdroj} | ${v.lat ?? "-"},${v.lon ?? "-"}`);
   const c = map.getCenter();
   L1.push(`Mapa: ${c.lat.toFixed(5)},${c.lng.toFixed(5)} z${map.getZoom()} | panel ${stack[stack.length - 1] || panel}`,
-    `Filtry: od ${F.from}${F.to ? " do " + F.to : ""}; kat ${F.cat.join(",") || "vše"}; třída ${F.cls.join(",") || "vše"}; povrch ${F.surf.join(",") || "vše"}; okruh ${F.centerMode === "none" ? "ne" : F.radius + " km"}; text "${F.text}"`,
+    `Filtry: od ${F.from}${F.to ? " do " + F.to : ""}; kat ${F.cat.join(",") || "vše"}; třída ${F.cls.join(",") || "vše"}; povrch ${F.surf.join(",") || "vše"}; zdroj ${F.src}; text "${F.text}"`,
     `Data: ${DATA.meta.aktualizace} | aplikace ${APP_VERSION} | ${navigator.userAgent.replace(/\s+/g, " ").slice(0, 140)}`);
   return L1;
 }
@@ -828,21 +815,6 @@ function openAbout() {
   if (!isDesk()) setSnap(snap === "peek" ? "half" : snap);
 }
 
-/* ---------- vyhledání místa (Nominatim) ---------- */
-$("#placeForm").onsubmit = async ev => {
-  ev.preventDefault();
-  const q = $("#placeQ").value.trim(); if (!q) return;
-  $("#placeRes").innerHTML = `<div class="muted">${T("Hledám…")}</div>`;
-  try {
-    const r = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&limit=6&accept-language=${EN ? "en" : "cs"}&q=${encodeURIComponent(q)}`);
-    const js = await r.json();
-    $("#placeRes").innerHTML = js.length ? "" : `<div class="muted">${T("Nic nenalezeno.")}</div>`;
-    for (const x of js) { const b = document.createElement("button"); b.type = "button"; b.textContent = x.display_name;
-      b.onclick = () => { $("#placeRes").innerHTML = ""; $("#placeQ").value = ""; setCenter([+x.lat, +x.lon], "pick", x.display_name.split(",").slice(0, 2).join(",")); };
-      $("#placeRes").appendChild(b); }
-  } catch { $("#placeRes").innerHTML = `<div class="muted">${T("Vyhledávání se nepodařilo.")}</div>`; }
-};
-
 /* ---------- události UI ---------- */
 $$("#tabs button").forEach(t => t.onclick = e => { e.stopPropagation(); t.dataset.panel === "report" ? openReport({venue: panel === "detail" ? lastVenue : null}) : showPanel(t.dataset.panel); });
 $("#btnBack").onclick = e => {
@@ -861,7 +833,6 @@ $("#btnFilters").onclick = () => { showPanel("filters"); setSnap("full"); };
 $("#fFrom").onchange = e => { F.from = e.target.value || (isArchive() ? sezInfo().od : iso(today)); render(); };
 $("#fTo").onchange = e => { F.to = e.target.value; render(); };
 $$("#datePresets button").forEach(b => b.onclick = () => presets(b.dataset.p));
-$("#fRadius").oninput = e => { F.radius = +e.target.value; $("#radiusVal").textContent = F.radius + " km"; drawCircle(); clearTimeout(render.t); render.t = setTimeout(render, 150); };
 $("#fText").oninput = e => { F.text = e.target.value.trim(); clearTimeout(render.t); render.t = setTimeout(() => { render(); suggest(); }, 200); };
 $("#fText").onfocus = () => { loadPlayers(); suggest(); };
 $("#fText").onkeydown = e => { if (e.key === "Enter") { e.target.blur(); hideSuggest(); showPanel("list"); } if (e.key === "Escape") hideSuggest(); };
@@ -869,19 +840,11 @@ document.addEventListener("pointerdown", e => { if (!e.target.closest("#suggest,
 $("#fFree").onchange = e => { F.free = e.target.checked; render(); };
 $("#fCancelled").onchange = e => { F.cancelled = e.target.checked; render(); };
 $("#fGuess").onchange = e => { F.guess = e.target.checked; render(); };
-$$("#fCenterMode button").forEach(b => b.onclick = () => {
-  const c = b.dataset.c;
-  if (c === "none") { F.centerMode = "none"; render(); }
-  if (c === "gps") locate();
-  if (c === "pick") setPick(true);
-});
-$("#btnLocate").onclick = () => F.centerMode === "gps" ? (F.centerMode = "none", render()) : locate();
-$("#btnPick").onclick = () => setPick(!pickMode);
+$("#btnLocate").onclick = () => { if (MYPOS) { MYPOS = null; drawMyPos(); render(); } else locate(); };
 $("#btnLegend").onclick = () => { $("#legend").hidden = !$("#legend").hidden; $("#btnLegend").classList.toggle("on", !$("#legend").hidden); };
 $("#legend").addEventListener("click", e => { const b = e.target.closest("button.lg"); if (!b) return; const a = F.cls, i = a.indexOf(b.dataset.v); i >= 0 ? a.splice(i, 1) : a.push(b.dataset.v); render(); });
 $("#btnReset").onclick = () => { F = defaults(); render(); };
 $("#btnShow").onclick = () => { showPanel("list"); if (!isDesk()) setSnap("peek"); };
-$$("#listSort button").forEach(b => b.onclick = () => { sortMode = b.dataset.s; if (sortMode === "dist" && (!F.center || F.centerMode === "none")) toast(T("Nejdřív nastavte okruh – polohu nebo bod v mapě.")); $$("#listSort button").forEach(x => x.classList.toggle("on", x === b)); renderList(); });
 $$("#fSrc button").forEach(b => b.onclick = () => { F.src = b.dataset.src; render(); });
 $("#btnShare").onclick = shareFavs;
 $("#btnIcs").onclick = icsFavs;
@@ -931,7 +894,9 @@ function loadTE() {
     .then(js => (TEDATA = js && js.turnaje ? js : {meta: {}, mista: [], turnaje: []}));
 }
 /* přiblížit mapu na zobrazená místa (např. po zapnutí Tennis Europe) */
+const EUROPE = [[36, -9], [60, 32]];
 function fitShown() {
+  if (F.src !== "cts") return fitVisible(L.latLngBounds(EUROPE));
   const pts = [...new Set(shown.map(e => e.misto))].map(i => VEN[i]).filter(v => v && v.lat != null).map(v => [v.lat, v.lon]);
   if (pts.length) fitVisible(L.latLngBounds(pts));
 }
@@ -955,8 +920,7 @@ fetch("data/sezony.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null)
   setTimeout(() => loadH2C().catch(() => {}), 4000);
   if (!F.players.length) setTimeout(loadPlayers, 2500);
   if (isDesk()) setSnap("full");
-  if (F.center && F.centerMode !== "none") fitVisible(L.latLng(F.center).toBounds(F.radius * 2000));
-  else fitVisible(L.latLngBounds(CZ));
+  fitVisible(L.latLngBounds(CZ));
 }).catch(err => { $("#summary").textContent = T("Data se nepodařilo načíst: ") + err; });
 if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});
 })();

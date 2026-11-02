@@ -98,6 +98,10 @@ window.I18N = (() => {
     "ročník": "season",
     "místo podle areálu klubu v datech ČTS": "location from the club's venue in ČTS data",
     // --- Tennis Europe ---
+    "Třída turnaje ČTS": "ČTS tournament grade", "🇪🇺 Mezinárodní turnaje": "🇪🇺 International tournaments",
+    "Juniorské turnaje Tennis Europe po celé Evropě (věk 12–18 let).": "Tennis Europe junior tournaments all over Europe (ages 12–18).",
+    "ČTS + Tennis Europe": "ČTS + Tennis Europe", "Jen Tennis Europe": "Tennis Europe only", "Kategorie Tennis Europe": "Tennis Europe categories",
+    "Přidány mezinárodní turnaje Tennis Europe": "International Tennis Europe tournaments added",
     "Turnaje": "Tournaments", "Vše": "All", "Bez okruhu": "No radius", "Jen ČTS": "ČTS only",
     "Bez omezení vzdálenosti.": "No distance limit.",
     "TE mistrovství Evropy": "TE European Championship", "TE kategorie 1": "TE Category 1", "TE kategorie 2": "TE Category 2",

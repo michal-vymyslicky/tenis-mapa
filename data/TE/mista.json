@@ -4,25 +4,28 @@
   "adresa": "Opava, Czechia",
   "zdroj": "te",
   "region": "Czechia",
-  "lat": 49.9389,
-  "lon": 17.902417,
-  "presnost": "obec",
+  "lat": 49.907776,
+  "lon": 17.912034,
+  "presnost": "areal",
   "nazev_mista": "JC Sport Opava",
   "zeme": "cz",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: SK Starý Mlýn Opava - Kylešovice"
  },
  "GRE|athens lawn tennis club|athens": {
   "poradatel": "Athens Lawn Tennis Club",
   "adresa": "Athens, Greece",
   "zdroj": "te",
   "region": "Greece",
-  "lat": 37.999578,
-  "lon": 23.779584,
-  "presnost": "areal_obec",
+  "lat": 38.010694,
+  "lon": 23.806901,
+  "presnost": "areal",
   "nazev_mista": "Athens Lawn Tennis Club",
   "zeme": "gr",
-  "poznamka": "tenisový areál v obci podle OSM: Τέννις",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Mono by Athens Climbing Project",
+  "v2": 1,
+  "osm3": 1
  },
  "MDA|tbc|chisinau": {
   "poradatel": "TBC",
@@ -84,12 +87,14 @@
   "adresa": "Zadar, Croatia",
   "zdroj": "te",
   "region": "Croatia",
-  "lat": 44.116859,
-  "lon": 15.235326,
-  "presnost": "obec",
+  "lat": 44.12894,
+  "lon": 15.22212,
+  "presnost": "areal",
   "nazev_mista": "Teniski klub Zadar 08 - Višnjik",
   "zeme": "hr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Drošanjica Zadar"
  },
  "BIH|teniski klub doboj|doboj": {
   "poradatel": "TENISKI KLUB DOBOJ",
@@ -101,20 +106,22 @@
   "presnost": "obec",
   "nazev_mista": "TENISKI KLUB DOBOJ",
   "zeme": "ba",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "POR|carcavelos tenis e padel|carcavelos": {
   "poradatel": "Carcavelos Ténis e Padel",
   "adresa": "Carcavelos, Portugal",
   "zdroj": "te",
   "region": "Portugal",
-  "lat": 38.685656,
-  "lon": -9.343767,
-  "presnost": "areal_obec",
+  "lat": 38.685604,
+  "lon": -9.341849,
+  "presnost": "areal",
   "nazev_mista": "Carcavelos Ténis e Padel",
   "zeme": "pt",
-  "poznamka": "tenisový areál v obci podle OSM: Tennis Rivieira",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Escola de Ténis Carcavelos",
+  "v2": 1,
+  "osm3": 1
  },
  "AZE|baku tennis academy|baku": {
   "poradatel": "Baku Tennis Academy",

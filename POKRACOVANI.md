@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 1. 11. 2026, noc, verze webu v2.7).
+Předávací log (stav k 1. 11. 2026, noc, verze webu v2.8).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -45,6 +45,18 @@ Předávací log (stav k 1. 11. 2026, noc, verze webu v2.7).
 - Web: TE turnaje se přimíchají do zvolené sezóny podle termínu (u nejnovější sezóny i všechny pozdější). Filtr „Turnaje: Vše / ČTS /
   Tennis Europe“ + rychlý čip 🇪🇺 Tennis Europe (přiblíží Evropu). Věk 12/14/16/18&U → kategorie ml. žactvo / st. žactvo / dorost.
   Třídy TE (Super, Cat. 1–3, Masters, ME, Festival) modře se žlutým okrajem špendlíku. Detail: odkaz na turnaj na webu TE.
+
+## v2.8 – přehlednější GUI, ČTS primárně
+- Výchozí zobrazení jen ČTS; Tennis Europe je doplněk: čip „🇪🇺 + Tennis Europe“ na konci rychlé lišty (zapne ČTS + TE a ukáže Evropu)
+  a sekce „Mezinárodní turnaje“ ve filtrech (Jen ČTS / ČTS + TE / Jen TE, kategorie TE). Uložené filtry starších verzí se přepnou na ČTS.
+- Zrušen okruh vzdálenosti (bod v mapě, hledání obce, posuvník km) i řazení podle vzdálenosti. Tlačítko „Moje poloha“ jen ukáže
+  polohu v mapě (modrá tečka) a v seznamu vzdálenost k turnaji; navigace Mapy.com startuje z polohy.
+- Záložka „Seznam“ přejmenována na „Turnaje“; filtr „Třída turnaje ČTS“; legenda ukazuje třídy TE jen při zapnutém TE.
+- Místa TE: `pipeline/te_mista.py` – Overpass (OSM) v okolí 10 km, shoda názvu areálu → „areál“; jinak jediný větší areál → „areál v obci“.
+  Volá se z te.py (limit `TE_OSM_LIMIT`, výchozí 600 s denně, pokračuje, kde skončil; cache `data/TE/overpass.json`).
+- Přesná adresa, počet přihlášených a kapacita turnajů TE: jsou jen na stránkách detailu (/sport/), které robots.txt Tennis Europe
+  zakazuje strojově číst → čeká se na svolení Tennis Europe (koncept e-mailu: `web/tenis-mapa_TE_zadost.html`). Po svolení doplnit
+  skript pro detail (adresa, přihlášení, max. hráčů) – data pak do karty turnaje TE.
 
 ## Údržba
 - Nový žebříček ČTS: exportovat z Tenis Data `data/01_zebricky/zebricky.csv` do `pipeline/zebricek_<období>.json`
