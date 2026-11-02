@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 1. 11. 2026, noc, verze webu v2.6).
+Předávací log (stav k 1. 11. 2026, noc, verze webu v2.7).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -35,6 +35,16 @@ Předávací log (stav k 1. 11. 2026, noc, verze webu v2.6).
 - `data/mista_svaz.csv` (sezona;kod;klub;zdroj;poznamka): oblastní přebor (kód turnaje) → pořádající klub podle rozpisu svazu.
   Má přednost před „místem loňského ročníku“, dokud ČTS nedoplní adresu do detailu turnaje. Z2627: Jihočeský TS – všech 9 přeborů
   (výsledky výběrového řízení zima 2026/27, interní dokument svazu poskytnutý uživatelem – do repozitáře jen kód → klub).
+
+## v2.7 – Tennis Europe
+- `pipeline/te.py`: veřejné vyhledávání te.tournamentsoftware.com (/find/tournament/DoSearch, robots povoleno, souhlas jen se
+  základními cookies, 1 req/1,5 s). Rozsah od 1. 9. aktuálního tenisového roku do budoucna (+2 roky). Denně s `update.py --auto`
+  (chyba TE neshodí aktualizaci ČTS); ručně `python3 pipeline/te.py`, bez stahování `TE_BEZ_STAHOVANI=1 python3 pipeline/te.py`.
+- Data: `data/TE/` (turnaje_raw, mista – cache míst, stav – první výskyt/zmizení), web `site/data/TE/turnaje.json`.
+- Místa: Nominatim „areál, obec“ (areal) → „tennis obec“ (areal_obec, neověřeno) → obec; v ČR areál klubu z `mista_kluby.json`.
+- Web: TE turnaje se přimíchají do zvolené sezóny podle termínu (u nejnovější sezóny i všechny pozdější). Filtr „Turnaje: Vše / ČTS /
+  Tennis Europe“ + rychlý čip 🇪🇺 Tennis Europe (přiblíží Evropu). Věk 12/14/16/18&U → kategorie ml. žactvo / st. žactvo / dorost.
+  Třídy TE (Super, Cat. 1–3, Masters, ME, Festival) modře se žlutým okrajem špendlíku. Detail: odkaz na turnaj na webu TE.
 
 ## Údržba
 - Nový žebříček ČTS: exportovat z Tenis Data `data/01_zebricky/zebricky.csv` do `pipeline/zebricek_<období>.json`
