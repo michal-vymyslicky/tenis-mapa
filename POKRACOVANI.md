@@ -65,7 +65,7 @@ Předávací log (stav k 2. 11. 2026, verze webu v3.3).
   bezplatný API klíč z developer.mapy.com (vytvoří uživatel). Google Maps nedoporučeno (klíč + platební účet, podmínky).
 
 ### Návštěvnost (2. 11. 2026)
-- Měření GoatCounter (bez cookies): skript v index.html, účet tenisova-mapa@seznam.cz, kód webu „mapaturnaju“ → přehled https://mapaturnaju.goatcounter.com. Zmínka v O aplikaci (about.d7).
+- Měření GoatCounter (bez cookies): skript v index.html, účet tenisova-mapa@seznam.cz (e-mail ověřen), kód webu „mapaturnaju“ → přehled https://mapaturnaju.goatcounter.com. Zmínka v O aplikaci (about.d7).
 
 ### v3.3 (2. 11. 2026) – seznam podle vzdálenosti, návrat na stejné místo
 - Při přiblížení mapy (zoom ≥ 8, NEAR_ZOOM) se seznam Turnaje řadí podle vzdálenosti od středu viditelné části mapy (shoda → podle data); u turnaje je vzdálenost v km, nahoře poznámka „Seřazeno podle vzdálenosti od středu mapy“. Po posunu mapy se seznam přeřadí (moveend, 250 ms).
@@ -85,6 +85,14 @@ Předávací log (stav k 2. 11. 2026, verze webu v3.3).
 - Klik na kategorii ji vybere a rozbalí pod lištou panel #catPanel: pohlaví a třída turnaje (ČTS i TE) zvlášť pro každou kategorii (F.sub[kat] = {sex, cls}); odznak na čipu ukazuje počet podfiltrů. Panel Filtry (vícenásobné filtrování) zůstává.
 - Spodní panel na mobilu lze stáhnout až na úchyt (snap „min“ 26 px).
 - Mapové podklady jen tři: Základní (dřív Automaticky – OSM v ČR, latinka v zahraničí), Turistická, Letecká.
+
+### Proveditelnost – národní turnaje SK, PL, AT, DE (kontrola 2. 11. 2026, zatím nic nestaženo)
+Pořadí podle náročnosti (od nejsnazší):
+1. **SK (STZ)** – termínová listina v systému eTenis (www.etenis.sk, index.php?nav=terminovka&nav1=oficialni; filtry kategorie, region, trieda, obdobie; sloupce termín, kategorie, třída, usporiadateľ, región, detail). Kategorie a třídy jako ČTS (ml./st. žiaci, dorast, dospelí, A–D, deti do 8/10). robots.txt na etenis.sk není (404), stz.sk nic podstatného nezakazuje. URL obsahují session ID. Listina 2027 byla 2. 11. 2026 ještě prázdná (přihlášky turnajů do 15. 10.). Místo konání: jen pořadatel → adresa klubu + RÚIAN/OSM jako u ČTS.
+2. **PL (PZT)** – portal.pzt.pl (robots.txt „Allow: /“), seznamy TournamentsResults.aspx?CategoryID=…, detail TournamentResults.aspx?…&TournamentID=<GUID>; Tenis10 (barvy) CategoryID=10, ostatní věkové kategorie (skrzaty, żaki, młodzicy, juniorzy młodsi, juniorzy) – CategoryID ověřit. V seznamu jen název (obec za pomlčkou), stav, termín → místo z detailu / OSM.
+3. **AT (ÖTV)** – www.oetv.at/turniere (robots Allow, Crawl-delay 5) načítá turnaje z interního API webu (klíč v JavaScriptu stránky) – bez souhlasu ÖTV NEPOUŽÍVAT. Veřejné stránky nuLiga TENAT (oetv-austria.liga.nu, robots zakazuje jen *.inc/*.csi) – ověřit veřejný turnajový kalendář. Třídy: kids / juniors / general / seniors, 9 zemských svazů.
+4. **DE (DTB)** – vyhledávání tennis.de/turniersuche je widget widgets.tennis.de (robots.txt „Disallow: /“ → nepoužívat). Data jsou v nuLiga 18 zemských svazů (např. btv.de/turniere/turniersuche), tisíce LK a mládežnických turnajů ročně. Rozumné jen pro příhraniční svazy (Bayern BTV, Sachsen, Thüringen) a jen mládež; nejlépe po dohodě s DTB/svazem.
+Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů (licence/ID hráče, LK) – ověřit v řádech svazů, jinak by turnaje v mapě měly jen informativní význam. U AT a DE doporučeno požádat svaz o souhlas/data (podobně jako žádost Tennis Europe).
 
 ## Údržba
 - Nový žebříček ČTS: exportovat z Tenis Data `data/01_zebricky/zebricky.csv` do `pipeline/zebricek_<období>.json`
