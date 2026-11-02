@@ -580,6 +580,18 @@
    "datum": "21.-23. 11. 2026",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "106143",
+   "obs_m": "-/-",
+   "kod_z": "206081",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "21.-23. 11. 2026 C 800 Kč Tenis Jesenice z.s. -/- -/-"
+  },
+  {
+   "datum": "21.-23. 11. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "Sportcentrum Hrušková z.s.",
    "kod_m": "106030",
    "obs_m": "-/-",
@@ -619,7 +631,7 @@
    "poradatel": "TK Třebíč",
    "kod_m": "106036",
    "obs_m": "-/-",
-   "kod_z": "",
+   "kod_z": "206082",
    "obs_z": "-/-",
    "mix": false,
    "radek": "28.-30. 11. 2026 C 900 Kč TK Třebíč -/- -/-"
@@ -677,12 +689,12 @@
    "trida": "D",
    "vklad": "600 Kč",
    "poradatel": "Slavia VŠST Liberec",
-   "kod_m": "106037",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "29.-30. 11. 2026 D 600 Kč Slavia VŠST Liberec -/- -/-"
+   "radek": "29.-30. 11. 2026 D 600 Kč Slavia VŠST Liberec ZRUŠENO -/-"
   },
   {
    "datum": "5.-6. 12. 2026",
@@ -1561,6 +1573,18 @@
    "radek": "6.-7. 2. 2027 C 700 Kč TK Hlinsko -/- -/-"
   },
   {
+   "datum": "6.-8. 2. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "106144",
+   "obs_m": "-/-",
+   "kod_z": "206083",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-8. 2. 2027 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
    "datum": "6.-7. 2. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -1727,6 +1751,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "20.-21. 2. 2027 C 900 Kč TJ Brno-Komín -/- -/-"
+  },
+  {
+   "datum": "20.-22. 2. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Sokol Řeporyje",
+   "kod_m": "106145",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "20.-22. 2. 2027 D 800 Kč Sokol Řeporyje -/- -/-"
   },
   {
    "datum": "20.-22. 2. 2027",
@@ -2161,6 +2197,18 @@
    "radek": "20.-21. 3. 2027 C 800 Kč TK Chomutov -/- -/-"
   },
   {
+   "datum": "20.-22. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Sokol Řeporyje",
+   "kod_m": "106146",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "20.-22. 3. 2027 C 800 Kč Sokol Řeporyje -/- -/-"
+  },
+  {
    "datum": "20.-23. 3. 2027",
    "trida": "B",
    "vklad": "1000 Kč",
@@ -2407,12 +2455,12 @@
    "trida": "C",
    "vklad": "900 Kč",
    "poradatel": "Slavia VŠST Liberec",
-   "kod_m": "306006",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 900 Kč Slavia VŠST Liberec -/- -/-"
+   "radek": "28.-30. 11. 2026 C 900 Kč Slavia VŠST Liberec ZRUŠENO -/-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -2631,6 +2679,18 @@
    "radek": "5.-7. 12. 2026 D 700 Kč TJ Slavoj Tesla Hloubětín, z.s. -/- -/-"
   },
   {
+   "datum": "5.-7. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "306172",
+   "obs_m": "-/-",
+   "kod_z": "406161",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "5.-7. 12. 2026 C 800 Kč Tenis Jesenice z.s. -/- -/-"
+  },
+  {
    "datum": "5.-8. 12. 2026",
    "trida": "B",
    "vklad": "900 Kč",
@@ -2788,6 +2848,18 @@
   },
   {
    "datum": "12.-14. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "306173",
+   "obs_m": "-/-",
+   "kod_z": "406162",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "12.-14. 12. 2026 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+  },
+  {
+   "datum": "12.-14. 12. 2026",
    "trida": "D",
    "vklad": "800 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
@@ -2809,6 +2881,30 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "12.-14. 12. 2026 C 800 Kč SK HAMR, z.s. -/- -/-"
+  },
+  {
+   "datum": "12.-14. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406163",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "12.-14. 12. 2026 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
+   "datum": "13.-15. 12. 2026",
+   "trida": "E",
+   "vklad": "400 Kč",
+   "poradatel": "Tempo Praha",
+   "kod_m": "306174",
+   "obs_m": "-/-",
+   "kod_z": "406164",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-15. 12. 2026 E 400 Kč Tempo Praha -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -2859,6 +2955,18 @@
    "radek": "19.-21. 12. 2026 C 800 Kč TK Česká Třebová, z.s. -/- -/-"
   },
   {
+   "datum": "19.-21. 12. 2026",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406166",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-21. 12. 2026 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
    "datum": "19.-20. 12. 2026",
    "trida": "E",
    "vklad": "",
@@ -2869,6 +2977,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "19.-20. 12. 2026 E TCM Dubeč, z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-20. 12. 2026",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406165",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-20. 12. 2026 D 700 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -3342,6 +3462,18 @@
    "datum": "9.-11. 1. 2027",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "306175",
+   "obs_m": "-/-",
+   "kod_z": "406167",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "9.-11. 1. 2027 C 800 Kč Tenis Jesenice z.s. -/- -/-"
+  },
+  {
+   "datum": "9.-11. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "TP POINT FM",
    "kod_m": "306057",
    "obs_m": "-/-",
@@ -3457,6 +3589,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 P 900 Kč severomoravský -/- -/-"
+  },
+  {
+   "datum": "16.-17. 1. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "306176",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "16.-17. 1. 2027 D 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "16.-18. 1. 2027",
@@ -3649,6 +3793,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-25. 1. 2027 C 800 Kč Tempo Praha -/- -/-"
+  },
+  {
+   "datum": "23.-24. 1. 2027",
+   "trida": "P",
+   "vklad": "800 Kč",
+   "poradatel": "I. ČLTPK Čerčany",
+   "kod_m": "306832",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-24. 1. 2027 P 800 Kč I. ČLTPK Čerčany -/- -/-"
   },
   {
    "datum": "23.-25. 1. 2027",
@@ -4071,6 +4227,18 @@
    "radek": "6.-8. 2. 2027 D 700 Kč TSM Sokol Vysočany z.s. -/- -/-"
   },
   {
+   "datum": "6.-8. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "306177",
+   "obs_m": "-/-",
+   "kod_z": "406168",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-8. 2. 2027 C 800 Kč Tenis Jesenice z.s. -/- -/-"
+  },
+  {
    "datum": "6.-9. 2. 2027",
    "trida": "P",
    "vklad": "800 Kč",
@@ -4225,6 +4393,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "13.-15. 2. 2027 C 800 Kč CTA Rudná -/- -/-"
+  },
+  {
+   "datum": "13.-14. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406169",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 2. 2027 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "13.-15. 2. 2027",
@@ -4566,6 +4746,30 @@
    "datum": "27. 2.-1. 3. 2027",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "Tempo Praha",
+   "kod_m": "306178",
+   "obs_m": "-/-",
+   "kod_z": "406172",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27. 2.-1. 3. 2027 C 800 Kč Tempo Praha -/- -/-"
+  },
+  {
+   "datum": "27.-28. 2. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406170",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-28. 2. 2027 D 700 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+  },
+  {
+   "datum": "27. 2.-1. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "TK Kunštát",
    "kod_m": "306124",
    "obs_m": "-/-",
@@ -4597,6 +4801,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "27. 2.-1. 3. 2027 C 800 Kč Sportovní klub LTC Modřany 2005 z.s. -/- -/-"
+  },
+  {
+   "datum": "27. 2.-1. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406171",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27. 2.-1. 3. 2027 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
   },
   {
    "datum": "6.-7. 3. 2027",
@@ -4681,6 +4897,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "6.-8. 3. 2027 C 800 Kč SK HIT Hradec Králové z.s. -/- -/-"
+  },
+  {
+   "datum": "6.-8. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "306179",
+   "obs_m": "-/-",
+   "kod_z": "406173",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-8. 3. 2027 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "6.-8. 3. 2027",
@@ -4816,6 +5044,18 @@
   },
   {
    "datum": "13.-14. 3. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "TK Ruzyně Praha",
+   "kod_m": "306180",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 3. 2027 D 800 Kč TK Ruzyně Praha -/- -/-"
+  },
+  {
+   "datum": "13.-14. 3. 2027",
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "TK Choceň",
@@ -4909,6 +5149,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "13.-15. 3. 2027 C 800 Kč TO TJ Tesla Pardubice -/- -/-"
+  },
+  {
+   "datum": "13.-14. 3. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "306181",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 3. 2027 D 700 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "13.-14. 3. 2027",
@@ -5017,6 +5269,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "20.-22. 3. 2027 D 800 Kč Tenisový klub KONSTRUKTIVA, z.s. -/- -/-"
+  },
+  {
+   "datum": "20.-22. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406174",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "20.-22. 3. 2027 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "20.-22. 3. 2027",
@@ -5391,6 +5655,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "28.-30. 11. 2026 C 800 Kč TK Sokol Horní Počernice,p.s. -/- -/-"
+  },
+  {
+   "datum": "28.-30. 11. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "506168",
+   "obs_m": "-/-",
+   "kod_z": "606178",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenis Jesenice z.s. -/- -/-"
   },
   {
    "datum": "28. 11.-1. 12. 2026",
@@ -5874,6 +6150,18 @@
   },
   {
    "datum": "19.-21. 12. 2026",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "606180",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-21. 12. 2026 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-21. 12. 2026",
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "Tenisový klub KONSTRUKTIVA, z.s.",
@@ -5883,6 +6171,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "19.-21. 12. 2026 C 800 Kč Tenisový klub KONSTRUKTIVA, z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-20. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "506169",
+   "obs_m": "-/-",
+   "kod_z": "606179",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-20. 12. 2026 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -6197,6 +6497,18 @@
    "radek": "9.-10. 1. 2027 C 800 Kč TJ Žďár nad Sázavou -/- -/-"
   },
   {
+   "datum": "9.-11. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "506170",
+   "obs_m": "-/-",
+   "kod_z": "606181",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "9.-11. 1. 2027 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
    "datum": "9.-10. 1. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -6351,6 +6663,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 C 800 Kč Tenisový klub KONSTRUKTIVA, z.s. -/- -/-"
+  },
+  {
+   "datum": "16.-18. 1. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "506171",
+   "obs_m": "-/-",
+   "kod_z": "606182",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "16.-18. 1. 2027 D 700 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "16.-18. 1. 2027",
@@ -6519,6 +6843,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-24. 1. 2027 D 800 Kč Lokomotiva Nymburk -/- -/-"
+  },
+  {
+   "datum": "23.-24. 1. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "TK Ruzyně Praha",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "606183",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-24. 1. 2027 D 800 Kč TK Ruzyně Praha -/- -/-"
   },
   {
    "datum": "23.-25. 1. 2027",
@@ -7002,6 +7338,18 @@
   },
   {
    "datum": "6.-8. 2. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "506172",
+   "obs_m": "-/-",
+   "kod_z": "606184",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-8. 2. 2027 D 700 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+  },
+  {
+   "datum": "6.-8. 2. 2027",
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "TK Milo Olomouc",
@@ -7325,6 +7673,18 @@
    "radek": "20.-22. 2. 2027 C 800 Kč Tempo Praha -/- -/-"
   },
   {
+   "datum": "20.-22. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "506173",
+   "obs_m": "-/-",
+   "kod_z": "606185",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "20.-22. 2. 2027 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+  },
+  {
    "datum": "20.-21. 2. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -7553,6 +7913,18 @@
    "radek": "27. 2.-1. 3. 2027 C 800 Kč TK Třebíč -/- -/-"
   },
   {
+   "datum": "27.-28. 2. 2027",
+   "trida": "P",
+   "vklad": "800 Kč",
+   "poradatel": "I. ČLTPK Čerčany",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "606832",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-28. 2. 2027 P 800 Kč I. ČLTPK Čerčany -/- -/-"
+  },
+  {
    "datum": "27. 2.-1. 3. 2027",
    "trida": "C",
    "vklad": "700 Kč",
@@ -7659,6 +8031,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "6.-8. 3. 2027 C 800 Kč SK Vítkovice 1926-Ridera, z.s. -/- -/-"
+  },
+  {
+   "datum": "6.-8. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tempo Praha",
+   "kod_m": "506174",
+   "obs_m": "-/-",
+   "kod_z": "606186",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-8. 3. 2027 C 800 Kč Tempo Praha -/- -/-"
   },
   {
    "datum": "6.-8. 3. 2027",
@@ -7887,6 +8271,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "13.-14. 3. 2027 C 600 Kč TJ Spartak Polička -/- -/-"
+  },
+  {
+   "datum": "13.-15. 3. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "506175",
+   "obs_m": "-/-",
+   "kod_z": "606187",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-15. 3. 2027 D 700 Kč Tenis Jesenice z.s. -/- -/-"
   },
   {
    "datum": "13.-15. 3. 2027",
@@ -8226,6 +8622,18 @@
   },
   {
    "datum": "27.-29. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "506176",
+   "obs_m": "-/-",
+   "kod_z": "606188",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-29. 3. 2027 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+  },
+  {
+   "datum": "27.-29. 3. 2027",
    "trida": "P",
    "vklad": "700 Kč",
    "poradatel": "Kelly Tennis Academy z.s.",
@@ -8283,6 +8691,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "27.-29. 3. 2027 C 800 Kč SK HAMR, z.s. -/- -/-"
+  },
+  {
+   "datum": "27.-29. 3. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "606189",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-29. 3. 2027 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
   },
   {
    "datum": "27.-28. 3. 2027",
@@ -8575,6 +8995,30 @@
    "radek": "28.-30. 11. 2026 C 800 Kč Sportovní klub LTC Modřany 2005 z.s. -/- -/-"
   },
   {
+   "datum": "28.-30. 11. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806219",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
+   "datum": "28.-30. 11. 2026",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "706221",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "28.-30. 11. 2026 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
    "datum": "5.-8. 12. 2026",
    "trida": "B",
    "vklad": "900 Kč",
@@ -8753,6 +9197,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "5.-8. 12. 2026 B 900 Kč Tenisový klub KONSTRUKTIVA, z.s. -/- -/-"
+  },
+  {
+   "datum": "5.-7. 12. 2026",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "706222",
+   "obs_m": "-/-",
+   "kod_z": "806220",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "5.-7. 12. 2026 D 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "5.-6. 12. 2026",
@@ -8974,6 +9430,18 @@
    "datum": "12.-14. 12. 2026",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "TK Třebíč",
+   "kod_m": "706223",
+   "obs_m": "-/-",
+   "kod_z": "806221",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "12.-14. 12. 2026 C 800 Kč TK Třebíč -/- -/-"
+  },
+  {
+   "datum": "12.-14. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "Sokol Smíchov I.",
    "kod_m": "",
    "obs_m": "-/-",
@@ -9089,6 +9557,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "12.-15. 12. 2026 B 900 Kč Tenis Malšovice, z.s. -/- -/-"
+  },
+  {
+   "datum": "12.-14. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806222",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "12.-14. 12. 2026 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
   },
   {
    "datum": "12.-14. 12. 2026",
@@ -9346,18 +9826,6 @@
    "datum": "19.-21. 12. 2026",
    "trida": "C",
    "vklad": "800 Kč",
-   "poradatel": "TK DOMYNO P4, z.s.",
-   "kod_m": "706047",
-   "obs_m": "-/-",
-   "kod_z": "806050",
-   "obs_z": "-/-",
-   "mix": false,
-   "radek": "19.-21. 12. 2026 C 800 Kč TK DOMYNO P4, z.s. -/- -/-"
-  },
-  {
-   "datum": "19.-21. 12. 2026",
-   "trida": "C",
-   "vklad": "800 Kč",
    "poradatel": "RAPID PLZEŇ TENIS z.s.",
    "kod_m": "706053",
    "obs_m": "-/-",
@@ -9365,6 +9833,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "19.-21. 12. 2026 C 800 Kč RAPID PLZEŇ TENIS z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-21. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK DOMYNO P4, z.s.",
+   "kod_m": "706047",
+   "obs_m": "-/-",
+   "kod_z": "806050",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-21. 12. 2026 C 800 Kč TK DOMYNO P4, z.s. -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -10127,9 +10607,9 @@
    "trida": "P",
    "vklad": "180 Kč",
    "poradatel": "severomoravský",
-   "kod_m": "708610",
+   "kod_m": "",
    "obs_m": "-/-",
-   "kod_z": "",
+   "kod_z": "806610",
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 P 180 Kč severomoravský -/- -/-"
@@ -10139,9 +10619,9 @@
    "trida": "P",
    "vklad": "180 Kč",
    "poradatel": "severomoravský",
-   "kod_m": "",
+   "kod_m": "708610",
    "obs_m": "-/-",
-   "kod_z": "806610",
+   "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 P 180 Kč severomoravský -/- -/-"
@@ -10198,6 +10678,18 @@
    "datum": "16.-18. 1. 2027",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "706225",
+   "obs_m": "-/-",
+   "kod_z": "806224",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "16.-18. 1. 2027 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
+   "datum": "16.-18. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "CTA Rudná",
    "kod_m": "706087",
    "obs_m": "-/-",
@@ -10205,6 +10697,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 C 800 Kč CTA Rudná -/- -/-"
+  },
+  {
+   "datum": "16.-18. 1. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "706224",
+   "obs_m": "-/-",
+   "kod_z": "806223",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "16.-18. 1. 2027 D 700 Kč Tenis Jesenice z.s. -/- -/-"
   },
   {
    "datum": "16.-18. 1. 2027",
@@ -10445,6 +10949,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-25. 1. 2027 D 700 Kč Tennis Hill Havířov o.s. -/- -/-"
+  },
+  {
+   "datum": "23.-25. 1. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "706226",
+   "obs_m": "-/-",
+   "kod_z": "806225",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-25. 1. 2027 D 700 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "23.-25. 1. 2027",
@@ -10714,6 +11230,30 @@
    "datum": "30. 1.-1. 2. 2027",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806226",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "30. 1.-1. 2. 2027 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
+   "datum": "30. 1.-1. 2. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806227",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "30. 1.-1. 2. 2027 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
+   "datum": "30. 1.-1. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "BLTC Brno",
    "kod_m": "706111",
    "obs_m": "-/-",
@@ -10805,6 +11345,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "6.-8. 2. 2027 C 800 Kč TK Na Dolině o.s. -/- -/-"
+  },
+  {
+   "datum": "6.-8. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tempo Praha",
+   "kod_m": "706227",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-8. 2. 2027 C 800 Kč Tempo Praha -/- -/-"
   },
   {
    "datum": "6.-8. 2. 2027",
@@ -10975,6 +11527,18 @@
    "radek": "13.-14. 2. 2027 E 600 Kč TK TILIA Brno -/- -/-"
   },
   {
+   "datum": "13.-14. 2. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "TK Ruzyně Praha",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806228",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 2. 2027 D 800 Kč TK Ruzyně Praha -/- -/-"
+  },
+  {
    "datum": "13.-15. 2. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -11069,6 +11633,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "13.-14. 2. 2027 C 600 Kč Tenisový klub Havlíčkův Brod,z.s. -/- -/-"
+  },
+  {
+   "datum": "13.-15. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "706228",
+   "obs_m": "-/-",
+   "kod_z": "806229",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-15. 2. 2027 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
    "datum": "13.-15. 2. 2027",
@@ -11285,6 +11861,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "20.-21. 2. 2027 D 700 Kč TK Letohrad -/- -/-"
+  },
+  {
+   "datum": "20.-22. 2. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "706229",
+   "obs_m": "-/-",
+   "kod_z": "806230",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "20.-22. 2. 2027 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
   },
   {
    "datum": "20.-21. 2. 2027",
@@ -11549,6 +12137,30 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "27. 2.-2. 3. 2027 B 900 Kč TA L&N Zlín-Mladcová,z.s. -/- -/-"
+  },
+  {
+   "datum": "27. 2.-1. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806232",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27. 2.-1. 3. 2027 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+  },
+  {
+   "datum": "27. 2.-1. 3. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "706230",
+   "obs_m": "-/-",
+   "kod_z": "806231",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27. 2.-1. 3. 2027 D 700 Kč Tenis Jesenice z.s. -/- -/-"
   },
   {
    "datum": "1.-3. 3. 2027",
@@ -11899,6 +12511,30 @@
    "radek": "13.-14. 3. 2027 C 700 Kč TK Severní Terasa -/- -/-"
   },
   {
+   "datum": "13.-14. 3. 2027",
+   "trida": "P",
+   "vklad": "800 Kč",
+   "poradatel": "I. ČLTPK Čerčany",
+   "kod_m": "706832",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 3. 2027 P 800 Kč I. ČLTPK Čerčany -/- -/-"
+  },
+  {
+   "datum": "13.-15. 3. 2027",
+   "trida": "D",
+   "vklad": "700 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "706231",
+   "obs_m": "-/-",
+   "kod_z": "806233",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-15. 3. 2027 D 700 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+  },
+  {
    "datum": "13.-15. 3. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -11945,6 +12581,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "13.-15. 3. 2027 D 700 Kč TJ Slavoj Tesla Hloubětín, z.s. -/- -/-"
+  },
+  {
+   "datum": "13.-15. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "706232",
+   "obs_m": "-/-",
+   "kod_z": "806234",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-15. 3. 2027 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
   },
   {
    "datum": "13.-15. 3. 2027",
@@ -12274,6 +12922,18 @@
    "datum": "27.-29. 3. 2027",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "Tempo Praha",
+   "kod_m": "706233",
+   "obs_m": "-/-",
+   "kod_z": "806236",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-29. 3. 2027 C 800 Kč Tempo Praha -/- -/-"
+  },
+  {
+   "datum": "27.-29. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "TO TJ Tesla Pardubice",
    "kod_m": "706216",
    "obs_m": "-/-",
@@ -12305,6 +12965,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "27.-29. 3. 2027 C 800 Kč TK Slavia Plzeň -/- -/-"
+  },
+  {
+   "datum": "27.-29. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806235",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-29. 3. 2027 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
   },
   {
    "datum": "29.-30. 3. 2027",
@@ -12600,6 +13272,18 @@
    "datum": "5. 12. 2026",
    "trida": "",
    "vklad": "500 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "906755",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "5. 12. 2026 500 Kč Tenisová škola Lucie Hradecké z.s. -/-"
+  },
+  {
+   "datum": "5. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
    "poradatel": "SK LAMA o.s.",
    "kod_m": "906527",
    "obs_m": "-/-",
@@ -12619,6 +13303,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "5. 12. 2026 500 Kč SK HIT Hradec Králové z.s. -/-"
+  },
+  {
+   "datum": "5. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906754",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "5. 12. 2026 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "5. 12. 2026",
@@ -12883,6 +13579,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "13.-14. 12. 2026 TK Sport Kolovraty -/-"
+  },
+  {
+   "datum": "13. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "906756",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13. 12. 2026 500 Kč Tenis Jesenice z.s. -/-"
   },
   {
    "datum": "13.-14. 12. 2026",
@@ -13231,6 +13939,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "9. 1. 2027 500 Kč CTA Rudná -/-"
+  },
+  {
+   "datum": "9. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906757",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "9. 1. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "9. 1. 2027",
@@ -13751,6 +14471,18 @@
   {
    "datum": "23. 1. 2027",
    "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906758",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "23. 1. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "23. 1. 2027",
+   "trida": "",
    "vklad": "700 Kč",
    "poradatel": "TJ Start Ostrava - Poruba, z.s.",
    "kod_m": "906615",
@@ -13835,6 +14567,18 @@
   {
    "datum": "24. 1. 2027",
    "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "906760",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "24. 1. 2027 500 Kč Tenisová škola Lucie Hradecké z.s. -/-"
+  },
+  {
+   "datum": "24. 1. 2027",
+   "trida": "",
    "vklad": "700 Kč",
    "poradatel": "TJ Start Ostrava - Poruba, z.s.",
    "kod_m": "906624",
@@ -13843,6 +14587,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "24. 1. 2027 700 Kč TJ Start Ostrava - Poruba, z.s. -/-"
+  },
+  {
+   "datum": "24. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Jesenice z.s.",
+   "kod_m": "906759",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "24. 1. 2027 500 Kč Tenis Jesenice z.s. -/-"
   },
   {
    "datum": "30. 1. 2027",
@@ -14289,6 +15045,18 @@
    "radek": "14. 2. 2027 500 Kč TK Sparta Praha -/-"
   },
   {
+   "datum": "14. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "906761",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "14. 2. 2027 500 Kč Tenisová škola Lucie Hradecké z.s. -/-"
+  },
+  {
    "datum": "14.-15. 2. 2027",
    "trida": "",
    "vklad": "",
@@ -14443,6 +15211,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "20. 2. 2027 500 Kč SK HIT Hradec Králové z.s. -/-"
+  },
+  {
+   "datum": "20. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906762",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 2. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "20. 2. 2027",
@@ -14736,6 +15516,18 @@
    "datum": "6. 3. 2027",
    "trida": "",
    "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906763",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "6. 3. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "6. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
    "poradatel": "TK Chomutov",
    "kod_m": "906703",
    "obs_m": "-/-",
@@ -14869,12 +15661,12 @@
    "trida": "",
    "vklad": "600 Kč",
    "poradatel": "TK Severní Terasa",
-   "kod_m": "906717",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "13. 3. 2027 600 Kč TK Severní Terasa -/-"
+   "radek": "13. 3. 2027 600 Kč TK Severní Terasa ZRUŠENO"
   },
   {
    "datum": "13. 3. 2027",
@@ -15108,6 +15900,18 @@
    "datum": "20. 3. 2027",
    "trida": "",
    "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906764",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 3. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "20. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
    "poradatel": "Tenisový klub Eden HK",
    "kod_m": "906726",
    "obs_m": "-/-",
@@ -15211,6 +16015,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "21. 3. 2027 500 Kč Tenis Nový Jičín,z.s. -/-"
+  },
+  {
+   "datum": "21. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+   "kod_m": "906765",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "21. 3. 2027 500 Kč Tenisová škola Lucie Hradecké z.s. -/-"
   },
   {
    "datum": "21. 3. 2027",
@@ -15542,6 +16358,18 @@
   {
    "datum": "6. 12. 2026",
    "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906099",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "6. 12. 2026 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "6. 12. 2026",
+   "trida": "",
    "vklad": "400 Kč",
    "poradatel": "Sportclub Řevnice, z.s.",
    "kod_m": "906016",
@@ -15708,6 +16536,18 @@
    "radek": "19. 12. 2026 1000 Kč Tennis Hill Havířov o.s. -/-"
   },
   {
+   "datum": "19. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906100",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "19. 12. 2026 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
    "datum": "20. 12. 2026",
    "trida": "",
    "vklad": "400 Kč",
@@ -15838,6 +16678,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "10. 1. 2027 500 Kč SK Tenis Tišnov -/-"
+  },
+  {
+   "datum": "10. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906101",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "10. 1. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "10. 1. 2027",
@@ -15984,6 +16836,18 @@
    "radek": "24. 1. 2027 500 Kč TK Třebíč -/-"
   },
   {
+   "datum": "24. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906102",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "24. 1. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
    "datum": "30. 1. 2027",
    "trida": "",
    "vklad": "500 Kč",
@@ -16090,6 +16954,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "7. 2. 2027 500 Kč Renáta Voráčová akademie, z.s. -/-"
+  },
+  {
+   "datum": "7. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906103",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "7. 2. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "7. 2. 2027",
@@ -16212,6 +17088,18 @@
    "radek": "21. 2. 2027 500 Kč LTC Vysoké Mýto -/-"
   },
   {
+   "datum": "21. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906104",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "21. 2. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
    "datum": "27. 2. 2027",
    "trida": "",
    "vklad": "400 Kč",
@@ -16306,6 +17194,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "7. 3. 2027 500 Kč TK Třebíč -/-"
+  },
+  {
+   "datum": "7. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906105",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "7. 3. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "7. 3. 2027",
@@ -16474,6 +17374,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "21. 3. 2027 500 Kč TK Choceň -/-"
+  },
+  {
+   "datum": "21. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906106",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "21. 3. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "21. 3. 2027",

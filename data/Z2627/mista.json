@@ -103,6 +103,19 @@
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: Ostrov Štvanice č.ev. 38, Holešovice, 17000 Praha 7"
  },
+ "klub:i cltpk cercany|sazavska 491 cercany": {
+  "klic": "klub:i cltpk cercany|sazavska 491 cercany",
+  "poradatel": "I. ČLTPK Čerčany",
+  "adresa": "Sázavská 491, Čerčany",
+  "zdroj": "detail",
+  "region": "Středočeský",
+  "lat": 49.855117,
+  "lon": 14.701013,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.11,
+  "geokod": "RÚIAN: Sázavská 491, 25722 Čerčany"
+ },
  "klub:jiskra velke brezno|alej sportovcu 256 velke brezno": {
   "klic": "klub:jiskra velke brezno|alej sportovcu 256 velke brezno",
   "poradatel": "Jiskra Velké Březno",
@@ -167,19 +180,6 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Pod plynojemem č.ev. 164, Karlín, 18600 Praha 8"
- },
- "klub:ltc houstka": {
-  "klic": "klub:ltc houstka",
-  "poradatel": "LTC Houštka",
-  "adresa": "Houštka 1259, Stará Boleslav",
-  "zdroj": "adresar",
-  "region": "Středočeský",
-  "lat": 50.189356,
-  "lon": 14.6915,
-  "presnost": "areal",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.03,
-  "geokod": "RÚIAN: Houštka 1259, Stará Boleslav, 25001 Brandýs nad Labem-Stará Boleslav"
  },
  "klub:ltc houstka|houstka 1259 stara boleslav": {
   "klic": "klub:ltc houstka|houstka 1259 stara boleslav",
@@ -375,19 +375,6 @@
   "nazev_mista": "Hamr",
   "osm_vzdalenost_km": 0.15,
   "geokod": "RÚIAN: K vodě 3200/6, Záběhlice, 10600 Praha 10"
- },
- "klub:sk hit hradec kralove z s": {
-  "klic": "klub:sk hit hradec kralove z s",
-  "poradatel": "SK HIT Hradec Králové z.s.",
-  "adresa": "Hradecká 775/115, Hradec Králové",
-  "zdroj": "adresar",
-  "region": "Východočeský",
-  "lat": 50.187984,
-  "lon": 15.834938,
-  "presnost": "areal",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Hradecká 775/115, Třebeš, 50011 Hradec Králové"
  },
  "klub:sk hit hradec kralove z s|hradecka 775 115 hradec kralove": {
   "klic": "klub:sk hit hradec kralove z s|hradecka 775 115 hradec kralove",
@@ -609,18 +596,18 @@
   "osm_vzdalenost_km": 1.82,
   "geokod": "OSM: Na Kempu, 290, Národních hrdinů, Praha-Dolní Počernice, obvod Praha 9, Praha, 190 12, Česko"
  },
- "klub:sokol smichov i": {
-  "klic": "klub:sokol smichov i",
-  "poradatel": "Sokol Smíchov I.",
-  "adresa": "U Mrázovky, sport.areál Mrázovka, Praha 5",
-  "zdroj": "adresar",
+ "klub:sokol reporyje|jachymovska 613 1 praha 5 reporyje": {
+  "klic": "klub:sokol reporyje|jachymovska 613 1 praha 5 reporyje",
+  "poradatel": "Sokol Řeporyje",
+  "adresa": "Jáchymovská 613/1, Praha 5 - Řeporyje",
+  "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.068487,
-  "lon": 14.39376,
-  "presnost": "areal_obec",
+  "lat": 50.034848,
+  "lon": 14.312611,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.11,
-  "geokod": "OSM: U Mrázovky, Malvazinky, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: Jáchymovská 613/1, Řeporyje, 15500 Praha 5"
  },
  "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5": {
   "klic": "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5",
@@ -908,19 +895,6 @@
   "osm_vzdalenost_km": 0.09,
   "geokod": "RÚIAN: U Labe 427/1, 50002 Hradec Králové"
  },
- "klub:tenis cibulka": {
-  "klic": "klub:tenis cibulka",
-  "poradatel": "Tenis Cibulka",
-  "adresa": "V Stráni 11, Praha 5",
-  "zdroj": "adresar",
-  "region": "Praha",
-  "lat": 50.067256,
-  "lon": 14.360841,
-  "presnost": "areal",
-  "nazev_mista": "Tenis Cibulka",
-  "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: V stráni 485/11, Košíře, 15000 Praha 5"
- },
  "klub:tenis cibulka|v strani 11 praha 5": {
   "klic": "klub:tenis cibulka|v strani 11 praha 5",
   "poradatel": "Tenis Cibulka",
@@ -946,6 +920,19 @@
   "nazev_mista": "Tenis",
   "osm_vzdalenost_km": 0.04,
   "geokod": "RÚIAN: Jetelová 2183, 25228 Černošice"
+ },
+ "klub:tenis jesenice z s|k sportovnimu arealu 1600 jesenice": {
+  "klic": "klub:tenis jesenice z s|k sportovnimu arealu 1600 jesenice",
+  "poradatel": "Tenis Jesenice z.s.",
+  "adresa": "K sportovnímu areálu 1600, Jesenice",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 49.976091,
+  "lon": 14.515964,
+  "presnost": "areal_obec",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.1,
+  "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko"
  },
  "klub:tenis klub strakonice spolek|machova 178 strakonice": {
   "klic": "klub:tenis klub strakonice spolek|machova 178 strakonice",
@@ -1038,6 +1025,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "OSM: 457/82, Jiráskova, Staré Pavlovice-východ, Staré Pavlovice, Nové Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
  },
+ "klub:tenisova skola lucie hradecke z s|manzelu dostalovych 1722 praha 9": {
+  "klic": "klub:tenisova skola lucie hradecke z s|manzelu dostalovych 1722 praha 9",
+  "poradatel": "Tenisová škola Lucie Hradecké z.s.",
+  "adresa": "Manželů Dostálových 1722, PRAHA 9",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.087181,
+  "lon": 14.549739,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Manželů Dostálových 1722, Kyje, 19800 Praha 9"
+ },
  "klub:tenisovy klub cerveny kostelec z s|palackeho 1316 cerveny kostelec": {
   "klic": "klub:tenisovy klub cerveny kostelec z s|palackeho 1316 cerveny kostelec",
   "poradatel": "Tenisový klub Červený Kostelec, z.s.",
@@ -1128,19 +1128,6 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.02,
   "geokod": "RÚIAN: Padlých hrdinů 401/10a, Životice, 73601 Havířov"
- },
- "klub:tj brno komin": {
-  "klic": "klub:tj brno komin",
-  "poradatel": "TJ Brno-Komín",
-  "adresa": "Svratecká 11b, Brno",
-  "zdroj": "adresar",
-  "region": "Jihomoravský",
-  "lat": 49.21657,
-  "lon": 16.554195,
-  "presnost": "areal",
-  "nazev_mista": "TJ Komín",
-  "osm_vzdalenost_km": 0.04,
-  "geokod": "RÚIAN: Svratecká 1301/11b, Komín, 62400 Brno"
  },
  "klub:tj brno komin|svratecka 11b brno": {
   "klic": "klub:tj brno komin|svratecka 11b brno",
@@ -1376,19 +1363,6 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: U Hřiště 1524, 56501 Choceň"
  },
- "klub:tk chomutov": {
-  "klic": "klub:tk chomutov",
-  "poradatel": "TK Chomutov",
-  "adresa": "Bezručova 4880,PO BOX 36, Chomutov 3",
-  "zdroj": "adresar",
-  "region": "Severočeský",
-  "lat": 50.470777,
-  "lon": 13.392377,
-  "presnost": "areal",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.06,
-  "geokod": "RÚIAN: Bezručova 4880, 43003 Chomutov"
- },
  "klub:tk chomutov|bezrucova 4880 po box 36 chomutov 3": {
   "klic": "klub:tk chomutov|bezrucova 4880 po box 36 chomutov 3",
   "poradatel": "TK Chomutov",
@@ -1414,19 +1388,6 @@
   "nazev_mista": "Tenisová hala",
   "osm_vzdalenost_km": 0.12,
   "geokod": "RÚIAN: Kouty 1581, 75701 Valašské Meziříčí"
- },
- "klub:tk domyno p4 z s": {
-  "klic": "klub:tk domyno p4 z s",
-  "poradatel": "TK DOMYNO P4, z.s.",
-  "adresa": "Chýnovská, Praha 4",
-  "zdroj": "adresar",
-  "region": "Praha",
-  "lat": 50.016017,
-  "lon": 14.453188,
-  "presnost": "obec",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "OSM: Chýnovská, Jalový Dvůr, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
  },
  "klub:tk domyno p4 z s|chynovska praha 4": {
   "klic": "klub:tk domyno p4 z s|chynovska praha 4",
@@ -1467,19 +1428,6 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Kyselka 105, 43151 Klášterec nad Ohří"
  },
- "klub:tk havirov z s": {
-  "klic": "klub:tk havirov z s",
-  "poradatel": "TK Havířov, z.s.",
-  "adresa": "Opletalova 1218/8b, Havířov-Šumbark",
-  "zdroj": "adresar",
-  "region": "Severomoravský",
-  "lat": 49.794853,
-  "lon": 18.412673,
-  "presnost": "areal",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Opletalova 1218/8b, Šumbark, 73601 Havířov"
- },
  "klub:tk havirov z s|opletalova 1218 8b havirov sumbark": {
   "klic": "klub:tk havirov z s|opletalova 1218 8b havirov sumbark",
   "poradatel": "TK Havířov, z.s.",
@@ -1505,19 +1453,6 @@
   "nazev_mista": "Sportovní areál Olšinky",
   "osm_vzdalenost_km": 0.17,
   "geokod": "RÚIAN: Olšinky 1063, 53901 Hlinsko"
- },
- "klub:tk horni mecholupy": {
-  "klic": "klub:tk horni mecholupy",
-  "poradatel": "TK Horní Měcholupy",
-  "adresa": "Hornoměcholupská 564, Praha 15, Horní Měcholupy",
-  "zdroj": "adresar",
-  "region": "Praha",
-  "lat": 50.047494,
-  "lon": 14.548074,
-  "presnost": "areal",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Hornoměcholupská 564/105, Horní Měcholupy, 10900 Praha 10"
  },
  "klub:tk horni mecholupy|hornomecholupska 564 praha 15 horni mecholupy": {
   "klic": "klub:tk horni mecholupy|hornomecholupska 564 praha 15 horni mecholupy",
@@ -1714,6 +1649,19 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Alej 17. listopadu 265, 41301 Roudnice nad Labem"
  },
+ "klub:tk ruzyne praha|nam c povstani praha 6": {
+  "klic": "klub:tk ruzyne praha|nam c povstani praha 6",
+  "poradatel": "TK Ruzyně Praha",
+  "adresa": "Nám.č.povstání, Praha 6",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.106556,
+  "lon": 14.363724,
+  "presnost": "obec",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "OSM: Praha 6, obvod Praha 6, Praha, Česko"
+ },
  "klub:tk sc ostrava|budecska 4 3214 ostrava": {
   "klic": "klub:tk sc ostrava|budecska 4 3214 ostrava",
   "poradatel": "TK SC OSTRAVA",
@@ -1726,6 +1674,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Budečská 3214/4, Moravská Ostrava, 70200 Ostrava"
+ },
+ "klub:tk severni terasa": {
+  "klic": "klub:tk severni terasa",
+  "poradatel": "TK Severní Terasa",
+  "adresa": "V Lánech 405, Ústí nad Labem",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.692863,
+  "lon": 14.012289,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "RÚIAN: V Lánech 405, Skorotice, 40340 Ústí nad Labem"
  },
  "klub:tk severni terasa|v lanech 405 usti nad labem": {
   "klic": "klub:tk severni terasa|v lanech 405 usti nad labem",
@@ -3005,11 +2966,11 @@
   "klic": "svaz:vychodocesky:106920",
   "poradatel": "východočeský",
   "adresa": "Hradecká 775/115, Hradec Králové",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.187984,
   "lon": 15.834938,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Hradecká 775/115, Třebeš, 50011 Hradec Králové"
@@ -3018,11 +2979,11 @@
   "klic": "svaz:vychodocesky:206920",
   "poradatel": "východočeský",
   "adresa": "Sportovní 224, Vysoké Mýto",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 49.957904,
   "lon": 16.160053,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.08,
   "geokod": "RÚIAN: Sportovní 224, Pražské Předměstí, 56601 Vysoké Mýto"
@@ -3031,11 +2992,11 @@
   "klic": "svaz:vychodocesky:306920",
   "poradatel": "východočeský",
   "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.211946,
   "lon": 15.828774,
-  "presnost": "odhad",
+  "presnost": "obec",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "OSM: U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
@@ -3044,11 +3005,11 @@
   "klic": "svaz:vychodocesky:406920",
   "poradatel": "východočeský",
   "adresa": "Husova 22, Česká Třebová",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 49.913996,
   "lon": 16.441424,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "tenis",
   "osm_vzdalenost_km": 0.04,
   "geokod": "RÚIAN: Husova 22, Parník, 56002 Česká Třebová"
@@ -3057,11 +3018,11 @@
   "klic": "svaz:vychodocesky:506920",
   "poradatel": "východočeský",
   "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.211946,
   "lon": 15.828774,
-  "presnost": "odhad",
+  "presnost": "obec",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "OSM: U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
@@ -3070,11 +3031,11 @@
   "klic": "svaz:vychodocesky:606920",
   "poradatel": "východočeský",
   "adresa": "U koupaliště 1362, Žamberk",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.085701,
   "lon": 16.475259,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.02,
   "geokod": "RÚIAN: U Koupaliště 1362, 56401 Žamberk"
@@ -3082,54 +3043,54 @@
  "svaz:vychodocesky:706920": {
   "klic": "svaz:vychodocesky:706920",
   "poradatel": "východočeský",
-  "adresa": "U koupaliště 1362, Žamberk",
-  "zdroj": "loni",
-  "region": "Východočeský",
-  "lat": 50.085701,
-  "lon": 16.475259,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.02,
-  "geokod": "RÚIAN: U Koupaliště 1362, 56401 Žamberk"
- },
- "svaz:vychodocesky:806920": {
-  "klic": "svaz:vychodocesky:806920",
-  "poradatel": "východočeský",
   "adresa": "Hradecká 775/115, Hradec Králové",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.187984,
   "lon": 15.834938,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Hradecká 775/115, Třebeš, 50011 Hradec Králové"
  },
+ "svaz:vychodocesky:806920": {
+  "klic": "svaz:vychodocesky:806920",
+  "poradatel": "východočeský",
+  "adresa": "Husova 22, Česká Třebová",
+  "zdroj": "detail",
+  "region": "Východočeský",
+  "lat": 49.913996,
+  "lon": 16.441424,
+  "presnost": "areal",
+  "nazev_mista": "tenis",
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "RÚIAN: Husova 22, Parník, 56002 Česká Třebová"
+ },
  "svaz:vychodocesky:906638": {
   "klic": "svaz:vychodocesky:906638",
   "poradatel": "východočeský",
-  "adresa": "Na Dlouhých 812, Uherský Brod",
-  "zdroj": "loni",
+  "adresa": "Sportovní 224, Vysoké Mýto",
+  "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 49.02787,
-  "lon": 17.641558,
-  "presnost": "odhad",
+  "lat": 49.957904,
+  "lon": 16.160053,
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.08,
-  "geokod": "RÚIAN: Na Dlouhých 812, 68801 Uherský Brod"
+  "geokod": "RÚIAN: Sportovní 224, Pražské Předměstí, 56601 Vysoké Mýto"
  },
  "svaz:vychodocesky:906639": {
   "klic": "svaz:vychodocesky:906639",
   "poradatel": "východočeský",
-  "adresa": "Houštka 1259, Stará Boleslav",
-  "zdroj": "loni",
+  "adresa": "U koupaliště 1362, Žamberk",
+  "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 50.189356,
-  "lon": 14.6915,
-  "presnost": "odhad",
+  "lat": 50.085701,
+  "lon": 16.475259,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.03,
-  "geokod": "RÚIAN: Houštka 1259, Stará Boleslav, 25001 Brandýs nad Labem-Stará Boleslav"
+  "osm_vzdalenost_km": 0.02,
+  "geokod": "RÚIAN: U Koupaliště 1362, 56401 Žamberk"
  },
  "svaz:zapadocesky:106880": {
   "klic": "svaz:zapadocesky:106880",
