@@ -514,7 +514,8 @@
   "presnost": "obec",
   "nazev_mista": "Vilar TK",
   "zeme": "lv",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "DEN|b 93 tennis club|copenhagen": {
   "poradatel": "B.93 Tennis Club",
@@ -526,7 +527,8 @@
   "presnost": "obec",
   "nazev_mista": "B.93 Tennis Club",
   "zeme": "dk",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|sporting club parma|parma": {
   "poradatel": "Sporting Club Parma",
@@ -549,7 +551,8 @@
   "presnost": "obec",
   "nazev_mista": "TEN CLUB TENIS BUZAU",
   "zeme": "",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ROM|baza sportiva ciric|iasi": {
   "poradatel": "BAZA SPORTIVA CIRIC",
@@ -572,7 +575,8 @@
   "presnost": "obec",
   "nazev_mista": "Adriatic Tennis Park",
   "zeme": "al",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "SLO|tk as litija|litija": {
   "poradatel": "TK As Litija",
@@ -584,7 +588,8 @@
   "presnost": "obec",
   "nazev_mista": "TK As Litija",
   "zeme": "si",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "GRE|omilos antisferisis alexandroupolis|alexandroupoli": {
   "poradatel": "Omilos Antisferisis Alexandroupolis",
@@ -2776,6 +2781,18 @@
   "presnost": "obec",
   "nazev_mista": "TC Sport-Hotel Kurz",
   "zeme": "at",
+  "v2": 1
+ },
+ "GBR|all england lawn tennis club community tennis centre raynes park|london": {
+  "poradatel": "All England Lawn Tennis Club Community Tennis Centre Raynes Park",
+  "adresa": "London, Great Britain",
+  "zdroj": "te",
+  "region": "Great Britain",
+  "lat": 51.507446,
+  "lon": -0.127765,
+  "presnost": "obec",
+  "nazev_mista": "All England Lawn Tennis Club Community Tennis Centre Raynes Park",
+  "zeme": "gb",
   "v2": 1
  }
 }

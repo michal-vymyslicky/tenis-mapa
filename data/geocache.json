@@ -32601,5 +32601,29 @@
    "type": "pitch",
    "addresstype": "leisure"
   }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=All+England+Lawn+Tennis+Club+Community+Tennis+Centre+Raynes+Park%2C+London": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=All+England+Lawn+Tennis+Club+Community+Tennis+Centre+Raynes+Park": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=London": [
+  {
+   "name": "Londýn",
+   "display_name": "Londýn, Anglie, Spojené království",
+   "lat": "51.5074456",
+   "lon": "-0.1277653",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=tennis+London": [
+  {
+   "name": "The Royal Tennis Court",
+   "display_name": "The Royal Tennis Court, The Broad Walk, Hampton Wick, Richmond, Londýn, Anglie, KT8 9AP, Spojené království",
+   "lat": "51.4044287",
+   "lon": "-0.3361632",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
  ]
 }

@@ -1716,6 +1716,22 @@
   "entry": false
  },
  {
+  "id": "9681C899-CC9C-4EBF-A8E7-1C0BAB59FC38",
+  "nz": "X Trophy Ajuntament de Calvià",
+  "venue": "PISTAS MUNICIPALES MAGALUF",
+  "city": "MAGALUF",
+  "country": "Spain",
+  "iso3": "ESP",
+  "od": "2026-10-31",
+  "do": "2026-11-07",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "8D96D7A4-AD04-4FAA-977A-EC491BEA6CFF",
   "nz": "ATIK CUP",
   "venue": "ANTALYA TENİS İHTİSAS VE SPOR KULÜBÜ (ATIK)",
@@ -1740,7 +1756,7 @@
   "iso3": "GRE",
   "od": "2026-10-31",
   "do": "2026-11-08",
-  "pov": "Artificial Clay",
+  "pov": "Artificial Clay, Clay",
   "tags": [
    "Category 2",
    "12&U"
@@ -1776,22 +1792,6 @@
   "tags": [
    "Category 2",
    "14&U"
-  ],
-  "entry": false
- },
- {
-  "id": "9681C899-CC9C-4EBF-A8E7-1C0BAB59FC38",
-  "nz": "X Trophy Ajuntament de Calvià",
-  "venue": "PISTAS MUNICIPALES MAGALUF",
-  "city": "MAGALUF",
-  "country": "Spain",
-  "iso3": "ESP",
-  "od": "2026-10-31",
-  "do": "2026-11-08",
-  "pov": "Clay",
-  "tags": [
-   "Category 2",
-   "12&U"
   ],
   "entry": false
  },
@@ -1845,7 +1845,7 @@
  },
  {
   "id": "1DBCE8FB-549D-4DB1-AA1C-1F6FC2B88B86",
-  "nz": "Kozerki Cup",
+  "nz": "Kozerki Cup by Kozerki School",
   "venue": "Akademia Tenisowa Tenis Kozerki",
   "city": "Grodzisk Mazowiecki",
   "country": "Poland",
@@ -2886,22 +2886,6 @@
   "entry": false
  },
  {
-  "id": "B54C18ED-73D7-41F2-A729-BD19CD85A7B0",
-  "nz": "Braga Open Under 12 - 2027",
-  "venue": "Clube Ténis Braga",
-  "city": "Braga",
-  "country": "Portugal",
-  "iso3": "POR",
-  "od": "2027-02-22",
-  "do": "2027-02-28",
-  "pov": "Clay",
-  "tags": [
-   "Category 2",
-   "12&U"
-  ],
-  "entry": false
- },
- {
   "id": "7E106EC9-F459-4B52-80D9-29AEDD71E954",
   "nz": "CIRCUITO INTERNACIONALES Comunidad Valenciana SUB16 - Main Draw RR to Elimination",
   "venue": "CLUB DE TENIS TORRENT",
@@ -3234,6 +3218,22 @@
   "tags": [
    "Category 2",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "B54C18ED-73D7-41F2-A729-BD19CD85A7B0",
+  "nz": "Braga Open Under 12 - 2027",
+  "venue": "Clube Ténis Braga",
+  "city": "Braga",
+  "country": "Portugal",
+  "iso3": "POR",
+  "od": "2027-03-22",
+  "do": "2027-03-28",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
   ],
   "entry": false
  },
@@ -4439,6 +4439,22 @@
   "pov": "Acryllic",
   "tags": [
    "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "7243E3DD-2D35-4CBB-9AF0-86C28F7045FC",
+  "nz": "Lexus Junior International Raynes Park",
+  "venue": "All England Lawn Tennis Club Community Tennis Centre Raynes Park",
+  "city": "London",
+  "country": "Great Britain",
+  "iso3": "GBR",
+  "od": "2027-06-08",
+  "do": "2027-06-12",
+  "pov": "Grass",
+  "tags": [
+   "Category 1",
    "14&U"
   ],
   "entry": false

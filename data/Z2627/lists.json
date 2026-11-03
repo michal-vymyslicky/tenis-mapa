@@ -927,6 +927,18 @@
   {
    "datum": "19.-21. 12. 2026",
    "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "SK Újezd Praha 4, z.s.",
+   "kod_m": "106147",
+   "obs_m": "-/-",
+   "kod_z": "206084",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-21. 12. 2026 C 800 Kč SK Újezd Praha 4, z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-21. 12. 2026",
+   "trida": "C",
    "vklad": "900 Kč",
    "poradatel": "TK Kunštát",
    "kod_m": "106051",
