@@ -601,19 +601,22 @@
   "presnost": "obec",
   "nazev_mista": "Omilos Antisferisis Alexandroupolis",
   "zeme": "gr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "TUR|sirnak yurdum genclik ve spor kulubu|yenimahalle": {
   "poradatel": "SIRNAK YURDUM GENÇLİK VE SPOR KULÜBÜ",
   "adresa": "Yenimahalle, Turkiye",
   "zdroj": "te",
   "region": "Turkiye",
-  "lat": 40.981724,
-  "lon": 28.881039,
-  "presnost": "obec",
+  "lat": 40.98967,
+  "lon": 28.832428,
+  "presnost": "areal",
   "nazev_mista": "SIRNAK YURDUM GENÇLİK VE SPOR KULÜBÜ",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Gençlik ve Spor Bakanlığı Bakırköy İlçe Müdürlüğü"
  },
  "CRO|teniski centar diamant|porec": {
   "poradatel": "Teniski centar Diamant",
@@ -625,19 +628,22 @@
   "presnost": "obec",
   "nazev_mista": "Teniski centar Diamant",
   "zeme": "hr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|conde jackson maspalomas|maspalomas gran canaria": {
   "poradatel": "Conde Jackson Maspalomas",
   "adresa": "Maspalomas, Spain",
   "zdroj": "te",
   "region": "Spain",
-  "lat": 27.752773,
-  "lon": -15.597083,
-  "presnost": "obec",
+  "lat": 27.765329,
+  "lon": -15.584471,
+  "presnost": "areal",
   "nazev_mista": "Conde Jackson Maspalomas",
   "zeme": "es",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Estadio Municipal de Maspalomas"
  },
  "BUL|tennis club izida|dobrich": {
   "poradatel": "Tennis Club Izida",
@@ -649,7 +655,8 @@
   "presnost": "obec",
   "nazev_mista": "Tennis Club Izida",
   "zeme": "bg",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|tec carles ferrer salat|barcelona": {
   "poradatel": "TEC Carles Ferrer Salat",
@@ -661,55 +668,64 @@
   "presnost": "obec",
   "nazev_mista": "TEC Carles Ferrer Salat",
   "zeme": "es",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "BUL|tennis club lokomotiv plovdiv|plovdiv": {
   "poradatel": "Tennis Club Lokomotiv Plovdiv",
   "adresa": "Plovdiv, Bulgaria",
   "zdroj": "te",
   "region": "Bulgaria",
-  "lat": 42.141854,
-  "lon": 24.74993,
-  "presnost": "obec",
+  "lat": 42.147518,
+  "lon": 24.718252,
+  "presnost": "areal_obec",
   "nazev_mista": "Tennis Club Lokomotiv Plovdiv",
   "zeme": "bg",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "BUL|tennis club max pro|plovdiv": {
   "poradatel": "Tennis Club Max Pro",
   "adresa": "Plovdiv, Bulgaria",
   "zdroj": "te",
   "region": "Bulgaria",
-  "lat": 42.141854,
-  "lon": 24.74993,
-  "presnost": "obec",
+  "lat": 42.147518,
+  "lon": 24.718252,
+  "presnost": "areal_obec",
   "nazev_mista": "Tennis Club Max Pro",
   "zeme": "bg",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "TUR|erzincan genclik spor kulubu ulku spor kompleksi|merkez erzincan": {
   "poradatel": "Erzincan Gençlik Spor Kulübü – Ülkü Spor Kompleksi",
   "adresa": "Merkez/Erzincan, Turkiye",
   "zdroj": "te",
   "region": "Turkiye",
-  "lat": 39.746755,
-  "lon": 39.49103,
-  "presnost": "obec",
+  "lat": 39.751775,
+  "lon": 39.512834,
+  "presnost": "areal",
   "nazev_mista": "Erzincan Gençlik Spor Kulübü – Ülkü Spor Kompleksi",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Ülkü Spor Kompleksi"
  },
  "SLO|tk terme ptuj|ptuj": {
   "poradatel": "TK Terme Ptuj",
   "adresa": "Ptuj, Slovenia",
   "zdroj": "te",
   "region": "Slovenia",
-  "lat": 46.41981,
-  "lon": 15.871738,
-  "presnost": "obec",
+  "lat": 46.422771,
+  "lon": 15.855293,
+  "presnost": "areal",
   "nazev_mista": "TK Terme Ptuj",
   "zeme": "si",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Teniški klub Terme Ptuj"
  },
  "GRE|tennis club of serres|serres": {
   "poradatel": "TENNIS CLUB of SERRES",
@@ -721,7 +737,8 @@
   "presnost": "obec",
   "nazev_mista": "TENNIS CLUB of SERRES",
   "zeme": "gr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|club tennis barcino|barcelona": {
   "poradatel": "Club Tennis Barcino",
@@ -755,7 +772,8 @@
   "presnost": "obec",
   "nazev_mista": "Tennis club Eminent",
   "zeme": "",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "CYP|famagusta tennis club|limassol": {
   "poradatel": "Famagusta Tennis Club",
@@ -778,7 +796,8 @@
   "presnost": "obec",
   "nazev_mista": "INVENTİST ACADEMY",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "GRE|fthiotikos omilos antisfairisis|lamia": {
   "poradatel": "Fthiotikos Omilos Antisfairisis",
@@ -791,7 +810,8 @@
   "nazev_mista": "Fthiotikos Omilos Antisfairisis",
   "zeme": "gr",
   "poznamka": "tenisový areál v obci podle OSM: ΓΗΠΕΔΑ ΤΕΝΝΙΣ",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "GRE|tennis club rafina|rafina": {
   "poradatel": "Tennis Club Rafina",
@@ -804,7 +824,8 @@
   "nazev_mista": "Tennis Club Rafina",
   "zeme": "gr",
   "poznamka": "tenisový areál v obci podle OSM: tennis court",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "MLT|tennis club kordin|paola": {
   "poradatel": "Tennis Club Kordin",
@@ -817,7 +838,8 @@
   "nazev_mista": "Tennis Club Kordin",
   "zeme": "mt",
   "poznamka": "tenisový areál v obci podle OSM: Vittoriosa Lawn Tennis Club (VLTC)",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "BUL|tennis club haskovo 2015|haskovo": {
   "poradatel": "Tennis Club Haskovo 2015",
@@ -829,7 +851,8 @@
   "presnost": "obec",
   "nazev_mista": "Tennis Club Haskovo 2015",
   "zeme": "bg",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "LAT|tennis center adazi|adazi": {
   "poradatel": "Tennis center Adazi",

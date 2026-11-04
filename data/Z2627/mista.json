@@ -1779,6 +1779,19 @@
   "osm_vzdalenost_km": 0.04,
   "geokod": "RÚIAN: Mostecká 3700/24, 58601 Jihlava"
  },
+ "klub:tk spoje praha z s|na balkane 450 25 praha 3": {
+  "klic": "klub:tk spoje praha z s|na balkane 450 25 praha 3",
+  "poradatel": "TK Spoje Praha, z.s.",
+  "adresa": "Na Balkáně 450/25, Praha 3",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.095779,
+  "lon": 14.487747,
+  "presnost": "areal",
+  "nazev_mista": "TJ Sokol Žižkov II.",
+  "osm_vzdalenost_km": 0.21,
+  "geokod": "RÚIAN: Na Balkáně 450/25, Vysočany, 13000 Praha 3"
+ },
  "klub:tk sport kolovraty|do hlinek 754 7 praha 22 kolovraty": {
   "klic": "klub:tk sport kolovraty|do hlinek 754 7 praha 22 kolovraty",
   "poradatel": "TK Sport Kolovraty",
@@ -2465,11 +2478,11 @@
   "klic": "svaz:severocesky:106900",
   "poradatel": "severočeský",
   "adresa": "U koupaliště 647, Hrádek nad Nisou",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severočeský",
   "lat": 50.855363,
   "lon": 14.838096,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tennis",
   "osm_vzdalenost_km": 0.25,
   "geokod": "RÚIAN: U koupaliště 647, 46334 Hrádek nad Nisou"
@@ -2491,11 +2504,11 @@
   "klic": "svaz:severocesky:306900",
   "poradatel": "severočeský",
   "adresa": "U koupaliště 647, Hrádek nad Nisou",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Severočeský",
   "lat": 50.855363,
   "lon": 14.838096,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tennis",
   "osm_vzdalenost_km": 0.25,
   "geokod": "RÚIAN: U koupaliště 647, 46334 Hrádek nad Nisou"

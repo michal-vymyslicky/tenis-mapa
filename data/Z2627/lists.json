@@ -3867,6 +3867,18 @@
    "radek": "23.-25. 1. 2027 D 800 Kč TK Sport Kolovraty -/- -/-"
   },
   {
+   "datum": "23.-25. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK Spoje Praha, z.s.",
+   "kod_m": "306182",
+   "obs_m": "-/-",
+   "kod_z": "406175",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-25. 1. 2027 C 800 Kč TK Spoje Praha, z.s. -/- -/-"
+  },
+  {
    "datum": "29.-31. 1. 2027",
    "trida": "C",
    "vklad": "900 Kč",
@@ -7949,6 +7961,18 @@
    "radek": "27. 2.-1. 3. 2027 C 700 Kč TO TJ Tesla Pardubice -/- -/-"
   },
   {
+   "datum": "27.-28. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK Litvínov z.s.",
+   "kod_m": "506177",
+   "obs_m": "-/-",
+   "kod_z": "606190",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-28. 2. 2027 C 800 Kč TK Litvínov z.s. -/- -/-"
+  },
+  {
    "datum": "27. 2.-1. 3. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -9857,6 +9881,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "19.-21. 12. 2026 C 800 Kč TK DOMYNO P4, z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-21. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK Spoje Praha, z.s.",
+   "kod_m": "706234",
+   "obs_m": "-/-",
+   "kod_z": "806237",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-21. 12. 2026 C 800 Kč TK Spoje Praha, z.s. -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -16920,6 +16956,18 @@
    "radek": "31. 1. 2027 400 Kč TK Chomutov -/-"
   },
   {
+   "datum": "31. 1.-1. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Kelly Tennis Academy z.s.",
+   "kod_m": "906107",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "31. 1.-1. 2. 2027 500 Kč Kelly Tennis Academy z.s. -/-"
+  },
+  {
    "datum": "6. 2. 2027",
    "trida": "",
    "vklad": "500 Kč",
@@ -17110,6 +17158,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "21. 2. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "21.-22. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Kelly Tennis Academy z.s.",
+   "kod_m": "906108",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "21.-22. 2. 2027 500 Kč Kelly Tennis Academy z.s. -/-"
   },
   {
    "datum": "27. 2. 2027",
