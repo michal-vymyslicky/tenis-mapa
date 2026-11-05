@@ -1733,7 +1733,7 @@
  },
  {
   "id": "8D96D7A4-AD04-4FAA-977A-EC491BEA6CFF",
-  "nz": "ATIK CUP",
+  "nz": "ATIK Cumhuriyet Cup",
   "venue": "ANTALYA TENİS İHTİSAS VE SPOR KULÜBÜ (ATIK)",
   "city": "Antalya",
   "country": "Turkiye",
@@ -2164,6 +2164,22 @@
   "entry": false
  },
  {
+  "id": "2AE1CF5A-5579-44EE-8C0E-E076BF423EA8",
+  "nz": "Gothenburg Open",
+  "venue": "GLTK",
+  "city": "Göteborg",
+  "country": "Sweden",
+  "iso3": "SWE",
+  "od": "2026-11-30",
+  "do": "2026-12-04",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "23AE0F0E-0063-44C6-BB79-0A2DAB4197C3",
   "nz": "Bad Waltersdorf Open 2026 - indoors",
   "venue": "Sportaktivpark Bad Waltersdorf",
@@ -2177,22 +2193,6 @@
    "Category 3",
    "14&U",
    "16&U"
-  ],
-  "entry": false
- },
- {
-  "id": "2AE1CF5A-5579-44EE-8C0E-E076BF423EA8",
-  "nz": "Gothenburg Open",
-  "venue": "GLTK",
-  "city": "Göteborg",
-  "country": "Sweden",
-  "iso3": "SWE",
-  "od": "2026-11-30",
-  "do": "2026-12-06",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 3",
-   "14&U"
   ],
   "entry": false
  },
@@ -2773,22 +2773,6 @@
   "entry": false
  },
  {
-  "id": "E10E352D-796A-47ED-B17F-5270A160A609",
-  "nz": "TEJT 2 U14 \" Baseline Open U14 2027\"",
-  "venue": "TC Baseline",
-  "city": "Banska Bystrica",
-  "country": "Slovakia",
-  "iso3": "SVK",
-  "od": "2027-02-15",
-  "do": "2027-02-21",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 2",
-   "14&U"
-  ],
-  "entry": false
- },
- {
   "id": "0B0ACE06-9530-462C-9644-5396D783E003",
   "nz": "Tsaghkadzor Winter Cup 1",
   "venue": "Tsaghkadzor Main Sport Complx",
@@ -2848,6 +2832,22 @@
   "pov": "Acryllic",
   "tags": [
    "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "E10E352D-796A-47ED-B17F-5270A160A609",
+  "nz": "TEJT 2 U14 \" Baseline Open U14 2027\"",
+  "venue": "TC Baseline",
+  "city": "Banska Bystrica",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-02-16",
+  "do": "2027-02-21",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
    "14&U"
   ],
   "entry": false

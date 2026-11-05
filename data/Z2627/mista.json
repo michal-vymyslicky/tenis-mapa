@@ -51,6 +51,19 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: U Tenisu 3859/214, Proseč nad Nisou, 46804 Jablonec nad Nisou"
  },
+ "klub:cta rudna": {
+  "klic": "klub:cta rudna",
+  "poradatel": "CTA Rudná",
+  "adresa": "Hořelické náměstí 1130, Rudná u Prahy",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 50.026668,
+  "lon": 14.223824,
+  "presnost": "areal",
+  "nazev_mista": "Tenis & Beach Rudná",
+  "osm_vzdalenost_km": 0.02,
+  "geokod": "OSM: 1130/5, Hořelické náměstí, Hořelice, Rudná, okres Praha-západ, Středočeský kraj, 252 19, Česko"
+ },
  "klub:cta rudna|horelicke namesti 1130 rudna u prahy": {
   "klic": "klub:cta rudna|horelicke namesti 1130 rudna u prahy",
   "poradatel": "CTA Rudná",
@@ -180,6 +193,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Pod plynojemem č.ev. 164, Karlín, 18600 Praha 8"
+ },
+ "klub:ltc houstka": {
+  "klic": "klub:ltc houstka",
+  "poradatel": "LTC Houštka",
+  "adresa": "Houštka 1259, Stará Boleslav",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 50.189356,
+  "lon": 14.6915,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.03,
+  "geokod": "RÚIAN: Houštka 1259, Stará Boleslav, 25001 Brandýs nad Labem-Stará Boleslav"
  },
  "klub:ltc houstka|houstka 1259 stara boleslav": {
   "klic": "klub:ltc houstka|houstka 1259 stara boleslav",
@@ -986,6 +1012,19 @@
   "osm_vzdalenost_km": 0.07,
   "geokod": "RÚIAN: Salašská 2182, 68603 Staré Město"
  },
+ "klub:tenis ujezd nad lesy z s": {
+  "klic": "klub:tenis ujezd nad lesy z s",
+  "poradatel": "Tenis Újezd nad Lesy, z.s.",
+  "adresa": "Veletovská 2358, Újezd nad Lesy",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.076311,
+  "lon": 14.679785,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Veletovská 2358, Újezd nad Lesy, 19016 Praha 9"
+ },
  "klub:tenis ujezd nad lesy z s|veletovska 2358 ujezd nad lesy": {
   "klic": "klub:tenis ujezd nad lesy z s|veletovska 2358 ujezd nad lesy",
   "poradatel": "Tenis Újezd nad Lesy, z.s.",
@@ -1454,6 +1493,19 @@
   "osm_vzdalenost_km": 0.17,
   "geokod": "RÚIAN: Olšinky 1063, 53901 Hlinsko"
  },
+ "klub:tk horni mecholupy": {
+  "klic": "klub:tk horni mecholupy",
+  "poradatel": "TK Horní Měcholupy",
+  "adresa": "Hornoměcholupská 564, Praha 15, Horní Měcholupy",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.047494,
+  "lon": 14.548074,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Hornoměcholupská 564/105, Horní Měcholupy, 10900 Praha 10"
+ },
  "klub:tk horni mecholupy|hornomecholupska 564 praha 15 horni mecholupy": {
   "klic": "klub:tk horni mecholupy|hornomecholupska 564 praha 15 horni mecholupy",
   "poradatel": "TK Horní Měcholupy",
@@ -1544,6 +1596,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.2,
   "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň"
+ },
+ "klub:tk milo olomouc": {
+  "klic": "klub:tk milo olomouc",
+  "poradatel": "TK Milo Olomouc",
+  "adresa": "Na střelnici 37, Olomouc",
+  "zdroj": "adresar",
+  "region": "Severomoravský",
+  "lat": 49.599767,
+  "lon": 17.249365,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: Na střelnici 37/37, Nová Ulice, 77900 Olomouc"
  },
  "klub:tk milo olomouc|na strelnici 37 olomouc": {
   "klic": "klub:tk milo olomouc|na strelnici 37 olomouc",
@@ -2669,6 +2734,18 @@
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: Kosmákova 3364/55, Přerov I-Město, 75002 Přerov"
  },
+ "svaz:severomoravsky:706610": {
+  "klic": "svaz:severomoravsky:706610",
+  "poradatel": "severomoravský",
+  "adresa": "",
+  "zdroj": "loni",
+  "region": "Severomoravský",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
+ },
  "svaz:severomoravsky:706611": {
   "klic": "svaz:severomoravsky:706611",
   "poradatel": "severomoravský",
@@ -2684,15 +2761,15 @@
  "svaz:severomoravsky:706970": {
   "klic": "svaz:severomoravsky:706970",
   "poradatel": "severomoravský",
-  "adresa": "Opletalova 1218/8b, Havířov-Šumbark",
-  "zdroj": "loni",
+  "adresa": "Sportovní 1530, Frýdlant n.O.",
+  "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.794853,
-  "lon": 18.412673,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Opletalova 1218/8b, Šumbark, 73601 Havířov"
+  "lat": 49.582293,
+  "lon": 18.364034,
+  "presnost": "areal",
+  "nazev_mista": "Sportovní klub tenis Frýdlant nad Ostravicí",
+  "osm_vzdalenost_km": 0.2,
+  "geokod": "RÚIAN: Sportovní 1530, Frýdlant, 73911 Frýdlant nad Ostravicí"
  },
  "svaz:severomoravsky:708610": {
   "klic": "svaz:severomoravsky:708610",

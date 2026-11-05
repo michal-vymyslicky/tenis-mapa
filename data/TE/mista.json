@@ -865,7 +865,8 @@
   "nazev_mista": "Tennis center Adazi",
   "zeme": "lv",
   "poznamka": "tenisový areál v obci podle OSM: Ādažu tenisa centrs",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|centre internacional de tennis|cornella de llobregat cataluna": {
   "poradatel": "CENTRE INTERNACIONAL DE TENNIS",
@@ -877,19 +878,22 @@
   "presnost": "obec",
   "nazev_mista": "CENTRE INTERNACIONAL DE TENNIS",
   "zeme": "es",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "GRE|municipal sports center of corinth|corinth": {
   "poradatel": "MUNICIPAL SPORTS CENTER OF CORINTH",
   "adresa": "Corinth, Greece",
   "zdroj": "te",
   "region": "Greece",
-  "lat": 37.938541,
-  "lon": 22.927377,
-  "presnost": "obec",
+  "lat": 37.928521,
+  "lon": 22.928639,
+  "presnost": "areal_obec",
   "nazev_mista": "MUNICIPAL SPORTS CENTER OF CORINTH",
   "zeme": "gr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "POR|racket sports club leiria|leiria": {
   "poradatel": "Racket Sports Club Leiria",
@@ -907,13 +911,14 @@
   "adresa": "Leeuwarden, Netherlands",
   "zdroj": "te",
   "region": "Netherlands",
-  "lat": 53.212892,
-  "lon": 5.828338,
-  "presnost": "areal_obec",
+  "lat": 53.212764,
+  "lon": 5.778661,
+  "presnost": "areal",
   "nazev_mista": "Tennishal de Bontekoe",
   "zeme": "nl",
-  "poznamka": "tenisový areál v obci podle OSM: Padel & Tennis Fabriek",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: LTV De Bontekoe",
+  "v2": 1,
+  "osm3": 1
  },
  "CYP|herodotou tennis academy|larnaka": {
   "poradatel": "Herodotou Tennis Academy",
@@ -942,25 +947,28 @@
   "adresa": "Split, Croatia",
   "zdroj": "te",
   "region": "Croatia",
-  "lat": 43.517846,
-  "lon": 16.477234,
-  "presnost": "areal_obec",
+  "lat": 43.503462,
+  "lon": 16.455323,
+  "presnost": "areal",
   "nazev_mista": "Teniski klub Split 1950",
   "zeme": "hr",
-  "poznamka": "tenisový areál v obci podle OSM: Table tennis",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Teniski tereni ŠRC \"Bačvice\"",
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|el cortijo club de campo|telde las palmas": {
   "poradatel": "El Cortijo Club de Campo",
   "adresa": "Telde, Spain",
   "zdroj": "te",
   "region": "Spain",
-  "lat": 27.998454,
-  "lon": -15.416676,
-  "presnost": "obec",
+  "lat": 28.01324,
+  "lon": -15.398627,
+  "presnost": "areal_obec",
   "nazev_mista": "El Cortijo Club de Campo",
   "zeme": "es",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "MLT|marsa sports club|marsa": {
   "poradatel": "Marsa Sports Club",
@@ -1011,13 +1019,14 @@
   "adresa": "Palmanova - Calvia, Spain",
   "zdroj": "te",
   "region": "Spain",
-  "lat": 39.528055,
-  "lon": 2.538497,
-  "presnost": "areal_obec",
+  "lat": 39.527935,
+  "lon": 2.53849,
+  "presnost": "areal",
   "nazev_mista": "VILAS TENNIS ACADEMY MALLORCA",
   "zeme": "es",
-  "poznamka": "tenisový areál v obci podle OSM: club de tennis Guillermo Vilas",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: club de tennis Guillermo Vilas",
+  "v2": 1,
+  "osm3": 1
  },
  "LAT|vilar tennis club|aizkraukle": {
   "poradatel": "Vilar Tennis Club",
@@ -1029,7 +1038,8 @@
   "presnost": "obec",
   "nazev_mista": "Vilar Tennis Club",
   "zeme": "lv",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "TUR|inorout tennis club|adana": {
   "poradatel": "INOROUT TENNIS CLUB",
@@ -1041,7 +1051,8 @@
   "presnost": "obec",
   "nazev_mista": "INOROUT TENNIS CLUB",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "NED|de rhijenhof|den haag": {
   "poradatel": "de Rhijenhof",
@@ -1097,7 +1108,8 @@
   "presnost": "obec",
   "nazev_mista": "NANA Tennis Club",
   "zeme": "gr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "FRA|tennis club gradignan|gradignan": {
   "poradatel": "Tennis Club Gradignan",
@@ -1110,19 +1122,22 @@
   "nazev_mista": "Tennis Club Gradignan",
   "zeme": "fr",
   "poznamka": "tenisový areál v obci podle OSM: Terrain de tennis A",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "BIH|teniska akademija set|siroki brijeg": {
   "poradatel": "TENISKA AKADEMIJA SET",
   "adresa": "SIROKI BRIJEG, Bosnia and Herzegovina",
   "zdroj": "te",
   "region": "Bosnia and Herzegovina",
-  "lat": 43.383194,
-  "lon": 17.592915,
-  "presnost": "obec",
+  "lat": 43.372544,
+  "lon": 17.592012,
+  "presnost": "areal_obec",
   "nazev_mista": "TENISKA AKADEMIJA SET",
   "zeme": "ba",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "AUT|sportaktivpark bad waltersdorf|bad waltersdorf": {
   "poradatel": "Sportaktivpark Bad Waltersdorf",
@@ -1134,7 +1149,8 @@
   "presnost": "obec",
   "nazev_mista": "Sportaktivpark Bad Waltersdorf",
   "zeme": "at",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "GER|vs tennis academy|villingen schwenningen": {
   "poradatel": "VS Tennis Academy",
@@ -1147,7 +1163,8 @@
   "nazev_mista": "VS Tennis Academy",
   "zeme": "de",
   "poznamka": "tenisový areál v obci podle OSM: Tennis-Club Schwenningen eV",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "HUN|hnta tennis academy|szabolcsveresmart": {
   "poradatel": "HNTA Tennis Academy",

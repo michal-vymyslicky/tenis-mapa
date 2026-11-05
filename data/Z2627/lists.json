@@ -29,12 +29,12 @@
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "TK Horní Měcholupy",
-   "kod_m": "106005",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 800 Kč TK Horní Měcholupy -/- -/-"
+   "radek": "7.-9. 11. 2026 C 800 Kč TK Horní Měcholupy ZRUŠENO -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -67,10 +67,10 @@
    "poradatel": "CTA Rudná",
    "kod_m": "",
    "obs_m": "-/-",
-   "kod_z": "206003",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "7.-8. 11. 2026 C 800 Kč CTA Rudná -/- -/-"
+   "radek": "7.-8. 11. 2026 C 800 Kč CTA Rudná -/- ZRUŠENO"
   },
   {
    "datum": "7.-8. 11. 2026",
@@ -125,12 +125,12 @@
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "Tenis Újezd nad Lesy, z.s.",
-   "kod_m": "106012",
-   "obs_m": "-/-",
-   "kod_z": "206004",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+   "radek": "7.-9. 11. 2026 C 800 Kč Tenis Újezd nad Lesy, z.s. ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -173,12 +173,12 @@
    "trida": "D",
    "vklad": "800 Kč",
    "poradatel": "LTC Houštka",
-   "kod_m": "106008",
-   "obs_m": "-/-",
-   "kod_z": "206001",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "7.-9. 11. 2026 D 800 Kč LTC Houštka -/- -/-"
+   "radek": "7.-9. 11. 2026 D 800 Kč LTC Houštka ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -7377,12 +7377,12 @@
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "TK Milo Olomouc",
-   "kod_m": "506096",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "6.-8. 2. 2027 C 800 Kč TK Milo Olomouc -/- -/-"
+   "radek": "6.-8. 2. 2027 C 800 Kč TK Milo Olomouc ZRUŠENO -/-"
   },
   {
    "datum": "6.-8. 2. 2027",
@@ -9500,7 +9500,7 @@
   },
   {
    "datum": "12.-15. 12. 2026",
-   "trida": "C",
+   "trida": "B",
    "vklad": "900 Kč",
    "poradatel": "Tenisklub Cheb",
    "kod_m": "706040",
@@ -9508,7 +9508,7 @@
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "12.-15. 12. 2026 C 900 Kč Tenisklub Cheb -/- -/-"
+   "radek": "12.-15. 12. 2026 B 900 Kč Tenisklub Cheb -/- -/-"
   },
   {
    "datum": "12.-15. 12. 2026",
@@ -10667,7 +10667,7 @@
    "trida": "P",
    "vklad": "180 Kč",
    "poradatel": "severomoravský",
-   "kod_m": "708610",
+   "kod_m": "706610",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "-/-",
@@ -13056,18 +13056,6 @@
    "datum": "28. 11. 2026",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "TK Lokomotiva Plzeň z.s.",
-   "kod_m": "906513",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "28. 11. 2026 500 Kč TK Lokomotiva Plzeň z.s. -/-"
-  },
-  {
-   "datum": "28. 11. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "TK Sparta Praha",
    "kod_m": "906508",
    "obs_m": "-/-",
@@ -13092,18 +13080,6 @@
    "datum": "28. 11. 2026",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "I.ČLTK Praha",
-   "kod_m": "906505",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "28. 11. 2026 500 Kč I.ČLTK Praha -/-"
-  },
-  {
-   "datum": "28. 11. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "TC Dvůr Králové, z.s.",
    "kod_m": "906503",
    "obs_m": "-/-",
@@ -13111,18 +13087,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "28. 11. 2026 500 Kč TC Dvůr Králové, z.s. -/-"
-  },
-  {
-   "datum": "28. 11. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Renáta Voráčová akademie, z.s.",
-   "kod_m": "906500",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "28. 11. 2026 500 Kč Renáta Voráčová akademie, z.s. -/-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -13233,30 +13197,6 @@
    "radek": "28. 11. 2026 500 Kč Zažít Řepy, z.s. -/-"
   },
   {
-   "datum": "29. 11. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Znojmo",
-   "kod_m": "906517",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "29. 11. 2026 500 Kč TK Znojmo -/-"
-  },
-  {
-   "datum": "29. 11. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Sparta Praha",
-   "kod_m": "906516",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "29. 11. 2026 500 Kč TK Sparta Praha -/-"
-  },
-  {
    "datum": "5. 12. 2026",
    "trida": "",
    "vklad": "500 Kč",
@@ -13279,18 +13219,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "5. 12. 2026 600 Kč TC-MJ TENIS Líšeň -/-"
-  },
-  {
-   "datum": "5. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Zlín",
-   "kod_m": "906525",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "5. 12. 2026 500 Kč TK Zlín -/-"
   },
   {
    "datum": "5. 12. 2026",
@@ -13356,18 +13284,6 @@
    "datum": "5. 12. 2026",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "Tenis Újezd nad Lesy, z.s.",
-   "kod_m": "906754",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "5. 12. 2026 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
-  },
-  {
-   "datum": "5. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "Sportclub Řevnice, z.s.",
    "kod_m": "906522",
    "obs_m": "-/-",
@@ -13399,30 +13315,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "5. 12. 2026 500 Kč Sportovní klub LTC Modřany 2005 z.s. -/-"
-  },
-  {
-   "datum": "5. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Škoda Plzeň z.s.",
-   "kod_m": "906528",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "5. 12. 2026 500 Kč TK Škoda Plzeň z.s. -/-"
-  },
-  {
-   "datum": "6. 12. 2026",
-   "trida": "",
-   "vklad": "400 Kč",
-   "poradatel": "Sportclub Řevnice, z.s.",
-   "kod_m": "906530",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "6. 12. 2026 400 Kč Sportclub Řevnice, z.s. -/-"
   },
   {
    "datum": "6. 12. 2026",
@@ -13536,30 +13428,6 @@
    "datum": "12. 12. 2026",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "RAPID PLZEŇ TENIS z.s.",
-   "kod_m": "906536",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "12. 12. 2026 500 Kč RAPID PLZEŇ TENIS z.s. -/-"
-  },
-  {
-   "datum": "12.-13. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-   "kod_m": "906541",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "12.-13. 12. 2026 500 Kč TJ Slavoj Tesla Hloubětín, z.s. -/-"
-  },
-  {
-   "datum": "12. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "TK Roudnice n.L.",
    "kod_m": "906539",
    "obs_m": "-/-",
@@ -13567,18 +13435,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "12. 12. 2026 500 Kč TK Roudnice n.L. -/-"
-  },
-  {
-   "datum": "13. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Znojmo",
-   "kod_m": "906546",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "13. 12. 2026 500 Kč TK Znojmo -/-"
   },
   {
    "datum": "13. 12. 2026",
@@ -13591,18 +13447,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "13. 12. 2026 400 Kč TK SPORTCENTRUM Mladá Boleslav -/-"
-  },
-  {
-   "datum": "13. 12. 2026",
-   "trida": "",
-   "vklad": "600 Kč",
-   "poradatel": "ŽLTC Brno",
-   "kod_m": "906542",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "13. 12. 2026 600 Kč ŽLTC Brno -/-"
   },
   {
    "datum": "13. 12. 2026",
@@ -13728,18 +13572,6 @@
    "datum": "19. 12. 2026",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "TC Brno.",
-   "kod_m": "906554",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "19. 12. 2026 500 Kč TC Brno. -/-"
-  },
-  {
-   "datum": "19. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "Sokol Dolní Počernice z.s.",
    "kod_m": "906551",
    "obs_m": "-/-",
@@ -13759,18 +13591,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "19. 12. 2026 500 Kč BLTC Brno -/-"
-  },
-  {
-   "datum": "19. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TJ Sokol Dolní Lhota",
-   "kod_m": "906549",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "19. 12. 2026 500 Kč TJ Sokol Dolní Lhota -/-"
   },
   {
    "datum": "19. 12. 2026",
@@ -13800,18 +13620,6 @@
    "datum": "20. 12. 2026",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "TK Sparta Praha",
-   "kod_m": "906562",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 12. 2026 500 Kč TK Sparta Praha -/-"
-  },
-  {
-   "datum": "20. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "TC Brno.",
    "kod_m": "906560",
    "obs_m": "-/-",
@@ -13819,18 +13627,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "20. 12. 2026 500 Kč TC Brno. -/-"
-  },
-  {
-   "datum": "20. 12. 2026",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "SK HAMR, z.s.",
-   "kod_m": "906561",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 12. 2026 500 Kč SK HAMR, z.s. -/-"
   },
   {
    "datum": "20.-21. 12. 2026",
@@ -13956,54 +13752,6 @@
    "datum": "9. 1. 2027",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "TK Vyškov",
-   "kod_m": "906576",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "9. 1. 2027 500 Kč TK Vyškov -/-"
-  },
-  {
-   "datum": "9. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Pliskova Tennis Academy-Říčany",
-   "kod_m": "906575",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "9. 1. 2027 500 Kč Pliskova Tennis Academy-Říčany -/-"
-  },
-  {
-   "datum": "9. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "CTA Rudná",
-   "kod_m": "906577",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "9. 1. 2027 500 Kč CTA Rudná -/-"
-  },
-  {
-   "datum": "9. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Tenis Újezd nad Lesy, z.s.",
-   "kod_m": "906757",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "9. 1. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
-  },
-  {
-   "datum": "9. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "Tenisklub Cheb",
    "kod_m": "906578",
    "obs_m": "-/-",
@@ -14049,18 +13797,6 @@
    "radek": "9. 1. 2027 500 Kč TC SANITINO Academy, z.s. -/-"
   },
   {
-   "datum": "9.-10. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-   "kod_m": "906581",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "9.-10. 1. 2027 500 Kč TJ Slavoj Tesla Hloubětín, z.s. -/-"
-  },
-  {
    "datum": "9. 1. 2027",
    "trida": "",
    "vklad": "500 Kč",
@@ -14071,18 +13807,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "9. 1. 2027 500 Kč ČLTK Bižuterie Jablonec n. N., z. s. -/-"
-  },
-  {
-   "datum": "9. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Škoda Plzeň z.s.",
-   "kod_m": "906579",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "9. 1. 2027 500 Kč TK Škoda Plzeň z.s. -/-"
   },
   {
    "datum": "10. 1. 2027",
@@ -14172,18 +13896,6 @@
    "datum": "16. 1. 2027",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "TK Lokomotiva Plzeň z.s.",
-   "kod_m": "906601",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "16. 1. 2027 500 Kč TK Lokomotiva Plzeň z.s. -/-"
-  },
-  {
-   "datum": "16. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "TK Sparta Praha",
    "kod_m": "906593",
    "obs_m": "-/-",
@@ -14220,18 +13932,6 @@
    "datum": "16. 1. 2027",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "I.ČLTK Praha",
-   "kod_m": "906591",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "16. 1. 2027 500 Kč I.ČLTK Praha -/-"
-  },
-  {
-   "datum": "16. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "TK TILIA Brno",
    "kod_m": "906588",
    "obs_m": "-/-",
@@ -14251,30 +13951,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "16. 1. 2027 500 Kč Tenis Nový Jičín,z.s. -/-"
-  },
-  {
-   "datum": "16. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TC Brno.",
-   "kod_m": "906597",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "16. 1. 2027 500 Kč TC Brno. -/-"
-  },
-  {
-   "datum": "16. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Renáta Voráčová akademie, z.s.",
-   "kod_m": "906595",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "16. 1. 2027 500 Kč Renáta Voráčová akademie, z.s. -/-"
   },
   {
    "datum": "16. 1. 2027",
@@ -14328,18 +14004,6 @@
    "datum": "17. 1. 2027",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "TK Sparta Praha",
-   "kod_m": "906606",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "17. 1. 2027 500 Kč TK Sparta Praha -/-"
-  },
-  {
-   "datum": "17. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "TC Brno.",
    "kod_m": "906607",
    "obs_m": "-/-",
@@ -14347,18 +14011,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "17. 1. 2027 500 Kč TC Brno. -/-"
-  },
-  {
-   "datum": "17. 1. 2027",
-   "trida": "",
-   "vklad": "600 Kč",
-   "poradatel": "TO Sokol Nehvizdy",
-   "kod_m": "906610",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "17. 1. 2027 600 Kč TO Sokol Nehvizdy -/-"
   },
   {
    "datum": "17. 1. 2027",
@@ -14385,18 +14037,6 @@
    "radek": "17. 1. 2027 500 Kč SK HIT Hradec Králové z.s. -/-"
   },
   {
-   "datum": "17. 1. 2027",
-   "trida": "",
-   "vklad": "400 Kč",
-   "poradatel": "Sportclub Řevnice, z.s.",
-   "kod_m": "906604",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "17. 1. 2027 400 Kč Sportclub Řevnice, z.s. -/-"
-  },
-  {
    "datum": "17.-18. 1. 2027",
    "trida": "",
    "vklad": "",
@@ -14407,18 +14047,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "17.-18. 1. 2027 TK Sport Kolovraty -/-"
-  },
-  {
-   "datum": "17. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "SK HAMR, z.s.",
-   "kod_m": "906605",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "17. 1. 2027 500 Kč SK HAMR, z.s. -/-"
   },
   {
    "datum": "23. 1. 2027",
@@ -14565,18 +14193,6 @@
    "radek": "23. 1. 2027 500 Kč TK Sokol Horní Počernice,p.s. -/-"
   },
   {
-   "datum": "23. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "CTA Rudná",
-   "kod_m": "906621",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "23. 1. 2027 500 Kč CTA Rudná -/-"
-  },
-  {
    "datum": "24. 1. 2027",
    "trida": "",
    "vklad": "800 Kč",
@@ -14707,18 +14323,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "30. 1. 2027 500 Kč TK Chomutov -/-"
-  },
-  {
-   "datum": "30.-31. 1. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-   "kod_m": "906632",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "30.-31. 1. 2027 500 Kč TJ Slavoj Tesla Hloubětín, z.s. -/-"
   },
   {
    "datum": "31. 1. 2027",
@@ -14901,18 +14505,6 @@
    "radek": "7. 2. 2027 500 Kč ŽLTC Brno -/-"
   },
   {
-   "datum": "7. 2. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TJ Sokol Dolní Lhota",
-   "kod_m": "906647",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "7. 2. 2027 500 Kč TJ Sokol Dolní Lhota -/-"
-  },
-  {
    "datum": "7.-8. 2. 2027",
    "trida": "",
    "vklad": "",
@@ -14942,18 +14534,6 @@
    "vklad": "500 Kč",
    "poradatel": "TK Lokomotiva Plzeň z.s.",
    "kod_m": "906660",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "13. 2. 2027 500 Kč TK Lokomotiva Plzeň z.s. -/-"
-  },
-  {
-   "datum": "13. 2. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Lokomotiva Plzeň z.s.",
-   "kod_m": "906661",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
@@ -15035,18 +14615,6 @@
   {
    "datum": "13. 2. 2027",
    "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Renáta Voráčová akademie, z.s.",
-   "kod_m": "906650",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "13. 2. 2027 500 Kč Renáta Voráčová akademie, z.s. -/-"
-  },
-  {
-   "datum": "13. 2. 2027",
-   "trida": "",
    "vklad": "400 Kč",
    "poradatel": "středočeský",
    "kod_m": "906658",
@@ -15079,18 +14647,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "14. 2. 2027 500 Kč TK Znojmo -/-"
-  },
-  {
-   "datum": "14. 2. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Sparta Praha",
-   "kod_m": "906662",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "14. 2. 2027 500 Kč TK Sparta Praha -/-"
   },
   {
    "datum": "14. 2. 2027",
@@ -15191,42 +14747,6 @@
   {
    "datum": "20. 2. 2027",
    "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Pliskova Tennis Academy-Říčany",
-   "kod_m": "906671",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 2. 2027 500 Kč Pliskova Tennis Academy-Říčany -/-"
-  },
-  {
-   "datum": "20. 2. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Sokol Čimice",
-   "kod_m": "906676",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 2. 2027 500 Kč Sokol Čimice -/-"
-  },
-  {
-   "datum": "20. 2. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "CTA Rudná",
-   "kod_m": "906675",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 2. 2027 500 Kč CTA Rudná -/-"
-  },
-  {
-   "datum": "20. 2. 2027",
-   "trida": "",
    "vklad": "600 Kč",
    "poradatel": "TK Severní Terasa",
    "kod_m": "906668",
@@ -15259,18 +14779,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "20. 2. 2027 500 Kč SK HIT Hradec Králové z.s. -/-"
-  },
-  {
-   "datum": "20. 2. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Tenis Újezd nad Lesy, z.s.",
-   "kod_m": "906762",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 2. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "20. 2. 2027",
@@ -15515,30 +15023,6 @@
   {
    "datum": "6. 3. 2027",
    "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "západočeský",
-   "kod_m": "906704",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "6. 3. 2027 500 Kč západočeský -/-"
-  },
-  {
-   "datum": "6. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Pliskova Tennis Academy-Říčany",
-   "kod_m": "906701",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "6. 3. 2027 500 Kč Pliskova Tennis Academy-Říčany -/-"
-  },
-  {
-   "datum": "6. 3. 2027",
-   "trida": "",
    "vklad": "600 Kč",
    "poradatel": "TK Třebíč",
    "kod_m": "906695",
@@ -15619,18 +15103,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "6. 3. 2027 500 Kč Sportovní klub LTC Modřany 2005 z.s. -/-"
-  },
-  {
-   "datum": "6.-7. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-   "kod_m": "906705",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "6.-7. 3. 2027 500 Kč TJ Slavoj Tesla Hloubětín, z.s. -/-"
   },
   {
    "datum": "7.-8. 3. 2027",
@@ -15768,18 +15240,6 @@
    "datum": "13. 3. 2027",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "CTA Rudná",
-   "kod_m": "906715",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "13. 3. 2027 500 Kč CTA Rudná -/-"
-  },
-  {
-   "datum": "13. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "ČLTK Bižuterie Jablonec n. N., z. s.",
    "kod_m": "906718",
    "obs_m": "-/-",
@@ -15825,30 +15285,6 @@
    "radek": "14. 3. 2027 500 Kč TJ Start Ostrava - Poruba, z.s. -/-"
   },
   {
-   "datum": "14. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "SK HAMR, z.s.",
-   "kod_m": "906721",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "14. 3. 2027 500 Kč SK HAMR, z.s. -/-"
-  },
-  {
-   "datum": "14. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "SK Vitality Slezsko o.s.",
-   "kod_m": "906723",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "14. 3. 2027 500 Kč SK Vitality Slezsko o.s. -/-"
-  },
-  {
    "datum": "20. 3. 2027",
    "trida": "",
    "vklad": "500 Kč",
@@ -15859,30 +15295,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "20. 3. 2027 500 Kč TK Lokomotiva Plzeň z.s. -/-"
-  },
-  {
-   "datum": "20. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "TK Lokomotiva Plzeň z.s.",
-   "kod_m": "906735",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 3. 2027 500 Kč TK Lokomotiva Plzeň z.s. -/-"
-  },
-  {
-   "datum": "20. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "I.ČLTK Praha",
-   "kod_m": "906727",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 3. 2027 500 Kč I.ČLTK Praha -/-"
   },
   {
    "datum": "20. 3. 2027",
@@ -15943,18 +15355,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "20. 3. 2027 500 Kč Tenisový klub Havlíčkův Brod,z.s. -/-"
-  },
-  {
-   "datum": "20. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
-   "poradatel": "Tenis Újezd nad Lesy, z.s.",
-   "kod_m": "906764",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "20. 3. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
   },
   {
    "datum": "20. 3. 2027",
@@ -16044,18 +15444,6 @@
    "datum": "21. 3. 2027",
    "trida": "",
    "vklad": "500 Kč",
-   "poradatel": "TK Sparta Praha",
-   "kod_m": "906739",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "21. 3. 2027 500 Kč TK Sparta Praha -/-"
-  },
-  {
-   "datum": "21. 3. 2027",
-   "trida": "",
-   "vklad": "500 Kč",
    "poradatel": "Tenis Nový Jičín,z.s.",
    "kod_m": "906737",
    "obs_m": "-/-",
@@ -16075,18 +15463,6 @@
    "obs_z": "",
    "mix": true,
    "radek": "21. 3. 2027 500 Kč Tenisová škola Lucie Hradecké z.s. -/-"
-  },
-  {
-   "datum": "21. 3. 2027",
-   "trida": "",
-   "vklad": "400 Kč",
-   "poradatel": "Sportclub Řevnice, z.s.",
-   "kod_m": "906738",
-   "obs_m": "-/-",
-   "kod_z": "",
-   "obs_z": "",
-   "mix": true,
-   "radek": "21. 3. 2027 400 Kč Sportclub Řevnice, z.s. -/-"
   },
   {
    "datum": "21.-22. 3. 2027",
@@ -16233,7 +15609,632 @@
    "radek": "29.-30. 3. 2027 TJ Jiskra Zruč n.Sáz. -/-"
   }
  ],
- "stredni-kurt": [],
+ "stredni-kurt": [
+  {
+   "datum": "28. 11. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Lokomotiva Plzeň z.s.",
+   "kod_m": "906513",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "28. 11. 2026 500 Kč TK Lokomotiva Plzeň z.s. -/-"
+  },
+  {
+   "datum": "28. 11. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "I.ČLTK Praha",
+   "kod_m": "906505",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "28. 11. 2026 500 Kč I.ČLTK Praha -/-"
+  },
+  {
+   "datum": "28. 11. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Renáta Voráčová akademie, z.s.",
+   "kod_m": "906500",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "28. 11. 2026 500 Kč Renáta Voráčová akademie, z.s. -/-"
+  },
+  {
+   "datum": "29. 11. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Znojmo",
+   "kod_m": "906517",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "29. 11. 2026 500 Kč TK Znojmo -/-"
+  },
+  {
+   "datum": "29. 11. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Sparta Praha",
+   "kod_m": "906516",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "29. 11. 2026 500 Kč TK Sparta Praha -/-"
+  },
+  {
+   "datum": "5. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Zlín",
+   "kod_m": "906525",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "5. 12. 2026 500 Kč TK Zlín -/-"
+  },
+  {
+   "datum": "5. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906754",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "5. 12. 2026 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "5. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Škoda Plzeň z.s.",
+   "kod_m": "906528",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "5. 12. 2026 500 Kč TK Škoda Plzeň z.s. -/-"
+  },
+  {
+   "datum": "6. 12. 2026",
+   "trida": "",
+   "vklad": "400 Kč",
+   "poradatel": "Sportclub Řevnice, z.s.",
+   "kod_m": "906530",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "6. 12. 2026 400 Kč Sportclub Řevnice, z.s. -/-"
+  },
+  {
+   "datum": "12. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "RAPID PLZEŇ TENIS z.s.",
+   "kod_m": "906536",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "12. 12. 2026 500 Kč RAPID PLZEŇ TENIS z.s. -/-"
+  },
+  {
+   "datum": "12.-13. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
+   "kod_m": "906541",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "12.-13. 12. 2026 500 Kč TJ Slavoj Tesla Hloubětín, z.s. -/-"
+  },
+  {
+   "datum": "13. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Znojmo",
+   "kod_m": "906546",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13. 12. 2026 500 Kč TK Znojmo -/-"
+  },
+  {
+   "datum": "13. 12. 2026",
+   "trida": "",
+   "vklad": "600 Kč",
+   "poradatel": "ŽLTC Brno",
+   "kod_m": "906542",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13. 12. 2026 600 Kč ŽLTC Brno -/-"
+  },
+  {
+   "datum": "19. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TC Brno.",
+   "kod_m": "906554",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "19. 12. 2026 500 Kč TC Brno. -/-"
+  },
+  {
+   "datum": "19. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TJ Sokol Dolní Lhota",
+   "kod_m": "906549",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "19. 12. 2026 500 Kč TJ Sokol Dolní Lhota -/-"
+  },
+  {
+   "datum": "20. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Sparta Praha",
+   "kod_m": "906562",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 12. 2026 500 Kč TK Sparta Praha -/-"
+  },
+  {
+   "datum": "20. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "SK HAMR, z.s.",
+   "kod_m": "906561",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 12. 2026 500 Kč SK HAMR, z.s. -/-"
+  },
+  {
+   "datum": "9. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Vyškov",
+   "kod_m": "906576",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "9. 1. 2027 500 Kč TK Vyškov -/-"
+  },
+  {
+   "datum": "9. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Pliskova Tennis Academy-Říčany",
+   "kod_m": "906575",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "9. 1. 2027 500 Kč Pliskova Tennis Academy-Říčany -/-"
+  },
+  {
+   "datum": "9. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "CTA Rudná",
+   "kod_m": "906577",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "9. 1. 2027 500 Kč CTA Rudná -/-"
+  },
+  {
+   "datum": "9. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906757",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "9. 1. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "9.-10. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
+   "kod_m": "906581",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "9.-10. 1. 2027 500 Kč TJ Slavoj Tesla Hloubětín, z.s. -/-"
+  },
+  {
+   "datum": "9. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Škoda Plzeň z.s.",
+   "kod_m": "906579",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "9. 1. 2027 500 Kč TK Škoda Plzeň z.s. -/-"
+  },
+  {
+   "datum": "16. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Lokomotiva Plzeň z.s.",
+   "kod_m": "906601",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "16. 1. 2027 500 Kč TK Lokomotiva Plzeň z.s. -/-"
+  },
+  {
+   "datum": "16. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "I.ČLTK Praha",
+   "kod_m": "906591",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "16. 1. 2027 500 Kč I.ČLTK Praha -/-"
+  },
+  {
+   "datum": "16. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TC Brno.",
+   "kod_m": "906597",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "16. 1. 2027 500 Kč TC Brno. -/-"
+  },
+  {
+   "datum": "16. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Renáta Voráčová akademie, z.s.",
+   "kod_m": "906595",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "16. 1. 2027 500 Kč Renáta Voráčová akademie, z.s. -/-"
+  },
+  {
+   "datum": "17. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Sparta Praha",
+   "kod_m": "906606",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "17. 1. 2027 500 Kč TK Sparta Praha -/-"
+  },
+  {
+   "datum": "17. 1. 2027",
+   "trida": "",
+   "vklad": "600 Kč",
+   "poradatel": "TO Sokol Nehvizdy",
+   "kod_m": "906610",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "17. 1. 2027 600 Kč TO Sokol Nehvizdy -/-"
+  },
+  {
+   "datum": "17. 1. 2027",
+   "trida": "",
+   "vklad": "400 Kč",
+   "poradatel": "Sportclub Řevnice, z.s.",
+   "kod_m": "906604",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "17. 1. 2027 400 Kč Sportclub Řevnice, z.s. -/-"
+  },
+  {
+   "datum": "17. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "SK HAMR, z.s.",
+   "kod_m": "906605",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "17. 1. 2027 500 Kč SK HAMR, z.s. -/-"
+  },
+  {
+   "datum": "23. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "CTA Rudná",
+   "kod_m": "906621",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "23. 1. 2027 500 Kč CTA Rudná -/-"
+  },
+  {
+   "datum": "30.-31. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
+   "kod_m": "906632",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "30.-31. 1. 2027 500 Kč TJ Slavoj Tesla Hloubětín, z.s. -/-"
+  },
+  {
+   "datum": "7. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TJ Sokol Dolní Lhota",
+   "kod_m": "906647",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "7. 2. 2027 500 Kč TJ Sokol Dolní Lhota -/-"
+  },
+  {
+   "datum": "13. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Lokomotiva Plzeň z.s.",
+   "kod_m": "906661",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13. 2. 2027 500 Kč TK Lokomotiva Plzeň z.s. -/-"
+  },
+  {
+   "datum": "13. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Renáta Voráčová akademie, z.s.",
+   "kod_m": "906650",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13. 2. 2027 500 Kč Renáta Voráčová akademie, z.s. -/-"
+  },
+  {
+   "datum": "14. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Sparta Praha",
+   "kod_m": "906662",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "14. 2. 2027 500 Kč TK Sparta Praha -/-"
+  },
+  {
+   "datum": "20. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Pliskova Tennis Academy-Říčany",
+   "kod_m": "906671",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 2. 2027 500 Kč Pliskova Tennis Academy-Říčany -/-"
+  },
+  {
+   "datum": "20. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Sokol Čimice",
+   "kod_m": "906676",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 2. 2027 500 Kč Sokol Čimice -/-"
+  },
+  {
+   "datum": "20. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "CTA Rudná",
+   "kod_m": "906675",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 2. 2027 500 Kč CTA Rudná -/-"
+  },
+  {
+   "datum": "20. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906762",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 2. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "6. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "západočeský",
+   "kod_m": "906704",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "6. 3. 2027 500 Kč západočeský -/-"
+  },
+  {
+   "datum": "6. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Pliskova Tennis Academy-Říčany",
+   "kod_m": "906701",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "6. 3. 2027 500 Kč Pliskova Tennis Academy-Říčany -/-"
+  },
+  {
+   "datum": "6.-7. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
+   "kod_m": "906705",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "6.-7. 3. 2027 500 Kč TJ Slavoj Tesla Hloubětín, z.s. -/-"
+  },
+  {
+   "datum": "13. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "CTA Rudná",
+   "kod_m": "906715",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13. 3. 2027 500 Kč CTA Rudná -/-"
+  },
+  {
+   "datum": "14. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "SK HAMR, z.s.",
+   "kod_m": "906721",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "14. 3. 2027 500 Kč SK HAMR, z.s. -/-"
+  },
+  {
+   "datum": "14. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "SK Vitality Slezsko o.s.",
+   "kod_m": "906723",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "14. 3. 2027 500 Kč SK Vitality Slezsko o.s. -/-"
+  },
+  {
+   "datum": "20. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Lokomotiva Plzeň z.s.",
+   "kod_m": "906735",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 3. 2027 500 Kč TK Lokomotiva Plzeň z.s. -/-"
+  },
+  {
+   "datum": "20. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "I.ČLTK Praha",
+   "kod_m": "906727",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 3. 2027 500 Kč I.ČLTK Praha -/-"
+  },
+  {
+   "datum": "20. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis Újezd nad Lesy, z.s.",
+   "kod_m": "906764",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 3. 2027 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "21. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Sparta Praha",
+   "kod_m": "906739",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "21. 3. 2027 500 Kč TK Sparta Praha -/-"
+  },
+  {
+   "datum": "21. 3. 2027",
+   "trida": "",
+   "vklad": "400 Kč",
+   "poradatel": "Sportclub Řevnice, z.s.",
+   "kod_m": "906738",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "21. 3. 2027 400 Kč Sportclub Řevnice, z.s. -/-"
+  }
+ ],
  "minitenis": [
   {
    "datum": "28. 11. 2026",
