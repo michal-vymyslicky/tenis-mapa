@@ -372,3 +372,8 @@ button.logo{border:0;padding:0;cursor:pointer}
 .quick .qr2 button .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
 .quick button.club small{opacity:.85;font-size:12px;white-space:nowrap}
 @media (max-width:899px){ .quick .qr2{margin-right:52px} }
+/* v3.5 – proklikávání klub ↔ hráč ↔ turnaj */
+.pill[data-pid]{cursor:pointer}
+.pill.pl.cl[data-pid]:active,.pill.pl[data-pid]:active{filter:brightness(.92)}
+.clublink{display:inline-flex;align-items:center;gap:5px;color:#0f6b5c;font-weight:600;text-decoration:none}
+.clublink svg{width:15px;height:15px}

@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 2. 11. 2026, verze webu v3.4).
+Předávací log (stav k 2. 11. 2026, verze webu v3.5).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -63,6 +63,11 @@ Předávací log (stav k 2. 11. 2026, verze webu v3.4).
   Základní (OSM, místní písmo – v Srbsku azbuka), Latinka (Esri), Turistická (OpenTopoMap), Letecká (Esri World Imagery + popisky).
   Volba v `localStorage` (tm.map). Vše bez klíče. Možné rozšíření: Mapy.com (základní/turistická/letecká/zimní) – potřebuje
   bezplatný API klíč z developer.mapy.com (vytvoří uživatel). Google Maps nedoporučeno (klíč + platební účet, podmínky).
+
+### v3.5 (5. 11. 2026) – proklikávání klub ↔ hráč ↔ turnaj
+- Jména hráčů na turnajích (zelené štítky klubu i štítky vybraných hráčů) jsou klikací → profil hráče s přihláškami; z klubu se hráč otevře bez přidání do filtru mapy.
+- U hráče je klikací název klubu → klub. Šipka zpět vrací po krocích (zásobník stack) a obnoví i posun panelu (scrollMem); rozbalený seznam hráčů klubu zůstane rozbalený.
+- v3.4.1: kratší popisky lišty (🇪🇺 TE, Kategorie), čip klubu „týden/měsíc/sezóna“.
 
 ### v3.4 (5. 11. 2026) – hráči na displeji, výběr klubu
 - Horní lišta: vpravo od [období / Od dnes] dvě řady – 1. Region, Kategorie; 2. vybraný klub, hráči, oblíbené (na telefonu vždy viditelné pod horní řadou, vpravo místo pro tlačítka mapy).
