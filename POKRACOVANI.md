@@ -1,6 +1,6 @@
 # Tenisová mapa – stav a kde pokračovat
 
-Předávací log (stav k 2. 11. 2026, verze webu v3.3).
+Předávací log (stav k 2. 11. 2026, verze webu v3.4).
 
 ## Kde web běží
 - **https://turnajovamapa.cz** (doména Active24, vlastník Michal Vymyslický, platí do 2. 11. 2027) – GitHub Pages, repozitář
@@ -63,6 +63,10 @@ Předávací log (stav k 2. 11. 2026, verze webu v3.3).
   Základní (OSM, místní písmo – v Srbsku azbuka), Latinka (Esri), Turistická (OpenTopoMap), Letecká (Esri World Imagery + popisky).
   Volba v `localStorage` (tm.map). Vše bez klíče. Možné rozšíření: Mapy.com (základní/turistická/letecká/zimní) – potřebuje
   bezplatný API klíč z developer.mapy.com (vytvoří uživatel). Google Maps nedoporučeno (klíč + platební účet, podmínky).
+
+### v3.4 (5. 11. 2026) – hráči na displeji, výběr klubu
+- Horní lišta: vpravo od [období / Od dnes] dvě řady – 1. Region, Kategorie; 2. vybraný klub, hráči, oblíbené (na telefonu vždy viditelné pod horní řadou, vpravo místo pro tlačítka mapy).
+- Klub: hledání (pole Hráč, klub, turnaj…) nabízí i kluby (z žebříčku + přihlášek, HR.p[pid][1]). Panel „club“: počet hráčů klubu a přihlášených, období Příští týden (7 dní) / Příští měsíc (31 dní) / Celá sezóna (F.clubWin), seznam přihlášených hráčů (klik → hráč), turnaje se jmény hráčů klubu (zelené štítky, kval./náhr.). „Zobrazit v mapě“ = filtr F.club (+ období) a čip v liště.
 
 ### Návštěvnost (2. 11. 2026)
 - Měření GoatCounter (bez cookies): skript v index.html, účet tenisova-mapa@seznam.cz (e-mail ověřen), kód webu „mapaturnaju“ → přehled https://mapaturnaju.goatcounter.com. Zmínka v O aplikaci (about.d7).

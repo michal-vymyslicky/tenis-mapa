@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.3";
+const APP_VERSION = "v3.4";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -96,7 +96,7 @@ const isDesk = () => innerWidth >= 900;
 let DATA, EV = [], VEN = [], byVenue = new Map();
 const today = new Date(); today.setHours(0, 0, 0, 0);
 const defaults = () => ({from: iso(today), to: "", cat: [], sex: [], cls: [], surf: [],
-  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries", src: "cts", sub: {}});
+  text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries", src: "cts", sub: {}, club: "", clubWin: "month"});
 let F = Object.assign(defaults(), LS.get("tm.filters", {}));
 // v2.8: okruh vzdálenosti zrušen; Tennis Europe je doplněk – výchozí zobrazení jen ČTS
 for (const k of ["center", "centerMode", "centerLabel", "radius"]) delete F[k];
@@ -109,13 +109,13 @@ const sezLabel = (x, short) => { let n = x.nazev || x.id; if (short) n = n.repla
 const sezName = x => sezLabel(x || {});
 const sezIcon = id => id[0] === "Z" ? "❄" : "☀";
 F.surf = (F.surf || []).filter(s => /^[gr]:/.test(s));
-F.players = F.players || []; F.pmode = F.pmode || "entries"; F.src = F.src || "cts"; F.sub = F.sub || {};
+F.players = F.players || []; F.club = F.club || ""; F.clubWin = F.clubWin || "month"; F.pmode = F.pmode || "entries"; F.src = F.src || "cts"; F.sub = F.sub || {};
 let catOpen = null;   // kategorie, jejíž rozbalovací volby jsou otevřené pod lištou
 let TEDATA = null;   // turnaje Tennis Europe (data/TE/turnaje.json) – přimíchají se do sezóny podle termínu
 // oblíbené: ID turnaje obsahuje sezónu (od v2.4); starší ID bez sezóny patří k Z2627
 let FAV = new Set(LS.get("tm.fav", []).map(id => /^([ZL]\d{2}|TE-)/.test(id) ? id : "Z2627-" + id));
 let panel = "list", stack = [], popping = false, listState = null;
-const SUB = new Set(["detail", "report", "about", "player"]);
+const SUB = new Set(["detail", "report", "about", "player", "club"]);
 let ctx = {}, lastVenue = null;   // kontext pro hlášení problému
 
 /* ---------- mapa ---------- */
@@ -216,6 +216,7 @@ function evMatches(e, opt = {}) {
     if (F.pmode === "entries" || isArchive()) { if (!F.players.some(pid => entrySet(pid).has(e.id))) return false; }
     else if (!F.players.some(pid => eligible(pid, e))) return false;
   }
+  if (F.club && HR) { if (!clubEvents(F.club).has(e.id) || !inClubWin(e)) return false; }
   return true;
 }
 /* doplňkové volby jedné kategorie (pohlaví, třída) z rozbalovacího panelu pod lištou */
@@ -292,17 +293,22 @@ function renderQuick() {
   q.innerHTML = `<div class="qcol">` +
       (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") +
       `<button class="date" data-q="date"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${dateTxt}</button></div>` +
-    `<button class="drop reg${dropOpen === "region" ? " open" : ""}" data-q="region">${regTxt} <span class="car">▾</span></button>` +
-    `<button class="drop cat${sel.length ? " on" : ""}${dropOpen === "cat" ? " open" : ""}" data-q="cat">${esc(catTxt)}${nsub ? ` <b class="sc">${nsub}</b>` : ""} <span class="car">▾</span></button>` +
-    (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "") +
-    F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join("");
-  q.querySelectorAll(".x").forEach(x => x.onclick = ev => { ev.stopPropagation(); togglePlayer(x.dataset.x, false); });
+    `<div class="qr1"><button class="drop reg${dropOpen === "region" ? " open" : ""}" data-q="region">${regTxt} <span class="car">▾</span></button>` +
+    `<button class="drop cat${sel.length ? " on" : ""}${dropOpen === "cat" ? " open" : ""}" data-q="cat">${esc(catTxt)}${nsub ? ` <b class="sc">${nsub}</b>` : ""} <span class="car">▾</span></button></div>` +
+    // druhá řada (pod regionem a kategorií): vybraný klub, hráči, oblíbené – na telefonu vždy na displeji
+    `<div class="qr2">` +
+    (F.club ? `<button class="on player club" data-q="club">${CLUB}<span class="nm">${esc(F.club)}</span><small>${esc(T(CLUB_WIN[F.clubWin]))}</small><span class="x" data-xc="1">✕</span></button>` : "") +
+    F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join("") +
+    (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "") + `</div>`;
+  q.classList.toggle("two", !!(F.club || F.players.length || F.favOnly));
+  q.querySelectorAll(".x").forEach(x => x.onclick = ev => { ev.stopPropagation(); if (x.dataset.xc) { F.club = ""; if (panel === "club") showPanel("list"); render(); } else togglePlayer(x.dataset.x, false); });
   q.querySelectorAll("button").forEach(b => b.onclick = () => {
     const k = b.dataset.q;
     if (k === "date") { dropOpen = null; renderDrop(); showPanel("filters"); setSnap("full"); return; }
     if (k === "season") { dropOpen = null; renderDrop(); return toggleSeasonMenu(); }
     if (k === "fav") { F.favOnly = false; return render(); }
     if (k.startsWith("pl:")) return openPlayer(k.slice(3));
+    if (k === "club") return openClub(F.club);
     $("#seasonMenu")?.remove();
     dropOpen = dropOpen === k ? null : k;
     if (k === "cat" && dropOpen) catOpen = null;
@@ -906,8 +912,15 @@ function eligible(pid, e) {
   return el.sex === "m" ? !!e.km : !!e.kz;
 }
 function playerPills(e) {
-  if (!F.players.length || !HR) return "";
-  return F.players.filter(pid => entrySet(pid).has(e.id)).map(pid => {
+  if (!HR) return "";
+  const cl = clubPillsFor || F.club;
+  let club = "";
+  if (cl) {
+    const xs = (clubEvents(cl).get(e.id) || []).filter(([pid]) => !F.players.includes(pid));
+    club = xs.slice(0, 5).map(([pid, k]) => `<span class="pill pl cl">${esc(shortName(pid))}${k === "Q" ? " · " + T("kval.") : k === "N" ? " · " + T("náhr.") : ""}</span>`).join("") + (xs.length > 5 ? `<span class="pill pl cl">+${xs.length - 5}</span>` : "");
+  }
+  if (!F.players.length) return club;
+  return club + F.players.filter(pid => entrySet(pid).has(e.id)).map(pid => {
     const x = HR.e[pid].find(y => y[0] === e.id);
     return `<span class="pill pl">${PERSON}${esc(shortName(pid))}${x && x[2] === "Q" ? " · " + T("kval.") : x && x[2] === "N" ? " · " + T("náhr.") : ""}</span>`;
   }).join("");
@@ -927,12 +940,17 @@ function suggest() {
   }
   hits.sort((a, b) => a[0] - b[0] || pinfo(a[1])[0].localeCompare(pinfo(b[1])[0], "cs"));
   const top = hits.slice(0, 8);
-  box.innerHTML = (top.length ? `<div class="sh">${T("Hráči")}</div>` + top.map(([, id]) => {
+  const clubs = [...clubIndex()].filter(([n]) => { const f = fold(n); return words.every(w => f.includes(w)); })
+    .sort((a, b) => b[1].ents - a[1].ents || a[0].localeCompare(b[0], "cs")).slice(0, 4);
+  box.innerHTML = (clubs.length ? `<div class="sh">${T("Kluby")}</div>` + clubs.map(([n, c]) =>
+      `<button class="sg" data-club="${esc(n)}">${CLUB}<span><b>${esc(n)}</b><small>${T("{n} hráčů", {n: nf(c.pids.length)})}</small></span><em class="${c.ents ? "has" : ""}">${c.ents ? T("{n}× přihl.", {n: c.ents}) : T("bez přihlášek")}</em></button>`).join("") : "") +
+    (top.length ? `<div class="sh">${T("Hráči")}</div>` + top.map(([, id]) => {
       const p = pinfo(id), n = (HR.e[id] || []).length, cat = (p[2] || []).map(c => `${ZK_LABEL[c[0]]}${c[1] ? (EN ? " #" + c[1] : " " + c[1] + ".") : ""}`).join(", ");
       return `<button class="sg" data-pid="${esc(id)}">${PERSON}<span><b>${esc(p[0])}</b><small>${esc(p[1])}${cat ? " · " + esc(cat) : ""}</small></span><em class="${n ? "has" : ""}">${n ? T("{n}× přihl.", {n}) : T("bez přihlášek")}</em></button>`;
     }).join("") : `<div class="sh">${T("Žádný hráč neodpovídá")}</div>`) +
     `<button class="sg all" data-all="1"><span>${T("Hledat „{q}“ v turnajích ({n})", {q: esc(F.text), n: nf(shown.length)})}</span></button>`;
   box.hidden = false;
+  box.querySelectorAll("[data-club]").forEach(b => b.onclick = () => { $("#fText").value = ""; F.text = ""; hideSuggest(); openClub(b.dataset.club); });
   box.querySelectorAll("[data-pid]").forEach(b => b.onclick = () => { $("#fText").value = ""; F.text = ""; hideSuggest(); togglePlayer(b.dataset.pid, true); openPlayer(b.dataset.pid); });
   box.querySelector("[data-all]").onclick = () => { hideSuggest(); showPanel("list"); };
 }
@@ -964,7 +982,62 @@ function openPlayer(pid) {
   if (!isDesk() && snap === "peek") setSnap("half");
 }
 /* filtr bez omezení na hráče (pro seznam „kam se může přihlásit“) */
-function evMatchesBase(e) { const keep = F.players; F.players = []; const r = evMatches(e); F.players = keep; return r; }
+function evMatchesBase(e) { const keep = F.players, kc = F.club; F.players = []; F.club = ""; const r = evMatches(e); F.players = keep; F.club = kc; return r; }
+
+/* ---------- klub: všichni jeho hráči a kde jsou přihlášeni ---------- */
+const CLUB = '<svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>';
+const CLUB_WIN = {week: "Příští týden", month: "Příští měsíc", season: "Celá sezóna"};
+let curClub = null, clubPillsFor = null;
+/* klub → hráči (z žebříčku a přihlášek), počet přihlášek; počítá se jednou pro načtenou sezónu */
+function clubIndex() {
+  if (HR.clubs) return HR.clubs;
+  const m = new Map();
+  for (const [pid, p] of Object.entries(HR.p)) {
+    const n = (p[1] || "").trim(); if (!n) continue;
+    const c = m.get(n) || m.set(n, {pids: [], ents: 0}).get(n);
+    c.pids.push(pid); c.ents += (HR.e[pid] || []).length;
+  }
+  return (HR.clubs = m);
+}
+/* turnaj → přihlášení hráči klubu [[pid, druh]] */
+function clubEvents(name) {
+  HR.cev ||= {};
+  if (HR.cev[name]) return HR.cev[name];
+  const m = new Map();
+  for (const pid of clubIndex().get(name)?.pids || []) for (const x of HR.e[pid] || []) (m.get(x[0]) || m.set(x[0], []).get(x[0])).push([pid, x[2]]);
+  return (HR.cev[name] = m);
+}
+function inClubWin(e) {
+  if (F.clubWin === "season") return true;
+  const t0 = iso(today), t1 = iso(addDays(today, F.clubWin === "week" ? 7 : 31));
+  return (e.do || e.od || "") >= t0 && (e.od || "") <= t1;
+}
+function openClub(name) {
+  if (!HR) { loadPlayers().then(() => HR && openClub(name)); return; }
+  curClub = name;
+  const c = clubIndex().get(name) || {pids: [], ents: 0}, cev = clubEvents(name);
+  const evs = EV.filter(e => cev.has(e.id) && inClubWin(e) && evMatchesBase(e)).sort((a, b) => (a.od || "").localeCompare(b.od || "") || (a.nz || "").localeCompare(b.nz || "", "cs"));
+  const per = new Map(); for (const e of evs) for (const [pid] of cev.get(e.id)) per.set(pid, (per.get(pid) || 0) + 1);
+  const players = [...per].sort((a, b) => b[1] - a[1] || pinfo(a[0])[0].localeCompare(pinfo(b[0])[0], "cs"));
+  const sel = F.club === name;
+  clubPillsFor = name;
+  $("#clubBody").innerHTML = `<div class="venue"><h2>${CLUB}${esc(name)}</h2>
+    <div class="addr">${T("{n} hráčů klubu · {m} přihlášeno v období", {n: nf(c.pids.length), m: nf(per.size)})}</div>
+    <div class="links"><a class="pri" href="#" id="clToggle">${T(sel ? "Odebrat z mapy" : "Zobrazit v mapě")}</a></div></div>
+    <div class="seg small" id="clWin" style="margin-top:14px">${Object.entries(CLUB_WIN).map(([k, l]) => `<button data-w="${k}" class="${F.clubWin === k ? "on" : ""}">${T(l)}</button>`).join("")}</div>
+    <p class="muted">${T("Turnaje, kam jsou hráči klubu přihlášeni (hlavní soutěž, kvalifikace, náhradníci) podle veřejných seznamů ČTS; respektuje filtry kategorie a regionu.")}</p>
+    ${players.length ? `<details class="group clpl"><summary>${T("Přihlášení hráči ({n})", {n: players.length})}</summary><div class="clplist">${players.map(([pid, n]) =>
+      `<button class="sg" data-pid="${esc(pid)}">${PERSON}<span><b>${esc(pinfo(pid)[0])}</b><small>${esc((pinfo(pid)[2] || []).map(x => ZK_LABEL[x[0]]).join(", "))}</small></span><em class="has">${T("{n}× přihl.", {n})}</em></button>`).join("")}</div></details>` : ""}
+    <div id="clList">${evs.length ? evs.slice(0, 300).map(item).join("") : `<div class="empty">${T("V tomto období nejsou hráči klubu nikam přihlášeni.")}</div>`}</div>`;
+  clubPillsFor = null;
+  bind($("#clList"));
+  $("#clubBody").querySelectorAll("[data-pid]").forEach(b => b.onclick = () => { togglePlayer(b.dataset.pid, true); openPlayer(b.dataset.pid); });
+  $("#clToggle").onclick = ev => { ev.preventDefault(); F.club = sel ? "" : name; render(); if (!sel) fitShown(); openClub(name); };
+  $$("#clWin button").forEach(b => b.onclick = () => { F.clubWin = b.dataset.w; render(); openClub(name); });
+  $("#summary").innerHTML = `${CLUB} ${esc(name)}`;
+  showPanel("club");
+  if (!isDesk() && snap === "peek") setSnap("half");
+}
 
 /* ---------- o aplikaci ---------- */
 function openAbout() {
@@ -985,6 +1058,7 @@ $("#btnBack").onclick = e => {
   try {
     if (prev === "detail" && lastVenue != null) openVenue(lastVenue, {move: false});
     else if (prev === "player" && curPlayer) openPlayer(curPlayer);
+    else if (prev === "club" && curClub) openClub(curClub);
     else if (prev === "list" && listState) {
       // návrat do seznamu: stejný výřez mapy (a tedy stejné řazení) a stejná pozice v seznamu
       const st = listState; listState = null;
