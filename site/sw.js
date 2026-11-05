@@ -1,5 +1,5 @@
 // Jednoduchý service worker: aplikace funguje i při slabém signálu (data: nejdřív síť, pak mezipaměť).
-const C = "tenismapa-v18";
+const C = "tenismapa-v19";
 const SHELL = ["./", "index.html", "app.css", "app.js", "i18n.js", "icon.svg", "vendor/leaflet.js", "vendor/leaflet.css",
   "vendor/leaflet.markercluster.js", "vendor/MarkerCluster.css"];
 self.addEventListener("install", e => e.waitUntil(caches.open(C).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())));

@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.4";
+const APP_VERSION = "v3.4.1";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -286,9 +286,9 @@ function renderQuick() {
   const q = $("#quick");
   const dateTxt = F.to ? `${dShort(F.from)} – ${dShort(F.to)}` : F.from === iso(today) ? T("Od dnes") : F.from <= sezInfo().od ? T("Celá sezóna") : `${T("Od")} ${dShort(F.from)}`;
   const ctsOn = F.src !== "te", teOn = F.src !== "cts";
-  const regTxt = ctsOn && teOn ? "🇨🇿 ČTS + 🇪🇺 TE" : teOn ? "🇪🇺 Tennis Europe" : "🇨🇿 ČTS";
+  const regTxt = ctsOn && teOn ? "🇨🇿 ČTS + 🇪🇺 TE" : teOn ? "🇪🇺 TE" : "🇨🇿 ČTS";  // krátce – na telefonu se vejde i Kategorie
   const sel = CAT_ALL.filter(k => F.cat.includes(k));
-  const catTxt = !sel.length ? T("Všechny kategorie") : sel.length === 1 ? catLab(sel[0]) : T("Kategorie") + " (" + sel.length + ")";
+  const catTxt = !sel.length ? T("Kategorie") : sel.length === 1 ? catLab(sel[0]) : T("Kategorie") + " (" + sel.length + ")";
   const nsub = Object.keys(F.sub).reduce((a, k) => a + subCount(k), 0);
   q.innerHTML = `<div class="qcol">` +
       (SEZONY.length > 1 ? `<button class="season${isArchive() ? " arch" : ""}" data-q="season">${sezIcon(SEZ)} ${esc(sezLabel(sezInfo(), true))} ▾</button>` : "") +
@@ -297,7 +297,7 @@ function renderQuick() {
     `<button class="drop cat${sel.length ? " on" : ""}${dropOpen === "cat" ? " open" : ""}" data-q="cat">${esc(catTxt)}${nsub ? ` <b class="sc">${nsub}</b>` : ""} <span class="car">▾</span></button></div>` +
     // druhá řada (pod regionem a kategorií): vybraný klub, hráči, oblíbené – na telefonu vždy na displeji
     `<div class="qr2">` +
-    (F.club ? `<button class="on player club" data-q="club">${CLUB}<span class="nm">${esc(F.club)}</span><small>${esc(T(CLUB_WIN[F.clubWin]))}</small><span class="x" data-xc="1">✕</span></button>` : "") +
+    (F.club ? `<button class="on player club" data-q="club">${CLUB}<span class="nm">${esc(F.club)}</span><small>${esc(T(CLUB_WIN_SHORT[F.clubWin]))}</small><span class="x" data-xc="1">✕</span></button>` : "") +
     F.players.map(pid => `<button class="on player" data-q="pl:${esc(pid)}">${PERSON}${esc(shortName(pid))}<span class="x" data-x="${esc(pid)}">✕</span></button>`).join("") +
     (F.favOnly ? `<button class="on" data-q="fav">★ ${T("Oblíbené")} ✕</button>` : "") + `</div>`;
   q.classList.toggle("two", !!(F.club || F.players.length || F.favOnly));
@@ -987,6 +987,7 @@ function evMatchesBase(e) { const keep = F.players, kc = F.club; F.players = [];
 /* ---------- klub: všichni jeho hráči a kde jsou přihlášeni ---------- */
 const CLUB = '<svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>';
 const CLUB_WIN = {week: "Příští týden", month: "Příští měsíc", season: "Celá sezóna"};
+const CLUB_WIN_SHORT = {week: "týden", month: "měsíc", season: "sezóna"};
 let curClub = null, clubPillsFor = null;
 /* klub → hráči (z žebříčku a přihlášek), počet přihlášek; počítá se jednou pro načtenou sezónu */
 function clubIndex() {
