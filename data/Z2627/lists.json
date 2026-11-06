@@ -18,11 +18,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Havířov, z.s.",
    "kod_m": "106001",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 800 Kč TK Havířov, z.s. -/- -/-"
+   "radek": "7.-9. 11. 2026 C 800 Kč TK Havířov, z.s. */- -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -42,11 +42,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenis Cibulka",
    "kod_m": "106004",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 D 800 Kč Tenis Cibulka -/- -/-"
+   "radek": "7.-9. 11. 2026 D 800 Kč Tenis Cibulka */- -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -54,11 +54,11 @@
    "vklad": "800 Kč",
    "poradatel": "CTA Rudná",
    "kod_m": "106010",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 D 800 Kč CTA Rudná -/- -/-"
+   "radek": "7.-9. 11. 2026 D 800 Kč CTA Rudná */- -/-"
   },
   {
    "datum": "7.-8. 11. 2026",
@@ -78,23 +78,23 @@
    "vklad": "900 Kč",
    "poradatel": "TJ Brno-Komín",
    "kod_m": "106002",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-8. 11. 2026 C 900 Kč TJ Brno-Komín -/- -/-"
+   "radek": "7.-8. 11. 2026 C 900 Kč TJ Brno-Komín */- -/-"
   },
   {
    "datum": "7.-8. 11. 2026",
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "TJ Sokol Královice, z.s.",
-   "kod_m": "106011",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-8. 11. 2026 C 800 Kč TJ Sokol Královice, z.s. -/- -/-"
+   "radek": "7.-8. 11. 2026 C 800 Kč TJ Sokol Královice, z.s. ZRUŠENO -/-"
   },
   {
    "datum": "7.-8. 11. 2026",
@@ -102,11 +102,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Severní Terasa",
    "kod_m": "106906",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "206906",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "7.-8. 11. 2026 P 800 Kč TK Severní Terasa -/- -/-"
+   "radek": "7.-8. 11. 2026 P 800 Kč TK Severní Terasa */- */-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -114,11 +114,11 @@
    "vklad": "700 Kč",
    "poradatel": "Sokol Smíchov I.",
    "kod_m": "106006",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 700 Kč Sokol Smíchov I. -/- -/-"
+   "radek": "7.-9. 11. 2026 C 700 Kč Sokol Smíchov I. */- -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -138,11 +138,11 @@
    "vklad": "900 Kč",
    "poradatel": "TK Kunštát",
    "kod_m": "106009",
-   "obs_m": "-/-",
-   "kod_z": "206002",
-   "obs_z": "-/-",
+   "obs_m": "*/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 900 Kč TK Kunštát -/- -/-"
+   "radek": "7.-9. 11. 2026 C 900 Kč TK Kunštát */- ZRUŠENO"
   },
   {
    "datum": "7.-8. 11. 2026",
@@ -150,11 +150,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Chomutov",
    "kod_m": "106007",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-8. 11. 2026 C 800 Kč TK Chomutov -/- -/-"
+   "radek": "7.-8. 11. 2026 C 800 Kč TK Chomutov */- -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -162,11 +162,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "106003",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "206000",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 700 Kč TK DOMYNO P4, z.s. -/- -/-"
+   "radek": "7.-9. 11. 2026 C 700 Kč TK DOMYNO P4, z.s. */- */-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -467,6 +467,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "21.-23. 11. 2026 C 800 Kč Sokol Smíchov I. -/- -/-"
+  },
+  {
+   "datum": "21.-22. 11. 2026",
+   "trida": "C",
+   "vklad": "700 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "106148",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "21.-22. 11. 2026 C 700 Kč TK Mnichovo Hradiště -/- -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -877,6 +889,18 @@
    "radek": "12.-14. 12. 2026 C 900 Kč TK Sokolov -/- -/-"
   },
   {
+   "datum": "12.-13. 12. 2026",
+   "trida": "P",
+   "vklad": "700 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "106838",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "12.-13. 12. 2026 P 700 Kč TK Mnichovo Hradiště -/- -/-"
+  },
+  {
    "datum": "12.-14. 12. 2026",
    "trida": "D",
    "vklad": "800 Kč",
@@ -971,6 +995,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "21.-23. 12. 2026 D 800 Kč Tenis Cibulka -/- -/-"
+  },
+  {
+   "datum": "26.-27. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK Benešov",
+   "kod_m": "106149",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "26.-27. 12. 2026 C 800 Kč TK Benešov -/- -/-"
   },
   {
    "datum": "26.-28. 12. 2026",
@@ -1345,6 +1381,18 @@
    "radek": "16.-17. 1. 2027 C 800 Kč TK Krásné Březno -/- -/-"
   },
   {
+   "datum": "16.-17. 1. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "Tsport Votice o.s.",
+   "kod_m": "106150",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "16.-17. 1. 2027 D 800 Kč Tsport Votice o.s. -/- -/-"
+  },
+  {
    "datum": "16.-18. 1. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -1427,6 +1475,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-25. 1. 2027 C 700 Kč TO SK Žamberk -/- -/-"
+  },
+  {
+   "datum": "23.-24. 1. 2027",
+   "trida": "C",
+   "vklad": "700 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "106151",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-24. 1. 2027 C 700 Kč TK Mnichovo Hradiště -/- -/-"
   },
   {
    "datum": "23.-24. 1. 2027",
@@ -1825,6 +1885,30 @@
    "radek": "27. 2.-1. 3. 2027 D 800 Kč CTA Rudná -/- -/-"
   },
   {
+   "datum": "27.-28. 2. 2027",
+   "trida": "C",
+   "vklad": "700 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "106152",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-28. 2. 2027 C 700 Kč TK Mnichovo Hradiště -/- -/-"
+  },
+  {
+   "datum": "27.-28. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "106153",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-28. 2. 2027 C 800 Kč RADOST Králův Dvůr -/- -/-"
+  },
+  {
    "datum": "27. 2.-2. 3. 2027",
    "trida": "B",
    "vklad": "1000 Kč",
@@ -2020,6 +2104,18 @@
    "datum": "13.-14. 3. 2027",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "TK Benešov",
+   "kod_m": "106154",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 3. 2027 C 800 Kč TK Benešov -/- -/-"
+  },
+  {
+   "datum": "13.-14. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "TK Letohrad",
    "kod_m": "106124",
    "obs_m": "-/-",
@@ -2027,6 +2123,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "13.-14. 3. 2027 C 800 Kč TK Letohrad -/- -/-"
+  },
+  {
+   "datum": "13.-14. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "206085",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 3. 2027 C 800 Kč RADOST Králův Dvůr -/- -/-"
   },
   {
    "datum": "13.-15. 3. 2027",
@@ -2135,6 +2243,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "20.-21. 3. 2027 C 900 Kč TJ Brno-Komín -/- -/-"
+  },
+  {
+   "datum": "20.-21. 3. 2027",
+   "trida": "C",
+   "vklad": "700 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "106155",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "20.-21. 3. 2027 C 700 Kč TK Mnichovo Hradiště -/- -/-"
   },
   {
    "datum": "20.-21. 3. 2027",
@@ -2992,6 +3112,18 @@
   },
   {
    "datum": "19.-20. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "306183",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-20. 12. 2026 C 800 Kč RADOST Králův Dvůr -/- -/-"
+  },
+  {
+   "datum": "19.-20. 12. 2026",
    "trida": "D",
    "vklad": "700 Kč",
    "poradatel": "Tenis Újezd nad Lesy, z.s.",
@@ -3001,6 +3133,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "19.-20. 12. 2026 D 700 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-20. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK SK Kladno, z.s.",
+   "kod_m": "306184",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-20. 12. 2026 C 800 Kč TK SK Kladno, z.s. -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -3615,6 +3759,18 @@
    "radek": "16.-17. 1. 2027 D 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
   },
   {
+   "datum": "16.-17. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK SK Kladno, z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406176",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "16.-17. 1. 2027 C 800 Kč TK SK Kladno, z.s. -/- -/-"
+  },
+  {
    "datum": "16.-18. 1. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -3769,6 +3925,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-25. 1. 2027 C 800 Kč Tenisový klub Studénka z.s. -/- -/-"
+  },
+  {
+   "datum": "23.-25. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TJ LTC Poděbrady",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406177",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-25. 1. 2027 C 800 Kč TJ LTC Poděbrady -/- -/-"
   },
   {
    "datum": "23.-26. 1. 2027",
@@ -4153,6 +4321,30 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "6.-7. 2. 2027 E TCM Dubeč, z.s. -/- -/-"
+  },
+  {
+   "datum": "6.-7. 2. 2027",
+   "trida": "P",
+   "vklad": "600 Kč",
+   "poradatel": "Tsport Votice o.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406832",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-7. 2. 2027 P 600 Kč Tsport Votice o.s. -/- -/-"
+  },
+  {
+   "datum": "6.-7. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406178",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-7. 2. 2027 C 800 Kč RADOST Králův Dvůr -/- -/-"
   },
   {
    "datum": "6.-8. 2. 2027",
@@ -5861,6 +6053,18 @@
    "radek": "5.-6. 12. 2026 C 600 Kč Tenisový klub Havlíčkův Brod,z.s. -/- -/-"
   },
   {
+   "datum": "5.-6. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK SK Kladno, z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "606191",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "5.-6. 12. 2026 C 800 Kč TK SK Kladno, z.s. -/- -/-"
+  },
+  {
    "datum": "5.-7. 12. 2026",
    "trida": "C",
    "vklad": "800 Kč",
@@ -5883,6 +6087,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "5.-7. 12. 2026 C 800 Kč Sportcentrum Hrušková z.s. -/- -/-"
+  },
+  {
+   "datum": "5.-6. 12. 2026",
+   "trida": "P",
+   "vklad": "400 Kč",
+   "poradatel": "TK Písek",
+   "kod_m": "506865",
+   "obs_m": "-/-",
+   "kod_z": "606865",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "5.-6. 12. 2026 P 400 Kč TK Písek -/- -/-"
   },
   {
    "datum": "12.-15. 12. 2026",
@@ -6512,6 +6728,18 @@
    "datum": "9.-10. 1. 2027",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "506178",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "9.-10. 1. 2027 C 800 Kč RADOST Králův Dvůr -/- -/-"
+  },
+  {
+   "datum": "9.-10. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "TJ Žďár nad Sázavou",
    "kod_m": "506054",
    "obs_m": "-/-",
@@ -6915,6 +7143,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-25. 1. 2027 C 800 Kč SHARK Brno -/- -/-"
+  },
+  {
+   "datum": "23.-24. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK SK Kladno, z.s.",
+   "kod_m": "506179",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-24. 1. 2027 C 800 Kč TK SK Kladno, z.s. -/- -/-"
   },
   {
    "datum": "23.-25. 1. 2027",
@@ -7935,6 +8175,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "27. 2.-1. 3. 2027 C 800 Kč TK Třebíč -/- -/-"
+  },
+  {
+   "datum": "27.-28. 2. 2027",
+   "trida": "P",
+   "vklad": "600 Kč",
+   "poradatel": "Tsport Votice o.s.",
+   "kod_m": "506832",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27.-28. 2. 2027 P 600 Kč Tsport Votice o.s. -/- -/-"
   },
   {
    "datum": "27.-28. 2. 2027",
@@ -9055,6 +9307,18 @@
    "radek": "28.-30. 11. 2026 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
   },
   {
+   "datum": "28.-29. 11. 2026",
+   "trida": "P",
+   "vklad": "400 Kč",
+   "poradatel": "TK Písek",
+   "kod_m": "706865",
+   "obs_m": "-/-",
+   "kod_z": "806865",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "28.-29. 11. 2026 P 400 Kč TK Písek -/- -/-"
+  },
+  {
    "datum": "5.-8. 12. 2026",
    "trida": "B",
    "vklad": "900 Kč",
@@ -9272,6 +9536,18 @@
   },
   {
    "datum": "5.-7. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK SK Kladno, z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806239",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "5.-7. 12. 2026 C 800 Kč TK SK Kladno, z.s. -/- -/-"
+  },
+  {
+   "datum": "5.-7. 12. 2026",
    "trida": "D",
    "vklad": "800 Kč",
    "poradatel": "TK Sport Kolovraty",
@@ -9341,6 +9617,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "5.-6. 12. 2026 C 800 Kč Zažít Řepy, z.s. -/- -/-"
+  },
+  {
+   "datum": "5.-6. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "I. ČLTPK Čerčany",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806238",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "5.-6. 12. 2026 C 800 Kč I. ČLTPK Čerčany -/- -/-"
   },
   {
    "datum": "12.-13. 12. 2026",
@@ -9485,6 +9773,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "12.-14. 12. 2026 C 800 Kč Sokol Smíchov I. -/- -/-"
+  },
+  {
+   "datum": "12.-13. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "706235",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "12.-13. 12. 2026 C 800 Kč RADOST Králův Dvůr -/- -/-"
   },
   {
    "datum": "12.-15. 12. 2026",
@@ -9845,6 +10145,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "19.-21. 12. 2026 C 800 Kč TJ Žatec z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-21. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK SK Kladno, z.s.",
+   "kod_m": "706236",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-21. 12. 2026 C 800 Kč TK SK Kladno, z.s. -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -10652,6 +10964,18 @@
   },
   {
    "datum": "16.-18. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK SK Kladno, z.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806240",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "16.-18. 1. 2027 C 800 Kč TK SK Kladno, z.s. -/- -/-"
+  },
+  {
+   "datum": "16.-18. 1. 2027",
    "trida": "P",
    "vklad": "180 Kč",
    "poradatel": "severomoravský",
@@ -11021,6 +11345,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-25. 1. 2027 C 800 Kč SK Satalice -/- -/-"
+  },
+  {
+   "datum": "23.-25. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK SK Kladno, z.s.",
+   "kod_m": "706237",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-25. 1. 2027 C 800 Kč TK SK Kladno, z.s. -/- -/-"
   },
   {
    "datum": "23.-25. 1. 2027",
@@ -12548,6 +12884,18 @@
   },
   {
    "datum": "13.-14. 3. 2027",
+   "trida": "P",
+   "vklad": "600 Kč",
+   "poradatel": "Tsport Votice o.s.",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "806832",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 3. 2027 P 600 Kč Tsport Votice o.s. -/- -/-"
+  },
+  {
+   "datum": "13.-14. 3. 2027",
    "trida": "C",
    "vklad": "700 Kč",
    "poradatel": "TK Severní Terasa",
@@ -13452,6 +13800,18 @@
    "datum": "13. 12. 2026",
    "trida": "",
    "vklad": "500 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "906766",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13. 12. 2026 500 Kč RADOST Králův Dvůr -/-"
+  },
+  {
+   "datum": "13. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
    "poradatel": "SK HAMR, z.s.",
    "kod_m": "906544",
    "obs_m": "-/-",
@@ -13819,6 +14179,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "10. 1. 2027 500 Kč TK Vyškov -/-"
+  },
+  {
+   "datum": "10. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "906767",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "10. 1. 2027 500 Kč RADOST Králův Dvůr -/-"
   },
   {
    "datum": "10. 1. 2027",
@@ -16513,6 +16885,18 @@
    "radek": "13. 12. 2026 500 Kč SK Tenis Tišnov -/-"
   },
   {
+   "datum": "13.-14. 12. 2026",
+   "trida": "",
+   "vklad": "400 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "906109",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13.-14. 12. 2026 400 Kč TK Mnichovo Hradiště -/-"
+  },
+  {
    "datum": "13. 12. 2026",
    "trida": "",
    "vklad": "500 Kč",
@@ -16595,6 +16979,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "19. 12. 2026 500 Kč Tenis Újezd nad Lesy, z.s. -/-"
+  },
+  {
+   "datum": "20. 12. 2026",
+   "trida": "",
+   "vklad": "300 Kč",
+   "poradatel": "RADOST Králův Dvůr",
+   "kod_m": "906110",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 12. 2026 300 Kč RADOST Králův Dvůr -/-"
   },
   {
    "datum": "20. 12. 2026",
@@ -16871,6 +17267,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "24. 1. 2027 TJ Brno-Komín -/-"
+  },
+  {
+   "datum": "24.-25. 1. 2027",
+   "trida": "",
+   "vklad": "400 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "906111",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "24.-25. 1. 2027 400 Kč TK Mnichovo Hradiště -/-"
   },
   {
    "datum": "24. 1. 2027",
@@ -17221,6 +17629,18 @@
    "radek": "27. 2. 2027 400 Kč středočeský -/-"
   },
   {
+   "datum": "28. 2.-1. 3. 2027",
+   "trida": "",
+   "vklad": "400 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "906112",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "28. 2.-1. 3. 2027 400 Kč TK Mnichovo Hradiště -/-"
+  },
+  {
    "datum": "28. 2. 2027",
    "trida": "",
    "vklad": "400 Kč",
@@ -17447,6 +17867,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "21. 3. 2027 500 Kč TK Choceň -/-"
+  },
+  {
+   "datum": "21.-22. 3. 2027",
+   "trida": "",
+   "vklad": "400 Kč",
+   "poradatel": "TK Mnichovo Hradiště",
+   "kod_m": "906113",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "21.-22. 3. 2027 400 Kč TK Mnichovo Hradiště -/-"
   },
   {
    "datum": "21. 3. 2027",

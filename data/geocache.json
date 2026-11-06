@@ -32626,5 +32626,35 @@
    "addresstype": "leisure"
   }
  ],
- "loni:706610": ""
+ "loni:706610": "",
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Vinkovci%2C+Vinkovci": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Vinkovci": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Vinkovci": [
+  {
+   "name": "Grad Vinkovci",
+   "display_name": "Grad Vinkovci, Vukovarsko-srijemska županija, Chorvatsko",
+   "lat": "45.2883771",
+   "lon": "18.8045248",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=tennis+Vinkovci": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Jug-Skopje%2C+Skopje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Jug-Skopje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Bitola-Bitola%2C+Bitola": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Bitola-Bitola": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Bitola": [
+  {
+   "name": "Битола",
+   "display_name": "Битола, Општина Битола, 7000, Severní Makedonie",
+   "lat": "41.0316005",
+   "lon": "21.3302511",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=tennis+Bitola": []
 }

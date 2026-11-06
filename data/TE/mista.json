@@ -1176,19 +1176,22 @@
   "presnost": "obec",
   "nazev_mista": "HNTA Tennis Academy",
   "zeme": "hu",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "TUR|antalya tenis ihtisas ve spor kulubu atik|antalya": {
   "poradatel": "ANTALYA TENİS İHTİSAS VE SPOR KULÜBÜ (ATIK)",
   "adresa": "Antalya, Turkiye",
   "zdroj": "te",
   "region": "Turkiye",
-  "lat": 36.886573,
-  "lon": 30.703024,
-  "presnost": "obec",
+  "lat": 36.885948,
+  "lon": 30.672626,
+  "presnost": "areal",
   "nazev_mista": "ANTALYA TENİS İHTİSAS VE SPOR KULÜBÜ (ATIK)",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Antalya Tenis İhtisas ve Spor Kulübü"
  },
  "GRE|lyttos beach sportscenter|heraklion": {
   "poradatel": "Lyttos Beach Sportscenter",
@@ -1200,7 +1203,8 @@
   "presnost": "obec",
   "nazev_mista": "Lyttos Beach Sportscenter",
   "zeme": "gr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "TUR|sportplus tennis club|istanbul": {
   "poradatel": "Sportplus Tennis Club",
@@ -1212,7 +1216,8 @@
   "presnost": "obec",
   "nazev_mista": "Sportplus Tennis Club",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ISR|itc haifa|haifa": {
   "poradatel": "ITC HAIFA",
@@ -1225,20 +1230,22 @@
   "nazev_mista": "ITC HAIFA",
   "zeme": "il",
   "poznamka": "tenisový areál v obci podle OSM: מועדון טניס קריית ביאליק",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|pistas municipales magaluf|magaluf": {
   "poradatel": "PISTAS MUNICIPALES MAGALUF",
   "adresa": "MAGALUF, Spain",
   "zdroj": "te",
   "region": "Spain",
-  "lat": 39.528055,
-  "lon": 2.538497,
-  "presnost": "areal_obec",
+  "lat": 39.511366,
+  "lon": 2.530562,
+  "presnost": "areal",
   "nazev_mista": "PISTAS MUNICIPALES MAGALUF",
   "zeme": "es",
-  "poznamka": "tenisový areál v obci podle OSM: club de tennis Guillermo Vilas",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Poliesportiu de Magaluf",
+  "v2": 1,
+  "osm3": 1
  },
  "GBR|liverpool tennis centre main draw only wirral tennis centre qualifying only|main draw wavertree sports park wellington road": {
   "poradatel": "Liverpool Tennis Centre - Main Draw only Wirral Tennis Centre - Qualifying only",
@@ -1257,13 +1264,14 @@
   "adresa": "Nottingham, Great Britain",
   "zdroj": "te",
   "region": "Great Britain",
-  "lat": 52.975613,
-  "lon": -1.07119,
-  "presnost": "areal_obec",
+  "lat": 52.958456,
+  "lon": -1.067663,
+  "presnost": "areal",
   "nazev_mista": "Lexus Nottingham Tennis Centre",
   "zeme": "gb",
-  "poznamka": "tenisový areál v obci podle OSM: Carlton le Willows Academy : Table-Tennis Centre",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: TeamSport Nottingham",
+  "v2": 1,
+  "osm3": 1
  },
  "GRE|kalymnos tennis club|kalymnos": {
   "poradatel": "Kalymnos Tennis Club",
@@ -1275,19 +1283,22 @@
   "presnost": "obec",
   "nazev_mista": "Kalymnos Tennis Club",
   "zeme": "gr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "POL|akademia tenisowa tenis kozerki|grodzisk mazowiecki": {
   "poradatel": "Akademia Tenisowa Tenis Kozerki",
   "adresa": "Grodzisk Mazowiecki, Poland",
   "zdroj": "te",
   "region": "Poland",
-  "lat": 52.106622,
-  "lon": 20.631344,
-  "presnost": "obec",
+  "lat": 52.077682,
+  "lon": 20.579859,
+  "presnost": "areal",
   "nazev_mista": "Akademia Tenisowa Tenis Kozerki",
   "zeme": "pl",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Tenis Kozerki"
  },
  "FIN|vierumaki|vierumaki": {
   "poradatel": "Vierumäki",
@@ -1305,12 +1316,14 @@
   "adresa": "Villena, Spain",
   "zdroj": "te",
   "region": "Spain",
-  "lat": 38.636097,
-  "lon": -0.865974,
-  "presnost": "obec",
+  "lat": 38.63298,
+  "lon": -0.846149,
+  "presnost": "areal_obec",
   "nazev_mista": "JC FERRERO TENNIS ACADEMY",
   "zeme": "es",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "GRE|venus tennis club|drama": {
   "poradatel": "Venus Tennis Club",
@@ -1323,7 +1336,8 @@
   "nazev_mista": "Venus Tennis Club",
   "zeme": "gr",
   "poznamka": "tenisový areál v obci podle OSM: Γήπεδο Τέννις",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|club tennis urgell|lleida": {
   "poradatel": "CLUB TENNIS URGELL",
@@ -1347,20 +1361,22 @@
   "nazev_mista": "ITC Yafo",
   "zeme": "il",
   "poznamka": "tenisový areál v obci podle OSM: האקדמיה לטניס",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|rafa nadal academy by movistar|manacor": {
   "poradatel": "Rafa Nadal Academy by Movistar",
   "adresa": "Manacor, Spain",
   "zdroj": "te",
   "region": "Spain",
-  "lat": 39.568011,
-  "lon": 3.220942,
-  "presnost": "areal_obec",
+  "lat": 39.558328,
+  "lon": 3.214114,
+  "presnost": "areal",
   "nazev_mista": "Rafa Nadal Academy by Movistar",
   "zeme": "es",
-  "poznamka": "tenisový areál v obci podle OSM: Club de tennis",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Rafa Nadal Academy",
+  "v2": 1,
+  "osm3": 1
  },
  "CZE|tk horni mecholupy|prague": {
   "poradatel": "TK Horni Mecholupy",
@@ -1379,24 +1395,28 @@
   "adresa": "Angra Do Heroismo, Portugal",
   "zdroj": "te",
   "region": "Portugal",
-  "lat": 38.659317,
-  "lon": -27.219558,
-  "presnost": "obec",
+  "lat": 38.657276,
+  "lon": -27.258048,
+  "presnost": "areal",
   "nazev_mista": "LAWN TENNIS CLUB",
   "zeme": "pt",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Clube Lawn Tenis da Ilha Terceira"
  },
  "TUR|adana tenis dag ve su sporlari kulubu|adana": {
   "poradatel": "ADANA TENİS DAG VE SU SPORLARI KULUBU",
   "adresa": "ADANA, Turkiye",
   "zdroj": "te",
   "region": "Turkiye",
-  "lat": 36.98636,
-  "lon": 35.325286,
-  "presnost": "obec",
+  "lat": 37.040027,
+  "lon": 35.319603,
+  "presnost": "areal",
   "nazev_mista": "ADANA TENİS DAG VE SU SPORLARI KULUBU",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Adana Tenis, Dağ ve Su Sporları Kulübü Derneği"
  },
  "CZE|ltk liberec|liberec": {
   "poradatel": "LTK Liberec",
@@ -1415,25 +1435,28 @@
   "adresa": "Constanta, Romania",
   "zdroj": "te",
   "region": "Romania",
-  "lat": 44.262166,
-  "lon": 28.617409,
-  "presnost": "areal_obec",
+  "lat": 44.259802,
+  "lon": 28.617764,
+  "presnost": "areal",
   "nazev_mista": "9Jumate Tennis Club Constanta",
   "zeme": "",
-  "poznamka": "tenisový areál v obci podle OSM: Tennis Club Easy",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Padel Club Constanța",
+  "v2": 1,
+  "osm3": 1
  },
  "AUT|tennishalle liezen|liezen": {
   "poradatel": "Tennishalle Liezen",
   "adresa": "Liezen, Austria",
   "zdroj": "te",
   "region": "Austria",
-  "lat": 47.507097,
-  "lon": 14.212568,
-  "presnost": "obec",
+  "lat": 47.563932,
+  "lon": 14.234917,
+  "presnost": "areal",
   "nazev_mista": "Tennishalle Liezen",
   "zeme": "at",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Tennisplatz WSV Liezen"
  },
  "SWE|racketstadion|norrkoping": {
   "poradatel": "Racketstadion",
@@ -1451,12 +1474,14 @@
   "adresa": "Osijek, Croatia",
   "zdroj": "te",
   "region": "Croatia",
-  "lat": 45.554879,
-  "lon": 18.695369,
-  "presnost": "obec",
+  "lat": 45.560893,
+  "lon": 18.688784,
+  "presnost": "areal",
   "nazev_mista": "Teniski klub Olimpija Osijek 1984",
   "zeme": "hr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Teniski klub ''Osijek''"
  },
  "TUR|soul entertainment group|istanbul": {
   "poradatel": "Soul Entertainment Group",
@@ -2833,6 +2858,43 @@
   "presnost": "obec",
   "nazev_mista": "All England Lawn Tennis Club Community Tennis Centre Raynes Park",
   "zeme": "gb",
+  "v2": 1
+ },
+ "CRO|teniski klub vinkovci|vinkovci": {
+  "poradatel": "Teniski klub Vinkovci",
+  "adresa": "Vinkovci, Croatia",
+  "zdroj": "te",
+  "region": "Croatia",
+  "lat": 45.288377,
+  "lon": 18.804525,
+  "presnost": "obec",
+  "nazev_mista": "Teniski klub Vinkovci",
+  "zeme": "hr",
+  "v2": 1
+ },
+ "MKD|tennis club jug skopje|skopje": {
+  "poradatel": "Tennis Club Jug-Skopje",
+  "adresa": "Skopje, North Macedonia",
+  "zdroj": "te",
+  "region": "North Macedonia",
+  "lat": 42.015348,
+  "lon": 21.398016,
+  "presnost": "areal_obec",
+  "nazev_mista": "Tennis Club Jug-Skopje",
+  "zeme": "mk",
+  "poznamka": "tenisový areál v obci podle OSM: Тениски клуб Евро Сет",
+  "v2": 1
+ },
+ "MKD|tennis club bitola bitola|bitola": {
+  "poradatel": "Tennis Club Bitola-Bitola",
+  "adresa": "Bitola, North Macedonia",
+  "zdroj": "te",
+  "region": "North Macedonia",
+  "lat": 41.031601,
+  "lon": 21.330251,
+  "presnost": "obec",
+  "nazev_mista": "Tennis Club Bitola-Bitola",
+  "zeme": "mk",
   "v2": 1
  }
 }

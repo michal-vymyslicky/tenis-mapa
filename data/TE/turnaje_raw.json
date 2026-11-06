@@ -2052,6 +2052,22 @@
   "entry": false
  },
  {
+  "id": "0F2AD7AA-150E-46F4-A4F6-BFE6AC0BB5FB",
+  "nz": "Norrköping Elite Hotels Junior Open",
+  "venue": "Racketstadion",
+  "city": "Norrköping",
+  "country": "Sweden",
+  "iso3": "SWE",
+  "od": "2026-11-23",
+  "do": "2026-11-27",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "8B933C77-5EF8-40E4-94D5-AF186D527198",
   "nz": "International Seaside Trophy",
   "venue": "9Jumate Tennis Club Constanta",
@@ -2080,22 +2096,6 @@
   "tags": [
    "Category 1",
    "12&U"
-  ],
-  "entry": false
- },
- {
-  "id": "0F2AD7AA-150E-46F4-A4F6-BFE6AC0BB5FB",
-  "nz": "Norrköping Elite Hotels Junior Open",
-  "venue": "Racketstadion",
-  "city": "Norrköping",
-  "country": "Sweden",
-  "iso3": "SWE",
-  "od": "2026-11-23",
-  "do": "2026-11-29",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 2",
-   "14&U"
   ],
   "entry": false
  },
@@ -3623,6 +3623,22 @@
   "entry": false
  },
  {
+  "id": "C6777620-22B2-447D-A53A-BD7327FDB222",
+  "nz": "Vinkovci Open",
+  "venue": "Teniski klub Vinkovci",
+  "city": "Vinkovci",
+  "country": "Croatia",
+  "iso3": "CRO",
+  "od": "2027-04-12",
+  "do": "2027-04-18",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "D6E7483E-E733-4DD5-8DFE-4615E1BA04FA",
   "nz": "25º MEMORIAL NACHO JUNCOSA",
   "venue": "CLUB TENNIS VIC",
@@ -3651,6 +3667,22 @@
   "tags": [
    "Category 2",
    "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "3D7A706E-FA03-47E8-8560-CE8F7994299B",
+  "nz": "JUG OPEN 2027 U 14",
+  "venue": "Tennis Club Jug-Skopje",
+  "city": "Skopje",
+  "country": "North Macedonia",
+  "iso3": "MKD",
+  "od": "2027-04-19",
+  "do": "2027-04-25",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
   ],
   "entry": false
  },
@@ -3699,6 +3731,22 @@
   "tags": [
    "Category 2",
    "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "C22ED23C-51FF-4CD3-B0F8-981CC8ABA4AF",
+  "nz": "Bad Waltersdorf Series 3",
+  "venue": "Sportaktivpark Bad Waltersdorf",
+  "city": "Bad Waltersdorf",
+  "country": "Austria",
+  "iso3": "AUT",
+  "od": "2027-04-26",
+  "do": "2027-05-02",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
   ],
   "entry": false
  },
@@ -3843,6 +3891,23 @@
   "tags": [
    "Category 2",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "394992A8-0D23-4799-BDF1-0FE5F3EF89C6",
+  "nz": "Bad Waltersdorf Series 4",
+  "venue": "Sportaktivpark Bad Waltersdorf",
+  "city": "Bad Waltersdorf",
+  "country": "Austria",
+  "iso3": "AUT",
+  "od": "2027-05-10",
+  "do": "2027-05-16",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U",
+   "16&U"
   ],
   "entry": false
  },
@@ -4036,6 +4101,22 @@
   "pov": "Acryllic",
   "tags": [
    "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "B537803A-96B4-4274-A034-DC8165834B3B",
+  "nz": "Bitola Open 2027 U 14",
+  "venue": "Tennis Club Bitola-Bitola",
+  "city": "Bitola",
+  "country": "North Macedonia",
+  "iso3": "MKD",
+  "od": "2027-05-24",
+  "do": "2027-05-30",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
    "14&U"
   ],
   "entry": false
