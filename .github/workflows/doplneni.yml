@@ -7,11 +7,11 @@ on:
         description: "Sezóna, např. Z2526 nebo L26 (více oddělte mezerou)"
         required: true
       vlakna:
-        description: "Souběžná stahování (šetrně 1–2)"
-        default: "2"
+        description: "Souběžná stahování (šetrně 1)"
+        default: "1"
       pauza:
         description: "Pauza mezi stránkami v sekundách"
-        default: "0.8"
+        default: "1.5"
 
 permissions:
   contents: write

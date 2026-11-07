@@ -22,7 +22,7 @@ from common import DATA, UA_GEO, Http, load, norm, save
 
 NOMI = "https://nominatim.openstreetmap.org/search"
 geo_http = Http(ua=UA_GEO, pause=1.1)  # pravidla Nominatim: max 1 požadavek/s
-cts_http = Http(pause=0.3)
+cts_http = Http(pause=1.5)
 CACHE = load("geocache.json", {})
 STOP = set("tj tk sk ltc tc tcm tsm lob sa z s o s spolek sokol tenis tennis tenisovy klub club oddil sportovni centrum cz a as s r o "
            "academy akademie team clubu area arena sport sportcentrum resort park hala sportovni".split())

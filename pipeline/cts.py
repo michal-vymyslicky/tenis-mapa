@@ -19,7 +19,7 @@ def _t(el):
 
 
 def fetch_list(slug, season):
-    h = Http(pause=0.4)
+    h = Http(pause=1.5)
     url = BASE + slug
     h.get(url)
     data = f"sezona={season}&_submit=Filtrovat&_do=individualsControl-individualsForm-submit"
@@ -94,7 +94,7 @@ def parse_detail(body, code):
     return d
 
 
-def fetch_details(codes, season, threads=3, pause=0.3):
+def fetch_details(codes, season, threads=1, pause=1.5):
     h = Http(pause=pause)
 
     def one(code):

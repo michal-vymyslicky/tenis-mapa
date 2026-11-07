@@ -122,3 +122,12 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
 - `pipeline/update.py`: chyba listiny kategorie nebo celé sezóny už běh neshodí – ponechají se uložená data (nic se neoznačí
   jako zrušené), stažená data se uloží a web se nasadí; problémy se vypíšou jako `::warning::` v souhrnu běhu Actions.
 - `pipeline/venues.py`: loňská adresa turnaje se při chybě webu ČTS přeskočí (nezapíše se do cache).
+
+## Šetrné stahování z cesky-tenis.cz (7. 11. 2026)
+- Denní běh v noci: cron 0:23 UTC (1:23 / 2:23 v ČR), 1 vlákno, 1,5 s mezi stránkami (dřív 3 vlákna, 0,3 s), identifikace
+  `TenisovaMapa/3.5; +https://turnajovamapa.cz; tenisova-mapa@seznam.cz`.
+- Listiny (7 kategorií × sezóna) se čtou celé každý den. Detail turnaje (seznam přihlášených) jen když: je nový / minule selhal,
+  změnil se jeho řádek v listině (obsazenost, termín, zrušení), nebo je na řadě: start do 21 dnů = denně, do 60 dnů = každý 2. den,
+  dál = každý 5. den (rozložené podle kódu turnaje). Výměna hráčů při stejném počtu se u blízkých turnajů projeví do druhého dne.
+  Parametry `OBNOVA` v `pipeline/update.py`, datum stažení detailu `_stazeno` v `data/<S>/details.json`.
+- Zátěž: ~700 detailů denně místo ~1 950 (Z2627, 11/2026), běh ~20–25 min; první běh po změně stáhne vše (~1 h).

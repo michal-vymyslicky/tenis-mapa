@@ -135,12 +135,53 @@ def ssave(season, name, obj, indent=1):
     save(name, obj, folder=os.path.join(DATA, season), indent=indent)
 
 
+# ---------------------------------------------------------------- plán obnovy detailů (šetrné stahování, od 7. 11. 2026)
+# Detail turnaje (seznam přihlášených) se stahuje, když:
+#   – ještě není stažený nebo minule selhal,
+#   – se změnil jeho řádek v termínové listině (obsazenost, termín, stav…) – listina se čte celá každý den,
+#   – podle vzdálenosti začátku: do OBNOVA[0][0] dnů denně, do OBNOVA[1][0] dnů každý 2. den, jinak každý 5. den.
+# Výměna hráčů při stejném počtu (jeden se odhlásí, jiný přihlásí) se tak u blízkých turnajů projeví do druhého dne,
+# u vzdálených nejpozději do 5 dnů. Termíny obnovy jsou rozložené podle kódu turnaje, aby nevznikaly špičky.
+OBNOVA = [(21, 1), (60, 2), (10 ** 6, 5)]
+
+
+def list_signatures(lists):
+    """kód turnaje → (termín, celý řádek listiny vč. obsazenosti) – změna = stáhnout detail hned."""
+    out = {}
+    for rows in lists.values():
+        for r in rows:
+            for c in (r.get("kod_m"), r.get("kod_z")):
+                if c:
+                    out[c] = (r.get("datum"), r.get("radek"), r.get("obs_m"), r.get("obs_z"))
+    return out
+
+
+def detail_due(code, det, sig_old, sig_new, today=None):
+    """Vrátí důvod stažení detailu, nebo None (detail se dnes nestahuje)."""
+    today = today or TODAY
+    if det.get("_status") != "ok":
+        return "nový"
+    if sig_old.get(code) != sig_new.get(code):
+        return "změna v listině"
+    last = det.get("_stazeno")
+    if not last:
+        return "bez data stažení"
+    age = (today - dt.date.fromisoformat(last)).days
+    od = parse_date((sig_new.get(code) or ("",))[0])[0]
+    days = (od - today).days if od else 0
+    per = next(p for lim, p in OBNOVA if days <= lim)
+    if age > per or (age >= 1 and (today.toordinal() + int(re.sub(r"\D", "", code) or 0)) % per == 0):
+        return f"pravidelně ({per} d)"
+    return None
+
+
 # ---------------------------------------------------------------- jedna sezóna
-def process(season, download=True, threads=3, pause=0.3, clubs=None):
+def process(season, download=True, threads=1, pause=1.5, clubs=None):
     print(f"=== sezóna {season} ({season_name(season)}) ===", flush=True)
     lists = sload(season, "lists.json", {})
     details = sload(season, "details.json", {})
     ok_slugs = set()
+    sig_old = list_signatures(lists)
     if download:
         for slug in cts.CATS:
             try:
@@ -160,7 +201,13 @@ def process(season, download=True, threads=3, pause=0.3, clubs=None):
             return None
         ssave(season, "lists.json", lists)
         codes = sorted({c for rows in lists.values() for r in rows for c in (r.get("kod_m"), r.get("kod_z")) if c})
-        new = cts.fetch_details(codes, season, threads=threads, pause=pause)
+        sig_new = list_signatures(lists)
+        from collections import Counter
+        duvody = {c: detail_due(c, details.get(c, {}), sig_old, sig_new) for c in codes}
+        stahnout = [c for c in codes if duvody[c]]
+        print(f"detaily: stahuji {len(stahnout)} z {len(codes)} – {dict(Counter(v.split(' (')[0] for v in duvody.values() if v))}",
+              flush=True)
+        new = cts.fetch_details(stahnout, season, threads=threads, pause=pause)
         omezeno = sum(1 for d in new.values() if str(d.get("_status", "")).startswith("omezeno"))
         if omezeno:
             CHYBY.append(f"{season}: {omezeno} detailů nestaženo (omezení serveru) – ponechána předchozí data")
@@ -172,6 +219,8 @@ def process(season, download=True, threads=3, pause=0.3, clubs=None):
                 d["prihlaseno"] = sum(1 for e in pr if not re.search("odstran|odhl", e.get("sekce", "").lower()))
                 if d.get("_status") == "ok":
                     prihl[c] = [[e["id"], e["jmeno"], e["klub"], sekce_kod(e.get("sekce", ""))] for e in pr if e.get("id")]
+            if d.get("_status") == "ok":
+                d["_stazeno"] = TODAY.isoformat()
             if d.get("_status") == "ok" or c not in details:
                 details[c] = d
         ssave(season, "details.json", details)
@@ -338,8 +387,8 @@ def main():
     ap.add_argument("--kluby", action="store_true")
     ap.add_argument("--index", action="store_true", help="jen přehled sezón a žebříček")
     ap.add_argument("--te", action="store_true", help="stáhnout i turnaje Tennis Europe (u --auto automaticky)")
-    ap.add_argument("--vlakna", type=int, default=3)
-    ap.add_argument("--pauza", type=float, default=0.3)
+    ap.add_argument("--vlakna", type=int, default=1, help="souběžná stahování z cesky-tenis.cz (šetrně 1)")
+    ap.add_argument("--pauza", type=float, default=1.5, help="pauza mezi stránkami v s")
     a = ap.parse_args()
 
     migrate_legacy()
