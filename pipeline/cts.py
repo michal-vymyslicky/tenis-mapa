@@ -7,7 +7,7 @@ Navíc čte seznam přihlášených (pro budoucí vyhledání hráčů a obsazen
 import re
 from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup
-from common import Http
+from common import Http, RateLimited
 
 BASE = "https://cesky-tenis.cz/jednotlivci/"
 CATS = {"dospeli": "Dospělí", "dorost": "Dorost", "starsi-zactvo": "Starší žactvo", "mladsi-zactvo": "Mladší žactvo",
@@ -100,6 +100,8 @@ def fetch_details(codes, season, threads=3, pause=0.3):
     def one(code):
         try:
             st, body = h.get(f"https://cesky-tenis.cz/turnaj/{code}?sezona={season}&tab=seznam")
+        except RateLimited as e:
+            return code, {"_status": f"omezeno: {e}"}
         except Exception as e:
             return code, {"_status": f"chyba: {e}"}
         if st == 404:

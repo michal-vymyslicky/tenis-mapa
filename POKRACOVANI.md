@@ -113,3 +113,12 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   **Push origin** (účet michal-vymyslicky). Žádné ruční nahrávání přes web GitHubu – nemá limit velikosti a přenese i `.github/workflows`.
   Při konfliktu v generovaných datech (data/, site/data/) vzít verzi z GitHubu a data přepočítat (`update.py --bez-stahovani`).
 - Náhled lokálně: `cd site && python3 -m http.server 8000` → http://localhost:8000.
+
+## Odolnost denní aktualizace (7. 11. 2026)
+- Běh 7. 11. 2026 spadl po 3,5 h: cesky-tenis.cz začal vracet **HTTP 429 Too Many Requests** (běžně běh trvá ~25 min);
+  výjimka u listiny L27 shodila celý krok → nic se neuložilo ani nenasadilo.
+- `pipeline/common.py` – `Http`: při 429/503 zpomalí všechna vlákna pro daný web (Retry-After, jinak 15 s → 30 s → … max. 5 min,
+  pauza mezi stránkami +0,5 s až +3 s); po 8 odmítnutích za sebou / 60 za běh vyhodí `RateLimited` a stahování z webu se vzdá.
+- `pipeline/update.py`: chyba listiny kategorie nebo celé sezóny už běh neshodí – ponechají se uložená data (nic se neoznačí
+  jako zrušené), stažená data se uloží a web se nasadí; problémy se vypíšou jako `::warning::` v souhrnu běhu Actions.
+- `pipeline/venues.py`: loňská adresa turnaje se při chybě webu ČTS přeskočí (nezapíše se do cache).

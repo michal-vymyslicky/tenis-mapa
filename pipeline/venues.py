@@ -281,7 +281,10 @@ def last_year_address(code, season="Z2627"):
     key = f"loni:{code}" if ps == "Z2526" else f"loni:{ps}:{code}"
     if key in CACHE:
         return CACHE[key]
-    st, body = cts_http.get(f"https://cesky-tenis.cz/turnaj/{code}?sezona={ps}&tab=seznam")
+    try:
+        st, body = cts_http.get(f"https://cesky-tenis.cz/turnaj/{code}?sezona={ps}&tab=seznam")
+    except Exception:  # noqa: BLE001 – web ČTS nedostupný/omezuje → bez loňské adresy (neukládá se, zkusí se příště)
+        return ""
     addr = ""
     if st == 200:
         m = re.search(r"<span>\s*Pořadatel\s*</span>(.*?)</p>", body, re.S)

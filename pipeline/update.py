@@ -21,6 +21,7 @@ import cts, venues
 PIPE = os.path.dirname(os.path.abspath(__file__))
 TODAY = dt.date.today()
 LEGACY = "Z2627"   # sezóna, jejíž data ležela do v2.3 přímo v data/ – při prvním běhu se přesunou do data/Z2627/
+CHYBY = []         # nefatální chyby běhu (vypíší se na konci jako upozornění v GitHub Actions)
 
 
 # ---------------------------------------------------------------- sezóny
@@ -142,7 +143,12 @@ def process(season, download=True, threads=3, pause=0.3, clubs=None):
     ok_slugs = set()
     if download:
         for slug in cts.CATS:
-            rows, ok = cts.fetch_list(slug, season)
+            try:
+                rows, ok = cts.fetch_list(slug, season)
+            except Exception as e:  # noqa: BLE001 – listina se nestáhla: ponechá se uložená (a nic se neoznačí jako zrušené)
+                print(f"  ! listina {slug}: {e} – ponechávám uloženou", flush=True)
+                CHYBY.append(f"{season} listina {slug}: {e}")
+                continue
             print(f"listina {slug}: {len(rows)} řádků, ok={ok}", flush=True)
             if ok and (rows or not lists.get(slug)):
                 lists[slug] = rows; ok_slugs.add(slug)
@@ -155,6 +161,9 @@ def process(season, download=True, threads=3, pause=0.3, clubs=None):
         ssave(season, "lists.json", lists)
         codes = sorted({c for rows in lists.values() for r in rows for c in (r.get("kod_m"), r.get("kod_z")) if c})
         new = cts.fetch_details(codes, season, threads=threads, pause=pause)
+        omezeno = sum(1 for d in new.values() if str(d.get("_status", "")).startswith("omezeno"))
+        if omezeno:
+            CHYBY.append(f"{season}: {omezeno} detailů nestaženo (omezení serveru) – ponechána předchozí data")
         prihl = sload(season, "prihlasky.json", {})
         for c, d in new.items():
             # přihlášky (veřejné seznamy z cesky-tenis.cz): jen ID, jméno, klub a sekce – bez roku narození a bodů
@@ -348,7 +357,12 @@ def main():
     seasons = a.sezona or (seasons_auto() if a.auto else ([] if a.index else [os.environ.get("SEZONA") or season_of(TODAY)]))
     clubs = load("clubs.json", [])
     for s in seasons:
-        process(s, download=not a.bez_stahovani, threads=a.vlakna, pause=a.pauza, clubs=clubs)
+        try:                                    # chyba jedné sezóny nesmí shodit ostatní ani nasazení webu
+            process(s, download=not a.bez_stahovani, threads=a.vlakna, pause=a.pauza, clubs=clubs)
+        except Exception as e:  # noqa: BLE001
+            import traceback
+            traceback.print_exc()
+            CHYBY.append(f"sezóna {s}: {e}")
     if (a.auto or a.te) and not a.bez_stahovani:
         try:                                    # Tennis Europe – chyba zdroje nesmí shodit denní aktualizaci ČTS
             import te
@@ -356,6 +370,11 @@ def main():
         except Exception as e:  # noqa: BLE001
             print("Tennis Europe se nepodařilo aktualizovat:", e, flush=True)
     build_index()
+    from common import Http
+    if Http.stav():
+        print("omezení serverů (HTTP 429/503) za běh:", Http.stav(), flush=True)
+    for c in CHYBY:   # upozornění v souhrnu běhu GitHub Actions; data, která se podařilo stáhnout, se uloží a nasadí
+        print(f"::warning::{c}", flush=True)
 
 
 if __name__ == "__main__":
