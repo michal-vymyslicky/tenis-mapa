@@ -32656,5 +32656,125 @@
    "addresstype": "city"
   }
  ],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=tennis+Bitola": []
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=tennis+Bitola": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=MEGASARAY+TENNIS+ACADEMY%2C+Antalya": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=MEGASARAY+TENNIS+ACADEMY": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ISTANBUL+OPTIMUM+TENNIS+ACADEMY%2C+%C4%B0stanbul": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=ISTANBUL+OPTIMUM+TENNIS+ACADEMY": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=%C4%B0stanbul": [
+  {
+   "name": "Istanbul",
+   "display_name": "Istanbul, Fatih, İstanbul, Marmarský region, 34122, Turecko",
+   "lat": "41.0063810",
+   "lon": "28.9758715",
+   "category": "place",
+   "type": "city",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=tr&format=jsonv2&limit=1&q=tennis+%C4%B0stanbul": [
+  {
+   "name": "mashattan tennis court",
+   "display_name": "mashattan tennis court, Söğütözü Sokağı, Maslak Mahallesi, Sarıyer, İstanbul, Marmarský region, 34485, Turecko",
+   "lat": "41.1124842",
+   "lon": "29.0145178",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=DODIG+TENNIS+CENTAR%2C+Medjugorje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=DODIG+TENNIS+CENTAR": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=Medjugorje": [
+  {
+   "name": "Medžugorje",
+   "display_name": "Medžugorje, Općina Čitluk, Hercegovačko-neretvanska županija (kanton), Federace Bosny a Hercegoviny, 88266, Bosna a Hercegovina",
+   "lat": "43.1909412",
+   "lon": "17.6782904",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+Medjugorje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Dalmacijacement%2C+Solin": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Dalmacijacement": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Solin": [
+  {
+   "name": "Grad Solin",
+   "display_name": "Grad Solin, Splitsko-dalmatinska županija, Chorvatsko",
+   "lat": "43.5442913",
+   "lon": "16.4853016",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=tennis+Solin": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+TOPLICANIN%2C+PROKUPLJE": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+TOPLICANIN": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=PROKUPLJE": [
+  {
+   "name": "Прокупље",
+   "display_name": "Прокупље, Град Прокупље, Топлички управни округ, Централна Србија, 18400, Srbsko",
+   "lat": "43.2343484",
+   "lon": "21.5884422",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=tennis+PROKUPLJE": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+CELIK%2C+Zenica": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+CELIK": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=Zenica": [
+  {
+   "name": "Zenica",
+   "display_name": "Zenica, Grad Zenica, Zeničko-dobojski kanton, Federace Bosny a Hercegoviny, 72000, Bosna a Hercegovina",
+   "lat": "44.1998280",
+   "lon": "17.9093012",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+Zenica": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=md&format=jsonv2&limit=1&q=National+Tennis+Center%2C+Chisinau": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=md&format=jsonv2&limit=1&q=National+Tennis+Center": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=md&format=jsonv2&limit=1&q=Chisinau": [
+  {
+   "name": "Kišiněv",
+   "display_name": "Kišiněv, sectorul Buiucani, Municipiul Chișinău, Moldavsko",
+   "lat": "47.0245117",
+   "lon": "28.8322923",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=md&format=jsonv2&limit=1&q=tennis+Chisinau": [
+  {
+   "name": "Școala Sportivă Republicană Specializată de Tenis",
+   "display_name": "Școala Sportivă Republicană Specializată de Tenis, 59, Strada Eugen Coca, Sculeanca, Kišiněv, sectorul Buiucani, Municipiul Chișinău, MD-2069, Moldavsko",
+   "lat": "47.0357772",
+   "lon": "28.8018232",
+   "category": "amenity",
+   "type": "school",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+MOSTAR%2C+Mostar": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+MOSTAR": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=Mostar": [
+  {
+   "name": "Mostar",
+   "display_name": "Mostar, MZ Centar II, Grad Mostar, Hercegovačko-neretvanska županija (kanton), Federace Bosny a Hercegoviny, Bosna a Hercegovina",
+   "lat": "43.3435855",
+   "lon": "17.8076584",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+Mostar": []
 }

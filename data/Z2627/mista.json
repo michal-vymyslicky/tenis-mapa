@@ -116,19 +116,6 @@
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: Ostrov Štvanice č.ev. 38, Holešovice, 17000 Praha 7"
  },
- "klub:i cltpk cercany": {
-  "klic": "klub:i cltpk cercany",
-  "poradatel": "I. ČLTPK Čerčany",
-  "adresa": "Sázavská 491, Čerčany",
-  "zdroj": "adresar",
-  "region": "Středočeský",
-  "lat": 49.855117,
-  "lon": 14.701013,
-  "presnost": "areal",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.11,
-  "geokod": "RÚIAN: Sázavská 491, 25722 Čerčany"
- },
  "klub:i cltpk cercany|sazavska 491 cercany": {
   "klic": "klub:i cltpk cercany|sazavska 491 cercany",
   "poradatel": "I. ČLTPK Čerčany",
@@ -259,6 +246,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "RÚIAN: Jiráskova 413, Horní Litvínov, 43601 Litvínov"
  },
+ "klub:ltc panorama teplice|u panoramy 2891 teplice": {
+  "klic": "klub:ltc panorama teplice|u panoramy 2891 teplice",
+  "poradatel": "LTC Panorama Teplice",
+  "adresa": "U Panoramy 2891, Teplice",
+  "zdroj": "detail",
+  "region": "Severočeský",
+  "lat": 50.640161,
+  "lon": 13.853625,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "RÚIAN: U Panoramy 2891, 41501 Teplice"
+ },
  "klub:ltc radotin|sarovo kolo 932 1 praha 5": {
   "klic": "klub:ltc radotin|sarovo kolo 932 1 praha 5",
   "poradatel": "LTC Radotín",
@@ -350,19 +350,6 @@
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: 28. října 2236, Místek, 73801 Frýdek-Místek"
  },
- "klub:radost kraluv dvur": {
-  "klic": "klub:radost kraluv dvur",
-  "poradatel": "RADOST Králův Dvůr",
-  "adresa": "Na Skalce 380, Králův Dvůr",
-  "zdroj": "adresar",
-  "region": "Středočeský",
-  "lat": 49.940666,
-  "lon": 14.013952,
-  "presnost": "adresa",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "RÚIAN: Na Skalce 380, Počaply, 26701 Králův Dvůr"
- },
  "klub:radost kraluv dvur|na skalce 380 kraluv dvur": {
   "klic": "klub:radost kraluv dvur|na skalce 380 kraluv dvur",
   "poradatel": "RADOST Králův Dvůr",
@@ -440,6 +427,19 @@
   "nazev_mista": "Hamr",
   "osm_vzdalenost_km": 0.15,
   "geokod": "RÚIAN: K vodě 3200/6, Záběhlice, 10600 Praha 10"
+ },
+ "klub:sk hit hradec kralove z s": {
+  "klic": "klub:sk hit hradec kralove z s",
+  "poradatel": "SK HIT Hradec Králové z.s.",
+  "adresa": "Hradecká 775/115, Hradec Králové",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 50.187984,
+  "lon": 15.834938,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Hradecká 775/115, Třebeš, 50011 Hradec Králové"
  },
  "klub:sk hit hradec kralove z s|hradecka 775 115 hradec kralove": {
   "klic": "klub:sk hit hradec kralove z s|hradecka 775 115 hradec kralove",
@@ -1857,19 +1857,6 @@
   "osm_vzdalenost_km": null,
   "geokod": "RÚIAN: V Lánech 405, Skorotice, 40340 Ústí nad Labem"
  },
- "klub:tk sk kladno z s": {
-  "klic": "klub:tk sk kladno z s",
-  "poradatel": "TK SK Kladno, z.s.",
-  "adresa": "F.Kloze 294, Kladno",
-  "zdroj": "adresar",
-  "region": "Středočeský",
-  "lat": 50.137447,
-  "lon": 14.09045,
-  "presnost": "areal",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Fr. Kloze 294, 27201 Kladno"
- },
  "klub:tk sk kladno z s|f kloze 294 kladno": {
   "klic": "klub:tk sk kladno z s|f kloze 294 kladno",
   "poradatel": "TK SK Kladno, z.s.",
@@ -3036,11 +3023,11 @@
   "klic": "svaz:stredocesky:106830",
   "poradatel": "středočeský",
   "adresa": "Houštka 1259, Stará Boleslav",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Středočeský",
   "lat": 50.189356,
   "lon": 14.6915,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Houštka 1259, Stará Boleslav, 25001 Brandýs nad Labem-Stará Boleslav"
@@ -3048,15 +3035,15 @@
  "svaz:stredocesky:206830": {
   "klic": "svaz:stredocesky:206830",
   "poradatel": "středočeský",
-  "adresa": "Na Studánkách 2590, Rakovník",
-  "zdroj": "loni",
+  "adresa": "Dvouletky 1031, Zruč nad Sázavou",
+  "zdroj": "detail",
   "region": "Středočeský",
-  "lat": 50.104719,
-  "lon": 13.714258,
-  "presnost": "odhad",
-  "nazev_mista": "Tenis Centrum CAFEX, s.r.o.",
-  "osm_vzdalenost_km": 0.08,
-  "geokod": "RÚIAN: Na Studánkách 2590, Rakovník II, 26901 Rakovník"
+  "lat": 49.747156,
+  "lon": 15.089317,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.03,
+  "geokod": "RÚIAN: Dvouletky 1031, 28522 Zruč nad Sázavou"
  },
  "svaz:stredocesky:306830": {
   "klic": "svaz:stredocesky:306830",
@@ -3309,11 +3296,11 @@
   "klic": "svaz:zapadocesky:106880",
   "poradatel": "západočeský",
   "adresa": "Luční 60a, Plzeň - Roudná",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Západočeský",
   "lat": 49.755984,
   "lon": 13.391189,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tenisový klub Škoda Plzeň",
   "osm_vzdalenost_km": 0.08,
   "geokod": "RÚIAN: Luční 1253/60a, Severní Předměstí, 30100 Plzeň"
@@ -3321,51 +3308,51 @@
  "svaz:zapadocesky:306880": {
   "klic": "svaz:zapadocesky:306880",
   "poradatel": "západočeský",
-  "adresa": "Elišky Krásnohorské 378, Domažlice",
-  "zdroj": "loni",
-  "region": "Západočeský",
-  "lat": 49.437605,
-  "lon": 12.920785,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.04,
-  "geokod": "RÚIAN: Elišky Krásnohorské 378, Hořejší Předměstí, 34401 Domažlice"
- },
- "svaz:zapadocesky:406880": {
-  "klic": "svaz:zapadocesky:406880",
-  "poradatel": "západočeský",
   "adresa": "Luční 60a, Plzeň - Roudná",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Západočeský",
   "lat": 49.755984,
   "lon": 13.391189,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "Tenisový klub Škoda Plzeň",
   "osm_vzdalenost_km": 0.08,
   "geokod": "RÚIAN: Luční 1253/60a, Severní Předměstí, 30100 Plzeň"
  },
+ "svaz:zapadocesky:406880": {
+  "klic": "svaz:zapadocesky:406880",
+  "poradatel": "západočeský",
+  "adresa": "Břehnická 2499/5, Cheb",
+  "zdroj": "detail",
+  "region": "Západočeský",
+  "lat": 50.076282,
+  "lon": 12.35919,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: Břehnická 2499/5, 35002 Cheb"
+ },
  "svaz:zapadocesky:506880": {
   "klic": "svaz:zapadocesky:506880",
   "poradatel": "západočeský",
-  "adresa": "U Borského parku 2916/19, Plzeň",
-  "zdroj": "loni",
+  "adresa": "Elišky Krásnohorské 378, Domažlice",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 49.723507,
-  "lon": 13.36892,
-  "presnost": "odhad",
+  "lat": 49.437605,
+  "lon": 12.920785,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: U Borského parku 2916/19, Jižní Předměstí, 30100 Plzeň"
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "RÚIAN: Elišky Krásnohorské 378, Hořejší Předměstí, 34401 Domažlice"
  },
  "svaz:zapadocesky:606880": {
   "klic": "svaz:zapadocesky:606880",
   "poradatel": "západočeský",
   "adresa": "Břehnická 2499/5, Cheb",
-  "zdroj": "loni",
+  "zdroj": "detail",
   "region": "Západočeský",
   "lat": 50.076282,
   "lon": 12.35919,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.07,
   "geokod": "RÚIAN: Břehnická 2499/5, 35002 Cheb"
@@ -3373,15 +3360,15 @@
  "svaz:zapadocesky:706880": {
   "klic": "svaz:zapadocesky:706880",
   "poradatel": "západočeský",
-  "adresa": "Břehnická 2499/5, Cheb",
-  "zdroj": "loni",
+  "adresa": "U Borského parku 2916/19, Plzeň",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 50.076282,
-  "lon": 12.35919,
-  "presnost": "odhad",
+  "lat": 49.723507,
+  "lon": 13.36892,
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: Břehnická 2499/5, 35002 Cheb"
+  "geokod": "RÚIAN: U Borského parku 2916/19, Jižní Předměstí, 30100 Plzeň"
  },
  "svaz:zapadocesky:906076": {
   "klic": "svaz:zapadocesky:906076",
@@ -3399,28 +3386,28 @@
  "svaz:zapadocesky:906677": {
   "klic": "svaz:zapadocesky:906677",
   "poradatel": "západočeský",
-  "adresa": "Družstevní 355, Hvozdná",
-  "zdroj": "loni",
+  "adresa": "Luční 60a, Plzeň - Roudná",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 49.255583,
-  "lon": 17.758896,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.03,
-  "geokod": "RÚIAN: Družstevní 355, 76310 Hvozdná"
+  "lat": 49.755984,
+  "lon": 13.391189,
+  "presnost": "areal",
+  "nazev_mista": "Tenisový klub Škoda Plzeň",
+  "osm_vzdalenost_km": 0.08,
+  "geokod": "RÚIAN: Luční 1253/60a, Severní Předměstí, 30100 Plzeň"
  },
  "svaz:zapadocesky:906678": {
   "klic": "svaz:zapadocesky:906678",
   "poradatel": "západočeský",
-  "adresa": "Sportovní areál Vendryně 1017, Vedryně",
-  "zdroj": "loni",
+  "adresa": "Luční 60a, Plzeň - Roudná",
+  "zdroj": "detail",
   "region": "Západočeský",
-  "lat": 49.658209,
-  "lon": 18.695436,
-  "presnost": "odhad",
-  "nazev_mista": "Sportovní areál Vendryně",
-  "osm_vzdalenost_km": 0.04,
-  "geokod": "OSM: Sportovní areál Vendryně, 4682, Vendryně, okres Frýdek-Místek, Moravskoslezský kraj, 739 94, Česko"
+  "lat": 49.755984,
+  "lon": 13.391189,
+  "presnost": "areal",
+  "nazev_mista": "Tenisový klub Škoda Plzeň",
+  "osm_vzdalenost_km": 0.08,
+  "geokod": "RÚIAN: Luční 1253/60a, Severní Předměstí, 30100 Plzeň"
  },
  "svaz:zapadocesky:906704": {
   "klic": "svaz:zapadocesky:906704",

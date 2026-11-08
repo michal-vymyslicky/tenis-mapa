@@ -5,12 +5,12 @@
    "trida": "C",
    "vklad": "",
    "poradatel": "SK HIT Hradec Králové z.s.",
-   "kod_m": "106000",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "2.-3. 11. 2026 C SK HIT Hradec Králové z.s. -/- -/-"
+   "radek": "2.-3. 11. 2026 C SK HIT Hradec Králové z.s. ZRUŠENO -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -18,11 +18,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Havířov, z.s.",
    "kod_m": "106001",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 800 Kč TK Havířov, z.s. */- -/-"
+   "radek": "7.-9. 11. 2026 C 800 Kč TK Havířov, z.s. */* -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -42,11 +42,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenis Cibulka",
    "kod_m": "106004",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 D 800 Kč Tenis Cibulka */- -/-"
+   "radek": "7.-9. 11. 2026 D 800 Kč Tenis Cibulka */* -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -54,11 +54,11 @@
    "vklad": "800 Kč",
    "poradatel": "CTA Rudná",
    "kod_m": "106010",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 D 800 Kč CTA Rudná */- -/-"
+   "radek": "7.-9. 11. 2026 D 800 Kč CTA Rudná */* -/-"
   },
   {
    "datum": "7.-8. 11. 2026",
@@ -78,11 +78,11 @@
    "vklad": "900 Kč",
    "poradatel": "TJ Brno-Komín",
    "kod_m": "106002",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-8. 11. 2026 C 900 Kč TJ Brno-Komín */- -/-"
+   "radek": "7.-8. 11. 2026 C 900 Kč TJ Brno-Komín */* -/-"
   },
   {
    "datum": "7.-8. 11. 2026",
@@ -102,11 +102,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Severní Terasa",
    "kod_m": "106906",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "206906",
-   "obs_z": "*/-",
+   "obs_z": "*/*",
    "mix": false,
-   "radek": "7.-8. 11. 2026 P 800 Kč TK Severní Terasa */- */-"
+   "radek": "7.-8. 11. 2026 P 800 Kč TK Severní Terasa */* */*"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -114,11 +114,23 @@
    "vklad": "700 Kč",
    "poradatel": "Sokol Smíchov I.",
    "kod_m": "106006",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 700 Kč Sokol Smíchov I. */- -/-"
+   "radek": "7.-9. 11. 2026 C 700 Kč Sokol Smíchov I. */* -/-"
+  },
+  {
+   "datum": "7.-8. 11. 2026",
+   "trida": "C",
+   "vklad": "",
+   "poradatel": "SK HIT Hradec Králové z.s.",
+   "kod_m": "106156",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "7.-8. 11. 2026 C SK HIT Hradec Králové z.s. -/- -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -138,11 +150,11 @@
    "vklad": "900 Kč",
    "poradatel": "TK Kunštát",
    "kod_m": "106009",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 900 Kč TK Kunštát */- ZRUŠENO"
+   "radek": "7.-9. 11. 2026 C 900 Kč TK Kunštát */* ZRUŠENO"
   },
   {
    "datum": "7.-8. 11. 2026",
@@ -150,11 +162,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Chomutov",
    "kod_m": "106007",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-8. 11. 2026 C 800 Kč TK Chomutov */- -/-"
+   "radek": "7.-8. 11. 2026 C 800 Kč TK Chomutov */* -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -162,11 +174,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "106003",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "206000",
-   "obs_z": "*/-",
+   "obs_z": "*/*",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 700 Kč TK DOMYNO P4, z.s. */- */-"
+   "radek": "7.-9. 11. 2026 C 700 Kč TK DOMYNO P4, z.s. */* */*"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -3507,6 +3519,18 @@
    "radek": "9.-11. 1. 2027 E 500 Kč LTK Liberec -/- -/-"
   },
   {
+   "datum": "9.-11. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "LTC Panorama Teplice",
+   "kod_m": "",
+   "obs_m": "-/-",
+   "kod_z": "406179",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "9.-11. 1. 2027 C 800 Kč LTC Panorama Teplice -/- -/-"
+  },
+  {
    "datum": "9.-10. 1. 2027",
    "trida": "C",
    "vklad": "800 Kč",
@@ -4873,6 +4897,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "27. 2.-1. 3. 2027 C 800 Kč TK Zlín -/- -/-"
+  },
+  {
+   "datum": "27. 2.-1. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "LTC Panorama Teplice",
+   "kod_m": "306185",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "27. 2.-1. 3. 2027 C 800 Kč LTC Panorama Teplice -/- -/-"
   },
   {
    "datum": "27.-28. 2. 2027",
@@ -7095,6 +7131,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-24. 1. 2027 D 800 Kč Lokomotiva Nymburk -/- -/-"
+  },
+  {
+   "datum": "23.-25. 1. 2027",
+   "trida": "D",
+   "vklad": "800 Kč",
+   "poradatel": "LTC Panorama Teplice",
+   "kod_m": "506180",
+   "obs_m": "-/-",
+   "kod_z": "606192",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-25. 1. 2027 D 800 Kč LTC Panorama Teplice -/- -/-"
   },
   {
    "datum": "23.-24. 1. 2027",
@@ -10174,18 +10222,6 @@
    "datum": "19.-21. 12. 2026",
    "trida": "C",
    "vklad": "800 Kč",
-   "poradatel": "RAPID PLZEŇ TENIS z.s.",
-   "kod_m": "706053",
-   "obs_m": "-/-",
-   "kod_z": "806057",
-   "obs_z": "-/-",
-   "mix": false,
-   "radek": "19.-21. 12. 2026 C 800 Kč RAPID PLZEŇ TENIS z.s. -/- -/-"
-  },
-  {
-   "datum": "19.-21. 12. 2026",
-   "trida": "C",
-   "vklad": "800 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "706047",
    "obs_m": "-/-",
@@ -10193,6 +10229,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "19.-21. 12. 2026 C 800 Kč TK DOMYNO P4, z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-21. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "RAPID PLZEŇ TENIS z.s.",
+   "kod_m": "706053",
+   "obs_m": "-/-",
+   "kod_z": "806057",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-21. 12. 2026 C 800 Kč RAPID PLZEŇ TENIS z.s. -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -10979,9 +11027,9 @@
    "trida": "P",
    "vklad": "180 Kč",
    "poradatel": "severomoravský",
-   "kod_m": "",
+   "kod_m": "706610",
    "obs_m": "-/-",
-   "kod_z": "806610",
+   "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 P 180 Kč severomoravský -/- -/-"
@@ -10991,9 +11039,9 @@
    "trida": "P",
    "vklad": "180 Kč",
    "poradatel": "severomoravský",
-   "kod_m": "706610",
+   "kod_m": "",
    "obs_m": "-/-",
-   "kod_z": "",
+   "kod_z": "806610",
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 P 180 Kč severomoravský -/- -/-"
@@ -14299,6 +14347,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "16. 1. 2027 500 Kč LTK Liberec -/-"
+  },
+  {
+   "datum": "16. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "LTC Panorama Teplice",
+   "kod_m": "906768",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "16. 1. 2027 500 Kč LTC Panorama Teplice -/-"
   },
   {
    "datum": "16. 1. 2027",

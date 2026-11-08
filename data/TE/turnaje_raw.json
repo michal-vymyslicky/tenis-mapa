@@ -1716,6 +1716,22 @@
   "entry": false
  },
  {
+  "id": "9D8C8CD6-8183-4CD6-BBC1-ACA9E07269A8",
+  "nz": "TE 14 - Haifa (closed)",
+  "venue": "ITC HAIFA",
+  "city": "Haifa",
+  "country": "Israel",
+  "iso3": "ISR",
+  "od": "2026-10-31",
+  "do": "2026-11-07",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "9681C899-CC9C-4EBF-A8E7-1C0BAB59FC38",
   "nz": "X Trophy Ajuntament de Calvià",
   "venue": "PISTAS MUNICIPALES MAGALUF",
@@ -1776,22 +1792,6 @@
   "tags": [
    "Category 1",
    "12&U"
-  ],
-  "entry": false
- },
- {
-  "id": "9D8C8CD6-8183-4CD6-BBC1-ACA9E07269A8",
-  "nz": "TE 14 - Haifa (closed)",
-  "venue": "ITC HAIFA",
-  "city": "Haifa",
-  "country": "Israel",
-  "iso3": "ISR",
-  "od": "2026-10-31",
-  "do": "2026-11-08",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 2",
-   "14&U"
   ],
   "entry": false
  },
@@ -1876,34 +1876,18 @@
   "entry": false
  },
  {
-  "id": "3C314032-7ADD-43CF-9352-292306B0FF70",
-  "nz": "JC FERRERO TENNIS EUROPE U14",
-  "venue": "JC FERRERO TENNIS ACADEMY",
-  "city": "Villena",
-  "country": "Spain",
-  "iso3": "ESP",
-  "od": "2026-11-09",
-  "do": "2026-11-14",
-  "pov": "Other",
-  "tags": [
-   "Category 2",
-   "14&U"
-  ],
-  "entry": false
- },
- {
-  "id": "7145CCA6-0D64-4FDA-A917-25AE37414E79",
-  "nz": "Yokohama Open U16 - Main Draw RR to Elimination",
-  "venue": "Venus Tennis Club",
-  "city": "DRAMA",
-  "country": "Greece",
-  "iso3": "GRE",
-  "od": "2026-11-09",
+  "id": "903480F6-55DB-4501-B014-F13DD75DCC96",
+  "nz": "ROKAH 67",
+  "venue": "ITC Yafo",
+  "city": "Tel-Aviv Yafo",
+  "country": "Israel",
+  "iso3": "ISR",
+  "od": "2026-11-07",
   "do": "2026-11-14",
   "pov": "Acryllic",
   "tags": [
-   "Category 3",
-   "16&U"
+   "Category 2",
+   "14&U"
   ],
   "entry": false
  },
@@ -1914,7 +1898,7 @@
   "city": "Lleida",
   "country": "Spain",
   "iso3": "ESP",
-  "od": "2026-11-09",
+  "od": "2026-11-07",
   "do": "2026-11-15",
   "pov": "Clay",
   "tags": [
@@ -1924,15 +1908,47 @@
   "entry": false
  },
  {
-  "id": "903480F6-55DB-4501-B014-F13DD75DCC96",
-  "nz": "TE 14- TEL AVIV ROKAH ST (closed event)",
-  "venue": "ITC Yafo",
-  "city": "Tel-Aviv Yafo",
-  "country": "Israel",
-  "iso3": "ISR",
-  "od": "2026-11-09",
+  "id": "3C314032-7ADD-43CF-9352-292306B0FF70",
+  "nz": "JC FERRERO TENNIS EUROPE U14",
+  "venue": "JC FERRERO TENNIS ACADEMY",
+  "city": "Villena",
+  "country": "Spain",
+  "iso3": "ESP",
+  "od": "2026-11-07",
+  "do": "2026-11-15",
+  "pov": "Other",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "7145CCA6-0D64-4FDA-A917-25AE37414E79",
+  "nz": "Yokohama Open U16 - Main Draw RR to Elimination (Greece)",
+  "venue": "Venus Tennis Club",
+  "city": "DRAMA",
+  "country": "Greece",
+  "iso3": "GRE",
+  "od": "2026-11-07",
   "do": "2026-11-15",
   "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "FB63A060-4F70-4195-B1D7-D8E6E48B3F57",
+  "nz": "Mecholupy Indoor Open 2026 14U",
+  "venue": "TK Horni Mecholupy",
+  "city": "Prague",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2026-11-08",
+  "do": "2026-11-15",
+  "pov": "Carpet",
   "tags": [
    "Category 2",
    "14&U"
@@ -1952,22 +1968,6 @@
   "tags": [
    "Tennis Europe Festival",
    "12&U"
-  ],
-  "entry": false
- },
- {
-  "id": "FB63A060-4F70-4195-B1D7-D8E6E48B3F57",
-  "nz": "Mecholupy Indoor Open 2026 14U",
-  "venue": "TK Horni Mecholupy",
-  "city": "Prague",
-  "country": "Czechia",
-  "iso3": "CZE",
-  "od": "2026-11-10",
-  "do": "2026-11-15",
-  "pov": "Carpet",
-  "tags": [
-   "Category 2",
-   "14&U"
   ],
   "entry": false
  },
@@ -2757,6 +2757,22 @@
   "entry": false
  },
  {
+  "id": "D96125CA-3A2D-41AD-85EA-3E5D35521E21",
+  "nz": "Soul Cup",
+  "venue": "Soul Entertainment Group",
+  "city": "İSTANBUL",
+  "country": "Turkiye",
+  "iso3": "TUR",
+  "od": "2027-02-15",
+  "do": "2027-02-21",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "8D509A32-BD77-4BBC-95B5-40B2C5012251",
   "nz": "TE - 12 Ireland 1",
   "venue": "National Tennis Centre",
@@ -2864,6 +2880,22 @@
   "pov": "Acryllic",
   "tags": [
    "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "CD543636-93A7-40BF-8B4A-13A71D7D5517",
+  "nz": "AHMET ERGUDEN CUP 9",
+  "venue": "MEGASARAY TENNIS ACADEMY",
+  "city": "Antalya",
+  "country": "Turkiye",
+  "iso3": "TUR",
+  "od": "2027-02-22",
+  "do": "2027-02-28",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
    "14&U"
   ],
   "entry": false
@@ -3094,6 +3126,22 @@
   "entry": false
  },
  {
+  "id": "98574848-5C05-48CF-98DD-47522134AFBC",
+  "nz": "MATRIX OPTIMUM ISTANBUL",
+  "venue": "ISTANBUL OPTIMUM TENNIS ACADEMY",
+  "city": "İstanbul",
+  "country": "Turkiye",
+  "iso3": "TUR",
+  "od": "2027-03-08",
+  "do": "2027-03-14",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "ED4171FC-4685-4226-8E59-BE434EBB5EE1",
   "nz": "TE - 14 Ireland 2",
   "venue": "St Anne's Waterford Tennis Club",
@@ -3286,6 +3334,22 @@
   "entry": false
  },
  {
+  "id": "A28B9A3D-DDFF-4CA1-BEC7-2A5BB8967F80",
+  "nz": "Tsaghkadzor Spring Cup 1",
+  "venue": "Tsaghkadzor Main Sport Complx",
+  "city": "Tsaghkadzor",
+  "country": "Armenia",
+  "iso3": "ARM",
+  "od": "2027-03-22",
+  "do": "2027-03-28",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "42B033CF-73E8-4A72-8EEC-C46854341CA0",
   "nz": "U12 Trophy Bad Waltersdorf 2027",
   "venue": "Sportaktivpark Bad Waltersdorf",
@@ -3314,6 +3378,22 @@
   "tags": [
    "Category 2",
    "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "5CE491E0-1A0E-4528-9037-67A8EE06AB21",
+  "nz": "Aizkraukle 04",
+  "venue": "Vilar TK",
+  "city": "Aizkraukle",
+  "country": "Latvia",
+  "iso3": "LAT",
+  "od": "2027-03-29",
+  "do": "2027-04-04",
+  "pov": "Carpet",
+  "tags": [
+   "Category 2",
+   "16&U"
   ],
   "entry": false
  },
@@ -3431,6 +3511,22 @@
   "entry": false
  },
  {
+  "id": "DA71E02B-CA3E-46E0-B55D-32C7B7A82CDC",
+  "nz": "Tirana Open",
+  "venue": "National Sport Park",
+  "city": "Tirana",
+  "country": "Albania",
+  "iso3": "ALB",
+  "od": "2027-03-29",
+  "do": "2027-04-04",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "35C95DAA-F935-4B7A-9319-E451B813CFE7",
   "nz": "YASON CUP 2027",
   "venue": "TENISKI KLUB ELITE",
@@ -3527,6 +3623,22 @@
   "entry": false
  },
  {
+  "id": "8905DE6A-E52F-4797-A77D-9EE3CE7A7A31",
+  "nz": "TEJT 2 U14 \" Alibaba Open U14 2027\"",
+  "venue": "TC Humenne",
+  "city": "Humenne",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-04-05",
+  "do": "2027-04-11",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "6C0BC01F-98F7-4DBC-B065-59073621D9D0",
   "nz": "Tirana Open",
   "venue": "National Sport Park",
@@ -3570,6 +3682,22 @@
   "pov": "Clay",
   "tags": [
    "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "C68A87C8-E982-4D2A-94FD-9246E07B4082",
+  "nz": "MEDJUGORJE OPEN 14&U 2027",
+  "venue": "DODIG TENNIS CENTAR",
+  "city": "Medjugorje",
+  "country": "Bosnia and Herzegovina",
+  "iso3": "BIH",
+  "od": "2027-04-12",
+  "do": "2027-04-18",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
    "14&U"
   ],
   "entry": false
@@ -3687,6 +3815,38 @@
   "entry": false
  },
  {
+  "id": "2A0A31C6-82DF-46BB-896F-D052E761A755",
+  "nz": "O pohar mesta Rakovnik U12 I.",
+  "venue": "SK Talent 13",
+  "city": "Rakovnik",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-04-19",
+  "do": "2027-04-25",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "73D0BF3F-7FA1-4367-99EB-F2BEA46118AE",
+  "nz": "Salona Cup",
+  "venue": "Teniski klub Dalmacijacement",
+  "city": "Solin",
+  "country": "Croatia",
+  "iso3": "CRO",
+  "od": "2027-04-19",
+  "do": "2027-04-25",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "DB213495-CA4B-4C08-9BDD-75449EED06BD",
   "nz": "Siauliai Tennis Academy Cup U14",
   "venue": "Siauliai Tennis Academy",
@@ -3783,6 +3943,22 @@
   "entry": false
  },
  {
+  "id": "F4AF46C0-5899-4A3A-9EAB-4CBFA32B818B",
+  "nz": "PROKUPLJE OPEN 2027",
+  "venue": "TENNIS CLUB TOPLICANIN",
+  "city": "PROKUPLJE",
+  "country": "Serbia",
+  "iso3": "SRB",
+  "od": "2027-04-26",
+  "do": "2027-05-02",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "35332B03-F4D9-4477-81DD-EC80CA3C3DC1",
   "nz": "Szeged Open",
   "venue": "Erzsébet Ligeti Teniszközpont",
@@ -3831,6 +4007,22 @@
   "entry": false
  },
  {
+  "id": "C36A45D5-5F00-4E3E-86D7-32207035CB2D",
+  "nz": "ZENICA OPEN 16&U 2027",
+  "venue": "TENISKI KLUB CELIK",
+  "city": "Zenica",
+  "country": "Bosnia and Herzegovina",
+  "iso3": "BIH",
+  "od": "2027-04-26",
+  "do": "2027-05-02",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "621898D1-2FAA-4C67-ADC8-C43E5241245E",
   "nz": "Advantage Cup 2027",
   "venue": "BKT Advantage Bielsko-Biala",
@@ -3842,6 +4034,22 @@
   "pov": "Clay",
   "tags": [
    "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "80898EDD-AB83-4428-B082-D856E297B279",
+  "nz": "Biotehnos Series Cup U14",
+  "venue": "National Tennis Center",
+  "city": "Chisinau",
+  "country": "Moldova",
+  "iso3": "MDA",
+  "od": "2027-05-03",
+  "do": "2027-05-09",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
    "14&U"
   ],
   "entry": false
@@ -3925,6 +4133,22 @@
    "Category 2",
    "14&U",
    "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "313E102A-347C-43DD-98AA-2BBB2F231720",
+  "nz": "MOSTAR OPEN 14&U 2027",
+  "venue": "TENISKI KLUB MOSTAR",
+  "city": "Mostar",
+  "country": "Bosnia and Herzegovina",
+  "iso3": "BIH",
+  "od": "2027-05-10",
+  "do": "2027-05-16",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
   ],
   "entry": false
  },

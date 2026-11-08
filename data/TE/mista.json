@@ -1488,25 +1488,28 @@
   "adresa": "İSTANBUL, Turkiye",
   "zdroj": "te",
   "region": "Turkiye",
-  "lat": 41.006381,
-  "lon": 28.975872,
-  "presnost": "obec",
+  "lat": 41.046994,
+  "lon": 29.009313,
+  "presnost": "areal",
   "nazev_mista": "Soul Entertainment Group",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Health Club & Spa Soul"
  },
  "CYP|national tennis centre|nicosia": {
   "poradatel": "National Tennis Centre",
   "adresa": "Nicosia, Cyprus",
   "zdroj": "te",
   "region": "Cyprus",
-  "lat": 35.154246,
-  "lon": 33.351934,
-  "presnost": "areal_obec",
+  "lat": 35.146254,
+  "lon": 33.315521,
+  "presnost": "areal",
   "nazev_mista": "National Tennis Centre",
   "zeme": "cy",
-  "poznamka": "tenisový areál v obci podle OSM: Max Tennis School",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: National Tennis Center",
+  "v2": 1,
+  "osm3": 1
  },
  "SWE|gltk|goteborg": {
   "poradatel": "GLTK",
@@ -1529,7 +1532,8 @@
   "presnost": "obec",
   "nazev_mista": "CS INTARO",
   "zeme": "",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|club tennis d aro|platja d aro girona": {
   "poradatel": "Club Tennis D'Aro",
@@ -1547,24 +1551,28 @@
   "adresa": "Leszno, Poland",
   "zdroj": "te",
   "region": "Poland",
-  "lat": 51.843607,
-  "lon": 16.580423,
-  "presnost": "obec",
+  "lat": 51.833774,
+  "lon": 16.584453,
+  "presnost": "areal_obec",
   "nazev_mista": "Hala Tenisowa Akwawit",
   "zeme": "pl",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "NOR|clarksons tennis arena|oslo": {
   "poradatel": "Clarksons Tennis Arena",
   "adresa": "Oslo, Norway",
   "zdroj": "te",
   "region": "Norway",
-  "lat": 59.91333,
-  "lon": 10.73897,
-  "presnost": "obec",
+  "lat": 59.924597,
+  "lon": 10.798796,
+  "presnost": "areal",
   "nazev_mista": "Clarksons Tennis Arena",
   "zeme": "no",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Clarksons Tennisarena"
  },
  "FRA|tennis club boulogne billancourt|boulogne billancourt": {
   "poradatel": "TENNIS CLUB BOULOGNE-BILLANCOURT",
@@ -1594,13 +1602,14 @@
   "adresa": "BEOGRAD, Serbia",
   "zdroj": "te",
   "region": "Serbia",
-  "lat": 44.829653,
-  "lon": 20.451436,
-  "presnost": "areal_obec",
+  "lat": 44.784534,
+  "lon": 20.363664,
+  "presnost": "areal",
   "nazev_mista": "TENISKI KLUB CRVENA ZVEZDA",
   "zeme": "rs",
-  "poznamka": "tenisový areál v obci podle OSM: Тениски центар Новак",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Teniski klub Winner",
+  "v2": 1,
+  "osm3": 1
  },
  "EST|narva spordikeskus|narva": {
   "poradatel": "Narva Spordikeskus",
@@ -1663,24 +1672,28 @@
   "adresa": "ESCH-SUR-ALZETTE, Luxembourg",
   "zdroj": "te",
   "region": "Luxembourg",
-  "lat": 49.495963,
-  "lon": 5.985031,
-  "presnost": "obec",
+  "lat": 49.511782,
+  "lon": 5.980693,
+  "presnost": "areal",
   "nazev_mista": "National Tennis Center",
   "zeme": "lu",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Centre National de Tennis"
  },
  "LTU|siauliai tennis academy|siauliai": {
   "poradatel": "Siauliai Tennis Academy",
   "adresa": "Šiauliai, Lithuania",
   "zdroj": "te",
   "region": "Lithuania",
-  "lat": 55.934082,
-  "lon": 23.315777,
-  "presnost": "obec",
+  "lat": 55.913061,
+  "lon": 23.311934,
+  "presnost": "areal",
   "nazev_mista": "Siauliai Tennis Academy",
   "zeme": "lt",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Sporto rūmai „Šiauliai“"
  },
  "GBR|bolton arena|bolton": {
   "poradatel": "Bolton Arena",
@@ -1726,7 +1739,8 @@
   "nazev_mista": "Marcos Baghdatis Tennis Academy",
   "zeme": "cy",
   "poznamka": "tenisový areál v obci podle OSM: Smash Tennis Academy",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "NOR|stavanger tennisklubb|stavanger": {
   "poradatel": "Stavanger Tennisklubb",
@@ -1744,12 +1758,14 @@
   "adresa": "Tarbes, France",
   "zdroj": "te",
   "region": "France",
-  "lat": 43.232858,
-  "lon": 0.078102,
-  "presnost": "obec",
+  "lat": 43.227931,
+  "lon": 0.08751,
+  "presnost": "areal",
   "nazev_mista": "Tarbes Expo Pyrénées Congrès",
   "zeme": "fr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Boulodrome de Tarbes"
  },
  "CYP|herodotou tennis academy|meneou larnaka": {
   "poradatel": "Herodotou Tennis Academy",
@@ -1778,25 +1794,28 @@
   "adresa": "Borne, Netherlands",
   "zdroj": "te",
   "region": "Netherlands",
-  "lat": 52.301829,
-  "lon": 6.75024,
-  "presnost": "obec",
+  "lat": 52.300278,
+  "lon": 6.730097,
+  "presnost": "areal",
   "nazev_mista": "Racket en Fit Center Borne",
   "zeme": "nl",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Racket & Fit Center Borne"
  },
  "NED|tenniscentrum de wildenhorst|badhoevedorp": {
   "poradatel": "Tenniscentrum de Wildenhorst",
   "adresa": "Badhoevedorp, Netherlands",
   "zdroj": "te",
   "region": "Netherlands",
-  "lat": 52.341503,
-  "lon": 4.772753,
-  "presnost": "areal_obec",
+  "lat": 52.334143,
+  "lon": 4.771254,
+  "presnost": "areal",
   "nazev_mista": "Tenniscentrum de Wildenhorst",
   "zeme": "nl",
-  "poznamka": "tenisový areál v obci podle OSM: Tennis- en Padelvereniging Badhoevedorp",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: De Wildenhorst",
+  "v2": 1,
+  "osm3": 1
  },
  "ROM|tenis club bucuresti|bucharest": {
   "poradatel": "Tenis Club Bucuresti",
@@ -1819,7 +1838,8 @@
   "presnost": "obec",
   "nazev_mista": "TC Baseline",
   "zeme": "sk",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ARM|tsaghkadzor main sport complx|tsaghkadzor": {
   "poradatel": "Tsaghkadzor Main Sport Complx",
@@ -1831,7 +1851,8 @@
   "presnost": "obec",
   "nazev_mista": "Tsaghkadzor Main Sport Complx",
   "zeme": "am",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "LTU|tennis space|kaunas": {
   "poradatel": "Tennis Space",
@@ -1860,12 +1881,14 @@
   "adresa": "Svedala, Sweden",
   "zdroj": "te",
   "region": "Sweden",
-  "lat": 55.551343,
-  "lon": 13.216676,
-  "presnost": "obec",
+  "lat": 55.634206,
+  "lon": 13.215481,
+  "presnost": "areal",
   "nazev_mista": "Svedala Tennisklubb",
   "zeme": "se",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Staffanstorps Tennisklubb"
  },
  "POR|clube tenis braga|braga": {
   "poradatel": "Clube Ténis Braga",
@@ -1916,12 +1939,14 @@
   "adresa": "Rotterdam, Netherlands",
   "zdroj": "te",
   "region": "Netherlands",
-  "lat": 51.924442,
-  "lon": 4.47775,
-  "presnost": "obec",
+  "lat": 51.928437,
+  "lon": 4.53662,
+  "presnost": "areal",
   "nazev_mista": "Tennishal Victoria",
   "zeme": "nl",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Victoria Sporthal"
  },
  "POL|centrum tenisowe sobota|sobota rokietnica": {
   "poradatel": "Centrum Tenisowe Sobota",
@@ -1939,13 +1964,14 @@
   "adresa": "Sainte-Geneviève-des-Bois, France",
   "zdroj": "te",
   "region": "France",
-  "lat": 48.641794,
-  "lon": 2.337149,
-  "presnost": "areal_obec",
+  "lat": 48.62232,
+  "lon": 2.469905,
+  "presnost": "areal",
   "nazev_mista": "Comité Essonne Tennis",
   "zeme": "fr",
-  "poznamka": "tenisový areál v obci podle OSM: Stade de Tennis Guy Môquet",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Comité Départemental de Tir à l'Arc de l'Essonne",
+  "v2": 1,
+  "osm3": 1
  },
  "GER|sportpark isernhagen|isernhagen": {
   "poradatel": "Sportpark Isernhagen",
@@ -2895,6 +2921,116 @@
   "presnost": "obec",
   "nazev_mista": "Tennis Club Bitola-Bitola",
   "zeme": "mk",
+  "v2": 1
+ },
+ "TUR|megasaray tennis academy|antalya": {
+  "poradatel": "MEGASARAY TENNIS ACADEMY",
+  "adresa": "Antalya, Turkiye",
+  "zdroj": "te",
+  "region": "Turkiye",
+  "lat": 36.886573,
+  "lon": 30.703024,
+  "presnost": "obec",
+  "nazev_mista": "MEGASARAY TENNIS ACADEMY",
+  "zeme": "tr",
+  "v2": 1
+ },
+ "TUR|istanbul optimum tennis academy|istanbul": {
+  "poradatel": "ISTANBUL OPTIMUM TENNIS ACADEMY",
+  "adresa": "İstanbul, Turkiye",
+  "zdroj": "te",
+  "region": "Turkiye",
+  "lat": 41.006381,
+  "lon": 28.975872,
+  "presnost": "obec",
+  "nazev_mista": "ISTANBUL OPTIMUM TENNIS ACADEMY",
+  "zeme": "tr",
+  "v2": 1
+ },
+ "BIH|dodig tennis centar|medjugorje": {
+  "poradatel": "DODIG TENNIS CENTAR",
+  "adresa": "Medjugorje, Bosnia and Herzegovina",
+  "zdroj": "te",
+  "region": "Bosnia and Herzegovina",
+  "lat": 43.190941,
+  "lon": 17.67829,
+  "presnost": "obec",
+  "nazev_mista": "DODIG TENNIS CENTAR",
+  "zeme": "ba",
+  "v2": 1
+ },
+ "CZE|sk talent 13|rakovnik": {
+  "poradatel": "SK Talent 13",
+  "adresa": "Rakovnik, Czechia",
+  "zdroj": "te",
+  "region": "Czechia",
+  "lat": 50.104719,
+  "lon": 13.714258,
+  "presnost": "areal",
+  "nazev_mista": "SK Talent 13",
+  "zeme": "cz",
+  "poznamka": "místo podle areálu klubu v datech ČTS",
+  "v2": 1
+ },
+ "CRO|teniski klub dalmacijacement|solin": {
+  "poradatel": "Teniski klub Dalmacijacement",
+  "adresa": "Solin, Croatia",
+  "zdroj": "te",
+  "region": "Croatia",
+  "lat": 43.544291,
+  "lon": 16.485302,
+  "presnost": "obec",
+  "nazev_mista": "Teniski klub Dalmacijacement",
+  "zeme": "hr",
+  "v2": 1
+ },
+ "SRB|tennis club toplicanin|prokuplje": {
+  "poradatel": "TENNIS CLUB TOPLICANIN",
+  "adresa": "PROKUPLJE, Serbia",
+  "zdroj": "te",
+  "region": "Serbia",
+  "lat": 43.234348,
+  "lon": 21.588442,
+  "presnost": "obec",
+  "nazev_mista": "TENNIS CLUB TOPLICANIN",
+  "zeme": "rs",
+  "v2": 1
+ },
+ "BIH|teniski klub celik|zenica": {
+  "poradatel": "TENISKI KLUB CELIK",
+  "adresa": "Zenica, Bosnia and Herzegovina",
+  "zdroj": "te",
+  "region": "Bosnia and Herzegovina",
+  "lat": 44.199828,
+  "lon": 17.909301,
+  "presnost": "obec",
+  "nazev_mista": "TENISKI KLUB CELIK",
+  "zeme": "ba",
+  "v2": 1
+ },
+ "MDA|national tennis center|chisinau": {
+  "poradatel": "National Tennis Center",
+  "adresa": "Chisinau, Moldova",
+  "zdroj": "te",
+  "region": "Moldova",
+  "lat": 47.035777,
+  "lon": 28.801823,
+  "presnost": "areal_obec",
+  "nazev_mista": "National Tennis Center",
+  "zeme": "md",
+  "poznamka": "tenisový areál v obci podle OSM: Școala Sportivă Republicană Specializată de Tenis",
+  "v2": 1
+ },
+ "BIH|teniski klub mostar|mostar": {
+  "poradatel": "TENISKI KLUB MOSTAR",
+  "adresa": "Mostar, Bosnia and Herzegovina",
+  "zdroj": "te",
+  "region": "Bosnia and Herzegovina",
+  "lat": 43.343586,
+  "lon": 17.807658,
+  "presnost": "obec",
+  "nazev_mista": "TENISKI KLUB MOSTAR",
+  "zeme": "ba",
   "v2": 1
  }
 }
