@@ -131,3 +131,8 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   dál = každý 5. den (rozložené podle kódu turnaje). Výměna hráčů při stejném počtu se u blízkých turnajů projeví do druhého dne.
   Parametry `OBNOVA` v `pipeline/update.py`, datum stažení detailu `_stazeno` v `data/<S>/details.json`.
 - Zátěž: ~700 detailů denně místo ~1 950 (Z2627, 11/2026), běh ~20–25 min; první běh po změně stáhne vše (~1 h).
+
+## Opakované nasazení webu (9. 11. 2026)
+- Běh 9. 11. 2026 stáhl a uložil data v pořádku (36 min, bez 429), ale `deploy-pages` hned po nahrání nenašel artefakt
+  („No artifacts named github-pages“ – přechodná chyba GitHubu). `aktualizace.yml`: při chybě nasazení pauza 60 s a druhý pokus;
+  push změny workflow spouští rychlé nasazení (bez stahování).

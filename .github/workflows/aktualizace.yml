@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}      # ruční spuštění z karty Actions
   push:                      # nahrání nové verze webu = rychlé nasazení bez stahování dat
     branches: [main]
-    paths: ["site/**", "pipeline/**"]
+    paths: ["site/**", "pipeline/**", ".github/workflows/aktualizace.yml"]
 
 permissions:
   contents: write
@@ -52,5 +52,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
+      # Nasazení: GitHub občas hned po nahrání artefakt „nenajde“ (No artifacts named github-pages, 9. 11. 2026) –
+      # při chybě se po minutě zkusí ještě jednou, data už jsou v té chvíli uložená v repozitáři.
       - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Pauza před opakovaným nasazením
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 60
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
