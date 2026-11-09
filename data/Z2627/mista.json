@@ -2522,26 +2522,28 @@
  "svaz:praha:106800": {
   "klic": "svaz:praha:106800",
   "poradatel": "Praha",
-  "adresa": "",
-  "zdroj": "loni",
+  "adresa": "Hornoměcholupská 564, Praha 15, Horní Měcholupy",
+  "zdroj": "detail",
   "region": "Praha",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
+  "lat": 50.047494,
+  "lon": 14.548074,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Hornoměcholupská 564/105, Horní Měcholupy, 10900 Praha 10"
  },
  "svaz:praha:206800": {
   "klic": "svaz:praha:206800",
   "poradatel": "Praha",
-  "adresa": "",
-  "zdroj": "loni",
+  "adresa": "Jeremenkova 106, Praha 4",
+  "zdroj": "detail",
   "region": "Praha",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
+  "lat": 50.043895,
+  "lon": 14.433963,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: Jeremenkova 1835/106, Krč, 14000 Praha 4"
  },
  "svaz:praha:306800": {
   "klic": "svaz:praha:306800",

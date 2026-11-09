@@ -2000,13 +2000,14 @@
   "adresa": "Larissa, Greece",
   "zdroj": "te",
   "region": "Greece",
-  "lat": 39.596763,
-  "lon": 22.429559,
-  "presnost": "areal_obec",
+  "lat": 39.619863,
+  "lon": 22.442885,
+  "presnost": "areal",
   "nazev_mista": "TENNIS ICON",
   "zeme": "gr",
-  "poznamka": "tenisový areál v obci podle OSM: Tennis Hall Academy",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Icon Larissa",
+  "v2": 1,
+  "osm3": 1
  },
  "SWE|the royal tennis hall|stockholm": {
   "poradatel": "The Royal Tennis Hall",
@@ -2018,7 +2019,8 @@
   "presnost": "obec",
   "nazev_mista": "The Royal Tennis Hall",
   "zeme": "se",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "FRA|racing tennis club de roubaix|roubaix": {
   "poradatel": "Racing Tennis Club de Roubaix",
@@ -2030,7 +2032,8 @@
   "presnost": "obec",
   "nazev_mista": "Racing Tennis Club de Roubaix",
   "zeme": "fr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "IRL|st anne s waterford tennis club|waterford": {
   "poradatel": "St Anne's Waterford Tennis Club",
@@ -2053,7 +2056,8 @@
   "presnost": "obec",
   "nazev_mista": "Belfast Boat Club",
   "zeme": "ie",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "HUN|volvex tennis se|dunakeszi": {
   "poradatel": "Volvex Tennis SE",
@@ -2066,7 +2070,8 @@
   "nazev_mista": "Volvex Tennis SE",
   "zeme": "hu",
   "poznamka": "tenisový areál v obci podle OSM: Future Tennis Club",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "POR|clube de tenis do estoril|estoril": {
   "poradatel": "Clube de Ténis do Estoril",
@@ -2096,13 +2101,14 @@
   "adresa": "Bucharest, Romania",
   "zdroj": "te",
   "region": "Romania",
-  "lat": 44.486075,
-  "lon": 26.079289,
-  "presnost": "areal_obec",
+  "lat": 44.50171,
+  "lon": 26.032554,
+  "presnost": "areal",
   "nazev_mista": "Arc Pro Tenis",
   "zeme": "",
-  "poznamka": "tenisový areál v obci podle OSM: Tennis Hero",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Baza Sportivă Pro Rapid",
+  "v2": 1,
+  "osm3": 1
  },
  "GBR|wrexham tennis centre|city plas coch road wrexham": {
   "poradatel": "Wrexham Tennis Centre",
@@ -2120,12 +2126,14 @@
   "adresa": "Veli Lošinj, Croatia",
   "zdroj": "te",
   "region": "Croatia",
-  "lat": 44.521069,
-  "lon": 14.501717,
-  "presnost": "obec",
+  "lat": 44.522013,
+  "lon": 14.497715,
+  "presnost": "areal_obec",
   "nazev_mista": "Tennis Academy Ljubicic",
   "zeme": "hr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "CYP|paralimni tennis club|paralimni": {
   "poradatel": "Paralimni Tennis Club",
