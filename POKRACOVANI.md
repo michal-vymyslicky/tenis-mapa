@@ -136,3 +136,10 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
 - Běh 9. 11. 2026 stáhl a uložil data v pořádku (36 min, bez 429), ale `deploy-pages` hned po nahrání nenašel artefakt
   („No artifacts named github-pages“ – přechodná chyba GitHubu). `aktualizace.yml`: při chybě nasazení pauza 60 s a druhý pokus;
   push změny workflow spouští rychlé nasazení (bez stahování).
+
+## Samostatné nasazení webu (10. 11. 2026)
+- 10. 11. 2026 běh doběhl „úspěšně“ včetně deploy-pages, ale web zůstal na datech z 9. 11.: běh nasazoval verzi označenou commitem,
+  ze kterého vyšel (e11cf8c), a ta už byla nasazená pushem → GitHub Pages nasazení tiše přeskočil. Stejně by dopadl každý den po pushi.
+- Nově `nasazeni.yml` (workflow_run po „Denní aktualizace turnajů“ / „Doplnění sezóny“, i ručně Run workflow): checkout main =
+  nový commit s daty → upload → deploy (při chybě po 60 s druhý pokus). `aktualizace.yml` nasazuje sám už jen při push; `doplneni.yml` vůbec.
+- Kontrola, co web opravdu servíruje: `curl -sI https://turnajovamapa.cz/data/sezony.json` (last-modified) a pole `aktualizace`.

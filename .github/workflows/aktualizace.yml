@@ -48,18 +48,15 @@ jobs:
           git diff --cached --quiet || git commit -m "Data turnajů $(date +%F)"
           git pull --rebase --autostash || true
           git push
+      # Nasazení webu: tady jen při push (nová verze webu). Po denní aktualizaci nasazuje samostatný workflow
+      # nasazeni.yml (workflow_run) z NOVÉHO commitu s daty – nasazení ze stejného commitu, který už byl nasazen
+      # (checkout běhu = předchozí commit), GitHub Pages tiše přeskočí (10. 11. 2026 web zůstal na datech z 9. 11.).
       - uses: actions/configure-pages@v5
+        if: github.event_name == 'push'
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'push'
         with:
           path: site
-      # Nasazení: GitHub občas hned po nahrání artefakt „nenajde“ (No artifacts named github-pages, 9. 11. 2026) –
-      # při chybě se po minutě zkusí ještě jednou, data už jsou v té chvíli uložená v repozitáři.
       - id: deploy
-        uses: actions/deploy-pages@v4
-        continue-on-error: true
-      - name: Pauza před opakovaným nasazením
-        if: steps.deploy.outcome == 'failure'
-        run: sleep 60
-      - id: deploy2
-        if: steps.deploy.outcome == 'failure'
+        if: github.event_name == 'push'
         uses: actions/deploy-pages@v4

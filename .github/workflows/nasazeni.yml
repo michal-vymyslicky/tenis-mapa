@@ -1,0 +1,51 @@
+name: Nasazení webu
+
+# Spustí se po doběhnutí denní aktualizace nebo doplnění sezóny a nasadí web z aktuálního stavu větve main
+# (tj. z nového commitu s daty – GITHUB_SHA je u workflow_run poslední commit výchozí větve).
+on:
+  workflow_run:
+    workflows: ["Denní aktualizace turnajů", "Doplnění sezóny (archiv)"]
+    types: [completed]
+  workflow_dispatch: {}      # ruční nasazení z karty Actions
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: nasazeni
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # po push nasazuje přímo aktualizace.yml; tady jen po plánovaném/ručním běhu (i neúspěšném – uložená data se nasadí)
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.event != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Knihovny Leaflet (pokud v repozitáři chybí)
+        run: |
+          mkdir -p site/vendor/images
+          [ -f site/vendor/leaflet.js ] || for f in leaflet.js leaflet.css images/marker-icon.png; do curl -sfL "https://unpkg.com/leaflet@1.9.4/dist/$f" -o "site/vendor/$f"; done
+          [ -f site/vendor/leaflet.markercluster.js ] || for f in leaflet.markercluster.js MarkerCluster.css MarkerCluster.Default.css; do curl -sfL "https://unpkg.com/leaflet.markercluster@1.5.3/dist/$f" -o "site/vendor/$f"; done
+      - name: Kontrola dat
+        run: |
+          git log -1 --format="nasazuji commit %h (%s)"
+          python3 -c "import json; print('aktualizace dat:', json.load(open('site/data/sezony.json'))['aktualizace'])"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Pauza před opakovaným nasazením
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 60
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4

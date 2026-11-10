@@ -46,9 +46,4 @@ jobs:
           git diff --cached --quiet || git commit -m "Doplnění sezóny ${{ github.event.inputs.sezona }}"
           git pull --rebase --autostash || true
           git push
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - id: deploy
-        uses: actions/deploy-pages@v4
+      # nasazení webu provede nasazeni.yml (workflow_run) z nového commitu s daty
