@@ -1879,7 +1879,7 @@
   "id": "903480F6-55DB-4501-B014-F13DD75DCC96",
   "nz": "ROKAH 67",
   "venue": "ITC Yafo",
-  "city": "Tel-Aviv Yafo",
+  "city": "Tel-Aviv",
   "country": "Israel",
   "iso3": "ISR",
   "od": "2026-11-07",
@@ -1964,7 +1964,7 @@
   "iso3": "ESP",
   "od": "2026-11-10",
   "do": "2026-11-15",
-  "pov": "Other",
+  "pov": "Acryllic",
   "tags": [
    "Tennis Europe Festival",
    "12&U"
@@ -2629,22 +2629,6 @@
   "entry": false
  },
  {
-  "id": "F2D89908-A3E1-4932-B6F4-D43D59611CED",
-  "nz": "Lexus Junior International Liverpool",
-  "venue": "Liverpool Tennis Centre - Main Draw only Wirral Tennis Centre - Qualifying only",
-  "city": "Main Draw - Wavertree Sports Park, Wellington Road",
-  "country": "Great Britain",
-  "iso3": "GBR",
-  "od": "2027-02-08",
-  "do": "2027-02-14",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 3",
-   "14&U"
-  ],
-  "entry": false
- },
- {
   "id": "CE77AE3A-A2BF-41A5-8449-04408A254FE7",
   "nz": "Siauliai Open by Toyota U16",
   "venue": "Siauliai Tennis Academy",
@@ -2668,6 +2652,22 @@
   "country": "Ireland",
   "iso3": "IRL",
   "od": "2027-02-08",
+  "do": "2027-02-14",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "F2D89908-A3E1-4932-B6F4-D43D59611CED",
+  "nz": "Lexus Junior International Liverpool",
+  "venue": "Liverpool Tennis Centre - Main Draw only Bidston Sports Centre - Qualifying only",
+  "city": "Main Draw - Wavertree Sports Park, Wellington Road",
+  "country": "Great Britain",
+  "iso3": "GBR",
+  "od": "2027-02-09",
   "do": "2027-02-14",
   "pov": "Acryllic",
   "tags": [
@@ -3334,22 +3334,6 @@
   "entry": false
  },
  {
-  "id": "A28B9A3D-DDFF-4CA1-BEC7-2A5BB8967F80",
-  "nz": "Tsaghkadzor Spring Cup 1",
-  "venue": "Tsaghkadzor Main Sport Complx",
-  "city": "Tsaghkadzor",
-  "country": "Armenia",
-  "iso3": "ARM",
-  "od": "2027-03-22",
-  "do": "2027-03-28",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 2",
-   "12&U"
-  ],
-  "entry": false
- },
- {
   "id": "42B033CF-73E8-4A72-8EEC-C46854341CA0",
   "nz": "U12 Trophy Bad Waltersdorf 2027",
   "venue": "Sportaktivpark Bad Waltersdorf",
@@ -3575,6 +3559,22 @@
   "entry": false
  },
  {
+  "id": "84C2F9B8-A6AC-4492-81D4-F50BEE36349D",
+  "nz": "Lexus Junior International Wrexham",
+  "venue": "Wrexham Tennis Centre",
+  "city": "Plas Coch Road. Wrexham",
+  "country": "Great Britain",
+  "iso3": "GBR",
+  "od": "2027-04-05",
+  "do": "2027-04-11",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "7ED847CE-BE43-42F2-A48C-4486EA299DB6",
   "nz": "PECIN MEMORIJAL 2027",
   "venue": "TENISKI KLUB DINAMO",
@@ -3735,12 +3735,12 @@
   "entry": false
  },
  {
-  "id": "46CE6A64-AA7C-4AA4-B6F6-15C26FEC4080",
-  "nz": "TEJT 2 U14 \" Trnava Cup U14 2027\"",
-  "venue": "TC Empire",
-  "city": "Trnava",
-  "country": "Slovakia",
-  "iso3": "SVK",
+  "id": "C6777620-22B2-447D-A53A-BD7327FDB222",
+  "nz": "Vinkovci Open",
+  "venue": "Teniski klub Vinkovci",
+  "city": "Vinkovci",
+  "country": "Croatia",
+  "iso3": "CRO",
   "od": "2027-04-12",
   "do": "2027-04-18",
   "pov": "Clay",
@@ -3751,13 +3751,13 @@
   "entry": false
  },
  {
-  "id": "C6777620-22B2-447D-A53A-BD7327FDB222",
-  "nz": "Vinkovci Open",
-  "venue": "Teniski klub Vinkovci",
-  "city": "Vinkovci",
-  "country": "Croatia",
-  "iso3": "CRO",
-  "od": "2027-04-12",
+  "id": "46CE6A64-AA7C-4AA4-B6F6-15C26FEC4080",
+  "nz": "TEJT 2 U14 \" Trnava Cup U14 2027\"",
+  "venue": "TC Empire",
+  "city": "Trnava",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-04-13",
   "do": "2027-04-18",
   "pov": "Clay",
   "tags": [
@@ -4828,6 +4828,22 @@
   "entry": false
  },
  {
+  "id": "C4E972C6-A5E4-43A2-BF0F-7C05B85B9CF9",
+  "nz": "TE - 14 Ireland 4",
+  "venue": "National Tennis Centre",
+  "city": "Dublin 9",
+  "country": "Ireland",
+  "iso3": "IRL",
+  "od": "2027-06-21",
+  "do": "2027-06-27",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "C8D49EBB-CA71-43CA-93B4-0AC91E1E8B3E",
   "nz": "Telavi Open 2027",
   "venue": "Tennis Club \"Telavi\"",
@@ -4887,6 +4903,102 @@
   "pov": "Clay",
   "tags": [
    "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "BF520D46-8F85-4F75-B056-AC29C32F6F60",
+  "nz": "28th Tallinn Open",
+  "venue": "Tondiraba Tennisekeskus",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "iso3": "EST",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Artificial Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "ABF4FC13-2418-4684-8B58-592159E82247",
+  "nz": "BATD Cup U16 Waterloo Tennis",
+  "venue": "Waterloo Tennis",
+  "city": "Waterloo",
+  "country": "Belgium",
+  "iso3": "BEL",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "9FC49CD4-E335-4A3E-9155-5D4C1EC5A248",
+  "nz": "Montreux U14",
+  "venue": "Montreux Tennis Club",
+  "city": "Montreux",
+  "country": "Switzerland",
+  "iso3": "SUI",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Artificial Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "9CD2A37D-0D1D-42CF-A9BD-B4D310F4FF2B",
+  "nz": "TE - 14 Ireland 5",
+  "venue": "National Tennis Centre",
+  "city": "Dublin 9",
+  "country": "Ireland",
+  "iso3": "IRL",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "B5BB1A25-C1F7-4326-AA5B-7DFF6933BEB7",
+  "nz": "Torneo U16 - Biella",
+  "venue": "I Faggi - Sport Wellness & Friends",
+  "city": "Biella",
+  "country": "Italy",
+  "iso3": "ITA",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "9F6123F1-8A97-462B-ADDA-D267254F2698",
+  "nz": "Aizkraukle 06",
+  "venue": "Vilar TK",
+  "city": "Aizkraukle",
+  "country": "Latvia",
+  "iso3": "LAT",
+  "od": "2027-07-05",
+  "do": "2027-07-11",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
    "14&U"
   ],
   "entry": false

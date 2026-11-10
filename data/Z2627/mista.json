@@ -194,6 +194,19 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Pod plynojemem č.ev. 164, Karlín, 18600 Praha 8"
  },
+ "klub:ltc domazlice|elisky krasnohorske 378 domazlice": {
+  "klic": "klub:ltc domazlice|elisky krasnohorske 378 domazlice",
+  "poradatel": "LTC Domažlice",
+  "adresa": "Elišky Krásnohorské 378, Domažlice",
+  "zdroj": "detail",
+  "region": "Západočeský",
+  "lat": 49.437605,
+  "lon": 12.920785,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "RÚIAN: Elišky Krásnohorské 378, Hořejší Předměstí, 34401 Domažlice"
+ },
  "klub:ltc houstka": {
   "klic": "klub:ltc houstka",
   "poradatel": "LTC Houštka",
@@ -323,6 +336,19 @@
   "nazev_mista": "Sportovní klub tenis Frýdlant nad Ostravicí",
   "osm_vzdalenost_km": 0.2,
   "geokod": "RÚIAN: Sportovní 1530, Frýdlant, 73911 Frýdlant nad Ostravicí"
+ },
+ "klub:pliskova tennis academy ricany": {
+  "klic": "klub:pliskova tennis academy ricany",
+  "poradatel": "Pliskova Tennis Academy-Říčany",
+  "adresa": "V Chobotě 2112, Říčany",
+  "zdroj": "adresar",
+  "region": "Středočeský",
+  "lat": 49.981923,
+  "lon": 14.658103,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: V Chobotě 2112/21, 25101 Říčany"
  },
  "klub:pliskova tennis academy ricany|v chobote 2112 ricany": {
   "klic": "klub:pliskova tennis academy ricany|v chobote 2112 ricany",
@@ -2142,6 +2168,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "RÚIAN: Slezská 2255/5, Pod Bezručovým vrchem, 79401 Krnov"
+ },
+ "klub:tsm sokol vysocany z s": {
+  "klic": "klub:tsm sokol vysocany z s",
+  "poradatel": "TSM Sokol Vysočany z.s.",
+  "adresa": "Novoškolská 696/2, Praha 9",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.10882,
+  "lon": 14.505273,
+  "presnost": "areal",
+  "nazev_mista": "TSM Sokol Vysočany",
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "RÚIAN: Novoškolská 696/2, Vysočany, 19000 Praha 9"
  },
  "klub:tsm sokol vysocany z s|novoskolska 696 2 praha 9": {
   "klic": "klub:tsm sokol vysocany z s|novoskolska 696 2 praha 9",

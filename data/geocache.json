@@ -32776,5 +32776,88 @@
    "addresstype": "city"
   }
  ],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+Mostar": []
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+Mostar": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=ITC+Yafo%2C+Tel-Aviv": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=Tel-Aviv": [
+  {
+   "name": "Tel Aviv",
+   "display_name": "Tel Aviv, נפת תל אביב, Telavivský distrikt, Izrael",
+   "lat": "32.0852997",
+   "lon": "34.7818064",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=tennis+Tel-Aviv": [
+  {
+   "name": "המרכז לטניס בישראל - רמת השרון",
+   "display_name": "המרכז לטניס בישראל - רמת השרון, 5, שיכון צבא קבע, רמת השרון, נפת תל אביב, Telavivský distrikt, 4726529, Izrael",
+   "lat": "32.1305336",
+   "lon": "34.8396846",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Liverpool+Tennis+Centre+-+Main+Draw+only+Bidston+Sports+Centre+-+Qualifying+only%2C+Main+Draw+-+Wavertree+Sports+Park%2C+Wellington+Road": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Liverpool+Tennis+Centre+-+Main+Draw+only+Bidston+Sports+Centre+-+Qualifying+only": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Wrexham+Tennis+Centre%2C+Plas+Coch+Road.+Wrexham": [
+  {
+   "name": "Wrexham Tennis Centre",
+   "display_name": "Wrexham Tennis Centre, Plas Coch Road, Plas Coch, Rhosddu, Stansty, Wrexham, Wales, LL11 2BW, Spojené království",
+   "lat": "53.0562919",
+   "lon": "-3.0040012",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=be&format=jsonv2&limit=1&q=Waterloo+Tennis%2C+Waterloo": [
+  {
+   "name": "Waterloo Tennis",
+   "display_name": "Waterloo Tennis, 5b, Boulevard Henri Rolin, Petit Paris, Fond Vandenbosch, Waterloo, Nivelles, Brabant wallon, Wallonie, 1410, Belgie",
+   "lat": "50.7105477",
+   "lon": "4.3995276",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=Montreux+Tennis+Club%2C+Montreux": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=Montreux+Tennis+Club": [
+  {
+   "name": "Café Restaurant Tennis Club",
+   "display_name": "Café Restaurant Tennis Club, Sentier des Tennis, Territet, Montreux, District de la Riviera-Pays-d'Enhaut, Vaud, 1820, Švýcarsko",
+   "lat": "46.4251763",
+   "lon": "6.9233385",
+   "category": "amenity",
+   "type": "cafe",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=I+Faggi+-+Sport+Wellness+%26+Friends%2C+Biella": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=I+Faggi+-+Sport+Wellness+%26+Friends": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Biella": [
+  {
+   "name": "Biella",
+   "display_name": "Biella, Piemont, Itálie",
+   "lat": "45.5669538",
+   "lon": "8.0869120",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "county"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=tennis+Biella": [
+  {
+   "name": "Campi tennis",
+   "display_name": "Campi tennis, Via Garibaldi, Cerrione, Biella, Piemont, 13882, Itálie",
+   "lat": "45.4694938",
+   "lon": "8.0674421",
+   "category": "building",
+   "type": "yes",
+   "addresstype": "building"
+  }
+ ]
 }

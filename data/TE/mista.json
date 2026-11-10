@@ -2156,7 +2156,8 @@
   "presnost": "obec",
   "nazev_mista": "TENISKI KLUB ELITE",
   "zeme": "rs",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "POR|complexo de tenis da maia|maia": {
   "poradatel": "COMPLEXO DE TENIS DA MAIA",
@@ -2174,24 +2175,28 @@
   "adresa": "Bistrita, Romania",
   "zdroj": "te",
   "region": "Romania",
-  "lat": 47.132701,
-  "lon": 24.496395,
-  "presnost": "obec",
+  "lat": 47.133317,
+  "lon": 24.503293,
+  "presnost": "areal",
   "nazev_mista": "GS Tennis Club Bistrita",
   "zeme": "",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Sala Polivalentă Bistrița"
  },
  "SRB|teniski klub dinamo|pancevo": {
   "poradatel": "TENISKI KLUB DINAMO",
   "adresa": "PANCEVO, Serbia",
   "zdroj": "te",
   "region": "Serbia",
-  "lat": 44.870569,
-  "lon": 20.639964,
-  "presnost": "obec",
+  "lat": 44.865778,
+  "lon": 20.647575,
+  "presnost": "areal",
   "nazev_mista": "TENISKI KLUB DINAMO",
   "zeme": "rs",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Teniski teren"
  },
  "CYP|eurobank masters tennis academy|nicosia": {
   "poradatel": "Eurobank Masters Tennis Academy",
@@ -2204,7 +2209,8 @@
   "nazev_mista": "Eurobank Masters Tennis Academy",
   "zeme": "cy",
   "poznamka": "tenisový areál v obci podle OSM: Max Tennis School",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|club tennis torello|torello": {
   "poradatel": "CLUB TENNIS TORELLÓ",
@@ -2228,7 +2234,8 @@
   "nazev_mista": "TENNIS CLUB DJUKIC",
   "zeme": "rs",
   "poznamka": "tenisový areál v obci podle OSM: Тениски центар Новак",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "HUN|soroksari tenisz tanoda|budapest": {
   "poradatel": "Soroksari Tenisz Tanoda",
@@ -2246,13 +2253,14 @@
   "adresa": "Trnava, Slovakia",
   "zdroj": "te",
   "region": "Slovakia",
-  "lat": 48.385171,
-  "lon": 17.588361,
-  "presnost": "areal_obec",
+  "lat": 48.387289,
+  "lon": 17.586514,
+  "presnost": "areal",
   "nazev_mista": "TC Empire",
   "zeme": "sk",
-  "poznamka": "tenisový areál v obci podle OSM: Football tennis field Slávia",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: EMPIRE Tennis Academy",
+  "v2": 1,
+  "osm3": 1
  },
  "ESP|club tennis vic|gurb barcelona": {
   "poradatel": "CLUB TENNIS VIC",
@@ -2275,7 +2283,8 @@
   "presnost": "obec",
   "nazev_mista": "Tenis Club Bellevue",
   "zeme": "",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "CYP|premier tennis club|limassol": {
   "poradatel": "Premier Tennis Club",
@@ -3039,6 +3048,79 @@
   "presnost": "obec",
   "nazev_mista": "TENISKI KLUB MOSTAR",
   "zeme": "ba",
+  "v2": 1
+ },
+ "ISR|itc yafo|tel aviv": {
+  "poradatel": "ITC Yafo",
+  "adresa": "Tel-Aviv, Israel",
+  "zdroj": "te",
+  "region": "Israel",
+  "lat": 32.130534,
+  "lon": 34.839685,
+  "presnost": "areal_obec",
+  "nazev_mista": "ITC Yafo",
+  "zeme": "il",
+  "poznamka": "tenisový areál v obci podle OSM: המרכז לטניס בישראל - רמת השרון",
+  "v2": 1
+ },
+ "GBR|liverpool tennis centre main draw only bidston sports centre qualifying only|main draw wavertree sports park wellington road": {
+  "poradatel": "Liverpool Tennis Centre - Main Draw only Bidston Sports Centre - Qualifying only",
+  "adresa": "Main Draw - Wavertree Sports Park, Wellington Road, Great Britain",
+  "zdroj": "te",
+  "region": "Great Britain",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "Liverpool Tennis Centre - Main Draw only Bidston Sports Centre - Qualifying only",
+  "zeme": "gb",
+  "v2": 1
+ },
+ "GBR|wrexham tennis centre|plas coch road wrexham": {
+  "poradatel": "Wrexham Tennis Centre",
+  "adresa": "Plas Coch Road. Wrexham, Great Britain",
+  "zdroj": "te",
+  "region": "Great Britain",
+  "lat": 53.056292,
+  "lon": -3.004001,
+  "presnost": "areal",
+  "nazev_mista": "Wrexham Tennis Centre",
+  "zeme": "gb",
+  "v2": 1
+ },
+ "BEL|waterloo tennis|waterloo": {
+  "poradatel": "Waterloo Tennis",
+  "adresa": "Waterloo, Belgium",
+  "zdroj": "te",
+  "region": "Belgium",
+  "lat": 50.710548,
+  "lon": 4.399528,
+  "presnost": "areal",
+  "nazev_mista": "Waterloo Tennis",
+  "zeme": "be",
+  "v2": 1
+ },
+ "SUI|montreux tennis club|montreux": {
+  "poradatel": "Montreux Tennis Club",
+  "adresa": "Montreux, Switzerland",
+  "zdroj": "te",
+  "region": "Switzerland",
+  "lat": 46.425176,
+  "lon": 6.923338,
+  "presnost": "areal",
+  "nazev_mista": "Montreux Tennis Club",
+  "zeme": "ch",
+  "v2": 1
+ },
+ "ITA|i faggi sport wellness friends|biella": {
+  "poradatel": "I Faggi - Sport Wellness & Friends",
+  "adresa": "Biella, Italy",
+  "zdroj": "te",
+  "region": "Italy",
+  "lat": 45.566954,
+  "lon": 8.086912,
+  "presnost": "obec",
+  "nazev_mista": "I Faggi - Sport Wellness & Friends",
+  "zeme": "it",
   "v2": 1
  }
 }
