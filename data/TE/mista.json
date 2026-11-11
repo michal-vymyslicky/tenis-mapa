@@ -2325,12 +2325,14 @@
   "adresa": "Kiskunfélegyháza, Hungary",
   "zdroj": "te",
   "region": "Hungary",
-  "lat": 46.711438,
-  "lon": 19.850165,
-  "presnost": "obec",
+  "lat": 46.709068,
+  "lon": 19.836137,
+  "presnost": "areal",
   "nazev_mista": "Kiskunfélegyházi Városi Tenisz Klub",
   "zeme": "hu",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Városi Sportcsarnok"
  },
  "HUN|erzsebet ligeti teniszkozpont|szeged": {
   "poradatel": "Erzsébet Ligeti Teniszközpont",
@@ -2348,36 +2350,42 @@
   "adresa": "Maglie, Italy",
   "zdroj": "te",
   "region": "Italy",
-  "lat": 40.118463,
-  "lon": 18.298853,
-  "presnost": "obec",
+  "lat": 40.123289,
+  "lon": 18.215084,
+  "presnost": "areal",
   "nazev_mista": "Circolo Tennis Maglie",
   "zeme": "it",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Circolo Tennis Cutrofiano"
  },
  "POL|bkt advantage bielsko biala|bielsko biaa": {
   "poradatel": "BKT Advantage Bielsko-Biala",
   "adresa": "Bielsko-Biała, Poland",
   "zdroj": "te",
   "region": "Poland",
-  "lat": 49.812078,
-  "lon": 19.029199,
-  "presnost": "obec",
+  "lat": 49.817865,
+  "lon": 19.046361,
+  "presnost": "areal",
   "nazev_mista": "BKT Advantage Bielsko-Biala",
   "zeme": "pl",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Feniks Bielsko-Biała"
  },
  "NOR|holmenkollen tennisklubb|oslo": {
   "poradatel": "Holmenkollen Tennisklubb",
   "adresa": "Oslo, Norway",
   "zdroj": "te",
   "region": "Norway",
-  "lat": 59.91333,
-  "lon": 10.73897,
-  "presnost": "obec",
+  "lat": 59.924109,
+  "lon": 10.692843,
+  "presnost": "areal",
   "nazev_mista": "Holmenkollen Tennisklubb",
   "zeme": "no",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Oslo tennisklubb"
  },
  "FRA|as passage tennis|le passage": {
   "poradatel": "AS Passage Tennis",
@@ -2389,7 +2397,8 @@
   "presnost": "obec",
   "nazev_mista": "AS Passage Tennis",
   "zeme": "fr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|tennis club pavia|pavia": {
   "poradatel": "Tennis Club Pavia",
@@ -2407,12 +2416,14 @@
   "adresa": "MARIBOR, Slovenia",
   "zdroj": "te",
   "region": "Slovenia",
-  "lat": 46.557644,
-  "lon": 15.645585,
-  "presnost": "obec",
+  "lat": 46.563731,
+  "lon": 15.645423,
+  "presnost": "areal",
   "nazev_mista": "ZTK Maribor",
   "zeme": "si",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Športno društvo Center Maribor"
  },
  "HUN|open tennis valley|mogyorod": {
   "poradatel": "Open Tennis Valley",
@@ -2424,7 +2435,8 @@
   "presnost": "obec",
   "nazev_mista": "Open Tennis Valley",
   "zeme": "hu",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ROM|cs ceramus|campulung arges": {
   "poradatel": "CS Ceramus",
@@ -2453,24 +2465,28 @@
   "adresa": "Zabrze, Poland",
   "zdroj": "te",
   "region": "Poland",
-  "lat": 50.314281,
-  "lon": 18.781576,
-  "presnost": "obec",
+  "lat": 50.297618,
+  "lon": 18.765204,
+  "presnost": "areal",
   "nazev_mista": "Akademia Tenisowa Zabrze",
   "zeme": "pl",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Klub tenisowy Zabrze"
  },
  "SLO|teniski klub luka koper|koper": {
   "poradatel": "Teniški klub Luka Koper",
   "adresa": "Koper, Slovenia",
   "zdroj": "te",
   "region": "Slovenia",
-  "lat": 45.547986,
-  "lon": 13.730478,
-  "presnost": "obec",
+  "lat": 45.547637,
+  "lon": 13.734419,
+  "presnost": "areal",
   "nazev_mista": "Teniški klub Luka Koper",
   "zeme": "si",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Gimnazija Koper -  telovadnica"
  },
  "HUN|alfa tenisziskola|budapest": {
   "poradatel": "Alfa Tenisziskola",
@@ -2483,20 +2499,22 @@
   "nazev_mista": "Alfa Tenisziskola",
   "zeme": "hu",
   "poznamka": "tenisový areál v obci podle OSM: Mártonhegyi Tennis Club",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "FRA|all in academy cote d azur|villeneuve loubet": {
   "poradatel": "ALL IN ACADEMY CÔTE D'AZUR",
   "adresa": "Villeneuve-Loubet, France",
   "zdroj": "te",
   "region": "France",
-  "lat": 43.658588,
-  "lon": 7.0944,
-  "presnost": "areal_obec",
+  "lat": 43.649276,
+  "lon": 7.145364,
+  "presnost": "areal",
   "nazev_mista": "ALL IN ACADEMY CÔTE D'AZUR",
   "zeme": "fr",
-  "poznamka": "tenisový areál v obci podle OSM: All in Tennis Nice",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Hippodrome de la Côte d'Azur",
+  "v2": 1,
+  "osm3": 1
  },
  "GRE|niki patras tennis club|patra": {
   "poradatel": "Niki Patras Tennis Club",
@@ -2514,25 +2532,28 @@
   "adresa": "Szczecin, Poland",
   "zdroj": "te",
   "region": "Poland",
-  "lat": 53.429811,
-  "lon": 14.592868,
-  "presnost": "obec",
+  "lat": 53.439101,
+  "lon": 14.548378,
+  "presnost": "areal",
   "nazev_mista": "Szczeciński Klub Tenisowy",
   "zeme": "pl",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Szczeciński Dom Sportu"
  },
  "EST|forus spordikeskus nomme|tallinn": {
   "poradatel": "Forus Spordikeskus Nõmme",
   "adresa": "Tallinn, Estonia",
   "zdroj": "te",
   "region": "Estonia",
-  "lat": 59.453208,
-  "lon": 24.695673,
-  "presnost": "areal_obec",
+  "lat": 59.442317,
+  "lon": 24.707784,
+  "presnost": "areal",
   "nazev_mista": "Forus Spordikeskus Nõmme",
   "zeme": "ee",
-  "poznamka": "tenisový areál v obci podle OSM: SK Pinksi Keskus",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Sõle Spordikeskus",
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|circolo tennis correggio|correggio": {
   "poradatel": "Circolo Tennis Correggio",
@@ -2556,7 +2577,8 @@
   "nazev_mista": "Tennis Profi",
   "zeme": "",
   "poznamka": "tenisový areál v obci podle OSM: Tennis Club Pro",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "SLO|teniski klub celje|celje": {
   "poradatel": "Teniški klub Celje",
@@ -3121,6 +3143,92 @@
   "presnost": "obec",
   "nazev_mista": "I Faggi - Sport Wellness & Friends",
   "zeme": "it",
+  "v2": 1
+ },
+ "ISR|itc ramat hasharon|ramat hasharon": {
+  "poradatel": "ITC Ramat Hasharon",
+  "adresa": "Ramat Hasharon, Israel",
+  "zdroj": "te",
+  "region": "Israel",
+  "lat": 32.130534,
+  "lon": 34.839685,
+  "presnost": "areal_obec",
+  "nazev_mista": "ITC Ramat Hasharon",
+  "zeme": "il",
+  "poznamka": "tenisový areál v obci podle OSM: המרכז לטניס בישראל - רמת השרון",
+  "v2": 1
+ },
+ "SVK|ntc kosice|kosice": {
+  "poradatel": "NTC Kosice",
+  "adresa": "Kosice, Slovakia",
+  "zdroj": "te",
+  "region": "Slovakia",
+  "lat": 48.709542,
+  "lon": 21.227249,
+  "presnost": "areal",
+  "nazev_mista": "NTC Kosice",
+  "zeme": "sk",
+  "v2": 1
+ },
+ "SVK|tk kupele|piestany": {
+  "poradatel": "TK Kupele",
+  "adresa": "Piestany, Slovakia",
+  "zdroj": "te",
+  "region": "Slovakia",
+  "lat": 48.589525,
+  "lon": 17.821385,
+  "presnost": "obec",
+  "nazev_mista": "TK Kupele",
+  "zeme": "sk",
+  "v2": 1
+ },
+ "ROM|centrul national de tenis|bucharest": {
+  "poradatel": "Centrul National de Tenis",
+  "adresa": "Bucharest, Romania",
+  "zdroj": "te",
+  "region": "Romania",
+  "lat": 44.439667,
+  "lon": 26.152247,
+  "presnost": "areal",
+  "nazev_mista": "Centrul National de Tenis",
+  "zeme": "",
+  "v2": 1
+ },
+ "ISR|raanana tennis center|raanana": {
+  "poradatel": "Raanana Tennis Center",
+  "adresa": "Raanana, Israel",
+  "zdroj": "te",
+  "region": "Israel",
+  "lat": 32.1952,
+  "lon": 34.84861,
+  "presnost": "areal",
+  "nazev_mista": "Raanana Tennis Center",
+  "zeme": "il",
+  "v2": 1
+ },
+ "ISR|rokach tennis club 67|tel aviv yafo": {
+  "poradatel": "Rokach Tennis Club 67",
+  "adresa": "Tel-Aviv Yafo, Israel",
+  "zdroj": "te",
+  "region": "Israel",
+  "lat": 32.097165,
+  "lon": 34.780133,
+  "presnost": "areal_obec",
+  "nazev_mista": "Rokach Tennis Club 67",
+  "zeme": "il",
+  "poznamka": "tenisový areál v obci podle OSM: האקדמיה לטניס",
+  "v2": 1
+ },
+ "AUT|tennishalle bludenz|bludenz": {
+  "poradatel": "Tennishalle Bludenz",
+  "adresa": "Bludenz, Austria",
+  "zdroj": "te",
+  "region": "Austria",
+  "lat": 47.154681,
+  "lon": 9.83212,
+  "presnost": "areal",
+  "nazev_mista": "Tennishalle Bludenz",
+  "zeme": "at",
   "v2": 1
  }
 }

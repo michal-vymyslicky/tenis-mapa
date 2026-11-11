@@ -2613,6 +2613,22 @@
   "entry": false
  },
  {
+  "id": "EA66A100-1864-4415-8090-B395B3519E35",
+  "nz": "TE 14- HAIFA (closed event)",
+  "venue": "ITC HAIFA",
+  "city": "Haifa",
+  "country": "Israel",
+  "iso3": "ISR",
+  "od": "2027-01-25",
+  "do": "2027-01-31",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "D9EB7B19-54F4-45FD-A22A-C8217213E8AC",
   "nz": "TE U16 Herodotou Tennis Academy G2",
   "venue": "Herodotou Tennis Academy",
@@ -2656,6 +2672,22 @@
   "pov": "Acryllic",
   "tags": [
    "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "8841ABD3-B389-47CC-B3D5-7ECBF0E958B8",
+  "nz": "TE 14 - Ramat Hasharon (closed event)",
+  "venue": "ITC Ramat Hasharon",
+  "city": "Ramat Hasharon",
+  "country": "Israel",
+  "iso3": "ISR",
+  "od": "2027-02-08",
+  "do": "2027-02-14",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
    "14&U"
   ],
   "entry": false
@@ -3158,6 +3190,22 @@
   "entry": false
  },
  {
+  "id": "6AA8F78F-2553-471D-B659-67974E326591",
+  "nz": "TEJT 1U14 \" Zafferano Cup U14 2027\"",
+  "venue": "NTC Kosice",
+  "city": "Kosice",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-03-08",
+  "do": "2027-03-14",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "9A2AB05C-4A05-46BE-A50B-F7435909D94A",
   "nz": "VILAS ACADEMY MALLORCA Under 12 Event",
   "venue": "VILAS TENNIS ACADEMY MALLORCA",
@@ -3623,22 +3671,6 @@
   "entry": false
  },
  {
-  "id": "8905DE6A-E52F-4797-A77D-9EE3CE7A7A31",
-  "nz": "TEJT 2 U14 \" Alibaba Open U14 2027\"",
-  "venue": "TC Humenne",
-  "city": "Humenne",
-  "country": "Slovakia",
-  "iso3": "SVK",
-  "od": "2027-04-05",
-  "do": "2027-04-11",
-  "pov": "Clay",
-  "tags": [
-   "Category 2",
-   "14&U"
-  ],
-  "entry": false
- },
- {
   "id": "6C0BC01F-98F7-4DBC-B065-59073621D9D0",
   "nz": "Tirana Open",
   "venue": "National Sport Park",
@@ -3650,6 +3682,22 @@
   "pov": "Acryllic",
   "tags": [
    "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "8905DE6A-E52F-4797-A77D-9EE3CE7A7A31",
+  "nz": "TEJT 2 U14 \" Alibaba Open U14 2027\"",
+  "venue": "TC Humenne",
+  "city": "Humenne",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-04-06",
+  "do": "2027-04-11",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
    "14&U"
   ],
   "entry": false
@@ -3767,22 +3815,6 @@
   "entry": false
  },
  {
-  "id": "D6E7483E-E733-4DD5-8DFE-4615E1BA04FA",
-  "nz": "25º MEMORIAL NACHO JUNCOSA",
-  "venue": "CLUB TENNIS VIC",
-  "city": "Gurb (Barcelona)",
-  "country": "Spain",
-  "iso3": "ESP",
-  "od": "2027-04-19",
-  "do": "2027-04-25",
-  "pov": "Clay",
-  "tags": [
-   "Category 1",
-   "16&U"
-  ],
-  "entry": false
- },
- {
   "id": "72A7231A-CE47-449C-B5F5-C1278397DB6B",
   "nz": "Bellevue Cup 2027",
   "venue": "Tenis Club Bellevue",
@@ -3875,6 +3907,22 @@
   "tags": [
    "Category 3",
    "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "C5B25031-F209-495B-B57E-7E8750FBA04F",
+  "nz": "TEJT 1 U14 \" The 34th ENSANA Piestany Cup U14 2027\"",
+  "venue": "TK Kupele",
+  "city": "Piestany",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-04-19",
+  "do": "2027-04-25",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "14&U"
   ],
   "entry": false
  },
@@ -4120,6 +4168,22 @@
   "entry": false
  },
  {
+  "id": "3935B8DB-1D67-45A7-8A8D-08A23C6C77BA",
+  "nz": "Dr Oetker Junior Trophy",
+  "venue": "Centrul National de Tenis",
+  "city": "Bucharest",
+  "country": "Romania",
+  "iso3": "ROM",
+  "od": "2027-05-10",
+  "do": "2027-05-16",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "71C956AE-AA6B-4B4A-9AD5-E5D7010D679E",
   "nz": "Grawe Open U14",
   "venue": "ZTK Maribor",
@@ -4298,6 +4362,38 @@
   "entry": false
  },
  {
+  "id": "60670DE6-B3C8-4731-B8AB-2D0F7BBA16CD",
+  "nz": "TE 14- HAIFA (closed event)",
+  "venue": "ITC HAIFA",
+  "city": "Haifa",
+  "country": "Israel",
+  "iso3": "ISR",
+  "od": "2027-05-17",
+  "do": "2027-05-23",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "6BB72FB0-BDB8-49F7-B1E2-37F1BF83EA92",
+  "nz": "TE U12 Raanana (closed event)",
+  "venue": "Raanana Tennis Center",
+  "city": "Raanana",
+  "country": "Israel",
+  "iso3": "ISR",
+  "od": "2027-05-17",
+  "do": "2027-05-23",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "4D0D883D-7C47-421A-BC12-315CB19EE546",
   "nz": "TE U14 USTA Cup - Main Draw RR to Elimination",
   "venue": "Forus Spordikeskus Nõmme",
@@ -4373,6 +4469,38 @@
   "pov": "Clay",
   "tags": [
    "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "0D45CD50-AC6F-4E17-9723-5C7BC36C08EB",
+  "nz": "TE 12- TEL-AVIV (closed event)",
+  "venue": "Rokach Tennis Club 67",
+  "city": "Tel-Aviv Yafo",
+  "country": "Israel",
+  "iso3": "ISR",
+  "od": "2027-05-24",
+  "do": "2027-05-30",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "F5EC9B2A-1529-4FE7-9233-C9FFA884137D",
+  "nz": "TE 14 - YAFO (closed event)",
+  "venue": "ITC Yafo",
+  "city": "Tel-Aviv Yafo",
+  "country": "Israel",
+  "iso3": "ISR",
+  "od": "2027-05-24",
+  "do": "2027-05-30",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
    "14&U"
   ],
   "entry": false
@@ -4908,6 +5036,22 @@
   "entry": false
  },
  {
+  "id": "AF449955-A1B6-4D77-9AD7-7B0911C9F11F",
+  "nz": "12. Bludenz European Junior Open",
+  "venue": "Tennishalle Bludenz",
+  "city": "Bludenz",
+  "country": "Austria",
+  "iso3": "AUT",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "BF520D46-8F85-4F75-B056-AC29C32F6F60",
   "nz": "28th Tallinn Open",
   "venue": "Tondiraba Tennisekeskus",
@@ -4968,6 +5112,22 @@
   "tags": [
    "Category 3",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "8E043C3F-BC22-42A6-967D-C138AB306931",
+  "nz": "TEJT 3 U16 \" Peugeot Pepas Cup U16 2027\"",
+  "venue": "SK Pepas",
+  "city": "Slovenska Lupca",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
   ],
   "entry": false
  },

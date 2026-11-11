@@ -126,11 +126,11 @@
    "vklad": "",
    "poradatel": "SK HIT Hradec Králové z.s.",
    "kod_m": "106156",
-   "obs_m": "-/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-8. 11. 2026 C SK HIT Hradec Králové z.s. -/- -/-"
+   "radek": "7.-8. 11. 2026 C SK HIT Hradec Králové z.s. */* -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -174,11 +174,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "106003",
-   "obs_m": "*/*",
+   "obs_m": "4/4",
    "kod_z": "206000",
    "obs_z": "5/*",
    "mix": false,
-   "radek": "7.-9. 11. 2026 C 700 Kč TK DOMYNO P4, z.s. */* 5/*"
+   "radek": "7.-9. 11. 2026 C 700 Kč TK DOMYNO P4, z.s. 4/4 5/*"
   },
   {
    "datum": "7.-9. 11. 2026",

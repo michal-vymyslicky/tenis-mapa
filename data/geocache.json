@@ -32859,5 +32859,90 @@
    "type": "yes",
    "addresstype": "building"
   }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=ITC+Ramat+Hasharon%2C+Ramat+Hasharon": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=ITC+Ramat+Hasharon": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=Ramat+Hasharon": [
+  {
+   "name": "רמת השרון",
+   "display_name": "רמת השרון, נפת תל אביב, Telavivský distrikt, Izrael",
+   "lat": "32.1431276",
+   "lon": "34.8380853",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=tennis+Ramat+Hasharon": [
+  {
+   "name": "המרכז לטניס בישראל - רמת השרון",
+   "display_name": "המרכז לטניס בישראל - רמת השרון, דרך הטניס, שיכון צבא קבע, רמת השרון, נפת תל אביב, Telavivský distrikt, 6962343, Izrael",
+   "lat": "32.1305336",
+   "lon": "34.8396846",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=NTC+Kosice%2C+Kosice": [
+  {
+   "name": "Národné tréningové centrum Košice",
+   "display_name": "Národné tréningové centrum Košice, 84E, Popradská, Košice-Západ, okres Košice II, Košice, Košický kraj, 040 11, Slovensko",
+   "lat": "48.7095421",
+   "lon": "21.2272488",
+   "category": "leisure",
+   "type": "stadium",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=TK+Kupele%2C+Piestany": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=TK+Kupele": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=Piestany": [
+  {
+   "name": "Piešťany",
+   "display_name": "Piešťany, okres Piešťany, Trnavský kraj, 921 01, Slovensko",
+   "lat": "48.5895247",
+   "lon": "17.8213848",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=tennis+Piestany": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Centrul+National+de+Tenis%2C+Bucharest": [
+  {
+   "name": "Centrul Național de Tenis",
+   "display_name": "Centrul Național de Tenis, 11, Bulevardul Pierre de Coubertin, Vatra Luminoasă, Sector 2, Bukurešť, 021904, Rumunsko",
+   "lat": "44.4396675",
+   "lon": "26.1522472",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=Raanana+Tennis+Center%2C+Raanana": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=Raanana+Tennis+Center": [
+  {
+   "name": "מרכז הטניס/אלימלך רימלט",
+   "display_name": "מרכז הטניס/אלימלך רימלט, אלימלך רימלט, לב הפארק, נאות עוזי, רעננה, נפת פתח תקווה, Centrální distrikt, 4334522, Izrael",
+   "lat": "32.1952002",
+   "lon": "34.8486102",
+   "category": "highway",
+   "type": "bus_stop",
+   "addresstype": "highway"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=Rokach+Tennis+Club+67%2C+Tel-Aviv+Yafo": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=il&format=jsonv2&limit=1&q=Rokach+Tennis+Club+67": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=at&format=jsonv2&limit=1&q=Tennishalle+Bludenz%2C+Bludenz": [
+  {
+   "name": "Tennishalle Bludenz",
+   "display_name": "Tennishalle Bludenz, 4, Stadionstraße, Rungelin, Bludenec, Bezirk Bludenz, Vorarlbersko, 6700, Rakousko",
+   "lat": "47.1546813",
+   "lon": "9.8321203",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
  ]
 }
