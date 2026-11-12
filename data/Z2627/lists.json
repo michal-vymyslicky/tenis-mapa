@@ -125,12 +125,12 @@
    "trida": "C",
    "vklad": "",
    "poradatel": "SK HIT Hradec Králové z.s.",
-   "kod_m": "106156",
-   "obs_m": "*/*",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "7.-8. 11. 2026 C SK HIT Hradec Králové z.s. */* -/-"
+   "radek": "7.-8. 11. 2026 C SK HIT Hradec Králové z.s. ZRUŠENO -/-"
   },
   {
    "datum": "7.-9. 11. 2026",
@@ -247,10 +247,10 @@
    "poradatel": "severočeský",
    "kod_m": "",
    "obs_m": "-/-",
-   "kod_z": "206900",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 900 Kč severočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 900 Kč severočeský -/- ZRUŠENO"
   },
   {
    "datum": "14.-17. 11. 2026",
@@ -341,12 +341,12 @@
    "trida": "D",
    "vklad": "800 Kč",
    "poradatel": "Tenis Újezd nad Lesy, z.s.",
-   "kod_m": "106015",
-   "obs_m": "-/-",
-   "kod_z": "206007",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "14.-16. 11. 2026 D 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+   "radek": "14.-16. 11. 2026 D 800 Kč Tenis Újezd nad Lesy, z.s. ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "14.-17. 11. 2026",

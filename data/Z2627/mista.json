@@ -1038,18 +1038,18 @@
   "osm_vzdalenost_km": 0.07,
   "geokod": "RÚIAN: Máchova 178, Strakonice I, 38601 Strakonice"
  },
- "klub:tenis malsovice z s|u labe 487 1 hradec kralove": {
-  "klic": "klub:tenis malsovice z s|u labe 487 1 hradec kralove",
+ "klub:tenis malsovice z s|hradecnice 2201 hradec kralove": {
+  "klic": "klub:tenis malsovice z s|hradecnice 2201 hradec kralove",
   "poradatel": "Tenis Malšovice, z.s.",
-  "adresa": "U Labe 487/1, Hradec Králové",
+  "adresa": "Hradečnice 2201, Hradec Králové",
   "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 50.211946,
-  "lon": 15.828774,
-  "presnost": "obec",
+  "lat": 50.194694,
+  "lon": 15.863782,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "OSM: U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
+  "osm_vzdalenost_km": 0.09,
+  "geokod": "RÚIAN: Hradečnice 2201, Nový Hradec Králové, 50009 Hradec Králové"
  },
  "klub:tenis novy jicin z s|purkynova 405 46 novy jicin": {
   "klic": "klub:tenis novy jicin z s|purkynova 405 46 novy jicin",
@@ -2688,6 +2688,18 @@
   "osm_vzdalenost_km": 0.26,
   "geokod": "RÚIAN: Seifertova 1504, Horní Litvínov, 43601 Litvínov"
  },
+ "svaz:severocesky:": {
+  "klic": "svaz:severocesky:",
+  "poradatel": "severočeský",
+  "adresa": "",
+  "zdroj": "nezname",
+  "region": "Severočeský",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
+ },
  "svaz:severocesky:106900": {
   "klic": "svaz:severocesky:106900",
   "poradatel": "severočeský",
@@ -2704,15 +2716,15 @@
  "svaz:severocesky:206900": {
   "klic": "svaz:severocesky:206900",
   "poradatel": "severočeský",
-  "adresa": "Pod Koňským vrchem 1159, Most",
-  "zdroj": "detail",
+  "adresa": "U Tenisu 3859/214, Jablonec n.N.",
+  "zdroj": "loni",
   "region": "Severočeský",
-  "lat": 50.496691,
-  "lon": 13.618927,
-  "presnost": "areal",
-  "nazev_mista": "Tenisové kurty",
-  "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: Pod Koňským vrchem 1159/5, 43401 Most"
+  "lat": 50.728764,
+  "lon": 15.145083,
+  "presnost": "odhad",
+  "nazev_mista": "Tenisová hala",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: U Tenisu 3859/214, Proseč nad Nisou, 46804 Jablonec nad Nisou"
  },
  "svaz:severocesky:306900": {
   "klic": "svaz:severocesky:306900",

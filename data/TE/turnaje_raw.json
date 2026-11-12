@@ -1941,7 +1941,7 @@
  },
  {
   "id": "FB63A060-4F70-4195-B1D7-D8E6E48B3F57",
-  "nz": "Mecholupy Indoor Open 2026 14U",
+  "nz": "Agel Prague Open 2026",
   "venue": "TK Horni Mecholupy",
   "city": "Prague",
   "country": "Czechia",
@@ -3911,22 +3911,6 @@
   "entry": false
  },
  {
-  "id": "C5B25031-F209-495B-B57E-7E8750FBA04F",
-  "nz": "TEJT 1 U14 \" The 34th ENSANA Piestany Cup U14 2027\"",
-  "venue": "TK Kupele",
-  "city": "Piestany",
-  "country": "Slovakia",
-  "iso3": "SVK",
-  "od": "2027-04-19",
-  "do": "2027-04-25",
-  "pov": "Clay",
-  "tags": [
-   "Category 1",
-   "14&U"
-  ],
-  "entry": false
- },
- {
   "id": "A2B4C2B9-007A-402B-A900-387BAB1A4570",
   "nz": "ZLTC Brno Cup",
   "venue": "ZLTC Brno",
@@ -3939,6 +3923,22 @@
   "tags": [
    "Category 2",
    "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "C5B25031-F209-495B-B57E-7E8750FBA04F",
+  "nz": "TEJT 1 U14 \" The 34th ENSANA Piestany Cup U14 2027\"",
+  "venue": "TK Kupele",
+  "city": "Piestany",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-04-20",
+  "do": "2027-04-25",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "14&U"
   ],
   "entry": false
  },
@@ -4844,22 +4844,6 @@
   "entry": false
  },
  {
-  "id": "3B249E28-21EA-426C-98BA-882692C77AAD",
-  "nz": "VILAMOURA INTERNATIONAL TOURNAMENT UNDER 14 - 2027 - Main Draw RR to Elimination",
-  "venue": "VILAMOURA TENNIS & PADEL ACADEMY",
-  "city": "Vilamoura",
-  "country": "Portugal",
-  "iso3": "POR",
-  "od": "2027-06-07",
-  "do": "2027-06-13",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 3",
-   "14&U"
-  ],
-  "entry": false
- },
- {
   "id": "7243E3DD-2D35-4CBB-9AF0-86C28F7045FC",
   "nz": "Lexus Junior International Raynes Park",
   "venue": "All England Lawn Tennis Club Community Tennis Centre Raynes Park",
@@ -4871,6 +4855,22 @@
   "pov": "Grass",
   "tags": [
    "Category 1",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "3B249E28-21EA-426C-98BA-882692C77AAD",
+  "nz": "VILAMOURA INTERNATIONAL TOURNAMENT UNDER 14 - 2027 - Main Draw RR to Elimination",
+  "venue": "VILAMOURA TENNIS & PADEL ACADEMY",
+  "city": "Vilamoura",
+  "country": "Portugal",
+  "iso3": "POR",
+  "od": "2027-06-08",
+  "do": "2027-06-13",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
    "14&U"
   ],
   "entry": false
@@ -5116,12 +5116,12 @@
   "entry": false
  },
  {
-  "id": "8E043C3F-BC22-42A6-967D-C138AB306931",
-  "nz": "TEJT 3 U16 \" Peugeot Pepas Cup U16 2027\"",
-  "venue": "SK Pepas",
-  "city": "Slovenska Lupca",
-  "country": "Slovakia",
-  "iso3": "SVK",
+  "id": "B5BB1A25-C1F7-4326-AA5B-7DFF6933BEB7",
+  "nz": "Torneo U16 - Biella",
+  "venue": "I Faggi - Sport Wellness & Friends",
+  "city": "Biella",
+  "country": "Italy",
+  "iso3": "ITA",
   "od": "2027-06-28",
   "do": "2027-07-04",
   "pov": "Clay",
@@ -5132,13 +5132,13 @@
   "entry": false
  },
  {
-  "id": "B5BB1A25-C1F7-4326-AA5B-7DFF6933BEB7",
-  "nz": "Torneo U16 - Biella",
-  "venue": "I Faggi - Sport Wellness & Friends",
-  "city": "Biella",
-  "country": "Italy",
-  "iso3": "ITA",
-  "od": "2027-06-28",
+  "id": "8E043C3F-BC22-42A6-967D-C138AB306931",
+  "nz": "TEJT 3 U16 \" Peugeot Pepas Cup U16 2027\"",
+  "venue": "SK Pepas",
+  "city": "Slovenska Lupca",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-06-29",
   "do": "2027-07-04",
   "pov": "Clay",
   "tags": [

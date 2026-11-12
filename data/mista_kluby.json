@@ -2732,5 +2732,15 @@
    "adresa": "Skautská 3763, Frýdek-Místek",
    "sezona": "Z2627"
   }
+ ],
+ "tenis malsovice z s": [
+  {
+   "lat": 50.194694,
+   "lon": 15.863782,
+   "nazev": "",
+   "presnost": "areal",
+   "adresa": "Hradečnice 2201, Hradec Králové",
+   "sezona": "Z2627"
+  }
  ]
 }

@@ -1073,6 +1073,12 @@
    "H"
   ],
   [
+   "1049329",
+   "Řehoř Benjamín",
+   "TK Slavia Plzeň",
+   "H"
+  ],
+  [
    "1047647",
    "Vedral Tomáš",
    "TENIS Klánovice",
@@ -1085,10 +1091,22 @@
    "H"
   ],
   [
+   "1049783",
+   "Nešpor René",
+   "TK Spartak Jihlava",
+   "H"
+  ],
+  [
    "1077559",
    "Šimek Petr",
    "TJ Sokol Královice, z.s.",
    "H"
+  ],
+  [
+   "1045317",
+   "Lysý Jan",
+   "TK Turnov",
+   "N"
   ],
   [
    "1040634",
@@ -1123,9 +1141,33 @@
  ],
  "106014": [
   [
+   "4275",
+   "Diviš Jakub",
+   "TJ LTC Poděbrady",
+   "H"
+  ],
+  [
+   "1073793",
+   "Adamec Petr",
+   "Lokomotiva Nymburk",
+   "H"
+  ],
+  [
+   "1038886",
+   "Krejčík David",
+   "TC Tachlovice",
+   "H"
+  ],
+  [
    "6772",
    "Kvapil Jaromír",
    "Energetik Chvaletice",
+   "H"
+  ],
+  [
+   "1070867",
+   "OShea Lorcan (Z)",
+   "CTA Rudná",
    "H"
   ],
   [
@@ -1141,15 +1183,15 @@
    "H"
   ],
   [
-   "1044715",
-   "Sklenička Tomáš",
-   "TK EMA o.s.",
+   "1074519",
+   "Skřivánek Zdeněk",
+   "LTC Pardubice",
    "H"
   ],
   [
-   "1043678",
-   "Pešl Alec",
-   "TSM Sokol Vysočany z.s.",
+   "1044715",
+   "Sklenička Tomáš",
+   "TK EMA o.s.",
    "H"
   ],
   [
@@ -1186,6 +1228,12 @@
    "1006401",
    "Lom Denis",
    "ČTS - klub",
+   "H"
+  ],
+  [
+   "1069233",
+   "Čermák Vilém",
+   "LOB S.A. Bohnice, z.s.",
    "H"
   ],
   [
@@ -1243,23 +1291,9 @@
    "O"
   ],
   [
-   "1070867",
-   "OShea Lorcan (Z)",
-   "CTA Rudná",
-   "O"
-  ]
- ],
- "106015": [
-  [
-   "16793",
-   "Březina Lukáš",
-   "TK LTC 1927 Praha- Michle,z.s.",
-   "O"
-  ],
-  [
-   "13842",
-   "Janata Radek",
-   "TK Hanspaulka",
+   "1043678",
+   "Pešl Alec",
+   "TSM Sokol Vysočany z.s.",
    "O"
   ]
  ],
@@ -1289,6 +1323,12 @@
    "H"
   ],
   [
+   "1058300",
+   "Brusenbauch Alan",
+   "TK Česká Třebová, z.s.",
+   "H"
+  ],
+  [
    "1035607",
    "CEBÁK FABIÁN",
    "Sokol Čebín",
@@ -1298,6 +1338,12 @@
    "1049363",
    "Machanec Hubert",
    "Start Brno",
+   "H"
+  ],
+  [
+   "16955",
+   "Brusenbauch Alan",
+   "TK Česká Třebová, z.s.",
    "H"
   ],
   [
@@ -1343,12 +1389,6 @@
    "H"
   ],
   [
-   "1028324",
-   "Františ Samuel",
-   "SK Tenis Tišnov",
-   "H"
-  ],
-  [
    "1044316",
    "Gross Vojtěch",
    "TJ Mosilana Brno",
@@ -1373,20 +1413,8 @@
    "H"
   ],
   [
-   "41702",
-   "Zachoval Dominik",
-   "SK Tenis Tišnov",
-   "H"
-  ],
-  [
    "1028602",
    "Brusenbauch Karel",
-   "SK Tenis Tišnov",
-   "H"
-  ],
-  [
-   "1052835",
-   "Rymeš Ivan",
    "SK Tenis Tišnov",
    "H"
   ],
@@ -1397,6 +1425,18 @@
    "H"
   ],
   [
+   "1028324",
+   "Františ Samuel",
+   "SK Tenis Tišnov",
+   "N"
+  ],
+  [
+   "41702",
+   "Zachoval Dominik",
+   "SK Tenis Tišnov",
+   "N"
+  ],
+  [
    "1077502",
    "Zapletal Dominik",
    "Sokol Brno Žabovřesky",
@@ -1405,6 +1445,12 @@
   [
    "14796",
    "Kunický Zdeněk",
+   "SK Tenis Tišnov",
+   "O"
+  ],
+  [
+   "1052835",
+   "Rymeš Ivan",
    "SK Tenis Tišnov",
    "O"
   ]
@@ -1420,6 +1466,12 @@
    "1044052",
    "Novák Filip Zdeněk",
    "Tenis klub Jindřichův Hradec z.s.",
+   "H"
+  ],
+  [
+   "1036089",
+   "Flídr Rodan",
+   "TO TJ Tesla Pardubice",
    "H"
   ],
   [
@@ -1453,15 +1505,15 @@
    "H"
   ],
   [
-   "1058275",
-   "Tvrdý Patrik",
-   "TK PTA Kolín",
+   "1058300",
+   "Brusenbauch Alan",
+   "TK Česká Třebová, z.s.",
    "H"
   ],
   [
-   "1020115",
-   "Polák Marek",
-   "SK HIT Hradec Králové z.s.",
+   "1058275",
+   "Tvrdý Patrik",
+   "TK PTA Kolín",
    "H"
   ],
   [
@@ -1471,40 +1523,52 @@
    "H"
   ],
   [
-   "1052608",
-   "Žďárský Lukáš",
-   "TC Chrudim z.s.",
-   "H"
-  ],
-  [
-   "1016479",
-   "Michálek Lukáš",
-   "TK Dynamo Hradec Králové",
-   "H"
-  ],
-  [
-   "1033408",
-   "Smuts Daniel",
-   "TO TJ Tesla Pardubice",
-   "H"
-  ],
-  [
-   "1047872",
-   "Nosek Adam",
-   "TENIS-CENTRUM DTJ HK",
-   "H"
-  ],
-  [
    "1044650",
    "Dorazil Tadeáš",
    "TJ Slovan Moravská Třebová,z.s.",
    "H"
   ],
   [
+   "16955",
+   "Brusenbauch Alan",
+   "TK Česká Třebová, z.s.",
+   "N"
+  ],
+  [
+   "1020115",
+   "Polák Marek",
+   "SK HIT Hradec Králové z.s.",
+   "N"
+  ],
+  [
+   "1052608",
+   "Žďárský Lukáš",
+   "TC Chrudim z.s.",
+   "N"
+  ],
+  [
+   "1016479",
+   "Michálek Lukáš",
+   "TK Dynamo Hradec Králové",
+   "N"
+  ],
+  [
+   "1033408",
+   "Smuts Daniel",
+   "TO TJ Tesla Pardubice",
+   "N"
+  ],
+  [
+   "1047872",
+   "Nosek Adam",
+   "TENIS-CENTRUM DTJ HK",
+   "N"
+  ],
+  [
    "1050266",
    "Suchomel Jan",
    "TJ Slovan Moravská Třebová,z.s.",
-   "H"
+   "N"
   ],
   [
    "1075971",
@@ -1529,12 +1593,6 @@
   [
    "1015643",
    "Glazov Vjačeslav",
-   "CTA Rudná",
-   "H"
-  ],
-  [
-   "1061659",
-   "Wolf Matěj",
    "CTA Rudná",
    "H"
   ],
@@ -1585,6 +1643,12 @@
    "Juráň Petr",
    "Tennis club Hýskov",
    "O"
+  ],
+  [
+   "1061659",
+   "Wolf Matěj",
+   "CTA Rudná",
+   "O"
   ]
  ],
  "106019": [
@@ -1598,6 +1662,12 @@
    "1023859",
    "Jadlovský Jan",
    "TCF Schicht Mariánské Lázně,z.s.",
+   "H"
+  ],
+  [
+   "1058287",
+   "Novotný Kryštof",
+   "Tenisová škola Lucie Hradecké z.s.",
    "H"
   ],
   [
@@ -1631,6 +1701,12 @@
    "H"
   ],
   [
+   "37379",
+   "Tománek Milan",
+   "Slavoj Český Brod",
+   "H"
+  ],
+  [
    "1029113",
    "Bradáč Matěj",
    "Sokol Smíchov I.",
@@ -1652,6 +1728,12 @@
    "1002128",
    "Jiruš Jan",
    "TK Písek",
+   "H"
+  ],
+  [
+   "1047532",
+   "Dürl Dominik",
+   "TSM Sokol Vysočany z.s.",
    "H"
   ],
   [
@@ -1803,21 +1885,9 @@
    "H"
   ],
   [
-   "1061659",
-   "Wolf Matěj",
-   "CTA Rudná",
-   "H"
-  ],
-  [
    "1038760",
    "Kyselý Matěj",
    "TENIS VLAŠIM,z.s.",
-   "H"
-  ],
-  [
-   "1069922",
-   "Lenhart Richard",
-   "Tenisový klub Mníšek",
    "H"
   ],
   [
@@ -1872,6 +1942,18 @@
    "1040252",
    "Fric Adam",
    "TK Louny",
+   "O"
+  ],
+  [
+   "1069922",
+   "Lenhart Richard",
+   "Tenisový klub Mníšek",
+   "O"
+  ],
+  [
+   "1061659",
+   "Wolf Matěj",
+   "CTA Rudná",
    "O"
   ]
  ],
@@ -1952,43 +2034,43 @@
    "1043659",
    "Voplakal Martin",
    "TJ Radlice z.s.",
-   "H"
+   "N"
   ],
   [
    "1023821",
    "Korbelář Luboš",
    "TJ Radlice z.s.",
-   "H"
+   "N"
   ],
   [
    "1028930",
    "Skřička Jan",
    "TJ Radlice z.s.",
-   "H"
+   "N"
   ],
   [
    "1053681",
    "Havel Miroslav",
    "METASPORT, z.s.",
-   "H"
+   "N"
   ],
   [
    "1031388",
    "Růžička Pavel",
    "Tenis Club Mokropsy",
-   "H"
+   "N"
   ],
   [
    "19318",
    "Svoboda Petr",
    "TJ Radlice z.s.",
-   "H"
+   "N"
   ],
   [
    "1049479",
    "Židek Jiří",
    "METASPORT, z.s.",
-   "H"
+   "N"
   ]
  ],
  "106023": [
@@ -2067,6 +2149,12 @@
    "H"
   ],
   [
+   "1074355",
+   "Kubíček Filip",
+   "VSK VŠB-TU Ostrava",
+   "H"
+  ],
+  [
    "6225",
    "Bohatý Michal",
    "TC Bajda Kroměříž",
@@ -2108,6 +2196,12 @@
    "1035857",
    "Brettl Tobiáš",
    "LOB S.A. Bohnice, z.s.",
+   "H"
+  ],
+  [
+   "1058287",
+   "Novotný Kryštof",
+   "Tenisová škola Lucie Hradecké z.s.",
    "H"
   ],
   [
@@ -2225,6 +2319,12 @@
  ],
  "106028": [
   [
+   "1058287",
+   "Novotný Kryštof",
+   "Tenisová škola Lucie Hradecké z.s.",
+   "H"
+  ],
+  [
    "1040232",
    "Krotký Michal",
    "TC Jičín",
@@ -2275,6 +2375,12 @@
  ],
  "106029": [
   [
+   "1058287",
+   "Novotný Kryštof",
+   "Tenisová škola Lucie Hradecké z.s.",
+   "H"
+  ],
+  [
    "1065179",
    "Matějka Pavel",
    "TK Spoje Praha, z.s.",
@@ -2310,6 +2416,12 @@
    "1069439",
    "Císler Roman",
    "Tenisklub Cheb",
+   "H"
+  ],
+  [
+   "1064567",
+   "Sacher Tobias",
+   "TCG Karlovy Vary",
    "H"
   ]
  ],
@@ -2447,6 +2559,12 @@
  ],
  "106034": [
   [
+   "4720",
+   "Kučera Aleš",
+   "TO Rotas Rotava",
+   "H"
+  ],
+  [
    "21587",
    "Mašek Josef",
    "TK Březnice",
@@ -2521,6 +2639,12 @@
    "H"
   ],
   [
+   "25302",
+   "Pavlíček Roman",
+   "TJ Kralupy",
+   "H"
+  ],
+  [
    "1006401",
    "Lom Denis",
    "ČTS - klub",
@@ -2552,6 +2676,12 @@
    "1035481",
    "Zaporozhchenko Yehor",
    "LTC Svoboda Praha",
+   "H"
+  ],
+  [
+   "1077790",
+   "Slávik Daniel (Z)",
+   "ČTS - klub",
    "H"
   ],
   [
@@ -2588,12 +2718,6 @@
    "1021187",
    "Nagy Filip",
    "ŽLTC Brno",
-   "H"
-  ],
-  [
-   "1077790",
-   "Slávik Daniel (Z)",
-   "ČTS - klub",
    "H"
   ]
  ],
@@ -2679,15 +2803,39 @@
    "H"
   ],
   [
+   "1068197",
+   "Skupinski Bartosz Arkadiusz (Z)",
+   "TJ Start Ostrava - Poruba, z.s.",
+   "H"
+  ],
+  [
    "1052493",
    "Gawlik Julian Jan (Z)",
    "TJ Start Ostrava - Poruba, z.s.",
    "H"
   ],
   [
+   "1074355",
+   "Kubíček Filip",
+   "VSK VŠB-TU Ostrava",
+   "H"
+  ],
+  [
+   "1046319",
+   "Robenek Štěpán",
+   "TK PRECHEZA Přerov o.s.",
+   "H"
+  ],
+  [
    "1044444",
    "Ondrůšek Antonín",
    "SK Uherský Brod",
+   "H"
+  ],
+  [
+   "1052193",
+   "Kana Patrik",
+   "SK Vitality Slezsko o.s.",
    "H"
   ]
  ],
@@ -2836,6 +2984,12 @@
    "3448",
    "Jaroš Martin",
    "ČTS - klub",
+   "H"
+  ],
+  [
+   "1050621",
+   "Slavík Jan",
+   "TJ Blatná",
    "H"
   ]
  ],
@@ -3067,6 +3221,12 @@
    "H"
   ],
   [
+   "4720",
+   "Kučera Aleš",
+   "TO Rotas Rotava",
+   "H"
+  ],
+  [
    "1053070",
    "Krása Štěpán",
    "TK Sokolov",
@@ -3116,6 +3276,12 @@
    "15333",
    "Ambrož Jan",
    "Tennis club Hýskov",
+   "H"
+  ],
+  [
+   "1061659",
+   "Wolf Matěj",
+   "CTA Rudná",
    "H"
   ],
   [
@@ -3277,6 +3443,12 @@
    "H"
   ],
   [
+   "1032353",
+   "Duchoň Daniel",
+   "TK Pelhřimov",
+   "H"
+  ],
+  [
    "1048168",
    "Venc Tomáš",
    "LTC Humpolec",
@@ -3368,6 +3540,12 @@
    "1007093",
    "Celerin Jan",
    "TJ Sokol Hostivice",
+   "H"
+  ],
+  [
+   "1040252",
+   "Fric Adam",
+   "TK Louny",
    "H"
   ],
   [
@@ -3717,8 +3895,26 @@
    "H"
   ],
   [
+   "1032353",
+   "Duchoň Daniel",
+   "TK Pelhřimov",
+   "H"
+  ],
+  [
+   "14295",
+   "Dub David",
+   "TK Pelhřimov",
+   "H"
+  ],
+  [
    "1014877",
    "Paťha Daniel",
+   "TK Pelhřimov",
+   "H"
+  ],
+  [
+   "1044530",
+   "Dub Adam",
    "TK Pelhřimov",
    "H"
   ]
@@ -3933,6 +4129,12 @@
    "Paulus Tomáš",
    "DTK Skuteč",
    "H"
+  ],
+  [
+   "1051244",
+   "Pressl Matyáš",
+   "Tenis Jesenice z.s.",
+   "O"
   ]
  ],
  "106071": [
@@ -4000,7 +4202,7 @@
    "1077322",
    "Dolanský Lukáš",
    "SK HAMR, z.s.",
-   "H"
+   "O"
   ]
  ],
  "106075": [
@@ -4064,6 +4266,12 @@
    "H"
   ],
   [
+   "1034488",
+   "Rat Adam",
+   "TENIS Klánovice",
+   "H"
+  ],
+  [
    "1015397",
    "Štětka Ondřej",
    "TJ Radlice z.s.",
@@ -4073,6 +4281,12 @@
    "1025371",
    "Augustýn Tadeáš",
    "TK Horní Měcholupy",
+   "H"
+  ],
+  [
+   "1033443",
+   "Kollert Jonáš",
+   "SK HAMR, z.s.",
    "H"
   ],
   [
@@ -4530,6 +4744,12 @@
    "H"
   ],
   [
+   "30420",
+   "Zezula Jan",
+   "TK Kunštát",
+   "H"
+  ],
+  [
    "1045416",
    "Mrklovský David",
    "TK Pernštýn 1897 Pardubice",
@@ -4551,6 +4771,12 @@
    "1075971",
    "Tyller Vladimír",
    "TJ Slovan Moravská Třebová,z.s.",
+   "H"
+  ],
+  [
+   "1021798",
+   "Bouchner Aleš",
+   "LTC Humpolec",
    "H"
   ],
   [
@@ -4802,6 +5028,12 @@
  ],
  "106108": [
   [
+   "1034488",
+   "Rat Adam",
+   "TENIS Klánovice",
+   "H"
+  ],
+  [
    "1025371",
    "Augustýn Tadeáš",
    "TK Horní Měcholupy",
@@ -4829,6 +5061,12 @@
    "34148",
    "Pačes Filip",
    "Sokol Smíchov I.",
+   "H"
+  ],
+  [
+   "1063139",
+   "Korolskyi Volodymyr (Z)",
+   "TSM Sokol Vysočany z.s.",
    "H"
   ],
   [
@@ -5119,6 +5357,18 @@
  "106127": [],
  "106128": [
   [
+   "1033005",
+   "Mazal Matyáš",
+   "TJ Brno-Komín",
+   "H"
+  ],
+  [
+   "31609",
+   "Zahradníček Dušan",
+   "TK TILIA Brno",
+   "H"
+  ],
+  [
    "28459",
    "Veleba Jiří",
    "Tenisový klub Příbor,z.s.",
@@ -5153,6 +5403,12 @@
    "1037675",
    "Šmíd Martin",
    "TK Pernštýn 1897 Pardubice",
+   "H"
+  ],
+  [
+   "1034488",
+   "Rat Adam",
+   "TENIS Klánovice",
    "H"
   ]
  ],
@@ -5293,6 +5549,18 @@
    "H"
   ],
   [
+   "1033086",
+   "Fröhlich Max",
+   "TK Horní Měcholupy",
+   "H"
+  ],
+  [
+   "1029256",
+   "Šmejkal Šimon",
+   "TO TJ Tesla Pardubice",
+   "H"
+  ],
+  [
    "1025281",
    "Vejšický Oldřich",
    "TSM Sokol Vysočany z.s.",
@@ -5320,6 +5588,12 @@
    "1037675",
    "Šmíd Martin",
    "TK Pernštýn 1897 Pardubice",
+   "H"
+  ],
+  [
+   "1025509",
+   "Klakurka Lukáš",
+   "Start Brno",
    "H"
   ],
   [
@@ -5371,6 +5645,12 @@
    "H"
   ],
   [
+   "1033087",
+   "Fröhlich Jan",
+   "TK Horní Měcholupy",
+   "H"
+  ],
+  [
    "1037802",
    "Svozil Václav",
    "TK DEZA Valašské Meziříčí",
@@ -5404,6 +5684,12 @@
    "1028565",
    "Gosler Marek",
    "TK Škoda Plzeň z.s.",
+   "H"
+  ],
+  [
+   "1037649",
+   "Pešta Richard",
+   "TCM Dubeč, z.s.",
    "H"
   ],
   [
@@ -5443,9 +5729,21 @@
    "H"
   ],
   [
+   "1027198",
+   "Šošolík Pavel",
+   "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
    "1039838",
    "Sirotek Oskar",
    "TSM Sokol Vysočany z.s.",
+   "H"
+  ],
+  [
+   "1036874",
+   "Psota Jan",
+   "TK Slavia Plzeň",
    "H"
   ],
   [
@@ -5464,6 +5762,12 @@
    "1035492",
    "Zerai Rayen",
    "BLTC Brno",
+   "H"
+  ],
+  [
+   "1025160",
+   "Paroulek Filip",
+   "TJ Radlice z.s.",
    "H"
   ],
   [
@@ -5508,12 +5812,6 @@
    "1031937",
    "Komínek Kryštof",
    "TK Sparta Praha",
-   "H"
-  ],
-  [
-   "1033087",
-   "Fröhlich Jan",
-   "TK Horní Měcholupy",
    "H"
   ],
   [
@@ -5661,6 +5959,12 @@
    "H"
   ],
   [
+   "1035081",
+   "Jumar Jakub",
+   "TK Horní Měcholupy",
+   "H"
+  ],
+  [
    "1037946",
    "Novák Matěj",
    "TK Sparta Praha",
@@ -5769,6 +6073,18 @@
    "N"
   ],
   [
+   "1046854",
+   "Polášek Oliver",
+   "I.ČLTK Praha",
+   "N"
+  ],
+  [
+   "1045333",
+   "Michel Maxim",
+   "I.ČLTK Praha",
+   "N"
+  ],
+  [
    "1033443",
    "Kollert Jonáš",
    "SK HAMR, z.s.",
@@ -5779,6 +6095,12 @@
    "Fröhlich Max",
    "TK Horní Měcholupy",
    "O"
+  ],
+  [
+   "1033087",
+   "Fröhlich Jan",
+   "TK Horní Měcholupy",
+   "O"
   ]
  ],
  "106830": [
@@ -5786,6 +6108,12 @@
    "1025222",
    "Šusta Bartoloměj",
    "TJ Sokol Hostivice",
+   "H"
+  ],
+  [
+   "1028818",
+   "Šafařík Jakub",
+   "TK Radošovice",
    "H"
   ],
   [
@@ -5813,6 +6141,12 @@
    "H"
   ],
   [
+   "1035668",
+   "Rosický Jan",
+   "LTC Houštka",
+   "H"
+  ],
+  [
    "1036433",
    "Zachař Jan",
    "TK SPORTCENTRUM Mladá Boleslav",
@@ -5834,6 +6168,12 @@
    "1049258",
    "Tichý Tomáš",
    "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
+   "1055463",
+   "Koutek Petr",
+   "LTC Řevnice",
    "H"
   ],
   [
@@ -5870,6 +6210,12 @@
    "1037616",
    "Linhart Adam",
    "Sportovní centrum Linhart",
+   "H"
+  ],
+  [
+   "1038052",
+   "Kolesár Matyáš",
+   "TK SPORTCENTRUM Mladá Boleslav",
    "H"
   ],
   [
@@ -6195,12 +6541,6 @@
    "H"
   ],
   [
-   "1008885",
-   "Potužák David",
-   "TCF Schicht Mariánské Lázně,z.s.",
-   "H"
-  ],
-  [
    "1036874",
    "Psota Jan",
    "TK Slavia Plzeň",
@@ -6315,12 +6655,6 @@
    "N"
   ],
   [
-   "1049329",
-   "Řehoř Benjamín",
-   "TK Slavia Plzeň",
-   "N"
-  ],
-  [
    "1002282",
    "Kovářík Patrik",
    "TK Lokomotiva Plzeň z.s.",
@@ -6354,6 +6688,18 @@
    "1047300",
    "Krisman Vojtěch",
    "TK Slavia Plzeň",
+   "O"
+  ],
+  [
+   "1049329",
+   "Řehoř Benjamín",
+   "TK Slavia Plzeň",
+   "O"
+  ],
+  [
+   "1008885",
+   "Potužák David",
+   "TCF Schicht Mariánské Lázně,z.s.",
    "O"
   ]
  ],
@@ -6401,12 +6747,6 @@
    "H"
   ],
   [
-   "1055504",
-   "Sršeň Mikuláš",
-   "TK Frýdlant v Čechách",
-   "H"
-  ],
-  [
    "1035025",
    "Kloub Milan",
    "TK Most",
@@ -6422,12 +6762,6 @@
    "1040559",
    "Braun Denis",
    "TK Most",
-   "H"
-  ],
-  [
-   "1055505",
-   "Sršeň Tomáš",
-   "TK Frýdlant v Čechách",
    "H"
   ],
   [
@@ -6459,6 +6793,18 @@
    "Štrégl Marek",
    "SK Podještědští Pardálové",
    "H"
+  ],
+  [
+   "1055505",
+   "Sršeň Tomáš",
+   "TK Frýdlant v Čechách",
+   "O"
+  ],
+  [
+   "1055504",
+   "Sršeň Mikuláš",
+   "TK Frýdlant v Čechách",
+   "O"
   ]
  ],
  "106906": [
@@ -6588,12 +6934,6 @@
    "1037675",
    "Šmíd Martin",
    "TK Pernštýn 1897 Pardubice",
-   "H"
-  ],
-  [
-   "1040436",
-   "Podrábský Miroslav",
-   "Tenisový klub Eden HK",
    "H"
   ],
   [
@@ -6801,12 +7141,6 @@
    "N"
   ],
   [
-   "1045317",
-   "Lysý Jan",
-   "TK Turnov",
-   "N"
-  ],
-  [
    "1039091",
    "Lovas Vít",
    "TENIS-CENTRUM DTJ HK",
@@ -6855,6 +7189,12 @@
    "N"
   ],
   [
+   "1014710",
+   "Čížek Daniel",
+   "TENIS-CENTRUM DTJ HK",
+   "N"
+  ],
+  [
    "1013722",
    "Mikulecký Lukáš",
    "TK Pernštýn 1897 Pardubice",
@@ -6864,6 +7204,18 @@
    "1020115",
    "Polák Marek",
    "SK HIT Hradec Králové z.s.",
+   "O"
+  ],
+  [
+   "1045317",
+   "Lysý Jan",
+   "TK Turnov",
+   "O"
+  ],
+  [
+   "1040436",
+   "Podrábský Miroslav",
+   "Tenisový klub Eden HK",
    "O"
   ]
  ],
@@ -6878,6 +7230,12 @@
    "1025509",
    "Klakurka Lukáš",
    "Start Brno",
+   "H"
+  ],
+  [
+   "1020518",
+   "Melichar Tomáš",
+   "BLTC Brno",
    "H"
   ],
   [
@@ -7025,6 +7383,12 @@
    "H"
   ],
   [
+   "1044252",
+   "Ostravský Jiří",
+   "TK Zlín",
+   "H"
+  ],
+  [
    "1056345",
    "Majer Filip",
    "Start Brno",
@@ -7040,12 +7404,6 @@
    "1045647",
    "Výmola Michal",
    "TK Zlín",
-   "H"
-  ],
-  [
-   "1074856",
-   "Bíly Pavol (Z)",
-   "TJ Jiskra Strážnice",
    "H"
   ],
   [
@@ -7077,6 +7435,12 @@
    "Ondrůšek Antonín",
    "SK Uherský Brod",
    "H"
+  ],
+  [
+   "1074856",
+   "Bíly Pavol (Z)",
+   "TJ Jiskra Strážnice",
+   "O"
   ]
  ],
  "106970": [
@@ -7144,6 +7508,12 @@
    "1048597",
    "Vymazal Kryštof",
    "TK PRECHEZA Přerov o.s.",
+   "H"
+  ],
+  [
+   "1036129",
+   "Hrbáč Jan",
+   "TK Havířov, z.s.",
    "H"
   ],
   [
@@ -7291,6 +7661,12 @@
    "H"
   ],
   [
+   "1054655",
+   "Výtisk Josef",
+   "TJ Sokol Dolní Lhota",
+   "H"
+  ],
+  [
    "1037648",
    "Kliment Matúš",
    "TK PRECHEZA Přerov o.s.",
@@ -7433,9 +7809,9 @@
    "H"
   ],
   [
-   "1055659",
-   "Soukupová Eva",
-   "TK EMA o.s.",
+   "4785",
+   "Blinova Alexandra",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
    "H"
   ],
   [
@@ -7460,6 +7836,12 @@
    "1051037",
    "Neubergová Natálie",
    "LTC Praha",
+   "O"
+  ],
+  [
+   "1055659",
+   "Soukupová Eva",
+   "TK EMA o.s.",
    "O"
   ]
  ],
@@ -7507,12 +7889,6 @@
    "H"
   ],
   [
-   "1029361",
-   "Přádová Adéla",
-   "Sokol Smíchov I.",
-   "H"
-  ],
-  [
    "1051037",
    "Neubergová Natálie",
    "LTC Praha",
@@ -7528,12 +7904,6 @@
    "1063725",
    "Fiala Li Isabel (Z)",
    "ŽLTC Brno",
-   "H"
-  ],
-  [
-   "1015782",
-   "Šimková Jessica",
-   "Sokol Smíchov I.",
    "H"
   ],
   [
@@ -7613,19 +7983,17 @@
    "Mikulášková Ella",
    "Sokol Smíchov I.",
    "O"
-  ]
- ],
- "206007": [
+  ],
   [
-   "1069908",
-   "Minaříková Anna",
-   "Tenisový klub Mníšek",
+   "1015782",
+   "Šimková Jessica",
+   "Sokol Smíchov I.",
    "O"
   ],
   [
-   "1067127",
-   "Polášková Andrea",
-   "TK Písnice",
+   "1029361",
+   "Přádová Adéla",
+   "Sokol Smíchov I.",
    "O"
   ]
  ],
@@ -7791,12 +8159,6 @@
    "H"
   ],
   [
-   "1045097",
-   "Sejvalová Eliška",
-   "TK Chomutov",
-   "H"
-  ],
-  [
    "1021642",
    "Svozilová Marie",
    "Sportovní klub LTC Modřany 2005 z.s.",
@@ -7855,6 +8217,12 @@
    "Stubley Emma",
    "Tenis Club Mokropsy",
    "H"
+  ],
+  [
+   "1045097",
+   "Sejvalová Eliška",
+   "TK Chomutov",
+   "O"
   ]
  ],
  "206011": [
@@ -7871,12 +8239,6 @@
    "H"
   ],
   [
-   "1045097",
-   "Sejvalová Eliška",
-   "TK Chomutov",
-   "H"
-  ],
-  [
    "1037538",
    "Tichá Julie",
    "Tenisová škola Lucie Hradecké z.s.",
@@ -7889,16 +8251,22 @@
    "H"
   ],
   [
-   "1055659",
-   "Soukupová Eva",
-   "TK EMA o.s.",
-   "H"
-  ],
-  [
    "1070106",
    "Suková Sophie",
    "TC ESO Praha z.s.",
    "H"
+  ],
+  [
+   "1045097",
+   "Sejvalová Eliška",
+   "TK Chomutov",
+   "O"
+  ],
+  [
+   "1055659",
+   "Soukupová Eva",
+   "TK EMA o.s.",
+   "O"
   ]
  ],
  "206012": [
@@ -7937,6 +8305,12 @@
    "H"
   ],
   [
+   "1046879",
+   "PLAČKOVÁ MARKÉTA",
+   "SK HAMR, z.s.",
+   "H"
+  ],
+  [
    "1042917",
    "Zítková Karolína",
    "Tempo Praha",
@@ -7964,6 +8338,12 @@
    "1021287",
    "Richterová Barbora",
    "TK Stochov",
+   "H"
+  ],
+  [
+   "1045127",
+   "Boboková Michaela",
+   "TJ Radlice z.s.",
    "H"
   ],
   [
@@ -8008,6 +8388,18 @@
   ]
  ],
  "206017": [
+  [
+   "1045010",
+   "Benetková Jessica",
+   "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
+   "1045097",
+   "Sejvalová Eliška",
+   "TK Chomutov",
+   "H"
+  ],
   [
    "1031401",
    "Dorociaková Adéla",
@@ -8088,6 +8480,12 @@
    "1010632",
    "Tocháčková Tereza",
    "TK Ruzyně Praha",
+   "H"
+  ],
+  [
+   "1045097",
+   "Sejvalová Eliška",
+   "TK Chomutov",
    "H"
   ],
   [
@@ -8397,6 +8795,12 @@
    "H"
   ],
   [
+   "1025033",
+   "Čížková Pavla",
+   "TK Ruzyně Praha",
+   "H"
+  ],
+  [
    "14760",
    "Boutineau Lenka",
    "TK Sport Kolovraty",
@@ -8418,6 +8822,12 @@
   ]
  ],
  "206030": [
+  [
+   "1045010",
+   "Benetková Jessica",
+   "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
   [
    "1010632",
    "Tocháčková Tereza",
@@ -8550,6 +8960,12 @@
    "1048983",
    "Langášová Zuzana",
    "TC Brno.",
+   "H"
+  ],
+  [
+   "1049426",
+   "Cenklová Adriana",
+   "TJ Břevnov",
    "H"
   ],
   [
@@ -8737,6 +9153,12 @@
    "H"
   ],
   [
+   "1049426",
+   "Cenklová Adriana",
+   "TJ Břevnov",
+   "H"
+  ],
+  [
    "1045010",
    "Benetková Jessica",
    "Pliskova Tennis Academy-Říčany",
@@ -8863,6 +9285,12 @@
   ]
  ],
  "206043": [
+  [
+   "1039448",
+   "Macurová Hana",
+   "Slavoj Český Těšín",
+   "H"
+  ],
   [
    "1056223",
    "Velebová Rozálie",
@@ -9028,6 +9456,24 @@
    "Menclová Dominika",
    "TJ Sokol Královice, z.s.",
    "H"
+  ],
+  [
+   "1016521",
+   "Plachá Kristýna",
+   "Tenisový oddíl Junior",
+   "H"
+  ],
+  [
+   "1004362",
+   "Tománková Aneta",
+   "TO Bohemians Praha",
+   "H"
+  ],
+  [
+   "999621",
+   "Bulíčková Lenka",
+   "1.TK Pacov",
+   "H"
   ]
  ],
  "206049": [
@@ -9157,6 +9603,12 @@
    "1034417",
    "Hrbková Lenka",
    "Sokol Čimice",
+   "H"
+  ],
+  [
+   "1010632",
+   "Tocháčková Tereza",
+   "TK Ruzyně Praha",
    "H"
   ]
  ],
@@ -9622,7 +10074,14 @@
   ]
  ],
  "206077": [],
- "206078": [],
+ "206078": [
+  [
+   "1016521",
+   "Plachá Kristýna",
+   "Tenisový oddíl Junior",
+   "H"
+  ]
+ ],
  "206079": [
   [
    "1034417",
@@ -9845,6 +10304,12 @@
    "H"
   ],
   [
+   "1049426",
+   "Cenklová Adriana",
+   "TJ Břevnov",
+   "H"
+  ],
+  [
    "1045010",
    "Benetková Jessica",
    "Pliskova Tennis Academy-Říčany",
@@ -9857,9 +10322,27 @@
    "H"
   ],
   [
+   "1046707",
+   "Foldová Kateřina",
+   "TK Ústí n.Labem",
+   "H"
+  ],
+  [
    "1036239",
    "Skoupá Barbora",
    "TC-MJ TENIS Líšeň",
+   "H"
+  ],
+  [
+   "1044409",
+   "Levinsky Gloria",
+   "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
+   "1030677",
+   "Sychrovská Nikola",
+   "TC Chrudim z.s.",
    "H"
   ],
   [
@@ -9976,6 +10459,12 @@
    "1046879",
    "PLAČKOVÁ MARKÉTA",
    "SK HAMR, z.s.",
+   "H"
+  ],
+  [
+   "1051520",
+   "Krejčíková Viktorie",
+   "I.ČLTK Praha",
    "H"
   ],
   [
@@ -10101,9 +10590,21 @@
    "H"
   ],
   [
+   "1048070",
+   "Slavíková Tereza",
+   "TENIS VLAŠIM,z.s.",
+   "H"
+  ],
+  [
    "1053864",
    "Sýkorová Marie",
    "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
+   "1049491",
+   "Tůmová Dora",
+   "Tsport Votice o.s.",
    "H"
   ],
   [
@@ -10148,150 +10649,150 @@
    "1025296",
    "Neradová Kamila",
    "TTC Tenis Talent Club, z.s.",
-   "N"
+   "H"
   ],
   [
    "1035399",
    "Halamová Kateřina",
    "LTC Tábor 1903",
-   "N"
-  ],
-  [
-   "1027554",
-   "Svobodová Adriana",
-   "TK Pelhřimov",
-   "N"
-  ],
-  [
-   "1044389",
-   "Rainke Klaudie",
-   "TJ TK Hluboká nad Vltavou",
-   "N"
-  ],
-  [
-   "1020163",
-   "Vondrášková Kristýna",
-   "Tenis Klub Strakonice, spolek",
-   "N"
-  ],
-  [
-   "1035733",
-   "Chrtová Sarah",
-   "TJ TK Hluboká nad Vltavou",
-   "N"
-  ],
-  [
-   "1038039",
-   "Jílková Ema",
-   "LTC VITON České Budějovice,z.s.",
-   "N"
-  ],
-  [
-   "1030376",
-   "Birnerová Tereza",
-   "LTC VITON České Budějovice,z.s.",
-   "N"
-  ],
-  [
-   "1046205",
-   "Kofroňová Kateřina",
-   "LTC Tábor 1903",
-   "N"
-  ],
-  [
-   "1012589",
-   "Brožová Simona",
-   "LTC Humpolec",
-   "N"
-  ],
-  [
-   "1064201",
-   "Kašparová Markéta",
-   "TK Písek",
-   "N"
-  ],
-  [
-   "1038048",
-   "Fáčková Sára",
-   "LTC Tábor 1903",
-   "N"
-  ],
-  [
-   "1031598",
-   "Ratajová Antonie",
-   "LTC Tábor 1903",
-   "N"
-  ],
-  [
-   "1044838",
-   "Dvořáková Denisa",
-   "LTC VITON České Budějovice,z.s.",
-   "N"
-  ],
-  [
-   "1043814",
-   "Makovcová Adéla",
-   "Sokol TK Kaplice",
-   "N"
-  ],
-  [
-   "1049050",
-   "Bohdalová Josefína",
-   "LTC VITON České Budějovice,z.s.",
-   "N"
-  ],
-  [
-   "1052355",
-   "Blafková Terezie",
-   "TJ Jiskra Třeboň, z.s. - oddíl tenisu",
-   "N"
-  ],
-  [
-   "1038201",
-   "Makovcová Natálie",
-   "Sokol TK Kaplice",
-   "N"
-  ],
-  [
-   "1048812",
-   "Latislavová Tereza",
-   "LTC VITON České Budějovice,z.s.",
-   "N"
-  ],
-  [
-   "1059695",
-   "Svobodová Tereza",
-   "LTC VITON České Budějovice,z.s.",
-   "N"
-  ],
-  [
-   "1055684",
-   "Frommová Emma",
-   "LTC VITON České Budějovice,z.s.",
-   "N"
-  ],
-  [
-   "1017498",
-   "Nebesařová Simona",
-   "TK Pelhřimov",
-   "N"
-  ],
-  [
-   "1059570",
-   "Honzíková Markéta",
-   "Tenis Klub Strakonice, spolek",
-   "N"
-  ],
-  [
-   "1045643",
-   "Krejsová Laura",
-   "TJ Lokomotiva Veselí n.L.",
-   "N"
+   "H"
   ],
   [
    "1057298",
    "Honzíková Barbora",
    "Tenis Klub Strakonice, spolek",
+   "H"
+  ],
+  [
+   "1027554",
+   "Svobodová Adriana",
+   "TK Pelhřimov",
+   "H"
+  ],
+  [
+   "1044389",
+   "Rainke Klaudie",
+   "TJ TK Hluboká nad Vltavou",
+   "H"
+  ],
+  [
+   "1020163",
+   "Vondrášková Kristýna",
+   "Tenis Klub Strakonice, spolek",
+   "H"
+  ],
+  [
+   "1035733",
+   "Chrtová Sarah",
+   "TJ TK Hluboká nad Vltavou",
+   "H"
+  ],
+  [
+   "1038039",
+   "Jílková Ema",
+   "LTC VITON České Budějovice,z.s.",
+   "H"
+  ],
+  [
+   "1030376",
+   "Birnerová Tereza",
+   "LTC VITON České Budějovice,z.s.",
+   "H"
+  ],
+  [
+   "1046205",
+   "Kofroňová Kateřina",
+   "LTC Tábor 1903",
+   "H"
+  ],
+  [
+   "1017498",
+   "Nebesařová Simona",
+   "TK Pelhřimov",
+   "H"
+  ],
+  [
+   "1012589",
+   "Brožová Simona",
+   "LTC Humpolec",
+   "H"
+  ],
+  [
+   "1064201",
+   "Kašparová Markéta",
+   "TK Písek",
+   "H"
+  ],
+  [
+   "1038048",
+   "Fáčková Sára",
+   "LTC Tábor 1903",
+   "H"
+  ],
+  [
+   "1059570",
+   "Honzíková Markéta",
+   "Tenis Klub Strakonice, spolek",
+   "H"
+  ],
+  [
+   "1031598",
+   "Ratajová Antonie",
+   "LTC Tábor 1903",
+   "H"
+  ],
+  [
+   "1044838",
+   "Dvořáková Denisa",
+   "LTC VITON České Budějovice,z.s.",
+   "H"
+  ],
+  [
+   "1043814",
+   "Makovcová Adéla",
+   "Sokol TK Kaplice",
+   "H"
+  ],
+  [
+   "1045643",
+   "Krejsová Laura",
+   "TJ Lokomotiva Veselí n.L.",
+   "H"
+  ],
+  [
+   "1049050",
+   "Bohdalová Josefína",
+   "LTC VITON České Budějovice,z.s.",
+   "H"
+  ],
+  [
+   "1052355",
+   "Blafková Terezie",
+   "TJ Jiskra Třeboň, z.s. - oddíl tenisu",
+   "H"
+  ],
+  [
+   "1038201",
+   "Makovcová Natálie",
+   "Sokol TK Kaplice",
+   "H"
+  ],
+  [
+   "1048812",
+   "Latislavová Tereza",
+   "LTC VITON České Budějovice,z.s.",
+   "H"
+  ],
+  [
+   "1059695",
+   "Svobodová Tereza",
+   "LTC VITON České Budějovice,z.s.",
+   "H"
+  ],
+  [
+   "1055684",
+   "Frommová Emma",
+   "LTC VITON České Budějovice,z.s.",
    "N"
   ],
   [
@@ -10393,26 +10894,6 @@
    "O"
   ]
  ],
- "206900": [
-  [
-   "1045503",
-   "Matoušková Barbora",
-   "TK Most",
-   "H"
-  ],
-  [
-   "1046707",
-   "Foldová Kateřina",
-   "TK Ústí n.Labem",
-   "H"
-  ],
-  [
-   "1045097",
-   "Sejvalová Eliška",
-   "TK Chomutov",
-   "H"
-  ]
- ],
  "206906": [
   [
    "20234",
@@ -10477,6 +10958,12 @@
    "H"
   ],
   [
+   "1035345",
+   "Brožová Natálie",
+   "TENIS-CENTRUM DTJ HK",
+   "H"
+  ],
+  [
    "1038298",
    "Schovancová Alena",
    "TK Česká Třebová, z.s.",
@@ -10486,6 +10973,12 @@
    "1053055",
    "Havlíčková Lucie",
    "Tenisový klub Eden HK",
+   "H"
+  ],
+  [
+   "1033643",
+   "Shejbalová Tereza",
+   "LTC Pardubice",
    "H"
   ],
   [
@@ -10701,6 +11194,12 @@
    "H"
   ],
   [
+   "1047326",
+   "Bukalová Adriana",
+   "SK Tenis Tišnov",
+   "H"
+  ],
+  [
    "1045652",
    "Hujíková Agáta",
    "TK Zlín",
@@ -10763,6 +11262,12 @@
    "H"
   ],
   [
+   "1052865",
+   "Sedláčková Sára",
+   "TK Milo Olomouc",
+   "H"
+  ],
+  [
    "1052843",
    "Macura Nela",
    "TK SC OSTRAVA",
@@ -10772,6 +11277,12 @@
    "1053448",
    "Hájková Laura",
    "SKT Frýdlant n.O.",
+   "H"
+  ],
+  [
+   "1039697",
+   "Žáčková Kamila",
+   "TK Milo Olomouc",
    "H"
   ],
   [
@@ -11011,6 +11522,12 @@
    "H"
   ],
   [
+   "1037616",
+   "Linhart Adam",
+   "Sportovní centrum Linhart",
+   "H"
+  ],
+  [
    "1039887",
    "Mlčůch Martin",
    "Start Brno",
@@ -11245,6 +11762,12 @@
    "H"
   ],
   [
+   "1048259",
+   "Plecitý Vít",
+   "Lokomotiva Beroun",
+   "H"
+  ],
+  [
    "1055283",
    "Apltauer Jan",
    "TSM Sokol Vysočany z.s.",
@@ -11433,6 +11956,12 @@
    "H"
   ],
   [
+   "1054273",
+   "Veitz František",
+   "SK Aritma Praha",
+   "H"
+  ],
+  [
    "1064699",
    "Hádlík Tibor",
    "TJ Slavoj Velké Pavlovice",
@@ -11475,12 +12004,6 @@
    "H"
   ],
   [
-   "1057930",
-   "Cikánek František",
-   "SK Tenis Tišnov",
-   "H"
-  ],
-  [
    "1063245",
    "Voldřich Vojtěch",
    "SK Tenis Tišnov",
@@ -11491,6 +12014,12 @@
    "Kubizňák Šimon",
    "SK Tenis Tišnov",
    "H"
+  ],
+  [
+   "1057930",
+   "Cikánek František",
+   "SK Tenis Tišnov",
+   "O"
   ]
  ],
  "306002": [
@@ -11519,9 +12048,21 @@
    "H"
   ],
   [
+   "1054655",
+   "Výtisk Josef",
+   "TJ Sokol Dolní Lhota",
+   "H"
+  ],
+  [
    "1047924",
    "Orság Štěpán",
    "Rožnovský tenisový klub",
+   "H"
+  ],
+  [
+   "1053979",
+   "Kubík Kryštof",
+   "SKT Frýdlant n.O.",
    "H"
   ],
   [
@@ -11677,6 +12218,12 @@
    "H"
   ],
   [
+   "1055188",
+   "Boček Matyáš",
+   "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
    "1042983",
    "Gerišer David",
    "TO TJ Svitavy",
@@ -11710,6 +12257,12 @@
    "1056787",
    "Rázga Lukáš",
    "TJ Solidarita Praha 10",
+   "H"
+  ],
+  [
+   "1050144",
+   "Kindl Samuel",
+   "TJ Lázně Bělohrad",
    "H"
   ],
   [
@@ -11883,15 +12436,39 @@
    "H"
   ],
   [
+   "1035857",
+   "Brettl Tobiáš",
+   "LOB S.A. Bohnice, z.s.",
+   "H"
+  ],
+  [
    "1048190",
    "Macák Milan",
    "TK SK Kladno, z.s.",
    "H"
   ],
   [
+   "1048259",
+   "Plecitý Vít",
+   "Lokomotiva Beroun",
+   "H"
+  ],
+  [
+   "1058275",
+   "Tvrdý Patrik",
+   "TK PTA Kolín",
+   "H"
+  ],
+  [
    "1052909",
    "Cecava Patrick",
    "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
+   "1050003",
+   "Nováček Jan Bořivoj",
+   "I.ČLTK Praha",
    "H"
   ],
   [
@@ -11970,6 +12547,12 @@
    "1052182",
    "Elsnic Petr",
    "TK Most",
+   "H"
+  ],
+  [
+   "1055906",
+   "Dvořák Jan",
+   "TK Sparta Praha",
    "H"
   ],
   [
@@ -12118,7 +12701,14 @@
   ]
  ],
  "306009": [],
- "306010": [],
+ "306010": [
+  [
+   "1065522",
+   "Kučera Ondřej",
+   "TJ Kraví Hora Brno",
+   "H"
+  ]
+ ],
  "306011": [
   [
    "1052608",
@@ -12213,6 +12803,12 @@
    "H"
   ],
   [
+   "1053365",
+   "Toman Oliver",
+   "LTC Mladá Boleslav z.s.",
+   "H"
+  ],
+  [
    "1071528",
    "Banýr David",
    "TJ LTC Poděbrady",
@@ -12253,6 +12849,12 @@
    "Ibrahim Adam Mohammed Sadek (Z)",
    "Pála Vízner Tennis z.s.",
    "H"
+  ],
+  [
+   "1054273",
+   "Veitz František",
+   "SK Aritma Praha",
+   "O"
   ]
  ],
  "306013": [
@@ -12472,10 +13074,22 @@
    "H"
   ],
   [
+   "1054086",
+   "Říha Marek",
+   "TK SPORTCENTRUM Mladá Boleslav",
+   "H"
+  ],
+  [
    "1057477",
    "Černý Lukáš",
    "TCM Dubeč, z.s.",
    "H"
+  ],
+  [
+   "1061409",
+   "Švejda Jan",
+   "TK Milevsko, z.s.",
+   "O"
   ]
  ],
  "306017": [
@@ -12779,6 +13393,12 @@
    "1055834",
    "Pronco Daniel",
    "TENIS-CENTRUM DTJ HK",
+   "H"
+  ],
+  [
+   "1054086",
+   "Říha Marek",
+   "TK SPORTCENTRUM Mladá Boleslav",
    "H"
   ],
   [
@@ -13150,6 +13770,12 @@
    "H"
   ],
   [
+   "1055736",
+   "Pšeničný Dmitrij",
+   "I.ČLTK Praha",
+   "H"
+  ],
+  [
    "1039887",
    "Mlčůch Martin",
    "Start Brno",
@@ -13213,6 +13839,12 @@
    "1045116",
    "Jastrábek Vít",
    "TC Brno.",
+   "H"
+  ],
+  [
+   "1044622",
+   "Jedlička David",
+   "Tenis Dobříš",
    "H"
   ],
   [
@@ -13388,15 +14020,33 @@
  ],
  "306024": [
   [
+   "1044530",
+   "Dub Adam",
+   "TK Pelhřimov",
+   "H"
+  ],
+  [
    "1067708",
    "Valášek Jan",
    "TJ Blatná",
    "H"
   ],
   [
+   "1053365",
+   "Toman Oliver",
+   "LTC Mladá Boleslav z.s.",
+   "H"
+  ],
+  [
    "1069132",
    "Jůza Matěj",
    "TK Scentrum Benešov, z.s.",
+   "H"
+  ],
+  [
+   "1071291",
+   "Erben Matěj",
+   "TK DOMYNO P4, z.s.",
    "H"
   ],
   [
@@ -13412,9 +14062,21 @@
    "H"
   ],
   [
+   "1057517",
+   "Petrželka Šimon",
+   "TCD Donovalská",
+   "H"
+  ],
+  [
    "1061478",
    "Knobloch David",
    "TO Meziboří",
+   "H"
+  ],
+  [
+   "1058997",
+   "Dlask Jakub",
+   "TK Kadaň",
    "H"
   ],
   [
@@ -13442,6 +14104,12 @@
    "H"
   ],
   [
+   "1068387",
+   "Arce Vlk Edgard",
+   "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
    "1072513",
    "Muška Jonáš",
    "TK Hovorčovice",
@@ -13466,15 +14134,15 @@
    "H"
   ],
   [
-   "1067561",
-   "Matějka Václav",
-   "TK Spoje Praha, z.s.",
-   "O"
-  ],
-  [
    "1073971",
    "Bílý Vojtěch",
    "Tenisová škola SMEČ",
+   "O"
+  ],
+  [
+   "1067561",
+   "Matějka Václav",
+   "TK Spoje Praha, z.s.",
    "O"
   ]
  ],
@@ -13596,9 +14264,21 @@
    "H"
   ],
   [
+   "1053365",
+   "Toman Oliver",
+   "LTC Mladá Boleslav z.s.",
+   "H"
+  ],
+  [
    "1067502",
    "Moravec Boris",
    "TK Sparta Praha",
+   "H"
+  ],
+  [
+   "1068318",
+   "Hlásný Šimon",
+   "TK EMA o.s.",
    "H"
   ],
   [
@@ -13669,6 +14349,12 @@
    "1040091",
    "Krška Tomáš",
    "TJ Žďár nad Sázavou",
+   "H"
+  ],
+  [
+   "1065522",
+   "Kučera Ondřej",
+   "TJ Kraví Hora Brno",
    "H"
   ],
   [
@@ -13797,6 +14483,12 @@
    "1065179",
    "Matějka Pavel",
    "TK Spoje Praha, z.s.",
+   "H"
+  ],
+  [
+   "1057517",
+   "Petrželka Šimon",
+   "TCD Donovalská",
    "H"
   ],
   [
@@ -14036,6 +14728,12 @@
    "H"
   ],
   [
+   "1060140",
+   "Dvořák Tomáš",
+   "Slavoj Český Brod",
+   "H"
+  ],
+  [
    "1056128",
    "Doležal Ondřej",
    "Slavoj Český Brod",
@@ -14136,6 +14834,12 @@
    "H"
   ],
   [
+   "1039718",
+   "Jahelka Štěpán",
+   "Tenisový klub Eden HK",
+   "H"
+  ],
+  [
    "1055834",
    "Pronco Daniel",
    "TENIS-CENTRUM DTJ HK",
@@ -14199,6 +14903,12 @@
    "H"
   ],
   [
+   "1044622",
+   "Jedlička David",
+   "Tenis Dobříš",
+   "H"
+  ],
+  [
    "1060313",
    "Knoll Sebastian",
    "TENIS-CENTRUM DTJ HK",
@@ -14225,6 +14935,12 @@
   [
    "1055832",
    "Kubiska Arnošt",
+   "TK Pelhřimov",
+   "H"
+  ],
+  [
+   "1044530",
+   "Dub Adam",
    "TK Pelhřimov",
    "H"
   ],
@@ -14615,6 +15331,12 @@
    "1054164",
    "Rutar Antonín",
    "TK Mohelnice, z.s.",
+   "H"
+  ],
+  [
+   "1066601",
+   "Zapletal Jiří",
+   "TENIS SLOVÁCKO z.s.",
    "H"
   ]
  ],
@@ -15454,6 +16176,12 @@
    "Špelda David",
    "Tenisový klub Červený Kostelec, z.s.",
    "H"
+  ],
+  [
+   "1054164",
+   "Rutar Antonín",
+   "TK Mohelnice, z.s.",
+   "H"
   ]
  ],
  "306094": [
@@ -15512,6 +16240,12 @@
  "306097": [],
  "306098": [
   [
+   "1045250",
+   "Kouba Dominik",
+   "TO Sokol Nehvizdy",
+   "H"
+  ],
+  [
    "1048907",
    "Hrstka Mikuláš",
    "TO Sokol Nehvizdy",
@@ -15539,6 +16273,12 @@
    "1059996",
    "Beneš Adam",
    "TO Sokol Nehvizdy",
+   "H"
+  ],
+  [
+   "1056320",
+   "Bartízal Jakub",
+   "TK Holice",
    "H"
   ]
  ],
@@ -15591,7 +16331,14 @@
    "H"
   ]
  ],
- "306103": [],
+ "306103": [
+  [
+   "1039718",
+   "Jahelka Štěpán",
+   "Tenisový klub Eden HK",
+   "H"
+  ]
+ ],
  "306104": [
   [
    "1065179",
@@ -15803,6 +16550,12 @@
    "H"
   ],
   [
+   "1063139",
+   "Korolskyi Volodymyr (Z)",
+   "TSM Sokol Vysočany z.s.",
+   "H"
+  ],
+  [
    "1055188",
    "Boček Matyáš",
    "Pliskova Tennis Academy-Říčany",
@@ -15938,6 +16691,12 @@
  ],
  "306127": [],
  "306128": [
+  [
+   "1052349",
+   "Pertlíček Daniel",
+   "TK Sparta Praha",
+   "H"
+  ],
   [
    "1075474",
    "Lískovec Šimon",
@@ -16313,6 +17072,12 @@
    "Matějka Pavel",
    "TK Spoje Praha, z.s.",
    "H"
+  ],
+  [
+   "1056320",
+   "Bartízal Jakub",
+   "TK Holice",
+   "H"
   ]
  ],
  "306159": [
@@ -16358,6 +17123,12 @@
    "Tvrdý Patrik",
    "TK PTA Kolín",
    "H"
+  ],
+  [
+   "1053979",
+   "Kubík Kryštof",
+   "SKT Frýdlant n.O.",
+   "H"
   ]
  ],
  "306164": [],
@@ -16378,7 +17149,20 @@
    "H"
   ]
  ],
- "306168": [],
+ "306168": [
+  [
+   "1056320",
+   "Bartízal Jakub",
+   "TK Holice",
+   "H"
+  ],
+  [
+   "1077551",
+   "Háněl Aleš",
+   "TC SANITINO Academy, z.s.",
+   "H"
+  ]
+ ],
  "306169": [
   [
    "1057131",
@@ -16923,6 +17707,12 @@
    "H"
   ],
   [
+   "1047192",
+   "Radová Sofie",
+   "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
    "1048977",
    "Kučerová Eliška",
    "TC Brno.",
@@ -17283,6 +18073,12 @@
    "H"
   ],
   [
+   "1059755",
+   "Hrazdílková Eliška",
+   "SK Vitality Slezsko o.s.",
+   "H"
+  ],
+  [
    "1054771",
    "Kubíková Kateřina",
    "I.ČLTK Praha",
@@ -17619,6 +18415,12 @@
    "H"
   ],
   [
+   "1053432",
+   "Krčková Klára",
+   "ŽLTC Brno",
+   "H"
+  ],
+  [
    "1048930",
    "Sedláková Denisa",
    "TK Znojmo",
@@ -17634,6 +18436,12 @@
    "1050045",
    "Suchomelová Amálie",
    "Tenisový klub Šternberk, z.s.",
+   "H"
+  ],
+  [
+   "1060678",
+   "Dolanská Kateřina",
+   "ŽLTC Brno",
    "H"
   ],
   [
@@ -17671,12 +18479,6 @@
    "Rešovská Daniela (Z)",
    "SKT Frýdlant n.O.",
    "H"
-  ],
-  [
-   "1060678",
-   "Dolanská Kateřina",
-   "ŽLTC Brno",
-   "O"
   ]
  ],
  "406004": [
@@ -17791,6 +18593,12 @@
    "H"
   ],
   [
+   "1066570",
+   "Šperková Amálie",
+   "TENIS-CENTRUM DTJ HK",
+   "H"
+  ],
+  [
    "1066528",
    "Kühnová Zuzana",
    "TK Roudnice n.L.",
@@ -17859,15 +18667,15 @@
  ],
  "406006": [
   [
-   "1073098",
-   "Malcová Viktorie",
-   "SK Tenis Tišnov",
-   "H"
-  ],
-  [
    "1056205",
    "Zdražilová Julie",
    "ŽLTC Brno",
+   "O"
+  ],
+  [
+   "1073098",
+   "Malcová Viktorie",
+   "SK Tenis Tišnov",
    "O"
   ]
  ],
@@ -17948,6 +18756,12 @@
    "1045602",
    "Čižinská Emma",
    "TK SPORTCENTRUM Mladá Boleslav",
+   "H"
+  ],
+  [
+   "1055122",
+   "Vanková Michaela",
+   "LOB S.A. Bohnice, z.s.",
    "H"
   ],
   [
@@ -18033,12 +18847,6 @@
    "H"
   ],
   [
-   "1048930",
-   "Sedláková Denisa",
-   "TK Znojmo",
-   "H"
-  ],
-  [
    "1059059",
    "Horňáková Eliška",
    "TK Ruzyně Praha",
@@ -18075,6 +18883,12 @@
    "H"
   ],
   [
+   "1053468",
+   "Růžičková Emma",
+   "Tenisový klub KONSTRUKTIVA, z.s.",
+   "H"
+  ],
+  [
    "1053213",
    "Volodina Sofiia (Z)",
    "TC ESO Praha z.s.",
@@ -18084,6 +18898,12 @@
    "1057029",
    "Novická Klára",
    "TK Spoje Praha, z.s.",
+   "H"
+  ],
+  [
+   "1055778",
+   "Tomšíková Aneta",
+   "TopTennis Xaverov s.r.o.",
    "H"
   ],
   [
@@ -18114,6 +18934,12 @@
    "1056109",
    "Balínová Eliška",
    "TK Lokomotiva Plzeň z.s.",
+   "O"
+  ],
+  [
+   "1048930",
+   "Sedláková Denisa",
+   "TK Znojmo",
    "O"
   ]
  ],
@@ -18203,6 +19029,12 @@
    "H"
   ],
   [
+   "1066570",
+   "Šperková Amálie",
+   "TENIS-CENTRUM DTJ HK",
+   "H"
+  ],
+  [
    "1068247",
    "Kořínková Adéla",
    "Sportcentrum Uhříněves",
@@ -18264,6 +19096,12 @@
    "1039981",
    "Krejčová Kateřina",
    "TC Dvůr Králové, z.s.",
+   "H"
+  ],
+  [
+   "1063662",
+   "Zralá Natálie",
+   "Tenisová škola Lucie Hradecké z.s.",
    "H"
   ],
   [
@@ -18415,6 +19253,12 @@
    "H"
   ],
   [
+   "1057284",
+   "Ševčíková Anna",
+   "TJ Sokol Dolní Lhota",
+   "H"
+  ],
+  [
    "1063377",
    "Lušovská Natálie",
    "Rožnovský tenisový klub",
@@ -18448,6 +19292,12 @@
    "H"
   ],
   [
+   "1057311",
+   "Fialová Tereza",
+   "Tenis Klub Strakonice, spolek",
+   "H"
+  ],
+  [
    "1052858",
    "Phillipová Denisa",
    "SK Štětí",
@@ -18478,8 +19328,26 @@
    "H"
   ],
   [
+   "1063662",
+   "Zralá Natálie",
+   "Tenisová škola Lucie Hradecké z.s.",
+   "H"
+  ],
+  [
+   "1055439",
+   "Huňáčková Nikol",
+   "TK Horní Měcholupy",
+   "H"
+  ],
+  [
    "1062663",
    "Hašková Jana Anna",
+   "TK Horní Měcholupy",
+   "H"
+  ],
+  [
+   "1054339",
+   "Červenková Eliška",
    "TK Horní Měcholupy",
    "H"
   ],
@@ -18578,6 +19446,12 @@
    "H"
   ],
   [
+   "1043476",
+   "Marešová Anna",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1055259",
    "Janoušková Karolína",
    "LTC Houštka",
@@ -18605,6 +19479,12 @@
    "1045602",
    "Čižinská Emma",
    "TK SPORTCENTRUM Mladá Boleslav",
+   "H"
+  ],
+  [
+   "1055122",
+   "Vanková Michaela",
+   "LOB S.A. Bohnice, z.s.",
    "H"
   ],
   [
@@ -18858,6 +19738,12 @@
  ],
  "406020": [
   [
+   "1049426",
+   "Cenklová Adriana",
+   "TJ Břevnov",
+   "H"
+  ],
+  [
    "1050442",
    "Kotová Sofie",
    "TENIS-CENTRUM DTJ HK",
@@ -18879,6 +19765,12 @@
    "1048812",
    "Latislavová Tereza",
    "LTC VITON České Budějovice,z.s.",
+   "H"
+  ],
+  [
+   "1047152",
+   "Střihavková Nela",
+   "LTC Slovan Kladno",
    "H"
   ],
   [
@@ -19638,6 +20530,12 @@
    "H"
   ],
   [
+   "1066082",
+   "Bukorová Iva",
+   "SK Véska",
+   "H"
+  ],
+  [
    "1070733",
    "Raymonds Emily Oluchi (Z)",
    "Sokol Lanžhot",
@@ -19898,6 +20796,12 @@
    "H"
   ],
   [
+   "1048036",
+   "Blanická Stella",
+   "TK Doksy",
+   "H"
+  ],
+  [
    "1051751",
    "Hrubá Michaela",
    "Tenisový klub Eden HK",
@@ -19907,6 +20811,12 @@
    "1056475",
    "Kovandová Veronika",
    "TK Sparta Praha",
+   "H"
+  ],
+  [
+   "1069250",
+   "Halamová Josefina",
+   "TK Doksy",
    "H"
   ],
   [
@@ -20016,9 +20926,21 @@
    "H"
   ],
   [
+   "1055122",
+   "Vanková Michaela",
+   "LOB S.A. Bohnice, z.s.",
+   "H"
+  ],
+  [
    "1052345",
    "Čižinská Mia",
    "TK SPORTCENTRUM Mladá Boleslav",
+   "H"
+  ],
+  [
+   "1062622",
+   "Holejšovská Julie",
+   "I.ČLTK Praha",
    "H"
   ],
   [
@@ -20462,6 +21384,12 @@
    "H"
   ],
   [
+   "1066082",
+   "Bukorová Iva",
+   "SK Véska",
+   "H"
+  ],
+  [
    "1055577",
    "Záhumenská Viktorie",
    "TK Opava",
@@ -20514,6 +21442,12 @@
    "H"
   ],
   [
+   "1050045",
+   "Suchomelová Amálie",
+   "Tenisový klub Šternberk, z.s.",
+   "H"
+  ],
+  [
    "1064017",
    "Horehleďová Julie",
    "TJ Sokol Uherský Brod",
@@ -20529,6 +21463,12 @@
    "1055652",
    "Dostálová Erika",
    "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
+   "1066082",
+   "Bukorová Iva",
+   "SK Véska",
    "H"
   ],
   [
@@ -20760,6 +21700,12 @@
    "H"
   ],
   [
+   "1050045",
+   "Suchomelová Amálie",
+   "Tenisový klub Šternberk, z.s.",
+   "H"
+  ],
+  [
    "1055420",
    "Sehnalová Klára",
    "TENIS SLOVÁCKO z.s.",
@@ -20781,6 +21727,12 @@
    "1055652",
    "Dostálová Erika",
    "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
+   "1066082",
+   "Bukorová Iva",
+   "SK Véska",
    "H"
   ],
   [
@@ -20815,6 +21767,12 @@
    "1060219",
    "Skopcová Klára",
    "Lokomotiva Nymburk",
+   "H"
+  ],
+  [
+   "1070106",
+   "Suková Sophie",
+   "TC ESO Praha z.s.",
    "H"
   ],
   [
@@ -21106,6 +22064,12 @@
    "1053038",
    "Hugová Kateřina",
    "Sportovní klub LTC Modřany 2005 z.s.",
+   "H"
+  ],
+  [
+   "1060206",
+   "Karlíková Magdalena",
+   "CTA Rudná",
    "H"
   ]
  ],
@@ -21502,6 +22466,12 @@
    "H"
   ],
   [
+   "1049426",
+   "Cenklová Adriana",
+   "TJ Břevnov",
+   "H"
+  ],
+  [
    "1046075",
    "Filipi Dominika",
    "SK Tenis Tišnov",
@@ -21793,6 +22763,12 @@
    "Čiliaková Ellisa Charlotte",
    "TK SC OSTRAVA",
    "H"
+  ],
+  [
+   "1069048",
+   "Martinková Karla",
+   "TC Třinec",
+   "H"
   ]
  ],
  "406089": [
@@ -21955,6 +22931,30 @@
    "H"
   ],
   [
+   "1039452",
+   "Skořepová Isabela",
+   "TK Znojmo",
+   "H"
+  ],
+  [
+   "1052843",
+   "Macura Nela",
+   "TK SC OSTRAVA",
+   "H"
+  ],
+  [
+   "1063049",
+   "Najdekrová Julie",
+   "ŽLTC Brno",
+   "H"
+  ],
+  [
+   "1049764",
+   "Pulcerová Klaudie",
+   "TK SC OSTRAVA",
+   "H"
+  ],
+  [
    "1060113",
    "Fabíková Nikol",
    "SKT Frýdlant n.O.",
@@ -22000,6 +23000,12 @@
    "1055652",
    "Dostálová Erika",
    "TK AGROFERT Prostějov",
+   "O"
+  ],
+  [
+   "1051344",
+   "Kudelová Viktorie",
+   "TJ Start Ostrava - Poruba, z.s.",
    "O"
   ]
  ],
@@ -23119,6 +24125,12 @@
    "H"
   ],
   [
+   "1073688",
+   "Tomblin Isabella Catherine Rose",
+   "TJ Solidarita Praha 10",
+   "H"
+  ],
+  [
    "1069908",
    "Minaříková Anna",
    "Tenisový klub Mníšek",
@@ -23196,6 +24208,12 @@
    "1070106",
    "Suková Sophie",
    "TC ESO Praha z.s.",
+   "H"
+  ],
+  [
+   "1073688",
+   "Tomblin Isabella Catherine Rose",
+   "TJ Solidarita Praha 10",
    "H"
   ],
   [
@@ -23283,6 +24301,12 @@
    "1057493",
    "Pávková Marie Anna",
    "LTC Český Krumlov",
+   "H"
+  ],
+  [
+   "1052634",
+   "Kavenská Nela",
+   "SK Matchball Česká Lípa",
    "H"
   ],
   [
@@ -24033,6 +25057,12 @@
    "H"
   ],
   [
+   "1055544",
+   "Haišman Jaroslav Václav",
+   "TK Lokomotiva Plzeň z.s.",
+   "H"
+  ],
+  [
    "1061922",
    "Orálek Adam",
    "TJ Spartak Polička",
@@ -24080,6 +25110,12 @@
    "1062651",
    "Salák Petr",
    "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
+   "1064733",
+   "Chaloupka Jakub",
+   "CTA Rudná",
    "H"
   ],
   [
@@ -24445,12 +25481,6 @@
    "H"
   ],
   [
-   "1066601",
-   "Zapletal Jiří",
-   "TENIS SLOVÁCKO z.s.",
-   "H"
-  ],
-  [
    "1069692",
    "Nevřela Matouš",
    "TJ Start Ostrava - Poruba, z.s.",
@@ -24496,6 +25526,12 @@
    "1055873",
    "Janák Matěj",
    "TK Na Dolině o.s.",
+   "O"
+  ],
+  [
+   "1066601",
+   "Zapletal Jiří",
+   "TENIS SLOVÁCKO z.s.",
    "O"
   ]
  ],
@@ -24608,6 +25644,12 @@
    "1062064",
    "Samek Jakub",
    "TK Kadaň",
+   "H"
+  ],
+  [
+   "1064733",
+   "Chaloupka Jakub",
+   "CTA Rudná",
    "H"
   ],
   [
@@ -24793,6 +25835,12 @@
  ],
  "506006": [
   [
+   "1054036",
+   "Plecitý Vilém",
+   "I.ČLTK Praha",
+   "H"
+  ],
+  [
    "1055906",
    "Dvořák Jan",
    "TK Sparta Praha",
@@ -24844,6 +25892,12 @@
    "1056089",
    "Zedník Richard Jan",
    "Sportovní klub LTC Modřany 2005 z.s.",
+   "H"
+  ],
+  [
+   "1064733",
+   "Chaloupka Jakub",
+   "CTA Rudná",
    "H"
   ],
   [
@@ -24993,6 +26047,12 @@
    "H"
   ],
   [
+   "1064085",
+   "Hegr Martin",
+   "TENIS SLOVÁCKO z.s.",
+   "H"
+  ],
+  [
    "1073494",
    "Bergman Max",
    "TK Zlín",
@@ -25054,6 +26114,12 @@
    "1061728",
    "Staněk Filip",
    "TO TJ Tesla Pardubice",
+   "H"
+  ],
+  [
+   "1059565",
+   "Krsička Filip",
+   "TK Ústí n. Orlicí",
    "H"
   ],
   [
@@ -25145,6 +26211,12 @@
    "H"
   ],
   [
+   "1055423",
+   "Šturala Robin",
+   "TK DEZA Valašské Meziříčí",
+   "H"
+  ],
+  [
    "1060550",
    "Precektor Zbyněk",
    "TK PRECHEZA Přerov o.s.",
@@ -25175,9 +26247,21 @@
    "H"
   ],
   [
+   "1066601",
+   "Zapletal Jiří",
+   "TENIS SLOVÁCKO z.s.",
+   "H"
+  ],
+  [
    "1063179",
    "Vraj Vojtěch",
    "Tenis Nový Jičín,z.s.",
+   "H"
+  ],
+  [
+   "1064085",
+   "Hegr Martin",
+   "TENIS SLOVÁCKO z.s.",
    "H"
   ],
   [
@@ -25320,6 +26404,12 @@
    "1063178",
    "Vilímek Petr",
    "TK Čáslav",
+   "H"
+  ],
+  [
+   "1067607",
+   "Golovin Aleksandr (Z)",
+   "TK Sparta Praha",
    "H"
   ],
   [
@@ -25629,6 +26719,12 @@
    "H"
   ],
   [
+   "1056011",
+   "Chmelař Mikuláš",
+   "Tenisový klub Vnorovy, z.s.",
+   "H"
+  ],
+  [
    "1064356",
    "Hloušek Michal Zdeněk",
    "TC-MJ TENIS Líšeň",
@@ -25673,6 +26769,12 @@
   [
    "1066601",
    "Zapletal Jiří",
+   "TENIS SLOVÁCKO z.s.",
+   "H"
+  ],
+  [
+   "1064085",
+   "Hegr Martin",
    "TENIS SLOVÁCKO z.s.",
    "H"
   ]
@@ -25877,6 +26979,18 @@
    "H"
   ],
   [
+   "1060531",
+   "Mifka Adam",
+   "LTC Houštka",
+   "H"
+  ],
+  [
+   "1058429",
+   "Poláček Jan",
+   "TJ Břevnov",
+   "H"
+  ],
+  [
    "1059461",
    "Stalčík Jakub",
    "TENIS SLOVÁCKO z.s.",
@@ -25907,12 +27021,6 @@
    "H"
   ],
   [
-   "1055544",
-   "Haišman Jaroslav Václav",
-   "TK Lokomotiva Plzeň z.s.",
-   "H"
-  ],
-  [
    "1060894",
    "HONČL Oskar",
    "SK HAMR, z.s.",
@@ -25928,6 +27036,12 @@
    "1058089",
    "Gorecký Pavel Levi",
    "I.ČLTK Praha",
+   "O"
+  ],
+  [
+   "1055544",
+   "Haišman Jaroslav Václav",
+   "TK Lokomotiva Plzeň z.s.",
    "O"
   ]
  ],
@@ -26247,7 +27361,32 @@
    "H"
   ]
  ],
- "506032": [],
+ "506032": [
+  [
+   "1073126",
+   "Curila Oliver",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1066251",
+   "Knoll Vojta",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1068351",
+   "Pěknic Daniel",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1072852",
+   "Tomíček Zdeněk",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ]
+ ],
  "506033": [
   [
    "1058089",
@@ -26482,15 +27621,21 @@
    "H"
   ],
   [
-   "1061234",
-   "Juránek Kryštof",
-   "TC ESO Praha z.s.",
+   "1055470",
+   "Jurman Dominik",
+   "SK HAMR, z.s.",
    "H"
   ],
   [
    "1067261",
    "Pěchota Miroslav",
    "TK Lokomotiva Plzeň z.s.",
+   "O"
+  ],
+  [
+   "1061234",
+   "Juránek Kryštof",
+   "TC ESO Praha z.s.",
    "O"
   ]
  ],
@@ -26525,6 +27670,12 @@
    "Kovář Martin",
    "Pála Vízner Tennis z.s.",
    "H"
+  ],
+  [
+   "1064085",
+   "Hegr Martin",
+   "TENIS SLOVÁCKO z.s.",
+   "O"
   ]
  ],
  "506041": [
@@ -27004,6 +28155,12 @@
    "Hartman Sebastien",
    "TK Holice",
    "H"
+  ],
+  [
+   "1059565",
+   "Krsička Filip",
+   "TK Ústí n. Orlicí",
+   "H"
   ]
  ],
  "506053": [
@@ -27120,7 +28277,14 @@
    "H"
   ]
  ],
- "506056": [],
+ "506056": [
+  [
+   "1054630",
+   "Zajíc Tomáš",
+   "Tenis DLI Kladno",
+   "H"
+  ]
+ ],
  "506057": [
   [
    "1073126",
@@ -27779,6 +28943,12 @@
    "Kozák Jan",
    "Tenisový klub Benátky nad Jizerou",
    "H"
+  ],
+  [
+   "1066601",
+   "Zapletal Jiří",
+   "TENIS SLOVÁCKO z.s.",
+   "O"
   ]
  ],
  "506079": [
@@ -27874,6 +29044,12 @@
    "H"
   ],
   [
+   "1066601",
+   "Zapletal Jiří",
+   "TENIS SLOVÁCKO z.s.",
+   "H"
+  ],
+  [
    "1064085",
    "Hegr Martin",
    "TENIS SLOVÁCKO z.s.",
@@ -27902,12 +29078,6 @@
    "Eim Josef",
    "TK Vyškov",
    "H"
-  ],
-  [
-   "1066601",
-   "Zapletal Jiří",
-   "TENIS SLOVÁCKO z.s.",
-   "O"
   ]
  ],
  "506084": [],
@@ -27993,6 +29163,12 @@
    "1064524",
    "Nakládal Samuel",
    "TK Pernštýn 1897 Pardubice",
+   "H"
+  ],
+  [
+   "1068620",
+   "Křepinský František",
+   "SK HIT Hradec Králové z.s.",
    "H"
   ]
  ],
@@ -29078,6 +30254,12 @@
    "H"
   ],
   [
+   "1066601",
+   "Zapletal Jiří",
+   "TENIS SLOVÁCKO z.s.",
+   "H"
+  ],
+  [
    "1063179",
    "Vraj Vojtěch",
    "Tenis Nový Jičín,z.s.",
@@ -29735,6 +30917,12 @@
    "H"
   ],
   [
+   "1064085",
+   "Hegr Martin",
+   "TENIS SLOVÁCKO z.s.",
+   "H"
+  ],
+  [
    "1056322",
    "Ujec Tobias",
    "TK AGROFERT Prostějov",
@@ -30222,6 +31410,12 @@
    "H"
   ],
   [
+   "1055423",
+   "Šturala Robin",
+   "TK DEZA Valašské Meziříčí",
+   "H"
+  ],
+  [
    "1057621",
    "Gajdica Robin",
    "SK Vitality Slezsko o.s.",
@@ -30234,6 +31428,12 @@
    "H"
   ],
   [
+   "1061984",
+   "Fejfar Samuel",
+   "TK PRECHEZA Přerov o.s.",
+   "H"
+  ],
+  [
    "1066601",
    "Zapletal Jiří",
    "TENIS SLOVÁCKO z.s.",
@@ -30243,6 +31443,12 @@
    "1070468",
    "Kavka Jan",
    "Prime tennis club, z.s.",
+   "H"
+  ],
+  [
+   "1064085",
+   "Hegr Martin",
+   "TENIS SLOVÁCKO z.s.",
    "H"
   ],
   [
@@ -30428,12 +31634,6 @@
    "H"
   ],
   [
-   "1060447",
-   "Jamesová Anna-Lucia Fay",
-   "TENIS SLOVÁCKO z.s.",
-   "H"
-  ],
-  [
    "1064264",
    "Králíčková Nikola",
    "TJ Žďár nad Sázavou",
@@ -30497,6 +31697,18 @@
    "1064526",
    "Tomešová Andrea",
    "Slavoj Třešť",
+   "O"
+  ],
+  [
+   "1074281",
+   "Sasinka Ella",
+   "SK JC Sport Opava",
+   "O"
+  ],
+  [
+   "1060447",
+   "Jamesová Anna-Lucia Fay",
+   "TENIS SLOVÁCKO z.s.",
    "O"
   ]
  ],
@@ -30564,6 +31776,12 @@
    "H"
   ],
   [
+   "1049094",
+   "Gralton Cerys Alexandra",
+   "SK HIT Hradec Králové z.s.",
+   "H"
+  ],
+  [
    "1055639",
    "Pečonková Viola",
    "TK SC OSTRAVA",
@@ -30615,6 +31833,12 @@
    "1057586",
    "Riessová Natálie",
    "Tennis Hill Havířov o.s.",
+   "H"
+  ],
+  [
+   "1058267",
+   "Holanová Sofie",
+   "Pliskova Tennis Academy-Říčany",
    "H"
   ],
   [
@@ -30687,12 +31911,6 @@
    "1064017",
    "Horehleďová Julie",
    "TJ Sokol Uherský Brod",
-   "H"
-  ],
-  [
-   "1058156",
-   "Tománková Beáta",
-   "TK Zlín",
    "H"
   ],
   [
@@ -30771,6 +31989,12 @@
    "1062585",
    "Hryha Julie",
    "BLTC Brno",
+   "O"
+  ],
+  [
+   "1058156",
+   "Tománková Beáta",
+   "TK Zlín",
    "O"
   ]
  ],
@@ -31166,7 +32390,7 @@
   [
    "1073586",
    "Jůzová Jiřina",
-   "Sport club Berchtold, z.s.",
+   "TK Radošovice",
    "O"
   ]
  ],
@@ -31187,6 +32411,12 @@
    "1055820",
    "Šturmová Lilien",
    "TK PRECHEZA Přerov o.s.",
+   "H"
+  ],
+  [
+   "1049094",
+   "Gralton Cerys Alexandra",
+   "SK HIT Hradec Králové z.s.",
    "H"
   ],
   [
@@ -31214,6 +32444,12 @@
    "H"
   ],
   [
+   "1060729",
+   "Kardoš Karla",
+   "TC ESO Praha z.s.",
+   "H"
+  ],
+  [
    "1056141",
    "Bínová Natálie",
    "TK Slavia Plzeň",
@@ -31238,6 +32474,12 @@
    "H"
   ],
   [
+   "1055753",
+   "Čápová Victoria",
+   "TK Spoje Praha, z.s.",
+   "H"
+  ],
+  [
    "1064531",
    "Kožuská Ráchel",
    "I.ČLTK Praha",
@@ -31247,12 +32489,6 @@
    "1069346",
    "Hrbáčová Maya",
    "Tenisový klub KONSTRUKTIVA, z.s.",
-   "H"
-  ],
-  [
-   "1056358",
-   "Šlosrová Elena",
-   "Tenisový klub Černošice",
    "H"
   ],
   [
@@ -31283,6 +32519,12 @@
    "1062585",
    "Hryha Julie",
    "BLTC Brno",
+   "O"
+  ],
+  [
+   "1056358",
+   "Šlosrová Elena",
+   "Tenisový klub Černošice",
    "O"
   ]
  ],
@@ -31400,6 +32642,12 @@
    "H"
   ],
   [
+   "1068999",
+   "Urbanová Viktorie",
+   "TK Most",
+   "H"
+  ],
+  [
    "1060086",
    "Gyürke Ema",
    "LTC Tábor 1903",
@@ -31480,8 +32728,26 @@
  ],
  "606010": [
   [
+   "1071542",
+   "Norisová Sofie",
+   "BLTC Brno",
+   "H"
+  ],
+  [
+   "1066532",
+   "Kováčová Kamila",
+   "SK Tenis Tišnov",
+   "H"
+  ],
+  [
    "1064760",
    "Svobodová Valentýna",
+   "TC Brno.",
+   "H"
+  ],
+  [
+   "1063955",
+   "Vlčková Sofie",
    "TC Brno.",
    "H"
   ],
@@ -31495,6 +32761,12 @@
    "1059324",
    "Bartlová Ema",
    "Pašťa tenis, z.s.",
+   "H"
+  ],
+  [
+   "1069127",
+   "Zapletalová Michaela",
+   "Ravelin Tennis Club",
    "H"
   ],
   [
@@ -31595,6 +32867,12 @@
    "1064526",
    "Tomešová Andrea",
    "Slavoj Třešť",
+   "H"
+  ],
+  [
+   "1066532",
+   "Kováčová Kamila",
+   "SK Tenis Tišnov",
    "H"
   ],
   [
@@ -31773,6 +33051,12 @@
    "1067377",
    "Herma Julia (Z)",
    "SK Vitality Slezsko o.s.",
+   "H"
+  ],
+  [
+   "1074281",
+   "Sasinka Ella",
+   "SK JC Sport Opava",
    "H"
   ],
   [
@@ -32056,6 +33340,12 @@
    "H"
   ],
   [
+   "1064364",
+   "Vondrusová Milena",
+   "Tenis klub Jindřichův Hradec z.s.",
+   "H"
+  ],
+  [
    "1072346",
    "Mandlíková Lucie",
    "TC Chrudim z.s.",
@@ -32147,6 +33437,18 @@
    "1064570",
    "Hybnerová Kristýna",
    "TCG Karlovy Vary",
+   "H"
+  ],
+  [
+   "1064255",
+   "Horová Johana",
+   "LTC Houštka",
+   "H"
+  ],
+  [
+   "1064245",
+   "Fialová Kristýna",
+   "Tenis Klub Strakonice, spolek",
    "H"
   ],
   [
@@ -32303,6 +33605,12 @@
   ]
  ],
  "606020": [
+  [
+   "1060581",
+   "Kůsová Anna",
+   "TJ Brno-Komín",
+   "H"
+  ],
   [
    "1062585",
    "Hryha Julie",
@@ -32849,6 +34157,12 @@
    "H"
   ],
   [
+   "1074281",
+   "Sasinka Ella",
+   "SK JC Sport Opava",
+   "H"
+  ],
+  [
    "1057586",
    "Riessová Natálie",
    "Tennis Hill Havířov o.s.",
@@ -33243,7 +34557,7 @@
   [
    "1073586",
    "Jůzová Jiřina",
-   "Sport club Berchtold, z.s.",
+   "TK Radošovice",
    "H"
   ],
   [
@@ -33334,6 +34648,12 @@
    "1077377",
    "Rohozina Ahniia (Z)",
    "Tempo Praha",
+   "H"
+  ],
+  [
+   "1064992",
+   "Petrželková Adéla",
+   "TCD Donovalská",
    "H"
   ],
   [
@@ -33507,12 +34827,6 @@
    "H"
   ],
   [
-   "1069127",
-   "Zapletalová Michaela",
-   "Ravelin Tennis Club",
-   "H"
-  ],
-  [
    "1077713",
    "Danihelová Ela (Z)",
    "Sokol Lanžhot",
@@ -33535,6 +34849,12 @@
    "Janotková Lilien (Z)",
    "TENIS SLOVÁCKO z.s.",
    "H"
+  ],
+  [
+   "1069127",
+   "Zapletalová Michaela",
+   "Ravelin Tennis Club",
+   "O"
   ]
  ],
  "606035": [
@@ -33919,6 +35239,12 @@
    "H"
   ],
   [
+   "1061725",
+   "Taušnerová Veronika",
+   "Tenisklub Cheb",
+   "H"
+  ],
+  [
    "1063292",
    "Žemličková Emma",
    "TK Škoda Plzeň z.s.",
@@ -33928,6 +35254,12 @@
    "1065311",
    "Martincová Nicol",
    "TK Sokolov",
+   "H"
+  ],
+  [
+   "1061726",
+   "Taušnerová Monika",
+   "Tenisklub Cheb",
    "H"
   ],
   [
@@ -34143,6 +35475,12 @@
    "H"
   ],
   [
+   "1062622",
+   "Holejšovská Julie",
+   "I.ČLTK Praha",
+   "H"
+  ],
+  [
    "1061076",
    "Vrbatova Lilian",
    "LTC VITON České Budějovice,z.s.",
@@ -34188,6 +35526,12 @@
    "1060031",
    "Štrofová Kristýna",
    "Tenisový klub Eden HK",
+   "H"
+  ],
+  [
+   "1056358",
+   "Šlosrová Elena",
+   "Tenisový klub Černošice",
    "H"
   ],
   [
@@ -34243,9 +35587,21 @@
  ],
  "606048": [
   [
+   "1062622",
+   "Holejšovská Julie",
+   "I.ČLTK Praha",
+   "H"
+  ],
+  [
    "1058529",
    "Zajarošová Vanessa",
    "SKT Frýdlant n.O.",
+   "H"
+  ],
+  [
+   "1060256",
+   "Zedníková Amálie",
+   "TK Slavia Plzeň",
    "H"
   ],
   [
@@ -34264,6 +35620,12 @@
    "1058648",
    "Kostková Kateřina",
    "SK Vitality Slezsko o.s.",
+   "H"
+  ],
+  [
+   "1056358",
+   "Šlosrová Elena",
+   "Tenisový klub Černošice",
    "H"
   ],
   [
@@ -34300,6 +35662,12 @@
    "1070340",
    "Krejčová Laura",
    "TK Litvínov z.s.",
+   "H"
+  ],
+  [
+   "1067181",
+   "Válková Hana",
+   "TCEN Hrádek nad Nisou",
    "H"
   ]
  ],
@@ -35693,6 +37061,12 @@
  ],
  "606078": [
   [
+   "1056475",
+   "Kovandová Veronika",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1068247",
    "Kořínková Adéla",
    "Sportcentrum Uhříněves",
@@ -35708,6 +37082,12 @@
    "1065637",
    "Kašparová Adéla",
    "Nespin, z.s.",
+   "H"
+  ],
+  [
+   "1060517",
+   "Jahelková Anežka",
+   "TENIS-CENTRUM DTJ HK",
    "H"
   ],
   [
@@ -36082,7 +37462,44 @@
    "H"
   ]
  ],
- "606088": [],
+ "606088": [
+  [
+   "1068460",
+   "Gudelj Anita",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1061740",
+   "Švarcová Adina",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1073510",
+   "Fraňková Viktorie",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1065803",
+   "Panáčková Ema",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1068695",
+   "Černá Běla",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1070003",
+   "Kovaříková Stella",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ]
+ ],
  "606089": [],
  "606090": [
   [
@@ -37326,9 +38743,27 @@
    "H"
   ],
   [
+   "1059985",
+   "Freylichová Aneta",
+   "SK HIT Hradec Králové z.s.",
+   "H"
+  ],
+  [
+   "1055947",
+   "Slobodová Markéta",
+   "SK HAMR, z.s.",
+   "H"
+  ],
+  [
    "1062585",
    "Hryha Julie",
    "BLTC Brno",
+   "H"
+  ],
+  [
+   "1062622",
+   "Holejšovská Julie",
+   "I.ČLTK Praha",
    "H"
   ],
   [
@@ -37997,7 +39432,38 @@
    "H"
   ]
  ],
- "606143": [],
+ "606143": [
+  [
+   "1061740",
+   "Švarcová Adina",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1073510",
+   "Fraňková Viktorie",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1065803",
+   "Panáčková Ema",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1068695",
+   "Černá Běla",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
+   "1070003",
+   "Kovaříková Stella",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ]
+ ],
  "606144": [
   [
    "1055877",
@@ -38380,6 +39846,12 @@
    "H"
   ],
   [
+   "1061458",
+   "Šedinová Lucie",
+   "TK Mohelnice, z.s.",
+   "H"
+  ],
+  [
    "1071071",
    "Vařeková Kristýna",
    "TO TJ Tesla Pardubice",
@@ -38738,6 +40210,12 @@
  ],
  "606167": [],
  "606168": [
+  [
+   "1055947",
+   "Slobodová Markéta",
+   "SK HAMR, z.s.",
+   "H"
+  ],
   [
    "1062622",
    "Holejšovská Julie",
@@ -39588,9 +41066,21 @@
    "H"
   ],
   [
+   "1060581",
+   "Kůsová Anna",
+   "TJ Brno-Komín",
+   "H"
+  ],
+  [
    "1062422",
    "Ševčíková Beáta",
    "TK DEZA Valašské Meziříčí",
+   "H"
+  ],
+  [
+   "1074281",
+   "Sasinka Ella",
+   "SK JC Sport Opava",
    "H"
   ],
   [
@@ -39636,10 +41126,10 @@
    "H"
   ],
   [
-   "1060581",
-   "Kůsová Anna",
-   "TJ Brno-Komín",
-   "O"
+   "1061458",
+   "Šedinová Lucie",
+   "TK Mohelnice, z.s.",
+   "H"
   ]
  ],
  "706000": [
@@ -39765,6 +41255,12 @@
   ]
  ],
  "706001": [
+  [
+   "1061934",
+   "Svozílek Luka",
+   "TK Zlín",
+   "H"
+  ],
   [
    "1066169",
    "Bednář Martin",
@@ -40176,12 +41672,6 @@
    "H"
   ],
   [
-   "1071256",
-   "Losnita Nataniel",
-   "LTK Liberec",
-   "H"
-  ],
-  [
    "1067262",
    "Brázdil Samuel",
    "Renáta Voráčová akademie, z.s.",
@@ -40276,6 +41766,12 @@
    "Kroupa Maxmilian",
    "Tenisový klub KONSTRUKTIVA, z.s.",
    "H"
+  ],
+  [
+   "1071256",
+   "Losnita Nataniel",
+   "LTK Liberec",
+   "O"
   ]
  ],
  "706003": [
@@ -40295,6 +41791,12 @@
    "1065884",
    "Trefil Šimon",
    "Tenis Nový Jičín,z.s.",
+   "H"
+  ],
+  [
+   "1061934",
+   "Svozílek Luka",
+   "TK Zlín",
    "H"
   ],
   [
@@ -40388,15 +41890,15 @@
    "H"
   ],
   [
-   "1074318",
-   "Siragusa Wiktor (Z)",
-   "SK Vitality Slezsko o.s.",
+   "1070249",
+   "Provazník Jakub",
+   "TC Ostrava Nová Ves",
    "H"
   ],
   [
-   "1072411",
-   "Pšurný Jakub",
-   "TK Zlín",
+   "1074318",
+   "Siragusa Wiktor (Z)",
+   "SK Vitality Slezsko o.s.",
    "H"
   ],
   [
@@ -40506,12 +42008,30 @@
    "Dvořák Bořivoj",
    "TK Bílovec",
    "O"
+  ],
+  [
+   "1072411",
+   "Pšurný Jakub",
+   "TK Zlín",
+   "O"
   ]
  ],
  "706004": [
   [
    "1065679",
    "Nadaire Dominik",
+   "TK Spartak Jihlava",
+   "H"
+  ],
+  [
+   "1061934",
+   "Svozílek Luka",
+   "TK Zlín",
+   "H"
+  ],
+  [
+   "1064519",
+   "Zapletal Matias",
    "TK Spartak Jihlava",
    "H"
   ],
@@ -40734,12 +42254,6 @@
    "H"
   ],
   [
-   "1068467",
-   "Krejza Adam",
-   "TCD Donovalská",
-   "H"
-  ],
-  [
    "1066159",
    "Erlebach Jan",
    "TO TJ Tesla Pardubice",
@@ -40834,6 +42348,12 @@
    "Procházka Viktor",
    "TK AGROFERT Prostějov",
    "H"
+  ],
+  [
+   "1068467",
+   "Krejza Adam",
+   "TCD Donovalská",
+   "O"
   ]
  ],
  "706006": [
@@ -40877,6 +42397,12 @@
    "1066368",
    "Mazač Danny",
    "TENIS-CENTRUM DTJ HK",
+   "H"
+  ],
+  [
+   "1058269",
+   "Doubek Václav",
+   "TK Sparta Praha",
    "H"
   ],
   [
@@ -41164,9 +42690,21 @@
    "H"
   ],
   [
+   "1068467",
+   "Krejza Adam",
+   "TCD Donovalská",
+   "H"
+  ],
+  [
    "1077115",
    "Mráz Jan",
    "TC 15 z.s.",
+   "H"
+  ],
+  [
+   "1076170",
+   "Pokorný Martin",
+   "Wilson tenis centrum z.s.",
    "H"
   ],
   [
@@ -41704,6 +43242,12 @@
    "H"
   ],
   [
+   "1061360",
+   "Poldauf Leonard",
+   "TK Olymp Praha",
+   "H"
+  ],
+  [
    "1067861",
    "Šrůtek Daniel",
    "TCEN Hrádek nad Nisou",
@@ -42072,6 +43616,12 @@
  ],
  "706014": [
   [
+   "1061934",
+   "Svozílek Luka",
+   "TK Zlín",
+   "H"
+  ],
+  [
    "1068105",
    "Devoty Theodore",
    "LTC Houštka",
@@ -42138,6 +43688,12 @@
    "H"
   ],
   [
+   "1065142",
+   "Šťastný Martin",
+   "Sokol Dolní Počernice z.s.",
+   "H"
+  ],
+  [
    "1062467",
    "Šeda Dominik",
    "Slavoj Litoměřice",
@@ -42171,12 +43727,6 @@
    "1066862",
    "Duda Matěj",
    "Tenisová škola Lucie Hradecké z.s.",
-   "H"
-  ],
-  [
-   "1071256",
-   "Losnita Nataniel",
-   "LTK Liberec",
    "H"
   ],
   [
@@ -42261,6 +43811,12 @@
    "1066953",
    "Marek Robin",
    "TO SK Mělník",
+   "O"
+  ],
+  [
+   "1071256",
+   "Losnita Nataniel",
+   "LTK Liberec",
    "O"
   ]
  ],
@@ -42448,6 +44004,12 @@
    "H"
   ],
   [
+   "1072087",
+   "Maixner Patrik",
+   "TK Dolní Dobrouč",
+   "H"
+  ],
+  [
    "1064440",
    "Vránek Lukáš",
    "Tenisový klub Havlíčkův Brod,z.s.",
@@ -42469,6 +44031,12 @@
    "1066159",
    "Erlebach Jan",
    "TO TJ Tesla Pardubice",
+   "H"
+  ],
+  [
+   "1067983",
+   "Kroulík Filip",
+   "TK Ústí n. Orlicí",
    "H"
   ],
   [
@@ -43187,6 +44755,12 @@
   ]
  ],
  "706020": [
+  [
+   "1070249",
+   "Provazník Jakub",
+   "TC Ostrava Nová Ves",
+   "H"
+  ],
   [
    "1072258",
    "Ševčík Oliver",
@@ -44582,6 +46156,12 @@
  ],
  "706030": [
   [
+   "1064240",
+   "Najdekr Filip",
+   "ŽLTC Brno",
+   "H"
+  ],
+  [
    "1062345",
    "Ambruzík Štěpán",
    "TJ Brno-Komín",
@@ -44826,9 +46406,21 @@
    "H"
   ],
   [
+   "1061984",
+   "Fejfar Samuel",
+   "TK PRECHEZA Přerov o.s.",
+   "H"
+  ],
+  [
    "1065474",
    "Kačena Bořek",
    "I.ČLTK Praha",
+   "H"
+  ],
+  [
+   "1066409",
+   "Műller Kryštof",
+   "LTC Houštka",
    "H"
   ],
   [
@@ -44883,6 +46475,12 @@
    "1062486",
    "Ouřetský Jonáš",
    "TK Choceň",
+   "H"
+  ],
+  [
+   "1060179",
+   "Javůrek Daniel",
+   "TJ Slovan Moravská Třebová,z.s.",
    "H"
   ],
   [
@@ -45716,6 +47314,12 @@
    "H"
   ],
   [
+   "1077115",
+   "Mráz Jan",
+   "TC 15 z.s.",
+   "H"
+  ],
+  [
    "1064935",
    "Horáček Sebastian",
    "LTK Bílina",
@@ -46240,12 +47844,6 @@
    "H"
   ],
   [
-   "1070223",
-   "Provazník Jaromír",
-   "TCG Karlovy Vary",
-   "H"
-  ],
-  [
    "1064674",
    "Hanuš Robin",
    "Tenisklub Cheb",
@@ -46256,6 +47854,12 @@
    "Kopún Jan",
    "Tenisklub Cheb",
    "H"
+  ],
+  [
+   "1070223",
+   "Provazník Jaromír",
+   "TCG Karlovy Vary",
+   "O"
   ]
  ],
  "706041": [
@@ -47100,6 +48704,12 @@
    "H"
   ],
   [
+   "1067753",
+   "Minster Albert",
+   "ŽLTC Brno",
+   "H"
+  ],
+  [
    "1067904",
    "Dvořák Bořivoj",
    "TK Bílovec",
@@ -47287,6 +48897,12 @@
    "1065016",
    "Šilar David",
    "TO SK Žamberk",
+   "H"
+  ],
+  [
+   "1072087",
+   "Maixner Patrik",
+   "TK Dolní Dobrouč",
    "H"
   ],
   [
@@ -48448,6 +50064,12 @@
    "Šafář Jiří",
    "I.ČLTK Praha",
    "H"
+  ],
+  [
+   "1074527",
+   "Krejza Marek",
+   "TCD Donovalská",
+   "H"
   ]
  ],
  "706057": [
@@ -48932,6 +50554,12 @@
    "H"
   ],
   [
+   "1058269",
+   "Doubek Václav",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1063690",
    "Kněbort Patrik",
    "LTK Liberec",
@@ -48989,6 +50617,12 @@
    "1071724",
    "Sipko Kristian",
    "TK Sparta Praha",
+   "H"
+  ],
+  [
+   "1075477",
+   "Týle David",
+   "TC 15 z.s.",
    "H"
   ],
   [
@@ -49067,6 +50701,12 @@
    "1068657",
    "Kroupa Maxmilian",
    "Tenisový klub KONSTRUKTIVA, z.s.",
+   "H"
+  ],
+  [
+   "1059071",
+   "Houdek Sebastian",
+   "TK Sparta Praha",
    "H"
   ]
  ],
@@ -49763,6 +51403,12 @@
    "1066368",
    "Mazač Danny",
    "TENIS-CENTRUM DTJ HK",
+   "H"
+  ],
+  [
+   "1058269",
+   "Doubek Václav",
+   "TK Sparta Praha",
    "H"
   ],
   [
@@ -50989,6 +52635,18 @@
    "1071702",
    "Tejzr Vojtěch",
    "TC BIOCEL Vratimov z.s.",
+   "H"
+  ],
+  [
+   "1072045",
+   "Franek Benedikt",
+   "TJ Baník Ostrava OKD",
+   "H"
+  ],
+  [
+   "1071777",
+   "Lindovský Richard",
+   "SK JC Sport Opava",
    "H"
   ],
   [
@@ -52576,6 +54234,12 @@
    "H"
   ],
   [
+   "1067149",
+   "Marek Matyáš",
+   "TJ LTC Poděbrady",
+   "H"
+  ],
+  [
    "1061850",
    "Kříž Theodor",
    "LTC Praha",
@@ -52621,6 +54285,12 @@
    "1070309",
    "Brindzej Jakub",
    "SK Tenis Kladno",
+   "H"
+  ],
+  [
+   "1072429",
+   "Kašpar Maxim",
+   "LTC Pardubice",
    "H"
   ]
  ],
@@ -53048,6 +54718,12 @@
    "H"
   ],
   [
+   "1066496",
+   "Cháb Martin",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1055873",
    "Janák Matěj",
    "TK Na Dolině o.s.",
@@ -53432,6 +55108,12 @@
    "1075060",
    "Chawla Kian Sunil",
    "LTC Beroun, z.s.",
+   "H"
+  ],
+  [
+   "1070395",
+   "Ekici Aziz Jan",
+   "LTC Domažlice",
    "H"
   ],
   [
@@ -54469,9 +56151,21 @@
    "H"
   ],
   [
+   "1069047",
+   "Pavelka Lukáš",
+   "TK Hanspaulka",
+   "H"
+  ],
+  [
    "1072000",
    "Komenda Šimon",
    "TO TJ Tesla Pardubice",
+   "H"
+  ],
+  [
+   "1077253",
+   "Anthony Fitaire",
+   "I.ČLTK Praha",
    "H"
   ],
   [
@@ -54532,6 +56226,18 @@
    "1073797",
    "Jaroš Lukáš",
    "Tenisová škola Lucie Hradecké z.s.",
+   "H"
+  ],
+  [
+   "1071090",
+   "Libich Vojtěch",
+   "Tenisový klub Benátky nad Jizerou",
+   "H"
+  ],
+  [
+   "1074989",
+   "Bouchal Aleš",
+   "TCD Donovalská",
    "H"
   ]
  ],
@@ -55154,6 +56860,12 @@
    "1071448",
    "Janata Alan",
    "TJ Radlice z.s.",
+   "H"
+  ],
+  [
+   "1068467",
+   "Krejza Adam",
+   "TCD Donovalská",
    "H"
   ],
   [
@@ -56771,6 +58483,12 @@
    "H"
   ],
   [
+   "1066291",
+   "Rožnovský Lukáš",
+   "TK Na Dolině o.s.",
+   "H"
+  ],
+  [
    "1065719",
    "Černoch Marek",
    "Rožnovský tenisový klub",
@@ -57829,6 +59547,12 @@
    "H"
   ],
   [
+   "1066862",
+   "Duda Matěj",
+   "Tenisová škola Lucie Hradecké z.s.",
+   "H"
+  ],
+  [
    "1064966",
    "Vacha Adam Christian",
    "CTA Rudná",
@@ -58641,6 +60365,12 @@
    "Salava Jiří",
    "TK Znojmo",
    "H"
+  ],
+  [
+   "1067753",
+   "Minster Albert",
+   "ŽLTC Brno",
+   "H"
   ]
  ],
  "706144": [
@@ -58959,6 +60689,12 @@
    "H"
   ],
   [
+   "1068055",
+   "Šívr Šimon Jan",
+   "TK Milo Olomouc",
+   "H"
+  ],
+  [
    "1066449",
    "Kobliha Maxim",
    "TK PRECHEZA Přerov o.s.",
@@ -58968,6 +60704,12 @@
    "1071882",
    "Šiška Šimon",
    "TC Holešov, o.s.",
+   "H"
+  ],
+  [
+   "1073054",
+   "Stuchlík Vojtěch",
+   "SKT Frýdlant n.O.",
    "H"
   ],
   [
@@ -60919,6 +62661,12 @@
    "H"
   ],
   [
+   "1069695",
+   "Mužík Ondřej",
+   "TJ Žatec z.s.",
+   "H"
+  ],
+  [
    "1071724",
    "Sipko Kristian",
    "TK Sparta Praha",
@@ -60947,6 +62695,12 @@
    "Brindzej Jakub",
    "SK Tenis Kladno",
    "H"
+  ],
+  [
+   "1074736",
+   "Rene Bastl",
+   "TK Severní Terasa",
+   "O"
   ]
  ],
  "706169": [
@@ -62554,6 +64308,12 @@
    "1072007",
    "Mráz Tomáš",
    "TK Doksy",
+   "H"
+  ],
+  [
+   "1075477",
+   "Týle David",
+   "TC 15 z.s.",
    "H"
   ],
   [
@@ -64321,6 +66081,18 @@
    "H"
   ],
   [
+   "1077850",
+   "Maršál Martin",
+   "TK TILIA Brno",
+   "H"
+  ],
+  [
+   "1067753",
+   "Minster Albert",
+   "ŽLTC Brno",
+   "H"
+  ],
+  [
    "1064603",
    "Juřík Daniel",
    "Renáta Voráčová akademie, z.s.",
@@ -65048,6 +66820,12 @@
    "1071702",
    "Tejzr Vojtěch",
    "TC BIOCEL Vratimov z.s.",
+   "H"
+  ],
+  [
+   "1072045",
+   "Franek Benedikt",
+   "TJ Baník Ostrava OKD",
    "H"
   ]
  ],
@@ -66653,6 +68431,12 @@
  ],
  "706218": [
   [
+   "1068467",
+   "Krejza Adam",
+   "TCD Donovalská",
+   "H"
+  ],
+  [
    "1064681",
    "Böhm Sebastian",
    "Sokol Dolní Počernice z.s.",
@@ -66758,6 +68542,18 @@
    "1075357",
    "Lukáš Tomáš",
    "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
+   "1074527",
+   "Krejza Marek",
+   "TCD Donovalská",
+   "H"
+  ],
+  [
+   "1074989",
+   "Bouchal Aleš",
+   "TCD Donovalská",
    "H"
   ],
   [
@@ -67281,6 +69077,12 @@
    "H"
   ],
   [
+   "1058269",
+   "Doubek Václav",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1062545",
    "Špaček Jakub",
    "Tenisová škola Lucie Hradecké z.s.",
@@ -67453,6 +69255,18 @@
  ],
  "706830": [
   [
+   "1066409",
+   "Műller Kryštof",
+   "LTC Houštka",
+   "H"
+  ],
+  [
+   "1068036",
+   "Čejka Adam",
+   "Tenisový klub Benátky nad Jizerou",
+   "H"
+  ],
+  [
    "1062053",
    "Falář Vojtěch",
    "Pliskova Tennis Academy-Říčany",
@@ -67528,6 +69342,18 @@
    "1067651",
    "Čižinský Erik",
    "TK SPORTCENTRUM Mladá Boleslav",
+   "H"
+  ],
+  [
+   "1075477",
+   "Týle David",
+   "TC 15 z.s.",
+   "H"
+  ],
+  [
+   "1077115",
+   "Mráz Jan",
+   "TC 15 z.s.",
    "H"
   ],
   [
@@ -67644,6 +69470,12 @@
    "1065609",
    "Rychtář David",
    "Tenis Klub Strakonice, spolek",
+   "H"
+  ],
+  [
+   "1069381",
+   "Veselý Petr",
+   "LTC VITON České Budějovice,z.s.",
    "H"
   ],
   [
@@ -67778,6 +69610,12 @@
    "H"
   ],
   [
+   "1060440",
+   "Květoň Martin",
+   "LTK Bílina",
+   "H"
+  ],
+  [
    "1071256",
    "Losnita Nataniel",
    "LTK Liberec",
@@ -67796,6 +69634,12 @@
    "H"
   ],
   [
+   "1061674",
+   "Květoň Jiří",
+   "LTK Bílina",
+   "H"
+  ],
+  [
    "1071184",
    "Janů Štěpán",
    "TK Roudnice n.L.",
@@ -67807,6 +69651,18 @@
    "1062486",
    "Ouřetský Jonáš",
    "TK Choceň",
+   "H"
+  ],
+  [
+   "1060179",
+   "Javůrek Daniel",
+   "TJ Slovan Moravská Třebová,z.s.",
+   "H"
+  ],
+  [
+   "1056007",
+   "Petr Jakub",
+   "TK SB Světlá n.Sáz.",
    "H"
   ],
   [
@@ -67861,6 +69717,12 @@
    "1071153",
    "Saifrt Oliver",
    "SK HIT Hradec Králové z.s.",
+   "H"
+  ],
+  [
+   "1072087",
+   "Maixner Patrik",
+   "TK Dolní Dobrouč",
    "H"
   ],
   [
@@ -67921,6 +69783,12 @@
    "1075250",
    "Davídek Adam",
    "Lokomotiva Trutnov",
+   "H"
+  ],
+  [
+   "1072429",
+   "Kašpar Maxim",
+   "LTC Pardubice",
    "H"
   ],
   [
@@ -68007,6 +69875,12 @@
    "1070069",
    "Rymeš Andrej",
    "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1070355",
+   "Šachinger Samuel",
+   "Tenisový klub Vnorovy, z.s.",
    "H"
   ],
   [
@@ -68424,6 +70298,12 @@
    "H"
   ],
   [
+   "1075039",
+   "Hahn Benjamin",
+   "SK JC Sport Opava",
+   "H"
+  ],
+  [
    "1064639",
    "Krajča Tobias",
    "Renáta Voráčová akademie, z.s.",
@@ -68543,6 +70423,12 @@
    "1067509",
    "Žák Filip",
    "TP POINT FM",
+   "H"
+  ],
+  [
+   "1070249",
+   "Provazník Jakub",
+   "TC Ostrava Nová Ves",
    "H"
   ],
   [
@@ -68688,7 +70574,7 @@
   [
    "1071366",
    "Nováková Pavlína",
-   "Jiskra Otrokovice",
+   "TK Zlín",
    "H"
   ],
   [
@@ -68940,6 +70826,12 @@
    "H"
   ],
   [
+   "1064431",
+   "Janáčková Ella",
+   "SK HAMR, z.s.",
+   "H"
+  ],
+  [
    "1067413",
    "Kana Sophie Madeleine",
    "LTC Praha",
@@ -69113,6 +71005,12 @@
    "1067589",
    "Melecká Emma",
    "TK Bílovec",
+   "H"
+  ],
+  [
+   "1067507",
+   "Chlebková Kateřina Viktorie",
+   "TP POINT FM",
    "H"
   ],
   [
@@ -69650,9 +71548,21 @@
    "H"
   ],
   [
+   "1063257",
+   "Chlebková Simona",
+   "TP POINT FM",
+   "H"
+  ],
+  [
    "1067000",
    "Piskáčková Anna",
    "Slavoj Litoměřice",
+   "H"
+  ],
+  [
+   "1064431",
+   "Janáčková Ella",
+   "SK HAMR, z.s.",
    "H"
   ],
   [
@@ -69683,6 +71593,12 @@
    "1063996",
    "Krumbholcová Eliška",
    "Slavoj Litoměřice",
+   "H"
+  ],
+  [
+   "1065260",
+   "Postulgina Nikol (Z)",
+   "TK Sparta Praha",
    "H"
   ],
   [
@@ -70271,6 +72187,12 @@
    "1070427",
    "Kováříková Kristýna",
    "Tenis Dobříš",
+   "H"
+  ],
+  [
+   "1064431",
+   "Janáčková Ella",
+   "SK HAMR, z.s.",
    "H"
   ],
   [
@@ -70920,9 +72842,21 @@
    "H"
   ],
   [
+   "1064431",
+   "Janáčková Ella",
+   "SK HAMR, z.s.",
+   "H"
+  ],
+  [
    "1060673",
    "Janoštíková Klára",
    "TC ESO Praha z.s.",
+   "H"
+  ],
+  [
+   "1065260",
+   "Postulgina Nikol (Z)",
+   "TK Sparta Praha",
    "H"
   ],
   [
@@ -70941,12 +72875,6 @@
    "1071603",
    "Uhrinová Emma",
    "TK Slavia Plzeň",
-   "H"
-  ],
-  [
-   "1059999",
-   "Konkolová Zora",
-   "TK Škoda Plzeň z.s.",
    "H"
   ],
   [
@@ -71016,9 +72944,21 @@
    "H"
   ],
   [
+   "1074753",
+   "Kučerová Ema",
+   "SK Uherský Brod",
+   "H"
+  ],
+  [
    "1065145",
    "Filipova Stella Ivo (Z)",
    "TC ESO Praha z.s.",
+   "O"
+  ],
+  [
+   "1059999",
+   "Konkolová Zora",
+   "TK Škoda Plzeň z.s.",
    "O"
   ]
  ],
@@ -71146,6 +73086,12 @@
    "H"
   ],
   [
+   "1064431",
+   "Janáčková Ella",
+   "SK HAMR, z.s.",
+   "H"
+  ],
+  [
    "1070649",
    "Poláchová Nelly",
    "TK Sokol Horní Počernice,p.s.",
@@ -71191,6 +73137,12 @@
    "1071603",
    "Uhrinová Emma",
    "TK Slavia Plzeň",
+   "H"
+  ],
+  [
+   "1068837",
+   "Šperková Sofie",
+   "Lokomotiva Nymburk",
    "H"
   ],
   [
@@ -71316,6 +73268,12 @@
    "H"
   ],
   [
+   "1074479",
+   "Herdová Zoe (Z)",
+   "ČTS - klub",
+   "H"
+  ],
+  [
    "1070544",
    "Obenrauchová Julie Federica",
    "BLTC Brno",
@@ -71391,6 +73349,12 @@
    "1074083",
    "Lacková Sofia (Z)",
    "ČTS - klub",
+   "H"
+  ],
+  [
+   "1071738",
+   "Urbánková Valentýna",
+   "SK Jundrov Brno",
    "H"
   ],
   [
@@ -71936,6 +73900,12 @@
    "H"
   ],
   [
+   "1061995",
+   "Čekanová Zoe",
+   "TK Litvínov z.s.",
+   "H"
+  ],
+  [
    "1060447",
    "Jamesová Anna-Lucia Fay",
    "TENIS SLOVÁCKO z.s.",
@@ -71996,6 +73966,12 @@
    "H"
   ],
   [
+   "1058536",
+   "Doležalová Stella",
+   "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
    "1063518",
    "Pěchovičová Lily",
    "TK Olymp Praha",
@@ -72011,6 +73987,12 @@
    "1060892",
    "Knoppová Aneta",
    "SK HAMR, z.s.",
+   "H"
+  ],
+  [
+   "1061306",
+   "Beau Lea",
+   "TK Sparta Praha",
    "H"
   ],
   [
@@ -72167,6 +74149,12 @@
    "1064246",
    "Langová Amálie",
    "TK Spartak Jihlava",
+   "H"
+  ],
+  [
+   "1065260",
+   "Postulgina Nikol (Z)",
+   "TK Sparta Praha",
    "H"
   ],
   [
@@ -72706,6 +74694,12 @@
    "H"
   ],
   [
+   "1068811",
+   "Johannis Leontýna",
+   "TK Most",
+   "H"
+  ],
+  [
    "1070907",
    "Davis Ruby",
    "I.ČLTK Praha",
@@ -73100,9 +75094,21 @@
    "H"
   ],
   [
+   "1063887",
+   "Marečková Nikol",
+   "Tenisový klub Vnorovy, z.s.",
+   "H"
+  ],
+  [
    "1071266",
    "Kapustíková Zuzana (Z)",
    "TJ Sokol Uherský Brod",
+   "H"
+  ],
+  [
+   "1071366",
+   "Nováková Pavlína",
+   "TK Zlín",
    "H"
   ],
   [
@@ -73115,6 +75121,12 @@
    "1075300",
    "Švecová Lujza (Z)",
    "TKB Hrušovany z.s.",
+   "H"
+  ],
+  [
+   "1074700",
+   "Slávková Gréta (Z)",
+   "TENIS SLOVÁCKO z.s.",
    "H"
   ],
   [
@@ -73434,6 +75446,12 @@
    "H"
   ],
   [
+   "1071640",
+   "Hrubá Linda",
+   "Lokomotiva Nymburk",
+   "H"
+  ],
+  [
    "1062332",
    "Motyčková Marie",
    "LTC Mladá Boleslav z.s.",
@@ -73539,6 +75557,12 @@
    "1067860",
    "Kloučková Karolína",
    "TCEN Hrádek nad Nisou",
+   "H"
+  ],
+  [
+   "1068510",
+   "Vaculíková Tereza",
+   "ČLTK Bižuterie Jablonec n. N., z. s.",
    "H"
   ]
  ],
@@ -73705,6 +75729,12 @@
    "1064780",
    "Trkovská Ema",
    "SK HAMR, z.s.",
+   "H"
+  ],
+  [
+   "1071640",
+   "Hrubá Linda",
+   "Lokomotiva Nymburk",
    "H"
   ],
   [
@@ -74108,6 +76138,12 @@
    "H"
   ],
   [
+   "1063887",
+   "Marečková Nikol",
+   "Tenisový klub Vnorovy, z.s.",
+   "H"
+  ],
+  [
    "1066624",
    "Syptáková Timea",
    "TK PRECHEZA Přerov o.s.",
@@ -74141,6 +76177,12 @@
    "1072651",
    "Tumová Adriana",
    "BTK Brno",
+   "H"
+  ],
+  [
+   "1064960",
+   "Vlčková Julie",
+   "TC Brno.",
    "H"
   ],
   [
@@ -74183,6 +76225,12 @@
    "1068313",
    "Vašková Alex",
    "TC BORS CLUB",
+   "H"
+  ],
+  [
+   "1074822",
+   "Janotková Lilien (Z)",
+   "TENIS SLOVÁCKO z.s.",
    "H"
   ],
   [
@@ -75486,6 +77534,12 @@
    "H"
   ],
   [
+   "1065260",
+   "Postulgina Nikol (Z)",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1071603",
    "Uhrinová Emma",
    "TK Slavia Plzeň",
@@ -76434,6 +78488,12 @@
    "H"
   ],
   [
+   "1061569",
+   "Bannych Vasilisa",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1058955",
    "Růžičková Sofie",
    "TK AGROFERT Prostějov",
@@ -76466,7 +78526,7 @@
   [
    "1071366",
    "Nováková Pavlína",
-   "Jiskra Otrokovice",
+   "TK Zlín",
    "H"
   ],
   [
@@ -76759,6 +78819,12 @@
    "1062461",
    "Hessová Anna",
    "TK TILIA Brno",
+   "H"
+  ],
+  [
+   "1061403",
+   "Pavelková Barbora",
+   "ŽLTC Brno",
    "H"
   ],
   [
@@ -77581,6 +79647,18 @@
    "1068024",
    "Mahdal Melanie",
    "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
+   "1063010",
+   "Polívková Valentýna",
+   "TK Slavia Plzeň",
+   "H"
+  ],
+  [
+   "1062550",
+   "Šilhanová Karolína",
+   "Tenisový klub Benátky nad Jizerou",
    "H"
   ],
   [
@@ -79496,6 +81574,12 @@
    "H"
   ],
   [
+   "1073937",
+   "Obiaya Jasmin Ilonka",
+   "Tennis Hill Havířov o.s.",
+   "H"
+  ],
+  [
    "1061471",
    "Frelichová Elena",
    "TK AGROFERT Prostějov",
@@ -79728,6 +81812,12 @@
    "H"
   ],
   [
+   "1070024",
+   "Svoboda Viola",
+   "TC Přelouč",
+   "H"
+  ],
+  [
    "1070047",
    "Kovalová Emma",
    "LTC Vysoké Mýto",
@@ -79833,6 +81923,12 @@
    "1069823",
    "Šindelářová Eliška",
    "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1074932",
+   "Čížková Amálie",
+   "TK Holice",
    "H"
   ]
  ],
@@ -80309,6 +82405,12 @@
    "1070907",
    "Davis Ruby",
    "I.ČLTK Praha",
+   "H"
+  ],
+  [
+   "1074753",
+   "Kučerová Ema",
+   "SK Uherský Brod",
    "H"
   ],
   [
@@ -82065,6 +84167,12 @@
    "1068024",
    "Mahdal Melanie",
    "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
+   "1063625",
+   "Vystrčilová Viktorie",
+   "HTK Třebíč",
    "H"
   ],
   [
@@ -86290,6 +88398,18 @@
    "H"
   ],
   [
+   "1061557",
+   "Vischi Emily",
+   "I.ČLTK Praha",
+   "H"
+  ],
+  [
+   "1061569",
+   "Bannych Vasilisa",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1068254",
    "Vonásková Naira Niké",
    "Tenisová škola Lucie Hradecké z.s.",
@@ -87700,6 +89820,18 @@
    "Sananesová Emma",
    "Sokol Smíchov I.",
    "H"
+  ],
+  [
+   "1072331",
+   "Holakovská Adéla",
+   "SK Satalice",
+   "H"
+  ],
+  [
+   "1071660",
+   "Kupilíková Bibiana",
+   "TK Sparta Praha",
+   "O"
   ]
  ],
  "806134": [
@@ -88135,6 +90267,12 @@
    "1062332",
    "Motyčková Marie",
    "LTC Mladá Boleslav z.s.",
+   "H"
+  ],
+  [
+   "1062132",
+   "Říhová Beáta",
+   "TK Písnice",
    "H"
   ],
   [
@@ -88789,6 +90927,12 @@
   ]
  ],
  "806143": [
+  [
+   "1074479",
+   "Herdová Zoe (Z)",
+   "ČTS - klub",
+   "H"
+  ],
   [
    "1064253",
    "Fejfarová Sára",
@@ -90211,6 +92355,12 @@
    "H"
   ],
   [
+   "1065260",
+   "Postulgina Nikol (Z)",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1071603",
    "Uhrinová Emma",
    "TK Slavia Plzeň",
@@ -90274,6 +92424,18 @@
    "1070907",
    "Davis Ruby",
    "I.ČLTK Praha",
+   "H"
+  ],
+  [
+   "1072331",
+   "Holakovská Adéla",
+   "SK Satalice",
+   "H"
+  ],
+  [
+   "1074753",
+   "Kučerová Ema",
+   "SK Uherský Brod",
    "H"
   ]
  ],
@@ -90574,6 +92736,12 @@
    "H"
   ],
   [
+   "1077053",
+   "Scheidlová Adéla",
+   "TK Frýdlant v Čechách",
+   "H"
+  ],
+  [
    "1062774",
    "Ulmanová Ema",
    "TK SPORTCENTRUM Mladá Boleslav",
@@ -90625,6 +92793,12 @@
    "1067860",
    "Kloučková Karolína",
    "TCEN Hrádek nad Nisou",
+   "H"
+  ],
+  [
+   "1068510",
+   "Vaculíková Tereza",
+   "ČLTK Bižuterie Jablonec n. N., z. s.",
    "H"
   ],
   [
@@ -93077,6 +95251,12 @@
    "1073726",
    "Cyprienová Izabela",
    "Tenisový klub Benátky nad Jizerou",
+   "H"
+  ],
+  [
+   "1068510",
+   "Vaculíková Tereza",
+   "ČLTK Bižuterie Jablonec n. N., z. s.",
    "H"
   ]
  ],
@@ -97726,6 +99906,12 @@
    "H"
   ],
   [
+   "1061306",
+   "Beau Lea",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1064392",
    "Žáková Linda",
    "SK HAMR, z.s.",
@@ -98058,6 +100244,12 @@
    "H"
   ],
   [
+   "1067854",
+   "Moťková Emily",
+   "TK Hovorčovice",
+   "H"
+  ],
+  [
    "1061471",
    "Frelichová Elena",
    "TK AGROFERT Prostějov",
@@ -98105,6 +100297,12 @@
    "1067407",
    "Černá Marie",
    "LTC Houštka",
+   "H"
+  ],
+  [
+   "1066708",
+   "Vondráčková Dominika",
+   "Tenisový klub Benátky nad Jizerou",
    "H"
   ],
   [
@@ -98234,18 +100432,6 @@
    "H"
   ],
   [
-   "1074101",
-   "Matoušová Adéla",
-   "TK Mnichovo Hradiště",
-   "H"
-  ],
-  [
-   "1074102",
-   "Matoušová Anna",
-   "TK Mnichovo Hradiště",
-   "H"
-  ],
-  [
    "1065236",
    "Oralová Catarina",
    "CTA Rudná",
@@ -98280,6 +100466,18 @@
    "Cyprienová Izabela",
    "Tenisový klub Benátky nad Jizerou",
    "H"
+  ],
+  [
+   "1074101",
+   "Matoušová Adéla",
+   "TK Mnichovo Hradiště",
+   "O"
+  ],
+  [
+   "1074102",
+   "Matoušová Anna",
+   "TK Mnichovo Hradiště",
+   "O"
   ]
  ],
  "806860": [
@@ -98527,6 +100725,12 @@
    "Kloučková Karolína",
    "TCEN Hrádek nad Nisou",
    "H"
+  ],
+  [
+   "1068510",
+   "Vaculíková Tereza",
+   "ČLTK Bižuterie Jablonec n. N., z. s.",
+   "H"
   ]
  ],
  "806920": [
@@ -98701,9 +100905,15 @@
    "H"
   ],
   [
+   "1062709",
+   "Štrejbarová Sofie",
+   "Slavoj Třešť",
+   "H"
+  ],
+  [
    "1071366",
    "Nováková Pavlína",
-   "Jiskra Otrokovice",
+   "TK Zlín",
    "H"
   ],
   [
@@ -98982,6 +101192,12 @@
    "1066231",
    "Vavrečková Eliška",
    "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1071397",
+   "KADLECOVÁ KAROLÍNA",
+   "Jiskra Otrokovice",
    "H"
   ],
   [
@@ -99453,6 +101669,18 @@
    "Danačík Sebastian",
    "Tenis Akademie Bálek, z.s.",
    "H"
+  ],
+  [
+   "1077672",
+   "Veselý Patrik",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
+   "1077716",
+   "Hanzal Jasmin",
+   "TK Sparta Praha",
+   "H"
   ]
  ],
  "906001": [
@@ -99596,6 +101824,12 @@
    "Dolejš Maxim",
    "Tennis Hill Havířov o.s.",
    "H"
+  ],
+  [
+   "1077866",
+   "Pasnišin Robert",
+   "TJ Sokol Dolní Lhota",
+   "H"
   ]
  ],
  "906007": [
@@ -99614,6 +101848,18 @@
   [
    "1074722",
    "Životský Filip",
+   "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1071765",
+   "Kotrsalová Julie",
+   "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1076438",
+   "Valášek Damian",
    "SK Tenis Tišnov",
    "H"
   ]
@@ -99636,6 +101882,12 @@
   [
    "1076263",
    "Rojas Daniel",
+   "TJ Radlice z.s.",
+   "H"
+  ],
+  [
+   "1077868",
+   "Šnajdr Patrik",
    "TJ Radlice z.s.",
    "H"
   ]
@@ -99676,6 +101928,12 @@
    "Kozačka Zdeněk",
    "TK Tatran Štítina",
    "H"
+  ],
+  [
+   "1077717",
+   "Fejfarová Sára",
+   "TK PRECHEZA Přerov o.s.",
+   "H"
   ]
  ],
  "906011": [
@@ -99712,10 +101970,16 @@
  ],
  "906012": [
   [
+   "1076884",
+   "Trčová Lucie",
+   "TK Roudnice n.L.",
+   "H"
+  ],
+  [
    "1077679",
    "Chalemskij Matvei",
    "I.ČLTK Praha",
-   "H"
+   "O"
   ]
  ],
  "906013": [
@@ -99797,6 +102061,18 @@
    "1075023",
    "Meidlová Anna",
    "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
+   "1077669",
+   "Bujáčková Ema",
+   "TENIS SLOVÁCKO z.s.",
+   "H"
+  ],
+  [
+   "1076438",
+   "Valášek Damian",
+   "SK Tenis Tišnov",
    "H"
   ]
  ],
@@ -99896,6 +102172,12 @@
    "Očenášek Matheo (Z)",
    "ČTS - klub",
    "H"
+  ],
+  [
+   "1077669",
+   "Bujáčková Ema",
+   "TENIS SLOVÁCKO z.s.",
+   "H"
   ]
  ],
  "906019": [
@@ -99950,6 +102232,12 @@
    "1077428",
    "Invald Vojtěch",
    "TJ Žďár nad Sázavou",
+   "H"
+  ],
+  [
+   "1074722",
+   "Životský Filip",
+   "SK Tenis Tišnov",
    "H"
   ]
  ],
@@ -100044,6 +102332,12 @@
    "1077550",
    "Prouzová Justýna",
    "I.ČLTK Praha",
+   "H"
+  ],
+  [
+   "1074144",
+   "Tomsová Kristýna",
+   "TK Mnichovo Hradiště",
    "H"
   ]
  ],
@@ -100184,6 +102478,12 @@
    "Vejrych Patrik",
    "Tennis club Litomyšl, z.s.",
    "H"
+  ],
+  [
+   "1074722",
+   "Životský Filip",
+   "SK Tenis Tišnov",
+   "O"
   ]
  ],
  "906033": [
@@ -100298,6 +102598,18 @@
    "Večeřa David",
    "Sokol Brno Žabovřesky",
    "H"
+  ],
+  [
+   "1074722",
+   "Životský Filip",
+   "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1076438",
+   "Valášek Damian",
+   "SK Tenis Tišnov",
+   "H"
   ]
  ],
  "906041": [
@@ -100363,6 +102675,12 @@
    "1074489",
    "Mikšová Adéla",
    "TC-ŽLTC Brno, z.s.",
+   "H"
+  ],
+  [
+   "1075134",
+   "Ondráček Eliot",
+   "TK AGROFERT Prostějov",
    "H"
   ]
  ],
@@ -101093,6 +103411,12 @@
    "H"
   ],
   [
+   "1074552",
+   "Málková Veronika",
+   "SLOVAN HRANICE, z.s.",
+   "H"
+  ],
+  [
    "1076776",
    "Straka Lukáš",
    "LTK Klatovy",
@@ -101164,6 +103488,18 @@
    "1067652",
    "Všianská Viktorie",
    "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
+   "1071494",
+   "Pěnčíková Isabella",
+   "TK Vyškov",
+   "H"
+  ],
+  [
+   "1070521",
+   "Novák Lukáš",
+   "TK 2000 Luhačovice",
    "H"
   ],
   [
@@ -101391,6 +103727,12 @@
    "H"
   ],
   [
+   "1070545",
+   "Poldauf Eleonora",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1070529",
    "Rulcová Tereza",
    "TK Sparta Praha",
@@ -101491,6 +103833,12 @@
   [
    "1069824",
    "Pospíšil David",
+   "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1076427",
+   "Haarbrandt Felix",
    "SK Tenis Tišnov",
    "H"
   ],
@@ -101703,9 +104051,21 @@
    "H"
   ],
   [
+   "1071693",
+   "Lukeš Matěj",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1074464",
    "Urbanič Peter (Z)",
    "TK AGROFERT Prostějov",
+   "O"
+  ],
+  [
+   "1073277",
+   "Kadlecová Bára Arusha",
+   "Tenis klub Jindřichův Hradec z.s.",
    "O"
   ]
  ],
@@ -101855,6 +104215,24 @@
    "H"
   ],
   [
+   "1073277",
+   "Kadlecová Bára Arusha",
+   "Tenis klub Jindřichův Hradec z.s.",
+   "H"
+  ],
+  [
+   "1077847",
+   "Kopecká Laura",
+   "LTC Houštka",
+   "H"
+  ],
+  [
+   "1074474",
+   "Němcová Anna",
+   "I.ČLTK Praha",
+   "H"
+  ],
+  [
    "1067363",
    "Jarolímek Jan",
    "TK SPORTCENTRUM Mladá Boleslav",
@@ -101947,6 +104325,12 @@
    "H"
   ],
   [
+   "1076783",
+   "Břečka Vojtěch",
+   "LTK Klatovy",
+   "H"
+  ],
+  [
    "1077519",
    "Thomová Izabela",
    "TK Lokomotiva Plzeň z.s.",
@@ -102027,7 +104411,14 @@
    "H"
   ]
  ],
- "906515": [],
+ "906515": [
+  [
+   "1067401",
+   "Petrová Nikola",
+   "LTK Liberec",
+   "H"
+  ]
+ ],
  "906516": [
   [
    "1073888",
@@ -102078,6 +104469,18 @@
    "H"
   ],
   [
+   "1075067",
+   "Pravda Patrick",
+   "TK Mnichovo Hradiště",
+   "H"
+  ],
+  [
+   "1076762",
+   "Baginská Lea",
+   "TJ Slavoj Tesla Hloubětín, z.s.",
+   "H"
+  ],
+  [
    "1077222",
    "Ugliano Daniel",
    "I.ČLTK Praha",
@@ -102124,6 +104527,12 @@
   [
    "1071232",
    "Alexa Nick",
+   "TK Znojmo",
+   "H"
+  ],
+  [
+   "1072863",
+   "Němcová Zuzana",
    "TK Znojmo",
    "H"
   ],
@@ -102223,6 +104632,12 @@
    "1070928",
    "Fejgl Theodor Benedikt",
    "TENIS-CENTRUM DTJ HK",
+   "H"
+  ],
+  [
+   "1070725",
+   "Kobrlová Ella",
+   "Start Liberec",
    "H"
   ],
   [
@@ -102529,6 +104944,12 @@
    "Navarra Ondřej",
    "SK HAMR, z.s.",
    "H"
+  ],
+  [
+   "1074976",
+   "Daněček Ondřej",
+   "Sokol Dolní Počernice z.s.",
+   "H"
   ]
  ],
  "906525": [
@@ -102804,6 +105225,18 @@
   [
    "1077243",
    "Špachmanová Kateřina",
+   "TK Škoda Plzeň z.s.",
+   "H"
+  ],
+  [
+   "1074713",
+   "Roztočil Adam",
+   "TK Škoda Plzeň z.s.",
+   "H"
+  ],
+  [
+   "1075183",
+   "Borovičová Agáta",
    "TK Škoda Plzeň z.s.",
    "H"
   ]
@@ -103203,6 +105636,36 @@
    "1066241",
    "Novotná Gabriela",
    "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
+   "1076427",
+   "Haarbrandt Felix",
+   "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1069824",
+   "Pospíšil David",
+   "SK Tenis Tišnov",
+   "H"
+  ],
+  [
+   "1071667",
+   "Ježior Tobiáš",
+   "TK AGROFERT Prostějov",
+   "H"
+  ],
+  [
+   "1074467",
+   "Wetter Sebastien",
+   "TC SANITINO Academy, z.s.",
+   "H"
+  ],
+  [
+   "1069827",
+   "Hoblíková Apolena",
+   "SK Tenis Tišnov",
    "H"
   ]
  ],
@@ -103677,6 +106140,30 @@
    "Fiala Lukáš",
    "TENIS VLAŠIM,z.s.",
    "H"
+  ],
+  [
+   "1074131",
+   "Veverka Christian",
+   "I.ČLTK Praha",
+   "H"
+  ],
+  [
+   "1073277",
+   "Kadlecová Bára Arusha",
+   "Tenis klub Jindřichův Hradec z.s.",
+   "H"
+  ],
+  [
+   "1073088",
+   "Truhlářová Sarah",
+   "Tenis klub Jindřichův Hradec z.s.",
+   "H"
+  ],
+  [
+   "1071693",
+   "Lukeš Matěj",
+   "TK Sparta Praha",
+   "H"
   ]
  ],
  "906545": [],
@@ -103717,6 +106204,12 @@
    "1067893",
    "Hošek Matěj",
    "TC-ŽLTC Brno, z.s.",
+   "H"
+  ],
+  [
+   "1073821",
+   "Čupr Vojtěch",
+   "LTC Hodonín",
    "H"
   ],
   [
@@ -103980,6 +106473,24 @@
    "H"
   ],
   [
+   "1068294",
+   "Kvíz Štěpán",
+   "TK Litvínov z.s.",
+   "H"
+  ],
+  [
+   "1074131",
+   "Veverka Christian",
+   "I.ČLTK Praha",
+   "H"
+  ],
+  [
+   "1071693",
+   "Lukeš Matěj",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
    "1068477",
    "Csesznok Vojtěch",
    "TK Most",
@@ -104161,6 +106672,12 @@
    "1077278",
    "Urbánek Marek",
    "TC-ŽLTC Brno, z.s.",
+   "H"
+  ],
+  [
+   "1070913",
+   "Jedelský Kryštof",
+   "TK AGROFERT Prostějov",
    "H"
   ],
   [
@@ -104567,6 +107084,12 @@
    "Ugliano Daniel",
    "I.ČLTK Praha",
    "H"
+  ],
+  [
+   "1070545",
+   "Poldauf Eleonora",
+   "TK Sparta Praha",
+   "H"
   ]
  ],
  "906563": [],
@@ -104732,6 +107255,12 @@
    "H"
   ],
   [
+   "1073277",
+   "Kadlecová Bára Arusha",
+   "Tenis klub Jindřichův Hradec z.s.",
+   "H"
+  ],
+  [
    "1077278",
    "Urbánek Marek",
    "TC-ŽLTC Brno, z.s.",
@@ -104822,6 +107351,12 @@
   [
    "1067893",
    "Hošek Matěj",
+   "TC-ŽLTC Brno, z.s.",
+   "H"
+  ],
+  [
+   "1066406",
+   "Komárek Max",
    "TC-ŽLTC Brno, z.s.",
    "H"
   ],
@@ -105194,6 +107729,18 @@
    "Šoltysová Adéla",
    "TJ Start Ostrava - Poruba, z.s.",
    "H"
+  ],
+  [
+   "1071699",
+   "Húska Jakub",
+   "SK JC Sport Opava",
+   "H"
+  ],
+  [
+   "1077079",
+   "Salamon Emma",
+   "TK Tatran Štítina",
+   "H"
   ]
  ],
  "906575": [
@@ -105287,6 +107834,12 @@
    "1070781",
    "Vychytilová Gabriela",
    "TK Zlín",
+   "H"
+  ],
+  [
+   "1071494",
+   "Pěnčíková Isabella",
+   "TK Vyškov",
    "H"
   ],
   [
@@ -105539,6 +108092,18 @@
    "Henek Maxmilián",
    "TC-MJ TENIS Líšeň",
    "H"
+  ],
+  [
+   "1067893",
+   "Hošek Matěj",
+   "TC-ŽLTC Brno, z.s.",
+   "H"
+  ],
+  [
+   "1071667",
+   "Ježior Tobiáš",
+   "TK AGROFERT Prostějov",
+   "H"
   ]
  ],
  "906587": [],
@@ -105553,6 +108118,12 @@
    "1077509",
    "Sedláčková Emma",
    "TK TILIA Brno",
+   "H"
+  ],
+  [
+   "1073821",
+   "Čupr Vojtěch",
+   "LTC Hodonín",
    "H"
   ]
  ],
@@ -105754,6 +108325,12 @@
    "1070439",
    "Todd Jamie",
    "I.ČLTK Praha",
+   "H"
+  ],
+  [
+   "1067767",
+   "Navarra Ondřej",
+   "SK HAMR, z.s.",
    "H"
   ]
  ],
@@ -106028,6 +108605,12 @@
    "Švec Hugo (Z)",
    "TKB Hrušovany z.s.",
    "H"
+  ],
+  [
+   "1071667",
+   "Ježior Tobiáš",
+   "TK AGROFERT Prostějov",
+   "H"
   ]
  ],
  "906599": [
@@ -106193,6 +108776,12 @@
    "1074699",
    "Samek Lukáš",
    "TK Kvasiny",
+   "H"
+  ],
+  [
+   "1070928",
+   "Fejgl Theodor Benedikt",
+   "TENIS-CENTRUM DTJ HK",
    "H"
   ]
  ],
@@ -106500,6 +109089,24 @@
    "1070699",
    "Gilány Tibor",
    "TC-ŽLTC Brno, z.s.",
+   "H"
+  ],
+  [
+   "1077357",
+   "Springer Kristián",
+   "TJ Slavoj Velké Pavlovice",
+   "H"
+  ],
+  [
+   "1074324",
+   "Poslušný Petr",
+   "TC-ŽLTC Brno, z.s.",
+   "H"
+  ],
+  [
+   "1067563",
+   "Kebrle Jan",
+   "TJ Brno-Komín",
    "H"
   ],
   [
@@ -107440,6 +110047,18 @@
    "H"
   ],
   [
+   "1070928",
+   "Fejgl Theodor Benedikt",
+   "TENIS-CENTRUM DTJ HK",
+   "H"
+  ],
+  [
+   "1074467",
+   "Wetter Sebastien",
+   "TC SANITINO Academy, z.s.",
+   "H"
+  ],
+  [
    "1071307",
    "Endrlová Ester",
    "Tenisový klub Havlíčkův Brod,z.s.",
@@ -107772,6 +110391,18 @@
    "Grossmann Daniel",
    "SKT Frýdlant n.O.",
    "H"
+  ],
+  [
+   "1075449",
+   "Hozová Marlen",
+   "TK Tatran Štítina",
+   "H"
+  ],
+  [
+   "1071699",
+   "Húska Jakub",
+   "SK JC Sport Opava",
+   "H"
   ]
  ],
  "906644": [],
@@ -107861,6 +110492,12 @@
   [
    "1067963",
    "Puebla Charlotte Martina",
+   "TC-ŽLTC Brno, z.s.",
+   "H"
+  ],
+  [
+   "1067893",
+   "Hošek Matěj",
    "TC-ŽLTC Brno, z.s.",
    "H"
   ]
@@ -108714,6 +111351,12 @@
    "Horká Stela",
    "TO SK Žamberk",
    "H"
+  ],
+  [
+   "1070284",
+   "Doležalová Ema Julie",
+   "TO Sokol Nehvizdy",
+   "H"
   ]
  ],
  "906684": [
@@ -109157,6 +111800,18 @@
    "Škaloudová Bibiana",
    "TK SPORTCENTRUM Mladá Boleslav",
    "H"
+  ],
+  [
+   "1074114",
+   "Rosenkranz Vít",
+   "TK SPORTCENTRUM Mladá Boleslav",
+   "H"
+  ],
+  [
+   "1071769",
+   "Fischer Ján (Z)",
+   "TK SPORTCENTRUM Mladá Boleslav",
+   "H"
   ]
  ],
  "906694": [],
@@ -109560,6 +112215,12 @@
    "1073878",
    "Branc Matěj",
    "SKT Frýdlant n.O.",
+   "H"
+  ],
+  [
+   "1075449",
+   "Hozová Marlen",
+   "TK Tatran Štítina",
    "H"
   ],
   [
@@ -109996,7 +112657,20 @@
    "O"
   ]
  ],
- "906728": [],
+ "906728": [
+  [
+   "1067180",
+   "Číž Filip",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
+   "1060635",
+   "Čížová Nela",
+   "TK Olymp Praha",
+   "O"
+  ]
+ ],
  "906729": [
   [
    "1070407",
@@ -110402,6 +113076,12 @@
    "1070667",
    "Nježićová Soňa",
    "TC BORS CLUB",
+   "H"
+  ],
+  [
+   "1069827",
+   "Hoblíková Apolena",
+   "SK Tenis Tišnov",
    "H"
   ],
   [
@@ -111148,14 +113828,32 @@
    "Čižinská Emma",
    "TK SPORTCENTRUM Mladá Boleslav",
    "H"
+  ],
+  [
+   "1073688",
+   "Tomblin Isabella Catherine Rose",
+   "TJ Solidarita Praha 10",
+   "H"
   ]
  ],
  "406174": [],
  "506168": [
   [
+   "1064733",
+   "Chaloupka Jakub",
+   "CTA Rudná",
+   "H"
+  ],
+  [
    "1066576",
    "Kozler Michal",
    "TCD Donovalská",
+   "H"
+  ],
+  [
+   "1058951",
+   "Holomek Aleš",
+   "Sokol Lanžhot",
    "H"
   ],
   [
@@ -111183,9 +113881,21 @@
    "H"
   ],
   [
+   "1055544",
+   "Haišman Jaroslav Václav",
+   "TK Lokomotiva Plzeň z.s.",
+   "H"
+  ],
+  [
    "1067850",
    "Janka Borja",
    "TK Sparta Praha",
+   "H"
+  ],
+  [
+   "1060897",
+   "Gaubmann Kryštof",
+   "Tenisový klub KONSTRUKTIVA, z.s.",
    "H"
   ],
   [
@@ -111427,9 +114137,21 @@
  ],
  "606178": [
   [
+   "1062352",
+   "Vyžralová Viktorie",
+   "Sokol TK Kaplice",
+   "H"
+  ],
+  [
    "1056878",
    "Hrušková Magdaléna",
    "LTK Liberec",
+   "H"
+  ],
+  [
+   "1066570",
+   "Šperková Amálie",
+   "TENIS-CENTRUM DTJ HK",
    "H"
   ],
   [
@@ -111563,6 +114285,12 @@
    "H"
   ],
   [
+   "1064132",
+   "Roušarová Vanessa",
+   "Lokomotiva Praha",
+   "H"
+  ],
+  [
    "1068051",
    "Jeníčková Eliška",
    "Tenisová škola Lucie Hradecké z.s.",
@@ -111595,7 +114323,7 @@
   [
    "1073586",
    "Jůzová Jiřina",
-   "Sport club Berchtold, z.s.",
+   "TK Radošovice",
    "H"
   ],
   [
@@ -111626,6 +114354,12 @@
    "1077377",
    "Rohozina Ahniia (Z)",
    "Tempo Praha",
+   "H"
+  ],
+  [
+   "1064992",
+   "Petrželková Adéla",
+   "TCD Donovalská",
    "H"
   ],
   [
@@ -111755,6 +114489,12 @@
    "H"
   ],
   [
+   "1067413",
+   "Kana Sophie Madeleine",
+   "LTC Praha",
+   "H"
+  ],
+  [
    "1071941",
    "Hölzlová Veronika",
    "TC ESO Praha z.s.",
@@ -111764,6 +114504,12 @@
    "1067635",
    "Ježková Tereza",
    "TK Ruzyně Praha",
+   "H"
+  ],
+  [
+   "1062420",
+   "Kroupová Lucie",
+   "LTC Sušice",
    "H"
   ],
   [
@@ -112853,6 +115599,12 @@
    "H"
   ],
   [
+   "1064431",
+   "Janáčková Ella",
+   "SK HAMR, z.s.",
+   "H"
+  ],
+  [
    "1070555",
    "Židlická Karolína",
    "Wilson tenis centrum z.s.",
@@ -112871,15 +115623,15 @@
    "H"
   ],
   [
-   "1071603",
-   "Uhrinová Emma",
-   "TK Slavia Plzeň",
+   "1068454",
+   "Procházková Emma",
+   "TK Sport Kolovraty",
    "H"
   ],
   [
-   "1059999",
-   "Konkolová Zora",
-   "TK Škoda Plzeň z.s.",
+   "1071603",
+   "Uhrinová Emma",
+   "TK Slavia Plzeň",
    "H"
   ],
   [
@@ -112946,6 +115698,12 @@
    "1063996",
    "Krumbholcová Eliška",
    "Slavoj Litoměřice",
+   "O"
+  ],
+  [
+   "1059999",
+   "Konkolová Zora",
+   "TK Škoda Plzeň z.s.",
    "O"
   ]
  ],
@@ -113229,9 +115987,21 @@
    "Kupilíková Bibiana",
    "TK Sparta Praha",
    "H"
+  ],
+  [
+   "1072331",
+   "Holakovská Adéla",
+   "SK Satalice",
+   "H"
   ]
  ],
  "806223": [
+  [
+   "1070024",
+   "Svoboda Viola",
+   "TC Přelouč",
+   "H"
+  ],
   [
    "1074784",
    "Mikšová Alžběta",
@@ -113248,6 +116018,24 @@
    "1070390",
    "Matějíčková Sofie",
    "TJ Slovan Kamenice n.L.",
+   "H"
+  ],
+  [
+   "1071660",
+   "Kupilíková Bibiana",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
+   "1074557",
+   "Mahdal Valerie Mia",
+   "Pliskova Tennis Academy-Říčany",
+   "H"
+  ],
+  [
+   "1072331",
+   "Holakovská Adéla",
+   "SK Satalice",
    "H"
   ]
  ],
@@ -113405,6 +116193,12 @@
    "H"
   ],
   [
+   "1063809",
+   "Winzig Laura",
+   "TCEN Hrádek nad Nisou",
+   "H"
+  ],
+  [
    "1069748",
    "Fenclová Viktorie",
    "SK SPORTCENTRUM Roudná",
@@ -113432,6 +116226,18 @@
    "1076464",
    "Švec Emma",
    "TK Ruzyně Praha",
+   "H"
+  ],
+  [
+   "1071660",
+   "Kupilíková Bibiana",
+   "TK Sparta Praha",
+   "H"
+  ],
+  [
+   "1074557",
+   "Mahdal Valerie Mia",
+   "Pliskova Tennis Academy-Říčany",
    "H"
   ]
  ],
@@ -113598,6 +116404,12 @@
    "1072846",
    "Vondrovská Ella",
    "TK Písnice",
+   "H"
+  ],
+  [
+   "1074557",
+   "Mahdal Valerie Mia",
+   "Pliskova Tennis Academy-Říčany",
    "H"
   ]
  ],
@@ -113836,6 +116648,12 @@
    "Ugliano Daniel",
    "I.ČLTK Praha",
    "H"
+  ],
+  [
+   "1067180",
+   "Číž Filip",
+   "TK Sparta Praha",
+   "H"
   ]
  ],
  "906755": [],
@@ -113844,6 +116662,12 @@
    "1076997",
    "Křen Mikuláš",
    "Wilson tenis centrum z.s.",
+   "H"
+  ],
+  [
+   "1071065",
+   "Hazmuka Leila",
+   "I.ČLTK Praha",
    "H"
   ]
  ],
@@ -114157,7 +116981,20 @@
   ]
  ],
  "106155": [],
- "106838": [],
+ "106838": [
+  [
+   "19888",
+   "Pospíšil Petr",
+   "TK Mnichovo Hradiště",
+   "H"
+  ],
+  [
+   "12920",
+   "Hron Pavel",
+   "TK Mnichovo Hradiště",
+   "H"
+  ]
+ ],
  "206085": [],
  "306183": [
   [
@@ -114416,6 +117253,12 @@
    "Dřímal Lukáš",
    "TK Rynholec",
    "H"
+  ],
+  [
+   "1066953",
+   "Marek Robin",
+   "TO SK Mělník",
+   "H"
   ]
  ],
  "706237": [],
@@ -114470,6 +117313,12 @@
  "806832": [],
  "806865": [
   [
+   "1071113",
+   "Kasková Tereza",
+   "LTC VITON České Budějovice,z.s.",
+   "H"
+  ],
+  [
    "1067880",
    "Fárová Karolína",
    "LTC VITON České Budějovice,z.s.",
@@ -114483,56 +117332,6 @@
  "906113": [],
  "906766": [],
  "906767": [],
- "106156": [
-  [
-   "7233",
-   "Dopita Marek",
-   "SK HIT Hradec Králové z.s.",
-   "H"
-  ],
-  [
-   "1013811",
-   "Chaloupka Adam",
-   "SK HIT Hradec Králové z.s.",
-   "H"
-  ],
-  [
-   "1017060",
-   "Veselý František",
-   "TJ Lázně Bělohrad",
-   "H"
-  ],
-  [
-   "1020115",
-   "Polák Marek",
-   "SK HIT Hradec Králové z.s.",
-   "H"
-  ],
-  [
-   "30625",
-   "Valenta Jan",
-   "SK HIT Hradec Králové z.s.",
-   "H"
-  ],
-  [
-   "1039719",
-   "Jandík Patrik",
-   "SK HIT Hradec Králové z.s.",
-   "H"
-  ],
-  [
-   "1749",
-   "Chodora Tomáš",
-   "TK Start Praha-Topolka",
-   "H"
-  ],
-  [
-   "1014918",
-   "Macura Viktor",
-   "SK HIT Hradec Králové z.s.",
-   "H"
-  ]
- ],
  "306185": [],
  "406179": [
   [
@@ -114547,8 +117346,26 @@
  "906768": [],
  "306186": [
   [
+   "1050682",
+   "Trčka Alex",
+   "Tenisklub Cheb",
+   "H"
+  ],
+  [
    "1061666",
    "Löw Libor",
+   "Tenisklub Cheb",
+   "H"
+  ],
+  [
+   "1050681",
+   "Trčka Patrik",
+   "Tenisklub Cheb",
+   "H"
+  ],
+  [
+   "1062466",
+   "Hanuš Viktor",
    "Tenisklub Cheb",
    "H"
   ]
@@ -114563,6 +117380,12 @@
  ],
  "406180": [
   [
+   "1061724",
+   "Taušnerová Eliška",
+   "Tenisklub Cheb",
+   "H"
+  ],
+  [
    "1054527",
    "Brillová Patricie",
    "TCF Schicht Mariánské Lázně,z.s.",
@@ -114574,6 +117397,12 @@
   [
    "1062260",
    "Pauler David",
+   "LTC Domažlice",
+   "H"
+  ],
+  [
+   "1075495",
+   "Raiser Matyáš",
    "LTC Domažlice",
    "H"
   ]

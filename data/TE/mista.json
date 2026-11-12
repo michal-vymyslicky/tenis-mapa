@@ -2585,12 +2585,14 @@
   "adresa": "Celje, Slovenia",
   "zdroj": "te",
   "region": "Slovenia",
-  "lat": 46.229389,
-  "lon": 15.261683,
-  "presnost": "obec",
+  "lat": 46.226044,
+  "lon": 15.260605,
+  "presnost": "areal",
   "nazev_mista": "Teniški klub Celje",
   "zeme": "si",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Tenis Park Celje"
  },
  "ITA|circolo tennis pescara|pescara": {
   "poradatel": "Circolo Tennis Pescara",
@@ -2614,7 +2616,8 @@
   "nazev_mista": "Associazione Tennis Tolentino",
   "zeme": "it",
   "poznamka": "tenisový areál v obci podle OSM: Campi da Tennis Comunali",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "POL|miejski klub tenisowy lodz|lodz": {
   "poradatel": "Miejski Klub Tenisowy Lodz",
@@ -2632,25 +2635,28 @@
   "adresa": "Tallinn, Estonia",
   "zdroj": "te",
   "region": "Estonia",
-  "lat": 59.453208,
-  "lon": 24.695673,
-  "presnost": "areal_obec",
+  "lat": 59.437185,
+  "lon": 24.866518,
+  "presnost": "areal",
   "nazev_mista": "Tallink Tenniscentre",
   "zeme": "ee",
-  "poznamka": "tenisový areál v obci podle OSM: SK Pinksi Keskus",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: TALLINK Tennisekeskus",
+  "v2": 1,
+  "osm3": 1
  },
  "CZE|cltk bizuterie jablonec nad nisou|jablonec nad nisou": {
   "poradatel": "CLTK Bizuterie Jablonec nad Nisou",
   "adresa": "Jablonec nad Nisou, Czechia",
   "zdroj": "te",
   "region": "Czechia",
-  "lat": 50.72409,
-  "lon": 15.171096,
-  "presnost": "obec",
+  "lat": 50.734338,
+  "lon": 15.190936,
+  "presnost": "areal",
   "nazev_mista": "CLTK Bizuterie Jablonec nad Nisou",
   "zeme": "cz",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Házená Jablonec"
  },
  "GEO|leila meskhi tennis academy|tbilisi": {
   "poradatel": "Leila Meskhi Tennis Academy",
@@ -2663,7 +2669,8 @@
   "nazev_mista": "Leila Meskhi Tennis Academy",
   "zeme": "ge",
   "poznamka": "tenisový areál v obci podle OSM: ალექსანდრე მეტრეველის სახელობის საჩოგბურთო კომპლექსი",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|tennis club ambrosiano|milano": {
   "poradatel": "Tennis Club Ambrosiano",
@@ -2698,7 +2705,8 @@
   "nazev_mista": "Tennis Klub MTP-Skopje",
   "zeme": "mk",
   "poznamka": "tenisový areál v obci podle OSM: Тениски клуб Евро Сет",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "NED|racket fit center borne borne|borne": {
   "poradatel": "Racket & Fit Center Borne Borne",
@@ -2749,38 +2757,42 @@
   "adresa": "Tuzla, Bosnia and Herzegovina",
   "zdroj": "te",
   "region": "Bosnia and Herzegovina",
-  "lat": 44.539298,
-  "lon": 18.674934,
-  "presnost": "obec",
+  "lat": 44.537215,
+  "lon": 18.684699,
+  "presnost": "areal",
   "nazev_mista": "TENISKI KLUB SLOBODA",
   "zeme": "ba",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: TK Sloboda Tuzla"
  },
  "GEO|tennis club telavi|telavi": {
   "poradatel": "Tennis Club \"Telavi\"",
   "adresa": "Telavi, Georgia",
   "zdroj": "te",
   "region": "Georgia",
-  "lat": 41.916232,
-  "lon": 45.471841,
-  "presnost": "areal_obec",
+  "lat": 41.916128,
+  "lon": 45.471883,
+  "presnost": "areal",
   "nazev_mista": "Tennis Club \"Telavi\"",
   "zeme": "ge",
-  "poznamka": "tenisový areál v obci podle OSM: Telavi Tennis Courts",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Telavi Tennis Courts",
+  "v2": 1,
+  "osm3": 1
  },
  "HUN|pasaret tenisz klub|budapest": {
   "poradatel": "Pasarét Tenisz Klub",
   "adresa": "Budapest, Hungary",
   "zdroj": "te",
   "region": "Hungary",
-  "lat": 47.490665,
-  "lon": 18.997483,
-  "presnost": "areal_obec",
+  "lat": 47.512155,
+  "lon": 19.009901,
+  "presnost": "areal",
   "nazev_mista": "Pasarét Tenisz Klub",
   "zeme": "hu",
-  "poznamka": "tenisový areál v obci podle OSM: Mártonhegyi Tennis Club",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Vasas Pasarét Sportcentrum",
+  "v2": 1,
+  "osm3": 1
  },
  "SRB|tennis clup tennis point|cacak": {
   "poradatel": "TENNIS CLUP TENNIS POINT",
@@ -2792,7 +2804,8 @@
   "presnost": "obec",
   "nazev_mista": "TENNIS CLUP TENNIS POINT",
   "zeme": "rs",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|circolo tennis brindisi|brindisi": {
   "poradatel": "Circolo Tennis Brindisi",
@@ -2815,44 +2828,50 @@
   "presnost": "obec",
   "nazev_mista": "Tennis Club Crema",
   "zeme": "it",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "POR|vilamoura tennis padel academy|vilamoura": {
   "poradatel": "VILAMOURA TENNIS & PADEL ACADEMY",
   "adresa": "Vilamoura, Portugal",
   "zdroj": "te",
   "region": "Portugal",
-  "lat": 37.084266,
-  "lon": -8.117017,
-  "presnost": "areal_obec",
+  "lat": 37.08426,
+  "lon": -8.117099,
+  "presnost": "areal",
   "nazev_mista": "VILAMOURA TENNIS & PADEL ACADEMY",
   "zeme": "pt",
-  "poznamka": "tenisový areál v obci podle OSM: Vilamoura Tennis Academy",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Vilamoura Tennis Academy",
+  "v2": 1,
+  "osm3": 1
  },
  "POR|clube tenis e padel de portimao|portimao": {
   "poradatel": "CLUBE TÉNIS E PADEL DE PORTIMÃO",
   "adresa": "Portimão, Portugal",
   "zdroj": "te",
   "region": "Portugal",
-  "lat": 37.137581,
-  "lon": -8.536843,
-  "presnost": "obec",
+  "lat": 37.114499,
+  "lon": -8.529537,
+  "presnost": "areal",
   "nazev_mista": "CLUBE TÉNIS E PADEL DE PORTIMÃO",
   "zeme": "pt",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Portimão Surf Clube"
  },
  "POL|skf klub tenisowy szczawno zdroj|szczawno zdroj": {
   "poradatel": "SKF Klub Tenisowy Szczawno Zdroj",
   "adresa": "Szczawno Zdroj, Poland",
   "zdroj": "te",
   "region": "Poland",
-  "lat": 50.800806,
-  "lon": 16.251569,
-  "presnost": "obec",
+  "lat": 50.784543,
+  "lon": 16.251589,
+  "presnost": "areal",
   "nazev_mista": "SKF Klub Tenisowy Szczawno Zdroj",
   "zeme": "pl",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Centrum Sportowo-Rekreacyjne \"Aqua Zdrój\""
  },
  "ITA|tennis club triestino|trieste": {
   "poradatel": "Tennis Club Triestino",
@@ -2870,13 +2889,14 @@
   "adresa": "Muenster, Germany",
   "zdroj": "te",
   "region": "Germany",
-  "lat": 51.905231,
-  "lon": 7.655656,
-  "presnost": "areal_obec",
+  "lat": 51.893119,
+  "lon": 7.637356,
+  "presnost": "areal",
   "nazev_mista": "THC Münster e.V.",
   "zeme": "de",
-  "poznamka": "tenisový areál v obci podle OSM: Tennis Central",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Akademischer Ruder Club zu Münster e. V.",
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|circolo tennis porto san giorgio|porto san giorgio": {
   "poradatel": "Circolo Tennis Porto San Giorgio",
@@ -2894,12 +2914,14 @@
   "adresa": "Velletri, Italy",
   "zdroj": "te",
   "region": "Italy",
-  "lat": 41.670178,
-  "lon": 12.803917,
-  "presnost": "obec",
+  "lat": 41.670405,
+  "lon": 12.804473,
+  "presnost": "areal_obec",
   "nazev_mista": "Colle degli Dei",
   "zeme": "it",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "AUT|tc sport hotel kurz|oberpullendorf": {
   "poradatel": "TC Sport-Hotel Kurz",
@@ -2911,7 +2933,8 @@
   "presnost": "obec",
   "nazev_mista": "TC Sport-Hotel Kurz",
   "zeme": "at",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "GBR|all england lawn tennis club community tennis centre raynes park|london": {
   "poradatel": "All England Lawn Tennis Club Community Tennis Centre Raynes Park",

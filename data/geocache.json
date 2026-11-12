@@ -32944,5 +32944,13 @@
    "type": "sports_centre",
    "addresstype": "leisure"
   }
+ ],
+ "ruian:Hradečnice 2201, Hradec Králové": [
+  {
+   "a": "Hradečnice 2201, Nový Hradec Králové, 50009 Hradec Králové",
+   "lat": 50.194932,
+   "lon": 15.86498,
+   "s": 100
+  }
  ]
 }
