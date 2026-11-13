@@ -198,11 +198,11 @@
    "vklad": "700 Kč",
    "poradatel": "jihočeský",
    "kod_m": "106860",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 700 Kč jihočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 700 Kč jihočeský */- -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -210,11 +210,11 @@
    "vklad": "500 Kč",
    "poradatel": "západočeský",
    "kod_m": "106880",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "206880",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 500 Kč západočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 500 Kč západočeský */- */-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -234,11 +234,11 @@
    "vklad": "900 Kč",
    "poradatel": "severočeský",
    "kod_m": "106900",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 900 Kč severočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 900 Kč severočeský */- -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -258,11 +258,11 @@
    "vklad": "800 Kč",
    "poradatel": "Praha",
    "kod_m": "106800",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-17. 11. 2026 P 800 Kč Praha -/- -/-"
+   "radek": "14.-17. 11. 2026 P 800 Kč Praha */- -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -270,11 +270,11 @@
    "vklad": "1000 Kč",
    "poradatel": "jihomoravský",
    "kod_m": "106940",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 1000 Kč jihomoravský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 1000 Kč jihomoravský */- -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -284,9 +284,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206006",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 D 700 Kč Sokol Smíchov I. -/- -/-"
+   "radek": "14.-16. 11. 2026 D 700 Kč Sokol Smíchov I. -/- */-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -308,9 +308,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206940",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 1000 Kč jihomoravský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 1000 Kč jihomoravský -/- */-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -356,9 +356,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206800",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "14.-17. 11. 2026 P 800 Kč Praha -/- -/-"
+   "radek": "14.-17. 11. 2026 P 800 Kč Praha -/- */-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -366,11 +366,11 @@
    "vklad": "600 Kč",
    "poradatel": "středočeský",
    "kod_m": "106830",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 600 Kč středočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 600 Kč středočeský */- -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -380,9 +380,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206860",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 700 Kč jihočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 700 Kč jihočeský -/- */-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -390,11 +390,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "106013",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. -/- -/-"
+   "radek": "14.-16. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. */- -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -402,11 +402,11 @@
    "vklad": "900 Kč",
    "poradatel": "TSM Sokol Vysočany z.s.",
    "kod_m": "106014",
-   "obs_m": "-/-",
-   "kod_z": "206005",
-   "obs_z": "-/-",
+   "obs_m": "*/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "14.-16. 11. 2026 D 900 Kč TSM Sokol Vysočany z.s. -/- -/-"
+   "radek": "14.-16. 11. 2026 D 900 Kč TSM Sokol Vysočany z.s. */- ZRUŠENO"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -416,9 +416,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206830",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 600 Kč středočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 600 Kč středočeský -/- */-"
   },
   {
    "datum": "21.-23. 11. 2026",

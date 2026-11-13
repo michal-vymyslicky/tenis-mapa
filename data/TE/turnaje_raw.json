@@ -3191,7 +3191,7 @@
  },
  {
   "id": "6AA8F78F-2553-471D-B659-67974E326591",
-  "nz": "TEJT 1U14 \" Zafferano Cup U14 2027\"",
+  "nz": "TEJT 2 U14 \" Zafferano Cup U14 2027\"",
   "venue": "NTC Kosice",
   "city": "Kosice",
   "country": "Slovakia",
@@ -3382,6 +3382,22 @@
   "entry": false
  },
  {
+  "id": "A28B9A3D-DDFF-4CA1-BEC7-2A5BB8967F80",
+  "nz": "Tsaghkadzor Spring Cup 1",
+  "venue": "Tsaghkadzor Sport Center & Hotel",
+  "city": "Tsaghkadzor",
+  "country": "Armenia",
+  "iso3": "ARM",
+  "od": "2027-03-22",
+  "do": "2027-03-28",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "42B033CF-73E8-4A72-8EEC-C46854341CA0",
   "nz": "U12 Trophy Bad Waltersdorf 2027",
   "venue": "Sportaktivpark Bad Waltersdorf",
@@ -3549,6 +3565,22 @@
   "city": "Tirana",
   "country": "Albania",
   "iso3": "ALB",
+  "od": "2027-03-29",
+  "do": "2027-04-04",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "3C6BE57A-6CEE-43E7-A0EE-DE0B9E3EF4C0",
+  "nz": "Tsaghkadzor Spring Cup 2",
+  "venue": "Tsaghkadzor Sport Center & Hotel",
+  "city": "Tsaghkadzor",
+  "country": "Armenia",
+  "iso3": "ARM",
   "od": "2027-03-29",
   "do": "2027-04-04",
   "pov": "Acryllic",
@@ -4426,6 +4458,22 @@
   "entry": false
  },
  {
+  "id": "0ECE75D7-9687-4698-BF7F-E2EA9A279627",
+  "nz": "28th Euroregion Nisa Cup",
+  "venue": "Tenisove Centrum Euroregion Nisa z.s.",
+  "city": "Hradek Nad Nisou",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-05-24",
+  "do": "2027-05-30",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "B537803A-96B4-4274-A034-DC8165834B3B",
   "nz": "Bitola Open 2027 U 14",
   "venue": "Tennis Club Bitola-Bitola",
@@ -4586,6 +4634,22 @@
   "entry": false
  },
  {
+  "id": "63239FAB-A4B4-4E7A-929A-F05E683B2960",
+  "nz": "Dijon TE 14&U - Les Petits Ducs",
+  "venue": "Ligue BFC Tennis",
+  "city": "Dijon",
+  "country": "France",
+  "iso3": "FRA",
+  "od": "2027-05-31",
+  "do": "2027-06-06",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "A744D3EF-9ED5-4A97-8C2C-E4431D086316",
   "nz": "Leila Meskhi Tennis Academy cup",
   "venue": "Leila Meskhi Tennis Academy",
@@ -4615,6 +4679,22 @@
    "Category 3",
    "14&U",
    "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "BEBB8E67-5FB0-4EEA-8AC3-E872F41F3DB0",
+  "nz": "TEJT 1 U12 \" 1st Alibaba Cup U12 2027\"",
+  "venue": "TC Humenne",
+  "city": "Humenne",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-05-31",
+  "do": "2027-06-06",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "12&U"
   ],
   "entry": false
  },
@@ -4876,18 +4956,36 @@
   "entry": false
  },
  {
-  "id": "DA07537E-333C-4910-A905-C8E2CE3AD543",
-  "nz": "PORTIMÃO INTERNATIONAL TOURNAMENT U14 - 2027 - Main Draw RR to Elimination",
-  "venue": "CLUBE TÉNIS E PADEL DE PORTIMÃO",
-  "city": "Portimão",
-  "country": "Portugal",
-  "iso3": "POR",
+  "id": "5C57DABD-E283-4E2C-9F87-A5F6A07DBE47",
+  "nz": "O pohar mesta Rakovnik U12 II.",
+  "venue": "SK Talent 13",
+  "city": "Rakovnik",
+  "country": "Czechia",
+  "iso3": "CZE",
   "od": "2027-06-14",
   "do": "2027-06-20",
-  "pov": "Concrete",
+  "pov": "Clay",
   "tags": [
-   "Category 3",
-   "14&U"
+   "Category 1",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "3ABA7405-EE25-424A-AEBD-D51AB77618B3",
+  "nz": "Riga Open - 30th Anniversary",
+  "venue": "Mezaparka tenisa korti",
+  "city": "Riga",
+  "country": "Latvia",
+  "iso3": "LAT",
+  "od": "2027-06-14",
+  "do": "2027-06-20",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U",
+   "14&U",
+   "16&U"
   ],
   "entry": false
  },
@@ -4935,6 +5033,22 @@
   "pov": "Clay",
   "tags": [
    "Category 1",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "B28C3FD6-1F7C-4AB3-8208-733FFCDDB3C7",
+  "nz": "Aizkraukle 05",
+  "venue": "Vilar TK",
+  "city": "Aizkraukle",
+  "country": "Latvia",
+  "iso3": "LAT",
+  "od": "2027-06-21",
+  "do": "2027-06-27",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
    "12&U"
   ],
   "entry": false
@@ -5084,6 +5198,22 @@
   "entry": false
  },
  {
+  "id": "1CFE41FA-7E79-450C-A472-9F09031D3F1E",
+  "nz": "MEMORIJAL DR.MLADEN STOJANOVIC 12&U 2027",
+  "venue": "TENISKI KLUB DR.MLADEN STOJANOVIC",
+  "city": "Prijedor",
+  "country": "Bosnia and Herzegovina",
+  "iso3": "BIH",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "9FC49CD4-E335-4A3E-9155-5D4C1EC5A248",
   "nz": "Montreux U14",
   "venue": "Montreux Tennis Club",
@@ -5160,6 +5290,86 @@
   "tags": [
    "Category 3",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "2FB55784-36E4-41AB-B6F2-1A4C293B2A3A",
+  "nz": "Platform for Champions Bern U12",
+  "venue": "TC Neufeld",
+  "city": "Bern",
+  "country": "Switzerland",
+  "iso3": "SUI",
+  "od": "2027-07-12",
+  "do": "2027-07-18",
+  "pov": "Artificial Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "44DC5F9C-03AE-42DF-ACB1-7D343C1D96AA",
+  "nz": "Pully U14",
+  "venue": "TC Pully",
+  "city": "Pully",
+  "country": "Switzerland",
+  "iso3": "SUI",
+  "od": "2027-07-12",
+  "do": "2027-07-18",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "E550810D-3BC1-4B39-90AA-E53E460B51E0",
+  "nz": "Torneo U12 - Forlì",
+  "venue": "Tennis Villa Carpena",
+  "city": "Forlì",
+  "country": "Italy",
+  "iso3": "ITA",
+  "od": "2027-07-12",
+  "do": "2027-07-18",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "8F2C7892-004E-49FC-B575-FD51CBAC102A",
+  "nz": "Van der Valk Ridderkerk TE JR 14&U 2027",
+  "venue": "T.V. D’Oudelande",
+  "city": "Ridderkerk",
+  "country": "Netherlands",
+  "iso3": "NED",
+  "od": "2027-07-12",
+  "do": "2027-07-18",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "81E8484C-0C47-4485-9B4C-3E7DE0B7ACC6",
+  "nz": "Agno U12",
+  "venue": "GoAcademy",
+  "city": "Agno",
+  "country": "Switzerland",
+  "iso3": "SUI",
+  "od": "2027-07-19",
+  "do": "2027-07-25",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
   ],
   "entry": false
  }

@@ -32952,5 +32952,187 @@
    "lon": 15.86498,
    "s": 100
   }
- ]
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=Tsaghkadzor+Sport+Center+%26+Hotel%2C+Tsaghkadzor": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=am&format=jsonv2&limit=1&q=Tsaghkadzor+Sport+Center+%26+Hotel": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=Tenisove+Centrum+Euroregion+Nisa+z.s.%2C+Hradek+Nad+Nisou": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=Tenisove+Centrum+Euroregion+Nisa+z.s.": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=Hradek+Nad+Nisou": [
+  {
+   "name": "Hrádek nad Nisou",
+   "display_name": "Hrádek nad Nisou, okres Liberec, Liberecký kraj, 463 34, Česko",
+   "lat": "50.8522229",
+   "lon": "14.8436667",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cz&format=jsonv2&limit=1&q=tennis+Hradek+Nad+Nisou": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, Lidická, Loučná, Hrádek nad Nisou, okres Liberec, Liberecký kraj, 463 34, Česko",
+   "lat": "50.8558618",
+   "lon": "14.8373201",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Ligue+BFC+Tennis%2C+Dijon": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Ligue+BFC+Tennis": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=Dijon": [
+  {
+   "name": "Dijon",
+   "display_name": "Dijon, Côte-d'Or, Bourgogne-Franche-Comté, Metropolitní Francie, 21000, Francie",
+   "lat": "47.3215806",
+   "lon": "5.0414701",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fr&format=jsonv2&limit=1&q=tennis+Dijon": [
+  {
+   "name": "Tennis du Parc",
+   "display_name": "Tennis du Parc, Promenade Alice Milliat, Rente de Chatenay, Dijon, Côte-d'Or, Bourgogne-Franche-Comté, Metropolitní Francie, 21000, Francie",
+   "lat": "47.3278369",
+   "lon": "4.9913067",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Mezaparka+tenisa+korti%2C+Riga": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Mezaparka+tenisa+korti": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=Riga": [
+  {
+   "name": "Riga",
+   "display_name": "Riga, Lotyšsko",
+   "lat": "56.9493977",
+   "lon": "24.1051846",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lv&format=jsonv2&limit=1&q=tennis+Riga": [
+  {
+   "name": "Smart Tennis centra jaunbūve",
+   "display_name": "Smart Tennis centra jaunbūve, Mežciems, Teikas apkaime, Riga, Lotyšsko",
+   "lat": "56.9543754",
+   "lon": "24.2108379",
+   "category": "landuse",
+   "type": "construction",
+   "addresstype": "construction"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+DR.MLADEN+STOJANOVIC%2C+Prijedor": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=TENISKI+KLUB+DR.MLADEN+STOJANOVIC": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=Prijedor": [
+  {
+   "name": "Prijedor",
+   "display_name": "Prijedor, MZ Prijedor centar, Grad Prijedor, Republika srbská, 79000, Bosna a Hercegovina",
+   "lat": "44.9801369",
+   "lon": "16.7123704",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ba&format=jsonv2&limit=1&q=tennis+Prijedor": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=TC+Neufeld%2C+Bern": [
+  {
+   "name": "Neufeld",
+   "display_name": "Neufeld, Thun, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern, 3607, Švýcarsko",
+   "lat": "46.7398514",
+   "lon": "7.6109937",
+   "category": "place",
+   "type": "neighbourhood",
+   "addresstype": "neighbourhood"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=tennis+Bern": [
+  {
+   "name": "Tennis",
+   "display_name": "Tennis, Rue Jakob-Stämpfli / Jakob-Stämpfli-Strasse, Champagne, Biel/Bienne, Verwaltungskreis Biel/Bienne, Verwaltungsregion Seeland, Bern, 2504, Švýcarsko",
+   "lat": "47.1453113",
+   "lon": "7.2614587",
+   "category": "leisure",
+   "type": "pitch",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=TC+Pully%2C+Pully": [
+  {
+   "name": "Les Monts-de-Pully",
+   "display_name": "Les Monts-de-Pully, Pully, District de Lavaux-Oron, Vaud, 1068, Švýcarsko",
+   "lat": "46.5341283",
+   "lon": "6.6836328",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "suburb"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=tennis+Pully": [
+  {
+   "name": "Tennis Club Pully",
+   "display_name": "Tennis Club Pully, 48, Avenue de Rochettaz, Pully, District de Lavaux-Oron, Vaud, 1009, Švýcarsko",
+   "lat": "46.5114133",
+   "lon": "6.6708102",
+   "category": "building",
+   "type": "yes",
+   "addresstype": "building"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Tennis+Villa+Carpena%2C+Forl%C3%AC": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Tennis+Villa+Carpena": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Forl%C3%AC": [
+  {
+   "name": "Forlì",
+   "display_name": "Forlì, Forlì-Cesena, Emilia-Romagna, 47121-47122, Itálie",
+   "lat": "44.2227278",
+   "lon": "12.0412730",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=tennis+Forl%C3%AC": [
+  {
+   "name": "Tennis Club - Circolo Tennis",
+   "display_name": "Tennis Club - Circolo Tennis, Via Brando Brandi, Magliano, Carpena, Forlì, Forlì-Cesena, Emilia-Romagna, 47134, Itálie",
+   "lat": "44.1748851",
+   "lon": "12.0749522",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=T.V.+D%E2%80%99Oudelande%2C+Ridderkerk": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=T.V.+D%E2%80%99Oudelande": [
+  {
+   "name": "'t Zwint",
+   "display_name": "'t Zwint, Oudelande, Borsele, Zeeland, Nizozemsko, 4436 NA, Nizozemsko",
+   "lat": "51.4039146",
+   "lon": "3.8476916",
+   "category": "highway",
+   "type": "unclassified",
+   "addresstype": "unclassified"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=GoAcademy%2C+Agno": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=GoAcademy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=Agno": [
+  {
+   "name": "Agno",
+   "display_name": "Agno, Circolo d'Agno, Distretto di Lugano, Ticino, Švýcarsko",
+   "lat": "45.9968592",
+   "lon": "8.9002207",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=tennis+Agno": []
 }

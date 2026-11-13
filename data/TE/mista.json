@@ -2941,24 +2941,28 @@
   "adresa": "London, Great Britain",
   "zdroj": "te",
   "region": "Great Britain",
-  "lat": 51.507446,
-  "lon": -0.127765,
-  "presnost": "obec",
+  "lat": 51.491751,
+  "lon": -0.115574,
+  "presnost": "areal",
   "nazev_mista": "All England Lawn Tennis Club Community Tennis Centre Raynes Park",
   "zeme": "gb",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Black Prince Community Hub"
  },
  "CRO|teniski klub vinkovci|vinkovci": {
   "poradatel": "Teniski klub Vinkovci",
   "adresa": "Vinkovci, Croatia",
   "zdroj": "te",
   "region": "Croatia",
-  "lat": 45.288377,
-  "lon": 18.804525,
-  "presnost": "obec",
+  "lat": 45.283074,
+  "lon": 18.795927,
+  "presnost": "areal",
   "nazev_mista": "Teniski klub Vinkovci",
   "zeme": "hr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Tenis klub Vinkovci"
  },
  "MKD|tennis club jug skopje|skopje": {
   "poradatel": "Tennis Club Jug-Skopje",
@@ -2971,19 +2975,22 @@
   "nazev_mista": "Tennis Club Jug-Skopje",
   "zeme": "mk",
   "poznamka": "tenisový areál v obci podle OSM: Тениски клуб Евро Сет",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "MKD|tennis club bitola bitola|bitola": {
   "poradatel": "Tennis Club Bitola-Bitola",
   "adresa": "Bitola, North Macedonia",
   "zdroj": "te",
   "region": "North Macedonia",
-  "lat": 41.031601,
-  "lon": 21.330251,
-  "presnost": "obec",
+  "lat": 41.019085,
+  "lon": 21.338272,
+  "presnost": "areal_obec",
   "nazev_mista": "Tennis Club Bitola-Bitola",
   "zeme": "mk",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "TUR|megasaray tennis academy|antalya": {
   "poradatel": "MEGASARAY TENNIS ACADEMY",
@@ -2995,31 +3002,36 @@
   "presnost": "obec",
   "nazev_mista": "MEGASARAY TENNIS ACADEMY",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "TUR|istanbul optimum tennis academy|istanbul": {
   "poradatel": "ISTANBUL OPTIMUM TENNIS ACADEMY",
   "adresa": "İstanbul, Turkiye",
   "zdroj": "te",
   "region": "Turkiye",
-  "lat": 41.006381,
-  "lon": 28.975872,
-  "presnost": "obec",
+  "lat": 40.993737,
+  "lon": 29.026711,
+  "presnost": "areal",
   "nazev_mista": "ISTANBUL OPTIMUM TENNIS ACADEMY",
   "zeme": "tr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Boulder İstanbul"
  },
  "BIH|dodig tennis centar|medjugorje": {
   "poradatel": "DODIG TENNIS CENTAR",
   "adresa": "Medjugorje, Bosnia and Herzegovina",
   "zdroj": "te",
   "region": "Bosnia and Herzegovina",
-  "lat": 43.190941,
-  "lon": 17.67829,
-  "presnost": "obec",
+  "lat": 43.204075,
+  "lon": 17.666072,
+  "presnost": "areal",
   "nazev_mista": "DODIG TENNIS CENTAR",
   "zeme": "ba",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Sport centar Međugorje"
  },
  "CZE|sk talent 13|rakovnik": {
   "poradatel": "SK Talent 13",
@@ -3039,61 +3051,70 @@
   "adresa": "Solin, Croatia",
   "zdroj": "te",
   "region": "Croatia",
-  "lat": 43.544291,
-  "lon": 16.485302,
-  "presnost": "obec",
+  "lat": 43.503462,
+  "lon": 16.455323,
+  "presnost": "areal",
   "nazev_mista": "Teniski klub Dalmacijacement",
   "zeme": "hr",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Teniski tereni ŠRC \"Bačvice\""
  },
  "SRB|tennis club toplicanin|prokuplje": {
   "poradatel": "TENNIS CLUB TOPLICANIN",
   "adresa": "PROKUPLJE, Serbia",
   "zdroj": "te",
   "region": "Serbia",
-  "lat": 43.234348,
-  "lon": 21.588442,
-  "presnost": "obec",
+  "lat": 43.23038,
+  "lon": 21.580972,
+  "presnost": "areal",
   "nazev_mista": "TENNIS CLUB TOPLICANIN",
   "zeme": "rs",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Topličanin"
  },
  "BIH|teniski klub celik|zenica": {
   "poradatel": "TENISKI KLUB CELIK",
   "adresa": "Zenica, Bosnia and Herzegovina",
   "zdroj": "te",
   "region": "Bosnia and Herzegovina",
-  "lat": 44.199828,
-  "lon": 17.909301,
-  "presnost": "obec",
+  "lat": 44.204803,
+  "lon": 17.911258,
+  "presnost": "areal_obec",
   "nazev_mista": "TENISKI KLUB CELIK",
   "zeme": "ba",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
  },
  "MDA|national tennis center|chisinau": {
   "poradatel": "National Tennis Center",
   "adresa": "Chisinau, Moldova",
   "zdroj": "te",
   "region": "Moldova",
-  "lat": 47.035777,
-  "lon": 28.801823,
-  "presnost": "areal_obec",
+  "lat": 47.084408,
+  "lon": 28.866611,
+  "presnost": "areal",
   "nazev_mista": "National Tennis Center",
   "zeme": "md",
-  "poznamka": "tenisový areál v obci podle OSM: Școala Sportivă Republicană Specializată de Tenis",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Stadionul Colegiului Național de Viticultură și Vinificație din Chișinău (CEVVC)",
+  "v2": 1,
+  "osm3": 1
  },
  "BIH|teniski klub mostar|mostar": {
   "poradatel": "TENISKI KLUB MOSTAR",
   "adresa": "Mostar, Bosnia and Herzegovina",
   "zdroj": "te",
   "region": "Bosnia and Herzegovina",
-  "lat": 43.343586,
-  "lon": 17.807658,
-  "presnost": "obec",
+  "lat": 43.351577,
+  "lon": 17.810307,
+  "presnost": "areal",
   "nazev_mista": "TENISKI KLUB MOSTAR",
   "zeme": "ba",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Teniski centar"
  },
  "ISR|itc yafo|tel aviv": {
   "poradatel": "ITC Yafo",
@@ -3106,7 +3127,8 @@
   "nazev_mista": "ITC Yafo",
   "zeme": "il",
   "poznamka": "tenisový areál v obci podle OSM: המרכז לטניס בישראל - רמת השרון",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "GBR|liverpool tennis centre main draw only bidston sports centre qualifying only|main draw wavertree sports park wellington road": {
   "poradatel": "Liverpool Tennis Centre - Main Draw only Bidston Sports Centre - Qualifying only",
@@ -3161,12 +3183,14 @@
   "adresa": "Biella, Italy",
   "zdroj": "te",
   "region": "Italy",
-  "lat": 45.566954,
-  "lon": 8.086912,
-  "presnost": "obec",
+  "lat": 45.57242,
+  "lon": 8.046198,
+  "presnost": "areal",
   "nazev_mista": "I Faggi - Sport Wellness & Friends",
   "zeme": "it",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Tennis Club \"I faggi\""
  },
  "ISR|itc ramat hasharon|ramat hasharon": {
   "poradatel": "ITC Ramat Hasharon",
@@ -3179,7 +3203,8 @@
   "nazev_mista": "ITC Ramat Hasharon",
   "zeme": "il",
   "poznamka": "tenisový areál v obci podle OSM: המרכז לטניס בישראל - רמת השרון",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "SVK|ntc kosice|kosice": {
   "poradatel": "NTC Kosice",
@@ -3203,7 +3228,8 @@
   "presnost": "obec",
   "nazev_mista": "TK Kupele",
   "zeme": "sk",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "ROM|centrul national de tenis|bucharest": {
   "poradatel": "Centrul National de Tenis",
@@ -3240,7 +3266,8 @@
   "nazev_mista": "Rokach Tennis Club 67",
   "zeme": "il",
   "poznamka": "tenisový areál v obci podle OSM: האקדמיה לטניס",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "AUT|tennishalle bludenz|bludenz": {
   "poradatel": "Tennishalle Bludenz",
@@ -3252,6 +3279,132 @@
   "presnost": "areal",
   "nazev_mista": "Tennishalle Bludenz",
   "zeme": "at",
+  "v2": 1
+ },
+ "ARM|tsaghkadzor sport center hotel|tsaghkadzor": {
+  "poradatel": "Tsaghkadzor Sport Center & Hotel",
+  "adresa": "Tsaghkadzor, Armenia",
+  "zdroj": "te",
+  "region": "Armenia",
+  "lat": 40.537423,
+  "lon": 44.760455,
+  "presnost": "obec",
+  "nazev_mista": "Tsaghkadzor Sport Center & Hotel",
+  "zeme": "am",
+  "v2": 1,
+  "osm3": 1
+ },
+ "CZE|tenisove centrum euroregion nisa z s|hradek nad nisou": {
+  "poradatel": "Tenisove Centrum Euroregion Nisa z.s.",
+  "adresa": "Hradek Nad Nisou, Czechia",
+  "zdroj": "te",
+  "region": "Czechia",
+  "lat": 50.855862,
+  "lon": 14.83732,
+  "presnost": "areal_obec",
+  "nazev_mista": "Tenisove Centrum Euroregion Nisa z.s.",
+  "zeme": "cz",
+  "poznamka": "tenisový areál v obci podle OSM: Tennis",
+  "v2": 1,
+  "osm3": 1
+ },
+ "FRA|ligue bfc tennis|dijon": {
+  "poradatel": "Ligue BFC Tennis",
+  "adresa": "Dijon, France",
+  "zdroj": "te",
+  "region": "France",
+  "lat": 47.327837,
+  "lon": 4.991307,
+  "presnost": "areal_obec",
+  "nazev_mista": "Ligue BFC Tennis",
+  "zeme": "fr",
+  "poznamka": "tenisový areál v obci podle OSM: Tennis du Parc",
+  "v2": 1
+ },
+ "LAT|mezaparka tenisa korti|riga": {
+  "poradatel": "Mezaparka tenisa korti",
+  "adresa": "Riga, Latvia",
+  "zdroj": "te",
+  "region": "Latvia",
+  "lat": 56.949398,
+  "lon": 24.105185,
+  "presnost": "obec",
+  "nazev_mista": "Mezaparka tenisa korti",
+  "zeme": "lv",
+  "v2": 1
+ },
+ "BIH|teniski klub dr mladen stojanovic|prijedor": {
+  "poradatel": "TENISKI KLUB DR.MLADEN STOJANOVIC",
+  "adresa": "Prijedor, Bosnia and Herzegovina",
+  "zdroj": "te",
+  "region": "Bosnia and Herzegovina",
+  "lat": 44.980137,
+  "lon": 16.71237,
+  "presnost": "obec",
+  "nazev_mista": "TENISKI KLUB DR.MLADEN STOJANOVIC",
+  "zeme": "ba",
+  "v2": 1
+ },
+ "SUI|tc neufeld|bern": {
+  "poradatel": "TC Neufeld",
+  "adresa": "Bern, Switzerland",
+  "zdroj": "te",
+  "region": "Switzerland",
+  "lat": 46.739851,
+  "lon": 7.610994,
+  "presnost": "obec",
+  "nazev_mista": "TC Neufeld",
+  "zeme": "ch",
+  "v2": 1
+ },
+ "SUI|tc pully|pully": {
+  "poradatel": "TC Pully",
+  "adresa": "Pully, Switzerland",
+  "zdroj": "te",
+  "region": "Switzerland",
+  "lat": 46.511413,
+  "lon": 6.67081,
+  "presnost": "areal_obec",
+  "nazev_mista": "TC Pully",
+  "zeme": "ch",
+  "poznamka": "tenisový areál v obci podle OSM: Tennis Club Pully",
+  "v2": 1
+ },
+ "ITA|tennis villa carpena|forli": {
+  "poradatel": "Tennis Villa Carpena",
+  "adresa": "Forlì, Italy",
+  "zdroj": "te",
+  "region": "Italy",
+  "lat": 44.174885,
+  "lon": 12.074952,
+  "presnost": "areal_obec",
+  "nazev_mista": "Tennis Villa Carpena",
+  "zeme": "it",
+  "poznamka": "tenisový areál v obci podle OSM: Tennis Club - Circolo Tennis",
+  "v2": 1
+ },
+ "NED|t v doudelande|ridderkerk": {
+  "poradatel": "T.V. D’Oudelande",
+  "adresa": "Ridderkerk, Netherlands",
+  "zdroj": "te",
+  "region": "Netherlands",
+  "lat": 51.403915,
+  "lon": 3.847692,
+  "presnost": "areal",
+  "nazev_mista": "T.V. D’Oudelande",
+  "zeme": "nl",
+  "v2": 1
+ },
+ "SUI|goacademy|agno": {
+  "poradatel": "GoAcademy",
+  "adresa": "Agno, Switzerland",
+  "zdroj": "te",
+  "region": "Switzerland",
+  "lat": 45.996859,
+  "lon": 8.900221,
+  "presnost": "obec",
+  "nazev_mista": "GoAcademy",
+  "zeme": "ch",
   "v2": 1
  }
 }
