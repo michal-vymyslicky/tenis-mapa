@@ -224,9 +224,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206920",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 800 Kč východočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 800 Kč východočeský -/- */-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -296,9 +296,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206970",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 1000 Kč severomoravský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 1000 Kč severomoravský -/- */-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -318,11 +318,11 @@
    "vklad": "800 Kč",
    "poradatel": "východočeský",
    "kod_m": "106920",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 800 Kč východočeský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 800 Kč východočeský */- -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -330,11 +330,11 @@
    "vklad": "1000 Kč",
    "poradatel": "severomoravský",
    "kod_m": "106970",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 1000 Kč severomoravský -/- -/-"
+   "radek": "14.-16. 11. 2026 P 1000 Kč severomoravský */- -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -390,11 +390,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "106013",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. */- -/-"
+   "radek": "14.-16. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. */* -/-"
   },
   {
    "datum": "14.-16. 11. 2026",

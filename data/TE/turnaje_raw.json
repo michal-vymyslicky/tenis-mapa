@@ -1972,14 +1972,46 @@
   "entry": false
  },
  {
+  "id": "809ACCA0-07CC-4D36-8BBB-4DAA6F2A872B",
+  "nz": "ATDSK CUP",
+  "venue": "ADANA TENİS DAG VE SU SPORLARI KULUBU",
+  "city": "ADANA",
+  "country": "Turkiye",
+  "iso3": "TUR",
+  "od": "2026-11-14",
+  "do": "2026-11-22",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "E73A01FD-BE25-412C-95E9-36F166BC6029",
+  "nz": "Bad Waltersdorf Trophy",
+  "venue": "Sportaktivpark Bad Waltersdorf",
+  "city": "Bad Waltersdorf",
+  "country": "Austria",
+  "iso3": "AUT",
+  "od": "2026-11-14",
+  "do": "2026-11-22",
+  "pov": "Carpet",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "C9BF81D2-4FEB-4A5D-B408-F6ED8124E5F0",
   "nz": "JC FERRERO TENNIS EUROPE U16",
   "venue": "JC FERRERO TENNIS ACADEMY",
   "city": "Villena",
   "country": "Spain",
   "iso3": "ESP",
-  "od": "2026-11-16",
-  "do": "2026-11-21",
+  "od": "2026-11-14",
+  "do": "2026-11-22",
   "pov": "Other",
   "tags": [
    "Category 2",
@@ -1997,38 +2029,6 @@
   "od": "2026-11-16",
   "do": "2026-11-22",
   "pov": "Acryllic",
-  "tags": [
-   "Category 2",
-   "12&U"
-  ],
-  "entry": false
- },
- {
-  "id": "809ACCA0-07CC-4D36-8BBB-4DAA6F2A872B",
-  "nz": "ATDSK CUP",
-  "venue": "ADANA TENİS DAG VE SU SPORLARI KULUBU",
-  "city": "ADANA",
-  "country": "Turkiye",
-  "iso3": "TUR",
-  "od": "2026-11-16",
-  "do": "2026-11-22",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 3",
-   "14&U"
-  ],
-  "entry": false
- },
- {
-  "id": "E73A01FD-BE25-412C-95E9-36F166BC6029",
-  "nz": "Bad Waltersdorf Open u12 Indoor",
-  "venue": "Sportaktivpark Bad Waltersdorf",
-  "city": "Bad Waltersdorf",
-  "country": "Austria",
-  "iso3": "AUT",
-  "od": "2026-11-16",
-  "do": "2026-11-22",
-  "pov": "Carpet",
   "tags": [
    "Category 2",
    "12&U"
@@ -2982,22 +2982,6 @@
   "entry": false
  },
  {
-  "id": "A464F05D-F095-4A45-8F1B-A499B08BE740",
-  "nz": "Lexus Junior International Nottingham",
-  "venue": "Nottingham Tennis Centre",
-  "city": "Nottingham",
-  "country": "Great Britain",
-  "iso3": "GBR",
-  "od": "2027-02-22",
-  "do": "2027-02-28",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 2",
-   "12&U"
-  ],
-  "entry": false
- },
- {
   "id": "7A2FC9C8-FD64-4C81-A396-8501BA60940D",
   "nz": "Robey FOCUS tennis academy open 2027",
   "venue": "Tennishal Victoria",
@@ -3058,6 +3042,22 @@
   "tags": [
    "Category 3",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "A464F05D-F095-4A45-8F1B-A499B08BE740",
+  "nz": "Lexus Junior International Nottingham",
+  "venue": "Nottingham Tennis Centre",
+  "city": "Nottingham",
+  "country": "Great Britain",
+  "iso3": "GBR",
+  "od": "2027-02-23",
+  "do": "2027-02-28",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
   ],
   "entry": false
  },
@@ -4844,6 +4844,22 @@
   "entry": false
  },
  {
+  "id": "973711D3-6316-49E3-A9F1-17306D3CD91E",
+  "nz": "Pointer Open 2027 U 16",
+  "venue": "Tennis Club Pointer-Skopje",
+  "city": "Skopje",
+  "country": "North Macedonia",
+  "iso3": "MKD",
+  "od": "2027-06-07",
+  "do": "2027-06-13",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "86337E9C-5A03-493B-BDE6-C32A71083669",
   "nz": "Rena&Dato Cup",
   "venue": "Tennis Club \"Telavi\"",
@@ -4956,6 +4972,22 @@
   "entry": false
  },
  {
+  "id": "BD703254-F19D-4114-B4B3-52924A2A7292",
+  "nz": "Crna Reka Open 2027 U 16",
+  "venue": "Tennis Club Crna Reka-Kavadarci",
+  "city": "Kavadarci",
+  "country": "North Macedonia",
+  "iso3": "MKD",
+  "od": "2027-06-14",
+  "do": "2027-06-20",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "5C57DABD-E283-4E2C-9F87-A5F6A07DBE47",
   "nz": "O pohar mesta Rakovnik U12 II.",
   "venue": "SK Talent 13",
@@ -5050,6 +5082,23 @@
   "tags": [
    "Category 2",
    "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "BBC6C1A9-FAC8-410A-89B3-990048562B6B",
+  "nz": "Amjoy Cup 2027",
+  "venue": "Genneper Parken Tennis",
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "iso3": "NED",
+  "od": "2027-06-21",
+  "do": "2027-06-27",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U",
+   "14&U"
   ],
   "entry": false
  },
@@ -5290,6 +5339,22 @@
   "tags": [
    "Category 3",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "B52A77D2-C4C4-4C3F-B8E0-684716A3B9FD",
+  "nz": "MERIDIANA OPEN 2027",
+  "venue": "TENNIS CLUB MERIDIANA",
+  "city": "NOVI SAD",
+  "country": "Serbia",
+  "iso3": "SRB",
+  "od": "2027-07-12",
+  "do": "2027-07-18",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
   ],
   "entry": false
  },

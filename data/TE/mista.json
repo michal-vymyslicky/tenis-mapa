@@ -3319,7 +3319,8 @@
   "nazev_mista": "Ligue BFC Tennis",
   "zeme": "fr",
   "poznamka": "tenisový areál v obci podle OSM: Tennis du Parc",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "LAT|mezaparka tenisa korti|riga": {
   "poradatel": "Mezaparka tenisa korti",
@@ -3331,7 +3332,8 @@
   "presnost": "obec",
   "nazev_mista": "Mezaparka tenisa korti",
   "zeme": "lv",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "BIH|teniski klub dr mladen stojanovic|prijedor": {
   "poradatel": "TENISKI KLUB DR.MLADEN STOJANOVIC",
@@ -3343,7 +3345,8 @@
   "presnost": "obec",
   "nazev_mista": "TENISKI KLUB DR.MLADEN STOJANOVIC",
   "zeme": "ba",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "SUI|tc neufeld|bern": {
   "poradatel": "TC Neufeld",
@@ -3355,20 +3358,22 @@
   "presnost": "obec",
   "nazev_mista": "TC Neufeld",
   "zeme": "ch",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "SUI|tc pully|pully": {
   "poradatel": "TC Pully",
   "adresa": "Pully, Switzerland",
   "zdroj": "te",
   "region": "Switzerland",
-  "lat": 46.511413,
-  "lon": 6.67081,
-  "presnost": "areal_obec",
+  "lat": 46.504785,
+  "lon": 6.666634,
+  "presnost": "areal",
   "nazev_mista": "TC Pully",
   "zeme": "ch",
-  "poznamka": "tenisový areál v obci podle OSM: Tennis Club Pully",
-  "v2": 1
+  "poznamka": "areál podle OpenStreetMap: Piscine Pully-Plage",
+  "v2": 1,
+  "osm3": 1
  },
  "ITA|tennis villa carpena|forli": {
   "poradatel": "Tennis Villa Carpena",
@@ -3381,7 +3386,8 @@
   "nazev_mista": "Tennis Villa Carpena",
   "zeme": "it",
   "poznamka": "tenisový areál v obci podle OSM: Tennis Club - Circolo Tennis",
-  "v2": 1
+  "v2": 1,
+  "osm3": 1
  },
  "NED|t v doudelande|ridderkerk": {
   "poradatel": "T.V. D’Oudelande",
@@ -3405,6 +3411,59 @@
   "presnost": "obec",
   "nazev_mista": "GoAcademy",
   "zeme": "ch",
+  "v2": 1,
+  "osm3": 1
+ },
+ "MKD|tennis club pointer skopje|skopje": {
+  "poradatel": "Tennis Club Pointer-Skopje",
+  "adresa": "Skopje, North Macedonia",
+  "zdroj": "te",
+  "region": "North Macedonia",
+  "lat": 42.015348,
+  "lon": 21.398016,
+  "presnost": "areal_obec",
+  "nazev_mista": "Tennis Club Pointer-Skopje",
+  "zeme": "mk",
+  "poznamka": "tenisový areál v obci podle OSM: Тениски клуб Евро Сет",
+  "v2": 1,
+  "osm3": 1
+ },
+ "MKD|tennis club crna reka kavadarci|kavadarci": {
+  "poradatel": "Tennis Club Crna Reka-Kavadarci",
+  "adresa": "Kavadarci, North Macedonia",
+  "zdroj": "te",
+  "region": "North Macedonia",
+  "lat": 41.43328,
+  "lon": 22.012259,
+  "presnost": "obec",
+  "nazev_mista": "Tennis Club Crna Reka-Kavadarci",
+  "zeme": "mk",
+  "v2": 1,
+  "osm3": 1
+ },
+ "NED|genneper parken tennis|eindhoven": {
+  "poradatel": "Genneper Parken Tennis",
+  "adresa": "Eindhoven, Netherlands",
+  "zdroj": "te",
+  "region": "Netherlands",
+  "lat": 51.412787,
+  "lon": 5.477328,
+  "presnost": "areal",
+  "nazev_mista": "Genneper Parken Tennis",
+  "zeme": "nl",
   "v2": 1
+ },
+ "SRB|tennis club meridiana|novi sad": {
+  "poradatel": "TENNIS CLUB MERIDIANA",
+  "adresa": "NOVI SAD, Serbia",
+  "zdroj": "te",
+  "region": "Serbia",
+  "lat": 45.255134,
+  "lon": 19.845176,
+  "presnost": "obec",
+  "nazev_mista": "TENNIS CLUB MERIDIANA",
+  "zeme": "rs",
+  "v2": 1,
+  "osm3": 1
  }
 }

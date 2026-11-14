@@ -33134,5 +33134,34 @@
    "addresstype": "village"
   }
  ],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=tennis+Agno": []
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ch&format=jsonv2&limit=1&q=tennis+Agno": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Pointer-Skopje%2C+Skopje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Pointer-Skopje": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Crna+Reka-Kavadarci%2C+Kavadarci": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Tennis+Club+Crna+Reka-Kavadarci": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=Kavadarci": [
+  {
+   "name": "Кавадарци",
+   "display_name": "Кавадарци, Општина Кавадарци, 1430, Severní Makedonie",
+   "lat": "41.4332802",
+   "lon": "22.0122593",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=mk&format=jsonv2&limit=1&q=tennis+Kavadarci": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=nl&format=jsonv2&limit=1&q=Genneper+Parken+Tennis%2C+Eindhoven": [
+  {
+   "name": "Genneper Parken Tennis",
+   "display_name": "Genneper Parken Tennis, 11, Theo Koomenlaan, Stratum, Eindhoven, Noord-Brabant, Nizozemsko, 5644 HZ, Nizozemsko",
+   "lat": "51.4127871",
+   "lon": "5.4773276",
+   "category": "amenity",
+   "type": "community_centre",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+MERIDIANA%2C+NOVI+SAD": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+MERIDIANA": []
 }
