@@ -2922,15 +2922,15 @@
  "svaz:severomoravsky:706970": {
   "klic": "svaz:severomoravsky:706970",
   "poradatel": "severomoravský",
-  "adresa": "Opletalova 1218/8b, Havířov-Šumbark",
+  "adresa": "Sportovní 1530, Frýdlant n.O.",
   "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.794853,
-  "lon": 18.412673,
+  "lat": 49.582293,
+  "lon": 18.364034,
   "presnost": "areal",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Opletalova 1218/8b, Šumbark, 73601 Havířov"
+  "nazev_mista": "Sportovní klub tenis Frýdlant nad Ostravicí",
+  "osm_vzdalenost_km": 0.2,
+  "geokod": "RÚIAN: Sportovní 1530, Frýdlant, 73911 Frýdlant nad Ostravicí"
  },
  "svaz:severomoravsky:708610": {
   "klic": "svaz:severomoravsky:708610",
@@ -2971,15 +2971,15 @@
  "svaz:severomoravsky:806970": {
   "klic": "svaz:severomoravsky:806970",
   "poradatel": "severomoravský",
-  "adresa": "Sportovní 1530, Frýdlant n.O.",
+  "adresa": "Opletalova 1218/8b, Havířov-Šumbark",
   "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.582293,
-  "lon": 18.364034,
+  "lat": 49.794853,
+  "lon": 18.412673,
   "presnost": "areal",
-  "nazev_mista": "Sportovní klub tenis Frýdlant nad Ostravicí",
-  "osm_vzdalenost_km": 0.2,
-  "geokod": "RÚIAN: Sportovní 1530, Frýdlant, 73911 Frýdlant nad Ostravicí"
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Opletalova 1218/8b, Šumbark, 73601 Havířov"
  },
  "svaz:severomoravsky:906005": {
   "klic": "svaz:severomoravsky:906005",
@@ -3244,15 +3244,15 @@
  "svaz:vychodocesky:306920": {
   "klic": "svaz:vychodocesky:306920",
   "poradatel": "východočeský",
-  "adresa": "U Labe 487/1, Hradec Králové",
+  "adresa": "Hradečnice 2201, Hradec Králové",
   "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 50.211946,
-  "lon": 15.828774,
-  "presnost": "obec",
+  "lat": 50.194694,
+  "lon": 15.863782,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "OSM: U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
+  "osm_vzdalenost_km": 0.09,
+  "geokod": "RÚIAN: Hradečnice 2201, Nový Hradec Králové, 50009 Hradec Králové"
  },
  "svaz:vychodocesky:406920": {
   "klic": "svaz:vychodocesky:406920",
@@ -3270,15 +3270,15 @@
  "svaz:vychodocesky:506920": {
   "klic": "svaz:vychodocesky:506920",
   "poradatel": "východočeský",
-  "adresa": "U Labe 487/1, Hradec Králové",
+  "adresa": "Hradečnice 2201, Hradec Králové",
   "zdroj": "detail",
   "region": "Východočeský",
-  "lat": 50.211946,
-  "lon": 15.828774,
-  "presnost": "obec",
+  "lat": 50.194694,
+  "lon": 15.863782,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "OSM: U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
+  "osm_vzdalenost_km": 0.09,
+  "geokod": "RÚIAN: Hradečnice 2201, Nový Hradec Králové, 50009 Hradec Králové"
  },
  "svaz:vychodocesky:606920": {
   "klic": "svaz:vychodocesky:606920",
