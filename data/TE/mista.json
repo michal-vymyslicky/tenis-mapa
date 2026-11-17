@@ -3465,5 +3465,30 @@
   "zeme": "rs",
   "v2": 1,
   "osm3": 1
+ },
+ "ESP|centre internacional de tennis|barcelona": {
+  "poradatel": "CENTRE INTERNACIONAL DE TENNIS",
+  "adresa": "Barcelona, Spain",
+  "zdroj": "te",
+  "region": "Spain",
+  "lat": 41.38258,
+  "lon": 2.177073,
+  "presnost": "obec",
+  "nazev_mista": "CENTRE INTERNACIONAL DE TENNIS",
+  "zeme": "es",
+  "v2": 1,
+  "osm3": 1
+ },
+ "GBR|dukes meadow|london": {
+  "poradatel": "Dukes Meadow",
+  "adresa": "London, Great Britain",
+  "zdroj": "te",
+  "region": "Great Britain",
+  "lat": 51.285013,
+  "lon": 1.055445,
+  "presnost": "areal",
+  "nazev_mista": "Dukes Meadow",
+  "zeme": "gb",
+  "v2": 1
  }
 }

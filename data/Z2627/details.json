@@ -38,7 +38,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106002": {
   "_status": "ok",
@@ -59,7 +59,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106003": {
   "_status": "ok",
@@ -80,7 +80,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106004": {
   "_status": "ok",
@@ -101,7 +101,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106005": {
   "_status": "ok",
@@ -142,7 +142,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106007": {
   "_status": "ok",
@@ -163,7 +163,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106008": {
   "_status": "ok",
@@ -204,7 +204,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106010": {
   "_status": "ok",
@@ -225,7 +225,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106011": {
   "_status": "ok",
@@ -286,7 +286,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 36,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106014": {
   "_status": "ok",
@@ -307,7 +307,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106015": {
   "_status": "ok",
@@ -340,16 +340,16 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 20.11.2026 09:00:00 do 20.11.2026 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 19.11.2026 10:00:00 do 19.11.2026 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "info@tenis-tisnov.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-17"
  },
  "106017": {
   "_status": "ok",
@@ -370,7 +370,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106018": {
   "_status": "ok",
@@ -385,13 +385,13 @@
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 19.11.2026 10:00:00 do 19.11.2026 18:00:00",
   "kontakt": "Kolesár Miloš",
-  "mobil": "739702008",
+  "mobil": "",
   "email": "Info@ltc2005.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "106019": {
   "_status": "ok",
@@ -411,8 +411,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-17"
  },
  "106020": {
   "_status": "ok",
@@ -433,7 +433,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106021": {
   "_status": "ok",
@@ -453,8 +453,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "106022": {
   "_status": "ok",
@@ -474,8 +474,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-17"
  },
  "106023": {
   "_status": "ok",
@@ -495,8 +495,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "106024": {
   "_status": "ok",
@@ -516,8 +516,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "106025": {
   "_status": "ok",
@@ -537,8 +537,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "106026": {
   "_status": "ok",
@@ -559,7 +559,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106027": {
   "_status": "ok",
@@ -579,8 +579,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "106028": {
   "_status": "ok",
@@ -601,7 +601,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106029": {
   "_status": "ok",
@@ -622,7 +622,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106030": {
   "_status": "ok",
@@ -642,8 +642,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "106031": {
   "_status": "ok",
@@ -664,7 +664,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106032": {
   "_status": "ok",
@@ -685,7 +685,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106033": {
   "_status": "ok",
@@ -705,8 +705,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-17"
  },
  "106034": {
   "_status": "ok",
@@ -727,7 +727,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106035": {
   "_status": "ok",
@@ -748,7 +748,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106036": {
   "_status": "ok",
@@ -769,7 +769,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106037": {
   "_status": "ok",
@@ -810,7 +810,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106039": {
   "_status": "ok",
@@ -830,8 +830,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-17"
  },
  "106040": {
   "_status": "ok",
@@ -851,8 +851,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "106041": {
   "_status": "ok",
@@ -873,7 +873,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106042": {
   "_status": "ok",
@@ -894,7 +894,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106043": {
   "_status": "ok",
@@ -915,7 +915,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106044": {
   "_status": "ok",
@@ -956,8 +956,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 35,
+  "_stazeno": "2026-11-17"
  },
  "106046": {
   "_status": "ok",
@@ -999,7 +999,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106048": {
   "_status": "ok",
@@ -1040,8 +1040,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "106050": {
   "_status": "ok",
@@ -1082,8 +1082,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "106052": {
   "_status": "ok",
@@ -1125,7 +1125,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106054": {
   "_status": "ok",
@@ -1167,7 +1167,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106056": {
   "_status": "ok",
@@ -1209,7 +1209,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106058": {
   "_status": "ok",
@@ -1250,8 +1250,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "106060": {
   "_status": "ok",
@@ -1293,7 +1293,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106062": {
   "_status": "ok",
@@ -1334,8 +1334,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "106064": {
   "_status": "ok",
@@ -1377,7 +1377,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106066": {
   "_status": "ok",
@@ -1418,8 +1418,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 19,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-17"
  },
  "106068": {
   "_status": "ok",
@@ -1453,15 +1453,15 @@
   "mice": "tecnifibre",
   "pocet_ucastniku": "16",
   "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 08.01.2027 09:00:00 do 08.01.2027 17:00:00",
+  "el_prezence": "od 07.01.2027 10:00:00 do 07.01.2027 18:00:00",
   "kontakt": "Ing. Kij Miroslav",
   "mobil": "603375461",
   "email": "mkij@tenisova-skola.com",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
  },
  "106070": {
   "_status": "ok",
@@ -1503,7 +1503,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106072": {
   "_status": "ok",
@@ -1544,8 +1544,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "106074": {
   "_status": "ok",
@@ -1587,7 +1587,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106076": {
   "_status": "ok",
@@ -1608,7 +1608,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "106077": {
   "_status": "ok",
@@ -1628,8 +1628,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-13"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "106078": {
   "_status": "ok",
@@ -1649,8 +1649,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "106079": {
   "_status": "ok",
@@ -1670,8 +1670,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 14,
+  "_stazeno": "2026-11-17"
  },
  "106080": {
   "_status": "ok",
@@ -1713,7 +1713,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "106082": {
   "_status": "ok",
@@ -1750,12 +1750,12 @@
   "el_prezence": "od 21.01.2027 10:00:00 do 21.01.2027 18:00:00",
   "kontakt": "Kulhánek Jakub",
   "mobil": "775 130 865",
-  "email": "hostik@seznam.cz",
+  "email": "kulhanek-kuba@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106084": {
   "_status": "ok",
@@ -1860,7 +1860,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106089": {
   "_status": "ok",
@@ -1965,7 +1965,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106094": {
   "_status": "ok",
@@ -2070,7 +2070,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106099": {
   "_status": "ok",
@@ -2174,8 +2174,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
  },
  "106104": {
   "_status": "ok",
@@ -2280,7 +2280,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106109": {
   "_status": "ok",
@@ -2385,7 +2385,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106114": {
   "_status": "ok",
@@ -2490,7 +2490,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106119": {
   "_status": "ok",
@@ -2595,7 +2595,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106124": {
   "_status": "ok",
@@ -2700,7 +2700,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106129": {
   "_status": "ok",
@@ -2804,8 +2804,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "106134": {
   "_status": "ok",
@@ -2909,8 +2909,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "106139": {
   "_status": "ok",
@@ -3014,8 +3014,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 47,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 52,
+  "_stazeno": "2026-11-17"
  },
  "106800": {
   "_status": "ok",
@@ -3036,7 +3036,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 49,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106830": {
   "_status": "ok",
@@ -3057,7 +3057,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 31,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106860": {
   "_status": "ok",
@@ -3078,7 +3078,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 30,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106880": {
   "_status": "ok",
@@ -3099,7 +3099,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106900": {
   "_status": "ok",
@@ -3120,7 +3120,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106906": {
   "_status": "ok",
@@ -3141,7 +3141,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106920": {
   "_status": "ok",
@@ -3162,7 +3162,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 44,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106940": {
   "_status": "ok",
@@ -3183,7 +3183,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 35,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "106970": {
   "_status": "ok",
@@ -3204,7 +3204,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 35,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206000": {
   "_status": "ok",
@@ -3225,7 +3225,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206001": {
   "_status": "ok",
@@ -3347,7 +3347,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206007": {
   "_status": "ok",
@@ -3380,16 +3380,16 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 20.11.2026 09:00:00 do 20.11.2026 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 19.11.2026 10:00:00 do 19.11.2026 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "info@tenis-tisnov.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-17"
  },
  "206009": {
   "_status": "ok",
@@ -3430,8 +3430,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "206011": {
   "_status": "ok",
@@ -3452,7 +3452,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206012": {
   "_status": "ok",
@@ -3472,8 +3472,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
  },
  "206013": {
   "_status": "ok",
@@ -3494,7 +3494,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206014": {
   "_status": "ok",
@@ -3514,8 +3514,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "206015": {
   "_status": "ok",
@@ -3536,7 +3536,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206016": {
   "_status": "ok",
@@ -3557,7 +3557,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206017": {
   "_status": "ok",
@@ -3577,8 +3577,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "206018": {
   "_status": "ok",
@@ -3598,8 +3598,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "206019": {
   "_status": "ok",
@@ -3620,7 +3620,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206020": {
   "_status": "ok",
@@ -3641,7 +3641,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206021": {
   "_status": "ok",
@@ -3657,12 +3657,12 @@
   "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
   "kontakt": "Kulhánek Jakub",
   "mobil": "775 130 865",
-  "email": "hostik@seznam.cz",
+  "email": "kulhanek-kuba@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206022": {
   "_status": "ok",
@@ -3683,7 +3683,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206023": {
   "_status": "ok",
@@ -3703,8 +3703,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-17"
  },
  "206024": {
   "_status": "ok",
@@ -3746,7 +3746,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206026": {
   "_status": "ok",
@@ -3788,7 +3788,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206028": {
   "_status": "ok",
@@ -3830,7 +3830,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206030": {
   "_status": "ok",
@@ -3872,7 +3872,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206032": {
   "_status": "ok",
@@ -3913,8 +3913,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "206034": {
   "_status": "ok",
@@ -3956,7 +3956,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206036": {
   "_status": "ok",
@@ -3990,7 +3990,7 @@
   "mice": "tecnifibre",
   "pocet_ucastniku": "16",
   "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 08.01.2027 09:00:00 do 08.01.2027 17:00:00",
+  "el_prezence": "od 07.01.2027 10:00:00 do 07.01.2027 18:00:00",
   "kontakt": "Ing. Kij Miroslav",
   "mobil": "603375461",
   "email": "mkij@tenisova-skola.com",
@@ -3998,7 +3998,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206038": {
   "_status": "ok",
@@ -4040,7 +4040,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206040": {
   "_status": "ok",
@@ -4082,7 +4082,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206042": {
   "_status": "ok",
@@ -4124,7 +4124,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "206044": {
   "_status": "ok",
@@ -4166,7 +4166,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206046": {
   "_status": "ok",
@@ -4186,8 +4186,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "206047": {
   "_status": "ok",
@@ -4228,8 +4228,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-17"
  },
  "206049": {
   "_status": "ok",
@@ -4334,7 +4334,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "206054": {
   "_status": "ok",
@@ -4439,7 +4439,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "206059": {
   "_status": "ok",
@@ -4543,8 +4543,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "206064": {
   "_status": "ok",
@@ -4649,7 +4649,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "206069": {
   "_status": "ok",
@@ -4754,7 +4754,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "206074": {
   "_status": "ok",
@@ -4859,7 +4859,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "206079": {
   "_status": "ok",
@@ -4921,8 +4921,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 48,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 53,
+  "_stazeno": "2026-11-17"
  },
  "206800": {
   "_status": "ok",
@@ -4943,7 +4943,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 28,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206830": {
   "_status": "ok",
@@ -4964,7 +4964,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206860": {
   "_status": "ok",
@@ -4985,7 +4985,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 25,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206880": {
   "_status": "ok",
@@ -5006,7 +5006,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206900": {
   "_status": "ok",
@@ -5048,7 +5048,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206920": {
   "_status": "ok",
@@ -5069,7 +5069,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206940": {
   "_status": "ok",
@@ -5090,7 +5090,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206970": {
   "_status": "ok",
@@ -5111,7 +5111,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306000": {
   "_status": "ok",
@@ -5131,8 +5131,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 98,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 99,
+  "_stazeno": "2026-11-17"
  },
  "306001": {
   "_status": "ok",
@@ -5144,16 +5144,16 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 27.11.2026 09:00:00 do 27.11.2026 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "info@tenis-tisnov.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "306002": {
   "_status": "ok",
@@ -5173,8 +5173,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "306003": {
   "_status": "ok",
@@ -5194,8 +5194,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-17"
  },
  "306004": {
   "_status": "ok",
@@ -5216,7 +5216,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306005": {
   "_status": "ok",
@@ -5237,7 +5237,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306006": {
   "_status": "ok",
@@ -5273,12 +5273,12 @@
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306008": {
   "_status": "ok",
@@ -5298,8 +5298,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 42,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 44,
+  "_stazeno": "2026-11-17"
  },
  "306009": {
   "_status": "ok",
@@ -5320,7 +5320,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306010": {
   "_status": "ok",
@@ -5341,7 +5341,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306011": {
   "_status": "ok",
@@ -5362,7 +5362,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306012": {
   "_status": "ok",
@@ -5382,8 +5382,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-17"
  },
  "306013": {
   "_status": "ok",
@@ -5404,7 +5404,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306014": {
   "_status": "ok",
@@ -5425,7 +5425,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306015": {
   "_status": "ok",
@@ -5445,8 +5445,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 40,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 43,
+  "_stazeno": "2026-11-17"
  },
  "306016": {
   "_status": "ok",
@@ -5466,8 +5466,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "306017": {
   "_status": "ok",
@@ -5487,8 +5487,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 49,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 50,
+  "_stazeno": "2026-11-17"
  },
  "306018": {
   "_status": "ok",
@@ -5508,8 +5508,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "306019": {
   "_status": "ok",
@@ -5529,8 +5529,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-17"
  },
  "306020": {
   "_status": "ok",
@@ -5550,8 +5550,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 14,
+  "_stazeno": "2026-11-17"
  },
  "306021": {
   "_status": "ok",
@@ -5572,7 +5572,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306022": {
   "_status": "ok",
@@ -5613,8 +5613,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "306024": {
   "_status": "ok",
@@ -5655,8 +5655,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "306026": {
   "_status": "ok",
@@ -5698,7 +5698,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306028": {
   "_status": "ok",
@@ -5739,8 +5739,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "306030": {
   "_status": "ok",
@@ -5782,7 +5782,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306032": {
   "_status": "ok",
@@ -5824,7 +5824,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306034": {
   "_status": "ok",
@@ -5865,8 +5865,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "306036": {
   "_status": "ok",
@@ -5908,7 +5908,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306038": {
   "_status": "ok",
@@ -5950,7 +5950,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306040": {
   "_status": "ok",
@@ -5991,8 +5991,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "306042": {
   "_status": "ok",
@@ -6033,8 +6033,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "306044": {
   "_status": "ok",
@@ -6076,7 +6076,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306046": {
   "_status": "ok",
@@ -6118,7 +6118,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306048": {
   "_status": "ok",
@@ -6160,7 +6160,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306050": {
   "_status": "ok",
@@ -6201,8 +6201,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-17"
  },
  "306052": {
   "_status": "ok",
@@ -6243,8 +6243,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "306054": {
   "_status": "ok",
@@ -6286,7 +6286,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306056": {
   "_status": "ok",
@@ -6328,7 +6328,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306058": {
   "_status": "ok",
@@ -6370,7 +6370,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306060": {
   "_status": "ok",
@@ -6412,7 +6412,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306062": {
   "_status": "ok",
@@ -6454,7 +6454,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306064": {
   "_status": "ok",
@@ -6488,7 +6488,7 @@
   "mice": "tecnifibre",
   "pocet_ucastniku": "16",
   "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 15.01.2027 09:00:00 do 15.01.2027 17:00:00",
+  "el_prezence": "od 14.01.2027 10:00:00 do 14.01.2027 18:00:00",
   "kontakt": "Ing. Kij Miroslav",
   "mobil": "603375461",
   "email": "mkij@tenisova-skola.com",
@@ -6496,7 +6496,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306066": {
   "_status": "ok",
@@ -6517,7 +6517,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "306067": {
   "_status": "ok",
@@ -6538,7 +6538,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "306068": {
   "_status": "ok",
@@ -6559,7 +6559,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306069": {
   "_status": "ok",
@@ -6580,7 +6580,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306070": {
   "_status": "ok",
@@ -6622,7 +6622,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "306072": {
   "_status": "ok",
@@ -6643,7 +6643,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "306073": {
   "_status": "ok",
@@ -6664,7 +6664,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306074": {
   "_status": "ok",
@@ -6768,8 +6768,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
  },
  "306079": {
   "_status": "ok",
@@ -6874,7 +6874,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306084": {
   "_status": "ok",
@@ -6978,8 +6978,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-17"
  },
  "306089": {
   "_status": "ok",
@@ -7083,8 +7083,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-17"
  },
  "306094": {
   "_status": "ok",
@@ -7189,7 +7189,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306099": {
   "_status": "ok",
@@ -7294,7 +7294,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306104": {
   "_status": "ok",
@@ -7399,7 +7399,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306109": {
   "_status": "ok",
@@ -7504,7 +7504,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306114": {
   "_status": "ok",
@@ -7608,8 +7608,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "306119": {
   "_status": "ok",
@@ -7714,7 +7714,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306124": {
   "_status": "ok",
@@ -7819,7 +7819,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306129": {
   "_status": "ok",
@@ -7924,7 +7924,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306134": {
   "_status": "ok",
@@ -8029,7 +8029,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306139": {
   "_status": "ok",
@@ -8134,7 +8134,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306144": {
   "_status": "ok",
@@ -8239,7 +8239,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306149": {
   "_status": "ok",
@@ -8344,7 +8344,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306154": {
   "_status": "ok",
@@ -8449,7 +8449,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306159": {
   "_status": "ok",
@@ -8554,7 +8554,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306164": {
   "_status": "ok",
@@ -8659,7 +8659,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306169": {
   "_status": "ok",
@@ -8869,7 +8869,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306920": {
   "_status": "ok",
@@ -8952,8 +8952,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 75,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 76,
+  "_stazeno": "2026-11-17"
  },
  "406001": {
   "_status": "ok",
@@ -8965,8 +8965,8 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 27.11.2026 09:00:00 do 27.11.2026 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "info@tenis-tisnov.cz",
@@ -8974,7 +8974,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406002": {
   "_status": "ok",
@@ -8995,7 +8995,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406003": {
   "_status": "ok",
@@ -9015,8 +9015,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 14,
+  "_stazeno": "2026-11-17"
  },
  "406004": {
   "_status": "ok",
@@ -9036,8 +9036,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "406005": {
   "_status": "ok",
@@ -9057,8 +9057,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "406006": {
   "_status": "ok",
@@ -9074,12 +9074,12 @@
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406007": {
   "_status": "ok",
@@ -9099,8 +9099,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-17"
  },
  "406008": {
   "_status": "ok",
@@ -9120,8 +9120,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "406009": {
   "_status": "ok",
@@ -9141,8 +9141,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-17"
  },
  "406010": {
   "_status": "ok",
@@ -9162,8 +9162,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-17"
  },
  "406011": {
   "_status": "ok",
@@ -9184,7 +9184,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406012": {
   "_status": "ok",
@@ -9205,7 +9205,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406013": {
   "_status": "ok",
@@ -9226,7 +9226,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406014": {
   "_status": "ok",
@@ -9246,8 +9246,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-17"
  },
  "406015": {
   "_status": "ok",
@@ -9268,7 +9268,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406016": {
   "_status": "ok",
@@ -9289,7 +9289,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406017": {
   "_status": "ok",
@@ -9310,7 +9310,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406018": {
   "_status": "ok",
@@ -9331,7 +9331,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406019": {
   "_status": "ok",
@@ -9351,8 +9351,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 45,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 46,
+  "_stazeno": "2026-11-17"
  },
  "406020": {
   "_status": "ok",
@@ -9372,8 +9372,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-17"
  },
  "406021": {
   "_status": "ok",
@@ -9393,8 +9393,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 63,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 65,
+  "_stazeno": "2026-11-17"
  },
  "406022": {
   "_status": "ok",
@@ -9435,8 +9435,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "406024": {
   "_status": "ok",
@@ -9478,7 +9478,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406026": {
   "_status": "ok",
@@ -9519,8 +9519,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "406028": {
   "_status": "ok",
@@ -9561,8 +9561,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-17"
  },
  "406030": {
   "_status": "ok",
@@ -9603,8 +9603,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "406032": {
   "_status": "ok",
@@ -9646,7 +9646,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406034": {
   "_status": "ok",
@@ -9687,8 +9687,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-17"
  },
  "406036": {
   "_status": "ok",
@@ -9730,7 +9730,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406038": {
   "_status": "ok",
@@ -9772,7 +9772,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406040": {
   "_status": "ok",
@@ -9813,8 +9813,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "406042": {
   "_status": "ok",
@@ -9847,16 +9847,16 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 01.01.2027 09:00:00 do 01.01.2027 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 31.12.2026 10:00:00 do 31.12.2026 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "tenistisnov@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-17"
  },
  "406044": {
   "_status": "ok",
@@ -9898,7 +9898,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406046": {
   "_status": "ok",
@@ -9940,7 +9940,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406048": {
   "_status": "ok",
@@ -9982,7 +9982,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406050": {
   "_status": "ok",
@@ -10024,7 +10024,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406052": {
   "_status": "ok",
@@ -10066,7 +10066,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406054": {
   "_status": "ok",
@@ -10108,7 +10108,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406056": {
   "_status": "ok",
@@ -10149,8 +10149,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "406058": {
   "_status": "ok",
@@ -10192,7 +10192,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406060": {
   "_status": "ok",
@@ -10234,7 +10234,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "406062": {
   "_status": "ok",
@@ -10255,7 +10255,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "406063": {
   "_status": "ok",
@@ -10275,8 +10275,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "406064": {
   "_status": "ok",
@@ -10318,7 +10318,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406066": {
   "_status": "ok",
@@ -10338,8 +10338,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "406067": {
   "_status": "ok",
@@ -10360,7 +10360,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "406068": {
   "_status": "ok",
@@ -10381,7 +10381,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406069": {
   "_status": "ok",
@@ -10485,8 +10485,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "406074": {
   "_status": "ok",
@@ -10590,8 +10590,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "406079": {
   "_status": "ok",
@@ -10696,7 +10696,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406084": {
   "_status": "ok",
@@ -10801,7 +10801,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406089": {
   "_status": "ok",
@@ -10905,8 +10905,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "406094": {
   "_status": "ok",
@@ -11011,7 +11011,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406099": {
   "_status": "ok",
@@ -11115,8 +11115,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "406104": {
   "_status": "ok",
@@ -11220,8 +11220,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
  },
  "406109": {
   "_status": "ok",
@@ -11321,12 +11321,12 @@
   "el_prezence": "od 22.02.2027 10:00:00 do 22.02.2027 18:00:00",
   "kontakt": "Parys Petr",
   "mobil": "732975082",
-  "email": "petr@tktilia.cz",
+  "email": "petr@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
  },
  "406114": {
   "_status": "ok",
@@ -11431,7 +11431,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406119": {
   "_status": "ok",
@@ -11536,7 +11536,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406124": {
   "_status": "ok",
@@ -11640,8 +11640,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-17"
  },
  "406129": {
   "_status": "ok",
@@ -11745,8 +11745,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "406134": {
   "_status": "ok",
@@ -11851,7 +11851,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406139": {
   "_status": "ok",
@@ -11956,7 +11956,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406144": {
   "_status": "ok",
@@ -12060,8 +12060,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "406149": {
   "_status": "ok",
@@ -12166,7 +12166,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406154": {
   "_status": "ok",
@@ -12271,7 +12271,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406159": {
   "_status": "ok",
@@ -12460,7 +12460,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406920": {
   "_status": "ok",
@@ -12537,14 +12537,14 @@
   "pocet_ucastniku": "24",
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
-  "kontakt": "Jakub Veigl",
-  "mobil": "774 906 620",
-  "email": "jakub.veigl@seznam.cz",
+  "kontakt": "Prusenovský Adam",
+  "mobil": "739 643 818",
+  "email": "adampruse@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 33,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506001": {
   "_status": "ok",
@@ -12565,7 +12565,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506002": {
   "_status": "ok",
@@ -12586,7 +12586,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 30,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506003": {
   "_status": "ok",
@@ -12606,8 +12606,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 41,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 43,
+  "_stazeno": "2026-11-17"
  },
  "506004": {
   "_status": "ok",
@@ -12628,7 +12628,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506005": {
   "_status": "ok",
@@ -12648,8 +12648,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 35,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 36,
+  "_stazeno": "2026-11-17"
  },
  "506006": {
   "_status": "ok",
@@ -12669,8 +12669,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-17"
  },
  "506007": {
   "_status": "ok",
@@ -12691,7 +12691,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506008": {
   "_status": "ok",
@@ -12712,7 +12712,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506009": {
   "_status": "ok",
@@ -12732,8 +12732,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "506010": {
   "_status": "ok",
@@ -12745,8 +12745,8 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 04.12.2026 09:00:00 do 04.12.2026 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "tenistisnov@seznam.cz",
@@ -12754,7 +12754,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506011": {
   "_status": "ok",
@@ -12775,7 +12775,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506012": {
   "_status": "ok",
@@ -12796,7 +12796,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506013": {
   "_status": "ok",
@@ -12811,13 +12811,13 @@
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
   "kontakt": "Kolesár Miloš",
-  "mobil": "739702008",
+  "mobil": "",
   "email": "info@ltc2005.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506014": {
   "_status": "ok",
@@ -12838,7 +12838,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506015": {
   "_status": "ok",
@@ -12859,7 +12859,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506016": {
   "_status": "ok",
@@ -12879,8 +12879,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "506017": {
   "_status": "ok",
@@ -12900,8 +12900,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "506018": {
   "_status": "ok",
@@ -12921,8 +12921,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "506019": {
   "_status": "ok",
@@ -12943,7 +12943,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506020": {
   "_status": "ok",
@@ -12964,7 +12964,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506021": {
   "_status": "ok",
@@ -12985,7 +12985,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506022": {
   "_status": "ok",
@@ -13026,8 +13026,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-17"
  },
  "506024": {
   "_status": "ok",
@@ -13069,7 +13069,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506026": {
   "_status": "ok",
@@ -13110,8 +13110,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-17"
  },
  "506028": {
   "_status": "ok",
@@ -13153,7 +13153,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 25,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506030": {
   "_status": "ok",
@@ -13195,7 +13195,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506032": {
   "_status": "ok",
@@ -13236,8 +13236,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "506034": {
   "_status": "ok",
@@ -13278,8 +13278,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "506036": {
   "_status": "ok",
@@ -13320,8 +13320,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-17"
  },
  "506038": {
   "_status": "ok",
@@ -13363,7 +13363,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506040": {
   "_status": "ok",
@@ -13405,7 +13405,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506042": {
   "_status": "ok",
@@ -13446,8 +13446,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-17"
  },
  "506044": {
   "_status": "ok",
@@ -13488,8 +13488,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "506046": {
   "_status": "ok",
@@ -13531,7 +13531,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506048": {
   "_status": "ok",
@@ -13573,7 +13573,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506050": {
   "_status": "ok",
@@ -13610,12 +13610,12 @@
   "el_prezence": "od 07.01.2027 10:00:00 do 07.01.2027 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "506052": {
   "_status": "ok",
@@ -13657,7 +13657,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506054": {
   "_status": "ok",
@@ -13698,8 +13698,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "506056": {
   "_status": "ok",
@@ -13741,7 +13741,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506058": {
   "_status": "ok",
@@ -13753,8 +13753,8 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 15.01.2027 09:00:00 do 15.01.2027 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 14.01.2027 10:00:00 do 14.01.2027 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "tenistisnov@seznam.cz",
@@ -13762,7 +13762,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506059": {
   "_status": "ok",
@@ -13783,7 +13783,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506060": {
   "_status": "ok",
@@ -13825,7 +13825,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "506062": {
   "_status": "ok",
@@ -13846,7 +13846,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "506063": {
   "_status": "ok",
@@ -13867,7 +13867,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506064": {
   "_status": "ok",
@@ -13909,7 +13909,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506066": {
   "_status": "ok",
@@ -13930,7 +13930,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "506067": {
   "_status": "ok",
@@ -13951,7 +13951,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "506068": {
   "_status": "ok",
@@ -13972,7 +13972,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506069": {
   "_status": "ok",
@@ -14077,7 +14077,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506074": {
   "_status": "ok",
@@ -14182,7 +14182,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506079": {
   "_status": "ok",
@@ -14286,8 +14286,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "506084": {
   "_status": "ok",
@@ -14392,7 +14392,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506089": {
   "_status": "ok",
@@ -14497,7 +14497,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506094": {
   "_status": "ok",
@@ -14601,7 +14601,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506099": {
   "_status": "ok",
@@ -14701,12 +14701,12 @@
   "el_prezence": "od 11.02.2027 10:00:00 do 11.02.2027 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506104": {
   "_status": "ok",
@@ -14811,7 +14811,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506109": {
   "_status": "ok",
@@ -14916,7 +14916,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506114": {
   "_status": "ok",
@@ -15013,7 +15013,7 @@
   "mice": "tecnifibre",
   "pocet_ucastniku": "16",
   "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 26.02.2027 09:00:00 do 26.02.2027 17:00:00",
+  "el_prezence": "od 25.02.2027 10:00:00 do 25.02.2027 18:00:00",
   "kontakt": "Ing. Kij Miroslav",
   "mobil": "603375461",
   "email": "mkij@tenisova-skola.com",
@@ -15021,7 +15021,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506119": {
   "_status": "ok",
@@ -15125,8 +15125,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "506124": {
   "_status": "ok",
@@ -15230,8 +15230,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "506129": {
   "_status": "ok",
@@ -15336,7 +15336,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506134": {
   "_status": "ok",
@@ -15440,8 +15440,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-17"
  },
  "506139": {
   "_status": "ok",
@@ -15546,7 +15546,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506144": {
   "_status": "ok",
@@ -15651,7 +15651,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506149": {
   "_status": "ok",
@@ -15756,7 +15756,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506154": {
   "_status": "ok",
@@ -15860,8 +15860,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-17"
  },
  "506159": {
   "_status": "ok",
@@ -15966,7 +15966,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506164": {
   "_status": "ok",
@@ -16155,7 +16155,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506880": {
   "_status": "ok",
@@ -16218,7 +16218,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506920": {
   "_status": "ok",
@@ -16295,14 +16295,14 @@
   "pocet_ucastniku": "24",
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
-  "kontakt": "Jakub Veigl",
-  "mobil": "774 906 620",
-  "email": "jakub.veigl@seznam.cz",
+  "kontakt": "Prusenovský Adam",
+  "mobil": "739 643 818",
+  "email": "adampruse@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 33,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606001": {
   "_status": "ok",
@@ -16322,8 +16322,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "606002": {
   "_status": "ok",
@@ -16343,8 +16343,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 48,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 52,
+  "_stazeno": "2026-11-17"
  },
  "606003": {
   "_status": "ok",
@@ -16364,8 +16364,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-17"
  },
  "606004": {
   "_status": "ok",
@@ -16386,7 +16386,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606005": {
   "_status": "ok",
@@ -16406,8 +16406,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "606006": {
   "_status": "ok",
@@ -16427,8 +16427,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-17"
  },
  "606007": {
   "_status": "ok",
@@ -16449,7 +16449,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606008": {
   "_status": "ok",
@@ -16470,7 +16470,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606009": {
   "_status": "ok",
@@ -16490,8 +16490,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-17"
  },
  "606010": {
   "_status": "ok",
@@ -16503,16 +16503,16 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 04.12.2026 09:00:00 do 04.12.2026 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "tenistisnov@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "606011": {
   "_status": "ok",
@@ -16532,8 +16532,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "606012": {
   "_status": "ok",
@@ -16554,7 +16554,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606013": {
   "_status": "ok",
@@ -16569,13 +16569,13 @@
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
   "kontakt": "Kolesár Miloš",
-  "mobil": "739702008",
+  "mobil": "",
   "email": "info@ltc2005.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-17"
  },
  "606014": {
   "_status": "ok",
@@ -16595,8 +16595,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-17"
  },
  "606015": {
   "_status": "ok",
@@ -16616,8 +16616,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "606016": {
   "_status": "ok",
@@ -16638,7 +16638,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606017": {
   "_status": "ok",
@@ -16658,8 +16658,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-17"
  },
  "606018": {
   "_status": "ok",
@@ -16680,7 +16680,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606019": {
   "_status": "ok",
@@ -16700,8 +16700,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-17"
  },
  "606020": {
   "_status": "ok",
@@ -16721,8 +16721,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "606021": {
   "_status": "ok",
@@ -16743,7 +16743,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606022": {
   "_status": "ok",
@@ -16764,7 +16764,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606023": {
   "_status": "ok",
@@ -16784,8 +16784,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 43,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 44,
+  "_stazeno": "2026-11-17"
  },
  "606024": {
   "_status": "ok",
@@ -16827,7 +16827,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606026": {
   "_status": "ok",
@@ -16868,8 +16868,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "606028": {
   "_status": "ok",
@@ -16911,7 +16911,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606030": {
   "_status": "ok",
@@ -16953,7 +16953,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606032": {
   "_status": "ok",
@@ -16995,7 +16995,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606034": {
   "_status": "ok",
@@ -17037,7 +17037,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606036": {
   "_status": "ok",
@@ -17079,7 +17079,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606038": {
   "_status": "ok",
@@ -17121,7 +17121,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606040": {
   "_status": "ok",
@@ -17163,7 +17163,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606042": {
   "_status": "ok",
@@ -17205,7 +17205,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606044": {
   "_status": "ok",
@@ -17247,7 +17247,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606046": {
   "_status": "ok",
@@ -17289,7 +17289,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606048": {
   "_status": "ok",
@@ -17330,8 +17330,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "606050": {
   "_status": "ok",
@@ -17373,7 +17373,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606052": {
   "_status": "ok",
@@ -17415,7 +17415,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606054": {
   "_status": "ok",
@@ -17452,12 +17452,12 @@
   "el_prezence": "od 07.01.2027 10:00:00 do 07.01.2027 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606056": {
   "_status": "ok",
@@ -17498,8 +17498,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "606058": {
   "_status": "ok",
@@ -17540,8 +17540,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "606060": {
   "_status": "ok",
@@ -17582,8 +17582,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-17"
  },
  "606062": {
   "_status": "ok",
@@ -17595,16 +17595,16 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 15.01.2027 09:00:00 do 15.01.2027 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 14.01.2027 10:00:00 do 14.01.2027 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "tenistisnov@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-13"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "606063": {
   "_status": "ok",
@@ -17624,8 +17624,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "606064": {
   "_status": "ok",
@@ -17667,7 +17667,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606066": {
   "_status": "ok",
@@ -17687,8 +17687,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "606067": {
   "_status": "ok",
@@ -17708,8 +17708,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-13"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
  },
  "606068": {
   "_status": "ok",
@@ -17730,7 +17730,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606069": {
   "_status": "ok",
@@ -17751,7 +17751,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606070": {
   "_status": "ok",
@@ -17793,7 +17793,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "606072": {
   "_status": "ok",
@@ -17814,7 +17814,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "606073": {
   "_status": "ok",
@@ -17834,8 +17834,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "606074": {
   "_status": "ok",
@@ -17940,7 +17940,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606079": {
   "_status": "ok",
@@ -18045,7 +18045,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606084": {
   "_status": "ok",
@@ -18150,7 +18150,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606089": {
   "_status": "ok",
@@ -18255,7 +18255,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606094": {
   "_status": "ok",
@@ -18360,7 +18360,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606099": {
   "_status": "ok",
@@ -18465,7 +18465,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606104": {
   "_status": "ok",
@@ -18565,12 +18565,12 @@
   "el_prezence": "od 11.02.2027 10:00:00 do 11.02.2027 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskoabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606109": {
   "_status": "ok",
@@ -18674,8 +18674,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "606114": {
   "_status": "ok",
@@ -18780,7 +18780,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606119": {
   "_status": "ok",
@@ -18884,8 +18884,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-17"
  },
  "606124": {
   "_status": "ok",
@@ -18989,8 +18989,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "606129": {
   "_status": "ok",
@@ -19094,8 +19094,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "606134": {
   "_status": "ok",
@@ -19200,7 +19200,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606139": {
   "_status": "ok",
@@ -19305,7 +19305,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606144": {
   "_status": "ok",
@@ -19410,7 +19410,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606149": {
   "_status": "ok",
@@ -19515,7 +19515,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606154": {
   "_status": "ok",
@@ -19620,7 +19620,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606159": {
   "_status": "ok",
@@ -19725,7 +19725,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606164": {
   "_status": "ok",
@@ -19830,7 +19830,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606169": {
   "_status": "ok",
@@ -19934,8 +19934,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "606174": {
   "_status": "ok",
@@ -20124,7 +20124,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606880": {
   "_status": "ok",
@@ -20187,7 +20187,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606920": {
   "_status": "ok",
@@ -20270,8 +20270,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-17"
  },
  "706001": {
   "_status": "ok",
@@ -20291,8 +20291,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 42,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 43,
+  "_stazeno": "2026-11-17"
  },
  "706002": {
   "_status": "ok",
@@ -20307,13 +20307,13 @@
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kolesár Miloš",
-  "mobil": "739702008",
+  "mobil": "",
   "email": "info@ltc2005.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 42,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706003": {
   "_status": "ok",
@@ -20334,7 +20334,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 37,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706004": {
   "_status": "ok",
@@ -20355,7 +20355,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706005": {
   "_status": "ok",
@@ -20375,8 +20375,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 33,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 32,
+  "_stazeno": "2026-11-17"
  },
  "706006": {
   "_status": "ok",
@@ -20397,7 +20397,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 43,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706007": {
   "_status": "ok",
@@ -20418,7 +20418,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706008": {
   "_status": "ok",
@@ -20438,8 +20438,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "706009": {
   "_status": "ok",
@@ -20460,7 +20460,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 43,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706010": {
   "_status": "ok",
@@ -20481,7 +20481,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706011": {
   "_status": "ok",
@@ -20502,7 +20502,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706012": {
   "_status": "ok",
@@ -20518,12 +20518,12 @@
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706013": {
   "_status": "ok",
@@ -20543,8 +20543,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-17"
  },
  "706014": {
   "_status": "ok",
@@ -20564,8 +20564,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 34,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-17"
  },
  "706015": {
   "_status": "ok",
@@ -20581,12 +20581,12 @@
   "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 28,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706016": {
   "_status": "ok",
@@ -20607,7 +20607,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706017": {
   "_status": "ok",
@@ -20627,8 +20627,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 51,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 52,
+  "_stazeno": "2026-11-17"
  },
  "706018": {
   "_status": "ok",
@@ -20648,8 +20648,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 34,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 35,
+  "_stazeno": "2026-11-17"
  },
  "706019": {
   "_status": "ok",
@@ -20670,7 +20670,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706020": {
   "_status": "ok",
@@ -20691,7 +20691,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 21,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706021": {
   "_status": "ok",
@@ -20711,8 +20711,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 47,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 48,
+  "_stazeno": "2026-11-17"
  },
  "706022": {
   "_status": "ok",
@@ -20732,8 +20732,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "706023": {
   "_status": "ok",
@@ -20754,7 +20754,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706024": {
   "_status": "ok",
@@ -20774,8 +20774,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 28,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-17"
  },
  "706025": {
   "_status": "ok",
@@ -20796,7 +20796,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 21,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706026": {
   "_status": "ok",
@@ -20817,7 +20817,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706027": {
   "_status": "ok",
@@ -20837,8 +20837,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-17"
  },
  "706028": {
   "_status": "ok",
@@ -20858,8 +20858,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-17"
  },
  "706029": {
   "_status": "ok",
@@ -20879,8 +20879,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 37,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 38,
+  "_stazeno": "2026-11-17"
  },
  "706030": {
   "_status": "ok",
@@ -20922,7 +20922,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706032": {
   "_status": "ok",
@@ -20964,7 +20964,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 35,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706034": {
   "_status": "ok",
@@ -21005,8 +21005,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-17"
  },
  "706036": {
   "_status": "ok",
@@ -21047,8 +21047,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-17"
  },
  "706038": {
   "_status": "ok",
@@ -21089,8 +21089,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "706040": {
   "_status": "ok",
@@ -21131,8 +21131,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 51,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 54,
+  "_stazeno": "2026-11-17"
  },
  "706042": {
   "_status": "ok",
@@ -21169,12 +21169,12 @@
   "el_prezence": "od 17.12.2026 10:00:00 do 17.12.2026 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 31,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-17"
  },
  "706044": {
   "_status": "ok",
@@ -21216,7 +21216,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706046": {
   "_status": "ok",
@@ -21258,7 +21258,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706048": {
   "_status": "ok",
@@ -21299,8 +21299,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 35,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 36,
+  "_stazeno": "2026-11-17"
  },
  "706050": {
   "_status": "ok",
@@ -21341,8 +21341,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "706052": {
   "_status": "ok",
@@ -21384,7 +21384,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706054": {
   "_status": "ok",
@@ -21426,7 +21426,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706056": {
   "_status": "ok",
@@ -21468,7 +21468,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 29,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706058": {
   "_status": "ok",
@@ -21509,8 +21509,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-17"
  },
  "706060": {
   "_status": "ok",
@@ -21552,7 +21552,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706062": {
   "_status": "ok",
@@ -21594,7 +21594,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706064": {
   "_status": "ok",
@@ -21636,7 +21636,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 34,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706066": {
   "_status": "ok",
@@ -21678,7 +21678,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706068": {
   "_status": "ok",
@@ -21720,7 +21720,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706070": {
   "_status": "ok",
@@ -21761,8 +21761,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-17"
  },
  "706072": {
   "_status": "ok",
@@ -21783,7 +21783,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "706073": {
   "_status": "ok",
@@ -21804,7 +21804,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706074": {
   "_status": "ok",
@@ -21845,8 +21845,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-17"
  },
  "706076": {
   "_status": "ok",
@@ -21867,7 +21867,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "706077": {
   "_status": "ok",
@@ -21888,7 +21888,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "706078": {
   "_status": "ok",
@@ -21908,8 +21908,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 31,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 32,
+  "_stazeno": "2026-11-17"
  },
  "706079": {
   "_status": "ok",
@@ -21930,7 +21930,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706080": {
   "_status": "ok",
@@ -21971,8 +21971,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "706082": {
   "_status": "ok",
@@ -21993,7 +21993,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "706083": {
   "_status": "ok",
@@ -22014,7 +22014,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706084": {
   "_status": "ok",
@@ -22056,7 +22056,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706086": {
   "_status": "ok",
@@ -22076,8 +22076,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-17"
  },
  "706087": {
   "_status": "ok",
@@ -22098,7 +22098,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "706088": {
   "_status": "ok",
@@ -22119,7 +22119,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706089": {
   "_status": "ok",
@@ -22140,7 +22140,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706090": {
   "_status": "ok",
@@ -22182,7 +22182,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "706092": {
   "_status": "ok",
@@ -22223,8 +22223,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-17"
  },
  "706094": {
   "_status": "ok",
@@ -22328,8 +22328,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "706099": {
   "_status": "ok",
@@ -22434,7 +22434,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706104": {
   "_status": "ok",
@@ -22538,8 +22538,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-17"
  },
  "706109": {
   "_status": "ok",
@@ -22643,8 +22643,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "706114": {
   "_status": "ok",
@@ -22748,8 +22748,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "706119": {
   "_status": "ok",
@@ -22854,7 +22854,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 21,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706124": {
   "_status": "ok",
@@ -22958,8 +22958,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 19,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-17"
  },
  "706129": {
   "_status": "ok",
@@ -23056,7 +23056,7 @@
   "mice": "tecnifibre",
   "pocet_ucastniku": "16",
   "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 12.02.2027 09:00:00 do 12.02.2027 17:00:00",
+  "el_prezence": "od 11.02.2027 10:00:00 do 11.02.2027 18:00:00",
   "kontakt": "Ing. Kij Miroslav",
   "mobil": "603375461",
   "email": "mkij@tenisova-skola.com",
@@ -23064,7 +23064,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706134": {
   "_status": "ok",
@@ -23169,7 +23169,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706139": {
   "_status": "ok",
@@ -23273,8 +23273,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-17"
  },
  "706144": {
   "_status": "ok",
@@ -23378,8 +23378,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-17"
  },
  "706149": {
   "_status": "ok",
@@ -23484,7 +23484,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706154": {
   "_status": "ok",
@@ -23588,8 +23588,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "706159": {
   "_status": "ok",
@@ -23693,8 +23693,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "706164": {
   "_status": "ok",
@@ -23799,7 +23799,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706169": {
   "_status": "ok",
@@ -23895,8 +23895,8 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 05.03.2027 09:00:00 do 05.03.2027 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 04.03.2027 10:00:00 do 04.03.2027 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "tenistisnov@seznam.cz",
@@ -23904,7 +23904,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706174": {
   "_status": "ok",
@@ -24009,7 +24009,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706179": {
   "_status": "ok",
@@ -24113,8 +24113,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "706184": {
   "_status": "ok",
@@ -24219,7 +24219,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706189": {
   "_status": "ok",
@@ -24323,8 +24323,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-17"
  },
  "706194": {
   "_status": "ok",
@@ -24424,12 +24424,12 @@
   "el_prezence": "od 18.03.2027 10:00:00 do 18.03.2027 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706199": {
   "_status": "ok",
@@ -24534,7 +24534,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 35,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706204": {
   "_status": "ok",
@@ -24638,8 +24638,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-17"
  },
  "706209": {
   "_status": "ok",
@@ -24743,8 +24743,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-17"
  },
  "706214": {
   "_status": "ok",
@@ -24848,8 +24848,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-17"
  },
  "706219": {
   "_status": "ok",
@@ -24975,7 +24975,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706830": {
   "_status": "ok",
@@ -25038,7 +25038,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706880": {
   "_status": "ok",
@@ -25143,7 +25143,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706970": {
   "_status": "ok",
@@ -25185,7 +25185,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706972": {
   "_status": "ok",
@@ -25247,7 +25247,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 40,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806001": {
   "_status": "ok",
@@ -25262,13 +25262,13 @@
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kolesár Miloš",
-  "mobil": "739702008",
+  "mobil": "",
   "email": "info@ltc2005.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 34,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806002": {
   "_status": "ok",
@@ -25288,8 +25288,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-17"
  },
  "806003": {
   "_status": "ok",
@@ -25309,8 +25309,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-17"
  },
  "806004": {
   "_status": "ok",
@@ -25331,7 +25331,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 21,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806005": {
   "_status": "ok",
@@ -25352,7 +25352,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 34,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806006": {
   "_status": "ok",
@@ -25372,8 +25372,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "806007": {
   "_status": "ok",
@@ -25394,7 +25394,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 29,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806008": {
   "_status": "ok",
@@ -25414,8 +25414,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 37,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 38,
+  "_stazeno": "2026-11-17"
  },
  "806009": {
   "_status": "ok",
@@ -25436,7 +25436,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 29,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806010": {
   "_status": "ok",
@@ -25452,12 +25452,12 @@
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kulhánek Jakub",
   "mobil": "775 130 865",
-  "email": "hostik@seznam.cz",
+  "email": "kulhanek-kuba@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 14,
+  "_stazeno": "2026-11-17"
  },
  "806011": {
   "_status": "ok",
@@ -25478,7 +25478,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806012": {
   "_status": "ok",
@@ -25494,12 +25494,12 @@
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806013": {
   "_status": "ok",
@@ -25519,8 +25519,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "806014": {
   "_status": "ok",
@@ -25540,8 +25540,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "806015": {
   "_status": "ok",
@@ -25561,8 +25561,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-17"
  },
  "806016": {
   "_status": "ok",
@@ -25578,12 +25578,12 @@
   "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 44,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 46,
+  "_stazeno": "2026-11-17"
  },
  "806017": {
   "_status": "ok",
@@ -25603,8 +25603,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 30,
+  "_stazeno": "2026-11-17"
  },
  "806018": {
   "_status": "ok",
@@ -25625,7 +25625,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806019": {
   "_status": "ok",
@@ -25646,7 +25646,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806020": {
   "_status": "ok",
@@ -25666,8 +25666,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 73,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 75,
+  "_stazeno": "2026-11-17"
  },
  "806021": {
   "_status": "ok",
@@ -25688,7 +25688,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806022": {
   "_status": "ok",
@@ -25709,7 +25709,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806023": {
   "_status": "ok",
@@ -25730,7 +25730,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 44,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806024": {
   "_status": "ok",
@@ -25751,7 +25751,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806025": {
   "_status": "ok",
@@ -25772,7 +25772,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 34,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806026": {
   "_status": "ok",
@@ -25792,8 +25792,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 57,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 59,
+  "_stazeno": "2026-11-17"
  },
  "806027": {
   "_status": "ok",
@@ -25814,7 +25814,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806028": {
   "_status": "ok",
@@ -25835,7 +25835,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 29,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806029": {
   "_status": "ok",
@@ -25856,7 +25856,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806030": {
   "_status": "ok",
@@ -25877,7 +25877,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 41,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806031": {
   "_status": "ok",
@@ -25898,7 +25898,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806032": {
   "_status": "ok",
@@ -25939,8 +25939,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "806034": {
   "_status": "ok",
@@ -25982,7 +25982,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 29,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806036": {
   "_status": "ok",
@@ -26023,8 +26023,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 41,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 43,
+  "_stazeno": "2026-11-17"
  },
  "806038": {
   "_status": "ok",
@@ -26066,7 +26066,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 25,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806040": {
   "_status": "ok",
@@ -26107,8 +26107,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "806042": {
   "_status": "ok",
@@ -26149,8 +26149,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-17"
  },
  "806044": {
   "_status": "ok",
@@ -26191,8 +26191,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 14,
+  "_stazeno": "2026-11-17"
  },
  "806046": {
   "_status": "ok",
@@ -26234,7 +26234,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806048": {
   "_status": "ok",
@@ -26276,7 +26276,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806050": {
   "_status": "ok",
@@ -26317,8 +26317,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-17"
  },
  "806052": {
   "_status": "ok",
@@ -26359,8 +26359,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-17"
  },
  "806054": {
   "_status": "ok",
@@ -26402,7 +26402,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806056": {
   "_status": "ok",
@@ -26443,8 +26443,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "806058": {
   "_status": "ok",
@@ -26486,7 +26486,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806060": {
   "_status": "ok",
@@ -26528,7 +26528,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806062": {
   "_status": "ok",
@@ -26569,8 +26569,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-17"
  },
  "806064": {
   "_status": "ok",
@@ -26612,7 +26612,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806066": {
   "_status": "ok",
@@ -26654,7 +26654,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806068": {
   "_status": "ok",
@@ -26695,8 +26695,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-17"
  },
  "806070": {
   "_status": "ok",
@@ -26737,8 +26737,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-17"
  },
  "806072": {
   "_status": "ok",
@@ -26779,8 +26779,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "806074": {
   "_status": "ok",
@@ -26822,7 +26822,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806076": {
   "_status": "ok",
@@ -26863,8 +26863,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "806078": {
   "_status": "ok",
@@ -26905,8 +26905,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-17"
  },
  "806080": {
   "_status": "ok",
@@ -26947,8 +26947,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 33,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 35,
+  "_stazeno": "2026-11-17"
  },
  "806082": {
   "_status": "ok",
@@ -26969,7 +26969,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "806083": {
   "_status": "ok",
@@ -26990,7 +26990,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806084": {
   "_status": "ok",
@@ -27032,7 +27032,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806086": {
   "_status": "ok",
@@ -27053,7 +27053,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "806087": {
   "_status": "ok",
@@ -27073,8 +27073,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-13"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-17"
  },
  "806088": {
   "_status": "ok",
@@ -27095,7 +27095,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806089": {
   "_status": "ok",
@@ -27116,7 +27116,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806090": {
   "_status": "ok",
@@ -27158,7 +27158,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "806092": {
   "_status": "ok",
@@ -27178,8 +27178,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-13"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-17"
  },
  "806093": {
   "_status": "ok",
@@ -27199,8 +27199,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-17"
  },
  "806094": {
   "_status": "ok",
@@ -27242,7 +27242,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806096": {
   "_status": "ok",
@@ -27263,7 +27263,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "806097": {
   "_status": "ok",
@@ -27305,7 +27305,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806099": {
   "_status": "ok",
@@ -27409,8 +27409,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "806104": {
   "_status": "ok",
@@ -27514,8 +27514,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 28,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-17"
  },
  "806109": {
   "_status": "ok",
@@ -27619,8 +27619,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-17"
  },
  "806114": {
   "_status": "ok",
@@ -27725,7 +27725,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806119": {
   "_status": "ok",
@@ -27829,8 +27829,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 37,
+  "_stazeno": "2026-11-17"
  },
  "806124": {
   "_status": "ok",
@@ -27935,7 +27935,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 21,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806129": {
   "_status": "ok",
@@ -28039,8 +28039,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-17"
  },
  "806134": {
   "_status": "ok",
@@ -28145,7 +28145,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806139": {
   "_status": "ok",
@@ -28250,7 +28250,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 31,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806144": {
   "_status": "ok",
@@ -28355,7 +28355,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806149": {
   "_status": "ok",
@@ -28459,8 +28459,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-17"
  },
  "806154": {
   "_status": "ok",
@@ -28564,8 +28564,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-17"
  },
  "806159": {
   "_status": "ok",
@@ -28670,7 +28670,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806164": {
   "_status": "ok",
@@ -28775,7 +28775,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806169": {
   "_status": "ok",
@@ -28880,7 +28880,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806174": {
   "_status": "ok",
@@ -28984,8 +28984,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 28,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-17"
  },
  "806179": {
   "_status": "ok",
@@ -29089,8 +29089,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-17"
  },
  "806184": {
   "_status": "ok",
@@ -29195,7 +29195,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806189": {
   "_status": "ok",
@@ -29299,8 +29299,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "806194": {
   "_status": "ok",
@@ -29405,7 +29405,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806199": {
   "_status": "ok",
@@ -29510,7 +29510,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806204": {
   "_status": "ok",
@@ -29615,7 +29615,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806209": {
   "_status": "ok",
@@ -29720,7 +29720,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806214": {
   "_status": "ok",
@@ -29824,8 +29824,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-17"
  },
  "806610": {
   "_status": "ok",
@@ -29929,8 +29929,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "806830": {
   "_status": "ok",
@@ -29993,7 +29993,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "806880": {
   "_status": "ok",
@@ -30098,7 +30098,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806970": {
   "_status": "ok",
@@ -30140,7 +30140,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806972": {
   "_status": "ok",
@@ -30182,7 +30182,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906001": {
   "_status": "ok",
@@ -30203,7 +30203,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906002": {
   "_status": "ok",
@@ -30224,7 +30224,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906003": {
   "_status": "ok",
@@ -30245,7 +30245,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906004": {
   "_status": "ok",
@@ -30265,8 +30265,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "906005": {
   "_status": "ok",
@@ -30287,7 +30287,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906006": {
   "_status": "ok",
@@ -30307,8 +30307,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-17"
  },
  "906007": {
   "_status": "ok",
@@ -30328,8 +30328,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "906008": {
   "_status": "ok",
@@ -30350,7 +30350,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906009": {
   "_status": "ok",
@@ -30371,7 +30371,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906010": {
   "_status": "ok",
@@ -30392,7 +30392,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906011": {
   "_status": "ok",
@@ -30413,7 +30413,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906012": {
   "_status": "ok",
@@ -30434,7 +30434,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906013": {
   "_status": "ok",
@@ -30455,7 +30455,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906014": {
   "_status": "ok",
@@ -30475,8 +30475,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "906015": {
   "_status": "ok",
@@ -30497,7 +30497,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906016": {
   "_status": "ok",
@@ -30518,7 +30518,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906017": {
   "_status": "ok",
@@ -30539,7 +30539,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906018": {
   "_status": "ok",
@@ -30581,7 +30581,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906020": {
   "_status": "ok",
@@ -30623,7 +30623,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906022": {
   "_status": "ok",
@@ -30665,7 +30665,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906024": {
   "_status": "ok",
@@ -30706,8 +30706,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-17"
  },
  "906026": {
   "_status": "ok",
@@ -30749,7 +30749,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906028": {
   "_status": "ok",
@@ -30791,7 +30791,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906030": {
   "_status": "ok",
@@ -30833,7 +30833,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906032": {
   "_status": "ok",
@@ -30875,7 +30875,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906034": {
   "_status": "ok",
@@ -30917,7 +30917,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906036": {
   "_status": "ok",
@@ -30959,7 +30959,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906038": {
   "_status": "ok",
@@ -31001,7 +31001,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906040": {
   "_status": "ok",
@@ -31043,7 +31043,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906042": {
   "_status": "ok",
@@ -31064,7 +31064,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "906043": {
   "_status": "ok",
@@ -31085,7 +31085,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906044": {
   "_status": "ok",
@@ -31127,7 +31127,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906046": {
   "_status": "ok",
@@ -31190,7 +31190,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906049": {
   "_status": "ok",
@@ -31295,7 +31295,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906054": {
   "_status": "ok",
@@ -31400,7 +31400,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906059": {
   "_status": "ok",
@@ -31505,7 +31505,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906064": {
   "_status": "ok",
@@ -31610,7 +31610,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906069": {
   "_status": "ok",
@@ -31715,7 +31715,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906074": {
   "_status": "ok",
@@ -31820,7 +31820,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906079": {
   "_status": "ok",
@@ -31925,7 +31925,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906084": {
   "_status": "ok",
@@ -32030,7 +32030,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906089": {
   "_status": "ok",
@@ -32135,7 +32135,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906094": {
   "_status": "ok",
@@ -32240,7 +32240,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906500": {
   "_status": "ok",
@@ -32260,8 +32260,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-17"
  },
  "906501": {
   "_status": "ok",
@@ -32282,7 +32282,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906502": {
   "_status": "ok",
@@ -32302,8 +32302,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-17"
  },
  "906503": {
   "_status": "ok",
@@ -32323,8 +32323,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "906504": {
   "_status": "ok",
@@ -32345,7 +32345,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906505": {
   "_status": "ok",
@@ -32366,7 +32366,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906506": {
   "_status": "ok",
@@ -32386,8 +32386,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-17"
  },
  "906507": {
   "_status": "ok",
@@ -32408,7 +32408,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906508": {
   "_status": "ok",
@@ -32428,8 +32428,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-17"
  },
  "906509": {
   "_status": "ok",
@@ -32449,8 +32449,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-17"
  },
  "906510": {
   "_status": "ok",
@@ -32471,7 +32471,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906511": {
   "_status": "ok",
@@ -32492,7 +32492,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906512": {
   "_status": "ok",
@@ -32513,7 +32513,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906513": {
   "_status": "ok",
@@ -32534,7 +32534,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906514": {
   "_status": "ok",
@@ -32555,7 +32555,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906515": {
   "_status": "ok",
@@ -32576,7 +32576,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906516": {
   "_status": "ok",
@@ -32597,7 +32597,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906517": {
   "_status": "ok",
@@ -32617,8 +32617,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "906518": {
   "_status": "ok",
@@ -32638,8 +32638,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-17"
  },
  "906519": {
   "_status": "ok",
@@ -32654,13 +32654,13 @@
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
   "kontakt": "Kolesár Miloš",
-  "mobil": "739702008",
+  "mobil": "",
   "email": "info@ltc2005.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906520": {
   "_status": "ok",
@@ -32681,7 +32681,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906521": {
   "_status": "ok",
@@ -32702,7 +32702,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906522": {
   "_status": "ok",
@@ -32723,7 +32723,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906523": {
   "_status": "ok",
@@ -32743,8 +32743,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 38,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 41,
+  "_stazeno": "2026-11-17"
  },
  "906524": {
   "_status": "ok",
@@ -32765,7 +32765,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906525": {
   "_status": "ok",
@@ -32786,7 +32786,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906526": {
   "_status": "ok",
@@ -32807,7 +32807,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906527": {
   "_status": "ok",
@@ -32828,7 +32828,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906528": {
   "_status": "ok",
@@ -32849,7 +32849,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906529": {
   "_status": "ok",
@@ -32869,8 +32869,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-17"
  },
  "906530": {
   "_status": "ok",
@@ -32891,7 +32891,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906531": {
   "_status": "ok",
@@ -32907,12 +32907,12 @@
   "el_prezence": "od 10.12.2026 10:00:00 do 10.12.2026 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "906532": {
   "_status": "ok",
@@ -32954,7 +32954,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906534": {
   "_status": "ok",
@@ -32996,7 +32996,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906536": {
   "_status": "ok",
@@ -33037,8 +33037,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "906538": {
   "_status": "ok",
@@ -33079,8 +33079,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "906540": {
   "_status": "ok",
@@ -33122,7 +33122,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906542": {
   "_status": "ok",
@@ -33164,7 +33164,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906544": {
   "_status": "ok",
@@ -33206,7 +33206,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906546": {
   "_status": "ok",
@@ -33248,7 +33248,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906548": {
   "_status": "ok",
@@ -33290,7 +33290,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906550": {
   "_status": "ok",
@@ -33332,7 +33332,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906552": {
   "_status": "ok",
@@ -33374,7 +33374,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906554": {
   "_status": "ok",
@@ -33416,7 +33416,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906556": {
   "_status": "ok",
@@ -33457,8 +33457,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "906558": {
   "_status": "ok",
@@ -33500,7 +33500,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906560": {
   "_status": "ok",
@@ -33542,7 +33542,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906562": {
   "_status": "ok",
@@ -33584,7 +33584,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906564": {
   "_status": "ok",
@@ -33625,8 +33625,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "906566": {
   "_status": "ok",
@@ -33667,8 +33667,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "906568": {
   "_status": "ok",
@@ -33709,8 +33709,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-17"
  },
  "906570": {
   "_status": "ok",
@@ -33751,8 +33751,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-17"
  },
  "906572": {
   "_status": "ok",
@@ -33793,8 +33793,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "906574": {
   "_status": "ok",
@@ -33835,8 +33835,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-17"
  },
  "906576": {
   "_status": "ok",
@@ -33878,7 +33878,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906578": {
   "_status": "ok",
@@ -33920,7 +33920,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906580": {
   "_status": "ok",
@@ -33962,7 +33962,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906582": {
   "_status": "ok",
@@ -34004,7 +34004,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906584": {
   "_status": "ok",
@@ -34045,8 +34045,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "906586": {
   "_status": "ok",
@@ -34088,7 +34088,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906588": {
   "_status": "ok",
@@ -34104,12 +34104,12 @@
   "el_prezence": "od 14.01.2027 10:00:00 do 14.01.2027 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906589": {
   "_status": "ok",
@@ -34129,8 +34129,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "906590": {
   "_status": "ok",
@@ -34172,7 +34172,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "906592": {
   "_status": "ok",
@@ -34192,8 +34192,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-13"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "906593": {
   "_status": "ok",
@@ -34213,8 +34213,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "906594": {
   "_status": "ok",
@@ -34255,8 +34255,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "906596": {
   "_status": "ok",
@@ -34277,7 +34277,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "906597": {
   "_status": "ok",
@@ -34298,7 +34298,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "906598": {
   "_status": "ok",
@@ -34319,7 +34319,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906599": {
   "_status": "ok",
@@ -34340,7 +34340,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906600": {
   "_status": "ok",
@@ -34382,7 +34382,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "906602": {
   "_status": "ok",
@@ -34402,8 +34402,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-13"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "906603": {
   "_status": "ok",
@@ -34423,8 +34423,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-17"
  },
  "906604": {
   "_status": "ok",
@@ -34529,7 +34529,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906609": {
   "_status": "ok",
@@ -34634,7 +34634,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906614": {
   "_status": "ok",
@@ -34739,7 +34739,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906619": {
   "_status": "ok",
@@ -34843,8 +34843,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "906624": {
   "_status": "ok",
@@ -34949,7 +34949,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906629": {
   "_status": "ok",
@@ -35054,7 +35054,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906634": {
   "_status": "ok",
@@ -35158,8 +35158,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-17"
  },
  "906639": {
   "_status": "ok",
@@ -35263,8 +35263,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-17"
  },
  "906644": {
   "_status": "ok",
@@ -35368,8 +35368,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "906649": {
   "_status": "ok",
@@ -35474,7 +35474,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906654": {
   "_status": "ok",
@@ -35579,7 +35579,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906659": {
   "_status": "ok",
@@ -35684,7 +35684,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906664": {
   "_status": "ok",
@@ -35789,7 +35789,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906669": {
   "_status": "ok",
@@ -35894,7 +35894,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906674": {
   "_status": "ok",
@@ -35999,7 +35999,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906679": {
   "_status": "ok",
@@ -36103,8 +36103,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-17"
  },
  "906684": {
   "_status": "ok",
@@ -36209,7 +36209,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906689": {
   "_status": "ok",
@@ -36314,7 +36314,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906694": {
   "_status": "ok",
@@ -36418,8 +36418,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "906699": {
   "_status": "ok",
@@ -36524,7 +36524,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906704": {
   "_status": "ok",
@@ -36628,8 +36628,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-17"
  },
  "906709": {
   "_status": "ok",
@@ -36733,8 +36733,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-17"
  },
  "906714": {
   "_status": "ok",
@@ -36838,7 +36838,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906719": {
   "_status": "ok",
@@ -36943,7 +36943,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906724": {
   "_status": "ok",
@@ -37047,8 +37047,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "906729": {
   "_status": "ok",
@@ -37153,7 +37153,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906734": {
   "_status": "ok",
@@ -37257,8 +37257,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "906739": {
   "_status": "ok",
@@ -37363,7 +37363,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906744": {
   "_status": "ok",
@@ -37468,7 +37468,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906749": {
   "_status": "ok",
@@ -37573,7 +37573,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106143": {
   "_status": "ok",
@@ -37699,7 +37699,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "206083": {
   "_status": "ok",
@@ -37719,8 +37719,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
  },
  "306172": {
   "_status": "ok",
@@ -37741,7 +37741,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "306173": {
   "_status": "ok",
@@ -37762,7 +37762,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306174": {
   "_status": "ok",
@@ -37804,7 +37804,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306176": {
   "_status": "ok",
@@ -37825,7 +37825,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "306177": {
   "_status": "ok",
@@ -37867,7 +37867,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306179": {
   "_status": "ok",
@@ -37972,7 +37972,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "406162": {
   "_status": "ok",
@@ -38014,7 +38014,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406164": {
   "_status": "ok",
@@ -38055,8 +38055,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "406166": {
   "_status": "ok",
@@ -38098,7 +38098,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "406168": {
   "_status": "ok",
@@ -38119,7 +38119,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406169": {
   "_status": "ok",
@@ -38224,7 +38224,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406174": {
   "_status": "ok",
@@ -38266,7 +38266,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "506169": {
   "_status": "ok",
@@ -38286,8 +38286,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "506170": {
   "_status": "ok",
@@ -38329,7 +38329,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "506172": {
   "_status": "ok",
@@ -38371,7 +38371,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "506174": {
   "_status": "ok",
@@ -38454,8 +38454,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-17"
  },
  "606179": {
   "_status": "ok",
@@ -38476,7 +38476,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606180": {
   "_status": "ok",
@@ -38518,7 +38518,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "606182": {
   "_status": "ok",
@@ -38539,7 +38539,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-13"
+  "_stazeno": "2026-11-17"
  },
  "606183": {
   "_status": "ok",
@@ -38560,7 +38560,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "606184": {
   "_status": "ok",
@@ -38664,8 +38664,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "606189": {
   "_status": "ok",
@@ -38727,8 +38727,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-17"
  },
  "706222": {
   "_status": "ok",
@@ -38748,8 +38748,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-17"
  },
  "706223": {
   "_status": "ok",
@@ -38770,7 +38770,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706224": {
   "_status": "ok",
@@ -38812,7 +38812,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "706226": {
   "_status": "ok",
@@ -38874,8 +38874,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "706229": {
   "_status": "ok",
@@ -38979,8 +38979,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-17"
  },
  "706832": {
   "_status": "ok",
@@ -39022,7 +39022,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 25,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806220": {
   "_status": "ok",
@@ -39042,8 +39042,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-17"
  },
  "806221": {
   "_status": "ok",
@@ -39064,7 +39064,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "806222": {
   "_status": "ok",
@@ -39105,8 +39105,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "806224": {
   "_status": "ok",
@@ -39210,8 +39210,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-17"
  },
  "806229": {
   "_status": "ok",
@@ -39315,8 +39315,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-12"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "806234": {
   "_status": "ok",
@@ -39400,7 +39400,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906100": {
   "_status": "ok",
@@ -39442,7 +39442,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906102": {
   "_status": "ok",
@@ -39484,7 +39484,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906104": {
   "_status": "ok",
@@ -39568,7 +39568,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906755": {
   "_status": "ok",
@@ -39589,7 +39589,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "906756": {
   "_status": "ok",
@@ -39631,7 +39631,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906758": {
   "_status": "ok",
@@ -39652,7 +39652,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906759": {
   "_status": "ok",
@@ -39757,7 +39757,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906764": {
   "_status": "ok",
@@ -39820,7 +39820,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "206084": {
   "_status": "ok",
@@ -39967,7 +39967,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906107": {
   "_status": "ok",
@@ -40009,7 +40009,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "706610": {
   "_status": "ok",
@@ -40050,8 +40050,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-17"
  },
  "106149": {
   "_status": "ok",
@@ -40072,7 +40072,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106150": {
   "_status": "ok",
@@ -40156,7 +40156,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "106154": {
   "_status": "ok",
@@ -40261,7 +40261,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "306184": {
   "_status": "ok",
@@ -40303,7 +40303,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "406177": {
   "_status": "ok",
@@ -40345,7 +40345,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "406832": {
   "_status": "ok",
@@ -40449,8 +40449,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-17"
  },
  "606191": {
   "_status": "ok",
@@ -40471,7 +40471,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "606865": {
   "_status": "ok",
@@ -40492,7 +40492,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "706235": {
   "_status": "ok",
@@ -40512,8 +40512,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-15"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-17"
  },
  "706236": {
   "_status": "ok",
@@ -40575,8 +40575,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
  },
  "806238": {
   "_status": "ok",
@@ -40597,7 +40597,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806239": {
   "_status": "ok",
@@ -40618,7 +40618,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-17"
  },
  "806240": {
   "_status": "ok",
@@ -40680,8 +40680,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-16"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-17"
  },
  "906109": {
   "_status": "ok",
@@ -40702,7 +40702,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "906110": {
   "_status": "ok",
@@ -40786,7 +40786,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "906766": {
   "_status": "ok",
@@ -40828,7 +40828,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "106156": {
   "_status": "ok",
@@ -40891,7 +40891,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-15"
+  "_stazeno": "2026-11-17"
  },
  "506180": {
   "_status": "ok",
@@ -40954,7 +40954,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-12"
+  "_stazeno": "2026-11-17"
  },
  "306186": {
   "_status": "ok",
@@ -41038,7 +41038,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-17"
  },
  "706238": {
   "_status": "ok",
@@ -41060,5 +41060,446 @@
   "hraci_plany": true,
   "prihlaseno": 3,
   "_stazeno": "2026-11-16"
+ },
+ "106157": {
+  "_status": "ok",
+  "h1": "TSM Sokol Vysočany z.s. (C - 900)",
+  "nazev": "VYSOČANSKÝ POHÁR C",
+  "kod": "106157",
+  "datum": "5.-7. 12. 2026",
+  "poradatel_adresa": "TSM Sokol Vysočany z.s. (C - 900), Novoškolská 696/2, Praha 9",
+  "dvorce_povrch": "6 • antuka",
+  "mice": "Dunlop",
+  "pocet_ucastniku": "32",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
+  "kontakt": "ING. VEJŠICKÝ ALEŠ",
+  "mobil": "602263537",
+  "email": "tsmvysocany@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "106158": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "106158",
+  "datum": "13.-14. 2. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 11.02.2027 10:00:00 do 11.02.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "306188": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "306188",
+  "datum": "23.-25. 1. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 21.01.2027 10:00:00 do 21.01.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "406182": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "406182",
+  "datum": "23.-25. 1. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 21.01.2027 10:00:00 do 21.01.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "506181": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "506181",
+  "datum": "12.-14. 12. 2026",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 10.12.2026 10:00:00 do 10.12.2026 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "506182": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "506182",
+  "datum": "16.-18. 1. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 14.01.2027 10:00:00 do 14.01.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "506183": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "506183",
+  "datum": "6.-8. 3. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 04.03.2027 10:00:00 do 04.03.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "606193": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "606193",
+  "datum": "12.-14. 12. 2026",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 10.12.2026 10:00:00 do 10.12.2026 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "606194": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "606194",
+  "datum": "16.-18. 1. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 14.01.2027 10:00:00 do 14.01.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "606195": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "606195",
+  "datum": "6.-8. 3. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 04.03.2027 10:00:00 do 04.03.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "706239": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "706239",
+  "datum": "20.-22. 2. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 18.02.2027 10:00:00 do 18.02.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "706240": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "706240",
+  "datum": "20.-22. 3. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 18.03.2027 10:00:00 do 18.03.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "806241": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "806241",
+  "datum": "20.-22. 2. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 18.02.2027 10:00:00 do 18.02.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "806242": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (C - 800)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "806242",
+  "datum": "20.-22. 3. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (C - 800), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 18.03.2027 10:00:00 do 18.03.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "906114": {
+  "_status": "ok",
+  "h1": "TK Meziboří, z.s. (400)",
+  "nazev": "TO Meziboří 12/2026",
+  "kod": "906114",
+  "datum": "5. 12. 2026",
+  "poradatel_adresa": "TK Meziboří, z.s. (400), , Meziboří",
+  "dvorce_povrch": "3 • conipur epdm",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "12",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
+  "kontakt": "Mgr. Vítová Viktorie",
+  "mobil": "722 582 626",
+  "email": "vitova.v@email.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "906115": {
+  "_status": "ok",
+  "h1": "TK Meziboří, z.s. (400)",
+  "nazev": "Mini tenis 1/2027",
+  "kod": "906115",
+  "datum": "17. 1. 2027",
+  "poradatel_adresa": "TK Meziboří, z.s. (400), , Meziboří",
+  "dvorce_povrch": "3 • conipur epdm",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "12",
+  "prezentace": "Pá do 18:00 hod.",
+  "el_prezence": "od 15.01.2027 10:00:00 do 15.01.2027 18:00:00",
+  "kontakt": "Mgr. Vítová Viktorie",
+  "mobil": "722 582 626",
+  "email": "vitova.v@email.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "906116": {
+  "_status": "ok",
+  "h1": "TK Meziboří, z.s. (400)",
+  "nazev": "Mini tenis 2/2027",
+  "kod": "906116",
+  "datum": "20. 2. 2027",
+  "poradatel_adresa": "TK Meziboří, z.s. (400), , Meziboří",
+  "dvorce_povrch": "3 • conipur epdm",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "12",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 18.02.2027 10:00:00 do 18.02.2027 18:00:00",
+  "kontakt": "Mgr Teplá Veronika",
+  "mobil": "607599642",
+  "email": "svobodov.v@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "906769": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (500)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "906769",
+  "datum": "5. 12. 2026",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (500), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 03.12.2026 10:00:00 do 03.12.2026 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-17"
+ },
+ "906770": {
+  "_status": "ok",
+  "h1": "Tenis klub Jindřichův Hradec z.s. (500)",
+  "nazev": "TK J.Hradec cup",
+  "kod": "906770",
+  "datum": "27. 3. 2027",
+  "poradatel_adresa": "Tenis klub Jindřichův Hradec z.s. (500), Röschova 1304, Jindřichův Hradec II",
+  "dvorce_povrch": "2 • classic clay, grass",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "16",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 25.03.2027 10:00:00 do 25.03.2027 18:00:00",
+  "kontakt": "Matoušek David",
+  "mobil": "777739542",
+  "email": "dmatousek@seznam.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "906771": {
+  "_status": "ok",
+  "h1": "TK Meziboří, z.s. (500)",
+  "nazev": "Baby tenis - střední kurt",
+  "kod": "906771",
+  "datum": "16. 1. 2027",
+  "poradatel_adresa": "TK Meziboří, z.s. (500), , Meziboří",
+  "dvorce_povrch": "1 • conipur epdm",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "12",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 14.01.2027 10:00:00 do 14.01.2027 18:00:00",
+  "kontakt": "Mgr. Vítová Viktorie",
+  "mobil": "722 582 626",
+  "email": "vitova.v@email.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
+ },
+ "906772": {
+  "_status": "ok",
+  "h1": "TK Meziboří, z.s. (500)",
+  "nazev": "Baby tenis - střední dvorec",
+  "kod": "906772",
+  "datum": "13. 2. 2027",
+  "poradatel_adresa": "TK Meziboří, z.s. (500), , Meziboří",
+  "dvorce_povrch": "1 • conipur epdm",
+  "mice": "tecnifibre",
+  "pocet_ucastniku": "12",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 11.02.2027 10:00:00 do 11.02.2027 18:00:00",
+  "kontakt": "Mgr. Vítová Viktorie",
+  "mobil": "722 582 626",
+  "email": "vitova.v@email.cz",
+  "rozhodci": "",
+  "poznamka": "",
+  "hraci_plany": true,
+  "prihlaseno": 0,
+  "_stazeno": "2026-11-17"
  }
 }

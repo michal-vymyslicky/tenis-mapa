@@ -1,18 +1,6 @@
 {
  "dospeli": [
   {
-   "datum": "2.-3. 11. 2026",
-   "trida": "C",
-   "vklad": "",
-   "poradatel": "SK HIT Hradec Králové z.s.",
-   "kod_m": "",
-   "obs_m": "ZRUŠENO",
-   "kod_z": "",
-   "obs_z": "-/-",
-   "mix": false,
-   "radek": "2.-3. 11. 2026 C SK HIT Hradec Králové z.s. ZRUŠENO -/-"
-  },
-  {
    "datum": "7.-9. 11. 2026",
    "trida": "C",
    "vklad": "800 Kč",
@@ -198,11 +186,11 @@
    "vklad": "700 Kč",
    "poradatel": "jihočeský",
    "kod_m": "106860",
-   "obs_m": "*/*",
+   "obs_m": "8/8",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 700 Kč jihočeský */* -/-"
+   "radek": "14.-16. 11. 2026 P 700 Kč jihočeský 8/8 -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -212,9 +200,9 @@
    "kod_m": "106880",
    "obs_m": "*/*",
    "kod_z": "206880",
-   "obs_z": "*/*",
+   "obs_z": "8/8",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 500 Kč západočeský */* */*"
+   "radek": "14.-16. 11. 2026 P 500 Kč západočeský */* 8/8"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -224,9 +212,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206920",
-   "obs_z": "*/*",
+   "obs_z": "8/8",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 800 Kč východočeský -/- */*"
+   "radek": "14.-16. 11. 2026 P 800 Kč východočeský -/- 8/8"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -234,11 +222,11 @@
    "vklad": "900 Kč",
    "poradatel": "severočeský",
    "kod_m": "106900",
-   "obs_m": "*/*",
+   "obs_m": "8/8",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 900 Kč severočeský */* -/-"
+   "radek": "14.-16. 11. 2026 P 900 Kč severočeský 8/8 -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -270,11 +258,11 @@
    "vklad": "1000 Kč",
    "poradatel": "jihomoravský",
    "kod_m": "106940",
-   "obs_m": "*/*",
+   "obs_m": "8/8",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 1000 Kč jihomoravský */* -/-"
+   "radek": "14.-16. 11. 2026 P 1000 Kč jihomoravský 8/8 -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -284,9 +272,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206006",
-   "obs_z": "*/*",
+   "obs_z": "2/2",
    "mix": false,
-   "radek": "14.-16. 11. 2026 D 700 Kč Sokol Smíchov I. -/- */*"
+   "radek": "14.-16. 11. 2026 D 700 Kč Sokol Smíchov I. -/- 2/2"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -296,9 +284,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206970",
-   "obs_z": "*/*",
+   "obs_z": "8/8",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 1000 Kč severomoravský -/- */*"
+   "radek": "14.-16. 11. 2026 P 1000 Kč severomoravský -/- 8/8"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -308,9 +296,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206940",
-   "obs_z": "*/*",
+   "obs_z": "8/8",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 1000 Kč jihomoravský -/- */*"
+   "radek": "14.-16. 11. 2026 P 1000 Kč jihomoravský -/- 8/8"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -330,11 +318,11 @@
    "vklad": "1000 Kč",
    "poradatel": "severomoravský",
    "kod_m": "106970",
-   "obs_m": "*/*",
+   "obs_m": "8/8",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 1000 Kč severomoravský */* -/-"
+   "radek": "14.-16. 11. 2026 P 1000 Kč severomoravský 8/8 -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -356,9 +344,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206800",
-   "obs_z": "*/*",
+   "obs_z": "8/8",
    "mix": false,
-   "radek": "14.-17. 11. 2026 P 800 Kč Praha -/- */*"
+   "radek": "14.-17. 11. 2026 P 800 Kč Praha -/- 8/8"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -380,9 +368,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206860",
-   "obs_z": "*/*",
+   "obs_z": "8/8",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 700 Kč jihočeský -/- */*"
+   "radek": "14.-16. 11. 2026 P 700 Kč jihočeský -/- 8/8"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -390,11 +378,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "106013",
-   "obs_m": "*/*",
+   "obs_m": "2/2",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. */* -/-"
+   "radek": "14.-16. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. 2/2 -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -402,11 +390,11 @@
    "vklad": "900 Kč",
    "poradatel": "TSM Sokol Vysočany z.s.",
    "kod_m": "106014",
-   "obs_m": "*/*",
+   "obs_m": "2/2",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "14.-16. 11. 2026 D 900 Kč TSM Sokol Vysočany z.s. */* ZRUŠENO"
+   "radek": "14.-16. 11. 2026 D 900 Kč TSM Sokol Vysočany z.s. 2/2 ZRUŠENO"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -416,9 +404,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "206830",
-   "obs_z": "*/*",
+   "obs_z": "8/8",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 600 Kč středočeský -/- */*"
+   "radek": "14.-16. 11. 2026 P 600 Kč středočeský -/- 8/8"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -583,10 +571,10 @@
    "poradatel": "Sportovní klub LTC Modřany 2005 z.s.",
    "kod_m": "106018",
    "obs_m": "-/-",
-   "kod_z": "206009",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 D 800 Kč Sportovní klub LTC Modřany 2005 z.s. -/- -/-"
+   "radek": "21.-23. 11. 2026 D 800 Kč Sportovní klub LTC Modřany 2005 z.s. -/- ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -605,12 +593,12 @@
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "Tenis Jesenice z.s.",
-   "kod_m": "106143",
-   "obs_m": "-/-",
-   "kod_z": "206081",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 800 Kč Tenis Jesenice z.s. -/- -/-"
+   "radek": "21.-23. 11. 2026 C 800 Kč Tenis Jesenice z.s. ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -806,7 +794,7 @@
   },
   {
    "datum": "5.-7. 12. 2026",
-   "trida": "D",
+   "trida": "C",
    "vklad": "900 Kč",
    "poradatel": "TSM Sokol Vysočany z.s.",
    "kod_m": "",
@@ -814,7 +802,19 @@
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "5.-7. 12. 2026 D 900 Kč TSM Sokol Vysočany z.s. ZRUŠENO -/-"
+   "radek": "5.-7. 12. 2026 C 900 Kč TSM Sokol Vysočany z.s. ZRUŠENO -/-"
+  },
+  {
+   "datum": "5.-7. 12. 2026",
+   "trida": "C",
+   "vklad": "900 Kč",
+   "poradatel": "TSM Sokol Vysočany z.s.",
+   "kod_m": "106157",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "5.-7. 12. 2026 C 900 Kč TSM Sokol Vysočany z.s. -/- -/-"
   },
   {
    "datum": "5.-7. 12. 2026",
@@ -1715,6 +1715,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "13.-16. 2. 2027 B 1000 Kč TK Česká Třebová, z.s. -/- -/-"
+  },
+  {
+   "datum": "13.-14. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "106158",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "13.-14. 2. 2027 C 800 Kč Tenis klub Jindřichův Hradec z.s. -/- -/-"
   },
   {
    "datum": "13.-16. 2. 2027",
@@ -3973,6 +3985,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "23.-25. 1. 2027 C 800 Kč Tenisový klub Studénka z.s. -/- -/-"
+  },
+  {
+   "datum": "23.-25. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "306188",
+   "obs_m": "-/-",
+   "kod_z": "406182",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "23.-25. 1. 2027 C 800 Kč Tenis klub Jindřichův Hradec z.s. -/- -/-"
   },
   {
    "datum": "23.-25. 1. 2027",
@@ -6248,6 +6272,18 @@
    "datum": "12.-14. 12. 2026",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "506181",
+   "obs_m": "-/-",
+   "kod_z": "606193",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "12.-14. 12. 2026 C 800 Kč Tenis klub Jindřichův Hradec z.s. -/- -/-"
+  },
+  {
+   "datum": "12.-14. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "Tempo Praha",
    "kod_m": "",
    "obs_m": "-/-",
@@ -6951,6 +6987,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 C 800 Kč TK Na Dolině o.s. -/- -/-"
+  },
+  {
+   "datum": "16.-18. 1. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "506182",
+   "obs_m": "-/-",
+   "kod_z": "606194",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "16.-18. 1. 2027 C 800 Kč Tenis klub Jindřichův Hradec z.s. -/- -/-"
   },
   {
    "datum": "16.-18. 1. 2027",
@@ -8391,6 +8439,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "6.-8. 3. 2027 C 800 Kč Tenisový klub Studénka z.s. -/- -/-"
+  },
+  {
+   "datum": "6.-8. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "506183",
+   "obs_m": "-/-",
+   "kod_z": "606195",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "6.-8. 3. 2027 C 800 Kč Tenis klub Jindřichův Hradec z.s. -/- -/-"
   },
   {
    "datum": "6.-8. 3. 2027",
@@ -10258,18 +10318,6 @@
    "datum": "19.-21. 12. 2026",
    "trida": "C",
    "vklad": "800 Kč",
-   "poradatel": "TK DOMYNO P4, z.s.",
-   "kod_m": "706047",
-   "obs_m": "-/-",
-   "kod_z": "806050",
-   "obs_z": "-/-",
-   "mix": false,
-   "radek": "19.-21. 12. 2026 C 800 Kč TK DOMYNO P4, z.s. -/- -/-"
-  },
-  {
-   "datum": "19.-21. 12. 2026",
-   "trida": "C",
-   "vklad": "800 Kč",
    "poradatel": "RAPID PLZEŇ TENIS z.s.",
    "kod_m": "706053",
    "obs_m": "-/-",
@@ -10277,6 +10325,18 @@
    "obs_z": "-/-",
    "mix": false,
    "radek": "19.-21. 12. 2026 C 800 Kč RAPID PLZEŇ TENIS z.s. -/- -/-"
+  },
+  {
+   "datum": "19.-21. 12. 2026",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "TK DOMYNO P4, z.s.",
+   "kod_m": "706047",
+   "obs_m": "-/-",
+   "kod_z": "806050",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "19.-21. 12. 2026 C 800 Kč TK DOMYNO P4, z.s. -/- -/-"
   },
   {
    "datum": "19.-21. 12. 2026",
@@ -11075,9 +11135,9 @@
    "trida": "P",
    "vklad": "180 Kč",
    "poradatel": "severomoravský",
-   "kod_m": "706610",
+   "kod_m": "",
    "obs_m": "-/-",
-   "kod_z": "",
+   "kod_z": "806610",
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 P 180 Kč severomoravský -/- -/-"
@@ -11087,9 +11147,9 @@
    "trida": "P",
    "vklad": "180 Kč",
    "poradatel": "severomoravský",
-   "kod_m": "",
+   "kod_m": "706610",
    "obs_m": "-/-",
-   "kod_z": "806610",
+   "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
    "radek": "16.-18. 1. 2027 P 180 Kč severomoravský -/- -/-"
@@ -12368,6 +12428,18 @@
   },
   {
    "datum": "20.-22. 2. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "706239",
+   "obs_m": "-/-",
+   "kod_z": "806241",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "20.-22. 2. 2027 C 800 Kč Tenis klub Jindřichův Hradec z.s. -/- -/-"
+  },
+  {
+   "datum": "20.-22. 2. 2027",
    "trida": "D",
    "vklad": "600 Kč",
    "poradatel": "ČLTK Bižuterie Jablonec n. N., z. s.",
@@ -13186,6 +13258,18 @@
    "datum": "20.-22. 3. 2027",
    "trida": "C",
    "vklad": "800 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "706240",
+   "obs_m": "-/-",
+   "kod_z": "806242",
+   "obs_z": "-/-",
+   "mix": false,
+   "radek": "20.-22. 3. 2027 C 800 Kč Tenis klub Jindřichův Hradec z.s. -/- -/-"
+  },
+  {
+   "datum": "20.-22. 3. 2027",
+   "trida": "C",
+   "vklad": "800 Kč",
    "poradatel": "TC ESO Praha z.s.",
    "kod_m": "706202",
    "obs_m": "-/-",
@@ -13711,6 +13795,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "5. 12. 2026 500 Kč SK LAMA o.s. -/-"
+  },
+  {
+   "datum": "5. 12. 2026",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "906769",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "5. 12. 2026 500 Kč Tenis klub Jindřichův Hradec z.s. -/-"
   },
   {
    "datum": "5. 12. 2026",
@@ -14472,6 +14568,18 @@
    "datum": "16. 1. 2027",
    "trida": "",
    "vklad": "500 Kč",
+   "poradatel": "TK Meziboří, z.s.",
+   "kod_m": "906771",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "16. 1. 2027 500 Kč TK Meziboří, z.s. -/-"
+  },
+  {
+   "datum": "16. 1. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
    "poradatel": "Sportclub Řevnice, z.s.",
    "kod_m": "906590",
    "obs_m": "-/-",
@@ -15091,6 +15199,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "13. 2. 2027 500 Kč TK Letohrad -/-"
+  },
+  {
+   "datum": "13. 2. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
+   "poradatel": "TK Meziboří, z.s.",
+   "kod_m": "906772",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "13. 2. 2027 500 Kč TK Meziboří, z.s. -/-"
   },
   {
    "datum": "13. 2. 2027",
@@ -16020,6 +16140,18 @@
    "datum": "27. 3. 2027",
    "trida": "",
    "vklad": "500 Kč",
+   "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+   "kod_m": "906770",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "27. 3. 2027 500 Kč Tenis klub Jindřichův Hradec z.s. -/-"
+  },
+  {
+   "datum": "27. 3. 2027",
+   "trida": "",
+   "vklad": "500 Kč",
    "poradatel": "TC ESO Praha z.s.",
    "kod_m": "906747",
    "obs_m": "-/-",
@@ -16852,6 +16984,18 @@
    "datum": "5. 12. 2026",
    "trida": "",
    "vklad": "400 Kč",
+   "poradatel": "TK Meziboří, z.s.",
+   "kod_m": "906114",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "5. 12. 2026 400 Kč TK Meziboří, z.s. -/-"
+  },
+  {
+   "datum": "5. 12. 2026",
+   "trida": "",
+   "vklad": "400 Kč",
    "poradatel": "TK Roudnice n.L.",
    "kod_m": "906012",
    "obs_m": "-/-",
@@ -17332,6 +17476,18 @@
    "datum": "17. 1. 2027",
    "trida": "",
    "vklad": "400 Kč",
+   "poradatel": "TK Meziboří, z.s.",
+   "kod_m": "906115",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "17. 1. 2027 400 Kč TK Meziboří, z.s. -/-"
+  },
+  {
+   "datum": "17. 1. 2027",
+   "trida": "",
+   "vklad": "400 Kč",
    "poradatel": "Sportclub Řevnice, z.s.",
    "kod_m": "906046",
    "obs_m": "-/-",
@@ -17639,6 +17795,18 @@
    "obs_z": "",
    "mix": true,
    "radek": "20. 2. 2027 500 Kč TJ Sokol Uherský Brod -/-"
+  },
+  {
+   "datum": "20. 2. 2027",
+   "trida": "",
+   "vklad": "400 Kč",
+   "poradatel": "TK Meziboří, z.s.",
+   "kod_m": "906116",
+   "obs_m": "-/-",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "20. 2. 2027 400 Kč TK Meziboří, z.s. -/-"
   },
   {
    "datum": "20. 2. 2027",

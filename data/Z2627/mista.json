@@ -1012,6 +1012,19 @@
   "osm_vzdalenost_km": 0.04,
   "geokod": "RÚIAN: Jetelová 2183, 25228 Černošice"
  },
+ "klub:tenis jesenice z s": {
+  "klic": "klub:tenis jesenice z s",
+  "poradatel": "Tenis Jesenice z.s.",
+  "adresa": "K sportovnímu areálu 1600, Jesenice",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 49.976091,
+  "lon": 14.515964,
+  "presnost": "areal_obec",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.1,
+  "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko"
+ },
  "klub:tenis jesenice z s|k sportovnimu arealu 1600 jesenice": {
   "klic": "klub:tenis jesenice z s|k sportovnimu arealu 1600 jesenice",
   "poradatel": "Tenis Jesenice z.s.",
@@ -1024,6 +1037,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.1,
   "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko"
+ },
+ "klub:tenis klub jindrichuv hradec z s|roschova 1304 jindrichuv hradec ii": {
+  "klic": "klub:tenis klub jindrichuv hradec z s|roschova 1304 jindrichuv hradec ii",
+  "poradatel": "Tenis klub Jindřichův Hradec z.s.",
+  "adresa": "Röschova 1304, Jindřichův Hradec II",
+  "zdroj": "detail",
+  "region": "Jihočeský",
+  "lat": 49.148277,
+  "lon": 14.997231,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.02,
+  "geokod": "RÚIAN: Röschova 1304, Jindřichův Hradec II, 37701 Jindřichův Hradec"
  },
  "klub:tenis klub strakonice spolek|machova 178 strakonice": {
   "klic": "klub:tenis klub strakonice spolek|machova 178 strakonice",
@@ -1687,6 +1713,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.2,
   "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň"
+ },
+ "klub:tk mezibori z s|mezibori": {
+  "klic": "klub:tk mezibori z s|mezibori",
+  "poradatel": "TK Meziboří, z.s.",
+  "adresa": "Meziboří",
+  "zdroj": "detail",
+  "region": "",
+  "lat": 50.622618,
+  "lon": 13.591681,
+  "presnost": "areal_obec",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 1.12,
+  "geokod": "OSM: Meziboří, okres Most, Ústecký kraj, Česko"
  },
  "klub:tk milo olomouc": {
   "klic": "klub:tk milo olomouc",

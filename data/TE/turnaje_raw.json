@@ -2501,6 +2501,22 @@
   "entry": false
  },
  {
+  "id": "C5D14A37-CBF0-4708-81E9-8D0214262923",
+  "nz": "Tennis Europe U16 Stavanger",
+  "venue": "Stavanger Tennisklubb",
+  "city": "Stavanger",
+  "country": "Norway",
+  "iso3": "NOR",
+  "od": "2027-01-18",
+  "do": "2027-01-22",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "F19F8B85-1936-4968-88A5-263610E87C2B",
   "nz": "Aizkraukle 01",
   "venue": "Vilar TK",
@@ -2555,22 +2571,6 @@
   "city": "Limassol",
   "country": "Cyprus",
   "iso3": "CYP",
-  "od": "2027-01-18",
-  "do": "2027-01-24",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 3",
-   "16&U"
-  ],
-  "entry": false
- },
- {
-  "id": "C5D14A37-CBF0-4708-81E9-8D0214262923",
-  "nz": "Tennis Europe U16 Stavanger",
-  "venue": "Stavanger Tennisklubb",
-  "city": "Stavanger",
-  "country": "Norway",
-  "iso3": "NOR",
   "od": "2027-01-18",
   "do": "2027-01-24",
   "pov": "Acryllic",
@@ -3330,6 +3330,22 @@
   "tags": [
    "Category 2",
    "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "F61E6B22-C1C4-45D3-8E8C-8891C8F71D2A",
+  "nz": "CATALONIA OPEN BPTA",
+  "venue": "CENTRE INTERNACIONAL DE TENNIS",
+  "city": "Barcelona",
+  "country": "Spain",
+  "iso3": "ESP",
+  "od": "2027-03-22",
+  "do": "2027-03-28",
+  "pov": "Other",
+  "tags": [
+   "Category 2",
+   "16&U"
   ],
   "entry": false
  },
@@ -5435,6 +5451,22 @@
   "tags": [
    "Category 2",
    "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "23322F8A-2927-466C-AEBA-27F7643C1B8C",
+  "nz": "Lexus Junior International Dukes Meadow",
+  "venue": "Dukes Meadow",
+  "city": "London",
+  "country": "Great Britain",
+  "iso3": "GBR",
+  "od": "2027-07-19",
+  "do": "2027-07-25",
+  "pov": "Other",
+  "tags": [
+   "Category 2",
+   "14&U"
   ],
   "entry": false
  }

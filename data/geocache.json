@@ -33163,5 +33163,18 @@
   }
  ],
  "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+MERIDIANA%2C+NOVI+SAD": [],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+MERIDIANA": []
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENNIS+CLUB+MERIDIANA": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=CENTRE+INTERNACIONAL+DE+TENNIS%2C+Barcelona": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Dukes+Meadow%2C+London": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=gb&format=jsonv2&limit=1&q=Dukes+Meadow": [
+  {
+   "name": "Dukes Meadow",
+   "display_name": "Dukes Meadow, Harbledown and Rough Common, Harbledown, Canterbury, Kent, Anglie, Spojené království",
+   "lat": "51.2850133",
+   "lon": "1.0554446",
+   "category": "leisure",
+   "type": "park",
+   "addresstype": "park"
+  }
+ ]
 }
