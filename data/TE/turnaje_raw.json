@@ -3302,6 +3302,22 @@
   "entry": false
  },
  {
+  "id": "13B8B5E6-7B03-409C-B227-DA59A3151B44",
+  "nz": "Adriatic Cup",
+  "venue": "Teniski klub Lošinj Jadranka",
+  "city": "Veli Lošinj",
+  "country": "Croatia",
+  "iso3": "CRO",
+  "od": "2027-03-22",
+  "do": "2027-03-28",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "17206828-AFB5-44C9-907A-41B25F86B8B1",
   "nz": "Aizkraukle 03",
   "venue": "Vilar TK",
@@ -4087,6 +4103,22 @@
   "entry": false
  },
  {
+  "id": "8B90E5FE-C486-4FCF-8F6C-1D50DA13B188",
+  "nz": "Tirana Open",
+  "venue": "National Sport Park",
+  "city": "Tirana",
+  "country": "Albania",
+  "iso3": "ALB",
+  "od": "2027-04-26",
+  "do": "2027-05-02",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "51737EAD-E7C1-425C-BF25-9B6ADC8DACD3",
   "nz": "Torneo U12 - Maglie",
   "venue": "Circolo Tennis Maglie",
@@ -4167,6 +4199,22 @@
   "entry": false
  },
  {
+  "id": "D96E9C02-6EDD-4078-97DA-19FCD0F7EAFB",
+  "nz": "National Sport Park Open",
+  "venue": "National Sport Park",
+  "city": "Tirana",
+  "country": "Albania",
+  "iso3": "ALB",
+  "od": "2027-05-03",
+  "do": "2027-05-09",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "E550BB4F-AB5E-4EE0-9AA9-993584DA203C",
   "nz": "Passagespoirs 2027",
   "venue": "AS Passage Tennis",
@@ -4195,6 +4243,38 @@
   "tags": [
    "Category 2",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "B8FF2234-E6C4-4FCC-94CB-FD988DA9D5E8",
+  "nz": "Wilson Cup 14U",
+  "venue": "SK Talent 13",
+  "city": "Rakovnik",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-05-03",
+  "do": "2027-05-09",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "1D2C357D-FE13-4D78-9A18-FB8DF6065D05",
+  "nz": "22nd Euroregion Nisa Cup",
+  "venue": "Tenisove Centrum Euroregion Nisa z.s.",
+  "city": "Hradek Nad Nisou",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-05-10",
+  "do": "2027-05-16",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
   ],
   "entry": false
  },
@@ -4373,6 +4453,22 @@
   "tags": [
    "Category 1",
    "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "FB8C2A05-C71B-4884-850C-33BC17F9DFAD",
+  "nz": "Liberec Open 2027",
+  "venue": "LTK Liberec",
+  "city": "Liberec",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-05-17",
+  "do": "2027-05-23",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
   ],
   "entry": false
  },
@@ -4771,6 +4867,22 @@
   "iso3": "MKD",
   "od": "2027-05-31",
   "do": "2027-06-06",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "CA2837CC-FDCE-4C02-B441-6C21022C162A",
+  "nz": "Bohemia Cafex Cup",
+  "venue": "SK Talent 13",
+  "city": "Rakovnik",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-06-07",
+  "do": "2027-06-13",
   "pov": "Clay",
   "tags": [
    "Category 3",
@@ -5343,6 +5455,38 @@
   "entry": false
  },
  {
+  "id": "1729D939-27B6-4E81-A2F7-CA7A6CBB51E7",
+  "nz": "Koblenz Junior Open",
+  "venue": "TC Oberwerth Koblenz",
+  "city": "Koblenz",
+  "country": "Germany",
+  "iso3": "GER",
+  "od": "2027-07-05",
+  "do": "2027-07-11",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "6BBF4CDF-1970-482F-91F7-0E4EAFA916FF",
+  "nz": "17.Makro 5 Junior Slovenia Open Under 14-powered by Mestna občina Koper",
+  "venue": "Teniški klub Luka Koper",
+  "city": "Koper",
+  "country": "Slovenia",
+  "iso3": "SLO",
+  "od": "2027-07-05",
+  "do": "2027-07-11",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "9F6123F1-8A97-462B-ADDA-D267254F2698",
   "nz": "Aizkraukle 06",
   "venue": "Vilar TK",
@@ -5439,6 +5583,22 @@
   "entry": false
  },
  {
+  "id": "A152A97C-F8BE-4870-9BD3-71CCC9B13BEF",
+  "nz": "HIT Cup 2027 16U",
+  "venue": "SK Hit Hradec Kralove",
+  "city": "Hradec Kralove",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-07-19",
+  "do": "2027-07-25",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "81E8484C-0C47-4485-9B4C-3E7DE0B7ACC6",
   "nz": "Agno U12",
   "venue": "GoAcademy",
@@ -5466,6 +5626,38 @@
   "pov": "Other",
   "tags": [
    "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "C0CF53CA-2F84-4261-A9C4-718C7EEAC090",
+  "nz": "Tennis Europe Icelandic Open U14",
+  "venue": "Viking Tennis Club",
+  "city": "Reykjavik",
+  "country": "Iceland",
+  "iso3": "ISL",
+  "od": "2027-07-19",
+  "do": "2027-07-25",
+  "pov": "Artificial Grass",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "9BA21C9F-C828-4F39-9DC5-E8AD0E88D1FE",
+  "nz": "Torneo U14 - Sassuolo",
+  "venue": "Sporting Club Sassuolo",
+  "city": "Sassuolo",
+  "country": "Italy",
+  "iso3": "ITA",
+  "od": "2027-07-19",
+  "do": "2027-07-25",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
    "14&U"
   ],
   "entry": false

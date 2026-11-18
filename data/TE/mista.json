@@ -3490,5 +3490,72 @@
   "nazev_mista": "Dukes Meadow",
   "zeme": "gb",
   "v2": 1
+ },
+ "CRO|teniski klub losinj jadranka|veli losinj": {
+  "poradatel": "Teniski klub Lošinj Jadranka",
+  "adresa": "Veli Lošinj, Croatia",
+  "zdroj": "te",
+  "region": "Croatia",
+  "lat": 44.522013,
+  "lon": 14.497715,
+  "presnost": "areal_obec",
+  "nazev_mista": "Teniski klub Lošinj Jadranka",
+  "zeme": "hr",
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "tenisový areál v obci podle OpenStreetMap"
+ },
+ "GER|tc oberwerth koblenz|koblenz": {
+  "poradatel": "TC Oberwerth Koblenz",
+  "adresa": "Koblenz, Germany",
+  "zdroj": "te",
+  "region": "Germany",
+  "lat": 50.326845,
+  "lon": 7.585731,
+  "presnost": "areal",
+  "nazev_mista": "TC Oberwerth Koblenz",
+  "zeme": "de",
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Tennisclub Koblenz-Oberwerth"
+ },
+ "CZE|sk hit hradec kralove|hradec kralove": {
+  "poradatel": "SK Hit Hradec Kralove",
+  "adresa": "Hradec Kralove, Czechia",
+  "zdroj": "te",
+  "region": "Czechia",
+  "lat": 50.187984,
+  "lon": 15.834938,
+  "presnost": "areal",
+  "nazev_mista": "SK Hit Hradec Kralove",
+  "zeme": "cz",
+  "poznamka": "místo podle areálu klubu v datech ČTS",
+  "v2": 1
+ },
+ "ISL|viking tennis club|reykjavik": {
+  "poradatel": "Viking Tennis Club",
+  "adresa": "Reykjavik, Iceland",
+  "zdroj": "te",
+  "region": "Iceland",
+  "lat": 64.135313,
+  "lon": -21.866792,
+  "presnost": "areal_obec",
+  "nazev_mista": "Viking Tennis Club",
+  "zeme": "is",
+  "poznamka": "tenisový areál v obci podle OSM: Tennis- og Badmintonfélag Reykjavíkur",
+  "v2": 1,
+  "osm3": 1
+ },
+ "ITA|sporting club sassuolo|sassuolo": {
+  "poradatel": "Sporting Club Sassuolo",
+  "adresa": "Sassuolo, Italy",
+  "zdroj": "te",
+  "region": "Italy",
+  "lat": 44.509298,
+  "lon": 10.758571,
+  "presnost": "areal",
+  "nazev_mista": "Sporting Club Sassuolo",
+  "zeme": "it",
+  "v2": 1
  }
 }

@@ -33176,5 +33176,64 @@
    "type": "park",
    "addresstype": "park"
   }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Lo%C5%A1inj+Jadranka%2C+Veli+Lo%C5%A1inj": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Lo%C5%A1inj+Jadranka": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=TC+Oberwerth+Koblenz%2C+Koblenz": [
+  {
+   "name": "Oberwerth",
+   "display_name": "Oberwerth, Koblenec, Porýní-Falc, Německo",
+   "lat": "50.3372635",
+   "lon": "7.5901919",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "suburb"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=tennis+Koblenz": [
+  {
+   "name": "DJK Tennis Andernach",
+   "display_name": "DJK Tennis Andernach, 73, Stadionstraße, Andernach, Landkreis Mayen-Koblenz, Porýní-Falc, 56626, Německo",
+   "lat": "50.4281131",
+   "lon": "7.4226945",
+   "category": "club",
+   "type": "sport",
+   "addresstype": "club"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=is&format=jsonv2&limit=1&q=Viking+Tennis+Club%2C+Reykjavik": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=is&format=jsonv2&limit=1&q=Viking+Tennis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=is&format=jsonv2&limit=1&q=Reykjavik": [
+  {
+   "name": "Reykjavík",
+   "display_name": "Reykjavík, Höfuðborgarsvæðið, Island",
+   "lat": "64.1459810",
+   "lon": "-21.9422367",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=is&format=jsonv2&limit=1&q=tennis+Reykjavik": [
+  {
+   "name": "Tennis- og Badmintonfélag Reykjavíkur",
+   "display_name": "Tennis- og Badmintonfélag Reykjavíkur, 1, Gnoðarvogur, Heimar, Laugardalur, Reykjavík, Höfuðborgarsvæðið, 104, Island",
+   "lat": "64.1353133",
+   "lon": "-21.8667917",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=it&format=jsonv2&limit=1&q=Sporting+Club+Sassuolo%2C+Sassuolo": [
+  {
+   "name": "Sporting Club",
+   "display_name": "Sporting Club, 25, Via Vandelli, Vallurbana, San Michele dei Mucchietti, Salvarola Terme, Sassuolo, Unione dei comuni del Distretto Ceramico, Modena, Emilia-Romagna, 42014, Itálie",
+   "lat": "44.5092985",
+   "lon": "10.7585709",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
  ]
 }
