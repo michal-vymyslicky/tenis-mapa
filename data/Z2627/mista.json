@@ -648,6 +648,18 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null
  },
+ "klub:slovan hranice z s": {
+  "klic": "klub:slovan hranice z s",
+  "poradatel": "SLOVAN HRANICE, z.s.",
+  "adresa": "",
+  "zdroj": "adresar",
+  "region": "Severomoravský",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
+ },
  "klub:slovan hranice z s|hranice": {
   "klic": "klub:slovan hranice z s|hranice",
   "poradatel": "SLOVAN HRANICE, z.s.",
@@ -660,6 +672,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "OSM: Hranice, okres Přerov, Olomoucký kraj, 753 01, Česko"
+ },
+ "klub:sokol cimice": {
+  "klic": "klub:sokol cimice",
+  "poradatel": "Sokol Čimice",
+  "adresa": "Na Průhonu 229/20, Praha 8 - Čimice",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.139754,
+  "lon": 14.432373,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.1,
+  "geokod": "RÚIAN: Na průhonu 229/20, Čimice, 18100 Praha 8"
  },
  "klub:sokol cimice|na pruhonu 229 20 praha 8 cimice": {
   "klic": "klub:sokol cimice|na pruhonu 229 20 praha 8 cimice",
@@ -1336,6 +1361,19 @@
   "nazev_mista": "Sportcentrum Radlice",
   "osm_vzdalenost_km": 0.24,
   "geokod": "RÚIAN: Radlická 298/105, Radlice, 15000 Praha 5"
+ },
+ "klub:tj slavoj tesla hloubetin z s": {
+  "klic": "klub:tj slavoj tesla hloubetin z s",
+  "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
+  "adresa": "Hloubětínská 1061, Praha 9",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.105106,
+  "lon": 14.535804,
+  "presnost": "areal",
+  "nazev_mista": "bazén Hloubětín",
+  "osm_vzdalenost_km": 0.51,
+  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9"
  },
  "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9": {
   "klic": "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9",
@@ -2574,12 +2612,12 @@
  "svaz:jihomoravsky:706941": {
   "klic": "svaz:jihomoravsky:706941",
   "poradatel": "jihomoravský",
-  "adresa": "Novolíšeňská (adresa kurtů), BRNO-LÍŠEŇ",
-  "zdroj": "loni",
+  "adresa": "Novolíšeňská , BRNO-LÍŠEŇ",
+  "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.207909,
   "lon": 16.687483,
-  "presnost": "odhad",
+  "presnost": "obec",
   "nazev_mista": "",
   "osm_vzdalenost_km": null,
   "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"

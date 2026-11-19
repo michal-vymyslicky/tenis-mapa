@@ -38,7 +38,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106002": {
   "_status": "ok",
@@ -59,7 +59,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106003": {
   "_status": "ok",
@@ -80,7 +80,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106004": {
   "_status": "ok",
@@ -101,7 +101,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106005": {
   "_status": "ok",
@@ -142,7 +142,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106007": {
   "_status": "ok",
@@ -163,7 +163,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106008": {
   "_status": "ok",
@@ -204,7 +204,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106010": {
   "_status": "ok",
@@ -225,7 +225,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106011": {
   "_status": "ok",
@@ -286,7 +286,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 36,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106014": {
   "_status": "ok",
@@ -307,7 +307,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106015": {
   "_status": "ok",
@@ -349,7 +349,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106017": {
   "_status": "ok",
@@ -370,7 +370,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106018": {
   "_status": "ok",
@@ -390,8 +390,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "106019": {
   "_status": "ok",
@@ -411,8 +411,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 30,
+  "_stazeno": "2026-11-19"
  },
  "106020": {
   "_status": "ok",
@@ -432,8 +432,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-19"
  },
  "106021": {
   "_status": "ok",
@@ -453,8 +453,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 14,
+  "_stazeno": "2026-11-19"
  },
  "106022": {
   "_status": "ok",
@@ -474,8 +474,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "106023": {
   "_status": "ok",
@@ -495,8 +495,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-19"
  },
  "106024": {
   "_status": "ok",
@@ -516,8 +516,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "106025": {
   "_status": "ok",
@@ -537,8 +537,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "106026": {
   "_status": "ok",
@@ -600,8 +600,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "106029": {
   "_status": "ok",
@@ -643,7 +643,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106031": {
   "_status": "ok",
@@ -663,8 +663,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "106032": {
   "_status": "ok",
@@ -685,7 +685,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106033": {
   "_status": "ok",
@@ -705,8 +705,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "106034": {
   "_status": "ok",
@@ -727,7 +727,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106035": {
   "_status": "ok",
@@ -747,8 +747,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "106036": {
   "_status": "ok",
@@ -769,7 +769,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106037": {
   "_status": "ok",
@@ -809,8 +809,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-19"
  },
  "106039": {
   "_status": "ok",
@@ -831,7 +831,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106040": {
   "_status": "ok",
@@ -851,8 +851,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "106041": {
   "_status": "ok",
@@ -873,7 +873,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106042": {
   "_status": "ok",
@@ -893,8 +893,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "106043": {
   "_status": "ok",
@@ -914,8 +914,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "106044": {
   "_status": "ok",
@@ -956,8 +956,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 35,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 42,
+  "_stazeno": "2026-11-19"
  },
  "106046": {
   "_status": "ok",
@@ -998,8 +998,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "106048": {
   "_status": "ok",
@@ -1040,8 +1040,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "106050": {
   "_status": "ok",
@@ -1082,8 +1082,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "106052": {
   "_status": "ok",
@@ -1124,8 +1124,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "106054": {
   "_status": "ok",
@@ -1167,7 +1167,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106056": {
   "_status": "ok",
@@ -1208,8 +1208,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "106058": {
   "_status": "ok",
@@ -1251,7 +1251,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106060": {
   "_status": "ok",
@@ -1293,7 +1293,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106062": {
   "_status": "ok",
@@ -1335,7 +1335,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106064": {
   "_status": "ok",
@@ -1377,7 +1377,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106066": {
   "_status": "ok",
@@ -1418,8 +1418,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "106068": {
   "_status": "ok",
@@ -1461,7 +1461,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106070": {
   "_status": "ok",
@@ -1503,7 +1503,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106072": {
   "_status": "ok",
@@ -1544,8 +1544,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "106074": {
   "_status": "ok",
@@ -1586,8 +1586,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "106076": {
   "_status": "ok",
@@ -1629,7 +1629,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106078": {
   "_status": "ok",
@@ -1670,8 +1670,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "106080": {
   "_status": "ok",
@@ -1713,7 +1713,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106082": {
   "_status": "ok",
@@ -1817,8 +1817,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-19"
  },
  "106087": {
   "_status": "ok",
@@ -1923,7 +1923,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106092": {
   "_status": "ok",
@@ -2028,7 +2028,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106097": {
   "_status": "ok",
@@ -2133,7 +2133,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106102": {
   "_status": "ok",
@@ -2238,7 +2238,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106107": {
   "_status": "ok",
@@ -2342,8 +2342,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "106112": {
   "_status": "ok",
@@ -2447,8 +2447,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "106117": {
   "_status": "ok",
@@ -2553,7 +2553,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106122": {
   "_status": "ok",
@@ -2658,7 +2658,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106127": {
   "_status": "ok",
@@ -2763,7 +2763,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106132": {
   "_status": "ok",
@@ -2868,7 +2868,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106137": {
   "_status": "ok",
@@ -2972,8 +2972,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "106142": {
   "_status": "ok",
@@ -3014,8 +3014,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 54,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 57,
+  "_stazeno": "2026-11-19"
  },
  "106800": {
   "_status": "ok",
@@ -3036,7 +3036,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 49,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106830": {
   "_status": "ok",
@@ -3057,7 +3057,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 31,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106860": {
   "_status": "ok",
@@ -3078,7 +3078,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 30,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106880": {
   "_status": "ok",
@@ -3099,7 +3099,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106900": {
   "_status": "ok",
@@ -3120,7 +3120,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106906": {
   "_status": "ok",
@@ -3141,7 +3141,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106920": {
   "_status": "ok",
@@ -3162,7 +3162,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 44,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106940": {
   "_status": "ok",
@@ -3183,7 +3183,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 35,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106970": {
   "_status": "ok",
@@ -3204,7 +3204,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 35,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206000": {
   "_status": "ok",
@@ -3225,7 +3225,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206001": {
   "_status": "ok",
@@ -3347,7 +3347,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206007": {
   "_status": "ok",
@@ -3388,8 +3388,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-19"
  },
  "206009": {
   "_status": "ok",
@@ -3431,7 +3431,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206011": {
   "_status": "ok",
@@ -3514,8 +3514,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-19"
  },
  "206015": {
   "_status": "ok",
@@ -3557,7 +3557,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206017": {
   "_status": "ok",
@@ -3578,7 +3578,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206018": {
   "_status": "ok",
@@ -3599,7 +3599,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206019": {
   "_status": "ok",
@@ -3619,8 +3619,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "206020": {
   "_status": "ok",
@@ -3641,7 +3641,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206021": {
   "_status": "ok",
@@ -3662,7 +3662,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206022": {
   "_status": "ok",
@@ -3683,7 +3683,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206023": {
   "_status": "ok",
@@ -3703,8 +3703,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 19,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "206024": {
   "_status": "ok",
@@ -3745,8 +3745,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-19"
  },
  "206026": {
   "_status": "ok",
@@ -3788,7 +3788,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "206028": {
   "_status": "ok",
@@ -3830,7 +3830,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "206030": {
   "_status": "ok",
@@ -3871,8 +3871,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "206032": {
   "_status": "ok",
@@ -3914,7 +3914,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "206034": {
   "_status": "ok",
@@ -3955,8 +3955,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "206036": {
   "_status": "ok",
@@ -3998,7 +3998,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "206038": {
   "_status": "ok",
@@ -4040,7 +4040,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "206040": {
   "_status": "ok",
@@ -4082,7 +4082,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "206042": {
   "_status": "ok",
@@ -4124,7 +4124,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "206044": {
   "_status": "ok",
@@ -4165,8 +4165,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "206046": {
   "_status": "ok",
@@ -4292,7 +4292,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "206052": {
   "_status": "ok",
@@ -4397,7 +4397,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "206057": {
   "_status": "ok",
@@ -4502,7 +4502,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "206062": {
   "_status": "ok",
@@ -4607,7 +4607,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "206067": {
   "_status": "ok",
@@ -4704,7 +4704,7 @@
   "mice": "tecnifibre",
   "pocet_ucastniku": "16",
   "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 19.03.2027 09:00:00 do 19.03.2027 17:00:00",
+  "el_prezence": "od 18.03.2027 10:00:00 do 18.03.2027 18:00:00",
   "kontakt": "Ing. Kij Miroslav",
   "mobil": "603375461",
   "email": "mkij@tenisova-skola.com",
@@ -4712,7 +4712,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "206072": {
   "_status": "ok",
@@ -4817,7 +4817,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "206077": {
   "_status": "ok",
@@ -4922,7 +4922,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 54,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206800": {
   "_status": "ok",
@@ -4943,7 +4943,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 28,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206830": {
   "_status": "ok",
@@ -4964,7 +4964,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206860": {
   "_status": "ok",
@@ -4985,7 +4985,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 25,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206880": {
   "_status": "ok",
@@ -5006,7 +5006,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206900": {
   "_status": "ok",
@@ -5048,7 +5048,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206920": {
   "_status": "ok",
@@ -5069,7 +5069,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206940": {
   "_status": "ok",
@@ -5090,7 +5090,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206970": {
   "_status": "ok",
@@ -5111,7 +5111,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306000": {
   "_status": "ok",
@@ -5131,8 +5131,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 98,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 99,
+  "_stazeno": "2026-11-19"
  },
  "306001": {
   "_status": "ok",
@@ -5152,8 +5152,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-19"
  },
  "306002": {
   "_status": "ok",
@@ -5174,7 +5174,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306003": {
   "_status": "ok",
@@ -5194,8 +5194,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "306004": {
   "_status": "ok",
@@ -5216,7 +5216,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306005": {
   "_status": "ok",
@@ -5236,8 +5236,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "306006": {
   "_status": "ok",
@@ -5278,7 +5278,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306008": {
   "_status": "ok",
@@ -5298,8 +5298,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 50,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 47,
+  "_stazeno": "2026-11-19"
  },
  "306009": {
   "_status": "ok",
@@ -5320,7 +5320,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306010": {
   "_status": "ok",
@@ -5340,8 +5340,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "306011": {
   "_status": "ok",
@@ -5362,7 +5362,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306012": {
   "_status": "ok",
@@ -5382,8 +5382,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-19"
  },
  "306013": {
   "_status": "ok",
@@ -5403,8 +5403,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "306014": {
   "_status": "ok",
@@ -5425,7 +5425,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306015": {
   "_status": "ok",
@@ -5445,8 +5445,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 46,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 47,
+  "_stazeno": "2026-11-19"
  },
  "306016": {
   "_status": "ok",
@@ -5467,7 +5467,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306017": {
   "_status": "ok",
@@ -5487,8 +5487,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 53,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 56,
+  "_stazeno": "2026-11-19"
  },
  "306018": {
   "_status": "ok",
@@ -5508,8 +5508,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "306019": {
   "_status": "ok",
@@ -5529,8 +5529,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-19"
  },
  "306020": {
   "_status": "ok",
@@ -5551,7 +5551,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306021": {
   "_status": "ok",
@@ -5571,8 +5571,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-19"
  },
  "306022": {
   "_status": "ok",
@@ -5613,8 +5613,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "306024": {
   "_status": "ok",
@@ -5656,7 +5656,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306026": {
   "_status": "ok",
@@ -5698,7 +5698,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306028": {
   "_status": "ok",
@@ -5739,8 +5739,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "306030": {
   "_status": "ok",
@@ -5781,8 +5781,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "306032": {
   "_status": "ok",
@@ -5823,8 +5823,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "306034": {
   "_status": "ok",
@@ -5866,7 +5866,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306036": {
   "_status": "ok",
@@ -5908,7 +5908,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306038": {
   "_status": "ok",
@@ -5949,8 +5949,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "306040": {
   "_status": "ok",
@@ -5991,8 +5991,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "306042": {
   "_status": "ok",
@@ -6034,7 +6034,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306044": {
   "_status": "ok",
@@ -6075,8 +6075,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "306046": {
   "_status": "ok",
@@ -6118,7 +6118,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306048": {
   "_status": "ok",
@@ -6160,7 +6160,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306050": {
   "_status": "ok",
@@ -6202,7 +6202,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306052": {
   "_status": "ok",
@@ -6243,8 +6243,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "306054": {
   "_status": "ok",
@@ -6286,7 +6286,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306056": {
   "_status": "ok",
@@ -6327,8 +6327,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "306058": {
   "_status": "ok",
@@ -6369,8 +6369,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "306060": {
   "_status": "ok",
@@ -6412,7 +6412,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306062": {
   "_status": "ok",
@@ -6454,7 +6454,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306064": {
   "_status": "ok",
@@ -6496,7 +6496,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306066": {
   "_status": "ok",
@@ -6538,7 +6538,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306068": {
   "_status": "ok",
@@ -6580,7 +6580,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306070": {
   "_status": "ok",
@@ -6622,7 +6622,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306072": {
   "_status": "ok",
@@ -6664,7 +6664,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306074": {
   "_status": "ok",
@@ -6727,7 +6727,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306077": {
   "_status": "ok",
@@ -6831,8 +6831,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "306082": {
   "_status": "ok",
@@ -6937,7 +6937,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306087": {
   "_status": "ok",
@@ -7041,8 +7041,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "306092": {
   "_status": "ok",
@@ -7146,8 +7146,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "306097": {
   "_status": "ok",
@@ -7251,8 +7251,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "306102": {
   "_status": "ok",
@@ -7357,7 +7357,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306107": {
   "_status": "ok",
@@ -7462,7 +7462,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306112": {
   "_status": "ok",
@@ -7566,8 +7566,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "306117": {
   "_status": "ok",
@@ -7671,8 +7671,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "306122": {
   "_status": "ok",
@@ -7777,7 +7777,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306127": {
   "_status": "ok",
@@ -7882,7 +7882,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306132": {
   "_status": "ok",
@@ -7987,7 +7987,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306137": {
   "_status": "ok",
@@ -8092,7 +8092,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306142": {
   "_status": "ok",
@@ -8196,8 +8196,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "306147": {
   "_status": "ok",
@@ -8302,7 +8302,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306152": {
   "_status": "ok",
@@ -8406,8 +8406,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "306157": {
   "_status": "ok",
@@ -8511,8 +8511,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-19"
  },
  "306162": {
   "_status": "ok",
@@ -8617,7 +8617,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306167": {
   "_status": "ok",
@@ -8722,7 +8722,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306700": {
   "_status": "ok",
@@ -8869,7 +8869,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306920": {
   "_status": "ok",
@@ -8952,8 +8952,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 76,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 74,
+  "_stazeno": "2026-11-19"
  },
  "406001": {
   "_status": "ok",
@@ -8974,7 +8974,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406002": {
   "_status": "ok",
@@ -8994,8 +8994,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-19"
  },
  "406003": {
   "_status": "ok",
@@ -9016,7 +9016,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406004": {
   "_status": "ok",
@@ -9037,7 +9037,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406005": {
   "_status": "ok",
@@ -9057,8 +9057,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-19"
  },
  "406006": {
   "_status": "ok",
@@ -9079,7 +9079,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406007": {
   "_status": "ok",
@@ -9100,7 +9100,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406008": {
   "_status": "ok",
@@ -9120,8 +9120,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "406009": {
   "_status": "ok",
@@ -9141,8 +9141,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "406010": {
   "_status": "ok",
@@ -9162,8 +9162,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "406011": {
   "_status": "ok",
@@ -9184,7 +9184,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406012": {
   "_status": "ok",
@@ -9205,7 +9205,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406013": {
   "_status": "ok",
@@ -9226,7 +9226,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406014": {
   "_status": "ok",
@@ -9246,8 +9246,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-19"
  },
  "406015": {
   "_status": "ok",
@@ -9268,7 +9268,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406016": {
   "_status": "ok",
@@ -9288,8 +9288,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "406017": {
   "_status": "ok",
@@ -9310,7 +9310,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406018": {
   "_status": "ok",
@@ -9331,7 +9331,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406019": {
   "_status": "ok",
@@ -9351,8 +9351,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 49,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 53,
+  "_stazeno": "2026-11-19"
  },
  "406020": {
   "_status": "ok",
@@ -9373,7 +9373,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406021": {
   "_status": "ok",
@@ -9393,8 +9393,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 65,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 72,
+  "_stazeno": "2026-11-19"
  },
  "406022": {
   "_status": "ok",
@@ -9436,7 +9436,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406024": {
   "_status": "ok",
@@ -9477,8 +9477,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "406026": {
   "_status": "ok",
@@ -9519,8 +9519,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "406028": {
   "_status": "ok",
@@ -9561,8 +9561,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-19"
  },
  "406030": {
   "_status": "ok",
@@ -9603,8 +9603,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "406032": {
   "_status": "ok",
@@ -9645,8 +9645,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "406034": {
   "_status": "ok",
@@ -9687,8 +9687,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-19"
  },
  "406036": {
   "_status": "ok",
@@ -9729,8 +9729,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "406038": {
   "_status": "ok",
@@ -9771,8 +9771,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "406040": {
   "_status": "ok",
@@ -9814,7 +9814,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406042": {
   "_status": "ok",
@@ -9856,7 +9856,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406044": {
   "_status": "ok",
@@ -9898,7 +9898,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406046": {
   "_status": "ok",
@@ -9940,7 +9940,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406048": {
   "_status": "ok",
@@ -9982,7 +9982,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406050": {
   "_status": "ok",
@@ -10024,7 +10024,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406052": {
   "_status": "ok",
@@ -10066,7 +10066,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406054": {
   "_status": "ok",
@@ -10108,7 +10108,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406056": {
   "_status": "ok",
@@ -10150,7 +10150,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406058": {
   "_status": "ok",
@@ -10191,8 +10191,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "406060": {
   "_status": "ok",
@@ -10233,8 +10233,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "406062": {
   "_status": "ok",
@@ -10276,7 +10276,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406064": {
   "_status": "ok",
@@ -10318,7 +10318,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406066": {
   "_status": "ok",
@@ -10360,7 +10360,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "406068": {
   "_status": "ok",
@@ -10444,7 +10444,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406072": {
   "_status": "ok",
@@ -10548,8 +10548,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 19,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "406077": {
   "_status": "ok",
@@ -10654,7 +10654,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406082": {
   "_status": "ok",
@@ -10758,8 +10758,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-19"
  },
  "406087": {
   "_status": "ok",
@@ -10855,16 +10855,16 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 12.02.2027 09:00:00 do 12.02.2027 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 11.02.2027 10:00:00 do 11.02.2027 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "tenistisnov@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "406092": {
   "_status": "ok",
@@ -10969,7 +10969,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406097": {
   "_status": "ok",
@@ -11074,7 +11074,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406102": {
   "_status": "ok",
@@ -11178,8 +11178,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "406107": {
   "_status": "ok",
@@ -11284,7 +11284,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406112": {
   "_status": "ok",
@@ -11389,7 +11389,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406117": {
   "_status": "ok",
@@ -11494,7 +11494,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406122": {
   "_status": "ok",
@@ -11598,8 +11598,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "406127": {
   "_status": "ok",
@@ -11704,7 +11704,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406132": {
   "_status": "ok",
@@ -11809,7 +11809,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406137": {
   "_status": "ok",
@@ -11914,7 +11914,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406142": {
   "_status": "ok",
@@ -12019,7 +12019,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406147": {
   "_status": "ok",
@@ -12123,8 +12123,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "406152": {
   "_status": "ok",
@@ -12228,8 +12228,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "406157": {
   "_status": "ok",
@@ -12460,7 +12460,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406920": {
   "_status": "ok",
@@ -12544,7 +12544,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 34,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506001": {
   "_status": "ok",
@@ -12565,7 +12565,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506002": {
   "_status": "ok",
@@ -12585,8 +12585,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-19"
  },
  "506003": {
   "_status": "ok",
@@ -12607,7 +12607,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 48,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506004": {
   "_status": "ok",
@@ -12628,7 +12628,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506005": {
   "_status": "ok",
@@ -12648,8 +12648,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 39,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 37,
+  "_stazeno": "2026-11-19"
  },
  "506006": {
   "_status": "ok",
@@ -12669,8 +12669,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 19,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "506007": {
   "_status": "ok",
@@ -12691,7 +12691,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506008": {
   "_status": "ok",
@@ -12712,7 +12712,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506009": {
   "_status": "ok",
@@ -12733,7 +12733,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506010": {
   "_status": "ok",
@@ -12754,7 +12754,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506011": {
   "_status": "ok",
@@ -12775,7 +12775,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506012": {
   "_status": "ok",
@@ -12796,7 +12796,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506013": {
   "_status": "ok",
@@ -12817,7 +12817,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506014": {
   "_status": "ok",
@@ -12838,7 +12838,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506015": {
   "_status": "ok",
@@ -12858,8 +12858,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "506016": {
   "_status": "ok",
@@ -12879,8 +12879,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 14,
+  "_stazeno": "2026-11-19"
  },
  "506017": {
   "_status": "ok",
@@ -12901,7 +12901,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506018": {
   "_status": "ok",
@@ -12922,7 +12922,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506019": {
   "_status": "ok",
@@ -12943,7 +12943,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506020": {
   "_status": "ok",
@@ -12963,8 +12963,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "506021": {
   "_status": "ok",
@@ -12985,7 +12985,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506022": {
   "_status": "ok",
@@ -13026,8 +13026,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-19"
  },
  "506024": {
   "_status": "ok",
@@ -13068,8 +13068,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "506026": {
   "_status": "ok",
@@ -13110,8 +13110,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "506028": {
   "_status": "ok",
@@ -13152,8 +13152,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-19"
  },
  "506030": {
   "_status": "ok",
@@ -13195,7 +13195,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506032": {
   "_status": "ok",
@@ -13236,8 +13236,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "506034": {
   "_status": "ok",
@@ -13278,8 +13278,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "506036": {
   "_status": "ok",
@@ -13320,8 +13320,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "506038": {
   "_status": "ok",
@@ -13363,7 +13363,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506040": {
   "_status": "ok",
@@ -13405,7 +13405,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506042": {
   "_status": "ok",
@@ -13447,7 +13447,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506044": {
   "_status": "ok",
@@ -13488,8 +13488,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "506046": {
   "_status": "ok",
@@ -13530,8 +13530,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "506048": {
   "_status": "ok",
@@ -13573,7 +13573,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506050": {
   "_status": "ok",
@@ -13614,8 +13614,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "506052": {
   "_status": "ok",
@@ -13657,7 +13657,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506054": {
   "_status": "ok",
@@ -13699,7 +13699,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506056": {
   "_status": "ok",
@@ -13741,7 +13741,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506058": {
   "_status": "ok",
@@ -13783,7 +13783,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506060": {
   "_status": "ok",
@@ -13824,8 +13824,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "506062": {
   "_status": "ok",
@@ -13866,8 +13866,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "506064": {
   "_status": "ok",
@@ -13909,7 +13909,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506066": {
   "_status": "ok",
@@ -13951,7 +13951,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "506068": {
   "_status": "ok",
@@ -14035,7 +14035,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506072": {
   "_status": "ok",
@@ -14140,7 +14140,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506077": {
   "_status": "ok",
@@ -14244,8 +14244,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "506082": {
   "_status": "ok",
@@ -14350,7 +14350,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506087": {
   "_status": "ok",
@@ -14454,8 +14454,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "506092": {
   "_status": "ok",
@@ -14664,7 +14664,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506102": {
   "_status": "ok",
@@ -14769,7 +14769,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506107": {
   "_status": "ok",
@@ -14874,7 +14874,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506112": {
   "_status": "ok",
@@ -14979,7 +14979,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506117": {
   "_status": "ok",
@@ -15083,8 +15083,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-19"
  },
  "506122": {
   "_status": "ok",
@@ -15189,7 +15189,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506127": {
   "_status": "ok",
@@ -15294,7 +15294,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506132": {
   "_status": "ok",
@@ -15394,12 +15394,12 @@
   "el_prezence": "od 11.03.2027 10:00:00 do 11.03.2027 18:00:00",
   "kontakt": "Kadeřábek Radim",
   "mobil": "603965826",
-  "email": "radim@tktilia.cz",
+  "email": "radim@tenisovaskolabrno.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "506137": {
   "_status": "ok",
@@ -15504,7 +15504,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506142": {
   "_status": "ok",
@@ -15609,7 +15609,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506147": {
   "_status": "ok",
@@ -15713,8 +15713,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "506152": {
   "_status": "ok",
@@ -15819,7 +15819,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506157": {
   "_status": "ok",
@@ -15924,7 +15924,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506162": {
   "_status": "ok",
@@ -16029,7 +16029,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "506167": {
   "_status": "ok",
@@ -16218,7 +16218,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "506920": {
   "_status": "ok",
@@ -16302,7 +16302,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 37,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606001": {
   "_status": "ok",
@@ -16323,7 +16323,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606002": {
   "_status": "ok",
@@ -16343,8 +16343,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 52,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 53,
+  "_stazeno": "2026-11-19"
  },
  "606003": {
   "_status": "ok",
@@ -16365,7 +16365,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 33,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606004": {
   "_status": "ok",
@@ -16385,8 +16385,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "606005": {
   "_status": "ok",
@@ -16406,8 +16406,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "606006": {
   "_status": "ok",
@@ -16421,14 +16421,14 @@
   "pocet_ucastniku": "32",
   "prezentace": "Čt do 18:00 hod.",
   "el_prezence": "od 26.11.2026 10:00:00 do 26.11.2026 18:00:00",
-  "kontakt": "Moravec Jiří",
-  "mobil": "602 859 008",
-  "email": "xjmoravec@centrum.cz",
+  "kontakt": "Kadlec Martin",
+  "mobil": "728654942",
+  "email": "martinkadlec77@seznam.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "606007": {
   "_status": "ok",
@@ -16449,7 +16449,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606008": {
   "_status": "ok",
@@ -16470,7 +16470,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606009": {
   "_status": "ok",
@@ -16490,8 +16490,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 35,
+  "_stazeno": "2026-11-19"
  },
  "606010": {
   "_status": "ok",
@@ -16511,8 +16511,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "606011": {
   "_status": "ok",
@@ -16532,8 +16532,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "606012": {
   "_status": "ok",
@@ -16553,8 +16553,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "606013": {
   "_status": "ok",
@@ -16574,8 +16574,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 28,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-19"
  },
  "606014": {
   "_status": "ok",
@@ -16596,7 +16596,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606015": {
   "_status": "ok",
@@ -16616,8 +16616,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "606016": {
   "_status": "ok",
@@ -16638,7 +16638,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606017": {
   "_status": "ok",
@@ -16658,8 +16658,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 7,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-19"
  },
  "606018": {
   "_status": "ok",
@@ -16679,8 +16679,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-19"
  },
  "606019": {
   "_status": "ok",
@@ -16700,8 +16700,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "606020": {
   "_status": "ok",
@@ -16721,8 +16721,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-19"
  },
  "606021": {
   "_status": "ok",
@@ -16743,7 +16743,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606022": {
   "_status": "ok",
@@ -16763,8 +16763,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "606023": {
   "_status": "ok",
@@ -16785,7 +16785,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 44,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606024": {
   "_status": "ok",
@@ -16826,8 +16826,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "606026": {
   "_status": "ok",
@@ -16868,8 +16868,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 28,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 30,
+  "_stazeno": "2026-11-19"
  },
  "606028": {
   "_status": "ok",
@@ -16910,8 +16910,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "606030": {
   "_status": "ok",
@@ -16953,7 +16953,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606032": {
   "_status": "ok",
@@ -16995,7 +16995,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606034": {
   "_status": "ok",
@@ -17037,7 +17037,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606036": {
   "_status": "ok",
@@ -17079,7 +17079,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606038": {
   "_status": "ok",
@@ -17120,8 +17120,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-19"
  },
  "606040": {
   "_status": "ok",
@@ -17163,7 +17163,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606042": {
   "_status": "ok",
@@ -17205,7 +17205,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606044": {
   "_status": "ok",
@@ -17246,8 +17246,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "606046": {
   "_status": "ok",
@@ -17288,8 +17288,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "606048": {
   "_status": "ok",
@@ -17331,7 +17331,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606050": {
   "_status": "ok",
@@ -17372,8 +17372,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "606052": {
   "_status": "ok",
@@ -17415,7 +17415,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606054": {
   "_status": "ok",
@@ -17456,8 +17456,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "606056": {
   "_status": "ok",
@@ -17499,7 +17499,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606058": {
   "_status": "ok",
@@ -17541,7 +17541,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606060": {
   "_status": "ok",
@@ -17583,7 +17583,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606062": {
   "_status": "ok",
@@ -17625,7 +17625,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606064": {
   "_status": "ok",
@@ -17666,8 +17666,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "606066": {
   "_status": "ok",
@@ -17709,7 +17709,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606068": {
   "_status": "ok",
@@ -17750,8 +17750,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "606070": {
   "_status": "ok",
@@ -17793,7 +17793,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606072": {
   "_status": "ok",
@@ -17834,8 +17834,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "606074": {
   "_status": "ok",
@@ -17897,8 +17897,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 14,
+  "_stazeno": "2026-11-19"
  },
  "606077": {
   "_status": "ok",
@@ -18002,8 +18002,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "606082": {
   "_status": "ok",
@@ -18107,8 +18107,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "606087": {
   "_status": "ok",
@@ -18212,8 +18212,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "606092": {
   "_status": "ok",
@@ -18317,8 +18317,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "606097": {
   "_status": "ok",
@@ -18422,8 +18422,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "606102": {
   "_status": "ok",
@@ -18527,8 +18527,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "606107": {
   "_status": "ok",
@@ -18633,7 +18633,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "606112": {
   "_status": "ok",
@@ -18737,8 +18737,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-19"
  },
  "606117": {
   "_status": "ok",
@@ -18842,8 +18842,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "606122": {
   "_status": "ok",
@@ -18948,7 +18948,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "606127": {
   "_status": "ok",
@@ -19052,8 +19052,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "606132": {
   "_status": "ok",
@@ -19157,8 +19157,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "606137": {
   "_status": "ok",
@@ -19262,8 +19262,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-19"
  },
  "606142": {
   "_status": "ok",
@@ -19368,7 +19368,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "606147": {
   "_status": "ok",
@@ -19472,8 +19472,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "606152": {
   "_status": "ok",
@@ -19578,7 +19578,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "606157": {
   "_status": "ok",
@@ -19682,8 +19682,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "606162": {
   "_status": "ok",
@@ -19788,7 +19788,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "606167": {
   "_status": "ok",
@@ -19893,7 +19893,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "606172": {
   "_status": "ok",
@@ -19998,7 +19998,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "606177": {
   "_status": "ok",
@@ -20187,7 +20187,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "606920": {
   "_status": "ok",
@@ -20271,7 +20271,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706001": {
   "_status": "ok",
@@ -20292,7 +20292,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 44,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706002": {
   "_status": "ok",
@@ -20312,8 +20312,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 42,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 41,
+  "_stazeno": "2026-11-19"
  },
  "706003": {
   "_status": "ok",
@@ -20334,7 +20334,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 37,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706004": {
   "_status": "ok",
@@ -20355,7 +20355,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706005": {
   "_status": "ok",
@@ -20375,8 +20375,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-19"
  },
  "706006": {
   "_status": "ok",
@@ -20396,8 +20396,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 43,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 40,
+  "_stazeno": "2026-11-19"
  },
  "706007": {
   "_status": "ok",
@@ -20418,7 +20418,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 33,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706008": {
   "_status": "ok",
@@ -20438,8 +20438,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 28,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-19"
  },
  "706009": {
   "_status": "ok",
@@ -20459,8 +20459,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 43,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 41,
+  "_stazeno": "2026-11-19"
  },
  "706010": {
   "_status": "ok",
@@ -20480,8 +20480,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "706011": {
   "_status": "ok",
@@ -20502,7 +20502,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706012": {
   "_status": "ok",
@@ -20523,7 +20523,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706013": {
   "_status": "ok",
@@ -20543,8 +20543,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-19"
  },
  "706014": {
   "_status": "ok",
@@ -20564,8 +20564,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 33,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 32,
+  "_stazeno": "2026-11-19"
  },
  "706015": {
   "_status": "ok",
@@ -20586,7 +20586,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 28,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706016": {
   "_status": "ok",
@@ -20607,7 +20607,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706017": {
   "_status": "ok",
@@ -20627,8 +20627,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 52,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 53,
+  "_stazeno": "2026-11-19"
  },
  "706018": {
   "_status": "ok",
@@ -20649,7 +20649,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 35,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706019": {
   "_status": "ok",
@@ -20670,7 +20670,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706020": {
   "_status": "ok",
@@ -20691,7 +20691,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706021": {
   "_status": "ok",
@@ -20712,7 +20712,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 48,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706022": {
   "_status": "ok",
@@ -20733,7 +20733,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706023": {
   "_status": "ok",
@@ -20754,7 +20754,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706024": {
   "_status": "ok",
@@ -20774,8 +20774,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-19"
  },
  "706025": {
   "_status": "ok",
@@ -20795,8 +20795,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "706026": {
   "_status": "ok",
@@ -20816,8 +20816,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "706027": {
   "_status": "ok",
@@ -20837,8 +20837,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "706028": {
   "_status": "ok",
@@ -20858,8 +20858,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "706029": {
   "_status": "ok",
@@ -20880,7 +20880,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 38,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706030": {
   "_status": "ok",
@@ -20922,7 +20922,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706032": {
   "_status": "ok",
@@ -20964,7 +20964,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 35,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706034": {
   "_status": "ok",
@@ -21006,7 +21006,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706036": {
   "_status": "ok",
@@ -21047,8 +21047,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-19"
  },
  "706038": {
   "_status": "ok",
@@ -21089,8 +21089,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "706040": {
   "_status": "ok",
@@ -21131,8 +21131,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 54,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 58,
+  "_stazeno": "2026-11-19"
  },
  "706042": {
   "_status": "ok",
@@ -21174,7 +21174,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 33,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706044": {
   "_status": "ok",
@@ -21215,8 +21215,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "706046": {
   "_status": "ok",
@@ -21258,7 +21258,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706048": {
   "_status": "ok",
@@ -21299,8 +21299,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 36,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 37,
+  "_stazeno": "2026-11-19"
  },
  "706050": {
   "_status": "ok",
@@ -21341,8 +21341,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-19"
  },
  "706052": {
   "_status": "ok",
@@ -21384,7 +21384,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706054": {
   "_status": "ok",
@@ -21426,7 +21426,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706056": {
   "_status": "ok",
@@ -21467,8 +21467,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 30,
+  "_stazeno": "2026-11-19"
  },
  "706058": {
   "_status": "ok",
@@ -21509,8 +21509,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-19"
  },
  "706060": {
   "_status": "ok",
@@ -21551,8 +21551,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-19"
  },
  "706062": {
   "_status": "ok",
@@ -21594,7 +21594,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706064": {
   "_status": "ok",
@@ -21636,7 +21636,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 34,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706066": {
   "_status": "ok",
@@ -21677,8 +21677,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-19"
  },
  "706068": {
   "_status": "ok",
@@ -21719,8 +21719,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-19"
  },
  "706070": {
   "_status": "ok",
@@ -21762,7 +21762,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706072": {
   "_status": "ok",
@@ -21803,8 +21803,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-19"
  },
  "706074": {
   "_status": "ok",
@@ -21846,7 +21846,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706076": {
   "_status": "ok",
@@ -21888,7 +21888,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706078": {
   "_status": "ok",
@@ -21929,8 +21929,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "706080": {
   "_status": "ok",
@@ -21971,8 +21971,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 28,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-19"
  },
  "706082": {
   "_status": "ok",
@@ -22013,8 +22013,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "706084": {
   "_status": "ok",
@@ -22056,7 +22056,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706086": {
   "_status": "ok",
@@ -22098,7 +22098,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706088": {
   "_status": "ok",
@@ -22140,7 +22140,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706090": {
   "_status": "ok",
@@ -22181,8 +22181,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "706092": {
   "_status": "ok",
@@ -22287,7 +22287,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706097": {
   "_status": "ok",
@@ -22391,8 +22391,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "706102": {
   "_status": "ok",
@@ -22496,8 +22496,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 34,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 35,
+  "_stazeno": "2026-11-19"
  },
  "706107": {
   "_status": "ok",
@@ -22602,7 +22602,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 31,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706112": {
   "_status": "ok",
@@ -22707,7 +22707,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 28,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706117": {
   "_status": "ok",
@@ -22812,7 +22812,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706122": {
   "_status": "ok",
@@ -22917,7 +22917,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706127": {
   "_status": "ok",
@@ -23021,8 +23021,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-19"
  },
  "706132": {
   "_status": "ok",
@@ -23126,8 +23126,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-19"
  },
  "706137": {
   "_status": "ok",
@@ -23231,8 +23231,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 21,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-19"
  },
  "706142": {
   "_status": "ok",
@@ -23337,7 +23337,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706147": {
   "_status": "ok",
@@ -23441,8 +23441,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "706152": {
   "_status": "ok",
@@ -23546,8 +23546,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "706157": {
   "_status": "ok",
@@ -23652,7 +23652,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706162": {
   "_status": "ok",
@@ -23756,8 +23756,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 43,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 46,
+  "_stazeno": "2026-11-19"
  },
  "706167": {
   "_status": "ok",
@@ -23862,7 +23862,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706172": {
   "_status": "ok",
@@ -23967,7 +23967,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 34,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706177": {
   "_status": "ok",
@@ -24072,7 +24072,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706182": {
   "_status": "ok",
@@ -24177,7 +24177,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706187": {
   "_status": "ok",
@@ -24282,7 +24282,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 30,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706192": {
   "_status": "ok",
@@ -24387,7 +24387,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 31,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706197": {
   "_status": "ok",
@@ -24492,7 +24492,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706202": {
   "_status": "ok",
@@ -24596,8 +24596,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-19"
  },
  "706207": {
   "_status": "ok",
@@ -24693,8 +24693,8 @@
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "24",
-  "prezentace": "Pá do 17:00 hod.",
-  "el_prezence": "od 26.03.2027 09:00:00 do 26.03.2027 17:00:00",
+  "prezentace": "Čt do 18:00 hod.",
+  "el_prezence": "od 25.03.2027 10:00:00 do 25.03.2027 18:00:00",
   "kontakt": "Kunický Zdeněk",
   "mobil": "777 245 244",
   "email": "tenistisnov@seznam.cz",
@@ -24702,7 +24702,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706212": {
   "_status": "ok",
@@ -24807,7 +24807,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 28,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706217": {
   "_status": "ok",
@@ -24911,8 +24911,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "706700": {
   "_status": "ok",
@@ -24974,8 +24974,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "706830": {
   "_status": "ok",
@@ -25130,7 +25130,7 @@
   "nazev": "Halový oblastní přebor ročníku 2017",
   "kod": "706941",
   "datum": "28.-30. 11. 2026",
-  "poradatel_adresa": "jihomoravský (P - 900), ,",
+  "poradatel_adresa": "jihomoravský (P - 900), Novolíšeňská (adresa kurtů), BRNO-LÍŠEŇ",
   "dvorce_povrch": "2 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "16",
@@ -25142,8 +25142,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "706970": {
   "_status": "ok",
@@ -25185,7 +25185,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706972": {
   "_status": "ok",
@@ -25246,8 +25246,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 42,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 41,
+  "_stazeno": "2026-11-19"
  },
  "806001": {
   "_status": "ok",
@@ -25267,8 +25267,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 35,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 36,
+  "_stazeno": "2026-11-19"
  },
  "806002": {
   "_status": "ok",
@@ -25288,8 +25288,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-19"
  },
  "806003": {
   "_status": "ok",
@@ -25309,8 +25309,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 36,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 34,
+  "_stazeno": "2026-11-19"
  },
  "806004": {
   "_status": "ok",
@@ -25331,7 +25331,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806005": {
   "_status": "ok",
@@ -25351,8 +25351,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 36,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 37,
+  "_stazeno": "2026-11-19"
  },
  "806006": {
   "_status": "ok",
@@ -25373,7 +25373,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806007": {
   "_status": "ok",
@@ -25393,8 +25393,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 36,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 34,
+  "_stazeno": "2026-11-19"
  },
  "806008": {
   "_status": "ok",
@@ -25414,8 +25414,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 38,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 37,
+  "_stazeno": "2026-11-19"
  },
  "806009": {
   "_status": "ok",
@@ -25436,7 +25436,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 33,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806010": {
   "_status": "ok",
@@ -25456,8 +25456,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "806011": {
   "_status": "ok",
@@ -25478,7 +25478,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806012": {
   "_status": "ok",
@@ -25498,8 +25498,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "806013": {
   "_status": "ok",
@@ -25520,7 +25520,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806014": {
   "_status": "ok",
@@ -25541,7 +25541,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806015": {
   "_status": "ok",
@@ -25561,8 +25561,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 34,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 32,
+  "_stazeno": "2026-11-19"
  },
  "806016": {
   "_status": "ok",
@@ -25582,8 +25582,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 47,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 48,
+  "_stazeno": "2026-11-19"
  },
  "806017": {
   "_status": "ok",
@@ -25604,7 +25604,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 31,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806018": {
   "_status": "ok",
@@ -25625,7 +25625,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806019": {
   "_status": "ok",
@@ -25646,7 +25646,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806020": {
   "_status": "ok",
@@ -25666,8 +25666,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 77,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 79,
+  "_stazeno": "2026-11-19"
  },
  "806021": {
   "_status": "ok",
@@ -25688,7 +25688,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806022": {
   "_status": "ok",
@@ -25708,8 +25708,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "806023": {
   "_status": "ok",
@@ -25730,7 +25730,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 45,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806024": {
   "_status": "ok",
@@ -25750,8 +25750,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "806025": {
   "_status": "ok",
@@ -25772,7 +25772,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 34,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806026": {
   "_status": "ok",
@@ -25792,8 +25792,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 60,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 61,
+  "_stazeno": "2026-11-19"
  },
  "806027": {
   "_status": "ok",
@@ -25814,7 +25814,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806028": {
   "_status": "ok",
@@ -25834,8 +25834,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-19"
  },
  "806029": {
   "_status": "ok",
@@ -25856,7 +25856,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806030": {
   "_status": "ok",
@@ -25876,8 +25876,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 42,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 43,
+  "_stazeno": "2026-11-19"
  },
  "806031": {
   "_status": "ok",
@@ -25897,8 +25897,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 33,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 34,
+  "_stazeno": "2026-11-19"
  },
  "806032": {
   "_status": "ok",
@@ -25940,7 +25940,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806034": {
   "_status": "ok",
@@ -25981,8 +25981,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-19"
  },
  "806036": {
   "_status": "ok",
@@ -26023,8 +26023,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 43,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 44,
+  "_stazeno": "2026-11-19"
  },
  "806038": {
   "_status": "ok",
@@ -26065,8 +26065,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-19"
  },
  "806040": {
   "_status": "ok",
@@ -26108,7 +26108,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 28,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806042": {
   "_status": "ok",
@@ -26149,8 +26149,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 31,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-19"
  },
  "806044": {
   "_status": "ok",
@@ -26192,7 +26192,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806046": {
   "_status": "ok",
@@ -26233,8 +26233,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "806048": {
   "_status": "ok",
@@ -26275,8 +26275,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "806050": {
   "_status": "ok",
@@ -26317,8 +26317,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-19"
  },
  "806052": {
   "_status": "ok",
@@ -26359,8 +26359,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 28,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-19"
  },
  "806054": {
   "_status": "ok",
@@ -26402,7 +26402,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806056": {
   "_status": "ok",
@@ -26443,8 +26443,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "806058": {
   "_status": "ok",
@@ -26485,8 +26485,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "806060": {
   "_status": "ok",
@@ -26527,8 +26527,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 32,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 33,
+  "_stazeno": "2026-11-19"
  },
  "806062": {
   "_status": "ok",
@@ -26569,8 +26569,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "806064": {
   "_status": "ok",
@@ -26611,8 +26611,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "806066": {
   "_status": "ok",
@@ -26653,8 +26653,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "806068": {
   "_status": "ok",
@@ -26696,7 +26696,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806070": {
   "_status": "ok",
@@ -26737,8 +26737,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "806072": {
   "_status": "ok",
@@ -26779,8 +26779,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "806074": {
   "_status": "ok",
@@ -26822,7 +26822,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806076": {
   "_status": "ok",
@@ -26863,8 +26863,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "806078": {
   "_status": "ok",
@@ -26905,8 +26905,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "806080": {
   "_status": "ok",
@@ -26947,8 +26947,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 35,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 36,
+  "_stazeno": "2026-11-19"
  },
  "806082": {
   "_status": "ok",
@@ -26989,8 +26989,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 22,
+  "_stazeno": "2026-11-19"
  },
  "806084": {
   "_status": "ok",
@@ -27032,7 +27032,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 26,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806086": {
   "_status": "ok",
@@ -27073,8 +27073,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 19,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "806088": {
   "_status": "ok",
@@ -27116,7 +27116,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806090": {
   "_status": "ok",
@@ -27158,7 +27158,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806092": {
   "_status": "ok",
@@ -27200,7 +27200,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806094": {
   "_status": "ok",
@@ -27242,7 +27242,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806096": {
   "_status": "ok",
@@ -27367,8 +27367,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "806102": {
   "_status": "ok",
@@ -27472,8 +27472,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 43,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 46,
+  "_stazeno": "2026-11-19"
  },
  "806107": {
   "_status": "ok",
@@ -27577,8 +27577,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "806112": {
   "_status": "ok",
@@ -27683,7 +27683,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806117": {
   "_status": "ok",
@@ -27788,7 +27788,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806122": {
   "_status": "ok",
@@ -27892,8 +27892,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "806127": {
   "_status": "ok",
@@ -27997,8 +27997,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "806132": {
   "_status": "ok",
@@ -28103,7 +28103,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806137": {
   "_status": "ok",
@@ -28207,8 +28207,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-19"
  },
  "806142": {
   "_status": "ok",
@@ -28312,8 +28312,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 32,
+  "_stazeno": "2026-11-19"
  },
  "806147": {
   "_status": "ok",
@@ -28417,8 +28417,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "806152": {
   "_status": "ok",
@@ -28523,7 +28523,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806157": {
   "_status": "ok",
@@ -28627,8 +28627,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 20,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 21,
+  "_stazeno": "2026-11-19"
  },
  "806162": {
   "_status": "ok",
@@ -28732,8 +28732,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 39,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 41,
+  "_stazeno": "2026-11-19"
  },
  "806167": {
   "_status": "ok",
@@ -28837,8 +28837,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 24,
+  "_stazeno": "2026-11-19"
  },
  "806172": {
   "_status": "ok",
@@ -28942,8 +28942,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 34,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 35,
+  "_stazeno": "2026-11-19"
  },
  "806177": {
   "_status": "ok",
@@ -29047,8 +29047,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "806182": {
   "_status": "ok",
@@ -29152,8 +29152,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-19"
  },
  "806187": {
   "_status": "ok",
@@ -29258,7 +29258,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 21,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806192": {
   "_status": "ok",
@@ -29362,8 +29362,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "806197": {
   "_status": "ok",
@@ -29468,7 +29468,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 23,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806202": {
   "_status": "ok",
@@ -29572,8 +29572,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "806207": {
   "_status": "ok",
@@ -29678,7 +29678,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 21,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806212": {
   "_status": "ok",
@@ -29782,8 +29782,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 27,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 28,
+  "_stazeno": "2026-11-19"
  },
  "806217": {
   "_status": "ok",
@@ -29867,7 +29867,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806700": {
   "_status": "ok",
@@ -29930,7 +29930,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806830": {
   "_status": "ok",
@@ -30085,7 +30085,7 @@
   "nazev": "Halový oblastní přebor ročníku 2017",
   "kod": "806941",
   "datum": "28.-30. 11. 2026",
-  "poradatel_adresa": "jihomoravský (P - 900), ,",
+  "poradatel_adresa": "jihomoravský (P - 900), Novolíšeňská (adresa kurtů), BRNO-LÍŠEŇ",
   "dvorce_povrch": "2 • antuka",
   "mice": "tecnifibre",
   "pocet_ucastniku": "16",
@@ -30097,8 +30097,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 18,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "806970": {
   "_status": "ok",
@@ -30140,7 +30140,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806972": {
   "_status": "ok",
@@ -30182,7 +30182,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 17,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906001": {
   "_status": "ok",
@@ -30202,8 +30202,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "906002": {
   "_status": "ok",
@@ -30224,7 +30224,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906003": {
   "_status": "ok",
@@ -30245,7 +30245,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906004": {
   "_status": "ok",
@@ -30266,7 +30266,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906005": {
   "_status": "ok",
@@ -30287,7 +30287,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906006": {
   "_status": "ok",
@@ -30307,8 +30307,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "906007": {
   "_status": "ok",
@@ -30328,8 +30328,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "906008": {
   "_status": "ok",
@@ -30350,7 +30350,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906009": {
   "_status": "ok",
@@ -30371,7 +30371,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906010": {
   "_status": "ok",
@@ -30392,7 +30392,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906011": {
   "_status": "ok",
@@ -30413,7 +30413,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906012": {
   "_status": "ok",
@@ -30434,7 +30434,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906013": {
   "_status": "ok",
@@ -30454,8 +30454,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "906014": {
   "_status": "ok",
@@ -30469,14 +30469,14 @@
   "pocet_ucastniku": "24",
   "prezentace": "Pá do 18:00 hod.",
   "el_prezence": "od 04.12.2026 10:00:00 do 04.12.2026 18:00:00",
-  "kontakt": "Hlavoň Ondřej",
-  "mobil": "720310229",
-  "email": "ondrejhlavon@seznam.cz",
+  "kontakt": "Hanáková Denisa",
+  "mobil": "602943522",
+  "email": "skola@tenisparkluzanky.cz",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906015": {
   "_status": "ok",
@@ -30497,7 +30497,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906016": {
   "_status": "ok",
@@ -30518,7 +30518,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906017": {
   "_status": "ok",
@@ -30538,8 +30538,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "906018": {
   "_status": "ok",
@@ -30581,7 +30581,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906020": {
   "_status": "ok",
@@ -30623,7 +30623,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906022": {
   "_status": "ok",
@@ -30665,7 +30665,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906024": {
   "_status": "ok",
@@ -30706,8 +30706,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "906026": {
   "_status": "ok",
@@ -30749,7 +30749,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906028": {
   "_status": "ok",
@@ -30791,7 +30791,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906030": {
   "_status": "ok",
@@ -30833,7 +30833,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906032": {
   "_status": "ok",
@@ -30875,7 +30875,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906034": {
   "_status": "ok",
@@ -30917,7 +30917,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906036": {
   "_status": "ok",
@@ -30959,7 +30959,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906038": {
   "_status": "ok",
@@ -31001,7 +31001,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906040": {
   "_status": "ok",
@@ -31043,7 +31043,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906042": {
   "_status": "ok",
@@ -31084,8 +31084,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "906044": {
   "_status": "ok",
@@ -31127,7 +31127,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906046": {
   "_status": "ok",
@@ -31253,7 +31253,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906052": {
   "_status": "ok",
@@ -31358,7 +31358,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906057": {
   "_status": "ok",
@@ -31463,7 +31463,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906062": {
   "_status": "ok",
@@ -31568,7 +31568,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906067": {
   "_status": "ok",
@@ -31673,7 +31673,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906072": {
   "_status": "ok",
@@ -31778,7 +31778,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906077": {
   "_status": "ok",
@@ -31883,7 +31883,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906082": {
   "_status": "ok",
@@ -31988,7 +31988,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906087": {
   "_status": "ok",
@@ -32093,7 +32093,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906092": {
   "_status": "ok",
@@ -32198,7 +32198,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906097": {
   "_status": "ok",
@@ -32260,8 +32260,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 30,
+  "_stazeno": "2026-11-19"
  },
  "906501": {
   "_status": "ok",
@@ -32281,8 +32281,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-19"
  },
  "906502": {
   "_status": "ok",
@@ -32302,8 +32302,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 32,
+  "_stazeno": "2026-11-19"
  },
  "906503": {
   "_status": "ok",
@@ -32324,7 +32324,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906504": {
   "_status": "ok",
@@ -32345,7 +32345,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906505": {
   "_status": "ok",
@@ -32365,8 +32365,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "906506": {
   "_status": "ok",
@@ -32387,7 +32387,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906507": {
   "_status": "ok",
@@ -32407,8 +32407,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "906508": {
   "_status": "ok",
@@ -32428,8 +32428,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 26,
+  "_stazeno": "2026-11-19"
  },
  "906509": {
   "_status": "ok",
@@ -32450,7 +32450,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906510": {
   "_status": "ok",
@@ -32471,7 +32471,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906511": {
   "_status": "ok",
@@ -32492,7 +32492,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906512": {
   "_status": "ok",
@@ -32512,8 +32512,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "906513": {
   "_status": "ok",
@@ -32533,8 +32533,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 11,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "906514": {
   "_status": "ok",
@@ -32555,7 +32555,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906515": {
   "_status": "ok",
@@ -32575,8 +32575,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "906516": {
   "_status": "ok",
@@ -32597,7 +32597,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906517": {
   "_status": "ok",
@@ -32618,7 +32618,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906518": {
   "_status": "ok",
@@ -32638,8 +32638,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "906519": {
   "_status": "ok",
@@ -32660,7 +32660,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906520": {
   "_status": "ok",
@@ -32681,7 +32681,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906521": {
   "_status": "ok",
@@ -32702,7 +32702,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906522": {
   "_status": "ok",
@@ -32723,7 +32723,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906523": {
   "_status": "ok",
@@ -32743,8 +32743,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 42,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 43,
+  "_stazeno": "2026-11-19"
  },
  "906524": {
   "_status": "ok",
@@ -32765,7 +32765,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906525": {
   "_status": "ok",
@@ -32786,7 +32786,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 24,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906526": {
   "_status": "ok",
@@ -32807,7 +32807,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906527": {
   "_status": "ok",
@@ -32827,8 +32827,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 24,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "906528": {
   "_status": "ok",
@@ -32848,8 +32848,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 6,
+  "_stazeno": "2026-11-19"
  },
  "906529": {
   "_status": "ok",
@@ -32863,14 +32863,14 @@
   "pocet_ucastniku": "24",
   "prezentace": "Pá do 18:00 hod.",
   "el_prezence": "od 04.12.2026 10:00:00 do 04.12.2026 18:00:00",
-  "kontakt": "Hlavoň Ondřej",
-  "mobil": "720310229",
-  "email": "ondrejhlavon@seznam.cz",
+  "kontakt": "Juřena Michal",
+  "mobil": "604901221",
+  "email": "albert.jurena@gmail.com",
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 33,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906530": {
   "_status": "ok",
@@ -32891,7 +32891,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906531": {
   "_status": "ok",
@@ -32912,7 +32912,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906532": {
   "_status": "ok",
@@ -32953,8 +32953,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 17,
+  "_stazeno": "2026-11-19"
  },
  "906534": {
   "_status": "ok",
@@ -32996,7 +32996,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906536": {
   "_status": "ok",
@@ -33038,7 +33038,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906538": {
   "_status": "ok",
@@ -33080,7 +33080,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906540": {
   "_status": "ok",
@@ -33122,7 +33122,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906542": {
   "_status": "ok",
@@ -33163,8 +33163,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "906544": {
   "_status": "ok",
@@ -33206,7 +33206,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906546": {
   "_status": "ok",
@@ -33247,8 +33247,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-19"
  },
  "906548": {
   "_status": "ok",
@@ -33289,8 +33289,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 14,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "906550": {
   "_status": "ok",
@@ -33332,7 +33332,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906552": {
   "_status": "ok",
@@ -33373,8 +33373,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 19,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 20,
+  "_stazeno": "2026-11-19"
  },
  "906554": {
   "_status": "ok",
@@ -33416,7 +33416,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906556": {
   "_status": "ok",
@@ -33457,8 +33457,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "906558": {
   "_status": "ok",
@@ -33500,7 +33500,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906560": {
   "_status": "ok",
@@ -33542,7 +33542,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906562": {
   "_status": "ok",
@@ -33584,7 +33584,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906564": {
   "_status": "ok",
@@ -33626,7 +33626,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906566": {
   "_status": "ok",
@@ -33668,7 +33668,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906568": {
   "_status": "ok",
@@ -33710,7 +33710,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 13,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906570": {
   "_status": "ok",
@@ -33752,7 +33752,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 16,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906572": {
   "_status": "ok",
@@ -33794,7 +33794,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906574": {
   "_status": "ok",
@@ -33836,7 +33836,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906576": {
   "_status": "ok",
@@ -33878,7 +33878,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906578": {
   "_status": "ok",
@@ -33919,8 +33919,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "906580": {
   "_status": "ok",
@@ -33962,7 +33962,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906582": {
   "_status": "ok",
@@ -34004,7 +34004,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906584": {
   "_status": "ok",
@@ -34046,7 +34046,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906586": {
   "_status": "ok",
@@ -34088,7 +34088,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906588": {
   "_status": "ok",
@@ -34129,8 +34129,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 23,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "906590": {
   "_status": "ok",
@@ -34172,7 +34172,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906592": {
   "_status": "ok",
@@ -34214,7 +34214,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906594": {
   "_status": "ok",
@@ -34255,8 +34255,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 11,
+  "_stazeno": "2026-11-19"
  },
  "906596": {
   "_status": "ok",
@@ -34298,7 +34298,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906598": {
   "_status": "ok",
@@ -34339,8 +34339,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 12,
+  "_stazeno": "2026-11-19"
  },
  "906600": {
   "_status": "ok",
@@ -34382,7 +34382,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906602": {
   "_status": "ok",
@@ -34424,7 +34424,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 11,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906604": {
   "_status": "ok",
@@ -34466,7 +34466,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906606": {
   "_status": "ok",
@@ -34508,7 +34508,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906608": {
   "_status": "ok",
@@ -34550,7 +34550,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-16"
+  "_stazeno": "2026-11-19"
  },
  "906610": {
   "_status": "ok",
@@ -34592,7 +34592,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906612": {
   "_status": "ok",
@@ -34696,8 +34696,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 25,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 27,
+  "_stazeno": "2026-11-19"
  },
  "906617": {
   "_status": "ok",
@@ -34802,7 +34802,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906622": {
   "_status": "ok",
@@ -34907,7 +34907,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906627": {
   "_status": "ok",
@@ -35011,8 +35011,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "906632": {
   "_status": "ok",
@@ -35117,7 +35117,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906637": {
   "_status": "ok",
@@ -35221,8 +35221,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 12,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 13,
+  "_stazeno": "2026-11-19"
  },
  "906642": {
   "_status": "ok",
@@ -35326,8 +35326,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "906647": {
   "_status": "ok",
@@ -35432,7 +35432,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906652": {
   "_status": "ok",
@@ -35537,7 +35537,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906657": {
   "_status": "ok",
@@ -35642,7 +35642,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906662": {
   "_status": "ok",
@@ -35747,7 +35747,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906667": {
   "_status": "ok",
@@ -35852,7 +35852,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906672": {
   "_status": "ok",
@@ -35957,7 +35957,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906677": {
   "_status": "ok",
@@ -36061,8 +36061,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "906682": {
   "_status": "ok",
@@ -36167,7 +36167,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906687": {
   "_status": "ok",
@@ -36271,8 +36271,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "906692": {
   "_status": "ok",
@@ -36377,7 +36377,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906697": {
   "_status": "ok",
@@ -36482,7 +36482,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906702": {
   "_status": "ok",
@@ -36587,7 +36587,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906707": {
   "_status": "ok",
@@ -36692,7 +36692,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906712": {
   "_status": "ok",
@@ -36797,7 +36797,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906717": {
   "_status": "ok",
@@ -36900,8 +36900,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "906722": {
   "_status": "ok",
@@ -37006,7 +37006,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906727": {
   "_status": "ok",
@@ -37111,7 +37111,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 9,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906732": {
   "_status": "ok",
@@ -37215,8 +37215,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 5,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "906737": {
   "_status": "ok",
@@ -37321,7 +37321,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906742": {
   "_status": "ok",
@@ -37426,7 +37426,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906747": {
   "_status": "ok",
@@ -37531,7 +37531,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906752": {
   "_status": "ok",
@@ -37657,7 +37657,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "206081": {
   "_status": "ok",
@@ -37699,7 +37699,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "206083": {
   "_status": "ok",
@@ -37741,7 +37741,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "306173": {
   "_status": "ok",
@@ -37761,8 +37761,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "306174": {
   "_status": "ok",
@@ -37804,7 +37804,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306176": {
   "_status": "ok",
@@ -37930,7 +37930,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "306832": {
   "_status": "ok",
@@ -37972,7 +37972,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "406162": {
   "_status": "ok",
@@ -38013,8 +38013,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 16,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 19,
+  "_stazeno": "2026-11-19"
  },
  "406164": {
   "_status": "ok",
@@ -38055,8 +38055,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 8,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 9,
+  "_stazeno": "2026-11-19"
  },
  "406166": {
   "_status": "ok",
@@ -38097,8 +38097,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "406168": {
   "_status": "ok",
@@ -38182,7 +38182,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 7,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "406172": {
   "_status": "ok",
@@ -38265,8 +38265,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 30,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 29,
+  "_stazeno": "2026-11-19"
  },
  "506169": {
   "_status": "ok",
@@ -38286,8 +38286,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "506170": {
   "_status": "ok",
@@ -38328,8 +38328,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 17,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 18,
+  "_stazeno": "2026-11-19"
  },
  "506172": {
   "_status": "ok",
@@ -38433,8 +38433,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "606178": {
   "_status": "ok",
@@ -38454,8 +38454,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 29,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 32,
+  "_stazeno": "2026-11-19"
  },
  "606179": {
   "_status": "ok",
@@ -38476,7 +38476,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606180": {
   "_status": "ok",
@@ -38517,8 +38517,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 13,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 15,
+  "_stazeno": "2026-11-19"
  },
  "606182": {
   "_status": "ok",
@@ -38622,8 +38622,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "606187": {
   "_status": "ok",
@@ -38727,8 +38727,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 34,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 31,
+  "_stazeno": "2026-11-19"
  },
  "706222": {
   "_status": "ok",
@@ -38748,8 +38748,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 22,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 23,
+  "_stazeno": "2026-11-19"
  },
  "706223": {
   "_status": "ok",
@@ -38770,7 +38770,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706224": {
   "_status": "ok",
@@ -38811,8 +38811,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 15,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 16,
+  "_stazeno": "2026-11-19"
  },
  "706226": {
   "_status": "ok",
@@ -38832,8 +38832,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-19"
  },
  "706227": {
   "_status": "ok",
@@ -38938,7 +38938,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 8,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "706232": {
   "_status": "ok",
@@ -39021,8 +39021,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 26,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 25,
+  "_stazeno": "2026-11-19"
  },
  "806220": {
   "_status": "ok",
@@ -39043,7 +39043,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 15,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806221": {
   "_status": "ok",
@@ -39064,7 +39064,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 19,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806222": {
   "_status": "ok",
@@ -39106,7 +39106,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 10,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806224": {
   "_status": "ok",
@@ -39169,7 +39169,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "806227": {
   "_status": "ok",
@@ -39273,8 +39273,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 8,
+  "_stazeno": "2026-11-19"
  },
  "806232": {
   "_status": "ok",
@@ -39378,8 +39378,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-14"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "906099": {
   "_status": "ok",
@@ -39400,7 +39400,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906100": {
   "_status": "ok",
@@ -39442,7 +39442,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906102": {
   "_status": "ok",
@@ -39547,7 +39547,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906754": {
   "_status": "ok",
@@ -39568,7 +39568,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906755": {
   "_status": "ok",
@@ -39589,7 +39589,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "906756": {
   "_status": "ok",
@@ -39631,7 +39631,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906758": {
   "_status": "ok",
@@ -39715,7 +39715,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906762": {
   "_status": "ok",
@@ -39819,8 +39819,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 7,
+  "_stazeno": "2026-11-19"
  },
  "206084": {
   "_status": "ok",
@@ -39966,8 +39966,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "906107": {
   "_status": "ok",
@@ -40051,7 +40051,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "106149": {
   "_status": "ok",
@@ -40072,7 +40072,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106150": {
   "_status": "ok",
@@ -40114,7 +40114,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "106152": {
   "_status": "ok",
@@ -40261,7 +40261,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "306184": {
   "_status": "ok",
@@ -40449,8 +40449,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 4,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 5,
+  "_stazeno": "2026-11-19"
  },
  "606191": {
   "_status": "ok",
@@ -40470,8 +40470,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 3,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 4,
+  "_stazeno": "2026-11-19"
  },
  "606865": {
   "_status": "ok",
@@ -40492,7 +40492,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 5,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "706235": {
   "_status": "ok",
@@ -40513,7 +40513,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 12,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706236": {
   "_status": "ok",
@@ -40576,7 +40576,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806238": {
   "_status": "ok",
@@ -40596,8 +40596,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 9,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 10,
+  "_stazeno": "2026-11-19"
  },
  "806239": {
   "_status": "ok",
@@ -40618,7 +40618,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "_stazeno": "2026-11-19"
  },
  "806240": {
   "_status": "ok",
@@ -40680,8 +40680,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 6,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "906109": {
   "_status": "ok",
@@ -40702,7 +40702,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906110": {
   "_status": "ok",
@@ -40744,7 +40744,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 2,
-  "_stazeno": "2026-11-14"
+  "_stazeno": "2026-11-19"
  },
  "906112": {
   "_status": "ok",
@@ -40828,7 +40828,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "106156": {
   "_status": "ok",
@@ -40890,8 +40890,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 2,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "506180": {
   "_status": "ok",
@@ -41038,7 +41038,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "706238": {
   "_status": "ok",
@@ -41079,8 +41079,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-19"
  },
  "106158": {
   "_status": "ok",
@@ -41163,8 +41163,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "prihlaseno": 3,
+  "_stazeno": "2026-11-19"
  },
  "506182": {
   "_status": "ok",
@@ -41227,7 +41227,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "606194": {
   "_status": "ok",
@@ -41332,7 +41332,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "806242": {
   "_status": "ok",
@@ -41373,8 +41373,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 0,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 1,
+  "_stazeno": "2026-11-19"
  },
  "906115": {
   "_status": "ok",
@@ -41395,7 +41395,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906116": {
   "_status": "ok",
@@ -41416,7 +41416,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906769": {
   "_status": "ok",
@@ -41436,8 +41436,8 @@
   "rozhodci": "",
   "poznamka": "",
   "hraci_plany": true,
-  "prihlaseno": 1,
-  "_stazeno": "2026-11-18"
+  "prihlaseno": 2,
+  "_stazeno": "2026-11-19"
  },
  "906770": {
   "_status": "ok",
@@ -41479,7 +41479,7 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-17"
+  "_stazeno": "2026-11-19"
  },
  "906772": {
   "_status": "ok",

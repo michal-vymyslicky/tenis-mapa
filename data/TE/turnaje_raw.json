@@ -3302,6 +3302,22 @@
   "entry": false
  },
  {
+  "id": "B54C18ED-73D7-41F2-A729-BD19CD85A7B0",
+  "nz": "Braga Open Under 12 - 2027",
+  "venue": "Clube Ténis Braga",
+  "city": "Braga",
+  "country": "Portugal",
+  "iso3": "POR",
+  "od": "2027-03-22",
+  "do": "2027-03-27",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "13B8B5E6-7B03-409C-B227-DA59A3151B44",
   "nz": "Adriatic Cup",
   "venue": "Teniski klub Lošinj Jadranka",
@@ -3330,22 +3346,6 @@
   "tags": [
    "Category 2",
    "14&U"
-  ],
-  "entry": false
- },
- {
-  "id": "B54C18ED-73D7-41F2-A729-BD19CD85A7B0",
-  "nz": "Braga Open Under 12 - 2027",
-  "venue": "Clube Ténis Braga",
-  "city": "Braga",
-  "country": "Portugal",
-  "iso3": "POR",
-  "od": "2027-03-22",
-  "do": "2027-03-28",
-  "pov": "Clay",
-  "tags": [
-   "Category 2",
-   "12&U"
   ],
   "entry": false
  },
@@ -3446,22 +3446,6 @@
   "entry": false
  },
  {
-  "id": "5A66170F-0EC4-4D10-8646-B5C8E9247087",
-  "nz": "Racket Sports Slice Cup - 2027",
-  "venue": "Racket Sports Club Leiria",
-  "city": "Leiria",
-  "country": "Portugal",
-  "iso3": "POR",
-  "od": "2027-03-29",
-  "do": "2027-04-04",
-  "pov": "Clay",
-  "tags": [
-   "Category 2",
-   "12&U"
-  ],
-  "entry": false
- },
- {
   "id": "5CE491E0-1A0E-4528-9037-67A8EE06AB21",
   "nz": "Aizkraukle 04",
   "venue": "Vilar TK",
@@ -3506,22 +3490,6 @@
   "tags": [
    "Category 3",
    "14&U",
-   "16&U"
-  ],
-  "entry": false
- },
- {
-  "id": "7C144A1C-CEA8-4F2A-AF0D-17E18B099BFA",
-  "nz": "Equinocio 2027",
-  "venue": "Associaçao Academica Coimbra",
-  "city": "Coimbra",
-  "country": "Portugal",
-  "iso3": "POR",
-  "od": "2027-03-29",
-  "do": "2027-04-04",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 2",
    "16&U"
   ],
   "entry": false
@@ -3635,6 +3603,38 @@
   "tags": [
    "Category 2",
    "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "7C144A1C-CEA8-4F2A-AF0D-17E18B099BFA",
+  "nz": "Equinocio 2027",
+  "venue": "Associaçao Academica Coimbra",
+  "city": "Coimbra",
+  "country": "Portugal",
+  "iso3": "POR",
+  "od": "2027-03-30",
+  "do": "2027-04-04",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "5A66170F-0EC4-4D10-8646-B5C8E9247087",
+  "nz": "Racket Sports Slice Cup - 2027",
+  "venue": "Racket Sports Club Leiria",
+  "city": "Leiria",
+  "country": "Portugal",
+  "iso3": "POR",
+  "od": "2027-03-30",
+  "do": "2027-04-04",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
   ],
   "entry": false
  },

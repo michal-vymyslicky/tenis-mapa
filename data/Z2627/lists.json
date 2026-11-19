@@ -198,11 +198,11 @@
    "vklad": "500 Kč",
    "poradatel": "západočeský",
    "kod_m": "106880",
-   "obs_m": "*/*",
+   "obs_m": "8/8",
    "kod_z": "206880",
    "obs_z": "8/8",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 500 Kč západočeský */* 8/8"
+   "radek": "14.-16. 11. 2026 P 500 Kč západočeský 8/8 8/8"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -246,11 +246,11 @@
    "vklad": "800 Kč",
    "poradatel": "Praha",
    "kod_m": "106800",
-   "obs_m": "*/*",
+   "obs_m": "8/8",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-17. 11. 2026 P 800 Kč Praha */* -/-"
+   "radek": "14.-17. 11. 2026 P 800 Kč Praha 8/8 -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -306,11 +306,11 @@
    "vklad": "800 Kč",
    "poradatel": "východočeský",
    "kod_m": "106920",
-   "obs_m": "*/*",
+   "obs_m": "8/8",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 800 Kč východočeský */* -/-"
+   "radek": "14.-16. 11. 2026 P 800 Kč východočeský 8/8 -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -354,11 +354,11 @@
    "vklad": "600 Kč",
    "poradatel": "středočeský",
    "kod_m": "106830",
-   "obs_m": "*/*",
+   "obs_m": "8/8",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "14.-16. 11. 2026 P 600 Kč středočeský */* -/-"
+   "radek": "14.-16. 11. 2026 P 600 Kč středočeský 8/8 -/-"
   },
   {
    "datum": "14.-16. 11. 2026",
@@ -413,12 +413,12 @@
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "TK Horní Měcholupy",
-   "kod_m": "106026",
-   "obs_m": "-/-",
-   "kod_z": "206012",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 800 Kč TK Horní Měcholupy -/- -/-"
+   "radek": "21.-23. 11. 2026 C 800 Kč TK Horní Měcholupy ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -437,12 +437,12 @@
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-   "kod_m": "106029",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 800 Kč TJ Slavoj Tesla Hloubětín, z.s. -/- -/-"
+   "radek": "21.-23. 11. 2026 C 800 Kč TJ Slavoj Tesla Hloubětín, z.s. ZRUŠENO -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -523,10 +523,10 @@
    "poradatel": "Sokol Čimice",
    "kod_m": "",
    "obs_m": "-/-",
-   "kod_z": "206011",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 800 Kč Sokol Čimice -/- -/-"
+   "radek": "21.-22. 11. 2026 C 800 Kč Sokol Čimice -/- ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -607,22 +607,22 @@
    "poradatel": "Sportcentrum Hrušková z.s.",
    "kod_m": "106030",
    "obs_m": "-/-",
-   "kod_z": "206015",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 800 Kč Sportcentrum Hrušková z.s. -/- -/-"
+   "radek": "21.-23. 11. 2026 C 800 Kč Sportcentrum Hrušková z.s. -/- ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
    "trida": "C",
    "vklad": "900 Kč",
    "poradatel": "SLOVAN HRANICE, z.s.",
-   "kod_m": "106027",
-   "obs_m": "-/-",
-   "kod_z": "206013",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 900 Kč SLOVAN HRANICE, z.s. -/- -/-"
+   "radek": "21.-23. 11. 2026 C 900 Kč SLOVAN HRANICE, z.s. ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "28.-30. 11. 2026",
