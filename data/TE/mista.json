@@ -3557,5 +3557,59 @@
   "nazev_mista": "Sporting Club Sassuolo",
   "zeme": "it",
   "v2": 1
+ },
+ "CRO|hatk mladost|zagreb": {
+  "poradatel": "HATK Mladost",
+  "adresa": "Zagreb, Croatia",
+  "zdroj": "te",
+  "region": "Croatia",
+  "lat": 45.782158,
+  "lon": 15.946643,
+  "presnost": "areal",
+  "nazev_mista": "HATK Mladost",
+  "zeme": "hr",
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Hrvatski akademski teniski klub Mladost"
+ },
+ "GRE|ptolemaida tennis club|ptolemaida": {
+  "poradatel": "Ptolemaida Tennis Club",
+  "adresa": "Ptolemaida, Greece",
+  "zdroj": "te",
+  "region": "Greece",
+  "lat": 40.514614,
+  "lon": 21.681262,
+  "presnost": "obec",
+  "nazev_mista": "Ptolemaida Tennis Club",
+  "zeme": "gr",
+  "v2": 1,
+  "osm3": 1
+ },
+ "SRB|tk sloboda|cacak": {
+  "poradatel": "TK SLOBODA",
+  "adresa": "CACAK, Serbia",
+  "zdroj": "te",
+  "region": "Serbia",
+  "lat": 43.891433,
+  "lon": 20.349162,
+  "presnost": "obec",
+  "nazev_mista": "TK SLOBODA",
+  "zeme": "rs",
+  "v2": 1,
+  "osm3": 1
+ },
+ "GBR|craiglockhart tennis centre thistle ltc as second venue|edinburgh": {
+  "poradatel": "Craiglockhart Tennis Centre (Thistle LTC as second venue )",
+  "adresa": "Edinburgh, Great Britain",
+  "zdroj": "te",
+  "region": "Great Britain",
+  "lat": 55.921923,
+  "lon": -3.235422,
+  "presnost": "areal",
+  "nazev_mista": "Craiglockhart Tennis Centre (Thistle LTC as second venue )",
+  "zeme": "gb",
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Craiglockhart Tennis Centre"
  }
 }

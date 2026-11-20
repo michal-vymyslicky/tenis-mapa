@@ -2237,7 +2237,7 @@
   "iso3": "ROM",
   "od": "2026-12-07",
   "do": "2026-12-13",
-  "pov": "Acryllic",
+  "pov": "Clay",
   "tags": [
    "Category 3",
    "16&U"
@@ -4055,6 +4055,22 @@
   "entry": false
  },
  {
+  "id": "A7BDFC79-B53E-4400-B444-B511EBE1D423",
+  "nz": "Mladost Grill Open",
+  "venue": "HATK Mladost",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "iso3": "CRO",
+  "od": "2027-04-26",
+  "do": "2027-05-02",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "F4AF46C0-5899-4A3A-9EAB-4CBFA32B818B",
   "nz": "PROKUPLJE OPEN 2027",
   "venue": "TENNIS CLUB TOPLICANIN",
@@ -4618,6 +4634,22 @@
   "entry": false
  },
  {
+  "id": "A3092B83-FBD5-4547-8706-FB0D93359C82",
+  "nz": "Ptolemaida Juniors 2027",
+  "venue": "Ptolemaida Tennis Club",
+  "city": "Ptolemaida",
+  "country": "Greece",
+  "iso3": "GRE",
+  "od": "2027-05-24",
+  "do": "2027-05-30",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "86BF2B85-91DA-4650-9DDE-D0CCDC7934A0",
   "nz": "Slopak Celje Open U14",
   "venue": "Teniški klub Celje",
@@ -4746,6 +4778,22 @@
   "entry": false
  },
  {
+  "id": "89054841-A5DF-41D5-BE20-E23D965D50A4",
+  "nz": "CACAK OPEN 2027",
+  "venue": "TK SLOBODA",
+  "city": "CACAK",
+  "country": "Serbia",
+  "iso3": "SRB",
+  "od": "2027-05-31",
+  "do": "2027-06-06",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "63239FAB-A4B4-4E7A-929A-F05E683B2960",
   "nz": "Dijon TE 14&U - Les Petits Ducs",
   "venue": "Ligue BFC Tennis",
@@ -4771,6 +4819,22 @@
   "od": "2027-05-31",
   "do": "2027-06-06",
   "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "DA07537E-333C-4910-A905-C8E2CE3AD543",
+  "nz": "PORTIMÃO INTERNATIONAL TOURNAMENT U14 - 2027",
+  "venue": "CLUBE TÉNIS E PADEL DE PORTIMÃO",
+  "city": "Portimão",
+  "country": "Portugal",
+  "iso3": "POR",
+  "od": "2027-05-31",
+  "do": "2027-06-06",
+  "pov": "Concrete",
   "tags": [
    "Category 3",
    "14&U"
@@ -5247,6 +5311,22 @@
   "entry": false
  },
  {
+  "id": "222E8D81-54B5-4BBF-B315-51105AA15B21",
+  "nz": "Lexus Junior International Edinburgh",
+  "venue": "Craiglockhart Tennis Centre (Thistle LTC as second venue )",
+  "city": "Edinburgh",
+  "country": "Great Britain",
+  "iso3": "GBR",
+  "od": "2027-06-21",
+  "do": "2027-06-27",
+  "pov": "Artificial Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "C4E972C6-A5E4-43A2-BF0F-7C05B85B9CF9",
   "nz": "TE - 14 Ireland 4",
   "venue": "National Tennis Centre",
@@ -5434,6 +5514,22 @@
   "pov": "Clay",
   "tags": [
    "Category 3",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "F55F36E2-796A-4307-8C9D-E00A962A7395",
+  "nz": "U16 Tennis Space Tennis Academy Cup 2",
+  "venue": "Tennis Space",
+  "city": "Kaunas",
+  "country": "Lithuania",
+  "iso3": "LTU",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Artificial Clay",
+  "tags": [
+   "Category 2",
    "16&U"
   ],
   "entry": false
