@@ -3611,5 +3611,43 @@
   "v2": 1,
   "osm3": 1,
   "poznamka": "areál podle OpenStreetMap: Craiglockhart Tennis Centre"
+ },
+ "ROM|9 jumatate tennis club constanta|constanta": {
+  "poradatel": "9 Jumatate Tennis Club Constanta",
+  "adresa": "Constanta, Romania",
+  "zdroj": "te",
+  "region": "Romania",
+  "lat": 44.259802,
+  "lon": 28.617764,
+  "presnost": "areal",
+  "nazev_mista": "9 Jumatate Tennis Club Constanta",
+  "zeme": "",
+  "poznamka": "areál podle OpenStreetMap: Padel Club Constanța",
+  "v2": 1,
+  "osm3": 1
+ },
+ "CYP|famagusta tennis club|nicosia": {
+  "poradatel": "Famagusta Tennis Club",
+  "adresa": "Nicosia, Cyprus",
+  "zdroj": "te",
+  "region": "Cyprus",
+  "lat": 35.054295,
+  "lon": 33.942581,
+  "presnost": "areal",
+  "nazev_mista": "Famagusta Tennis Club",
+  "zeme": "cy",
+  "v2": 1
+ },
+ "GER|tus 1860 neunkirchen|neunkirchen": {
+  "poradatel": "TuS 1860 Neunkirchen",
+  "adresa": "Neunkirchen, Germany",
+  "zdroj": "te",
+  "region": "Germany",
+  "lat": 49.341234,
+  "lon": 7.186134,
+  "presnost": "areal",
+  "nazev_mista": "TuS 1860 Neunkirchen",
+  "zeme": "de",
+  "v2": 1
  }
 }

@@ -33299,5 +33299,19 @@
    "type": "recreation_ground",
    "addresstype": "recreation_ground"
   }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=9+Jumatate+Tennis+Club+Constanta%2C+Constanta": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=9+Jumatate+Tennis+Club+Constanta": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=cy&format=jsonv2&limit=1&q=Famagusta+Tennis+Club%2C+Nicosia": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=de&format=jsonv2&limit=1&q=TuS+1860+Neunkirchen%2C+Neunkirchen": [
+  {
+   "name": "TuS 1860 Neunkirchen",
+   "display_name": "TuS 1860 Neunkirchen, 30, Haspelstraße, Neunkirchen, Landkreis Neunkirchen, Země Sársko, 66538, Německo",
+   "lat": "49.3412335",
+   "lon": "7.1861344",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
  ]
 }

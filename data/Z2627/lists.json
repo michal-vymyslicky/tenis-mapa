@@ -450,11 +450,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenis Cibulka",
    "kod_m": "106021",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 D 800 Kč Tenis Cibulka -/- -/-"
+   "radek": "21.-23. 11. 2026 D 800 Kč Tenis Cibulka */- -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -498,11 +498,11 @@
    "vklad": "800 Kč",
    "poradatel": "SK HIT Hradec Králové z.s.",
    "kod_m": "106017",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 800 Kč SK HIT Hradec Králové z.s. -/- -/-"
+   "radek": "21.-22. 11. 2026 C 800 Kč SK HIT Hradec Králové z.s. */- -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -606,11 +606,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sportcentrum Hrušková z.s.",
    "kod_m": "106030",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 800 Kč Sportcentrum Hrušková z.s. */- ZRUŠENO"
+   "radek": "21.-23. 11. 2026 C 800 Kč Sportcentrum Hrušková z.s. */* ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
