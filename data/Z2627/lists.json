@@ -426,11 +426,11 @@
    "vklad": "900 Kč",
    "poradatel": "SK Tenis Tišnov",
    "kod_m": "106016",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "206008",
-   "obs_z": "*/-",
+   "obs_z": "*/*",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 900 Kč SK Tenis Tišnov */- */-"
+   "radek": "21.-23. 11. 2026 C 900 Kč SK Tenis Tišnov */* */*"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -450,11 +450,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenis Cibulka",
    "kod_m": "106021",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 D 800 Kč Tenis Cibulka */- -/-"
+   "radek": "21.-23. 11. 2026 D 800 Kč Tenis Cibulka */* -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -462,11 +462,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sokol Smíchov I.",
    "kod_m": "106019",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 800 Kč Sokol Smíchov I. */- -/-"
+   "radek": "21.-23. 11. 2026 C 800 Kč Sokol Smíchov I. */* -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -474,11 +474,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK Mnichovo Hradiště",
    "kod_m": "106148",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 700 Kč TK Mnichovo Hradiště */- -/-"
+   "radek": "21.-22. 11. 2026 C 700 Kč TK Mnichovo Hradiště */* -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -486,11 +486,11 @@
    "vklad": "900 Kč",
    "poradatel": "Tenis Club Mokropsy",
    "kod_m": "106022",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "206010",
-   "obs_z": "*/-",
+   "obs_z": "*/*",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 900 Kč Tenis Club Mokropsy */- */-"
+   "radek": "21.-22. 11. 2026 C 900 Kč Tenis Club Mokropsy */* */*"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -498,11 +498,11 @@
    "vklad": "800 Kč",
    "poradatel": "SK HIT Hradec Králové z.s.",
    "kod_m": "106017",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 800 Kč SK HIT Hradec Králové z.s. */- -/-"
+   "radek": "21.-22. 11. 2026 C 800 Kč SK HIT Hradec Králové z.s. */* -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -510,11 +510,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sokol Čimice",
    "kod_m": "106025",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 800 Kč Sokol Čimice */- -/-"
+   "radek": "21.-22. 11. 2026 C 800 Kč Sokol Čimice */* -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -536,9 +536,9 @@
    "kod_m": "",
    "obs_m": "ZRUŠENO",
    "kod_z": "206014",
-   "obs_z": "*/-",
+   "obs_z": "*/*",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 900 Kč Tempo Praha ZRUŠENO */-"
+   "radek": "21.-23. 11. 2026 C 900 Kč Tempo Praha ZRUŠENO */*"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -546,11 +546,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Chomutov",
    "kod_m": "106023",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 800 Kč TK Chomutov */- -/-"
+   "radek": "21.-22. 11. 2026 C 800 Kč TK Chomutov */* -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -558,11 +558,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "106020",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. */- -/-"
+   "radek": "21.-23. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. */* -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -570,11 +570,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sportovní klub LTC Modřany 2005 z.s.",
    "kod_m": "106018",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 D 800 Kč Sportovní klub LTC Modřany 2005 z.s. */- ZRUŠENO"
+   "radek": "21.-23. 11. 2026 D 800 Kč Sportovní klub LTC Modřany 2005 z.s. */* ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -582,11 +582,11 @@
    "vklad": "900 Kč",
    "poradatel": "TA L&N Zlín-Mladcová,z.s.",
    "kod_m": "106024",
-   "obs_m": "*/-",
+   "obs_m": "*/*",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 900 Kč TA L&N Zlín-Mladcová,z.s. */- -/-"
+   "radek": "21.-23. 11. 2026 C 900 Kč TA L&N Zlín-Mladcová,z.s. */* -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -641,12 +641,12 @@
    "trida": "C",
    "vklad": "900 Kč",
    "poradatel": "TK Třebíč",
-   "kod_m": "106036",
-   "obs_m": "-/-",
-   "kod_z": "206082",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 900 Kč TK Třebíč -/- -/-"
+   "radek": "28.-30. 11. 2026 C 900 Kč TK Třebíč ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "28.-30. 11. 2026",

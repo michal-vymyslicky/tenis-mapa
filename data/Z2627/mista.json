@@ -2103,6 +2103,19 @@
   "osm_vzdalenost_km": 0.06,
   "geokod": "RÚIAN: Voříškova 864/59, Kohoutovice, 62300 Brno"
  },
+ "klub:tk trebic": {
+  "klic": "klub:tk trebic",
+  "poradatel": "TK Třebíč",
+  "adresa": "Na Příkopech 122/45, Třebíč",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.226496,
+  "lon": 15.867712,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "RÚIAN: Na Příkopech 122/45, Týn, 67401 Třebíč"
+ },
  "klub:tk trebic|na prikopech 122 45 trebic": {
   "klic": "klub:tk trebic|na prikopech 122 45 trebic",
   "poradatel": "TK Třebíč",

@@ -1972,6 +1972,22 @@
   "entry": false
  },
  {
+  "id": "809ACCA0-07CC-4D36-8BBB-4DAA6F2A872B",
+  "nz": "ATDSK CUP",
+  "venue": "ADANA TENİS DAG VE SU SPORLARI KULUBU",
+  "city": "ADANA",
+  "country": "Turkiye",
+  "iso3": "TUR",
+  "od": "2026-11-14",
+  "do": "2026-11-21",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "E73A01FD-BE25-412C-95E9-36F166BC6029",
   "nz": "Bad Waltersdorf Trophy U12 Indoor",
   "venue": "Sportaktivpark Bad Waltersdorf",
@@ -1984,22 +2000,6 @@
   "tags": [
    "Category 2",
    "12&U"
-  ],
-  "entry": false
- },
- {
-  "id": "809ACCA0-07CC-4D36-8BBB-4DAA6F2A872B",
-  "nz": "ATDSK CUP",
-  "venue": "ADANA TENİS DAG VE SU SPORLARI KULUBU",
-  "city": "ADANA",
-  "country": "Turkiye",
-  "iso3": "TUR",
-  "od": "2026-11-14",
-  "do": "2026-11-22",
-  "pov": "Acryllic",
-  "tags": [
-   "Category 3",
-   "14&U"
   ],
   "entry": false
  },
