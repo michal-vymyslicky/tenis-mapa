@@ -5903,10 +5903,10 @@
    "poradatel": "TK Severní Terasa",
    "kod_m": "506906",
    "obs_m": "-/-",
-   "kod_z": "606906",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-29. 11. 2026 P 800 Kč TK Severní Terasa -/- -/-"
+   "radek": "28.-29. 11. 2026 P 800 Kč TK Severní Terasa -/- ZRUŠENO"
   },
   {
    "datum": "28. 11.-1. 12. 2026",
