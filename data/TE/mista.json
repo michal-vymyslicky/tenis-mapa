@@ -3649,5 +3649,19 @@
   "nazev_mista": "TuS 1860 Neunkirchen",
   "zeme": "de",
   "v2": 1
+ },
+ "ESP|real club de tenis aviles|aviles": {
+  "poradatel": "REAL CLUB DE TENIS AVILES",
+  "adresa": "Avilés, Spain",
+  "zdroj": "te",
+  "region": "Spain",
+  "lat": 43.568141,
+  "lon": -5.939821,
+  "presnost": "areal",
+  "nazev_mista": "REAL CLUB DE TENIS AVILES",
+  "zeme": "es",
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Real Club de Tenis de Avilés"
  }
 }

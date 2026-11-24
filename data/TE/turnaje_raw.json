@@ -4071,6 +4071,22 @@
   "entry": false
  },
  {
+  "id": "36AAE0A6-B924-44AE-A463-8D69F2DB2E2C",
+  "nz": "O pohar mesta Rakovnik U14",
+  "venue": "SK Talent 13",
+  "city": "Rakovnik",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-04-26",
+  "do": "2027-05-02",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "F4AF46C0-5899-4A3A-9EAB-4CBFA32B818B",
   "nz": "PROKUPLJE OPEN 2027",
   "venue": "TENNIS CLUB TOPLICANIN",
@@ -5439,6 +5455,22 @@
   "entry": false
  },
  {
+  "id": "138C6B56-0478-4A81-B7CA-A62A49A19DD4",
+  "nz": "Apple Bowl",
+  "venue": "REAL CLUB DE TENIS AVILES",
+  "city": "Avilés",
+  "country": "Spain",
+  "iso3": "ESP",
+  "od": "2027-06-28",
+  "do": "2027-07-04",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "16&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "ABF4FC13-2418-4684-8B58-592159E82247",
   "nz": "BATD Cup U16 Waterloo Tennis",
   "venue": "Waterloo Tennis",
@@ -5611,6 +5643,22 @@
   "tags": [
    "Category 3",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "AD98ED64-E74C-432E-B3DB-E383E8A6628D",
+  "nz": "Jablonec Cup U16",
+  "venue": "CLTK Bizuterie Jablonec nad Nisou",
+  "city": "Jablonec nad Nisou",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-07-05",
+  "do": "2027-07-11",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "16&U"
   ],
   "entry": false
  },

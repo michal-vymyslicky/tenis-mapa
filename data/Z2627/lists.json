@@ -450,11 +450,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenis Cibulka",
    "kod_m": "106021",
-   "obs_m": "*/*",
+   "obs_m": "2/2",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 D 800 Kč Tenis Cibulka */* -/-"
+   "radek": "21.-23. 11. 2026 D 800 Kč Tenis Cibulka 2/2 -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -462,11 +462,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sokol Smíchov I.",
    "kod_m": "106019",
-   "obs_m": "*/*",
+   "obs_m": "5/4",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 800 Kč Sokol Smíchov I. */* -/-"
+   "radek": "21.-23. 11. 2026 C 800 Kč Sokol Smíchov I. 5/4 -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -474,11 +474,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK Mnichovo Hradiště",
    "kod_m": "106148",
-   "obs_m": "*/*",
+   "obs_m": "4/4",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 700 Kč TK Mnichovo Hradiště */* -/-"
+   "radek": "21.-22. 11. 2026 C 700 Kč TK Mnichovo Hradiště 4/4 -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -486,11 +486,11 @@
    "vklad": "900 Kč",
    "poradatel": "Tenis Club Mokropsy",
    "kod_m": "106022",
-   "obs_m": "*/*",
+   "obs_m": "4/4",
    "kod_z": "206010",
-   "obs_z": "*/*",
+   "obs_z": "5/3",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 900 Kč Tenis Club Mokropsy */* */*"
+   "radek": "21.-22. 11. 2026 C 900 Kč Tenis Club Mokropsy 4/4 5/3"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -498,11 +498,11 @@
    "vklad": "800 Kč",
    "poradatel": "SK HIT Hradec Králové z.s.",
    "kod_m": "106017",
-   "obs_m": "*/*",
+   "obs_m": "4/3",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 800 Kč SK HIT Hradec Králové z.s. */* -/-"
+   "radek": "21.-22. 11. 2026 C 800 Kč SK HIT Hradec Králové z.s. 4/3 -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -510,11 +510,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sokol Čimice",
    "kod_m": "106025",
-   "obs_m": "*/*",
+   "obs_m": "3/3",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 800 Kč Sokol Čimice */* -/-"
+   "radek": "21.-22. 11. 2026 C 800 Kč Sokol Čimice 3/3 -/-"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -536,9 +536,9 @@
    "kod_m": "",
    "obs_m": "ZRUŠENO",
    "kod_z": "206014",
-   "obs_z": "*/*",
+   "obs_z": "5/5",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 900 Kč Tempo Praha ZRUŠENO */*"
+   "radek": "21.-23. 11. 2026 C 900 Kč Tempo Praha ZRUŠENO 5/5"
   },
   {
    "datum": "21.-22. 11. 2026",
@@ -546,11 +546,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Chomutov",
    "kod_m": "106023",
-   "obs_m": "*/*",
+   "obs_m": "4/4",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-22. 11. 2026 C 800 Kč TK Chomutov */* -/-"
+   "radek": "21.-22. 11. 2026 C 800 Kč TK Chomutov 4/4 -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -570,11 +570,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sportovní klub LTC Modřany 2005 z.s.",
    "kod_m": "106018",
-   "obs_m": "*/*",
+   "obs_m": "2/2",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 D 800 Kč Sportovní klub LTC Modřany 2005 z.s. */* ZRUŠENO"
+   "radek": "21.-23. 11. 2026 D 800 Kč Sportovní klub LTC Modřany 2005 z.s. 2/2 ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -582,11 +582,11 @@
    "vklad": "900 Kč",
    "poradatel": "TA L&N Zlín-Mladcová,z.s.",
    "kod_m": "106024",
-   "obs_m": "*/*",
+   "obs_m": "4/3",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 900 Kč TA L&N Zlín-Mladcová,z.s. */* -/-"
+   "radek": "21.-23. 11. 2026 C 900 Kč TA L&N Zlín-Mladcová,z.s. 4/3 -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -606,11 +606,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sportcentrum Hrušková z.s.",
    "kod_m": "106030",
-   "obs_m": "*/*",
+   "obs_m": "3/3",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 800 Kč Sportcentrum Hrušková z.s. */* ZRUŠENO"
+   "radek": "21.-23. 11. 2026 C 800 Kč Sportcentrum Hrušková z.s. 3/3 ZRUŠENO"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -5807,10 +5807,10 @@
    "poradatel": "SK OAZA Praha",
    "kod_m": "506004",
    "obs_m": "-/-",
-   "kod_z": "606004",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-29. 11. 2026 E 600 Kč SK OAZA Praha -/- -/-"
+   "radek": "28.-29. 11. 2026 E 600 Kč SK OAZA Praha -/- ZRUŠENO"
   },
   {
    "datum": "28. 11.-1. 12. 2026",

@@ -33313,5 +33313,19 @@
    "type": "sports_centre",
    "addresstype": "leisure"
   }
- ]
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=REAL+CLUB+DE+TENIS+AVILES%2C+Avil%C3%A9s": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=REAL+CLUB+DE+TENIS+AVILES": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Avil%C3%A9s": [
+  {
+   "name": "Avilés",
+   "display_name": "Avilés, Asturie, Španělsko",
+   "lat": "43.5555299",
+   "lon": "-5.9222186",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Avil%C3%A9s": []
 }
