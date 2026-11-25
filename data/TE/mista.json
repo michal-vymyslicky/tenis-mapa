@@ -3663,5 +3663,57 @@
   "v2": 1,
   "osm3": 1,
   "poznamka": "areál podle OpenStreetMap: Real Club de Tenis de Avilés"
+ },
+ "SVK|tk zilina|zilina": {
+  "poradatel": "TK Zilina",
+  "adresa": "Zilina, Slovakia",
+  "zdroj": "te",
+  "region": "Slovakia",
+  "lat": 49.054605,
+  "lon": 18.925036,
+  "presnost": "areal",
+  "nazev_mista": "TK Zilina",
+  "zeme": "sk",
+  "v2": 1
+ },
+ "ESP|emilio sanchez academy|el prat de llobregat barcelona": {
+  "poradatel": "Emilio Sanchez Academy",
+  "adresa": "El Prat de Llobregat, Spain",
+  "zdroj": "te",
+  "region": "Spain",
+  "lat": 41.314468,
+  "lon": 2.064064,
+  "presnost": "areal",
+  "nazev_mista": "Emilio Sanchez Academy",
+  "zeme": "es",
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Academia Tenis Sanchez-Casal"
+ },
+ "SRB|teniska akademija tipsarevic|beograd": {
+  "poradatel": "TENISKA AKADEMIJA TIPSAREVIĆ",
+  "adresa": "BEOGRAD, Serbia",
+  "zdroj": "te",
+  "region": "Serbia",
+  "lat": 44.794027,
+  "lon": 20.508511,
+  "presnost": "areal",
+  "nazev_mista": "TENISKA AKADEMIJA TIPSAREVIĆ",
+  "zeme": "rs",
+  "v2": 1
+ },
+ "LUX|tennis club grevenmacher|grevenmacher": {
+  "poradatel": "Tennis Club Grevenmacher",
+  "adresa": "Grevenmacher, Luxembourg",
+  "zdroj": "te",
+  "region": "Luxembourg",
+  "lat": 49.668129,
+  "lon": 6.428801,
+  "presnost": "areal",
+  "nazev_mista": "Tennis Club Grevenmacher",
+  "zeme": "lu",
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Ski Nautique Grevenmacher"
  }
 }

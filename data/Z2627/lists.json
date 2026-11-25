@@ -426,11 +426,11 @@
    "vklad": "900 Kč",
    "poradatel": "SK Tenis Tišnov",
    "kod_m": "106016",
-   "obs_m": "*/*",
+   "obs_m": "4/4",
    "kod_z": "206008",
-   "obs_z": "*/*",
+   "obs_z": "4/4",
    "mix": false,
-   "radek": "21.-23. 11. 2026 C 900 Kč SK Tenis Tišnov */* */*"
+   "radek": "21.-23. 11. 2026 C 900 Kč SK Tenis Tišnov 4/4 4/4"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -558,11 +558,11 @@
    "vklad": "700 Kč",
    "poradatel": "TK DOMYNO P4, z.s.",
    "kod_m": "106020",
-   "obs_m": "*/*",
+   "obs_m": "2/2",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "21.-23. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. */* -/-"
+   "radek": "21.-23. 11. 2026 D 700 Kč TK DOMYNO P4, z.s. 2/2 -/-"
   },
   {
    "datum": "21.-23. 11. 2026",
@@ -13739,14 +13739,14 @@
   {
    "datum": "5. 12. 2026",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TC-MJ TENIS Líšeň",
    "kod_m": "906520",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "5. 12. 2026 600 Kč TC-MJ TENIS Líšeň -/-"
+   "radek": "5. 12. 2026 500 Kč TC-MJ TENIS Líšeň -/-"
   },
   {
    "datum": "5. 12. 2026",
@@ -13907,14 +13907,14 @@
   {
    "datum": "12.-14. 12. 2026",
    "trida": "",
-   "vklad": "800 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TK TILIA Brno",
    "kod_m": "906531",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "12.-14. 12. 2026 800 Kč TK TILIA Brno -/-"
+   "radek": "12.-14. 12. 2026 500 Kč TK TILIA Brno -/-"
   },
   {
    "datum": "12. 12. 2026",
@@ -14531,14 +14531,14 @@
   {
    "datum": "16. 1. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TO Sokol Nehvizdy",
    "kod_m": "906602",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "16. 1. 2027 600 Kč TO Sokol Nehvizdy -/-"
+   "radek": "16. 1. 2027 500 Kč TO Sokol Nehvizdy -/-"
   },
   {
    "datum": "16. 1. 2027",
@@ -14663,14 +14663,14 @@
   {
    "datum": "23. 1. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "ŽLTC Brno",
    "kod_m": "906613",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "23. 1. 2027 600 Kč ŽLTC Brno -/-"
+   "radek": "23. 1. 2027 500 Kč ŽLTC Brno -/-"
   },
   {
    "datum": "23. 1. 2027",
@@ -14687,14 +14687,14 @@
   {
    "datum": "23. 1. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TK Třebíč",
    "kod_m": "906611",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "23. 1. 2027 600 Kč TK Třebíč -/-"
+   "radek": "23. 1. 2027 500 Kč TK Třebíč -/-"
   },
   {
    "datum": "23. 1. 2027",
@@ -14747,14 +14747,14 @@
   {
    "datum": "23. 1. 2027",
    "trida": "",
-   "vklad": "700 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TJ Start Ostrava - Poruba, z.s.",
    "kod_m": "906615",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "23. 1. 2027 700 Kč TJ Start Ostrava - Poruba, z.s. -/-"
+   "radek": "23. 1. 2027 500 Kč TJ Start Ostrava - Poruba, z.s. -/-"
   },
   {
    "datum": "23. 1. 2027",
@@ -14783,14 +14783,14 @@
   {
    "datum": "24. 1. 2027",
    "trida": "",
-   "vklad": "800 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TK SPORTCENTRUM Mladá Boleslav",
    "kod_m": "906626",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "24. 1. 2027 800 Kč TK SPORTCENTRUM Mladá Boleslav -/-"
+   "radek": "24. 1. 2027 500 Kč TK SPORTCENTRUM Mladá Boleslav -/-"
   },
   {
    "datum": "24. 1. 2027",
@@ -14807,14 +14807,14 @@
   {
    "datum": "24. 1. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "ŽLTC Brno",
    "kod_m": "906623",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "24. 1. 2027 600 Kč ŽLTC Brno -/-"
+   "radek": "24. 1. 2027 500 Kč ŽLTC Brno -/-"
   },
   {
    "datum": "24. 1. 2027",
@@ -14831,14 +14831,14 @@
   {
    "datum": "24. 1. 2027",
    "trida": "",
-   "vklad": "700 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TJ Start Ostrava - Poruba, z.s.",
    "kod_m": "906624",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "24. 1. 2027 700 Kč TJ Start Ostrava - Poruba, z.s. -/-"
+   "radek": "24. 1. 2027 500 Kč TJ Start Ostrava - Poruba, z.s. -/-"
   },
   {
    "datum": "24. 1. 2027",
@@ -14915,26 +14915,26 @@
   {
    "datum": "31. 1. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TC-MJ TENIS Líšeň",
    "kod_m": "906633",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "31. 1. 2027 600 Kč TC-MJ TENIS Líšeň -/-"
+   "radek": "31. 1. 2027 500 Kč TC-MJ TENIS Líšeň -/-"
   },
   {
    "datum": "31. 1. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TK PRECHEZA Přerov o.s.",
    "kod_m": "906634",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "31. 1. 2027 600 Kč TK PRECHEZA Přerov o.s. -/-"
+   "radek": "31. 1. 2027 500 Kč TK PRECHEZA Přerov o.s. -/-"
   },
   {
    "datum": "6.-7. 2. 2027",
@@ -15143,14 +15143,14 @@
   {
    "datum": "13. 2. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TC-MJ TENIS Líšeň",
    "kod_m": "906652",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "13. 2. 2027 600 Kč TC-MJ TENIS Líšeň -/-"
+   "radek": "13. 2. 2027 500 Kč TC-MJ TENIS Líšeň -/-"
   },
   {
    "datum": "13. 2. 2027",
@@ -15347,14 +15347,14 @@
   {
    "datum": "20. 2. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TK Severní Terasa",
    "kod_m": "906668",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "20. 2. 2027 600 Kč TK Severní Terasa -/-"
+   "radek": "20. 2. 2027 500 Kč TK Severní Terasa -/-"
   },
   {
    "datum": "20. 2. 2027",
@@ -15443,14 +15443,14 @@
   {
    "datum": "21. 2. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TO Sokol Nehvizdy",
    "kod_m": "906683",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "21. 2. 2027 600 Kč TO Sokol Nehvizdy -/-"
+   "radek": "21. 2. 2027 500 Kč TO Sokol Nehvizdy -/-"
   },
   {
    "datum": "21. 2. 2027",
@@ -15527,14 +15527,14 @@
   {
    "datum": "27. 2.-1. 3. 2027",
    "trida": "",
-   "vklad": "700 Kč",
+   "vklad": "500 Kč",
    "poradatel": "Kelly Tennis Academy z.s.",
    "kod_m": "906689",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "27. 2.-1. 3. 2027 700 Kč Kelly Tennis Academy z.s. -/-"
+   "radek": "27. 2.-1. 3. 2027 500 Kč Kelly Tennis Academy z.s. -/-"
   },
   {
    "datum": "27. 2. 2027",
@@ -15611,26 +15611,26 @@
   {
    "datum": "6. 3. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TC-MJ TENIS Líšeň",
    "kod_m": "906697",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "6. 3. 2027 600 Kč TC-MJ TENIS Líšeň -/-"
+   "radek": "6. 3. 2027 500 Kč TC-MJ TENIS Líšeň -/-"
   },
   {
    "datum": "6. 3. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TK Třebíč",
    "kod_m": "906695",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "6. 3. 2027 600 Kč TK Třebíč -/-"
+   "radek": "6. 3. 2027 500 Kč TK Třebíč -/-"
   },
   {
    "datum": "6. 3. 2027",
@@ -15743,14 +15743,14 @@
   {
    "datum": "13. 3. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "ŽLTC Brno",
    "kod_m": "906707",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "13. 3. 2027 600 Kč ŽLTC Brno -/-"
+   "radek": "13. 3. 2027 500 Kč ŽLTC Brno -/-"
   },
   {
    "datum": "13. 3. 2027",
@@ -15767,14 +15767,14 @@
   {
    "datum": "13. 3. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TK Severní Terasa",
    "kod_m": "906714",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "13. 3. 2027 600 Kč TK Severní Terasa -/-"
+   "radek": "13. 3. 2027 500 Kč TK Severní Terasa -/-"
   },
   {
    "datum": "13. 3. 2027",
@@ -15815,14 +15815,14 @@
   {
    "datum": "13. 3. 2027",
    "trida": "",
-   "vklad": "700 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TJ Start Ostrava - Poruba, z.s.",
    "kod_m": "906709",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "13. 3. 2027 700 Kč TJ Start Ostrava - Poruba, z.s. -/-"
+   "radek": "13. 3. 2027 500 Kč TJ Start Ostrava - Poruba, z.s. -/-"
   },
   {
    "datum": "13.-14. 3. 2027",
@@ -15851,14 +15851,14 @@
   {
    "datum": "14. 3. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "ŽLTC Brno",
    "kod_m": "906719",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "14. 3. 2027 600 Kč ŽLTC Brno -/-"
+   "radek": "14. 3. 2027 500 Kč ŽLTC Brno -/-"
   },
   {
    "datum": "14. 3. 2027",
@@ -16369,14 +16369,14 @@
   {
    "datum": "13. 12. 2026",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "ŽLTC Brno",
    "kod_m": "906542",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "13. 12. 2026 600 Kč ŽLTC Brno -/-"
+   "radek": "13. 12. 2026 500 Kč ŽLTC Brno -/-"
   },
   {
    "datum": "19. 12. 2026",
@@ -16561,14 +16561,14 @@
   {
    "datum": "17. 1. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TO Sokol Nehvizdy",
    "kod_m": "906610",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "17. 1. 2027 600 Kč TO Sokol Nehvizdy -/-"
+   "radek": "17. 1. 2027 500 Kč TO Sokol Nehvizdy -/-"
   },
   {
    "datum": "17. 1. 2027",
@@ -17463,14 +17463,14 @@
   {
    "datum": "16. 1. 2027",
    "trida": "",
-   "vklad": "700 Kč",
+   "vklad": "500 Kč",
    "poradatel": "SLOVAN HRANICE, z.s.",
    "kod_m": "906045",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "16. 1. 2027 700 Kč SLOVAN HRANICE, z.s. -/-"
+   "radek": "16. 1. 2027 500 Kč SLOVAN HRANICE, z.s. -/-"
   },
   {
    "datum": "17. 1. 2027",
@@ -17739,14 +17739,14 @@
   {
    "datum": "13. 2. 2027",
    "trida": "",
-   "vklad": "600 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TK Na Dolině o.s.",
    "kod_m": "906062",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "13. 2. 2027 600 Kč TK Na Dolině o.s. -/-"
+   "radek": "13. 2. 2027 500 Kč TK Na Dolině o.s. -/-"
   },
   {
    "datum": "13. 2. 2027",
@@ -18039,14 +18039,14 @@
   {
    "datum": "13.-16. 3. 2027",
    "trida": "",
-   "vklad": "800 Kč",
+   "vklad": "500 Kč",
    "poradatel": "TREND SPORT, z.s.",
    "kod_m": "906084",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "13.-16. 3. 2027 800 Kč TREND SPORT, z.s. -/-"
+   "radek": "13.-16. 3. 2027 500 Kč TREND SPORT, z.s. -/-"
   },
   {
    "datum": "13. 3. 2027",

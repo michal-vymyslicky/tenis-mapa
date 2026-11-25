@@ -2405,22 +2405,6 @@
   "entry": false
  },
  {
-  "id": "C48CE978-E0B1-451E-BBFD-2B2ABCC22117",
-  "nz": "Breclav Open 2027",
-  "venue": "TC Bors Club",
-  "city": "Breclav",
-  "country": "Czechia",
-  "iso3": "CZE",
-  "od": "2027-01-11",
-  "do": "2027-01-17",
-  "pov": "Concrete",
-  "tags": [
-   "Category 2",
-   "14&U"
-  ],
-  "entry": false
- },
- {
   "id": "878B0E70-66A9-485D-AA78-D49399B65D83",
   "nz": "FLT TE U12 Tournament",
   "venue": "National Tennis Center",
@@ -2481,6 +2465,22 @@
   "tags": [
    "Category 3",
    "16&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "C48CE978-E0B1-451E-BBFD-2B2ABCC22117",
+  "nz": "Breclav Open 2027",
+  "venue": "TC Bors Club",
+  "city": "Breclav",
+  "country": "Czechia",
+  "iso3": "CZE",
+  "od": "2027-01-12",
+  "do": "2027-01-17",
+  "pov": "Concrete",
+  "tags": [
+   "Category 2",
+   "14&U"
   ],
   "entry": false
  },
@@ -5711,6 +5711,22 @@
   "entry": false
  },
  {
+  "id": "256D8520-47B9-4E06-BE32-6E862D84CDAA",
+  "nz": "TEJT 3 U14 \" Dermapoint Cup U14 2027\"",
+  "venue": "TK Zilina",
+  "city": "Zilina",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-07-12",
+  "do": "2027-07-18",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
   "id": "E550810D-3BC1-4B39-90AA-E53E460B51E0",
   "nz": "Torneo U12 - Forlì",
   "venue": "Tennis Villa Carpena",
@@ -5819,6 +5835,70 @@
   "tags": [
    "Category 3",
    "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "EE00DF78-900B-4E4F-9D31-83650E0B33A6",
+  "nz": "Agno U14",
+  "venue": "GoAcademy",
+  "city": "Agno",
+  "country": "Switzerland",
+  "iso3": "SUI",
+  "od": "2027-07-26",
+  "do": "2027-08-01",
+  "pov": "Acryllic",
+  "tags": [
+   "Category 3",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "24088BBF-2CA4-464B-ABF7-0A51E3F0AB4B",
+  "nz": "Emilio Sanchez Academy Kids Cup U12",
+  "venue": "Emilio Sanchez Academy",
+  "city": "El Prat de Llobregat (Barcelona)",
+  "country": "Spain",
+  "iso3": "ESP",
+  "od": "2027-07-26",
+  "do": "2027-08-01",
+  "pov": "Clay",
+  "tags": [
+   "Category 1",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "21F5C1FF-DB96-4CB5-A4FD-E074E16C880F",
+  "nz": "MISIN MEMORIJAL",
+  "venue": "TENISKA AKADEMIJA TIPSAREVIĆ",
+  "city": "BEOGRAD",
+  "country": "Serbia",
+  "iso3": "SRB",
+  "od": "2027-07-26",
+  "do": "2027-08-01",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "32AC41A9-7D9A-4A57-9B0C-29F387C9DD45",
+  "nz": "Mosel Cup U12 by IMMO Capital Group",
+  "venue": "Tennis Club Grevenmacher",
+  "city": "Grevenmacher",
+  "country": "Luxembourg",
+  "iso3": "LUX",
+  "od": "2027-07-26",
+  "do": "2027-08-01",
+  "pov": "Clay",
+  "tags": [
+   "Category 2",
+   "12&U"
   ],
   "entry": false
  }

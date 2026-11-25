@@ -33327,5 +33327,65 @@
    "addresstype": "city"
   }
  ],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Avil%C3%A9s": []
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+Avil%C3%A9s": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=sk&format=jsonv2&limit=1&q=TK+Zilina%2C+Zilina": [
+  {
+   "name": "TK Deep",
+   "display_name": "TK Deep, 5213/21, Maše Haľamovej, Ľadoveň, Martin, okres Martin, Žilinský kraj, 036 01, Slovensko",
+   "lat": "49.0546054",
+   "lon": "18.9250363",
+   "category": "amenity",
+   "type": "arts_centre",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Emilio+Sanchez+Academy%2C+El+Prat+de+Llobregat": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=Emilio+Sanchez+Academy": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=El+Prat+de+Llobregat": [
+  {
+   "name": "el Prat de Llobregat",
+   "display_name": "el Prat de Llobregat, Baix Llobregat, Barcelona, Katalánsko, 08820, Španělsko",
+   "lat": "41.3305918",
+   "lon": "2.0930815",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=es&format=jsonv2&limit=1&q=tennis+El+Prat+de+Llobregat": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=rs&format=jsonv2&limit=1&q=TENISKA+AKADEMIJA+TIPSAREVI%C4%86%2C+BEOGRAD": [
+  {
+   "name": "Tipsarević teniska akademija",
+   "display_name": "Tipsarević teniska akademija, 11, Вјекослава Ковача, МЗ Зелено брдо, Београд (Звездара), Градска општина Звездара, Bělehrad, Централна Србија, 11160, Srbsko",
+   "lat": "44.7940271",
+   "lon": "20.5085106",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lu&format=jsonv2&limit=1&q=Tennis+Club+Grevenmacher%2C+Grevenmacher": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lu&format=jsonv2&limit=1&q=Tennis+Club+Grevenmacher": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lu&format=jsonv2&limit=1&q=Grevenmacher": [
+  {
+   "name": "Grevenmacher",
+   "display_name": "Grevenmacher, Canton Grevenmacher, Lucembursko",
+   "lat": "49.6769536",
+   "lon": "6.4111782",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "city"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=lu&format=jsonv2&limit=1&q=tennis+Grevenmacher": [
+  {
+   "name": "Centre sportif et de tennis (CST) \"Op Fréinen\"",
+   "display_name": "Centre sportif et de tennis (CST) \"Op Fréinen\", 1, Op de Fréinen, Junglinster, Canton Grevenmacher, 6130, Lucembursko",
+   "lat": "49.7019299",
+   "lon": "6.2448447",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ]
 }

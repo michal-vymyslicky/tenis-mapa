@@ -2742,15 +2742,15 @@
  "svaz:praha:706815": {
   "klic": "svaz:praha:706815",
   "poradatel": "Praha",
-  "adresa": "Ve lhotce, Praha 4",
-  "zdroj": "loni",
+  "adresa": "Pod plynojemem 164, Praha 8",
+  "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.019314,
-  "lon": 14.43241,
-  "presnost": "odhad",
-  "nazev_mista": "Tenis Tempo Praha Areál Lhotka",
-  "osm_vzdalenost_km": 0.28,
-  "geokod": "OSM: Ve Lhotce, Lhotka, Praha 4, obvod Praha 4, Praha, 142 00, Česko"
+  "lat": 50.097597,
+  "lon": 14.472563,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Pod plynojemem č.ev. 164, Karlín, 18600 Praha 8"
  },
  "svaz:praha:806800": {
   "klic": "svaz:praha:806800",
