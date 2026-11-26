@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.9.3";
+const APP_VERSION = "v3.9.4";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -580,7 +580,7 @@ function item(e) {
   const full = occ.length && occ.every(o => o[0] >= o[1]) && qo.every(o => o[0] >= o[1]);
   const te = e.src === "te";
   const sex = te ? "" : e.mix ? T("děti") : [e.km && T(e.kat === "dospeli" ? "muži" : "chlapci"), e.kz && T(e.kat === "dospeli" ? "ženy" : "dívky")].filter(Boolean).join(" + ");
-  return `<div class="item${zr ? " zr" : ""}" data-ev="${esc(e.id)}">
+  return `<div class="item${zr ? " zr" : ""}${unsure(e) ? " unsure" : ""}" data-ev="${esc(e.id)}">
     <i class="bar" style="background:${colorOf(e.tr, zr)}"></i>
     <div class="main"><div class="t">${esc(e.nz || e.por)}</div>
       <div class="s">${dn}${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
@@ -597,7 +597,7 @@ function partCancel(e) {
 /* karta turnaje Tennis Europe (bez kapacity a přihlášek – ty jsou na webu TE) */
 function teCard(e) {
   const zr = e.st === "zruseno", v = VEN[e.misto] || {};
-  return `<div class="card${zr ? " zr" : ""}" id="c-${esc(e.id)}">
+  return `<div class="card${zr ? " zr" : ""}${unsure(e) ? " unsure" : ""}" id="c-${esc(e.id)}">
     <div class="top"><span class="badgecls" style="background:${colorOf(e.tr, zr)}">${esc(PIN_LAB[e.tr] || "TE")}</span>
       <div style="flex:1;min-width:0"><div class="nm">${esc(e.nz)}</div><div class="sub">Tennis Europe · ${esc((e.ages || []).join(", ").replace(/&U/g, "U"))} · ${esc(fmtRange(e.od, e.do))}</div>
       <div class="m" style="display:flex;gap:4px;margin-top:4px">${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${e.entry ? `<span class="pill te">${T("online přihlášky")}</span>` : ""}</div></div>
@@ -629,7 +629,7 @@ function card(e) {
     else occ.push(bar(head, occText(o, p, e.kap)));
     if (s && s[2]) occ.push(`<div class="sub nahr"><span>${T("Náhradníci")}</span><b>${s[2]}</b></div>`);
   }
-  return `<div class="card${zr ? " zr" : ""}" id="c-${esc(e.id)}">
+  return `<div class="card${zr ? " zr" : ""}${unsure(e) ? " unsure" : ""}" id="c-${esc(e.id)}">
     <div class="top"><span class="badgecls" style="background:${colorOf(e.tr, zr)}">${esc(e.tr === "MCR" ? "MČR" : e.tr || "–")}</span>
       <div style="flex:1;min-width:0"><div class="nm">${esc(e.nz || e.por)}</div><div class="sub">${esc(CAT_SHORT[e.kat] || e.kat)} · ${esc(fmtRange(e.od, e.do))}</div>
       <div class="m" style="display:flex;gap:4px;margin-top:4px">${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${e.test ? '<span class="pill">TEST</span>' : ""}</div></div>
@@ -1194,6 +1194,8 @@ function mergeVenues() {
   }
 }
 const guessy = v => !!v && ["odhad", "obec", "areal_obec"].includes(v.presnost);
+/* turnaj s nejistou polohou (= důvod červeného vykřičníku ve špendlíku) → v seznamu i v kartě červený rámeček */
+const unsure = e => e.st !== "zruseno" && guessy(VEN[e.mo ?? e.misto]);
 
 /* ---------- start ---------- */
 setSnap("peek");

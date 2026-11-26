@@ -184,3 +184,4 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   1. pokus multipart se snímkem (limit 20 s); při jakékoli chybě 2. pokus jako JSON bez snímku (limit 15 s, v e-mailu pole „Snímek: nepřiložen…“).
   Chyby se píšou do konzole prohlížeče („Tenisová mapa – odeslání hlášení selhalo“). Ověřeno v Playwright (Chromium i Firefox) se simulovaným
   zaseknutím požadavku se snímkem; skutečné odeslání z Firefoxu ověří uživatel.
+- v3.9.4: turnaj s nejistou polohou (stejná podmínka jako vykřičník, `unsure(e)`) má v seznamu turnajů i v kartě v detailu místa červený rámeček.

@@ -393,3 +393,6 @@ button.logo{border:0;padding:0;cursor:pointer}
 .locwarn>b{flex:none;width:20px;height:20px;border-radius:50%;background:var(--bad);color:#fff;font:900 13px/20px system-ui,sans-serif;text-align:center}
 @media (prefers-color-scheme:dark){.locwarn{background:#3d1a17;color:#ffd9d4}}
 #legend .wxl{background:var(--bad);color:#fff;font:900 10px/14px system-ui,sans-serif;font-style:normal;text-align:center;border-radius:50%}
+/* v3.9.4: turnaj s nejistou (dopočítanou) polohou – červený rámeček v seznamu i v detailu místa */
+.item.unsure{border:1.5px solid var(--bad);border-radius:12px;padding:9px 8px;margin:4px 0}
+.card.unsure{border:1.5px solid var(--bad)}
