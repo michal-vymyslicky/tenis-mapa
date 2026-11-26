@@ -178,3 +178,9 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
 - Detail místa začíná červeným varováním (`locWarn()`): „Poloha je jen dopočítaná – může být nepřesná“ / „Poloha některých turnajů (n) je jen dopočítaná“
   + důvod (přesnost) a doporučení ověřit místo u pořadatele / na cesky-tenis.cz. Clustery vykřičník nemají.
 - Pozn.: zkušební hlášení 26. 11. 18:20 přišlo ještě z v3.5 (Safari, starý způsob odeslání) a bez snímku – ověřit odeslání se snímkem z v3.6+.
+
+## v3.9.3 – hlášení ve Firefoxu, 2. pokus (26. 11. 2026)
+- Ve Firefoxu (v3.9.2) odeslání hlášení se snímkem vypršelo (30 s), v Safari prošlo. Nově: snímek se před odesláním zmenší (max. 1600 px, JPEG 0,72),
+  1. pokus multipart se snímkem (limit 20 s); při jakékoli chybě 2. pokus jako JSON bez snímku (limit 15 s, v e-mailu pole „Snímek: nepřiložen…“).
+  Chyby se píšou do konzole prohlížeče („Tenisová mapa – odeslání hlášení selhalo“). Ověřeno v Playwright (Chromium i Firefox) se simulovaným
+  zaseknutím požadavku se snímkem; skutečné odeslání z Firefoxu ověří uživatel.

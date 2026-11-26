@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.9.2";
+const APP_VERSION = "v3.9.3";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -887,26 +887,48 @@ function reportDone(ok, msg) {
   if (ok) { toast(T("Děkujeme, hlášení bylo odesláno.")); $("#repText").value = ""; setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on")); $("#btnBack").click(); }
   else toast(T("Odeslání se nepovedlo – zkuste „Poslat raději vlastním e-mailem“.") + (msg ? " (" + msg + ")" : ""));
 }
-/* FormSubmit AJAX (fetch, JSON odpověď) – funguje ve všech prohlížečích; dřívější odeslání do skrytého iframe
-   ve Firefoxu nedávalo zprávu o výsledku (načtení iframe z cizí domény), proto se hlásilo „nepodařilo“. */
+/* FormSubmit AJAX (fetch, JSON odpověď). Ve Firefoxu (v3.6–3.9.2) požadavek se snímkem visel až do časového limitu
+   (skrytý iframe ve v3.5 stejně) – proto: 1) se zmenšeným snímkem (max. 1600 px, ~0,3–0,6 MB), limit 20 s; 2) při jakékoli chybě
+   znovu bez snímku jako JSON (jiný typ požadavku), limit 15 s; 3) teprve pak hláška s nabídkou vlastního e-mailu. Chyby do konzole. */
+async function smallShot(blob, max = 1600) {
+  try {
+    const bmp = await createImageBitmap(blob), k = Math.min(1, max / Math.max(bmp.width, bmp.height));
+    if (k >= 1 && blob.size < 700e3) return blob;
+    const c = document.createElement("canvas"); c.width = Math.round(bmp.width * k); c.height = Math.round(bmp.height * k);
+    c.getContext("2d").drawImage(bmp, 0, 0, c.width, c.height);
+    return await new Promise(ok => c.toBlob(b => ok(b || blob), "image/jpeg", .72));
+  } catch { return blob; }
+}
+async function postReport(body, ms) {
+  const ctl = new AbortController(), tm = setTimeout(() => ctl.abort(), ms);
+  try {
+    const opt = {method: "POST", body, headers: {Accept: "application/json"}, signal: ctl.signal, mode: "cors", credentials: "omit", referrerPolicy: "origin"};
+    if (typeof body === "string") opt.headers["Content-Type"] = "application/json";
+    const r = await fetch("https://formsubmit.co/ajax/" + REPORT_FORM, opt);
+    let js = null; try { js = await r.json(); } catch {}
+    return {ok: r.ok && js && String(js.success) === "true", msg: js && js.message ? String(js.message) : "HTTP " + r.status};
+  } catch (err) {
+    console.warn("Tenisová mapa – odeslání hlášení selhalo:", err);
+    return {ok: false, msg: err && err.name === "AbortError" ? T("vypršel čas") : (err && (err.message || err.name)) || "?"};
+  } finally { clearTimeout(tm); }
+}
 async function sendForm() {
   const btn = $("#repSend"); btn.disabled = true; btn.textContent = T("Odesílám…");
-  const url = "https://formsubmit.co/ajax/" + REPORT_FORM;
-  const post = async withShot => {
+  let res = {ok: false, msg: ""}, noShot = false;
+  if (shot) {
     const fd = reportData();
-    if (withShot && shot) fd.append("attachment", new File([shot], `snimek-${iso(new Date())}.jpg`, {type: shot.type || "image/jpeg"}));
-    const ctl = new AbortController(), tm = setTimeout(() => ctl.abort(), 30000);
-    try {
-      const r = await fetch(url, {method: "POST", body: fd, headers: {Accept: "application/json"}, signal: ctl.signal});
-      let js = null; try { js = await r.json(); } catch {}
-      return {ok: r.ok && js && String(js.success) === "true", msg: js && js.message ? String(js.message) : "HTTP " + r.status};
-    } finally { clearTimeout(tm); }
-  };
-  try {
-    let res = await post(true);
-    if (!res.ok && shot) { const r2 = await post(false); if (r2.ok) { res = r2; toast(T("Hlášení odesláno bez snímku.")); } }
-    reportDone(res.ok, res.ok ? "" : res.msg);
-  } catch (err) { reportDone(false, err && err.name === "AbortError" ? T("vypršel čas") : (err && err.message) || ""); }
+    fd.append("attachment", new File([await smallShot(shot)], `snimek-${iso(new Date())}.jpg`, {type: "image/jpeg"}));
+    res = await postReport(fd, 20000);
+  }
+  if (!res.ok) {
+    const o = {}; for (const [k, v] of reportData()) o[k] = v;
+    if (shot) o["Snímek"] = "nepřiložen (odeslání se snímkem selhalo: " + res.msg + ")";
+    const r2 = await postReport(JSON.stringify(o), 15000);
+    if (r2.ok) noShot = !!shot; else if (!res.msg || !shot) res = r2; else res.msg += " / " + r2.msg;
+    if (r2.ok) res = r2;
+  }
+  reportDone(res.ok, res.ok ? "" : res.msg);
+  if (res.ok && noShot) setTimeout(() => toast(T("Hlášení odesláno bez snímku.")), 2600);
 }
 $("#repMail").onclick = async () => {
   if (!REPORT_EMAIL) return;
