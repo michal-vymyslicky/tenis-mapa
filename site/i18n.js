@@ -126,7 +126,7 @@ window.I18N = (() => {
     "děti": "children", "muži": "men", "ženy": "women", "chlapci": "boys", "dívky": "girls",
     "Děti": "Children", "Muži": "Men", "Ženy": "Women", "Chlapci": "Boys", "Dívky": "Girls",
     "plno": "full", "ZRUŠENO": "CANCELLED", "NOVÉ": "NEW",
-    "kód": "code", "Max. hráčů": "Max. players", "Hlavní soutěž": "Main draw", "Kvalifikace": "Qualifying", "kvalifikace": "qualifying", "Náhradníci": "Alternates", "Dvorce · povrch": "Courts · surface", "Míče": "Balls",
+    "kód": "code", "Max. hráčů": "Max. players", "Hlavní soutěž": "Main draw", "vykřičník = poloha některého turnaje je jen dopočítaná": "exclamation mark = location of a tournament is only estimated", "Poloha je jen dopočítaná – může být nepřesná": "Location is only estimated – it may be inaccurate", "Poloha některých turnajů ({n}) je jen dopočítaná": "Location of some tournaments ({n}) is only estimated", "Místo konání zatím nemusí být v detailu turnaje na webu ČTS uvedeno – před cestou si ho ověřte u pořadatele nebo na cesky-tenis.cz.": "The venue may not yet be listed in the tournament details on the ČTS website – please check with the organiser or on cesky-tenis.cz before you travel.", "Kvalifikace": "Qualifying", "kvalifikace": "qualifying", "Náhradníci": "Alternates", "Dvorce · povrch": "Courts · surface", "Míče": "Balls",
     "Vklad": "Entry fee", "Prezentace": "Sign-in", "Pořadatel": "Organiser",
     "Turnaj zmizel z termínové listiny {d} – ověřte na webu ČTS.": "The tournament disappeared from the ČTS calendar on {d} – please check the ČTS website.",
     "Turnaj je v listině označen jako zrušený – ověřte na webu ČTS.": "The tournament is marked as cancelled in the calendar – please check the ČTS website.",

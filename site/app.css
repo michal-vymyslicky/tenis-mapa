@@ -382,3 +382,11 @@ button.logo{border:0;padding:0;cursor:pointer}
 .pill.pl.cl[data-pid]:active,.pill.pl[data-pid]:active{filter:brightness(.92)}
 .clublink{display:inline-flex;align-items:center;gap:5px;color:#0f6b5c;font-weight:600;text-decoration:none}
 .clublink svg{width:15px;height:15px}
+
+/* v3.9: dopočítaná poloha – červený vykřičník ve špendlíku a varování v detailu místa */
+.pin .wx{position:absolute;top:-7px;left:-8px;width:16px;height:16px;border-radius:50%;background:var(--bad);color:#fff;font:900 11px/16px system-ui,sans-serif;font-style:normal;text-align:center;border:1.5px solid #fff;box-shadow:0 1px 2px rgba(0,0,0,.3)}
+.pin.fav.warn:after{left:auto;right:-7px;top:auto;bottom:6px}
+.locwarn{display:flex;gap:10px;align-items:flex-start;margin-top:10px;padding:9px 11px;border-radius:10px;background:#fde7e5;color:#6b1a14;font-size:13px;line-height:1.35}
+.locwarn>b{flex:none;width:20px;height:20px;border-radius:50%;background:var(--bad);color:#fff;font:900 13px/20px system-ui,sans-serif;text-align:center}
+@media (prefers-color-scheme:dark){.locwarn{background:#3d1a17;color:#ffd9d4}}
+#legend .wxl{background:var(--bad);color:#fff;font:900 10px/14px system-ui,sans-serif;font-style:normal;text-align:center;border-radius:50%}

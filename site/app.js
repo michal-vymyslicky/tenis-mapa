@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.8";
+const APP_VERSION = "v3.9";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -167,9 +167,10 @@ map.addLayer(cluster);
 let focusMarker = null;
 const PIN = (color, w = 30, h = 40) => `<svg viewBox="0 0 30 40" width="${w}" height="${h}"><path d="M15 1C7.3 1 1 7.1 1 14.7 1 25 15 39 15 39s14-14 14-24.3C29 7.1 22.7 1 15 1z" fill="${color}"/></svg>`;
 /* špendlík: barva i písmeno = nejvyšší třída v místě (MČR, A, B, P, C, D, E), bublina = počet turnajů */
-function pinIcon(color, n, guess, fav, cls) {
+function pinIcon(color, n, guess, fav, cls, warn) {
   const lab = PIN_LAB[cls] || cls || "–";
-  return L.divIcon({html: `<div class="pin${guess ? " guess" : ""}${fav ? " fav" : ""}${TE_CLS.has(cls) ? " te" : ""}">${PIN(color)}<b class="${lab.length > 1 ? "long" : ""}">${lab}</b>${n > 1 ? `<i class="cnt">${n}</i>` : ""}</div>`,
+  // warn = aspoň jeden turnaj místa má dopočítanou polohu (odhad podle loňska, jen obec, areál v obci) → červený vykřičník vlevo nahoře
+  return L.divIcon({html: `<div class="pin${guess ? " guess" : ""}${fav ? " fav" : ""}${warn ? " warn" : ""}${TE_CLS.has(cls) ? " te" : ""}">${PIN(color)}<b class="${lab.length > 1 ? "long" : ""}">${lab}</b>${n > 1 ? `<i class="cnt">${n}</i>` : ""}${warn ? `<i class="wx">!</i>` : ""}</div>`,
     className: "", iconSize: [30, 40], iconAnchor: [15, 39]});
 }
 
@@ -268,7 +269,7 @@ function render() {
     const v = VEN[vi];
     const active = evs.filter(e => e.st !== "zruseno");
     const best = (active.length ? active : evs).map(e => e.tr || "").sort((a, b) => CLASS_ORDER.indexOf(a) - CLASS_ORDER.indexOf(b))[0];
-    const m = L.marker([v.lat, v.lon], {icon: pinIcon(colorOf(best, !active.length), evs.length, evs.every(e => guessy(VEN[e.mo ?? e.misto])), evs.some(e => FAV.has(e.id)), best),
+    const m = L.marker([v.lat, v.lon], {icon: pinIcon(colorOf(best, !active.length), evs.length, evs.every(e => guessy(VEN[e.mo ?? e.misto])), evs.some(e => FAV.has(e.id)), best, evs.some(e => e.st !== "zruseno" && guessy(VEN[e.mo ?? e.misto]))),
       title: `${v.nazev_mista || v.poradatel} (${evs.length})`});
     m.on("click", () => openVenue(vi, {move: false}));
     markers.push(m);
@@ -446,7 +447,7 @@ function buildFilterUI() {
     chip(ch, raws.map(r => ({v: "r:" + r, l: rawSurf(disp[r] || r), n: rc[r]})), "surf");
   }
   $("#legend").innerHTML = `<b>${T("Třída turnaje <small>(klepnutím filtrujete)</small>")}</b>` + CLASS_ORDER.filter(k => tc[k] && (F.src !== "cts" || !TE_CLS.has(k))).map(k => `<button class="lg" data-k="cls" data-v="${k}" style="--c:${colorOf(k)}"><i style="background:${colorOf(k)}">${k === "MCR" ? "M" : PIN_LAB[k] || k || "–"}</i>${CLASS_LABEL[k]} <small>${tc[k]}</small></button>`).join("") +
-    (F.src !== "cts" && CLASS_ORDER.some(k => TE_CLS.has(k) && tc[k]) ? `<div class="sep">🇪🇺 ${T("Tennis Europe – žlutý okraj špendlíku")}</div>` : "") + `<div><i style="background:${css("--c-zr")}"></i>${T("zrušeno")}</div><div><i class="ring"></i>${T("čárkovaně = místo odhadnuté")}</div><div>${T("písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů")}</div>`;
+    (F.src !== "cts" && CLASS_ORDER.some(k => TE_CLS.has(k) && tc[k]) ? `<div class="sep">🇪🇺 ${T("Tennis Europe – žlutý okraj špendlíku")}</div>` : "") + `<div><i style="background:${css("--c-zr")}"></i>${T("zrušeno")}</div><div><i class="ring"></i>${T("čárkovaně = místo odhadnuté")}</div><div><i class="wxl">!</i>${T("vykřičník = poloha některého turnaje je jen dopočítaná")}</div><div>${T("písmeno ve špendlíku = nejvyšší třída v místě, bublina = počet turnajů")}</div>`;
 }
 function syncFilterUI() {
   $$(".chips button[data-k], #legend button.lg").forEach(b => b.classList.toggle("on", F[b.dataset.k].includes(b.dataset.v)));
@@ -671,6 +672,15 @@ function venueTitle(v) {
   if (SVAZY.test((v.poradatel || "").trim()) && v.adresa) return v.adresa.split(",").pop().trim();
   return v.poradatel;
 }
+/* varování u dopočítané polohy (stejná podmínka jako červený vykřičník ve špendlíku) */
+function locWarn(v, all) {
+  const act = all.filter(e => e.st !== "zruseno" && (isArchive() || (e.do || e.od) >= iso(today)));
+  const g = act.filter(e => guessy(VEN[e.mo ?? e.misto]));
+  if (!g.length && !(guessy(v) && !act.length)) return "";
+  const why = [...new Set((g.length ? g : [{}]).map(e => (PREC[(VEN[e.mo ?? e.misto] || v).presnost] || PREC.nezname)[1]))].join(" · ");
+  const head = g.length && g.length < act.length ? T("Poloha některých turnajů ({n}) je jen dopočítaná", {n: g.length}) : T("Poloha je jen dopočítaná – může být nepřesná");
+  return `<div class="locwarn"><b>!</b><div><strong>${head}</strong><br>${esc(why)}. ${T("Místo konání zatím nemusí být v detailu turnaje na webu ČTS uvedeno – před cestou si ho ověřte u pořadatele nebo na cesky-tenis.cz.")}</div></div>`;
+}
 function openVenue(vi, opt = {}) {
   const v = VEN[vi];
   lastVenue = vi;
@@ -691,7 +701,7 @@ function openVenue(vi, opt = {}) {
     <a href="https://mapy.com/fnc/v1/showmap?center=${v.lon},${v.lat}&zoom=17&marker=true" target="_blank" rel="noopener">${T("Ukázat v Mapy.com")}</a></div>` : "";
   let html = `<div class="venue"><h2>${esc(venueTitle(v))}</h2>
     <div class="addr">${v.zdroj === "te" ? `${flag(v.zeme)} ${esc(v.adresa)} · Tennis Europe` : SVAZY.test((v.poradatel || "").trim()) ? T(v.poradatel === "ČTS" ? "Pořadatel: {p}" : "Pořadatel: {p} oblastní svaz", {p: esc(v.poradatel)}) : esc(v.poradatel) + (v.adresa ? " · " + esc(v.adresa) : "") + (v.region ? " · " + esc(v.region) : "")}</div>
-    <span class="prec ${pc}">${esc(pt)}</span>${v.poznamka ? `<div class="muted">${esc(noteText(v.poznamka))}</div>` : ""}${nav}
+    ${locWarn(v, all)}<span class="prec ${pc}">${esc(pt)}</span>${v.poznamka ? `<div class="muted">${esc(noteText(v.poznamka))}</div>` : ""}${nav}
     <span class="reportlink" data-report-venue="${vi}">${T("Nahlásit špatné místo nebo údaje")}</span></div>`;
   if (!groups.size) html += `<div class="empty">${T("Žádný turnaj tohoto místa neodpovídá filtrům.")}</div>`;
   for (const [, evs] of [...groups].sort()) {

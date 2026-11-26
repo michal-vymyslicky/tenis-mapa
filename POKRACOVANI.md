@@ -171,3 +171,10 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
 - Web: v kartě turnaje s kvalifikací dva pruhy (Hlavní soutěž modrý, Kvalifikace oranžový) + počet náhradníků; v seznamu „max 32 + Q 16“;
   „plno“ až když je plná hlavní soutěž i kvalifikace; filtr „volná místa“ počítá i kvalifikaci. Obsazenost hlavní soutěže = jen hráči v hlavní
   soutěži (dřív všichni přihlášení vč. náhradníků a kvalifikace).
+
+## v3.9 – vykřičník u dopočítané polohy (26. 11. 2026)
+- Špendlík místa, kde má aspoň jeden aktivní turnaj dopočítanou polohu (odhad podle loňska, jen obec, areál v obci – podle původního místa `e.mo`),
+  má vlevo nahoře červený vykřičník (`.pin .wx`); čárkovaný obrys zůstává jen u míst, kde jsou odhadem všechny turnaje. Legenda doplněna.
+- Detail místa začíná červeným varováním (`locWarn()`): „Poloha je jen dopočítaná – může být nepřesná“ / „Poloha některých turnajů (n) je jen dopočítaná“
+  + důvod (přesnost) a doporučení ověřit místo u pořadatele / na cesky-tenis.cz. Clustery vykřičník nemají.
+- Pozn.: zkušební hlášení 26. 11. 18:20 přišlo ještě z v3.5 (Safari, starý způsob odeslání) a bez snímku – ověřit odeslání se snímkem z v3.6+.
