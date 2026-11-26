@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.11.2";
+const APP_VERSION = "v3.11.3";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -679,7 +679,7 @@ function locWarn(v, all) {
   const act = all.filter(e => e.st !== "zruseno" && (isArchive() || (e.do || e.od) >= iso(today)));
   const g = act.filter(e => guessy(VEN[e.mo ?? e.misto]));
   if (!g.length && !(guessy(v) && !act.length)) return "";
-  const why = [...new Set((g.length ? g : [{}]).map(e => (PREC[(VEN[e.mo ?? e.misto] || v).presnost] || PREC.nezname)[1]))].join(" · ");
+  const why = [...new Set((g.length ? g : [{}]).map(e => precOf(VEN[e.mo ?? e.misto] || v)[1]))].join(" · ");
   const head = g.length && g.length < act.length ? T("Poloha některých turnajů ({n}) je jen dopočítaná", {n: g.length}) : T("Poloha je jen dopočítaná – může být nepřesná");
   // zdroj k ověření podle původu turnaje: ČTS → cesky-tenis.cz, Tennis Europe → detail turnaje na webu Tennis Europe
   const gs = g.length ? g : act, te = gs.filter(e => e.src === "te"), cts = gs.filter(e => e.src !== "te");
@@ -697,7 +697,7 @@ function openVenue(vi, opt = {}) {
   const other = all.filter(e => !match.includes(e) && (isArchive() || (e.do || e.od) >= iso(today)));
   const groups = new Map();
   for (const e of match) { const k = e.od + "|" + e.do; (groups.get(k) || groups.set(k, []).get(k)).push(e); }
-  let [pc, pt] = PREC[v.presnost] || PREC.nezname;
+  let [pc, pt] = precOf(v);
   if (v.presnost === "adresa") [pc, pt] = v.zdroj === "detail" ? ["ok", T("Adresa místa konání podle ČTS")] : ["mid", T("Adresa klubu (místo konání zatím neuvedeno)")];
   if (v.presnost === "areal" && v.zdroj === "detail") pt = T("Adresa podle ČTS, ověřeno v mapě");
   if (v.zdroj === "te") [pc, pt] = v.presnost === "areal" ? ["ok", T("Areál dohledán v mapě (OpenStreetMap)")] : v.presnost === "obec" ? ["mid", T("Jen obec – areál v mapě nedohledán")] : ["bad", T("Místo neznámé")];
@@ -833,7 +833,7 @@ function renderCtx() {
   const e = ctx.ev ? EV.find(x => x.id === ctx.ev) : null;
   const vi = e ? e.misto : ctx.venue, v = vi != null ? VEN[vi] : null;
   $("#repCtx").innerHTML = e ? `<b>${esc(e.nz || e.por)}</b>${esc(CAT_SHORT[e.kat])} · ${esc(fmtRange(e.od, e.do))} · ${e.src === "te" ? "Tennis Europe" : T("kód") + " " + esc(e.km || e.kz)}<div class="muted">${esc(v ? (v.nazev_mista || v.poradatel) + " · " + (v.adresa || "") : "")}</div>`
-    : v ? `<b>${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : v.poradatel)}</b>${esc(v.adresa || T("adresa neuvedena"))}<div class="muted">${T("Místo na mapě · přesnost: {p}", {p: esc((PREC[v.presnost] || PREC.nezname)[1])})}</div>`
+    : v ? `<b>${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : v.poradatel)}</b>${esc(v.adresa || T("adresa neuvedena"))}<div class="muted">${T("Místo na mapě · přesnost: {p}", {p: esc(precOf(v)[1])})}</div>`
     : T(`<b>Obecné hlášení</b>Přiloží se aktuální výřez mapy a nastavené filtry.<div class="muted">Tip: pro konkrétní turnaj otevřete jeho detail a klepněte na „Nahlásit chybu“.</div>`);
 }
 function syncReportButtons() {
@@ -1268,6 +1268,8 @@ function mergeVenues() {
     const v = VEN[e.mo]; e.misto = v && v.lat != null ? best.get(key(v)) : e.mo;
   }
 }
+/* popis přesnosti místa; „odhad“ z jiného zdroje než loňského ročníku (kontakt, název, ruční odhad) bez zmínky o loňsku */
+const precOf = v => v && v.presnost === "odhad" && v.zdroj !== "loni" && !/loňsk/.test(v.poznamka || "") ? ["bad", T("Odhad místa")] : (PREC[v && v.presnost] || PREC.nezname);
 const guessy = v => !!v && ["odhad", "obec", "areal_obec"].includes(v.presnost);
 /* turnaj s nejistou polohou (= důvod červeného vykřičníku ve špendlíku) → v seznamu i v kartě červený rámeček */
 const unsure = e => e.st !== "zruseno" && guessy(VEN[e.mo ?? e.misto]);
@@ -1278,7 +1280,7 @@ function unsureText(e) {
   const v = VEN[e.mo ?? e.misto] || {};
   if (e.src === "te")   // Tennis Europe: zdrojem je web Tennis Europe, ne ČTS
     return `<div class="unsuretxt"><b>!</b><span>${T("Nejisté místo konání")}: ${esc(v.presnost === "obec" ? T("Jen obec – areál v mapě nedohledán") : T("Areál dohledán v mapě podle názvu – neověřeno"))}. <a href="${TEURL}${esc(e.id.slice(3))}" target="_blank" rel="noopener">${T("Přesná adresa na webu Tennis Europe")}</a></span></div>`;
-  return `<div class="unsuretxt"><b>!</b>${T("Nejisté místo konání")}: ${esc((PREC[v.presnost] || PREC.nezname)[1])}${v.poznamka ? " · " + esc(noteText(v.poznamka)) : ""}</div>`;
+  return `<div class="unsuretxt"><b>!</b>${T("Nejisté místo konání")}: ${esc(precOf(v)[1])}${v.poznamka ? " · " + esc(noteText(v.poznamka)) : ""}</div>`;
 }
 
 /* ---------- start ---------- */

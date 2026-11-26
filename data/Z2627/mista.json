@@ -665,14 +665,15 @@
  "klub:slavia vsst liberec": {
   "klic": "klub:slavia vsst liberec",
   "poradatel": "Slavia VŠST Liberec",
-  "adresa": "",
+  "adresa": "Liberec-Harcov",
   "zdroj": "adresar",
   "region": "Severočeský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "lat": 50.765,
+  "lon": 15.1054,
+  "presnost": "odhad",
+  "nazev_mista": "Liberec – Harcov (odhad)",
+  "osm_vzdalenost_km": null,
+  "poznamka": "odhad 26. 11. 2026: klub bez adresy v ČTS, turnaje „TK Harcov open“ a „Harcov 2“ → čtvrť Harcov, přesný areál neznámý"
  },
  "klub:slovan hranice z s": {
   "klic": "klub:slovan hranice z s",
@@ -3158,26 +3159,28 @@
  "svaz:severomoravsky:706610": {
   "klic": "svaz:severomoravsky:706610",
   "poradatel": "severomoravský",
-  "adresa": "",
+  "adresa": "Bytom (PL) – odhad",
   "zdroj": "loni",
   "region": "Severomoravský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "lat": 50.3483,
+  "lon": 18.9157,
+  "presnost": "odhad",
+  "nazev_mista": "Polské Slezsko (odhad)",
+  "osm_vzdalenost_km": null,
+  "poznamka": "odhad 26. 11. 2026: česko-polská série (střídá česká a polská města), kontakty polské (BTK Advantage, Centrum Tenisa) → pravděpodobně Polsko, Slezsko"
  },
  "svaz:severomoravsky:706611": {
   "klic": "svaz:severomoravsky:706611",
   "poradatel": "severomoravský",
-  "adresa": "",
+  "adresa": "Zabrze (PL) – odhad",
   "zdroj": "loni",
   "region": "Severomoravský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "lat": 50.3249,
+  "lon": 18.7857,
+  "presnost": "odhad",
+  "nazev_mista": "Akademia Tenisowa Zabrze (odhad)",
+  "osm_vzdalenost_km": null,
+  "poznamka": "odhad 26. 11. 2026: kontakt Akademia Tenisowa Zabrze a Polský tenisový svaz"
  },
  "svaz:severomoravsky:706970": {
   "klic": "svaz:severomoravsky:706970",
@@ -3207,26 +3210,28 @@
  "svaz:severomoravsky:806610": {
   "klic": "svaz:severomoravsky:806610",
   "poradatel": "severomoravský",
-  "adresa": "",
+  "adresa": "Bytom (PL) – odhad",
   "zdroj": "loni",
   "region": "Severomoravský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "lat": 50.3483,
+  "lon": 18.9157,
+  "presnost": "odhad",
+  "nazev_mista": "Polské Slezsko (odhad)",
+  "osm_vzdalenost_km": null,
+  "poznamka": "odhad 26. 11. 2026: česko-polská série (střídá česká a polská města), kontakty polské (BTK Advantage, Centrum Tenisa) → pravděpodobně Polsko, Slezsko"
  },
  "svaz:severomoravsky:806611": {
   "klic": "svaz:severomoravsky:806611",
   "poradatel": "severomoravský",
-  "adresa": "",
+  "adresa": "Zabrze (PL) – odhad",
   "zdroj": "loni",
   "region": "Severomoravský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "lat": 50.3249,
+  "lon": 18.7857,
+  "presnost": "odhad",
+  "nazev_mista": "Akademia Tenisowa Zabrze (odhad)",
+  "osm_vzdalenost_km": null,
+  "poznamka": "odhad 26. 11. 2026: kontakt Polský tenisový svaz (pzt.pl), série s Akademia Tenisowa Zabrze"
  },
  "svaz:severomoravsky:806970": {
   "klic": "svaz:severomoravsky:806970",
