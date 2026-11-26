@@ -231,3 +231,4 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   Z chatu/Macu teď ČTS nestahovat. Ruční obnova vybraných turnajů jde přes GitHub: Actions → „Blízké turnaje (přihlášky)“ → Run workflow,
   pole „kody“ = kódy turnajů čárkou (`update.py --kody`, 3 s mezi stránkami). Přebor svazu bez adresy, v jehož názvu/poznámce je jednoznačně
   název klubu z adresáře ČTS, dostane místo tohoto klubu (poznámka „místo podle názvu turnaje“).
+- 26. 11.: 15 přeborů/HMČR bez adresy dostalo místo **odhadem podle kontaktní osoby** (e-mailová doména klubu, `mista_svaz.csv` se zdrojem „odhad podle kontaktní osoby…“) – v aplikaci dál jako odhad (vykřičník, červený rámeček, poznámka). Až ČTS doplní adresu, má přednost.

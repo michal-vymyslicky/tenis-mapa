@@ -410,13 +410,17 @@ def resolve(requests, clubs, old=None):
             if src == "loni":
                 v["presnost"] = "odhad"
         if src == "svaz_rozpis":
+            kontakt = (sv.get("zdroj") or "").startswith("odhad")
             v["poznamka"] = (f"místo podle názvu turnaje: {sv['klub']}" if sv.get("zdroj") == "název turnaje"
+                             else f"odhad podle kontaktní osoby turnaje: {sv['klub']}" if kontakt
                              else f"místo podle rozpisu svazu: {sv['klub']}")
             # ověřený areál pořádajícího klubu (paměť míst) má přednost
             known = [m for m in mem.get(norm(sv["klub"]), []) if m["presnost"] in ("areal", "rucne")]
             if known:
                 m = min(known, key=lambda m: dist_km((v["lat"], v["lon"]), (m["lat"], m["lon"])) if v["lat"] is not None else 0)
                 v.update(lat=m["lat"], lon=m["lon"], nazev_mista=m.get("nazev", ""), presnost="areal")
+            if kontakt:                      # pořadatel odvozený jen z kontaktní osoby → stále odhad (vykřičník v aplikaci)
+                v["presnost"] = "odhad"
         if key in ovr:
             o = ovr[key]
             v.update(lat=float(o["lat"]), lon=float(o["lon"]), presnost="rucne", nazev_mista=o.get("nazev_mista") or v["nazev_mista"],
