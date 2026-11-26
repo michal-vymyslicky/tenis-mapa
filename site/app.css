@@ -408,3 +408,13 @@ button.logo{border:0;padding:0;cursor:pointer}
 .card .unsuretxt{margin-top:10px}
 .occ .akt{font-size:11.5px;color:var(--muted);justify-content:flex-end}
 #btnFilters.open{background:var(--accent-soft);color:var(--accent)}
+/* v3.11: tlačítko odeslání hlášení se vybarvuje podle průběhu */
+.progbtn{position:relative;overflow:hidden;isolation:isolate}
+.progbtn .lb{position:relative;z-index:1}
+.progbtn.sending{background:color-mix(in srgb,var(--accent) 55%,#7a7f87);color:#fff}
+.progbtn.sending:before{content:"";position:absolute;inset:0;z-index:0;background:var(--accent);transform-origin:left;transform:scaleX(var(--p,0));transition:transform .15s linear}
+.progbtn.sending:after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.28) 50%,transparent 70%);background-size:200% 100%;animation:pbshine 1.2s linear infinite}
+.progbtn.ok:before{background:var(--ok)}.progbtn.queued:before{background:var(--accent2)}
+.progbtn.ok:after,.progbtn.queued:after{animation:none;background:none}
+@keyframes pbshine{from{background-position:150% 0}to{background-position:-50% 0}}
+.progbtn:disabled{opacity:1}

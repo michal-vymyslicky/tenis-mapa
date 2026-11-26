@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.10.2";
+const APP_VERSION = "v3.11";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -874,62 +874,115 @@ $("#repSend").onclick = () => {
   if (!$("#repText").value.trim() && !repType) { toast(T("Vyberte typ problému nebo napište krátký popis.")); return; }
   sendForm();
 };
-function reportData() {
-  const fd = new FormData();
-  fd.append("_subject", reportSubject()); fd.append("_template", "table"); fd.append("_captcha", "false"); fd.append("_honey", "");
-  fd.append("Typ", repType || "neuvedeno"); fd.append("Popis", $("#repText").value.trim() || "(bez popisu)");
+/* ---------- odeslání hlášení (v3.11) ----------
+   Příčina chyb „vypršel čas“ (26. 11. 2026): služba FormSubmit odpovídala velmi pomalu nebo vůbec (GET úvodní stránky ~12 s,
+   POST > 40 s, AJAX 30 s → HTTP 500) – nešlo o chybu prohlížeče. Proto:
+   1) hlášení se nejdřív uloží do fronty v prohlížeči (localStorage „tm.outbox“, i se zmenšeným snímkem),
+   2) odešle se přes XMLHttpRequest se skutečným průběhem nahrávání (tlačítko se postupně vybarvuje), limit 60 s,
+      při selhání se snímkem hned znovu bez snímku (JSON),
+   3) když služba neodpoví, hlášení zůstane ve frontě a aplikace ho odešle sama později (po startu, při obnovení spojení,
+      každé 3 minuty, max. 7 dní) – uživatel nedostane chybovou hlášku, jen informaci, že hlášení je uložené. */
+const OUTBOX = "tm.outbox";
+const obLoad = () => { try { return JSON.parse(localStorage.getItem(OUTBOX) || "[]"); } catch { return []; } };
+const obSave = xs => { try { localStorage.setItem(OUTBOX, JSON.stringify(xs)); return true; } catch { try { localStorage.setItem(OUTBOX, JSON.stringify(xs.map(x => ({...x, shot: null})))); } catch {} return false; } };
+function reportFields() {
+  const o = {_subject: reportSubject(), _template: "table", _captcha: "false", _honey: "",
+    Typ: repType || "neuvedeno", Popis: $("#repText").value.trim() || "(bez popisu)"};
   const contact = $("#repContact").value.trim();
-  if (contact) { fd.append("Kontakt", contact); fd.append("_replyto", contact); }
-  fd.append("Kontext", ctxLines().join("\n"));
-  return fd;
+  if (contact) { o.Kontakt = contact; o._replyto = contact; }
+  o.Kontext = ctxLines().join("\n");
+  return o;
 }
-function reportDone(ok, msg) {
-  const btn = $("#repSend"); btn.disabled = false; btn.textContent = T("Odeslat hlášení");
-  if (ok) { toast(T("Děkujeme, hlášení bylo odesláno.")); $("#repText").value = ""; setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on")); $("#btnBack").click(); }
-  else toast(T("Odeslání se nepovedlo – zkuste „Poslat raději vlastním e-mailem“.") + (msg ? " (" + msg + ")" : ""));
-}
-/* FormSubmit AJAX (fetch, JSON odpověď). Ve Firefoxu (v3.6–3.9.2) požadavek se snímkem visel až do časového limitu
-   (skrytý iframe ve v3.5 stejně) – proto: 1) se zmenšeným snímkem (max. 1600 px, ~0,3–0,6 MB), limit 20 s; 2) při jakékoli chybě
-   znovu bez snímku jako JSON (jiný typ požadavku), limit 15 s; 3) teprve pak hláška s nabídkou vlastního e-mailu. Chyby do konzole. */
-async function smallShot(blob, max = 1600) {
+async function smallShot(blob, max = 1400) {
   try {
     const bmp = await createImageBitmap(blob), k = Math.min(1, max / Math.max(bmp.width, bmp.height));
-    if (k >= 1 && blob.size < 700e3) return blob;
+    if (k >= 1 && blob.size < 500e3) return blob;
     const c = document.createElement("canvas"); c.width = Math.round(bmp.width * k); c.height = Math.round(bmp.height * k);
     c.getContext("2d").drawImage(bmp, 0, 0, c.width, c.height);
-    return await new Promise(ok => c.toBlob(b => ok(b || blob), "image/jpeg", .72));
+    return await new Promise(ok => c.toBlob(b => ok(b || blob), "image/jpeg", .7));
   } catch { return blob; }
 }
-async function postReport(body, ms) {
-  const ctl = new AbortController(), tm = setTimeout(() => ctl.abort(), ms);
+const blobToData = b => new Promise(ok => { const r = new FileReader(); r.onload = () => ok(r.result); r.onerror = () => ok(null); r.readAsDataURL(b); });
+const dataToBlob = d => { const [h, b64] = d.split(","), bin = atob(b64), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return new Blob([u], {type: (h.match(/:(.*?);/) || [])[1] || "image/jpeg"}); };
+/* jeden pokus: XHR (průběh nahrávání), JSON odpověď FormSubmit */
+function xhrPost(body, ms, onProg) {
+  return new Promise(ok => {
+    const x = new XMLHttpRequest();
+    x.open("POST", "https://formsubmit.co/ajax/" + REPORT_FORM);
+    x.setRequestHeader("Accept", "application/json");
+    if (typeof body === "string") x.setRequestHeader("Content-Type", "application/json");
+    x.timeout = ms;
+    if (onProg && x.upload) x.upload.onprogress = ev => ev.lengthComputable && onProg(ev.loaded / ev.total);
+    x.onload = () => { let js = null; try { js = JSON.parse(x.responseText); } catch {} ok({ok: x.status >= 200 && x.status < 300 && js && String(js.success) === "true", msg: (js && js.message) || "HTTP " + x.status}); };
+    x.onerror = () => ok({ok: false, msg: "síť"}); x.ontimeout = () => ok({ok: false, msg: "čas"});
+    x.send(body);
+  });
+}
+async function sendReport(r, onProg = () => {}) {
+  if (r.shot) {
+    const fd = new FormData(); for (const [k, v] of Object.entries(r.f)) fd.append(k, v);
+    fd.append("attachment", new File([dataToBlob(r.shot)], `snimek-${r.id}.jpg`, {type: "image/jpeg"}));
+    const a = await xhrPost(fd, 60000, p => onProg(.15 + p * .7));
+    if (a.ok) return a;
+    console.warn("Tenisová mapa – hlášení se snímkem neodešlo:", a.msg);
+  }
+  onProg(.85);
+  const f = {...r.f}; if (r.shot) f["Snímek"] = "nepřiložen (služba nepřijala přílohu)";
+  const b = await xhrPost(JSON.stringify(f), 45000);
+  if (!b.ok) console.warn("Tenisová mapa – hlášení neodešlo:", b.msg);
+  return b;
+}
+let obBusy = false;
+async function flushOutbox() {
+  if (obBusy || !navigator.onLine) return;
+  let xs = obLoad().filter(r => Date.now() - r.t < 7 * 864e5);
+  if (!xs.length) { obSave([]); return; }
+  obBusy = true;
   try {
-    const opt = {method: "POST", body, headers: {Accept: "application/json"}, signal: ctl.signal, mode: "cors", credentials: "omit", referrerPolicy: "origin"};
-    if (typeof body === "string") opt.headers["Content-Type"] = "application/json";
-    const r = await fetch("https://formsubmit.co/ajax/" + REPORT_FORM, opt);
-    let js = null; try { js = await r.json(); } catch {}
-    return {ok: r.ok && js && String(js.success) === "true", msg: js && js.message ? String(js.message) : "HTTP " + r.status};
-  } catch (err) {
-    console.warn("Tenisová mapa – odeslání hlášení selhalo:", err);
-    return {ok: false, msg: err && err.name === "AbortError" ? T("vypršel čas") : (err && (err.message || err.name)) || "?"};
-  } finally { clearTimeout(tm); }
+    for (const r of xs.slice()) {
+      const res = await sendReport(r);
+      if (res.ok) { xs = obLoad().filter(x => x.id !== r.id); obSave(xs); }
+      else { r.n = (r.n || 0) + 1; obSave(obLoad().map(x => x.id === r.id ? {...x, n: r.n} : x)); break; }
+    }
+  } finally { obBusy = false; }
+}
+setTimeout(flushOutbox, 6000);
+setInterval(() => { if (obLoad().length) flushOutbox(); }, 180000);
+addEventListener("online", () => setTimeout(flushOutbox, 2000));
+/* tlačítko: vybarvování podle průběhu (CSS proměnná --p 0–1) */
+function btnProg(p, label, cls) {
+  const b = $("#repSend"); b.style.setProperty("--p", Math.max(0, Math.min(1, p)).toFixed(3));
+  if (label != null) b.querySelector(".lb").textContent = label;
+  b.classList.remove("ok", "queued"); if (cls) b.classList.add(cls);
+}
+function resetReportForm() {
+  $("#repText").value = ""; setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on"));
 }
 async function sendForm() {
-  const btn = $("#repSend"); btn.disabled = true; btn.textContent = T("Odesílám…");
-  let res = {ok: false, msg: ""}, noShot = false;
-  if (shot) {
-    const fd = reportData();
-    fd.append("attachment", new File([await smallShot(shot)], `snimek-${iso(new Date())}.jpg`, {type: "image/jpeg"}));
-    res = await postReport(fd, 20000);
+  const btn = $("#repSend"); btn.disabled = true; btn.classList.add("sending");
+  if (!btn.querySelector(".lb")) btn.innerHTML = `<span class="lb"></span>`;
+  btnProg(.04, T("Připravuji…"));
+  // pomalé „dosouvání“ mezi skutečnými kroky, aby tlačítko působilo živě i při čekání na odpověď serveru
+  let shown = .04, target = .1; const tick = setInterval(() => { shown += (target - shown) * .08; btnProg(shown); }, 120);
+  const step = p => { target = Math.max(target, p); };
+  const r = {id: Date.now().toString(36), t: Date.now(), f: reportFields(), shot: null, n: 0};
+  if (shot) { step(.12); r.shot = await blobToData(await smallShot(shot)); }
+  const xs = obLoad(); xs.push(r); obSave(xs);
+  btnProg(shown, T("Odesílám…")); step(.18);
+  const res = await sendReport(r, p => step(p));
+  clearInterval(tick);
+  if (res.ok) {
+    obSave(obLoad().filter(x => x.id !== r.id));
+    btnProg(1, T("Odesláno ✓"), "ok");
+    toast(T("Děkujeme, hlášení bylo odesláno."));
+  } else {
+    btnProg(1, T("Uloženo ✓"), "queued");
+    toast(T("Děkujeme! Hlášení je uložené a aplikace ho odešle sama, jakmile to půjde."));
   }
-  if (!res.ok) {
-    const o = {}; for (const [k, v] of reportData()) o[k] = v;
-    if (shot) o["Snímek"] = "nepřiložen (odeslání se snímkem selhalo: " + res.msg + ")";
-    const r2 = await postReport(JSON.stringify(o), 15000);
-    if (r2.ok) noShot = !!shot; else if (!res.msg || !shot) res = r2; else res.msg += " / " + r2.msg;
-    if (r2.ok) res = r2;
-  }
-  reportDone(res.ok, res.ok ? "" : res.msg);
-  if (res.ok && noShot) setTimeout(() => toast(T("Hlášení odesláno bez snímku.")), 2600);
+  setTimeout(() => {
+    resetReportForm(); $("#btnBack").click();
+    btn.disabled = false; btn.classList.remove("sending", "ok", "queued"); btn.style.setProperty("--p", 0); btn.querySelector(".lb").textContent = T("Odeslat hlášení");
+  }, 1400);
 }
 $("#repMail").onclick = async () => {
   if (!REPORT_EMAIL) return;

@@ -206,3 +206,13 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   AJAX na adresu z GitHub secretu `NOTIFY_EMAIL` (osobní adresa uživatele – v repozitáři ji kvůli robotům neuvádět) a job skončí chybou.
   Ruční spuštění (Run workflow, volba test) pošle zkušební e-mail. První zpráva na novou adresu = aktivační e-mail FormSubmit, nutno potvrdit.
 - v3.10.2: tlačítko filtrů (vedle hledání) je přepínač – druhé klepnutí filtry zavře a vrátí seznam turnajů; otevřené filtry = tlačítko zvýrazněné.
+
+## v3.11 – spolehlivé hlášení problému (26. 11. 2026)
+- Příčina „vypršel čas“ v Safari i Firefoxu: služba FormSubmit byla 26. 11. večer přetížená (GET úvodní stránky ~12 s, POST > 40 s bez odpovědi,
+  AJAX po 30 s HTTP 500) – ne chyba prohlížeče ani aplikace.
+- Nově: hlášení se nejdřív uloží do fronty v prohlížeči (`localStorage tm.outbox`, i zmenšený snímek ~1400 px), pak se odesílá přes XHR
+  (skutečný průběh nahrávání → tlačítko se vybarvuje, `--p`), limit 60 s se snímkem, pak 45 s bez snímku (JSON). Když služba neodpoví,
+  hlášení zůstane ve frontě („Uloženo ✓“, bez chybové hlášky) a aplikace ho odešle sama: 6 s po startu, při obnovení připojení a každé 3 min,
+  nejdéle 7 dní. Ověřeno v Playwright (Chromium, Firefox, WebKit/Safari) se simulovanou chybou serveru.
+- Omezení: frontu odešle jen stejný prohlížeč, až bude aplikace znovu otevřená. Pro vyšší spolehlivost lze doplnit druhou službu (např. Web3Forms
+  – přístupový klíč získá uživatel zdarma na web3forms.com) jako zálohu.
