@@ -1,0 +1,30 @@
+name: Kontrola noční aktualizace
+
+# Ráno ověří, že noční aktualizace proběhla a je na webu; jinak pošle e-mail (FormSubmit) na adresu z tajného
+# nastavení NOTIFY_EMAIL (Settings → Secrets and variables → Actions). Ruční spuštění s volbou „test“ pošle zkušební e-mail.
+on:
+  schedule:
+    - cron: "43 6 * * *"    # 7:43 v zimě (8:43 v létě) ČR – noční běh začíná 0:23 UTC a trvá obvykle 30–60 min (max. 5 h)
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "Poslat zkušební e-mail"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  kontrola:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kontrola a případné upozornění
+        env:
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+        run: python3 pipeline/kontrola_behu.py ${{ github.event.inputs.test == 'true' && '--test' || '' }}

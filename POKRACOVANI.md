@@ -200,3 +200,8 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   `update.py --blizke 7`: jen aktuální sezóna, 7 listin + detaily turnajů začínajících do 7 dní (~110 stránek), 1 vlákno, 3 s pauza
   (~6–7 min), při 429/503 zpomalení / konec běhu. Stejná concurrency skupina jako noční běh. Po doběhnutí nasadí web `nasazeni.yml`.
   Zátěž webu ČTS: noc ~700 stránek po 1,5 s + 2× ~110 stránek po 3 s.
+- 26. 11. večer (v3.10.1): na přání uživatele stačí noční aktualizace – `blizke.yml` už se automaticky nespouští (jen ručně z Actions).
+- **Kontrola noční aktualizace** (`kontrola.yml`, 6:43 UTC, `pipeline/kontrola_behu.py`): ověří, že web (`/data/sezony.json`) má data z dnešní noci,
+  a přečte `data/posledni_beh.json` (zapisuje noční `update.py --auto`: čas, chyby, počty HTTP 429/503). Při problému pošle e-mail přes FormSubmit
+  AJAX na adresu z GitHub secretu `NOTIFY_EMAIL` (osobní adresa uživatele – v repozitáři ji kvůli robotům neuvádět) a job skončí chybou.
+  Ruční spuštění (Run workflow, volba test) pošle zkušební e-mail. První zpráva na novou adresu = aktivační e-mail FormSubmit, nutno potvrdit.

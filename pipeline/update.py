@@ -457,6 +457,9 @@ def main():
     from common import Http
     if Http.stav():
         print("omezení serverů (HTTP 429/503) za běh:", Http.stav(), flush=True)
+    if a.auto and not a.bez_stahovani:   # záznam o nočním běhu pro ranní kontrolu (pipeline/kontrola_behu.py)
+        save("posledni_beh.json", {"cas": dt.datetime.now().astimezone().isoformat(timespec="minutes"), "sezony": seasons,
+                                   "chyby": CHYBY, "omezeni": Http.stav()})
     for c in CHYBY:   # upozornění v souhrnu běhu GitHub Actions; data, která se podařilo stáhnout, se uloží a nasadí
         print(f"::warning::{c}", flush=True)
 
