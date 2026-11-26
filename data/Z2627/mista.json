@@ -2476,14 +2476,15 @@
   "klic": "svaz:cts:106700",
   "poradatel": "ČTS",
   "adresa": "Padlých hrdinů 401/10a, Havířov - Životice",
-  "zdroj": "loni",
-  "region": "ČTS",
+  "zdroj": "svaz_rozpis",
+  "region": "Severomoravský",
   "lat": 49.764717,
   "lon": 18.470503,
   "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.02,
-  "geokod": "RÚIAN: Padlých hrdinů 401/10a, Životice, 73601 Havířov"
+  "geokod": "RÚIAN: Padlých hrdinů 401/10a, Životice, 73601 Havířov",
+  "poznamka": "odhad podle kontaktní osoby turnaje: Tennis Hill Havířov o.s."
  },
  "svaz:cts:306700": {
   "klic": "svaz:cts:306700",
@@ -2712,15 +2713,16 @@
  "svaz:jihomoravsky:406940": {
   "klic": "svaz:jihomoravsky:406940",
   "poradatel": "jihomoravský",
-  "adresa": "Janáčkovo stromořadí 156, Třebíč",
-  "zdroj": "loni",
+  "adresa": "Bubeníčkova 52, Brno",
+  "zdroj": "svaz_rozpis",
   "region": "Jihomoravský",
-  "lat": 49.213504,
-  "lon": 15.896066,
+  "lat": 49.19957,
+  "lon": 16.641809,
   "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.03,
-  "geokod": "RÚIAN: Janáčkovo stromořadí 156, Jejkov, 67401 Třebíč"
+  "nazev_mista": "ŽLTC",
+  "osm_vzdalenost_km": 0.14,
+  "geokod": "RÚIAN: Bubeníčkova 4248/52, Židenice, 61500 Brno",
+  "poznamka": "odhad podle kontaktní osoby turnaje: ŽLTC Brno"
  },
  "svaz:jihomoravsky:506940": {
   "klic": "svaz:jihomoravsky:506940",
@@ -2754,14 +2756,15 @@
   "klic": "svaz:jihomoravsky:706940",
   "poradatel": "jihomoravský",
   "adresa": "Bubeníčkova 52, Brno",
-  "zdroj": "loni",
+  "zdroj": "svaz_rozpis",
   "region": "Jihomoravský",
-  "lat": 49.200375,
-  "lon": 16.641395,
+  "lat": 49.19957,
+  "lon": 16.641809,
   "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.04,
-  "geokod": "RÚIAN: Bubeníčkova 4248/52, Židenice, 61500 Brno"
+  "nazev_mista": "ŽLTC",
+  "osm_vzdalenost_km": 0.14,
+  "geokod": "RÚIAN: Bubeníčkova 4248/52, Židenice, 61500 Brno",
+  "poznamka": "odhad podle kontaktní osoby turnaje: ŽLTC Brno"
  },
  "svaz:jihomoravsky:706941": {
   "klic": "svaz:jihomoravsky:706941",
@@ -2781,14 +2784,15 @@
   "klic": "svaz:jihomoravsky:806940",
   "poradatel": "jihomoravský",
   "adresa": "Lužánecká 7, Brno",
-  "zdroj": "loni",
+  "zdroj": "svaz_rozpis",
   "region": "Jihomoravský",
   "lat": 49.205658,
   "lon": 16.611204,
   "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.03,
-  "geokod": "RÚIAN: Lužánecká 2016/7, Černá Pole, 60200 Brno"
+  "geokod": "RÚIAN: Lužánecká 2016/7, Černá Pole, 60200 Brno",
+  "poznamka": "odhad podle kontaktní osoby turnaje: BLTC Brno"
  },
  "svaz:praha:106800": {
   "klic": "svaz:praha:106800",
@@ -2820,14 +2824,15 @@
   "klic": "svaz:praha:306800",
   "poradatel": "Praha",
   "adresa": "Radlická 298/105, Praha 5",
-  "zdroj": "loni",
+  "zdroj": "svaz_rozpis",
   "region": "Praha",
-  "lat": 50.058796,
-  "lon": 14.392414,
+  "lat": 50.057598,
+  "lon": 14.393913,
   "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": 0.14,
-  "geokod": "RÚIAN: Radlická 298/105, Radlice, 15000 Praha 5"
+  "nazev_mista": "Sportcentrum Radlice",
+  "osm_vzdalenost_km": 0.24,
+  "geokod": "RÚIAN: Radlická 298/105, Radlice, 15000 Praha 5",
+  "poznamka": "odhad podle kontaktní osoby turnaje: TJ Radlice z.s."
  },
  "svaz:praha:406800": {
   "klic": "svaz:praha:406800",
@@ -2860,14 +2865,15 @@
   "klic": "svaz:praha:606800",
   "poradatel": "Praha",
   "adresa": "Mezi sklady 3/107, Praha 4",
-  "zdroj": "loni",
+  "zdroj": "svaz_rozpis",
   "region": "Praha",
   "lat": 50.035556,
   "lon": 14.430826,
   "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: Mezi sklady 107/3, Krč, 14000 Praha 4"
+  "geokod": "RÚIAN: Mezi sklady 107/3, Krč, 14000 Praha 4",
+  "poznamka": "odhad podle kontaktní osoby turnaje: Tenisový klub KONSTRUKTIVA, z.s."
  },
  "svaz:praha:706800": {
   "klic": "svaz:praha:706800",
@@ -2978,15 +2984,16 @@
  "svaz:severocesky:406900": {
   "klic": "svaz:severocesky:406900",
   "poradatel": "severočeský",
-  "adresa": "Na letné 412/7, Teplice",
-  "zdroj": "loni",
+  "adresa": "Heroutova 1778, Česká Lípa",
+  "zdroj": "svaz_rozpis",
   "region": "Severočeský",
-  "lat": 50.638083,
-  "lon": 13.833268,
+  "lat": 50.690611,
+  "lon": 14.523798,
   "presnost": "odhad",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Na Letné 412/7, 41501 Teplice"
+  "osm_vzdalenost_km": null,
+  "geokod": "RÚIAN: Heroutova 1778/19, 47001 Česká Lípa",
+  "poznamka": "odhad podle kontaktní osoby turnaje: TK SLOVANKA Č. Lípa"
  },
  "svaz:severocesky:506900": {
   "klic": "svaz:severocesky:506900",
@@ -3005,15 +3012,16 @@
  "svaz:severocesky:606900": {
   "klic": "svaz:severocesky:606900",
   "poradatel": "severočeský",
-  "adresa": "Pod Koňským vrchem 1159, Most",
-  "zdroj": "loni",
+  "adresa": "Alej 17.listopadu 265, Roudnice nad Labem",
+  "zdroj": "svaz_rozpis",
   "region": "Severočeský",
-  "lat": 50.496691,
-  "lon": 13.618927,
+  "lat": 50.423998,
+  "lon": 14.248406,
   "presnost": "odhad",
-  "nazev_mista": "Tenisové kurty",
-  "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: Pod Koňským vrchem 1159/5, 43401 Most"
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Alej 17. listopadu 265, 41301 Roudnice nad Labem",
+  "poznamka": "odhad podle kontaktní osoby turnaje: TK Roudnice n.L."
  },
  "svaz:severocesky:706900": {
   "klic": "svaz:severocesky:706900",
@@ -3353,15 +3361,16 @@
  "svaz:stredocesky:306830": {
   "klic": "svaz:stredocesky:306830",
   "poradatel": "středočeský",
-  "adresa": "Houštka 1259, Stará Boleslav",
-  "zdroj": "loni",
+  "adresa": "V Chobotě 2112, Říčany",
+  "zdroj": "svaz_rozpis",
   "region": "Středočeský",
-  "lat": 50.189356,
-  "lon": 14.6915,
+  "lat": 49.981923,
+  "lon": 14.658103,
   "presnost": "odhad",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.03,
-  "geokod": "RÚIAN: Houštka 1259, Stará Boleslav, 25001 Brandýs nad Labem-Stará Boleslav"
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: V Chobotě 2112/21, 25101 Říčany",
+  "poznamka": "odhad podle kontaktní osoby turnaje: Pliskova Tennis Academy-Říčany"
  },
  "svaz:stredocesky:406830": {
   "klic": "svaz:stredocesky:406830",
@@ -3380,15 +3389,16 @@
  "svaz:stredocesky:506830": {
   "klic": "svaz:stredocesky:506830",
   "poradatel": "středočeský",
-  "adresa": "Brodská 134, Příbram",
-  "zdroj": "loni",
+  "adresa": "Na Studánkách 2590, Rakovník",
+  "zdroj": "svaz_rozpis",
   "region": "Středočeský",
-  "lat": 49.668273,
-  "lon": 13.999942,
+  "lat": 50.104719,
+  "lon": 13.714258,
   "presnost": "odhad",
-  "nazev_mista": "",
+  "nazev_mista": "Tenis Centrum CAFEX, s.r.o.",
   "osm_vzdalenost_km": 0.08,
-  "geokod": "RÚIAN: Brodská 134, Příbram VIII, 26101 Příbram"
+  "geokod": "RÚIAN: Na Studánkách 2590, Rakovník II, 26901 Rakovník",
+  "poznamka": "odhad podle kontaktní osoby turnaje: SK TALENT 13 - spolek"
  },
  "svaz:stredocesky:606830": {
   "klic": "svaz:stredocesky:606830",
@@ -3408,63 +3418,71 @@
   "klic": "svaz:stredocesky:706830",
   "poradatel": "středočeský",
   "adresa": "V Chobotě 2112, Říčany",
-  "zdroj": "loni",
+  "zdroj": "svaz_rozpis",
   "region": "Středočeský",
   "lat": 49.981923,
   "lon": 14.658103,
   "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: V Chobotě 2112/21, 25101 Říčany"
+  "geokod": "RÚIAN: V Chobotě 2112/21, 25101 Říčany",
+  "poznamka": "odhad podle kontaktní osoby turnaje: Pliskova Tennis Academy-Říčany"
  },
  "svaz:stredocesky:806830": {
   "klic": "svaz:stredocesky:806830",
   "poradatel": "středočeský",
-  "adresa": "Viničná 201, Dobřichovice",
-  "zdroj": "loni",
+  "adresa": "Bezděčín 90, Mladá Boleslav",
+  "zdroj": "svaz_rozpis",
   "region": "Středočeský",
-  "lat": 49.930233,
-  "lon": 14.274005,
+  "lat": 50.383322,
+  "lon": 14.894967,
   "presnost": "odhad",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "RÚIAN: Viničná 201, 25229 Dobřichovice"
+  "osm_vzdalenost_km": 0.21,
+  "geokod": "RÚIAN: Bezděčín 90, 29301 Mladá Boleslav",
+  "poznamka": "odhad podle kontaktní osoby turnaje: TK SPORTCENTRUM Mladá Boleslav"
  },
  "svaz:stredocesky:906072": {
   "klic": "svaz:stredocesky:906072",
   "poradatel": "středočeský",
-  "adresa": "",
-  "zdroj": "nezname",
+  "adresa": "Na Studánkách 2590, Rakovník",
+  "zdroj": "svaz_rozpis",
   "region": "Středočeský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "lat": 50.104719,
+  "lon": 13.714258,
+  "presnost": "odhad",
+  "nazev_mista": "Tenis Centrum CAFEX, s.r.o.",
+  "osm_vzdalenost_km": 0.08,
+  "geokod": "RÚIAN: Na Studánkách 2590, Rakovník II, 26901 Rakovník",
+  "poznamka": "odhad podle kontaktní osoby turnaje: SK TALENT 13 - spolek"
  },
  "svaz:stredocesky:906641": {
   "klic": "svaz:stredocesky:906641",
   "poradatel": "středočeský",
-  "adresa": "",
-  "zdroj": "nezname",
+  "adresa": "Sadová, Březnice",
+  "zdroj": "svaz_rozpis",
   "region": "Středočeský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "lat": 49.562872,
+  "lon": 13.952289,
+  "presnost": "odhad",
+  "nazev_mista": "Sportcentrum Vitality, s.r.o.",
+  "osm_vzdalenost_km": 0.18,
+  "geokod": "OSM: Sadová, Přední Poříčí, Březnice, okres Příbram, Středočeský kraj, 262 72, Česko",
+  "poznamka": "odhad podle kontaktní osoby turnaje: TC VITALITY Březnice"
  },
  "svaz:stredocesky:906658": {
   "klic": "svaz:stredocesky:906658",
   "poradatel": "středočeský",
-  "adresa": "",
-  "zdroj": "nezname",
+  "adresa": "V Chobotě 2112, Říčany",
+  "zdroj": "svaz_rozpis",
   "region": "Středočeský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
+  "lat": 49.981923,
+  "lon": 14.658103,
+  "presnost": "odhad",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: V Chobotě 2112/21, 25101 Říčany",
+  "poznamka": "odhad podle kontaktní osoby turnaje: Pliskova Tennis Academy-Říčany"
  },
  "svaz:vychodocesky:106920": {
   "klic": "svaz:vychodocesky:106920",
@@ -3677,14 +3695,16 @@
  "svaz:zapadocesky:906076": {
   "klic": "svaz:zapadocesky:906076",
   "poradatel": "západočeský",
-  "adresa": "",
-  "zdroj": "nezname",
+  "adresa": "Úslavská 75 , Plzeň",
+  "zdroj": "svaz_rozpis",
   "region": "Západočeský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
+  "lat": 49.739809,
+  "lon": 13.398284,
+  "presnost": "odhad",
   "nazev_mista": "",
-  "osm_vzdalenost_km": null
+  "osm_vzdalenost_km": 0.2,
+  "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň",
+  "poznamka": "odhad podle kontaktní osoby turnaje: TK Lokomotiva Plzeň z.s."
  },
  "svaz:zapadocesky:906677": {
   "klic": "svaz:zapadocesky:906677",
@@ -3715,14 +3735,15 @@
  "svaz:zapadocesky:906704": {
   "klic": "svaz:zapadocesky:906704",
   "poradatel": "západočeský",
-  "adresa": "Úslavská 75 (tenisový areál), Plzeň",
-  "zdroj": "loni",
+  "adresa": "Úslavská 75 , Plzeň",
+  "zdroj": "svaz_rozpis",
   "region": "Západočeský",
   "lat": 49.739809,
   "lon": 13.398284,
   "presnost": "odhad",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.2,
-  "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň"
+  "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň",
+  "poznamka": "odhad podle kontaktní osoby turnaje: TK Lokomotiva Plzeň z.s."
  }
 }

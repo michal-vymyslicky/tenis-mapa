@@ -233,3 +233,4 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   název klubu z adresáře ČTS, dostane místo tohoto klubu (poznámka „místo podle názvu turnaje“).
 - 26. 11.: 15 přeborů/HMČR bez adresy dostalo místo **odhadem podle kontaktní osoby** (e-mailová doména klubu, `mista_svaz.csv` se zdrojem „odhad podle kontaktní osoby…“) – v aplikaci dál jako odhad (vykřičník, červený rámeček, poznámka). Až ČTS doplní adresu, má přednost.
 - v3.11.2: u turnajů Tennis Europe s nejistou polohou text a odkaz na detail turnaje na webu Tennis Europe (dřív obecná věta o ČTS / cesky-tenis.cz); varování v detailu místa rozlišuje ČTS a TE.
+- 26. 11.: místa přeborů odvozena i z **opakovaného kontaktu** – stejná kontaktní osoba/e-mail/telefon u klubových turnajů (všechny uložené sezóny) → klub (dalších 18 soutěží v `mista_svaz.csv`). Přehled všech nejistých míst ČTS: tabulka T14 (`skripty/nejista_mista_cts.py` ve složce Tenis Data).
