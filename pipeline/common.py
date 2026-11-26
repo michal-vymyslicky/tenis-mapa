@@ -30,6 +30,24 @@ def save(name, obj, folder=DATA, indent=1):
     os.replace(tmp, p)
 
 
+OMEZENI = "omezeni.json"     # data/omezeni.json – {host: {"do": ISO čas, "duvod": …}} sdílené omezení webů (Retry-After)
+
+
+def omezeni_aktivni(host):
+    """Vrátí čas (ISO), do kdy web požádal o pauzu (HTTP 429/503 s dlouhým Retry-After), nebo None."""
+    o = (load(OMEZENI, {}) or {}).get(host)
+    if o and o.get("do", "") > time.strftime("%Y-%m-%dT%H:%M:%S%z"):
+        return o["do"]
+    return None
+
+
+def uloz_omezeni(host, sekund, duvod=""):
+    o = load(OMEZENI, {}) or {}
+    do = time.strftime("%Y-%m-%dT%H:%M:%S%z", time.localtime(time.time() + sekund))
+    o[host] = {"do": do, "duvod": duvod, "zapsano": time.strftime("%Y-%m-%dT%H:%M:%S%z")}
+    save(OMEZENI, o)
+
+
 class RateLimited(RuntimeError):
     """Server opakovaně odmítá požadavky (HTTP 429/503) – stahování z tohoto webu se pro tento běh vzdává."""
 
@@ -56,6 +74,9 @@ class Http:
 
     @classmethod
     def _check(cls, host):
+        om = omezeni_aktivni(host)
+        if om:
+            raise RateLimited(f"{host}: web požádal o pauzu do {om} (data/omezeni.json) – nestahuji")
         with cls._lock:
             st = cls._st(host)
             if st["streak"] >= cls.MAX_STREAK or st["total"] >= cls.MAX_TOTAL:
@@ -71,6 +92,8 @@ class Http:
             ra = int(err.headers.get("Retry-After") or 0)
         except (TypeError, ValueError, AttributeError):
             pass
+        if ra >= 600:                   # web žádá dlouhou pauzu – uložit pro všechny skripty a nečekat
+            uloz_omezeni(host, ra, f"HTTP {getattr(err, 'code', '')} Retry-After {ra}")
         with cls._lock:
             st = cls._st(host)
             st["streak"] += 1; st["total"] += 1

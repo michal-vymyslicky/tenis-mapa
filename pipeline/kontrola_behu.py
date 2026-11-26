@@ -63,6 +63,10 @@ def main():
                 problemy.append("Noční běh doběhl s upozorněními:\n- " + "\n- ".join(beh["chyby"]))
             if beh.get("omezeni"):
                 problemy.append(f"Servery omezovaly požadavky (HTTP 429/503): {beh['omezeni']}")
+        v = beh.get("vysledky") or {}
+        if v.get("cas", "")[:10] == d.isoformat() and (v.get("souhrn", {}).get("omezeno") or v.get("souhrn", {}).get("chyba")):
+            problemy.append(f"Sběr výsledků turnajů (vysledky.py) skončil s omezením/chybou: {v.get('souhrn')} – "
+                            f"web požádal o pauzu, další pokus až po jejím vypršení (data/omezeni.json).")
     except FileNotFoundError:
         pass
     if test:

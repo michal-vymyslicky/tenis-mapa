@@ -39,6 +39,11 @@ jobs:
         run: |
           if [ -f data/clubs.json ]; then python3 pipeline/update.py --auto; else python3 pipeline/update.py --auto --kluby; fi
           python3 pipeline/kontrola_mist.py || true
+      - name: Sběr výsledků turnajů pro Tenis Data (2 dny po dohrání, max. 300 stránek, 4 s pauza, stop při 429)
+        if: github.event_name != 'push'
+        env:
+          TZ: Europe/Prague
+        run: python3 pipeline/vysledky.py --auto --max 300 --pauza 4 || true
       - name: Uložení změn dat do repozitáře
         if: github.event_name != 'push'
         run: |
