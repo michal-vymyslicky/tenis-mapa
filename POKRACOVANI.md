@@ -143,3 +143,14 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
 - Nově `nasazeni.yml` (workflow_run po „Denní aktualizace turnajů“ / „Doplnění sezóny“, i ručně Run workflow): checkout main =
   nový commit s daty → upload → deploy (při chybě po 60 s druhý pokus). `aktualizace.yml` nasazuje sám už jen při push; `doplneni.yml` vůbec.
 - Kontrola, co web opravdu servíruje: `curl -sI https://turnajovamapa.cz/data/sezony.json` (last-modified) a pole `aktualizace`.
+
+## v3.6 – jedno místo = jeden špendlík, hlášení přes AJAX (26. 11. 2026)
+- **Sloučení míst (`mergeVenues()` v app.js):** záznamy míst se stejným bodem (lat/lon na 5 des. míst) se v klientu sloučí do jednoho
+  špendlíku se společným počtem turnajů. Typicky oblastní přebor (pořadatel = svaz, místo z loňska / rozpisu svazu) vs. turnaje klubu
+  v témže areálu (dřív např. Houštka: špendlík A s 13 turnaji + zvlášť P přebor). Za místo se bere nejlepší záznam (přesnost → zdroj detail →
+  klub před svazem → název místa). Turnaj si pamatuje původní místo `e.mo`: filtr odhadnutých míst, čárkovaný špendlík (jen když jsou odhadem
+  všechny turnaje místa), poznámka v kartě turnaje („Odhad: místo loňského ročníku“) a kontext hlášení se řídí původním místem.
+  Data/pipeline beze změny. Z2627: 260 → 181 míst s turnaji.
+- **Hlášení problému:** odesílá se `fetch` na `https://formsubmit.co/ajax/<adresa>` (JSON odpověď, chybová zpráva FormSubmit se ukáže
+  v hlášce) místo skrytého formuláře do iframe – ve Firefoxu iframe nedal výsledek a po 20 s se ukázalo „nepodařilo“. Když odeslání se snímkem
+  selže, zkusí se znovu bez snímku. Skrytý iframe `repFrame` z index.html odstraněn. Service worker cache v21.

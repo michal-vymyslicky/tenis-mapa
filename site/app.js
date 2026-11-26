@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.5";
+const APP_VERSION = "v3.6";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -208,8 +208,8 @@ function evMatches(e, opt = {}) {
   if (F.cls.length && !F.cls.includes(e.tr || "")) return false;
   if (!surfMatch(e)) return false;
   if (F.free && !hasFree(e)) return false;
-  const v = VEN[e.misto];
-  if (!F.guess && v && (v.presnost === "odhad" || v.presnost === "nezname")) return false;
+  const v = VEN[e.misto], vo = VEN[e.mo ?? e.misto];
+  if (!F.guess && vo && (vo.presnost === "odhad" || vo.presnost === "nezname")) return false;
   if (F.text) { const t = F.text.toLowerCase(); if (!(`${e.nz} ${e.por} ${v?.adresa || ""} ${v?.nazev_mista || ""} ${e.km} ${e.kz}`.toLowerCase().includes(t))) return false; }
   if (F.favOnly && !FAV.has(e.id)) return false;
   if (F.players.length && HR) {
@@ -253,7 +253,7 @@ function render() {
     const v = VEN[vi];
     const active = evs.filter(e => e.st !== "zruseno");
     const best = (active.length ? active : evs).map(e => e.tr || "").sort((a, b) => CLASS_ORDER.indexOf(a) - CLASS_ORDER.indexOf(b))[0];
-    const m = L.marker([v.lat, v.lon], {icon: pinIcon(colorOf(best, !active.length), evs.length, ["odhad", "obec", "areal_obec"].includes(v.presnost), evs.some(e => FAV.has(e.id)), best),
+    const m = L.marker([v.lat, v.lon], {icon: pinIcon(colorOf(best, !active.length), evs.length, evs.every(e => guessy(VEN[e.mo ?? e.misto])), evs.some(e => FAV.has(e.id)), best),
       title: `${v.nazev_mista || v.poradatel} (${evs.length})`});
     m.on("click", () => openVenue(vi, {move: false}));
     markers.push(m);
@@ -614,6 +614,7 @@ function card(e) {
       ${e.mic ? `<div><span>${T("Míče")}</span>${esc(e.mic)}</div>` : ""}${e.vk ? `<div><span>${T("Vklad")}</span>${e.vk} ${EN ? "CZK" : "Kč"}</div>` : ""}
       ${e.prez ? `<div><span>${T("Prezentace")}</span>${esc(prezText(e.prez))}</div>` : ""}<div><span>${T("Pořadatel")}</span>${esc(e.por)}</div></div>
     ${zr ? `<div class="note">${e.zrus ? T("Turnaj zmizel z termínové listiny {d} – ověřte na webu ČTS.", {d: esc(fmtRange(e.zrus))}) : T("Turnaj je v listině označen jako zrušený – ověřte na webu ČTS.")}</div>` : ""}
+    ${!zr && e.mo != null && e.mo !== e.misto && VEN[e.mo] && VEN[e.mo].presnost !== "areal" ? `<div class="note">${esc((PREC[VEN[e.mo].presnost] || PREC.nezname)[1])}${VEN[e.mo].poznamka ? " · " + esc(VEN[e.mo].poznamka) : ""}</div>` : ""}
     <div class="links">${linkSet(e)}</div>
     <span class="reportlink" data-report-ev="${esc(e.id)}">${T("Nahlásit chybu u tohoto turnaje")}</span></div>`;
 }
@@ -775,7 +776,7 @@ function setShot(blob) {
 function ctxLines() {
   const L1 = [];
   const e = ctx.ev ? EV.find(x => x.id === ctx.ev) : null;
-  const vi = e ? e.misto : ctx.venue;
+  const vi = e ? (e.mo ?? e.misto) : ctx.venue;
   const v = vi != null ? VEN[vi] : null;
   if (e) L1.push(`Turnaj: ${e.nz || e.por} | ${CAT_SHORT[e.kat]} | ${e.txt} | třída ${e.tr || "-"} | kódy ${[e.km, e.kz].filter(Boolean).join(", ")} | ${e.st === "zruseno" ? "ZRUŠENO" : "aktivní"}`,
     e.src === "te" ? `Odkaz TE: ${TEURL}${e.id.slice(3)}` : `Odkaz ČTS: ${CTS}${e.km || e.kz}?sezona=${DATA.meta.sezona}&tab=seznam`);
@@ -838,29 +839,40 @@ $("#repSend").onclick = () => {
   if (!$("#repText").value.trim() && !repType) { toast(T("Vyberte typ problému nebo napište krátký popis.")); return; }
   sendForm();
 };
-function sendForm() {
-  const btn = $("#repSend"); btn.disabled = true; btn.textContent = T("Odesílám…");
-  const f = document.createElement("form");
-  f.method = "POST"; f.action = "https://formsubmit.co/" + REPORT_FORM; f.enctype = "multipart/form-data"; f.target = "repFrame"; f.hidden = true;
-  const add = (n, v) => { const i = document.createElement("input"); i.type = "hidden"; i.name = n; i.value = v; f.appendChild(i); };
-  add("_subject", reportSubject()); add("_template", "table"); add("_captcha", "false"); add("_honey", "");
-  add("Typ", repType || "neuvedeno"); add("Popis", $("#repText").value.trim() || "(bez popisu)");
+function reportData() {
+  const fd = new FormData();
+  fd.append("_subject", reportSubject()); fd.append("_template", "table"); fd.append("_captcha", "false"); fd.append("_honey", "");
+  fd.append("Typ", repType || "neuvedeno"); fd.append("Popis", $("#repText").value.trim() || "(bez popisu)");
   const contact = $("#repContact").value.trim();
-  if (contact) { add("Kontakt", contact); add("_replyto", contact); }
-  add("Kontext", ctxLines().join("\n"));
-  if (shot) {
-    const fi = document.createElement("input"); fi.type = "file"; fi.name = "attachment";
-    const dt = new DataTransfer(); dt.items.add(new File([shot], `snimek-${iso(new Date())}.jpg`, {type: shot.type || "image/jpeg"})); fi.files = dt.files; f.appendChild(fi);
-  }
-  document.body.appendChild(f);
-  const frame = $("#repFrame");
-  let done = false;
-  const finish = ok => { if (done) return; done = true; btn.disabled = false; btn.textContent = T("Odeslat hlášení"); f.remove();
-    if (ok) { toast(T("Děkujeme, hlášení bylo odesláno.")); $("#repText").value = ""; setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on")); $("#btnBack").click(); }
-    else toast(T("Odeslání se možná nepovedlo – zkuste „Poslat raději vlastním e-mailem“.")); };
-  frame.onload = () => finish(true);
-  setTimeout(() => finish(false), 20000);
-  f.submit();
+  if (contact) { fd.append("Kontakt", contact); fd.append("_replyto", contact); }
+  fd.append("Kontext", ctxLines().join("\n"));
+  return fd;
+}
+function reportDone(ok, msg) {
+  const btn = $("#repSend"); btn.disabled = false; btn.textContent = T("Odeslat hlášení");
+  if (ok) { toast(T("Děkujeme, hlášení bylo odesláno.")); $("#repText").value = ""; setShot(null); repType = ""; $$("#repType button").forEach(b => b.classList.remove("on")); $("#btnBack").click(); }
+  else toast(T("Odeslání se nepovedlo – zkuste „Poslat raději vlastním e-mailem“.") + (msg ? " (" + msg + ")" : ""));
+}
+/* FormSubmit AJAX (fetch, JSON odpověď) – funguje ve všech prohlížečích; dřívější odeslání do skrytého iframe
+   ve Firefoxu nedávalo zprávu o výsledku (načtení iframe z cizí domény), proto se hlásilo „nepodařilo“. */
+async function sendForm() {
+  const btn = $("#repSend"); btn.disabled = true; btn.textContent = T("Odesílám…");
+  const url = "https://formsubmit.co/ajax/" + REPORT_FORM;
+  const post = async withShot => {
+    const fd = reportData();
+    if (withShot && shot) fd.append("attachment", new File([shot], `snimek-${iso(new Date())}.jpg`, {type: shot.type || "image/jpeg"}));
+    const ctl = new AbortController(), tm = setTimeout(() => ctl.abort(), 30000);
+    try {
+      const r = await fetch(url, {method: "POST", body: fd, headers: {Accept: "application/json"}, signal: ctl.signal});
+      let js = null; try { js = await r.json(); } catch {}
+      return {ok: r.ok && js && String(js.success) === "true", msg: js && js.message ? String(js.message) : "HTTP " + r.status};
+    } finally { clearTimeout(tm); }
+  };
+  try {
+    let res = await post(true);
+    if (!res.ok && shot) { const r2 = await post(false); if (r2.ok) { res = r2; toast(T("Hlášení odesláno bez snímku.")); } }
+    reportDone(res.ok, res.ok ? "" : res.msg);
+  } catch (err) { reportDone(false, err && err.name === "AbortError" ? T("vypršel čas") : (err && err.message) || ""); }
 }
 $("#repMail").onclick = async () => {
   if (!REPORT_EMAIL) return;
@@ -1108,6 +1120,24 @@ $("#btnLang").onclick = () => window.I18N && I18N.set(otherLang);
 $("#aboutLang").textContent = otherLang === "en" ? "English version" : "Česká verze";
 $("#aboutLang").onclick = ev => { ev.preventDefault(); window.I18N && I18N.set(otherLang); };
 
+/* Stejný bod na mapě = jedno místo (jeden špendlík, společný počet turnajů). Data mají pro jeden areál někdy víc záznamů místa –
+   např. oblastní přebor (pořadatel = svaz, místo z loňska nebo z rozpisu svazu) a turnaje klubu (adresa z detailu / z adresáře).
+   Turnaj si v e.mo pamatuje původní místo (přesnost, odhad, hlášení chyb). */
+const PREC_RANK = {areal: 0, adresa: 1, areal_obec: 2, obec: 3, odhad: 4, nezname: 5};
+function venueScore(v) {
+  return (PREC_RANK[v.presnost] ?? 6) * 100 + (v.zdroj === "te" ? 50 : 0) + (v.zdroj === "detail" ? 0 : 10)
+    + (/^[a-zà-ž]/.test(v.poradatel || "") || /svaz|ČTS/i.test(v.poradatel || "") ? 20 : 0) + (v.nazev_mista ? 0 : 1);
+}
+function mergeVenues() {
+  const key = v => v.lat.toFixed(5) + "," + v.lon.toFixed(5), best = new Map();
+  VEN.forEach((v, i) => { if (!v || v.lat == null) return; const k = key(v), j = best.get(k); if (j == null || venueScore(v) < venueScore(VEN[j])) best.set(k, i); });
+  for (const e of EV) {
+    if (e.mo == null) e.mo = e.misto;
+    const v = VEN[e.mo]; e.misto = v && v.lat != null ? best.get(key(v)) : e.mo;
+  }
+}
+const guessy = v => !!v && ["odhad", "obec", "areal_obec"].includes(v.presnost);
+
 /* ---------- start ---------- */
 setSnap("peek");
 /* sezóny: výchozí = poslední už začatá (aktuální), uložená volba uživatele má přednost, pokud sezóna existuje */
@@ -1126,6 +1156,7 @@ function loadSeason(id, opt = {}) {
       const xs = te.turnaje.filter(e => (e.do || e.od) >= si0.od && e.od <= end).map(e => Object.assign({}, e, {misto: e.misto + off}));
       if (xs.length) { EV = EV.concat(xs); VEN = VEN.concat(te.mista); }
     }
+    mergeVenues();
     for (const e of EV) (byVenue.get(e.misto) || byVenue.set(e.misto, []).get(e.misto)).push(e);
     const si = sezInfo();
     if (opt.reset) { F.from = isArchive() ? si.od : (si.od > iso(today) ? si.od : iso(today)); F.to = ""; }
