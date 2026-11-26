@@ -3570,28 +3570,30 @@
  "klub:tj slavoj tesla hloubetin z s": {
   "klic": "klub:tj slavoj tesla hloubetin z s",
   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-  "adresa": "Hloubětínská 1061, Praha 9",
+  "adresa": "Hloubětínská 1061/1, Praha 9",
   "zdroj": "adresar",
   "region": "Praha",
-  "lat": 50.105106,
-  "lon": 14.535804,
-  "presnost": "areal",
-  "nazev_mista": "bazén Hloubětín",
+  "lat": 50.100475,
+  "lon": 14.532949,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Slavoj Tesla Hloubětín",
   "osm_vzdalenost_km": 0.51,
-  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9"
+  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty 70 m od adresy (dříve chybně bazén Hloubětín)"
  },
  "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9": {
   "klic": "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9",
   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-  "adresa": "Hloubětínská 1061, Praha 9",
+  "adresa": "Hloubětínská 1061/1, Praha 9",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.105106,
-  "lon": 14.535804,
-  "presnost": "areal",
-  "nazev_mista": "bazén Hloubětín",
+  "lat": 50.100475,
+  "lon": 14.532949,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Slavoj Tesla Hloubětín",
   "osm_vzdalenost_km": 0.51,
-  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9"
+  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty 70 m od adresy (dříve chybně bazén Hloubětín)"
  },
  "klub:tj sloup": {
   "klic": "klub:tj sloup",
@@ -3821,15 +3823,16 @@
  "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba": {
   "klic": "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba",
   "poradatel": "TJ Start Ostrava - Poruba, z.s.",
-  "adresa": "Slavíkova 6055/14, Ostrava - Poruba",
+  "adresa": "Slavíkova 6055/14, Ostrava-Poruba",
   "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.832456,
-  "lon": 18.181768,
-  "presnost": "areal",
-  "nazev_mista": "Koupaliště Ostrava-Poruba",
+  "lat": 49.838217,
+  "lon": 18.175449,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Start Ostrava-Poruba",
   "osm_vzdalenost_km": 0.65,
-  "geokod": "RÚIAN: Slavíkova 6055/14, Poruba, 70800 Ostrava"
+  "geokod": "RÚIAN: Slavíkova 6055/14, Poruba, 70800 Ostrava",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – areál 8 kurtů 190 m od adresy (dříve chybně koupaliště Poruba)"
  },
  "klub:tj tk neratovice": {
   "klic": "klub:tj tk neratovice",
@@ -4276,28 +4279,30 @@
  "klub:tk drnovice": {
   "klic": "klub:tk drnovice",
   "poradatel": "TK Drnovice",
-  "adresa": "Brněnská 122, Vyškov",
+  "adresa": "Drnovice u Vyškova (sídlo Brněnská 122, Vyškov)",
   "zdroj": "adresar",
   "region": "Jihomoravský",
   "lat": 49.274464,
   "lon": 16.957022,
-  "presnost": "areal",
-  "nazev_mista": "Tenisová hala",
+  "presnost": "rucne",
+  "nazev_mista": "Tenis centrum Drnovice",
   "osm_vzdalenost_km": 1.77,
-  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov"
+  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisová hala Tenis centra Drnovice"
  },
  "klub:tk drnovice|brnenska 122 vyskov": {
   "klic": "klub:tk drnovice|brnenska 122 vyskov",
   "poradatel": "TK Drnovice",
-  "adresa": "Brněnská 122, Vyškov",
+  "adresa": "Drnovice u Vyškova (sídlo Brněnská 122, Vyškov)",
   "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.274464,
   "lon": 16.957022,
-  "presnost": "areal",
-  "nazev_mista": "Tenisová hala",
+  "presnost": "rucne",
+  "nazev_mista": "Tenis centrum Drnovice",
   "osm_vzdalenost_km": 1.77,
-  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov"
+  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisová hala Tenis centra Drnovice"
  },
  "klub:tk dubi": {
   "klic": "klub:tk dubi",
@@ -7412,15 +7417,14 @@
  "svaz:zapadocesky:916542": {
   "klic": "svaz:zapadocesky:916542",
   "poradatel": "západočeský",
-  "adresa": "Štěpánka 28, Mladá Boleslav",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Západočeský",
-  "lat": 50.409816,
-  "lon": 14.911844,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.13,
-  "geokod": "RÚIAN: Štěpánka 28, Mladá Boleslav III, 29301 Mladá Boleslav"
+  "osm_vzdalenost_km": null
  },
  "svaz:zapadocesky:916558": {
   "klic": "svaz:zapadocesky:916558",

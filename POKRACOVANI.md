@@ -216,3 +216,14 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   nejdéle 7 dní. Ověřeno v Playwright (Chromium, Firefox, WebKit/Safari) se simulovanou chybou serveru.
 - Omezení: frontu odešle jen stejný prohlížeč, až bude aplikace znovu otevřená. Pro vyšší spolehlivost lze doplnit druhou službu (např. Web3Forms
   – přístupový klíč získá uživatel zdarma na web3forms.com) jako zálohu.
+
+## v3.11.1 – pruh obsazenosti, kontrola míst (26. 11. 2026)
+- Pruhy „Hlavní soutěž / Kvalifikace“ nezačínaly vyplněné od začátku: CSS `.occ div.sub` (odsazení textu) se uplatnilo i na samotný pruh
+  (`div.bar5.sub`) → vnitřní odsazení 12 px; nově jen `div.sub:not(.bar5)`.
+- **Místo loňského ročníku jen při stejném pořadateli** (`venues.prev_poradatel()`): kódy turnajů se mezi ročníky recyklují, takže „loňské místo“
+  bylo u části přeborů jiného svazu/klubu (např. přebor středočeského svazu babytenis „ve Valašském Meziříčí“, pražský v Litvínově). Pořadatel
+  stejného kódu se ověří v uložené loňské listině (`data/<loňská sezóna>/lists.json`); jiný pořadatel → místo neznámé (bez špendlíku).
+- Ruční ověření dalších míst: TJ Slavoj Tesla Hloubětín (dříve bazén Hloubětín), TJ Start Ostrava-Poruba (dříve koupaliště Poruba) → kurty u adresy;
+  TK Drnovice = Tenis centrum Drnovice (potvrzeno). Kontrola automatických „areál“ s odstupem ≥ 250 m od adresy (17 míst) – ostatní v pořádku.
+- Zbývá nejisté: oblastní přebory a HMČR bez adresy v ČTS (30× odhad podle loňska), 16× neznámé; TJ Žďár n. S., TK DOMYNO P4, TK Krásné Březno,
+  TK Meziboří. Rozpisy svazů na zimu 2026/27 se nepodařilo dohledat (zatím jen Jihočeský TS v `mista_svaz.csv`).

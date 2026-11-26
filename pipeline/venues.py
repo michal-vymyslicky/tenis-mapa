@@ -276,6 +276,25 @@ def prev_season(season):
     return f"Z{y-1:02d}{y:02d}" if season[0] == "Z" else f"L{y-1:02d}"
 
 
+_PREV_POR = {}
+
+
+def prev_poradatel(code, season="Z2627"):
+    """Pořadatel turnaje se stejným kódem v loňském ročníku (z uložené listiny data/<sezóna>/lists.json), None = nevíme.
+    Kódy se mezi ročníky recyklují – stejný kód může loni patřit jinému svazu nebo klubu (26. 11. 2026: např. přebor
+    středočeského svazu „loni“ ve Valašském Meziříčí, pražský přebor v Litvínově)."""
+    ps = prev_season(season)
+    if ps not in _PREV_POR:
+        m = {}
+        for rows in (load(os.path.join(ps, "lists.json"), {}) or {}).values():
+            for r in rows:
+                for c in (r.get("kod_m"), r.get("kod_z")):
+                    if c:
+                        m[c] = r.get("poradatel", "")
+        _PREV_POR[ps] = m
+    return _PREV_POR[ps].get(code)
+
+
 def last_year_address(code, season="Z2627"):
     ps = prev_season(season)
     key = f"loni:{code}" if ps == "Z2526" else f"loni:{ps}:{code}"
@@ -363,7 +382,9 @@ def resolve(requests, clubs, old=None):
             addr, src = clean_addr(club["adresa"]), "svaz_rozpis"
         elif club:
             addr, src = clean_addr(club["adresa"]), "adresar"
-        elif code:
+        elif code and (prev_poradatel(code, rq.get("sezona", "Z2627")) in (None, por)
+                       or norm(prev_poradatel(code, rq.get("sezona", "Z2627")) or "") == norm(por)):
+            # místo loňského ročníku jen tehdy, když loni turnaj se stejným kódem pořádal tentýž svaz / pořadatel
             addr, src = last_year_address(code, rq.get("sezona", "Z2627")), "loni"
         else:
             addr, src = "", "nezname"

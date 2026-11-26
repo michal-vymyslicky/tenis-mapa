@@ -1398,28 +1398,30 @@
  "klub:tj slavoj tesla hloubetin z s": {
   "klic": "klub:tj slavoj tesla hloubetin z s",
   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-  "adresa": "Hloubětínská 1061, Praha 9",
+  "adresa": "Hloubětínská 1061/1, Praha 9",
   "zdroj": "adresar",
   "region": "Praha",
-  "lat": 50.105106,
-  "lon": 14.535804,
-  "presnost": "areal",
-  "nazev_mista": "bazén Hloubětín",
+  "lat": 50.100475,
+  "lon": 14.532949,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Slavoj Tesla Hloubětín",
   "osm_vzdalenost_km": 0.51,
-  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9"
+  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty 70 m od adresy (dříve chybně bazén Hloubětín)"
  },
  "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9": {
   "klic": "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9",
   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-  "adresa": "Hloubětínská 1061, Praha 9",
+  "adresa": "Hloubětínská 1061/1, Praha 9",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.105106,
-  "lon": 14.535804,
-  "presnost": "areal",
-  "nazev_mista": "bazén Hloubětín",
+  "lat": 50.100475,
+  "lon": 14.532949,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Slavoj Tesla Hloubětín",
   "osm_vzdalenost_km": 0.51,
-  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9"
+  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty 70 m od adresy (dříve chybně bazén Hloubětín)"
  },
  "klub:tj sokol dolni lhota|sportovni dolni lhota": {
   "klic": "klub:tj sokol dolni lhota|sportovni dolni lhota",
@@ -1492,15 +1494,16 @@
  "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba": {
   "klic": "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba",
   "poradatel": "TJ Start Ostrava - Poruba, z.s.",
-  "adresa": "Slavíkova 6055/14, Ostrava - Poruba",
+  "adresa": "Slavíkova 6055/14, Ostrava-Poruba",
   "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.832456,
-  "lon": 18.181768,
-  "presnost": "areal",
-  "nazev_mista": "Koupaliště Ostrava-Poruba",
+  "lat": 49.838217,
+  "lon": 18.175449,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Start Ostrava-Poruba",
   "osm_vzdalenost_km": 0.65,
-  "geokod": "RÚIAN: Slavíkova 6055/14, Poruba, 70800 Ostrava"
+  "geokod": "RÚIAN: Slavíkova 6055/14, Poruba, 70800 Ostrava",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – areál 8 kurtů 190 m od adresy (dříve chybně koupaliště Poruba)"
  },
  "klub:tj zatec z s|studentska 3180 zatec 1": {
   "klic": "klub:tj zatec z s|studentska 3180 zatec 1",
@@ -1648,15 +1651,16 @@
  "klub:tk drnovice|brnenska 122 vyskov": {
   "klic": "klub:tk drnovice|brnenska 122 vyskov",
   "poradatel": "TK Drnovice",
-  "adresa": "Brněnská 122, Vyškov",
+  "adresa": "Drnovice u Vyškova (sídlo Brněnská 122, Vyškov)",
   "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.274464,
   "lon": 16.957022,
-  "presnost": "areal",
-  "nazev_mista": "Tenisová hala",
+  "presnost": "rucne",
+  "nazev_mista": "Tenis centrum Drnovice",
   "osm_vzdalenost_km": 1.77,
-  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov"
+  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisová hala Tenis centra Drnovice"
  },
  "klub:tk evzenie klasterec n o": {
   "klic": "klub:tk evzenie klasterec n o",
@@ -2523,15 +2527,14 @@
  "svaz:cts:906711": {
   "klic": "svaz:cts:906711",
   "poradatel": "ČTS",
-  "adresa": "Karlovecká 1B, Opava",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "ČTS",
-  "lat": 49.956774,
-  "lon": 17.881854,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: Karlovecká 2918/1b, Předměstí, 74707 Opava"
+  "osm_vzdalenost_km": null
  },
  "svaz:cts:906731": {
   "klic": "svaz:cts:906731",
@@ -2900,15 +2903,14 @@
  "svaz:praha:906636": {
   "klic": "svaz:praha:906636",
   "poradatel": "Praha",
-  "adresa": "Seifertova 1504, Litvínov",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Praha",
-  "lat": 50.610206,
-  "lon": 13.632158,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.26,
-  "geokod": "RÚIAN: Seifertova 1504, Horní Litvínov, 43601 Litvínov"
+  "osm_vzdalenost_km": null
  },
  "svaz:severocesky:": {
   "klic": "svaz:severocesky:",
@@ -3029,15 +3031,14 @@
  "svaz:severocesky:906646": {
   "klic": "svaz:severocesky:906646",
   "poradatel": "severočeský",
-  "adresa": "Veletovská 2358, Újezd nad Lesy",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Severočeský",
-  "lat": 50.076311,
-  "lon": 14.679785,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Veletovská 2358, Újezd nad Lesy, 19016 Praha 9"
+  "osm_vzdalenost_km": null
  },
  "svaz:severomoravsky:": {
   "klic": "svaz:severomoravsky:",
@@ -3413,41 +3414,38 @@
  "svaz:stredocesky:906072": {
   "klic": "svaz:stredocesky:906072",
   "poradatel": "středočeský",
-  "adresa": "Polní 894, Liberec",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Středočeský",
-  "lat": 50.782989,
-  "lon": 15.040985,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.05,
-  "geokod": "RÚIAN: Polní 894, Liberec XII-Staré Pavlovice, 46001 Liberec"
+  "osm_vzdalenost_km": null
  },
  "svaz:stredocesky:906641": {
   "klic": "svaz:stredocesky:906641",
   "poradatel": "středočeský",
-  "adresa": "Kouty 1581, Valašské Meziříčí",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Středočeský",
-  "lat": 49.47123,
-  "lon": 17.985024,
-  "presnost": "odhad",
-  "nazev_mista": "Tenisová hala",
-  "osm_vzdalenost_km": 0.12,
-  "geokod": "RÚIAN: Kouty 1581, 75701 Valašské Meziříčí"
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
  },
  "svaz:stredocesky:906658": {
   "klic": "svaz:stredocesky:906658",
   "poradatel": "středočeský",
-  "adresa": "Mlýnská 743/12, Vyškov",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Středočeský",
-  "lat": 49.285089,
-  "lon": 16.99242,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.5,
-  "geokod": "OSM: Mlýnská, Vyškov-Město, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
+  "osm_vzdalenost_km": null
  },
  "svaz:vychodocesky:106920": {
   "klic": "svaz:vychodocesky:106920",
@@ -3660,15 +3658,14 @@
  "svaz:zapadocesky:906076": {
   "klic": "svaz:zapadocesky:906076",
   "poradatel": "západočeský",
-  "adresa": "Seifertova 1504, Litvínov",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Západočeský",
-  "lat": 50.610206,
-  "lon": 13.632158,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.26,
-  "geokod": "RÚIAN: Seifertova 1504, Horní Litvínov, 43601 Litvínov"
+  "osm_vzdalenost_km": null
  },
  "svaz:zapadocesky:906677": {
   "klic": "svaz:zapadocesky:906677",

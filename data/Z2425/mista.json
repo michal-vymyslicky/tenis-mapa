@@ -1486,15 +1486,16 @@
  "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9": {
   "klic": "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9",
   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-  "adresa": "Hloubětínská 1061, Praha 9",
+  "adresa": "Hloubětínská 1061/1, Praha 9",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.105106,
-  "lon": 14.535804,
-  "presnost": "areal",
-  "nazev_mista": "bazén Hloubětín",
+  "lat": 50.100475,
+  "lon": 14.532949,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Slavoj Tesla Hloubětín",
   "osm_vzdalenost_km": 0.51,
-  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9"
+  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty 70 m od adresy (dříve chybně bazén Hloubětín)"
  },
  "klub:tj sokol dolni lhota|sportovni dolni lhota": {
   "klic": "klub:tj sokol dolni lhota|sportovni dolni lhota",
@@ -1565,15 +1566,16 @@
  "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba": {
   "klic": "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba",
   "poradatel": "TJ Start Ostrava - Poruba, z.s.",
-  "adresa": "Slavíkova 6055/14, Ostrava - Poruba",
+  "adresa": "Slavíkova 6055/14, Ostrava-Poruba",
   "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.832456,
-  "lon": 18.181768,
-  "presnost": "areal",
-  "nazev_mista": "Koupaliště Ostrava-Poruba",
+  "lat": 49.838217,
+  "lon": 18.175449,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Start Ostrava-Poruba",
   "osm_vzdalenost_km": 0.65,
-  "geokod": "RÚIAN: Slavíkova 6055/14, Poruba, 70800 Ostrava"
+  "geokod": "RÚIAN: Slavíkova 6055/14, Poruba, 70800 Ostrava",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – areál 8 kurtů 190 m od adresy (dříve chybně koupaliště Poruba)"
  },
  "klub:tj zatec z s": {
   "klic": "klub:tj zatec z s",
@@ -1760,28 +1762,30 @@
  "klub:tk drnovice": {
   "klic": "klub:tk drnovice",
   "poradatel": "TK Drnovice",
-  "adresa": "Brněnská 122, Vyškov",
+  "adresa": "Drnovice u Vyškova (sídlo Brněnská 122, Vyškov)",
   "zdroj": "adresar",
   "region": "Jihomoravský",
   "lat": 49.274464,
   "lon": 16.957022,
-  "presnost": "areal",
-  "nazev_mista": "Tenisová hala",
+  "presnost": "rucne",
+  "nazev_mista": "Tenis centrum Drnovice",
   "osm_vzdalenost_km": 1.77,
-  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov"
+  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisová hala Tenis centra Drnovice"
  },
  "klub:tk drnovice|brnenska 122 vyskov": {
   "klic": "klub:tk drnovice|brnenska 122 vyskov",
   "poradatel": "TK Drnovice",
-  "adresa": "Brněnská 122, Vyškov",
+  "adresa": "Drnovice u Vyškova (sídlo Brněnská 122, Vyškov)",
   "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.274464,
   "lon": 16.957022,
-  "presnost": "areal",
-  "nazev_mista": "Tenisová hala",
+  "presnost": "rucne",
+  "nazev_mista": "Tenis centrum Drnovice",
   "osm_vzdalenost_km": 1.77,
-  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov"
+  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisová hala Tenis centra Drnovice"
  },
  "klub:tk evzenie klasterec n o": {
   "klic": "klub:tk evzenie klasterec n o",

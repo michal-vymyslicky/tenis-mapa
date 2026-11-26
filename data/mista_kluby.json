@@ -746,6 +746,14 @@
    "nazev": "bazén Hloubětín",
    "presnost": "areal",
    "adresa": "Hloubětínská 1061, Praha 9",
+   "sezona": "Z2627"
+  },
+  {
+   "lat": 50.100475,
+   "lon": 14.532949,
+   "nazev": "Tenisové kurty TJ Slavoj Tesla Hloubětín",
+   "presnost": "rucne",
+   "adresa": "Hloubětínská 1061/1, Praha 9",
    "sezona": "Z2425"
   }
  ],
@@ -776,6 +784,14 @@
    "nazev": "Koupaliště Ostrava-Poruba",
    "presnost": "areal",
    "adresa": "Slavíkova 6055/14, Ostrava - Poruba",
+   "sezona": "Z2627"
+  },
+  {
+   "lat": 49.838217,
+   "lon": 18.175449,
+   "nazev": "Tenisové kurty TJ Start Ostrava-Poruba",
+   "presnost": "rucne",
+   "adresa": "Slavíkova 6055/14, Ostrava-Poruba",
    "sezona": "Z2425"
   }
  ],
@@ -861,9 +877,9 @@
   {
    "lat": 49.274464,
    "lon": 16.957022,
-   "nazev": "Tenisová hala",
-   "presnost": "areal",
-   "adresa": "Brněnská 122, Vyškov",
+   "nazev": "Tenis centrum Drnovice",
+   "presnost": "rucne",
+   "adresa": "Drnovice u Vyškova (sídlo Brněnská 122, Vyškov)",
    "sezona": "Z2425"
   }
  ],

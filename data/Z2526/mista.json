@@ -1776,15 +1776,16 @@
  "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9": {
   "klic": "klub:tj slavoj tesla hloubetin z s|hloubetinska 1061 praha 9",
   "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
-  "adresa": "Hloubětínská 1061, Praha 9",
+  "adresa": "Hloubětínská 1061/1, Praha 9",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.105106,
-  "lon": 14.535804,
-  "presnost": "areal",
-  "nazev_mista": "bazén Hloubětín",
+  "lat": 50.100475,
+  "lon": 14.532949,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Slavoj Tesla Hloubětín",
   "osm_vzdalenost_km": 0.51,
-  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9"
+  "geokod": "RÚIAN: Hloubětínská 1061/1, Hloubětín, 19800 Praha 9",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty 70 m od adresy (dříve chybně bazén Hloubětín)"
  },
  "klub:tj sokol dolni lhota": {
   "klic": "klub:tj sokol dolni lhota",
@@ -1870,15 +1871,16 @@
  "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba": {
   "klic": "klub:tj start ostrava poruba z s|slavikova 6055 14 ostrava poruba",
   "poradatel": "TJ Start Ostrava - Poruba, z.s.",
-  "adresa": "Slavíkova 6055/14, Ostrava - Poruba",
+  "adresa": "Slavíkova 6055/14, Ostrava-Poruba",
   "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.832456,
-  "lon": 18.181768,
-  "presnost": "areal",
-  "nazev_mista": "Koupaliště Ostrava-Poruba",
+  "lat": 49.838217,
+  "lon": 18.175449,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Start Ostrava-Poruba",
   "osm_vzdalenost_km": 0.65,
-  "geokod": "RÚIAN: Slavíkova 6055/14, Poruba, 70800 Ostrava"
+  "geokod": "RÚIAN: Slavíkova 6055/14, Poruba, 70800 Ostrava",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – areál 8 kurtů 190 m od adresy (dříve chybně koupaliště Poruba)"
  },
  "klub:tj zatec z s|studentska 3180 zatec 1": {
   "klic": "klub:tj zatec z s|studentska 3180 zatec 1",
@@ -2078,15 +2080,16 @@
  "klub:tk drnovice|brnenska 122 vyskov": {
   "klic": "klub:tk drnovice|brnenska 122 vyskov",
   "poradatel": "TK Drnovice",
-  "adresa": "Brněnská 122, Vyškov",
+  "adresa": "Drnovice u Vyškova (sídlo Brněnská 122, Vyškov)",
   "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.274464,
   "lon": 16.957022,
-  "presnost": "areal",
-  "nazev_mista": "Tenisová hala",
+  "presnost": "rucne",
+  "nazev_mista": "Tenis centrum Drnovice",
   "osm_vzdalenost_km": 1.77,
-  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov"
+  "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisová hala Tenis centra Drnovice"
  },
  "klub:tk evzenie klasterec n o": {
   "klic": "klub:tk evzenie klasterec n o",
@@ -3500,15 +3503,14 @@
  "svaz:praha:906622": {
   "klic": "svaz:praha:906622",
   "poradatel": "Praha",
-  "adresa": "V Lukách 276, Ústí nad Orlicí",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Praha",
-  "lat": 49.979799,
-  "lon": 16.391282,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.08,
-  "geokod": "RÚIAN: V Lukách 276, 56201 Ústí nad Orlicí"
+  "osm_vzdalenost_km": null
  },
  "svaz:severocesky:": {
   "klic": "svaz:severocesky:",
@@ -3885,15 +3887,14 @@
  "svaz:stredocesky:906060": {
   "klic": "svaz:stredocesky:906060",
   "poradatel": "středočeský",
-  "adresa": "Pod Koňským vrchem 1159, Most",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Středočeský",
-  "lat": 50.496691,
-  "lon": 13.618927,
-  "presnost": "odhad",
-  "nazev_mista": "Tenisové kurty",
-  "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: Pod Koňským vrchem 1159/5, 43401 Most"
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
  },
  "svaz:stredocesky:906627": {
   "klic": "svaz:stredocesky:906627",
@@ -4145,15 +4146,14 @@
  "svaz:zapadocesky:906073": {
   "klic": "svaz:zapadocesky:906073",
   "poradatel": "západočeský",
-  "adresa": "Úslavská 75 (tenisový areál), Plzeň",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Západočeský",
-  "lat": 49.739809,
-  "lon": 13.398284,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.2,
-  "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň"
+  "osm_vzdalenost_km": null
  },
  "svaz:zapadocesky:906611": {
   "klic": "svaz:zapadocesky:906611",
@@ -4184,14 +4184,13 @@
  "svaz:zapadocesky:906670": {
   "klic": "svaz:zapadocesky:906670",
   "poradatel": "západočeský",
-  "adresa": "Ledečská 4069, Havlíčkův Brod",
-  "zdroj": "loni",
+  "adresa": "",
+  "zdroj": "nezname",
   "region": "Západočeský",
-  "lat": 49.605061,
-  "lon": 15.569365,
-  "presnost": "odhad",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.06,
-  "geokod": "RÚIAN: Ledečská 4069, 58001 Havlíčkův Brod"
+  "osm_vzdalenost_km": null
  }
 }
