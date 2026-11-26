@@ -60,3 +60,10 @@ jobs:
       - id: deploy
         if: github.event_name == 'push'
         uses: actions/deploy-pages@v4
+        continue-on-error: true      # přechodná chyba GitHubu „No artifacts named github-pages“ (9. 11., 26. 11. 2026) → 2. pokus
+      - name: Pauza před opakovaným nasazením
+        if: github.event_name == 'push' && steps.deploy.outcome == 'failure'
+        run: sleep 60
+      - id: deploy2
+        if: github.event_name == 'push' && steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
