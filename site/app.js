@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.9.5";
+const APP_VERSION = "v3.9.6";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -586,7 +586,7 @@ function item(e) {
       <div class="s">${dn}${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
       <div class="m"><span class="pill cls" style="background:${colorOf(e.tr, zr)}">${esc(clsShort(e.tr))}</span>${te ? `<span class="pill">${esc((e.ages || []).join(", ").replace(/&U/g, "U") || "–")}</span><span class="pill flag">${flag(e.zeme)}</span>` : `<span class="pill">${esc(CAT_QUICK[e.kat])}</span><span class="pill">${sex}</span>`}
       ${e.kap || e.kq ? `<span class="pill${full ? " full" : ""}">${full ? T("plno") : (e.kap ? "max " + e.kap : "") + (e.kq ? (e.kap ? " + " : "") + "Q " + e.kq : "")}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfLabel(surfGroup(e.pov)))}</span>` : ""}
-      ${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${partCancel(e) ? `<span class="pill zr">${partCancel(e)} ${T("zrušeno")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${playerPills(e)}</div></div>
+      ${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${partCancel(e) ? `<span class="pill zr">${partCancel(e)} ${T("zrušeno")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${playerPills(e)}</div>${unsure(e) ? unsureText(e) : ""}</div>
     <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="${T("Oblíbené")}">${STAR}</button></div>`;
 }
 /* zrušená jen jedna soutěž turnaje (např. dívky) */
@@ -605,7 +605,7 @@ function teCard(e) {
     <div class="facts"><div><span>${T("Kategorie TE")}</span>${esc(CLASS_LABEL[e.tr] || e.tecat || "–")}</div><div><span>${T("Věk")}</span>${esc((e.ages || []).join(", ") || "–")}</div>
       <div><span>${T("Povrch")}</span>${esc(e.pov || T("neuvedeno"))}</div><div><span>${T("Země")}</span>${flag(e.zeme)} ${esc(v.region || "")}</div>
       <div><span>${T("Místo")}</span>${esc(e.por)}</div></div>
-    ${zr ? `<div class="note">${T("Turnaj zmizel z kalendáře Tennis Europe – ověřte na jejich webu.")}</div>` : ""}
+    ${zr ? `<div class="note">${T("Turnaj zmizel z kalendáře Tennis Europe – ověřte na jejich webu.")}</div>` : ""}${unsure(e) ? unsureText(e) : ""}
     <div class="muted" style="margin-top:8px">${T("Kapacita, přihlášky, losy a výsledky jsou na webu Tennis Europe.")}</div>
     <div class="links"><a class="pri" href="${TEURL}${esc(e.id.slice(3))}" target="_blank" rel="noopener">${T("Detail a přihlášky · Tennis Europe")}</a></div>
     <span class="reportlink" data-report-ev="${esc(e.id)}">${T("Nahlásit chybu u tohoto turnaje")}</span></div>`;
@@ -639,7 +639,7 @@ function card(e) {
       ${e.mic ? `<div><span>${T("Míče")}</span>${esc(e.mic)}</div>` : ""}${e.vk ? `<div><span>${T("Vklad")}</span>${e.vk} ${EN ? "CZK" : "Kč"}</div>` : ""}
       ${e.prez ? `<div><span>${T("Prezentace")}</span>${esc(prezText(e.prez))}</div>` : ""}<div><span>${T("Pořadatel")}</span>${esc(e.por)}</div></div>
     ${zr ? `<div class="note">${e.zrus ? T("Turnaj zmizel z termínové listiny {d} – ověřte na webu ČTS.", {d: esc(fmtRange(e.zrus))}) : T("Turnaj je v listině označen jako zrušený – ověřte na webu ČTS.")}</div>` : ""}
-    ${!zr && e.mo != null && e.mo !== e.misto && VEN[e.mo] && VEN[e.mo].presnost !== "areal" ? `<div class="note">${esc((PREC[VEN[e.mo].presnost] || PREC.nezname)[1])}${VEN[e.mo].poznamka ? " · " + esc(VEN[e.mo].poznamka) : ""}</div>` : ""}
+    ${unsure(e) ? unsureText(e) : ""}
     ${clubBlock(e)}<div class="links">${linkSet(e)}</div>
     <span class="reportlink" data-report-ev="${esc(e.id)}">${T("Nahlásit chybu u tohoto turnaje")}</span></div>`;
 }
@@ -1206,6 +1206,11 @@ function mergeVenues() {
 const guessy = v => !!v && ["odhad", "obec", "areal_obec"].includes(v.presnost);
 /* turnaj s nejistou polohou (= důvod červeného vykřičníku ve špendlíku) → v seznamu i v kartě červený rámeček */
 const unsure = e => e.st !== "zruseno" && guessy(VEN[e.mo ?? e.misto]);
+/* červený text k červenému rámečku: proč je poloha nejistá */
+function unsureText(e) {
+  const v = VEN[e.mo ?? e.misto] || {};
+  return `<div class="unsuretxt"><b>!</b>${T("Nejisté místo konání")}: ${esc((PREC[v.presnost] || PREC.nezname)[1])}${v.poznamka ? " · " + esc(noteText(v.poznamka)) : ""}</div>`;
+}
 
 /* ---------- start ---------- */
 setSnap("peek");
