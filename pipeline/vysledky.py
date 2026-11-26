@@ -6,6 +6,8 @@
   python3 pipeline/vysledky.py --auto --zkouska       jen vypíše plán, nic nestahuje
 
 Pravidla (METODIKA Tenis Data kap. 9.9):
+  - od START (pondělí 30. 11. 2026) se noci střídají: skupina A (ženy, dorost, st. žákyně, ml. žáci a žákyně),
+    skupina B (muži, st. žáci); třída E se nestahuje (výsledky nezveřejňuje);
   - stahuje se výsledková stránka soutěže https://cesky-tenis.cz/turnaj/<kód>?sezona=<S> nejdříve ZPOZDENI (2) dny
     po posledním dni turnaje (výsledky bývají zadané a často už schválené);
   - znovu jen soutěže s neoficiálními výsledky (každé 2 dny, max. 60 dní po konci) a bez dat (každé 3 dny, max. 21 dní);
@@ -21,6 +23,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import DATA, SITE_DATA, UA_CTS, load, save, omezeni_aktivni, uloz_omezeni
 
 ZPOZDENI = 2                      # dny po konci turnaje
+START = datetime.date(2026, 11, 30)   # první noční stažení (pondělí 30. 11. 2026) – dřív sběrač nic nestahuje
+# Střídání skupin po nocích (od START: sudý den = A, lichý = B); skupina podle 1. číslice kódu soutěže
+# (1/2 dospělí M/Ž, 3/4 dorost M/Ž, 5/6 st. žactvo M/Ž, 7/8 ml. žactvo M/Ž):
+SKUPINY = {"A": set("234678"),   # ženy, dorostenci, dorostenky, st. žákyně, ml. žáci, ml. žákyně
+           "B": set("15")}       # muži, st. žáci
+BEZ_TRIDY = {"E"}                 # třída E – ČTS výsledky nezveřejňuje
 ZNOVU = {"neoficialni": (2, 60), "bez_dat": (3, 21)}   # stav: (interval dní, max. dní po konci)
 FOTO = re.compile(r"data:image/[a-zA-Z+]+;base64,[A-Za-z0-9+/=\s]+")
 HOST = "cesky-tenis.cz"
@@ -48,6 +56,8 @@ def souteze(sezona):
             continue
         if not t.get("do"):
             continue
+        if t.get("tr") in BEZ_TRIDY:
+            continue
         for k, p in ((t.get("km"), "m"), (t.get("kz"), "z")):
             if k and t.get("zr") != p and re.fullmatch(r"\d{6}", str(k)):
                 out[str(k)] = max(out.get(str(k), ""), t["do"])
@@ -60,10 +70,16 @@ def sezony_auto(dnes):
     return [x["id"] for x in s if x["do"] >= hranice and x["od"] <= dnes.isoformat()]
 
 
-def plan(sezona, dnes):
+def skupina_dne(dnes):
+    return "A" if (dnes - START).days % 2 == 0 else "B"
+
+
+def plan(sezona, dnes, skupina=None):
     st = load(os.path.join("vysledky", sezona, "stav.json"), {})
     out = []
     for kod, konec in souteze(sezona).items():
+        if skupina and kod[0] not in SKUPINY[skupina]:
+            continue
         k = datetime.date.fromisoformat(konec)
         if (dnes - k).days < ZPOZDENI:
             continue
@@ -91,11 +107,17 @@ def main():
     ap.add_argument("--max", type=int, default=300)
     ap.add_argument("--pauza", type=float, default=4.0)
     ap.add_argument("--zkouska", action="store_true")
+    ap.add_argument("--skupina", choices=["A", "B", "vse"], help="přepsat skupinu dne (A/B podle střídání, vse = obě)")
+    ap.add_argument("--datum", help="simulace data (RRRR-MM-DD), jen se --zkouska")
     a = ap.parse_args()
-    dnes = datetime.date.today()
+    dnes = datetime.date.fromisoformat(a.datum) if a.datum and a.zkouska else datetime.date.today()
+    if dnes < START and not a.zkouska:
+        print(f"vysledky: sběr začíná {START} – dnes nic nestahuji", flush=True)
+        return 0
+    sk = None if a.skupina == "vse" else (a.skupina or skupina_dne(dnes))
     sezony = [a.sezona] if a.sezona else sezony_auto(dnes)
-    P = sorted(x for s in sezony for x in plan(s, dnes))
-    print(f"vysledky: sezóny {sezony}, k stažení {len(P)} (limit {a.max}, pauza {a.pauza} s)", flush=True)
+    P = sorted(x for s in sezony for x in plan(s, dnes, sk))
+    print(f"vysledky: {dnes}, skupina {sk or 'A+B'}, sezóny {sezony}, k stažení {len(P)} (limit {a.max}, pauza {a.pauza} s)", flush=True)
     for p in P[:10]:
         print("  ", *p)
     if a.zkouska or not P:
