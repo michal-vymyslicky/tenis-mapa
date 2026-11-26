@@ -187,6 +187,37 @@ def detail_due(code, det, sig_old, sig_new, today=None):
 
 
 # ---------------------------------------------------------------- jedna sezóna
+M_RE = r"(?:hoši|hosi|chlapci|muži|muzi|dorostenci|junioři|juniori)"
+Z_RE = r"(?:dívky|divky|ženy|zeny|dorostenky|juniorky)"
+
+
+def gender_notes(text):
+    """Poznámka pořadatele s místem zvlášť pro hochy a dívky („Hoši - TK A, … Dívky - TK B, …“) -> (text_m, text_z), jinak None."""
+    t = text or ""
+    mm = re.search(r"\b" + M_RE + r"\s*[-–:]", t, re.I)
+    mz = re.search(r"\b" + Z_RE + r"\s*[-–:]", t, re.I)
+    if not mm or not mz:
+        return None
+    if mm.start() < mz.start():
+        return t[mm.start():mz.start()].strip(), t[mz.start():].strip()
+    return t[mm.start():].strip(), t[mz.start():mm.start()].strip()
+
+
+def split_rows(slug, rows, details, season, nahrazene):
+    """Řádek listiny s oběma kódy, jehož poznámka určuje jiné místo pro hochy a pro dívky, rozdělí na dva turnaje."""
+    for r in rows:
+        km, kz = r.get("kod_m", ""), r.get("kod_z", "")
+        d = details.get(km) or details.get(kz) or {}
+        g = gender_notes(d.get("poznamka", "")) if km and kz and venues.norm(r.get("poradatel", "")) in venues.RA else None
+        if not g:
+            yield r
+            continue
+        orig = f"{season}-{slug}-{km}-{kz}"
+        nahrazene[orig] = [f"{season}-{slug}-{km}-x", f"{season}-{slug}-x-{kz}"]
+        yield dict(r, kod_z="", obs_z="", _pozn=g[0])
+        yield dict(r, kod_m="", obs_m="", _pozn=g[1])
+
+
 def process(season, download=True, threads=1, pause=1.5, clubs=None, blizke=None, kody=None):
     print(f"=== sezóna {season} ({season_name(season)}) ===", flush=True)
     lists = sload(season, "lists.json", {})
@@ -259,11 +290,14 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None, blizke=None
         if xs is None:
             return None
         return [sum(1 for x in xs if x[3] == k) for k in ("H", "Q", "N")]
+    nahrazene = {}                              # id společného turnaje -> id rozdělených (místo zvlášť pro hochy a dívky)
     for slug, rows in lists.items():
-        for r in rows:
+        for r in split_rows(slug, rows, details, season, nahrazene):
             km, kz = r.get("kod_m", ""), r.get("kod_z", "")
             dm, dz = details.get(km, {}) if km else {}, details.get(kz, {}) if kz else {}
             d = dm if dm.get("_status") == "ok" else dz
+            if r.get("_pozn") is not None:
+                d = dict(d, poznamka=r["_pozn"])
             od, do = parse_date(r["datum"])
             tr = r["trida"] or ("MCR" if r["poradatel"].strip() == "ČTS" or "MČR" in d.get("nazev", "") else "")
             ad = addr_from_detail(d)
@@ -303,6 +337,11 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None, blizke=None
         s = stav.pop(k); stav[f"{season}-{k}"] = s
         if s.get("snimek"): s["snimek"]["id"] = f"{season}-{k}"
     today = TODAY.isoformat()
+    for orig, ids in nahrazene.items():        # rozdělený turnaj převezme historii původního (ne „zrušený“, ne „nový“)
+        if orig in stav:
+            o = stav.pop(orig)
+            for i in ids:
+                stav.setdefault(i, {"prvni": o.get("prvni", today)})
     cur = {e["id"] for e in events}
     for e in events:
         s = stav.setdefault(e["id"], {"prvni": today})

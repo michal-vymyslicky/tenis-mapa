@@ -2504,14 +2504,29 @@
   "klic": "svaz:cts:506700",
   "poradatel": "ČTS",
   "adresa": "Za Kosteleckou 49, Prostějov",
-  "zdroj": "loni",
-  "region": "ČTS",
+  "zdroj": "svaz_rozpis",
+  "region": "Jihomoravský",
   "lat": 49.47951,
   "lon": 17.101055,
-  "presnost": "odhad",
+  "presnost": "areal",
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.17,
-  "geokod": "RÚIAN: Za Kosteleckou 4161/49, 79601 Prostějov"
+  "geokod": "RÚIAN: Za Kosteleckou 4161/49, 79601 Prostějov",
+  "poznamka": "místo podle názvu turnaje: TK AGROFERT Prostějov"
+ },
+ "svaz:cts:606700": {
+  "klic": "svaz:cts:606700",
+  "poradatel": "ČTS",
+  "adresa": "U Borského parku 2916/19, Plzeň",
+  "zdroj": "svaz_rozpis",
+  "region": "Západočeský",
+  "lat": 49.723507,
+  "lon": 13.36892,
+  "presnost": "areal",
+  "nazev_mista": "TJ Slavia VŠ",
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: U Borského parku 2916/19, Jižní Předměstí, 30100 Plzeň",
+  "poznamka": "místo podle názvu turnaje: TK Slavia Plzeň"
  },
  "svaz:cts:706700": {
   "klic": "svaz:cts:706700",
