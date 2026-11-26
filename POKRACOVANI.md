@@ -185,3 +185,5 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   Chyby se píšou do konzole prohlížeče („Tenisová mapa – odeslání hlášení selhalo“). Ověřeno v Playwright (Chromium i Firefox) se simulovaným
   zaseknutím požadavku se snímkem; skutečné odeslání z Firefoxu ověří uživatel.
 - v3.9.4: turnaj s nejistou polohou (stejná podmínka jako vykřičník, `unsure(e)`) má v seznamu turnajů i v kartě v detailu místa červený rámeček.
+- v3.9.5: při filtru klubu (čip klubu v liště) má karta turnaje v detailu místa blok „Přihlášení z klubu X (n)“ – všichni přihlášení hráči klubu
+  celým jménem (hlavní soutěž, pak kvalifikace, náhradníci), klepnutí otevře přihlášky hráče (`clubBlock(e)`).

@@ -396,3 +396,10 @@ button.logo{border:0;padding:0;cursor:pointer}
 /* v3.9.4: turnaj s nejistou (dopočítanou) polohou – červený rámeček v seznamu i v detailu místa */
 .item.unsure{border:1.5px solid var(--bad);border-radius:12px;padding:9px 8px;margin:4px 0}
 .card.unsure{border:1.5px solid var(--bad)}
+/* v3.9.5: přihlášení hráči vybraného klubu v kartě turnaje */
+.card .clubpl{margin-top:10px;padding-top:9px;border-top:1px solid var(--line)}
+.card .clubpl .h{display:flex;align-items:center;gap:5px;font-size:12.5px;font-weight:600;color:#0f6b5c;margin-bottom:6px}
+.card .clubpl .h svg{width:14px;height:14px}
+.card .clubpl .m{display:flex;flex-wrap:wrap;gap:4px}
+.card .clubpl .pill{cursor:pointer}
+@media (prefers-color-scheme: dark){.card .clubpl .h{color:#9fe0d0}}

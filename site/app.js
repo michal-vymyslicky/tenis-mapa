@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.9.4";
+const APP_VERSION = "v3.9.5";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -640,7 +640,7 @@ function card(e) {
       ${e.prez ? `<div><span>${T("Prezentace")}</span>${esc(prezText(e.prez))}</div>` : ""}<div><span>${T("Pořadatel")}</span>${esc(e.por)}</div></div>
     ${zr ? `<div class="note">${e.zrus ? T("Turnaj zmizel z termínové listiny {d} – ověřte na webu ČTS.", {d: esc(fmtRange(e.zrus))}) : T("Turnaj je v listině označen jako zrušený – ověřte na webu ČTS.")}</div>` : ""}
     ${!zr && e.mo != null && e.mo !== e.misto && VEN[e.mo] && VEN[e.mo].presnost !== "areal" ? `<div class="note">${esc((PREC[VEN[e.mo].presnost] || PREC.nezname)[1])}${VEN[e.mo].poznamka ? " · " + esc(VEN[e.mo].poznamka) : ""}</div>` : ""}
-    <div class="links">${linkSet(e)}</div>
+    ${clubBlock(e)}<div class="links">${linkSet(e)}</div>
     <span class="reportlink" data-report-ev="${esc(e.id)}">${T("Nahlásit chybu u tohoto turnaje")}</span></div>`;
 }
 function bind(root) {
@@ -980,6 +980,16 @@ function eligible(pid, e) {
   if (!el) return entrySet(pid).has(e.id);
   if (!el.cats.includes(e.kat)) return false;
   return el.sex === "m" ? !!e.km : !!e.kz;
+}
+/* v3.9.5: při filtru klubu karta turnaje v detailu místa vypíše všechny přihlášené hráče klubu (celé jméno, sekce); klepnutí = přihlášky hráče */
+function clubBlock(e) {
+  if (!HR || !F.club) return "";
+  const xs = (clubEvents(F.club).get(e.id) || []).slice();
+  if (!xs.length) return "";
+  const ord = {H: 0, Q: 1, N: 2};
+  xs.sort((a, b) => (ord[a[1]] ?? 3) - (ord[b[1]] ?? 3) || pinfo(a[0])[0].localeCompare(pinfo(b[0])[0], "cs"));
+  return `<div class="clubpl"><div class="h">${CLUB}${T("Přihlášení z klubu {c} ({n})", {c: esc(F.club), n: xs.length})}</div><div class="m">${xs.map(([pid, k]) =>
+    `<span class="pill pl cl" data-pid="${esc(pid)}">${esc(pinfo(pid)[0])}${k === "Q" ? " · " + T("kval.") : k === "N" ? " · " + T("náhr.") : ""}</span>`).join("")}</div></div>`;
 }
 function playerPills(e) {
   if (!HR) return "";
