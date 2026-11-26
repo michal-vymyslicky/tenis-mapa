@@ -154,3 +154,8 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
 - **Hlášení problému:** odesílá se `fetch` na `https://formsubmit.co/ajax/<adresa>` (JSON odpověď, chybová zpráva FormSubmit se ukáže
   v hlášce) místo skrytého formuláře do iframe – ve Firefoxu iframe nedal výsledek a po 20 s se ukázalo „nepodařilo“. Když odeslání se snímkem
   selže, zkusí se znovu bez snímku. Skrytý iframe `repFrame` z index.html odstraněn. Service worker cache v21.
+
+## v3.7 – po načtení stránky bez filtrů (26. 11. 2026)
+- Každé načtení / refresh začíná s výchozími filtry (od dnes, ČTS, bez kategorií, hráčů, klubu) a v aktuální sezóně. Filtry (`tm.filters`)
+  ani sezóna (`tm.sez`) se už neukládají, staré uložené hodnoty se při startu smažou. Pamatuje se jen jazyk, oblíbené (`tm.fav`) a mapový podklad (`tm.map`).
+- v3.6.1: tlačítko jazyka ukazuje aktuální jazyk (CZ / EN).

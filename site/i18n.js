@@ -235,7 +235,7 @@ window.I18N = (() => {
     "about.d6": "International tournaments: Tennis Europe Junior Tour, public search at te.tournamentsoftware.com – dates, venue, surface, category and age group; entries and results on the Tennis Europe website.",
     "about.d3": "Map: © OpenStreetMap contributors; place search: Nominatim (OSM); addresses: RÚIAN (ČÚZK).",
     "about.d4": "Names in entry lists come from public ČTS lists. If you do not wish to be listed in the app, let us know via “Report a problem” and we will remove the data.",
-    "about.d5": "Favourite tournaments and filters are stored only in your browser.",
+    "about.d5": "Favourite tournaments are stored only in your browser; filters last until you close or reload the page.",
   };
 
   const t = (s, vars) => {

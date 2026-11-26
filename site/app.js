@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.6.1";
+const APP_VERSION = "v3.7";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -97,7 +97,9 @@ let DATA, EV = [], VEN = [], byVenue = new Map();
 const today = new Date(); today.setHours(0, 0, 0, 0);
 const defaults = () => ({from: iso(today), to: "", cat: [], sex: [], cls: [], surf: [],
   text: "", free: false, cancelled: true, guess: true, favOnly: false, players: [], pmode: "entries", src: "cts", sub: {}, club: "", clubWin: "month"});
-let F = Object.assign(defaults(), LS.get("tm.filters", {}));
+/* v3.7: každé načtení stránky (i refresh) začíná bez filtrů a v aktuální sezóně; filtry ani sezóna se neukládají.
+   Pamatuje se jen jazyk, oblíbené a mapový podklad. */
+let F = defaults(); try { localStorage.removeItem("tm.filters"); localStorage.removeItem("tm.sez"); } catch {}
 // v2.8: okruh vzdálenosti zrušen; Tennis Europe je doplněk – výchozí zobrazení jen ČTS
 for (const k of ["center", "centerMode", "centerLabel", "radius"]) delete F[k];
 if (LS.get("tm.ui", 0) < 28) { F.src = "cts"; LS.set("tm.ui", 28); }
@@ -243,7 +245,6 @@ function occText(o, p, kap) {
 
 let shown = [];
 function render() {
-  LS.set("tm.filters", F);
   shown = EV.filter(e => evMatches(e));
   const vmap = new Map();
   for (const e of shown) { const v = VEN[e.misto]; if (!v || v.lat == null) continue; (vmap.get(e.misto) || vmap.set(e.misto, []).get(e.misto)).push(e); }
@@ -1146,7 +1147,7 @@ function defaultSeason() {
   return (started[0] || SEZONY[SEZONY.length - 1] || {}).id;
 }
 function loadSeason(id, opt = {}) {
-  SEZ = id; LS.set("tm.sez", id === defaultSeason() ? null : id);
+  SEZ = id;
   $("#summary").textContent = T("Načítám {s}…", {s: sezName(sezInfo()) || id});
   return Promise.all([fetch(`data/${id}/turnaje.json`, {cache: "no-cache"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }), loadTE()]).then(([js, te]) => {
     DATA = js; EV = js.turnaje; VEN = js.mista; byVenue = new Map();
@@ -1204,8 +1205,7 @@ document.addEventListener("pointerdown", e => { const m = $("#seasonMenu"); if (
 fetch("data/sezony.json", {cache: "no-cache"}).then(r => r.ok ? r.json() : null).catch(() => null).then(idx => {
   SEZONY = idx?.sezony || [];
   if (!SEZONY.length) SEZONY = [{id: "Z2627", nazev: "zima 2026/27", od: "2026-10-01", do: "2027-03-31", pocet: 0}];
-  const stored = LS.get("tm.sez", null);
-  return loadSeason(SEZONY.some(x => x.id === stored) ? stored : defaultSeason());
+  return loadSeason(defaultSeason());
 }).then(() => {
   importFromHash();
   setTimeout(() => loadH2C().catch(() => {}), 4000);
