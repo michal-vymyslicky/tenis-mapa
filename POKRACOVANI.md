@@ -205,3 +205,4 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   a přečte `data/posledni_beh.json` (zapisuje noční `update.py --auto`: čas, chyby, počty HTTP 429/503). Při problému pošle e-mail přes FormSubmit
   AJAX na adresu z GitHub secretu `NOTIFY_EMAIL` (osobní adresa uživatele – v repozitáři ji kvůli robotům neuvádět) a job skončí chybou.
   Ruční spuštění (Run workflow, volba test) pošle zkušební e-mail. První zpráva na novou adresu = aktivační e-mail FormSubmit, nutno potvrdit.
+- v3.10.2: tlačítko filtrů (vedle hledání) je přepínač – druhé klepnutí filtry zavře a vrátí seznam turnajů; otevřené filtry = tlačítko zvýrazněné.

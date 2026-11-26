@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.10.1";
+const APP_VERSION = "v3.10.2";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -541,6 +541,7 @@ function showPanel(name) {
   panel = name;
   $$(".panel").forEach(p => p.classList.toggle("on", p.dataset.panel === name));
   $$("#tabs button").forEach(t => t.classList.toggle("on", t.dataset.panel === name));
+  $("#btnFilters")?.classList.toggle("open", name === "filters");
   sheet.classList.toggle("detail", SUB.has(name) && name !== "report");
   $("#btnBack").hidden = !SUB.has(name);
   if (!SUB.has(name)) render();
@@ -1157,7 +1158,11 @@ $("#btnBack").onclick = e => {
 };
 $("#btnAbout").onclick = () => openAbout();
 $("#aboutReport").onclick = ev => { ev.preventDefault(); openReport({}); };
-$("#btnFilters").onclick = () => { showPanel("filters"); setSnap("full"); };
+/* tlačítko filtrů funguje jako přepínač: otevřené filtry druhým klepnutím zavře (zpět na seznam turnajů) */
+$("#btnFilters").onclick = () => {
+  if (panel === "filters") { showPanel("list"); if (!isDesk()) setSnap("peek"); }
+  else { showPanel("filters"); setSnap("full"); }
+};
 $("#fFrom").onchange = e => { F.from = e.target.value || (isArchive() ? sezInfo().od : iso(today)); render(); };
 $("#fTo").onchange = e => { F.to = e.target.value; render(); };
 $$("#datePresets button").forEach(b => b.onclick = () => presets(b.dataset.p));

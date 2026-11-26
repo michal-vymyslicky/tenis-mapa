@@ -407,3 +407,4 @@ button.logo{border:0;padding:0;cursor:pointer}
 .unsuretxt b{flex:none;width:15px;height:15px;border-radius:50%;background:var(--bad);color:#fff;font:900 10px/15px system-ui,sans-serif;text-align:center;margin-top:1px}
 .card .unsuretxt{margin-top:10px}
 .occ .akt{font-size:11.5px;color:var(--muted);justify-content:flex-end}
+#btnFilters.open{background:var(--accent-soft);color:var(--accent)}
