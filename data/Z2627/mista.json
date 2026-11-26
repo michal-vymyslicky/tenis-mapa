@@ -673,7 +673,7 @@
   "presnost": "odhad",
   "nazev_mista": "Liberec – Harcov (odhad)",
   "osm_vzdalenost_km": null,
-  "poznamka": "odhad 26. 11. 2026: klub bez adresy v ČTS, turnaje „TK Harcov open“ a „Harcov 2“ → čtvrť Harcov, přesný areál neznámý"
+  "poznamka": "odhad 26. 11. 2026: klub bez adresy v ČTS, turnaje „TK Harcov open“ a „Harcov 2“ → čtvrť Harcov, přesný areál neznámý – poznámka pořadatele (TK Harcov open): hraje se ve 2 halách – TK Harcov Liberec a Hotel Břízky Jablonec, čtyřhry a neděle jen v Harcově"
  },
  "klub:slovan hranice z s": {
   "klic": "klub:slovan hranice z s",
@@ -2490,15 +2490,30 @@
  "svaz:cts:306700": {
   "klic": "svaz:cts:306700",
   "poradatel": "ČTS",
-  "adresa": "U Labe 487/1, Hradec Králové",
-  "zdroj": "loni",
-  "region": "ČTS",
-  "lat": 50.211946,
-  "lon": 15.828774,
-  "presnost": "odhad",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null,
-  "geokod": "OSM: U Labe, Střed města - historická část, Věkoše, Hradec Králové, okres Hradec Králové, Královéhradecký kraj, 500 01, Česko"
+  "adresa": "U Labe 427, Hradec Králové",
+  "zdroj": "svaz_rozpis",
+  "region": "Východočeský",
+  "lat": 50.201393,
+  "lon": 15.821763,
+  "presnost": "areal",
+  "nazev_mista": "Tenis centrum",
+  "osm_vzdalenost_km": 0.09,
+  "geokod": "RÚIAN: U Labe 427/1, 50002 Hradec Králové",
+  "poznamka": "místo podle poznámky pořadatele: TENIS-CENTRUM DTJ HK"
+ },
+ "svaz:cts:406700": {
+  "klic": "svaz:cts:406700",
+  "poradatel": "ČTS",
+  "adresa": "Kouty 1581, Valašské Meziříčí",
+  "zdroj": "svaz_rozpis",
+  "region": "Severomoravský",
+  "lat": 49.47123,
+  "lon": 17.985024,
+  "presnost": "areal",
+  "nazev_mista": "Tenisová hala",
+  "osm_vzdalenost_km": 0.12,
+  "geokod": "RÚIAN: Kouty 1581, 75701 Valašské Meziříčí",
+  "poznamka": "místo podle poznámky pořadatele: TK DEZA Valašské Meziříčí"
  },
  "svaz:cts:506700": {
   "klic": "svaz:cts:506700",
@@ -2512,7 +2527,7 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.17,
   "geokod": "RÚIAN: Za Kosteleckou 4161/49, 79601 Prostějov",
-  "poznamka": "místo podle názvu turnaje: TK AGROFERT Prostějov"
+  "poznamka": "místo podle poznámky pořadatele: TK AGROFERT Prostějov"
  },
  "svaz:cts:606700": {
   "klic": "svaz:cts:606700",
@@ -2526,20 +2541,35 @@
   "nazev_mista": "TJ Slavia VŠ",
   "osm_vzdalenost_km": 0.07,
   "geokod": "RÚIAN: U Borského parku 2916/19, Jižní Předměstí, 30100 Plzeň",
-  "poznamka": "místo podle názvu turnaje: TK Slavia Plzeň"
+  "poznamka": "místo podle poznámky pořadatele: TK Slavia Plzeň"
  },
  "svaz:cts:706700": {
   "klic": "svaz:cts:706700",
   "poradatel": "ČTS",
-  "adresa": "Fibichova 1377/8, Liberec",
-  "zdroj": "loni",
-  "region": "ČTS",
-  "lat": 50.77485,
-  "lon": 15.074844,
-  "presnost": "odhad",
+  "adresa": "Sportovní 5027/10a, Jablonec nad Nisou",
+  "zdroj": "svaz_rozpis",
+  "region": "Severočeský",
+  "lat": 50.741705,
+  "lon": 15.176824,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.03,
-  "geokod": "RÚIAN: Fibichova 1377/8, Liberec I-Staré Město, 46001 Liberec"
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "RÚIAN: Sportovní 5027/10a, Mšeno nad Nisou, 46604 Jablonec nad Nisou",
+  "poznamka": "místo podle poznámky pořadatele: TK Břízky Jablonec n.Nis."
+ },
+ "svaz:cts:806700": {
+  "klic": "svaz:cts:806700",
+  "poradatel": "ČTS",
+  "adresa": "Za Císařským mlýnem 1115/2, Praha 7",
+  "zdroj": "svaz_rozpis",
+  "region": "Praha",
+  "lat": 50.109465,
+  "lon": 14.407759,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.15,
+  "geokod": "RÚIAN: Za Císařským mlýnem 1115/2, Bubeneč, 17000 Praha 7",
+  "poznamka": "místo podle poznámky pořadatele: TK Sparta Praha"
  },
  "svaz:cts:906711": {
   "klic": "svaz:cts:906711",

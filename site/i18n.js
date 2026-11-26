@@ -121,6 +121,9 @@ window.I18N = (() => {
     "Areál dohledán v mapě (OpenStreetMap)": "Venue found on the map (OpenStreetMap)",
     "Jen obec – areál v mapě nedohledán": "Town only – venue not found on the map",
     "místo podle rozpisu svazu": "venue according to the regional association's schedule",
+    "místo podle poznámky pořadatele": "venue according to the organiser's note",
+    "místo podle názvu turnaje": "venue according to the tournament name",
+    "odhad podle kontaktní osoby turnaje": "estimate based on the tournament contact person",
     // --- seznam a karty ---
     "turnajů": "tournaments", "míst": "venues", "bez místa": "without location",
     "děti": "children", "muži": "men", "ženy": "women", "chlapci": "boys", "dívky": "girls",

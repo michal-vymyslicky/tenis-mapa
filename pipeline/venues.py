@@ -413,6 +413,7 @@ def resolve(requests, clubs, old=None):
             kontakt = (sv.get("zdroj") or "").startswith("odhad")
             v["poznamka"] = (f"místo podle názvu turnaje: {sv['klub']}" if sv.get("zdroj") == "název turnaje"
                              else f"odhad podle kontaktní osoby turnaje: {sv['klub']}" if kontakt
+                             else f"místo podle poznámky pořadatele: {sv['klub']}" if (sv.get("zdroj") or "").startswith("poznámka pořadatele")
                              else f"místo podle rozpisu svazu: {sv['klub']}")
             # ověřený areál pořádajícího klubu (paměť míst) má přednost
             known = [m for m in mem.get(norm(sv["klub"]), []) if m["presnost"] in ("areal", "rucne")]

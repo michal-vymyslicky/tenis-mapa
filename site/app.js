@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.11.3";
+const APP_VERSION = "v3.11.4";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -88,7 +88,7 @@ const nf = n => n.toLocaleString(EN ? "en-GB" : "cs-CZ");
 const DOW_CS = {Po: "Mon", Út: "Tue", St: "Wed", Čt: "Thu", Pá: "Fri", So: "Sat", Ne: "Sun"};
 const prezText = s => !EN || !s ? s : s.replace(/(^|[\s,(])(Po|Út|St|Čt|Pá|So|Ne)(?=[\s.,]|$)/g, (m, a, d) => a + DOW_CS[d]).replace(/\bdo\b/g, "until").replace(/\s*hod\.?/g, "").trim();
 /* poznámka k místu z pipeline (česky) */
-const noteText = s => !EN || !s ? s : s.replace("místo podle ověřeného areálu klubu", T("místo podle ověřeného areálu klubu")).replace("místo podle rozpisu svazu", T("místo podle rozpisu svazu")).replace("ročník", T("ročník"));
+const noteText = s => !EN || !s ? s : s.replace("místo podle ověřeného areálu klubu", T("místo podle ověřeného areálu klubu")).replace("místo podle rozpisu svazu", T("místo podle rozpisu svazu")).replace("místo podle poznámky pořadatele", T("místo podle poznámky pořadatele")).replace("místo podle názvu turnaje", T("místo podle názvu turnaje")).replace("odhad podle kontaktní osoby turnaje", T("odhad podle kontaktní osoby turnaje")).replace("ročník", T("ročník"));
 function toast(t) { const el = $("#toast"); el.textContent = t; el.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => el.hidden = true, 2600); }
 const isDesk = () => innerWidth >= 900;
 
