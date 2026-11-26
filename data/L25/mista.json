@@ -1721,23 +1721,26 @@
   "region": "Praha",
   "lat": 50.068487,
   "lon": 14.39376,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "areal",
+  "nazev_mista": "Sportovní areál Mrázovka",
   "osm_vzdalenost_km": 0.11,
-  "geokod": "OSM: U Mrázovky, Malvazinky, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
+  "geokod": "OSM: U Mrázovky, Malvazinky, Praha 5, obvod Praha 5, Praha, 150 00, Česko",
+  "pamet": "L25",
+  "poznamka": "místo podle ověřeného areálu klubu"
  },
  "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5": {
   "klic": "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5",
   "poradatel": "Sokol Smíchov I.",
-  "adresa": "U Mrázovky, sport.areál Mrázovka, Praha 5",
+  "adresa": "U Mrázovky 1566, Praha 5 – Smíchov",
   "zdroj": "detail",
   "region": "Praha",
   "lat": 50.068487,
   "lon": 14.39376,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Sportovní areál Mrázovka",
   "osm_vzdalenost_km": 0.11,
-  "geokod": "OSM: U Mrázovky, Malvazinky, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
+  "geokod": "OSM: U Mrázovky, Malvazinky, Praha 5, obvod Praha 5, Praha, 150 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty areálu Mrázovka (Sport Mrázovka, U Mrázovky 1566)"
  },
  "klub:sokol tk kaplice|miru 772 kaplice": {
   "klic": "klub:sokol tk kaplice|miru 772 kaplice",
@@ -2159,28 +2162,30 @@
  "klub:tc mj tenis lisen": {
   "klic": "klub:tc mj tenis lisen",
   "poradatel": "TC-MJ TENIS Líšeň",
-  "adresa": "Novolíšeňská , BRNO-LÍŠEŇ",
+  "adresa": "Novolíšeňská 2411/10, Brno-Líšeň",
   "zdroj": "adresar",
   "region": "Jihomoravský",
-  "lat": 49.207909,
-  "lon": 16.687483,
-  "presnost": "obec",
-  "nazev_mista": "",
+  "lat": 49.205552,
+  "lon": 16.687201,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TC-MJ Líšeň",
   "osm_vzdalenost_km": null,
-  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"
+  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)"
  },
  "klub:tc mj tenis lisen|novolisenska brno lisen": {
   "klic": "klub:tc mj tenis lisen|novolisenska brno lisen",
   "poradatel": "TC-MJ TENIS Líšeň",
-  "adresa": "Novolíšeňská , BRNO-LÍŠEŇ",
+  "adresa": "Novolíšeňská 2411/10, Brno-Líšeň",
   "zdroj": "detail",
   "region": "Jihomoravský",
-  "lat": 49.207909,
-  "lon": 16.687483,
-  "presnost": "obec",
-  "nazev_mista": "",
+  "lat": 49.205552,
+  "lon": 16.687201,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TC-MJ Líšeň",
   "osm_vzdalenost_km": null,
-  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"
+  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)"
  },
  "klub:tc pankrac": {
   "klic": "klub:tc pankrac",
@@ -3425,36 +3430,39 @@
   "region": "Severomoravský",
   "lat": 49.835062,
   "lon": 18.091064,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Sokol Dolní Lhota",
   "osm_vzdalenost_km": 0.18,
-  "geokod": "OSM: Sportovní, Dolní Lhota, okres Ostrava-město, Moravskoslezský kraj, 747 66, Česko"
+  "geokod": "OSM: Sportovní, Dolní Lhota, okres Ostrava-město, Moravskoslezský kraj, 747 66, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – jediné tenisové kurty v obci, ulice Sportovní"
  },
  "klub:tj sokol kralovice z s": {
   "klic": "klub:tj sokol kralovice z s",
   "poradatel": "TJ Sokol Královice, z.s.",
-  "adresa": "Pod Hradem, Praha 10 - Královice",
+  "adresa": "Pod Hradem, Praha 10 – Královice",
   "zdroj": "adresar",
   "region": "Praha",
   "lat": 50.0397,
   "lon": 14.635973,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Tenisový areál TJ Sokol Královice",
   "osm_vzdalenost_km": 0.17,
-  "geokod": "OSM: Pod Hradem, Praha-Královice, obvod Praha 10, Praha, 103 00, Česko"
+  "geokod": "OSM: Pod Hradem, Praha-Královice, obvod Praha 10, Praha, 103 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – jediný tenisový areál v Královicích (s halou), ulice Pod Hradem"
  },
  "klub:tj sokol kralovice z s|pod hradem praha 10 kralovice": {
   "klic": "klub:tj sokol kralovice z s|pod hradem praha 10 kralovice",
   "poradatel": "TJ Sokol Královice, z.s.",
-  "adresa": "Pod Hradem, Praha 10 - Královice",
+  "adresa": "Pod Hradem, Praha 10 – Královice",
   "zdroj": "detail",
   "region": "Praha",
   "lat": 50.0397,
   "lon": 14.635973,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Tenisový areál TJ Sokol Královice",
   "osm_vzdalenost_km": 0.17,
-  "geokod": "OSM: Pod Hradem, Praha-Královice, obvod Praha 10, Praha, 103 00, Česko"
+  "geokod": "OSM: Pod Hradem, Praha-Královice, obvod Praha 10, Praha, 103 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – jediný tenisový areál v Královicích (s halou), ulice Pod Hradem"
  },
  "klub:tj sokol prazmo raskovice": {
   "klic": "klub:tj sokol prazmo raskovice",
@@ -4966,15 +4974,16 @@
  "klub:tk ruzyne praha|nam c povstani praha 6": {
   "klic": "klub:tk ruzyne praha|nam c povstani praha 6",
   "poradatel": "TK Ruzyně Praha",
-  "adresa": "Nám.č.povstání, Praha 6",
+  "adresa": "nám. Českého povstání, Praha 6 – Ruzyně",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.106556,
-  "lon": 14.363724,
-  "presnost": "obec",
-  "nazev_mista": "",
+  "lat": 50.082143,
+  "lon": 14.316138,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TK Ruzyně",
   "osm_vzdalenost_km": null,
-  "geokod": "OSM: Praha 6, obvod Praha 6, Praha, Česko"
+  "geokod": "OSM: Praha 6, obvod Praha 6, Praha, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisový areál u nám. Českého povstání"
  },
  "klub:tk sb svetla n saz|pesinky 971 svetla nad sazavou": {
   "klic": "klub:tk sb svetla n saz|pesinky 971 svetla nad sazavou",
@@ -5539,15 +5548,16 @@
  "klub:tk vyskov|mlynska 743 12 vyskov": {
   "klic": "klub:tk vyskov|mlynska 743 12 vyskov",
   "poradatel": "TK Vyškov",
-  "adresa": "Mlýnská 743/12, Vyškov",
+  "adresa": "Mlýnská 737/10, Vyškov",
   "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.285089,
   "lon": 16.99242,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Tenisový areál Vyškov-Dědice",
   "osm_vzdalenost_km": 0.5,
-  "geokod": "OSM: Mlýnská, Vyškov-Město, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
+  "geokod": "OSM: Mlýnská, Vyškov-Město, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisový areál u Mlýnská 737/10 (Tennis Academy Vyškov)"
  },
  "klub:tk zlin|hradska 854 zlin": {
   "klic": "klub:tk zlin|hradska 854 zlin",
@@ -6211,15 +6221,16 @@
  "svaz:jihomoravsky:916127": {
   "klic": "svaz:jihomoravsky:916127",
   "poradatel": "jihomoravský",
-  "adresa": "Novolíšeňská , BRNO-LÍŠEŇ",
+  "adresa": "Novolíšeňská 2411/10, Brno-Líšeň",
   "zdroj": "detail",
   "region": "Jihomoravský",
-  "lat": 49.207909,
-  "lon": 16.687483,
-  "presnost": "obec",
-  "nazev_mista": "",
+  "lat": 49.205552,
+  "lon": 16.687201,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TC-MJ Líšeň",
   "osm_vzdalenost_km": null,
-  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"
+  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)"
  },
  "svaz:jihomoravsky:916135": {
   "klic": "svaz:jihomoravsky:916135",

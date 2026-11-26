@@ -1,2 +1,21 @@
 klic;lat;lon;nazev_mista;adresa;poznamka
 klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5;50.068487;14.39376;Sportovní areál Mrázovka;U Mrázovky 1566, Praha 5 – Smíchov;ručně ověřeno 26. 11. 2026 – kurty areálu Mrázovka (Sport Mrázovka, U Mrázovky 1566)
+klub:slovan hranice z s;49.543166;17.722716;Tenisový areál Slovan Hranice;Žáčkova 2141, Hranice;ručně ověřeno 26. 11. 2026 – areál Slovan Hranice (5 antukových, 3 kryté kurty), bod adresy RÚIAN
+klub:slovan hranice z s|hranice;49.543166;17.722716;Tenisový areál Slovan Hranice;Žáčkova 2141, Hranice;ručně ověřeno 26. 11. 2026 – areál Slovan Hranice (5 antukových, 3 kryté kurty), bod adresy RÚIAN
+klub:sokol dolni pocernice z s|v raji 905 praha 9 dolni pocernice narodnich hrdinu 290;50.088378;14.57603;Tenisové kurty Sokol Dolní Počernice;V Ráji 905, Praha 9 – Dolní Počernice;ručně ověřeno 26. 11. 2026 – kurty u adresy V Ráji 905 (dříve chybně přichyceno k areálu Na Korunce v Běchovicích)
+klub:tc mj tenis lisen;49.205552;16.687201;Tenisové kurty TC-MJ Líšeň;Novolíšeňská 2411/10, Brno-Líšeň;ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)
+klub:tc mj tenis lisen|novolisenska brno lisen;49.205552;16.687201;Tenisové kurty TC-MJ Líšeň;Novolíšeňská 2411/10, Brno-Líšeň;ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)
+klub:tenis jesenice z s;49.976091;14.515964;Sportovní areál Jesenice;K Sportovnímu areálu 1600, Jesenice;ručně ověřeno 26. 11. 2026 – Sportovní areál Jesenice
+klub:tenis jesenice z s|k sportovnimu arealu 1600 jesenice;49.976091;14.515964;Sportovní areál Jesenice;K Sportovnímu areálu 1600, Jesenice;ručně ověřeno 26. 11. 2026 – Sportovní areál Jesenice
+klub:tj sokol dolni lhota;49.835062;18.091064;Tenisové kurty TJ Sokol Dolní Lhota;Sportovní, Dolní Lhota;ručně ověřeno 26. 11. 2026 – jediné tenisové kurty v obci, ulice Sportovní
+klub:tj sokol dolni lhota|sportovni dolni lhota;49.835062;18.091064;Tenisové kurty TJ Sokol Dolní Lhota;Sportovní, Dolní Lhota;ručně ověřeno 26. 11. 2026 – jediné tenisové kurty v obci, ulice Sportovní
+klub:tj sokol kralovice z s;50.0397;14.635973;Tenisový areál TJ Sokol Královice;Pod Hradem, Praha 10 – Královice;ručně ověřeno 26. 11. 2026 – jediný tenisový areál v Královicích (s halou), ulice Pod Hradem
+klub:tj sokol kralovice z s|pod hradem praha 10 kralovice;50.0397;14.635973;Tenisový areál TJ Sokol Královice;Pod Hradem, Praha 10 – Královice;ručně ověřeno 26. 11. 2026 – jediný tenisový areál v Královicích (s halou), ulice Pod Hradem
+klub:tk nachod;50.419072;16.185156;Tenis club Běloves;Ulice 1. máje, Náchod – Běloves;ručně ověřeno 26. 11. 2026 – Tenis club Běloves
+klub:tk nachod|ulice 1 maje nachod beloves;50.419072;16.185156;Tenis club Běloves;Ulice 1. máje, Náchod – Běloves;ručně ověřeno 26. 11. 2026 – Tenis club Běloves
+klub:tk ruzyne praha|nam c povstani praha 6;50.082143;14.316138;Tenisové kurty TK Ruzyně;nám. Českého povstání, Praha 6 – Ruzyně;ručně ověřeno 26. 11. 2026 – tenisový areál u nám. Českého povstání
+klub:tk vyskov;49.285089;16.99242;Tenisový areál Vyškov-Dědice;Mlýnská 737/10, Vyškov;ručně ověřeno 26. 11. 2026 – tenisový areál u Mlýnská 737/10 (Tennis Academy Vyškov)
+klub:tk vyskov|mlynska 743 12 vyskov;49.285089;16.99242;Tenisový areál Vyškov-Dědice;Mlýnská 737/10, Vyškov;ručně ověřeno 26. 11. 2026 – tenisový areál u Mlýnská 737/10 (Tennis Academy Vyškov)
+svaz:jihomoravsky:706941;49.205552;16.687201;Tenisové kurty TC-MJ Líšeň;Novolíšeňská 2411/10, Brno-Líšeň;ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)
+svaz:jihomoravsky:706971;49.205552;16.687201;Tenisové kurty TC-MJ Líšeň;Novolíšeňská 2411/10, Brno-Líšeň;ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)
+svaz:jihomoravsky:916127;49.205552;16.687201;Tenisové kurty TC-MJ Líšeň;Novolíšeňská 2411/10, Brno-Líšeň;ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)

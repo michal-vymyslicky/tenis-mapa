@@ -872,15 +872,16 @@
  "klub:slovan hranice z s|hranice": {
   "klic": "klub:slovan hranice z s|hranice",
   "poradatel": "SLOVAN HRANICE, z.s.",
-  "adresa": "Hranice",
+  "adresa": "Žáčkova 2141, Hranice",
   "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.548176,
-  "lon": 17.734741,
-  "presnost": "obec",
-  "nazev_mista": "",
+  "lat": 49.543166,
+  "lon": 17.722716,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisový areál Slovan Hranice",
   "osm_vzdalenost_km": null,
-  "geokod": "OSM: Hranice, okres Přerov, Olomoucký kraj, 753 01, Česko"
+  "geokod": "OSM: Hranice, okres Přerov, Olomoucký kraj, 753 01, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – areál Slovan Hranice (5 antukových, 3 kryté kurty), bod adresy RÚIAN"
  },
  "klub:sokol cimice|na pruhonu 229 20 praha 8 cimice": {
   "klic": "klub:sokol cimice|na pruhonu 229 20 praha 8 cimice",
@@ -898,15 +899,16 @@
  "klub:sokol dolni pocernice z s|v raji 905 praha 9 dolni pocernice narodnich hrdinu 290": {
   "klic": "klub:sokol dolni pocernice z s|v raji 905 praha 9 dolni pocernice narodnich hrdinu 290",
   "poradatel": "Sokol Dolní Počernice z.s.",
-  "adresa": "V Raji 905, Praha 9-Dolní Počernice ,Narodních hrdinů 290",
+  "adresa": "V Ráji 905, Praha 9 – Dolní Počernice",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.075449,
-  "lon": 14.598716,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "lat": 50.088378,
+  "lon": 14.57603,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty Sokol Dolní Počernice",
   "osm_vzdalenost_km": 1.82,
-  "geokod": "OSM: Na Kempu, 290, Národních hrdinů, Praha-Dolní Počernice, obvod Praha 9, Praha, 190 12, Česko"
+  "geokod": "OSM: Na Kempu, 290, Národních hrdinů, Praha-Dolní Počernice, obvod Praha 9, Praha, 190 12, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty u adresy V Ráji 905 (dříve chybně přichyceno k areálu Na Korunce v Běchovicích)"
  },
  "klub:sokol letovice|u koupaliste 800 letovice": {
   "klic": "klub:sokol letovice|u koupaliste 800 letovice",
@@ -1134,15 +1136,16 @@
  "klub:tc mj tenis lisen|novolisenska brno lisen": {
   "klic": "klub:tc mj tenis lisen|novolisenska brno lisen",
   "poradatel": "TC-MJ TENIS Líšeň",
-  "adresa": "Novolíšeňská , BRNO-LÍŠEŇ",
+  "adresa": "Novolíšeňská 2411/10, Brno-Líšeň",
   "zdroj": "detail",
   "region": "Jihomoravský",
-  "lat": 49.207909,
-  "lon": 16.687483,
-  "presnost": "obec",
-  "nazev_mista": "",
+  "lat": 49.205552,
+  "lon": 16.687201,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TC-MJ Líšeň",
   "osm_vzdalenost_km": null,
-  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"
+  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)"
  },
  "klub:tc sanitino academy z s": {
   "klic": "klub:tc sanitino academy z s",
@@ -1329,28 +1332,30 @@
  "klub:tenis jesenice z s": {
   "klic": "klub:tenis jesenice z s",
   "poradatel": "Tenis Jesenice z.s.",
-  "adresa": "K sportovnímu areálu 1600, Jesenice",
+  "adresa": "K Sportovnímu areálu 1600, Jesenice",
   "zdroj": "adresar",
   "region": "Praha",
   "lat": 49.976091,
   "lon": 14.515964,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Sportovní areál Jesenice",
   "osm_vzdalenost_km": 0.1,
-  "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko"
+  "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – Sportovní areál Jesenice"
  },
  "klub:tenis jesenice z s|k sportovnimu arealu 1600 jesenice": {
   "klic": "klub:tenis jesenice z s|k sportovnimu arealu 1600 jesenice",
   "poradatel": "Tenis Jesenice z.s.",
-  "adresa": "K sportovnímu areálu 1600, Jesenice",
+  "adresa": "K Sportovnímu areálu 1600, Jesenice",
   "zdroj": "detail",
   "region": "Praha",
   "lat": 49.976091,
   "lon": 14.515964,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Sportovní areál Jesenice",
   "osm_vzdalenost_km": 0.1,
-  "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko"
+  "geokod": "OSM: K Sportovnímu areálu, Zdiměřice, Jesenice, okres Praha-západ, Středočeský kraj, 252 50, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – Sportovní areál Jesenice"
  },
  "klub:tenis klub jindrichuv hradec z s|roschova 1304 jindrichuv hradec ii": {
   "klic": "klub:tenis klub jindrichuv hradec z s|roschova 1304 jindrichuv hradec ii",
@@ -1789,10 +1794,11 @@
   "region": "Severomoravský",
   "lat": 49.835062,
   "lon": 18.091064,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Sokol Dolní Lhota",
   "osm_vzdalenost_km": 0.18,
-  "geokod": "OSM: Sportovní, Dolní Lhota, okres Ostrava-město, Moravskoslezský kraj, 747 66, Česko"
+  "geokod": "OSM: Sportovní, Dolní Lhota, okres Ostrava-město, Moravskoslezský kraj, 747 66, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – jediné tenisové kurty v obci, ulice Sportovní"
  },
  "klub:tj sokol dolni lhota|sportovni dolni lhota": {
   "klic": "klub:tj sokol dolni lhota|sportovni dolni lhota",
@@ -1802,23 +1808,25 @@
   "region": "Severomoravský",
   "lat": 49.835062,
   "lon": 18.091064,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TJ Sokol Dolní Lhota",
   "osm_vzdalenost_km": 0.18,
-  "geokod": "OSM: Sportovní, Dolní Lhota, okres Ostrava-město, Moravskoslezský kraj, 747 66, Česko"
+  "geokod": "OSM: Sportovní, Dolní Lhota, okres Ostrava-město, Moravskoslezský kraj, 747 66, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – jediné tenisové kurty v obci, ulice Sportovní"
  },
  "klub:tj sokol kralovice z s|pod hradem praha 10 kralovice": {
   "klic": "klub:tj sokol kralovice z s|pod hradem praha 10 kralovice",
   "poradatel": "TJ Sokol Královice, z.s.",
-  "adresa": "Pod Hradem, Praha 10 - Královice",
+  "adresa": "Pod Hradem, Praha 10 – Královice",
   "zdroj": "detail",
   "region": "Praha",
   "lat": 50.0397,
   "lon": 14.635973,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Tenisový areál TJ Sokol Královice",
   "osm_vzdalenost_km": 0.17,
-  "geokod": "OSM: Pod Hradem, Praha-Královice, obvod Praha 10, Praha, 103 00, Česko"
+  "geokod": "OSM: Pod Hradem, Praha-Královice, obvod Praha 10, Praha, 103 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – jediný tenisový areál v Královicích (s halou), ulice Pod Hradem"
  },
  "klub:tj sokol uhersky brod": {
   "klic": "klub:tj sokol uhersky brod",
@@ -2291,28 +2299,30 @@
  "klub:tk nachod": {
   "klic": "klub:tk nachod",
   "poradatel": "TK Náchod",
-  "adresa": "Ulice 1. máje, Náchod - Běloves",
+  "adresa": "Ulice 1. máje, Náchod – Běloves",
   "zdroj": "adresar",
   "region": "Východočeský",
   "lat": 50.419072,
   "lon": 16.185156,
-  "presnost": "areal_obec",
+  "presnost": "rucne",
   "nazev_mista": "Tenis club Běloves",
   "osm_vzdalenost_km": 0.5,
-  "geokod": "OSM: Náchod-Běloves, Polská, Běloves, Náchod, okres Náchod, Královéhradecký kraj, 574 01, Česko"
+  "geokod": "OSM: Náchod-Běloves, Polská, Běloves, Náchod, okres Náchod, Královéhradecký kraj, 574 01, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – Tenis club Běloves"
  },
  "klub:tk nachod|ulice 1 maje nachod beloves": {
   "klic": "klub:tk nachod|ulice 1 maje nachod beloves",
   "poradatel": "TK Náchod",
-  "adresa": "Ulice 1. máje, Náchod - Běloves",
+  "adresa": "Ulice 1. máje, Náchod – Běloves",
   "zdroj": "detail",
   "region": "Východočeský",
   "lat": 50.419072,
   "lon": 16.185156,
-  "presnost": "areal_obec",
+  "presnost": "rucne",
   "nazev_mista": "Tenis club Běloves",
   "osm_vzdalenost_km": 0.5,
-  "geokod": "OSM: Náchod-Běloves, Polská, Běloves, Náchod, okres Náchod, Královéhradecký kraj, 574 01, Česko"
+  "geokod": "OSM: Náchod-Běloves, Polská, Běloves, Náchod, okres Náchod, Královéhradecký kraj, 574 01, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – Tenis club Běloves"
  },
  "klub:tk pelhrimov|k tenisu 1741 pelhrimov": {
   "klic": "klub:tk pelhrimov|k tenisu 1741 pelhrimov",
@@ -2460,15 +2470,16 @@
  "klub:tk ruzyne praha|nam c povstani praha 6": {
   "klic": "klub:tk ruzyne praha|nam c povstani praha 6",
   "poradatel": "TK Ruzyně Praha",
-  "adresa": "Nám.č.povstání, Praha 6",
+  "adresa": "nám. Českého povstání, Praha 6 – Ruzyně",
   "zdroj": "detail",
   "region": "Praha",
-  "lat": 50.106556,
-  "lon": 14.363724,
-  "presnost": "obec",
-  "nazev_mista": "",
+  "lat": 50.082143,
+  "lon": 14.316138,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TK Ruzyně",
   "osm_vzdalenost_km": null,
-  "geokod": "OSM: Praha 6, obvod Praha 6, Praha, Česko"
+  "geokod": "OSM: Praha 6, obvod Praha 6, Praha, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisový areál u nám. Českého povstání"
  },
  "klub:tk sc ostrava|budecska 4 3214 ostrava": {
   "klic": "klub:tk sc ostrava|budecska 4 3214 ostrava",
@@ -2772,15 +2783,16 @@
  "klub:tk vyskov|mlynska 743 12 vyskov": {
   "klic": "klub:tk vyskov|mlynska 743 12 vyskov",
   "poradatel": "TK Vyškov",
-  "adresa": "Mlýnská 743/12, Vyškov",
+  "adresa": "Mlýnská 737/10, Vyškov",
   "zdroj": "detail",
   "region": "Jihomoravský",
   "lat": 49.285089,
   "lon": 16.99242,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Tenisový areál Vyškov-Dědice",
   "osm_vzdalenost_km": 0.5,
-  "geokod": "OSM: Mlýnská, Vyškov-Město, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko"
+  "geokod": "OSM: Mlýnská, Vyškov-Město, Vyškov, okres Vyškov, Jihomoravský kraj, 682 01, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – tenisový areál u Mlýnská 737/10 (Tennis Academy Vyškov)"
  },
  "klub:tk zlin|hradska 854 zlin": {
   "klic": "klub:tk zlin|hradska 854 zlin",
@@ -3344,15 +3356,16 @@
  "svaz:jihomoravsky:706941": {
   "klic": "svaz:jihomoravsky:706941",
   "poradatel": "jihomoravský",
-  "adresa": "Novolíšeňská , BRNO-LÍŠEŇ",
+  "adresa": "Novolíšeňská 2411/10, Brno-Líšeň",
   "zdroj": "detail",
   "region": "Jihomoravský",
-  "lat": 49.207909,
-  "lon": 16.687483,
-  "presnost": "obec",
-  "nazev_mista": "",
+  "lat": 49.205552,
+  "lon": 16.687201,
+  "presnost": "rucne",
+  "nazev_mista": "Tenisové kurty TC-MJ Líšeň",
   "osm_vzdalenost_km": null,
-  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko"
+  "geokod": "OSM: Novolíšeňská, Líšeň, Brno-Líšeň, Brno, okres Brno-město, Jihomoravský kraj, 628 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty u Novolíšeňská 2411/10 (tenisová škola M. Juda)"
  },
  "svaz:jihomoravsky:806940": {
   "klic": "svaz:jihomoravsky:806940",
