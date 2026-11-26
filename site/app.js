@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.9";
+const APP_VERSION = "v3.9.1";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -1148,7 +1148,8 @@ $("#btnIcs").onclick = icsFavs;
 $("#btnFavMap").onclick = () => { F.favOnly = !F.favOnly; render(); };
 /* přepínač jazyka: tlačítko ukazuje aktuální jazyk (CZ / EN), klepnutím se přepne na druhý */
 const otherLang = EN ? "cs" : "en";
-$("#btnLang").textContent = EN ? "EN" : "CZ";
+// přepínač CZ / EN: obě volby vedle sebe, aktuální jazyk zvýrazněný
+$("#btnLang").innerHTML = `<span class="${EN ? "" : "on"}">CZ</span><span class="${EN ? "on" : ""}">EN</span>`;
 $("#btnLang").title = EN ? "Language: English – přepnout do češtiny" : "Jazyk: čeština – switch to English"; $("#btnLang").setAttribute("aria-label", $("#btnLang").title);
 $("#btnLang").onclick = () => window.I18N && I18N.set(otherLang);
 $("#aboutLang").textContent = otherLang === "en" ? "English version" : "Česká verze";

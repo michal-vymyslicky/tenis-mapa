@@ -265,7 +265,11 @@ button.logo{border:0;padding:0;cursor:pointer}
 .seasonmenu button.on{background:var(--accent-soft);color:var(--accent)}
 .seasonmenu button small{color:var(--muted);font-size:12.5px}
 .occ .zrtxt{color:var(--bad)}
-.iconbtn.lang{font:700 13px/1 inherit;letter-spacing:.04em}
+.iconbtn.lang{font:700 12px/1 inherit;letter-spacing:.03em}
+.mapctl{align-items:flex-end}
+.mapctl .iconbtn.lang{width:auto;height:34px;padding:3px;border-radius:17px;display:flex;gap:2px}
+.iconbtn.lang span{display:block;padding:7px 8px;border-radius:14px;color:var(--muted)}
+.iconbtn.lang span.on{background:var(--accent);color:#fff}
 
 /* Tennis Europe: modré odstíny + žlutý okraj špendlíku (jako hvězdy vlajky EU) */
 .pin.te svg path:first-child{stroke:#ffcc00;stroke-width:2.2}

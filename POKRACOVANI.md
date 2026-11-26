@@ -158,7 +158,7 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
 ## v3.7 – po načtení stránky bez filtrů (26. 11. 2026)
 - Každé načtení / refresh začíná s výchozími filtry (od dnes, ČTS, bez kategorií, hráčů, klubu) a v aktuální sezóně. Filtry (`tm.filters`)
   ani sezóna (`tm.sez`) se už neukládají, staré uložené hodnoty se při startu smažou. Pamatuje se jen jazyk, oblíbené (`tm.fav`) a mapový podklad (`tm.map`).
-- v3.6.1: tlačítko jazyka ukazuje aktuální jazyk (CZ / EN).
+- v3.6.1: tlačítko jazyka ukazuje aktuální jazyk (CZ / EN); v3.9.1: přepínač „CZ | EN“ (obě volby, aktuální zvýrazněná oranžově).
 
 ## v3.8 – kvalifikace a hlavní soutěž (26. 11. 2026)
 - Detail turnaje s kvalifikací má na ČTS dva bloky „Kvalifikace“ a „Hlavní soutěž“, každý s vlastním „Počet účastníků“. Parser dřív bral
