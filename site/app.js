@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.11.1";
+const APP_VERSION = "v3.11.2";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -649,6 +649,7 @@ function bind(root) {
   root.querySelectorAll("[data-report-ev]").forEach(a => a.onclick = ev => { ev.stopPropagation(); openReport({ev: a.dataset.reportEv, venue: lastVenue}); });
   root.querySelectorAll("[data-report-venue]").forEach(a => a.onclick = ev => { ev.stopPropagation(); openReport({venue: +a.dataset.reportVenue}); });
   root.querySelectorAll(".pill[data-pid]").forEach(b => b.onclick = ev => { ev.stopPropagation(); openPlayer(b.dataset.pid); });
+  root.querySelectorAll(".unsuretxt a, .locwarn a").forEach(l => l.addEventListener("click", ev => ev.stopPropagation()));
   root.querySelectorAll("[data-ev]").forEach(r => r.onclick = () => { const e = EV.find(x => x.id === r.dataset.ev); if (e) { if (panel === "list") listState = {top: $("#sheetBody").scrollTop, center: map.getCenter(), zoom: map.getZoom(), snap}; openVenue(e.misto, {focus: e.id, solo: true}); } });
 }
 function toggleFav(id) {
@@ -680,7 +681,13 @@ function locWarn(v, all) {
   if (!g.length && !(guessy(v) && !act.length)) return "";
   const why = [...new Set((g.length ? g : [{}]).map(e => (PREC[(VEN[e.mo ?? e.misto] || v).presnost] || PREC.nezname)[1]))].join(" · ");
   const head = g.length && g.length < act.length ? T("Poloha některých turnajů ({n}) je jen dopočítaná", {n: g.length}) : T("Poloha je jen dopočítaná – může být nepřesná");
-  return `<div class="locwarn"><b>!</b><div><strong>${head}</strong><br>${esc(why)}. ${T("Místo konání zatím nemusí být v detailu turnaje na webu ČTS uvedeno – před cestou si ho ověřte u pořadatele nebo na cesky-tenis.cz.")}</div></div>`;
+  // zdroj k ověření podle původu turnaje: ČTS → cesky-tenis.cz, Tennis Europe → detail turnaje na webu Tennis Europe
+  const gs = g.length ? g : act, te = gs.filter(e => e.src === "te"), cts = gs.filter(e => e.src !== "te");
+  const tips = [];
+  if (cts.length || !gs.length) tips.push(T("Místo konání zatím nemusí být v detailu turnaje na webu ČTS uvedeno – před cestou si ho ověřte u pořadatele nebo na cesky-tenis.cz."));
+  if (te.length) tips.push(T("Tennis Europe ve veřejném vyhledávání uvádí jen obec a název areálu, poloha je dohledaná v mapě – přesnou adresu najdete v detailu turnaje na webu Tennis Europe.") +
+    (te.length === 1 ? ` <a href="${TEURL}${esc(te[0].id.slice(3))}" target="_blank" rel="noopener">${T("Otevřít turnaj na webu Tennis Europe")}</a>` : ""));
+  return `<div class="locwarn"><b>!</b><div><strong>${head}</strong><br>${esc(why)}. ${tips.join(" ")}</div></div>`;
 }
 function openVenue(vi, opt = {}) {
   const v = VEN[vi];
@@ -1269,6 +1276,8 @@ const akText = a => { const d = new Date(a); if (isNaN(d)) return a; const t = `
 /* červený text k červenému rámečku: proč je poloha nejistá */
 function unsureText(e) {
   const v = VEN[e.mo ?? e.misto] || {};
+  if (e.src === "te")   // Tennis Europe: zdrojem je web Tennis Europe, ne ČTS
+    return `<div class="unsuretxt"><b>!</b><span>${T("Nejisté místo konání")}: ${esc(v.presnost === "obec" ? T("Jen obec – areál v mapě nedohledán") : T("Areál dohledán v mapě podle názvu – neověřeno"))}. <a href="${TEURL}${esc(e.id.slice(3))}" target="_blank" rel="noopener">${T("Přesná adresa na webu Tennis Europe")}</a></span></div>`;
   return `<div class="unsuretxt"><b>!</b>${T("Nejisté místo konání")}: ${esc((PREC[v.presnost] || PREC.nezname)[1])}${v.poznamka ? " · " + esc(noteText(v.poznamka)) : ""}</div>`;
 }
 

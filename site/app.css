@@ -418,3 +418,4 @@ button.logo{border:0;padding:0;cursor:pointer}
 .progbtn.ok:after,.progbtn.queued:after{animation:none;background:none}
 @keyframes pbshine{from{background-position:150% 0}to{background-position:-50% 0}}
 .progbtn:disabled{opacity:1}
+.unsuretxt a,.locwarn a{color:inherit;text-decoration:underline}
