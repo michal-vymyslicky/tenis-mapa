@@ -10,6 +10,9 @@ on:
       dni:
         description: "Turnaje začínající do kolika dní"
         default: "7"
+      kody:
+        description: "Nebo jen tyto kódy turnajů (čárkou) – např. přebory; prázdné = podle dní"
+        default: ""
 
 permissions:
   contents: write
@@ -31,7 +34,12 @@ jobs:
       - name: Listiny + detaily blízkých turnajů
         env:
           TZ: Europe/Prague
-        run: python3 pipeline/update.py --blizke "${{ github.event.inputs.dni || '7' }}"
+        run: |
+          if [ -n "${{ github.event.inputs.kody }}" ]; then
+            python3 pipeline/update.py --kody "${{ github.event.inputs.kody }}"
+          else
+            python3 pipeline/update.py --blizke "${{ github.event.inputs.dni || '7' }}"
+          fi
       - name: Uložení změn dat do repozitáře
         run: |
           git config user.name "tenismapa-bot"

@@ -376,6 +376,13 @@ def resolve(requests, clubs, old=None):
         sv = svm.get((rq.get("sezona", ""), code)) if norm(por) in RA else None
         if sv and not ad:                    # přebor svazu: pořádající klub podle rozpisu svazu
             club = find_club(idx, sv["klub"])
+        elif norm(por) in RA and not ad and rq.get("nazev"):
+            # přebor svazu bez adresy: pořádající klub uvedený v názvu nebo poznámce turnaje (např. „… – LTC Houštka“)
+            nz = " " + norm(rq["nazev"]) + " "
+            hits = [c for k, c in idx.items() if len(k) >= 8 and f" {k} " in nz]
+            if len(hits) == 1:
+                sv = {"klub": hits[0]["nazev"], "zdroj": "název turnaje"}
+                club = hits[0]
         if ad:
             addr, src = ad, "detail"
         elif sv and club:
@@ -403,7 +410,8 @@ def resolve(requests, clubs, old=None):
             if src == "loni":
                 v["presnost"] = "odhad"
         if src == "svaz_rozpis":
-            v["poznamka"] = f"místo podle rozpisu svazu: {sv['klub']}"
+            v["poznamka"] = (f"místo podle názvu turnaje: {sv['klub']}" if sv.get("zdroj") == "název turnaje"
+                             else f"místo podle rozpisu svazu: {sv['klub']}")
             # ověřený areál pořádajícího klubu (paměť míst) má přednost
             known = [m for m in mem.get(norm(sv["klub"]), []) if m["presnost"] in ("areal", "rucne")]
             if known:

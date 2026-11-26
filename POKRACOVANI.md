@@ -227,3 +227,7 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   TK Drnovice = Tenis centrum Drnovice (potvrzeno). Kontrola automatických „areál“ s odstupem ≥ 250 m od adresy (17 míst) – ostatní v pořádku.
 - Zbývá nejisté: oblastní přebory a HMČR bez adresy v ČTS (30× odhad podle loňska), 16× neznámé; TJ Žďár n. S., TK DOMYNO P4, TK Krásné Březno,
   TK Meziboří. Rozpisy svazů na zimu 2026/27 se nepodařilo dohledat (zatím jen Jihočeský TS v `mista_svaz.csv`).
+- 26. 11. večer: web ČTS začal Macu (IP uživatele) zobrazovat „Ověření návštěvníka“ (captcha) – následek odpoledního zkušebního stahování z chatu.
+  Z chatu/Macu teď ČTS nestahovat. Ruční obnova vybraných turnajů jde přes GitHub: Actions → „Blízké turnaje (přihlášky)“ → Run workflow,
+  pole „kody“ = kódy turnajů čárkou (`update.py --kody`, 3 s mezi stránkami). Přebor svazu bez adresy, v jehož názvu/poznámce je jednoznačně
+  název klubu z adresáře ČTS, dostane místo tohoto klubu (poznámka „místo podle názvu turnaje“).

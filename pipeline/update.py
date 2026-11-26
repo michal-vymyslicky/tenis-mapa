@@ -187,7 +187,7 @@ def detail_due(code, det, sig_old, sig_new, today=None):
 
 
 # ---------------------------------------------------------------- jedna sezóna
-def process(season, download=True, threads=1, pause=1.5, clubs=None, blizke=None):
+def process(season, download=True, threads=1, pause=1.5, clubs=None, blizke=None, kody=None):
     print(f"=== sezóna {season} ({season_name(season)}) ===", flush=True)
     lists = sload(season, "lists.json", {})
     details = sload(season, "details.json", {})
@@ -215,7 +215,10 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None, blizke=None
         sig_new = list_signatures(lists)
         from collections import Counter
         duvody = {c: detail_due(c, details.get(c, {}), sig_old, sig_new) for c in codes}
-        if blizke is not None:
+        if kody:
+            # ruční obnova vybraných turnajů (--kody): jen jejich detaily, každý jednou
+            duvody = {c: ("vybraný kód" if c in kody else None) for c in codes}
+        elif blizke is not None:
             # lehký denní běh navíc (--blizke N): jen turnaje začínající do N dní, každý jednou – čerstvé přihlášky před víkendem
             near = set(near_codes(codes, sig_new, blizke))
             duvody = {c: (f"blízký turnaj (≤{blizke} d)" if c in near else None) for c in codes}
@@ -265,7 +268,8 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None, blizke=None
             tr = r["trida"] or ("MCR" if r["poradatel"].strip() == "ČTS" or "MČR" in d.get("nazev", "") else "")
             ad = addr_from_detail(d)
             vk = venues.venue_key(r["poradatel"], km or kz, ad)
-            vreq.setdefault(vk, {"poradatel": r["poradatel"], "adresa_detail": ad, "kod": km or kz, "sezona": season})
+            vreq.setdefault(vk, {"poradatel": r["poradatel"], "adresa_detail": ad, "kod": km or kz, "sezona": season,
+                                "nazev": " ".join(x for x in (d.get("nazev", ""), d.get("poznamka", "")) if x)})
             m = re.match(r"^\s*(\d+)\s*•\s*(.*)$", d.get("dvorce_povrch", ""))
             text = " ".join([r.get("radek", ""), d.get("nazev", ""), d.get("h1", "")]).lower()
             # zrušení: ČTS píše ZRUŠENO do sloupce obsazenosti zvlášť pro chlapce/muže a dívky/ženy –
@@ -421,6 +425,7 @@ def main():
     ap.add_argument("--te", action="store_true", help="stáhnout i turnaje Tennis Europe (u --auto automaticky)")
     ap.add_argument("--vlakna", type=int, default=1, help="souběžná stahování z cesky-tenis.cz (šetrně 1)")
     ap.add_argument("--pauza", type=float, default=1.5, help="pauza mezi stránkami v s")
+    ap.add_argument("--kody", help="lehký běh: jen detaily uvedených kódů turnajů (čárkou), aktuální sezóna, pauza min. 3 s")
     ap.add_argument("--blizke", type=int, help="lehký běh: jen aktuální sezóna, listiny + detaily turnajů začínajících do N dní (pauza min. 3 s)")
     a = ap.parse_args()
 
@@ -436,18 +441,19 @@ def main():
     if a.kluby:
         import subprocess
         subprocess.run([sys.executable, os.path.join(PIPE, "_puvodni_scrape_clubs.py"), DATA], check=True)
-    if a.blizke is not None:
+    kody = {k.strip() for k in (a.kody or "").replace(" ", ",").split(",") if k.strip()}
+    if a.blizke is not None or kody:
         a.pauza = max(a.pauza, 3.0); a.vlakna = 1
     seasons = a.sezona or (seasons_auto() if a.auto else ([] if a.index else [os.environ.get("SEZONA") or season_of(TODAY)]))
     clubs = load("clubs.json", [])
     for s in seasons:
         try:                                    # chyba jedné sezóny nesmí shodit ostatní ani nasazení webu
-            process(s, download=not a.bez_stahovani, threads=a.vlakna, pause=a.pauza, clubs=clubs, blizke=a.blizke)
+            process(s, download=not a.bez_stahovani, threads=a.vlakna, pause=a.pauza, clubs=clubs, blizke=a.blizke, kody=kody)
         except Exception as e:  # noqa: BLE001
             import traceback
             traceback.print_exc()
             CHYBY.append(f"sezóna {s}: {e}")
-    if (a.auto or a.te) and not a.bez_stahovani and a.blizke is None:
+    if (a.auto or a.te) and not a.bez_stahovani and a.blizke is None and not kody:
         try:                                    # Tennis Europe – chyba zdroje nesmí shodit denní aktualizaci ČTS
             import te
             te.process()
