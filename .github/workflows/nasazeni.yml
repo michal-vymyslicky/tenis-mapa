@@ -4,7 +4,7 @@ name: Nasazení webu
 # (tj. z nového commitu s daty – GITHUB_SHA je u workflow_run poslední commit výchozí větve).
 on:
   workflow_run:
-    workflows: ["Denní aktualizace turnajů", "Doplnění sezóny (archiv)"]
+    workflows: ["Denní aktualizace turnajů", "Doplnění sezóny (archiv)", "Blízké turnaje (přihlášky)"]
     types: [completed]
   workflow_dispatch: {}      # ruční nasazení z karty Actions
 

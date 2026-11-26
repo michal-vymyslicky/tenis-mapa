@@ -145,6 +145,17 @@ def ssave(season, name, obj, indent=1):
 OBNOVA = [(21, 1), (60, 2), (10 ** 6, 5)]
 
 
+def near_codes(codes, sig, days, today=None):
+    """Kódy turnajů, které ještě neskončily a začínají nejpozději za `days` dní (režim --blizke)."""
+    today = today or TODAY
+    out = []
+    for c in codes:
+        od, do = parse_date((sig.get(c) or ("",))[0])
+        if od and (do or od) >= today and (od - today).days <= days:
+            out.append(c)
+    return out
+
+
 def list_signatures(lists):
     """kód turnaje → (termín, celý řádek listiny vč. obsazenosti) – změna = stáhnout detail hned."""
     out = {}
@@ -176,7 +187,7 @@ def detail_due(code, det, sig_old, sig_new, today=None):
 
 
 # ---------------------------------------------------------------- jedna sezóna
-def process(season, download=True, threads=1, pause=1.5, clubs=None):
+def process(season, download=True, threads=1, pause=1.5, clubs=None, blizke=None):
     print(f"=== sezóna {season} ({season_name(season)}) ===", flush=True)
     lists = sload(season, "lists.json", {})
     details = sload(season, "details.json", {})
@@ -204,6 +215,10 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None):
         sig_new = list_signatures(lists)
         from collections import Counter
         duvody = {c: detail_due(c, details.get(c, {}), sig_old, sig_new) for c in codes}
+        if blizke is not None:
+            # lehký denní běh navíc (--blizke N): jen turnaje začínající do N dní, každý jednou – čerstvé přihlášky před víkendem
+            near = set(near_codes(codes, sig_new, blizke))
+            duvody = {c: (f"blízký turnaj (≤{blizke} d)" if c in near else None) for c in codes}
         stahnout = [c for c in codes if duvody[c]]
         print(f"detaily: stahuji {len(stahnout)} z {len(codes)} – {dict(Counter(v.split(' (')[0] for v in duvody.values() if v))}",
               flush=True)
@@ -221,6 +236,7 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None):
                     prihl[c] = [[e["id"], e["jmeno"], e["klub"], sekce_kod(e.get("sekce", ""))] for e in pr if e.get("id")]
             if d.get("_status") == "ok":
                 d["_stazeno"] = TODAY.isoformat()
+                d["_kdy"] = dt.datetime.now().astimezone().isoformat(timespec="minutes")
             if d.get("_status") == "ok" or c not in details:
                 details[c] = d
         ssave(season, "details.json", details)
@@ -270,7 +286,7 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None):
                 "do": do.isoformat() if do else None, "txt": r["datum"], "tr": tr, "vk": num(r["vklad"]),
                 "nz": d.get("nazev", ""), "por": r["poradatel"], "misto": vk, "km": km, "kz": kz,
                 "mix": bool(r.get("mix")), "om": occ(r.get("obs_m")), "oz": occ(r.get("obs_z")), "pm": ent.get("m"), "pz": ent.get("z"),
-                "kap": kap, "kq": kq, "sm": sm, "sz": sz, "dv": int(m.group(1)) if m else None,
+                "kap": kap, "kq": kq, "sm": sm, "sz": sz, "ak": d.get("_kdy") or d.get("_stazeno"), "dv": int(m.group(1)) if m else None,
                 "pov": (m.group(2).strip() if m else d.get("dvorce_povrch", "")) or "", "mic": d.get("mice", ""),
                 "prez": d.get("prezentace", ""), "el": d.get("el_prezence", "") if d.get("el_prezence") not in ("—", "-") else "",
                 "hp": bool(dm.get("hraci_plany") or dz.get("hraci_plany")),
@@ -320,8 +336,11 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None):
         e["misto"] = kidx[e["misto"]]
     events.sort(key=lambda e: (e["od"] or "9999", e["kat"], e["por"]))
     sd = os.path.join(SITE_DATA, season)
+    # čas aktualizace = poslední skutečné stažení z ČTS; přepočet bez stahování (--bez-stahovani) ho nemění
+    old_meta = (load(os.path.join(sd, "turnaje.json"), {}) or {}).get("meta", {}) if not download else {}
+    akt = old_meta.get("aktualizace") or dt.datetime.now().astimezone().isoformat(timespec="minutes")
     out = {
-        "meta": {"sezona": season, "nazev": season_name(season), "aktualizace": dt.datetime.now().astimezone().isoformat(timespec="minutes"),
+        "meta": {"sezona": season, "nazev": season_name(season), "aktualizace": akt,
                  "pocet": len(events), "kategorie": cts.CATS,
                  "prvni_beh": min((s.get("prvni", today) for s in stav.values()), default=today),
                  "pocty_kategorii": {s: len(r) for s, r in lists.items()}},
@@ -330,7 +349,7 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None):
         "turnaje": events,
     }
     save("turnaje.json", out, folder=sd, indent=None)
-    build_hraci(season, events)
+    build_hraci(season, events, akt)
     from collections import Counter
     print(f"{season}: turnajů {len(events)} | míst {len(keys)} | přesnost {dict(Counter(m['presnost'] for m in mista.values()))}"
           f" | zrušeno {sum(e['st'] == 'zruseno' for e in events)}", flush=True)
@@ -342,7 +361,7 @@ def latest_zebricek():
     return fs[-1] if fs else None
 
 
-def build_hraci(season, events):
+def build_hraci(season, events, akt=None):
     """site/data/<sezóna>/hraci.json: přihlášky hráčů na turnaje sezóny (+ jména hráčů, kteří nejsou v žebříčku)."""
     zp = latest_zebricek()
     zeb = json.load(open(zp, encoding="utf-8")).get("hraci", {}) if zp else {}
@@ -362,7 +381,7 @@ def build_hraci(season, events):
             if pid not in zeb and pid not in extra:
                 extra[pid] = [n, k, []]
             entries.setdefault(pid, []).append([eid, g, sec])
-    save("hraci.json", {"meta": {"sezona": season, "aktualizace": dt.datetime.now().astimezone().isoformat(timespec="minutes"),
+    save("hraci.json", {"meta": {"sezona": season, "aktualizace": akt or dt.datetime.now().astimezone().isoformat(timespec="minutes"),
                                   "prihlasenych": len(entries), "prihlasek": sum(len(v) for v in entries.values())},
                          "p": extra, "e": entries}, folder=os.path.join(SITE_DATA, season), indent=None)
     print(f"{season}: hráčů s přihláškou {len(entries)} | přihlášek {sum(len(v) for v in entries.values())}", flush=True)
@@ -402,6 +421,7 @@ def main():
     ap.add_argument("--te", action="store_true", help="stáhnout i turnaje Tennis Europe (u --auto automaticky)")
     ap.add_argument("--vlakna", type=int, default=1, help="souběžná stahování z cesky-tenis.cz (šetrně 1)")
     ap.add_argument("--pauza", type=float, default=1.5, help="pauza mezi stránkami v s")
+    ap.add_argument("--blizke", type=int, help="lehký běh: jen aktuální sezóna, listiny + detaily turnajů začínajících do N dní (pauza min. 3 s)")
     a = ap.parse_args()
 
     migrate_legacy()
@@ -416,16 +436,18 @@ def main():
     if a.kluby:
         import subprocess
         subprocess.run([sys.executable, os.path.join(PIPE, "_puvodni_scrape_clubs.py"), DATA], check=True)
+    if a.blizke is not None:
+        a.pauza = max(a.pauza, 3.0); a.vlakna = 1
     seasons = a.sezona or (seasons_auto() if a.auto else ([] if a.index else [os.environ.get("SEZONA") or season_of(TODAY)]))
     clubs = load("clubs.json", [])
     for s in seasons:
         try:                                    # chyba jedné sezóny nesmí shodit ostatní ani nasazení webu
-            process(s, download=not a.bez_stahovani, threads=a.vlakna, pause=a.pauza, clubs=clubs)
+            process(s, download=not a.bez_stahovani, threads=a.vlakna, pause=a.pauza, clubs=clubs, blizke=a.blizke)
         except Exception as e:  # noqa: BLE001
             import traceback
             traceback.print_exc()
             CHYBY.append(f"sezóna {s}: {e}")
-    if (a.auto or a.te) and not a.bez_stahovani:
+    if (a.auto or a.te) and not a.bez_stahovani and a.blizke is None:
         try:                                    # Tennis Europe – chyba zdroje nesmí shodit denní aktualizaci ČTS
             import te
             te.process()

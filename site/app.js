@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.9.6";
+const APP_VERSION = "v3.10";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -634,7 +634,7 @@ function card(e) {
       <div style="flex:1;min-width:0"><div class="nm">${esc(e.nz || e.por)}</div><div class="sub">${esc(CAT_SHORT[e.kat] || e.kat)} · ${esc(fmtRange(e.od, e.do))}</div>
       <div class="m" style="display:flex;gap:4px;margin-top:4px">${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${e.test ? '<span class="pill">TEST</span>' : ""}</div></div>
       <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="${T("Oblíbené")}">${STAR}</button></div>
-    <div class="occ">${occ.join("")}${partCancel(e) ? `<div><span>${esc(partCancel(e)[0].toUpperCase() + partCancel(e).slice(1))}</span><b class="zrtxt">${T("zrušeno")}</b></div>` : ""}</div>
+    <div class="occ">${occ.join("")}${e.ak ? `<div class="akt">${T("Přihlášky podle ČTS k {d}", {d: esc(akText(e.ak))})}</div>` : ""}${partCancel(e) ? `<div><span>${esc(partCancel(e)[0].toUpperCase() + partCancel(e).slice(1))}</span><b class="zrtxt">${T("zrušeno")}</b></div>` : ""}</div>
     <div class="facts"><div><span>${T("Max. hráčů")}</span>${e.kap ?? "?"}${e.kq ? ` <small class="muted">+ ${T("kvalifikace")} ${e.kq}</small>` : ""}</div><div><span>${T("Dvorce · povrch")}</span>${e.dv ?? "?"} · ${esc(e.pov ? rawSurf(e.pov) : T("neuvedeno"))}</div>
       ${e.mic ? `<div><span>${T("Míče")}</span>${esc(e.mic)}</div>` : ""}${e.vk ? `<div><span>${T("Vklad")}</span>${e.vk} ${EN ? "CZK" : "Kč"}</div>` : ""}
       ${e.prez ? `<div><span>${T("Prezentace")}</span>${esc(prezText(e.prez))}</div>` : ""}<div><span>${T("Pořadatel")}</span>${esc(e.por)}</div></div>
@@ -1206,6 +1206,8 @@ function mergeVenues() {
 const guessy = v => !!v && ["odhad", "obec", "areal_obec"].includes(v.presnost);
 /* turnaj s nejistou polohou (= důvod červeného vykřičníku ve špendlíku) → v seznamu i v kartě červený rámeček */
 const unsure = e => e.st !== "zruseno" && guessy(VEN[e.mo ?? e.misto]);
+/* čas stažení detailu turnaje (přihlášky) – „26. 11. 3:16“ nebo jen datum u starších dat */
+const akText = a => { const d = new Date(a); if (isNaN(d)) return a; const t = `${d.getDate()}. ${d.getMonth() + 1}.`; return a.length > 10 ? `${t} ${d.getHours()}:${String(d.getMinutes()).padStart(2, "0")}` : t; };
 /* červený text k červenému rámečku: proč je poloha nejistá */
 function unsureText(e) {
   const v = VEN[e.mo ?? e.misto] || {};

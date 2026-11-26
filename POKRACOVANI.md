@@ -189,3 +189,14 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
   celým jménem (hlavní soutěž, pak kvalifikace, náhradníci), klepnutí otevře přihlášky hráče (`clubBlock(e)`).
 - v3.9.6: u každého červeně orámovaného turnaje (seznam i karta, ČTS i TE) červený řádek „! Nejisté místo konání: <důvod>“ (`unsureText(e)`,
   důvod = přesnost původního místa, např. „Odhad: místo loňského ročníku“, „Jen obec – přesné místo neznámé“ + poznámka místa).
+
+## v3.10 – čerstvější přihlášky blízkých turnajů (26. 11. 2026)
+- Problém: Zoe Vymyslická (1061803) nebyla v datech u turnaje Tenis Jesenice st. žákyně 28. 11. (606178), přestože už byla v seznamu přihlášených.
+  Detail se stáhl v noci 26. 11. (~2–3 h), hráčka se objevila později. Navíc „O aplikaci“ ukazovalo „data k 26. 11. 18:48“ – to byl čas
+  přepočtu bez stahování z chatu, ne čas stažení z ČTS (chyba: `--bez-stahovani` přepisoval `meta.aktualizace`).
+- Opravy: `meta.aktualizace` = čas posledního skutečného stažení (přepočet ho nemění; hodnoty vráceny na noční běh 26. 11. 3:16);
+  u každého turnaje `ak` = kdy byl stažen jeho detail (`_kdy`, starší jen datum) → v kartě „Přihlášky podle ČTS k 26. 11. 12:47“.
+- Nový workflow `blizke.yml` („Blízké turnaje (přihlášky)“): 2× denně (10:47 a 16:47 UTC) + ručně (Actions → Run workflow, vstup dní).
+  `update.py --blizke 7`: jen aktuální sezóna, 7 listin + detaily turnajů začínajících do 7 dní (~110 stránek), 1 vlákno, 3 s pauza
+  (~6–7 min), při 429/503 zpomalení / konec běhu. Stejná concurrency skupina jako noční běh. Po doběhnutí nasadí web `nasazeni.yml`.
+  Zátěž webu ČTS: noc ~700 stránek po 1,5 s + 2× ~110 stránek po 3 s.

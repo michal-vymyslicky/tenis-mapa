@@ -1,0 +1,44 @@
+name: Blízké turnaje (přihlášky)
+
+# Lehká aktualizace navíc k noční: jen aktuální sezóna – termínové listiny (7 stránek) a detaily turnajů, které začínají
+# do 7 dní (~100–120 stránek). Šetrně: 1 požadavek, 3 s mezi stránkami (~6–7 min), při HTTP 429/503 sdílené zpomalení
+# a po opakovaném odmítnutí konec běhu (ponechají se stará data). Noční běh (aktualizace.yml) zůstává beze změny.
+on:
+  schedule:
+    - cron: "47 10 * * *"   # 11:47 v zimě (12:47 v létě) ČR
+    - cron: "47 16 * * *"   # 17:47 v zimě (18:47 v létě) ČR
+  workflow_dispatch:
+    inputs:
+      dni:
+        description: "Turnaje začínající do kolika dní"
+        default: "7"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aktualizace        # nikdy souběžně s noční aktualizací
+  cancel-in-progress: false
+
+jobs:
+  blizke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install beautifulsoup4
+      - name: Listiny + detaily blízkých turnajů
+        env:
+          TZ: Europe/Prague
+        run: python3 pipeline/update.py --blizke "${{ github.event.inputs.dni || '7' }}"
+      - name: Uložení změn dat do repozitáře
+        run: |
+          git config user.name "tenismapa-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data site/data
+          git diff --cached --quiet || git commit -m "Data blízkých turnajů $(date +'%F %H:%M')"
+          git pull --rebase --autostash || true
+          git push

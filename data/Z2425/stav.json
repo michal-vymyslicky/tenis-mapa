@@ -31,6 +31,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -74,6 +75,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -118,6 +120,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -158,6 +161,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -201,6 +205,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -244,6 +249,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -287,6 +293,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -330,6 +337,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -373,6 +381,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -416,6 +425,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "umělá tráva",
    "mic": "Head",
@@ -459,6 +469,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -502,6 +513,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -545,6 +557,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -588,6 +601,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -631,6 +645,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -669,6 +684,7 @@
    "kq": null,
    "sm": null,
    "sz": null,
+   "ak": null,
    "dv": null,
    "pov": "",
    "mic": "",
@@ -712,6 +728,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -755,6 +772,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -805,6 +823,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 5,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -848,6 +867,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -891,6 +911,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 3,
    "pov": "supreme",
    "mic": "Dunlop",
@@ -934,6 +955,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson US Open",
@@ -977,6 +999,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -1020,6 +1043,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -1068,6 +1092,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -1111,6 +1136,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -1151,6 +1177,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -1194,6 +1221,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -1237,6 +1265,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -1280,6 +1309,7 @@
     7
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -1323,6 +1353,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Wilson",
@@ -1366,6 +1397,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -1409,6 +1441,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -1452,6 +1485,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -1499,6 +1533,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -1542,6 +1577,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -1585,6 +1621,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -1628,6 +1665,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -1671,6 +1709,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -1714,6 +1753,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -1757,6 +1797,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -1800,6 +1841,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -1850,6 +1892,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -1893,6 +1936,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -1944,6 +1988,7 @@
     15,
     9
    ],
+   "ak": null,
    "dv": 5,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -1994,6 +2039,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -2034,6 +2080,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -2077,6 +2124,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "pavitex",
    "mic": "Wilson",
@@ -2121,6 +2169,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -2164,6 +2213,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -2207,6 +2257,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -2251,6 +2302,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -2295,6 +2347,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -2339,6 +2392,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -2379,6 +2433,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "umělá antuka",
    "mic": "Wilson US Open",
@@ -2422,6 +2477,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson Premier Tour",
@@ -2465,6 +2521,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -2515,6 +2572,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -2558,6 +2616,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "antuka",
    "mic": "Wilson",
@@ -2601,6 +2660,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -2652,6 +2712,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 6,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -2702,6 +2763,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -2745,6 +2807,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "Bergo",
    "mic": "Wilson",
@@ -2788,6 +2851,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -2831,6 +2895,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -2874,6 +2939,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -2921,6 +2987,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -2971,6 +3038,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -3021,6 +3089,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -3071,6 +3140,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -3114,6 +3184,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -3157,6 +3228,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -3200,6 +3272,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -3243,6 +3316,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "grass park",
    "mic": "Dunlop",
@@ -3293,6 +3367,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -3336,6 +3411,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -3386,6 +3462,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -3429,6 +3506,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -3472,6 +3550,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -3515,6 +3594,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -3558,6 +3638,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -3602,6 +3683,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -3645,6 +3727,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -3688,6 +3771,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s pískem",
    "mic": "Wilson Premier Tour",
@@ -3731,6 +3815,7 @@
     12
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -3774,6 +3859,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -3817,6 +3903,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -3860,6 +3947,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -3903,6 +3991,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -3946,6 +4035,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -3989,6 +4079,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -4032,6 +4123,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -4075,6 +4167,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -4125,6 +4218,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "koberec",
    "mic": "Wilson",
@@ -4168,6 +4262,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -4211,6 +4306,7 @@
     7
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -4251,6 +4347,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -4294,6 +4391,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "ULTRA CUSHION",
    "mic": "Wilson US Open",
@@ -4337,6 +4435,7 @@
     7,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "umělá antuka",
    "mic": "Wilson US Open",
@@ -4380,6 +4479,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -4430,6 +4530,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -4473,6 +4574,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -4516,6 +4618,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "Bergo",
    "mic": "Wilson",
@@ -4559,6 +4662,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -4602,6 +4706,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -4645,6 +4750,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -4688,6 +4794,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "tecnifibre",
@@ -4732,6 +4839,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Dunlop",
@@ -4775,6 +4883,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -4819,6 +4928,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -4869,6 +4979,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -4912,6 +5023,7 @@
     16,
     18
    ],
+   "ak": null,
    "dv": 3,
    "pov": "ULTRA CUSHION",
    "mic": "Wilson US Open",
@@ -4955,6 +5067,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -4998,6 +5111,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -5048,6 +5162,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -5095,6 +5210,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -5145,6 +5261,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -5188,6 +5305,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -5239,6 +5357,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -5282,6 +5401,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -5325,6 +5445,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -5368,6 +5489,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec",
    "mic": "Wilson Premier Tour",
@@ -5411,6 +5533,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -5454,6 +5577,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -5497,6 +5621,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson US Open",
@@ -5547,6 +5672,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -5590,6 +5716,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -5633,6 +5760,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -5677,6 +5805,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -5720,6 +5849,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "Bergo",
    "mic": "Wilson",
@@ -5763,6 +5893,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -5806,6 +5937,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -5849,6 +5981,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -5892,6 +6025,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -5942,6 +6076,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "taraflex",
    "mic": "Wilson",
@@ -5985,6 +6120,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -6028,6 +6164,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -6071,6 +6208,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -6118,6 +6256,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -6161,6 +6300,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "umělá tráva",
    "mic": "Wilson Premier Tour",
@@ -6204,6 +6344,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -6247,6 +6388,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -6297,6 +6439,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -6340,6 +6483,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -6383,6 +6527,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -6426,6 +6571,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -6476,6 +6622,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -6519,6 +6666,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -6562,6 +6710,7 @@
     12
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -6605,6 +6754,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -6648,6 +6798,7 @@
     6,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -6691,6 +6842,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -6734,6 +6886,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -6784,6 +6937,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -6834,6 +6988,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -6877,6 +7032,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -6920,6 +7076,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -6963,6 +7120,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -7006,6 +7164,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -7056,6 +7215,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -7106,6 +7266,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -7153,6 +7314,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -7196,6 +7358,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -7246,6 +7409,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Wilson Premier Tour",
@@ -7289,6 +7453,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -7339,6 +7504,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -7382,6 +7548,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -7425,6 +7592,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -7468,6 +7636,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -7512,6 +7681,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "Bergo",
    "mic": "Wilson",
@@ -7555,6 +7725,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -7598,6 +7769,7 @@
     7
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -7648,6 +7820,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -7691,6 +7864,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -7741,6 +7915,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -7784,6 +7959,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -7827,6 +8003,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -7872,6 +8049,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -7922,6 +8100,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -7965,6 +8144,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "conipur epdm",
    "mic": "Wilson",
@@ -8015,6 +8195,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -8058,6 +8239,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -8101,6 +8283,7 @@
     16,
     10
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -8144,6 +8327,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -8187,6 +8371,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -8224,6 +8409,7 @@
    "kq": null,
    "sm": null,
    "sz": null,
+   "ak": null,
    "dv": null,
    "pov": "",
    "mic": "",
@@ -8267,6 +8453,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "duroflex",
    "mic": "Wilson US Open",
@@ -8317,6 +8504,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -8367,6 +8555,7 @@
     0,
     7
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -8410,6 +8599,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -8453,6 +8643,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -8496,6 +8687,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -8547,6 +8739,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -8590,6 +8783,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -8633,6 +8827,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -8684,6 +8879,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -8727,6 +8923,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson",
@@ -8771,6 +8968,7 @@
     14,
     9
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -8814,6 +9012,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -8857,6 +9056,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -8907,6 +9107,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -8950,6 +9151,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -8993,6 +9195,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -9036,6 +9239,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Babolat",
@@ -9080,6 +9284,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -9123,6 +9328,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -9173,6 +9379,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -9216,6 +9423,7 @@
     0,
     10
    ],
+   "ak": null,
    "dv": 3,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -9263,6 +9471,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -9313,6 +9522,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -9353,6 +9563,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -9393,6 +9604,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -9436,6 +9648,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -9479,6 +9692,7 @@
     18
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -9522,6 +9736,7 @@
     16,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -9565,6 +9780,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -9608,6 +9824,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -9651,6 +9868,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Babolat",
@@ -9702,6 +9920,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -9745,6 +9964,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -9788,6 +10008,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -9831,6 +10052,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -9881,6 +10103,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -9925,6 +10148,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -9975,6 +10199,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -10025,6 +10250,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "koberec",
    "mic": "Wilson",
@@ -10075,6 +10301,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -10125,6 +10352,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -10175,6 +10403,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -10225,6 +10454,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -10268,6 +10498,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Babolat",
@@ -10312,6 +10543,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -10362,6 +10594,7 @@
     0,
     6
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -10405,6 +10638,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -10455,6 +10689,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -10498,6 +10733,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -10541,6 +10777,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson Premier Tour",
@@ -10584,6 +10821,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -10634,6 +10872,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -10677,6 +10916,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -10720,6 +10960,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -10764,6 +11005,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -10815,6 +11057,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "tecnifibre",
@@ -10858,6 +11101,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -10901,6 +11145,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -10952,6 +11197,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -10995,6 +11241,7 @@
     24
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -11038,6 +11285,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -11081,6 +11329,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -11124,6 +11373,7 @@
     16
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -11175,6 +11425,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -11218,6 +11469,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "polytan",
    "mic": "tecnifibre",
@@ -11268,6 +11520,7 @@
     0,
     6
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -11311,6 +11564,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -11354,6 +11608,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -11404,6 +11659,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -11447,6 +11703,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -11498,6 +11755,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -11542,6 +11800,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -11592,6 +11851,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -11635,6 +11895,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -11685,6 +11946,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -11728,6 +11990,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson Premier Tour",
@@ -11771,6 +12034,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -11811,6 +12075,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Babolat",
@@ -11855,6 +12120,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -11898,6 +12164,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -11941,6 +12208,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "umělá tráva",
    "mic": "Head",
@@ -11984,6 +12252,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -12027,6 +12296,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -12070,6 +12340,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -12120,6 +12391,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -12163,6 +12435,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -12206,6 +12479,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -12256,6 +12530,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -12300,6 +12575,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -12350,6 +12626,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -12393,6 +12670,7 @@
     0,
     11
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -12443,6 +12721,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson Premier Tour",
@@ -12486,6 +12765,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Wilson Premier Tour",
@@ -12529,6 +12809,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson US Open",
@@ -12572,6 +12853,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -12615,6 +12897,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -12665,6 +12948,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -12715,6 +12999,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -12765,6 +13050,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -12815,6 +13101,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -12858,6 +13145,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -12901,6 +13189,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -12951,6 +13240,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -13001,6 +13291,7 @@
     0,
     8
    ],
+   "ak": null,
    "dv": 3,
    "pov": "taraflex",
    "mic": "Wilson",
@@ -13044,6 +13335,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -13087,6 +13379,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -13130,6 +13423,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -13180,6 +13474,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Babolat",
@@ -13223,6 +13518,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -13274,6 +13570,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -13317,6 +13614,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -13364,6 +13662,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -13414,6 +13713,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -13457,6 +13757,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -13497,6 +13798,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -13547,6 +13849,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -13597,6 +13900,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson",
@@ -13640,6 +13944,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -13684,6 +13989,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "tecnifibre",
@@ -13727,6 +14033,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -13770,6 +14077,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -13813,6 +14121,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "duroflex",
    "mic": "Wilson US Open",
@@ -13863,6 +14172,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -13906,6 +14216,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -13949,6 +14260,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -13992,6 +14304,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -14035,6 +14348,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -14078,6 +14392,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -14121,6 +14436,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -14164,6 +14480,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -14208,6 +14525,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -14252,6 +14570,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -14295,6 +14614,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -14338,6 +14658,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -14381,6 +14702,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -14424,6 +14746,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -14467,6 +14790,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson US Open",
@@ -14510,6 +14834,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson US Open",
@@ -14553,6 +14878,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -14596,6 +14922,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -14639,6 +14966,7 @@
     19
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -14682,6 +15010,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -14725,6 +15054,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -14768,6 +15098,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -14811,6 +15142,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -14854,6 +15186,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -14897,6 +15230,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -14940,6 +15274,7 @@
     26
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -14983,6 +15318,7 @@
     0,
     18
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -15033,6 +15369,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -15076,6 +15413,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -15120,6 +15458,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -15163,6 +15502,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -15213,6 +15553,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -15263,6 +15604,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -15313,6 +15655,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -15363,6 +15706,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -15406,6 +15750,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "umělá tráva",
    "mic": "Head",
@@ -15456,6 +15801,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -15499,6 +15845,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -15550,6 +15897,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -15593,6 +15941,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -15636,6 +15985,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 1,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -15679,6 +16029,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -15729,6 +16080,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -15772,6 +16124,7 @@
     16,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -15815,6 +16168,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -15865,6 +16219,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -15908,6 +16263,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -15951,6 +16307,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -15995,6 +16352,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -16038,6 +16396,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -16081,6 +16440,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -16124,6 +16484,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -16174,6 +16535,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -16217,6 +16579,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -16267,6 +16630,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "tecnifibre",
@@ -16310,6 +16674,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -16353,6 +16718,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -16404,6 +16770,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson",
@@ -16444,6 +16811,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -16487,6 +16855,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -16537,6 +16906,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -16580,6 +16950,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -16623,6 +16994,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -16666,6 +17038,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson US Open",
@@ -16716,6 +17089,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -16759,6 +17133,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -16809,6 +17184,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -16859,6 +17235,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -16906,6 +17283,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -16950,6 +17328,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -16993,6 +17372,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "taraflex",
    "mic": "Wilson",
@@ -17036,6 +17416,7 @@
     8,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -17086,6 +17467,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -17129,6 +17511,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -17172,6 +17555,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -17215,6 +17599,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -17258,6 +17643,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -17301,6 +17687,7 @@
     30
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -17344,6 +17731,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -17391,6 +17779,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -17434,6 +17823,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "decoturf",
    "mic": "Wilson US Open",
@@ -17477,6 +17867,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -17527,6 +17918,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -17577,6 +17969,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -17620,6 +18013,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -17670,6 +18064,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -17713,6 +18108,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -17753,6 +18149,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Babolat",
@@ -17804,6 +18201,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -17847,6 +18245,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -17890,6 +18289,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson US Open",
@@ -17930,6 +18330,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -17977,6 +18378,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -18027,6 +18429,7 @@
     0,
     24
    ],
+   "ak": null,
    "dv": 3,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -18067,6 +18470,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -18110,6 +18514,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -18154,6 +18559,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -18204,6 +18610,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -18247,6 +18654,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -18297,6 +18705,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -18340,6 +18749,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson Premier Tour",
@@ -18383,6 +18793,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Babolat",
@@ -18427,6 +18838,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -18470,6 +18882,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -18513,6 +18926,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -18556,6 +18970,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -18606,6 +19021,7 @@
     0,
     12
    ],
+   "ak": null,
    "dv": 4,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -18656,6 +19072,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -18696,6 +19113,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -18739,6 +19157,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -18783,6 +19202,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -18834,6 +19254,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -18884,6 +19305,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -18934,6 +19356,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -18977,6 +19400,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -19020,6 +19444,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -19063,6 +19488,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -19114,6 +19540,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "tecnifibre",
@@ -19164,6 +19591,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -19214,6 +19642,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -19257,6 +19686,7 @@
     3,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -19300,6 +19730,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -19350,6 +19781,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -19400,6 +19832,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -19443,6 +19876,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -19486,6 +19920,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -19529,6 +19964,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 7,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -19572,6 +20008,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Babolat",
@@ -19616,6 +20053,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -19659,6 +20097,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -19702,6 +20141,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 5,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -19739,6 +20179,7 @@
    "kq": null,
    "sm": null,
    "sz": null,
+   "ak": null,
    "dv": null,
    "pov": "",
    "mic": "",
@@ -19789,6 +20230,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -19832,6 +20274,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -19882,6 +20325,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -19925,6 +20369,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -19968,6 +20413,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -20011,6 +20457,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -20054,6 +20501,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -20104,6 +20552,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -20147,6 +20596,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -20194,6 +20644,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -20237,6 +20688,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -20280,6 +20732,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -20320,6 +20773,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -20363,6 +20817,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 1,
    "pov": "umělá tráva",
    "mic": "Head",
@@ -20406,6 +20861,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -20449,6 +20905,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -20492,6 +20949,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -20542,6 +21000,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "koberec",
    "mic": "Wilson",
@@ -20592,6 +21051,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -20642,6 +21102,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -20692,6 +21153,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -20735,6 +21197,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -20778,6 +21241,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -20821,6 +21285,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -20865,6 +21330,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -20908,6 +21374,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -20951,6 +21418,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -21001,6 +21469,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -21044,6 +21513,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson Premier Tour",
@@ -21087,6 +21557,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -21137,6 +21608,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -21180,6 +21652,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -21224,6 +21697,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Dunlop",
@@ -21267,6 +21741,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -21317,6 +21792,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -21360,6 +21836,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -21403,6 +21880,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -21453,6 +21931,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -21503,6 +21982,7 @@
     0,
     7
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -21553,6 +22033,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -21596,6 +22077,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -21647,6 +22129,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -21690,6 +22173,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -21734,6 +22218,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -21777,6 +22262,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -21820,6 +22306,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -21870,6 +22357,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -21913,6 +22401,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -21957,6 +22446,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -22000,6 +22490,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Dunlop",
@@ -22050,6 +22541,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -22093,6 +22585,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Dunlop",
@@ -22136,6 +22629,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -22179,6 +22673,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -22222,6 +22717,7 @@
     0,
     9
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -22265,6 +22761,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -22315,6 +22812,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -22365,6 +22863,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "taraflex",
    "mic": "Wilson",
@@ -22408,6 +22907,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -22458,6 +22958,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -22501,6 +23002,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -22544,6 +23046,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -22594,6 +23097,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -22644,6 +23148,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -22687,6 +23192,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -22737,6 +23243,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson Premier Tour",
@@ -22780,6 +23287,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -22823,6 +23331,7 @@
     0,
     7
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -22866,6 +23375,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson Premier Tour",
@@ -22916,6 +23426,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson US Open",
@@ -22959,6 +23470,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "umělá antuka",
    "mic": "Wilson US Open",
@@ -23010,6 +23522,7 @@
     0,
     8
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -23053,6 +23566,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -23104,6 +23618,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -23154,6 +23669,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -23194,6 +23710,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -23237,6 +23754,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "duroflex",
    "mic": "Wilson US Open",
@@ -23281,6 +23799,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -23324,6 +23843,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -23374,6 +23894,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -23417,6 +23938,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -23460,6 +23982,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -23510,6 +24033,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -23560,6 +24084,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -23610,6 +24135,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -23653,6 +24179,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -23697,6 +24224,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -23741,6 +24269,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -23784,6 +24313,7 @@
     16,
     5
    ],
+   "ak": null,
    "dv": 5,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -23831,6 +24361,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -23874,6 +24405,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -23924,6 +24456,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -23974,6 +24507,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -24017,6 +24551,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -24060,6 +24595,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -24103,6 +24639,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -24153,6 +24690,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -24196,6 +24734,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -24240,6 +24779,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -24283,6 +24823,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -24326,6 +24867,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -24369,6 +24911,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -24412,6 +24955,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson US Open",
@@ -24455,6 +24999,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -24498,6 +25043,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "COURT SOL",
    "mic": "Dunlop",
@@ -24541,6 +25087,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 8,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -24584,6 +25131,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -24627,6 +25175,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -24670,6 +25219,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -24713,6 +25263,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -24756,6 +25307,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -24799,6 +25351,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -24842,6 +25395,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -24885,6 +25439,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -24929,6 +25484,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -24972,6 +25528,7 @@
     14,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -25015,6 +25572,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Dunlop",
@@ -25058,6 +25616,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -25101,6 +25660,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -25152,6 +25712,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -25202,6 +25763,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -25252,6 +25814,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -25295,6 +25858,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -25346,6 +25910,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -25389,6 +25954,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -25432,6 +25998,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -25475,6 +26042,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -25518,6 +26086,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -25565,6 +26134,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -25612,6 +26182,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -25662,6 +26233,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -25705,6 +26277,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -25748,6 +26321,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 5,
    "pov": "decoturf",
    "mic": "Dunlop",
@@ -25791,6 +26365,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -25834,6 +26409,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -25877,6 +26453,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -25920,6 +26497,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -25963,6 +26541,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -26006,6 +26585,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -26049,6 +26629,7 @@
     11,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -26099,6 +26680,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -26142,6 +26724,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -26185,6 +26768,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -26228,6 +26812,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "decoturf",
    "mic": "Wilson US Open",
@@ -26278,6 +26863,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -26325,6 +26911,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -26368,6 +26955,7 @@
     0,
     8
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -26412,6 +27000,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -26462,6 +27051,7 @@
     0,
     6
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -26512,6 +27102,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -26555,6 +27146,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -26598,6 +27190,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -26641,6 +27234,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -26684,6 +27278,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -26728,6 +27323,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -26771,6 +27367,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "grass park",
    "mic": "Dunlop",
@@ -26815,6 +27412,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s pískem",
    "mic": "Wilson Premier Tour",
@@ -26858,6 +27456,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -26901,6 +27500,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -26952,6 +27552,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -27002,6 +27603,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -27052,6 +27654,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -27095,6 +27698,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -27145,6 +27749,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -27188,6 +27793,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -27238,6 +27844,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -27288,6 +27895,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -27331,6 +27939,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Wilson US Open",
@@ -27374,6 +27983,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -27425,6 +28035,7 @@
     0,
     13
    ],
+   "ak": null,
    "dv": 3,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -27468,6 +28079,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -27512,6 +28124,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -27555,6 +28168,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -27598,6 +28212,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -27646,6 +28261,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -27689,6 +28305,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -27732,6 +28349,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -27782,6 +28400,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -27825,6 +28444,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -27875,6 +28495,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -27918,6 +28539,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -27962,6 +28584,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -28005,6 +28628,7 @@
     0,
     6
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -28055,6 +28679,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -28105,6 +28730,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -28148,6 +28774,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -28192,6 +28819,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -28235,6 +28863,7 @@
     16,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "ULTRA CUSHION",
    "mic": "Wilson",
@@ -28278,6 +28907,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -28321,6 +28951,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -28371,6 +29002,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -28421,6 +29053,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "greenset",
    "mic": "Wilson",
@@ -28464,6 +29097,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -28514,6 +29148,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -28564,6 +29199,7 @@
     0,
     7
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -28614,6 +29250,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -28657,6 +29294,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -28700,6 +29338,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -28743,6 +29382,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "umělá tráva",
    "mic": "Wilson Premier Tour",
@@ -28793,6 +29433,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -28833,6 +29474,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -28883,6 +29525,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -28933,6 +29576,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -28983,6 +29627,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -29033,6 +29678,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -29076,6 +29722,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -29119,6 +29766,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -29169,6 +29817,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -29219,6 +29868,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -29263,6 +29913,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -29313,6 +29964,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -29360,6 +30012,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -29403,6 +30056,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -29453,6 +30107,7 @@
     0,
     6
    ],
+   "ak": null,
    "dv": 3,
    "pov": "taraflex",
    "mic": "Wilson",
@@ -29503,6 +30158,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -29546,6 +30202,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -29596,6 +30253,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson Premier Tour",
@@ -29639,6 +30297,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -29689,6 +30348,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "umělá antuka",
    "mic": "Wilson US Open",
@@ -29732,6 +30392,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -29782,6 +30443,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -29832,6 +30494,7 @@
     0,
     12
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -29882,6 +30545,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Head",
@@ -29932,6 +30596,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Wilson Premier Tour",
@@ -29975,6 +30640,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -30025,6 +30691,7 @@
     0,
     11
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -30075,6 +30742,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -30118,6 +30786,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -30161,6 +30830,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -30211,6 +30881,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -30255,6 +30926,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Wilson Premier Tour",
@@ -30305,6 +30977,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "Wilson",
@@ -30348,6 +31021,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -30398,6 +31072,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -30441,6 +31116,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -30491,6 +31167,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -30534,6 +31211,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -30577,6 +31255,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -30620,6 +31299,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -30670,6 +31350,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -30713,6 +31394,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -30763,6 +31445,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -30813,6 +31496,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -30856,6 +31540,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -30897,6 +31582,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -30947,6 +31633,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -30990,6 +31677,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -31040,6 +31728,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -31083,6 +31772,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -31126,6 +31816,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -31176,6 +31867,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -31219,6 +31911,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -31269,6 +31962,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "regupol",
    "mic": "Head",
@@ -31316,6 +32010,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -31353,6 +32048,7 @@
    "kq": null,
    "sm": null,
    "sz": null,
+   "ak": null,
    "dv": null,
    "pov": "",
    "mic": "",
@@ -31396,6 +32092,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "Wilson",
@@ -31446,6 +32143,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -31489,6 +32187,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -31539,6 +32238,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -31589,6 +32289,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -31632,6 +32333,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -31682,6 +32384,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -31732,6 +32435,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -31775,6 +32479,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "fatra sporting",
    "mic": "Wilson",
@@ -31825,6 +32530,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -31868,6 +32574,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -31912,6 +32619,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -31955,6 +32663,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -31998,6 +32707,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -32041,6 +32751,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -32084,6 +32795,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Dunlop",
@@ -32134,6 +32846,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -32184,6 +32897,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -32234,6 +32948,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -32284,6 +32999,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -32328,6 +33044,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -32378,6 +33095,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -32421,6 +33139,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -32471,6 +33190,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -32514,6 +33234,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -32558,6 +33279,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -32608,6 +33330,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -32651,6 +33374,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -32701,6 +33425,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -32744,6 +33469,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -32787,6 +33513,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -32837,6 +33564,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "grass park",
    "mic": "Dunlop",
@@ -32880,6 +33608,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -32923,6 +33652,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -32966,6 +33696,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -33009,6 +33740,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -33052,6 +33784,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -33095,6 +33828,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson US Open",
@@ -33138,6 +33872,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -33181,6 +33916,7 @@
     0,
     23
    ],
+   "ak": null,
    "dv": 8,
    "pov": "decoturf",
    "mic": "Dunlop",
@@ -33224,6 +33960,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -33267,6 +34004,7 @@
     0,
     6
    ],
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -33310,6 +34048,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -33353,6 +34092,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -33396,6 +34136,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -33439,6 +34180,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 2,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -33482,6 +34224,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "Wilson",
@@ -33525,6 +34268,7 @@
     0,
     21
    ],
+   "ak": null,
    "dv": 3,
    "pov": "fatra sporting",
    "mic": "Wilson",
@@ -33568,6 +34312,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -33611,6 +34356,7 @@
     12,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -33661,6 +34407,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -33711,6 +34458,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -33754,6 +34502,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -33797,6 +34546,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -33847,6 +34597,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "Wilson",
@@ -33897,6 +34648,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -33947,6 +34699,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -33990,6 +34743,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -34040,6 +34794,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -34090,6 +34845,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -34140,6 +34896,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -34190,6 +34947,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -34240,6 +34998,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson",
@@ -34283,6 +35042,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -34333,6 +35093,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -34376,6 +35137,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -34419,6 +35181,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -34462,6 +35225,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -34512,6 +35276,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -34555,6 +35320,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -34605,6 +35371,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "regupol",
    "mic": "Head",
@@ -34648,6 +35415,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -34692,6 +35460,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -34735,6 +35504,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -34778,6 +35548,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -34821,6 +35592,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -34872,6 +35644,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -34912,6 +35685,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Tretorn",
@@ -34952,6 +35726,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "grand slam",
    "mic": "Tretorn",
@@ -35002,6 +35777,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -35045,6 +35821,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -35095,6 +35872,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "koberec",
    "mic": "Wilson",
@@ -35145,6 +35923,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -35188,6 +35967,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -35232,6 +36012,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -35275,6 +36056,7 @@
     3,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -35325,6 +36107,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -35368,6 +36151,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -35411,6 +36195,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -35461,6 +36246,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -35504,6 +36290,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson Premier Tour",
@@ -35547,6 +36334,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -35597,6 +36385,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "Wilson",
@@ -35641,6 +36430,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -35691,6 +36481,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "umělá antuka",
    "mic": "Wilson US Open",
@@ -35741,6 +36532,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -35784,6 +36576,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -35834,6 +36627,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -35877,6 +36671,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -35920,6 +36715,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -35963,6 +36759,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -36006,6 +36803,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -36053,6 +36851,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -36096,6 +36895,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -36147,6 +36947,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -36190,6 +36991,7 @@
     14
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "Wilson",
@@ -36240,6 +37042,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -36290,6 +37093,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -36333,6 +37137,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -36384,6 +37189,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -36434,6 +37240,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -36477,6 +37284,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -36520,6 +37328,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -36563,6 +37372,7 @@
     0,
     9
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -36606,6 +37416,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -36657,6 +37468,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -36700,6 +37512,7 @@
     0,
     9
    ],
+   "ak": null,
    "dv": 3,
    "pov": "ULTRA CUSHION",
    "mic": "Wilson",
@@ -36743,6 +37556,7 @@
     1,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -36786,6 +37600,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -36829,6 +37644,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -36872,6 +37688,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -36915,6 +37732,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson Premier Tour",
@@ -36958,6 +37776,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -37008,6 +37827,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -37051,6 +37871,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -37094,6 +37915,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -37137,6 +37959,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -37180,6 +38003,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -37230,6 +38054,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -37277,6 +38102,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -37327,6 +38153,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -37370,6 +38197,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -37413,6 +38241,7 @@
     11,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -37456,6 +38285,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -37499,6 +38329,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -37549,6 +38380,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -37599,6 +38431,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "duroflex",
    "mic": "Wilson US Open",
@@ -37649,6 +38482,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Wilson Premier Tour",
@@ -37699,6 +38533,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -37742,6 +38577,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -37785,6 +38621,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -37835,6 +38672,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -37885,6 +38723,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -37935,6 +38774,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -37985,6 +38825,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -38028,6 +38869,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "fatra sporting",
    "mic": "Wilson",
@@ -38072,6 +38914,7 @@
     0,
     3
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -38116,6 +38959,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -38160,6 +39004,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -38203,6 +39048,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -38253,6 +39099,7 @@
     0,
     7
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -38303,6 +39150,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -38346,6 +39194,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -38396,6 +39245,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson Premier Tour",
@@ -38446,6 +39296,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "neuvedeno",
@@ -38489,6 +39340,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -38532,6 +39384,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -38582,6 +39435,7 @@
     0,
     11
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -38632,6 +39486,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -38682,6 +39537,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -38725,6 +39581,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -38768,6 +39625,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -38818,6 +39676,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -38861,6 +39720,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -38904,6 +39764,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -38954,6 +39815,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -38997,6 +39859,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -39040,6 +39903,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -39083,6 +39947,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s pískem",
    "mic": "Wilson",
@@ -39133,6 +39998,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -39176,6 +40042,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "decoturf",
    "mic": "Dunlop",
@@ -39219,6 +40086,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Dunlop",
@@ -39262,6 +40130,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -39305,6 +40174,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -39355,6 +40225,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -39398,6 +40269,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Dunlop",
@@ -39441,6 +40313,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 1,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -39491,6 +40364,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson",
@@ -39534,6 +40408,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "conipur epdm",
    "mic": "Wilson",
@@ -39577,6 +40452,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -39620,6 +40496,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -39670,6 +40547,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -39713,6 +40591,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -39756,6 +40635,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -39799,6 +40679,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -39842,6 +40723,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -39882,6 +40764,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -39932,6 +40815,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -39975,6 +40859,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -40018,6 +40903,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -40061,6 +40947,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -40111,6 +40998,7 @@
     0,
     8
    ],
+   "ak": null,
    "dv": 4,
    "pov": "lano Wimbledon",
    "mic": "Dunlop",
@@ -40161,6 +41049,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -40204,6 +41093,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -40245,6 +41135,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -40288,6 +41179,7 @@
     7
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -40331,6 +41223,7 @@
     16,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -40381,6 +41274,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -40431,6 +41325,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -40481,6 +41376,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -40531,6 +41427,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -40575,6 +41472,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -40622,6 +41520,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -40665,6 +41564,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -40712,6 +41612,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -40762,6 +41663,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -40812,6 +41714,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -40862,6 +41765,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -40912,6 +41816,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá antuka",
    "mic": "Dunlop",
@@ -40962,6 +41867,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -41005,6 +41911,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -41048,6 +41955,7 @@
     0,
     5
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson Premier Tour",
@@ -41098,6 +42006,7 @@
     0,
     7
    ],
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -41141,6 +42050,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -41191,6 +42101,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -41241,6 +42152,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 6,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -41284,6 +42196,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -41327,6 +42240,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -41377,6 +42291,7 @@
     0,
     6
    ],
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Head",
@@ -41420,6 +42335,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -41460,6 +42376,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Tretorn",
@@ -41500,6 +42417,7 @@
     0,
     2
    ],
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Tretorn",
@@ -41543,6 +42461,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -41586,6 +42505,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -41636,6 +42556,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "Bergo",
    "mic": "Dunlop",
@@ -41679,6 +42600,7 @@
     0,
     6
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -41723,6 +42645,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -41766,6 +42689,7 @@
     0,
     4
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -41809,6 +42733,7 @@
     0,
     14
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -41859,6 +42784,7 @@
     0,
     7
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -41909,6 +42835,7 @@
     0,
     7
    ],
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -41952,6 +42879,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -42002,6 +42930,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -42045,6 +42974,7 @@
     0,
     9
    ],
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Head",
@@ -42096,6 +43026,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -42146,6 +43077,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -42196,6 +43128,7 @@
     0,
     8
    ],
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -42246,6 +43179,7 @@
     0,
     1
    ],
+   "ak": null,
    "dv": 4,
    "pov": "greenset",
    "mic": "Wilson Premier Tour",
@@ -42289,6 +43223,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -42339,6 +43274,7 @@
     0,
     0
    ],
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -42379,6 +43315,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -42419,6 +43356,7 @@
     34
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -42459,6 +43397,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "beton",
    "mic": "Babolat",
@@ -42499,6 +43438,7 @@
     33
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -42539,6 +43479,7 @@
     28
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -42576,6 +43517,7 @@
    "kq": null,
    "sm": null,
    "sz": null,
+   "ak": null,
    "dv": null,
    "pov": "",
    "mic": "",
@@ -42616,6 +43558,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -42656,6 +43599,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Babolat",
@@ -42696,6 +43640,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -42736,6 +43681,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Head",
@@ -42776,6 +43722,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "regupol",
    "mic": "Head",
@@ -42816,6 +43763,7 @@
     16
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -42856,6 +43804,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -42896,6 +43845,7 @@
     20
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -42936,6 +43886,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -42976,6 +43927,7 @@
     11
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -43016,6 +43968,7 @@
     11
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -43056,6 +44009,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -43096,6 +44050,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Babolat",
@@ -43136,6 +44091,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -43176,6 +44132,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "tecnifibre",
@@ -43216,6 +44173,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Babolat",
@@ -43256,6 +44214,7 @@
     37
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -43296,6 +44255,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -43336,6 +44296,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -43376,6 +44337,7 @@
     14
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Babolat",
@@ -43416,6 +44378,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "koberec",
    "mic": "Wilson",
@@ -43456,6 +44419,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -43496,6 +44460,7 @@
     11
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "neuvedeno",
@@ -43536,6 +44501,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "tecnifibre",
@@ -43576,6 +44542,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -43616,6 +44583,7 @@
     24
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -43656,6 +44624,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "umělá tráva",
    "mic": "tecnifibre",
@@ -43696,6 +44665,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -43736,6 +44706,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "tecnifibre",
@@ -43776,6 +44747,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "neuvedeno",
@@ -43816,6 +44788,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -43856,6 +44829,7 @@
     26
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -43896,6 +44870,7 @@
     20
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -43936,6 +44911,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -43976,6 +44952,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -44016,6 +44993,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -44056,6 +45034,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -44096,6 +45075,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "grass park",
    "mic": "Dunlop",
@@ -44136,6 +45116,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Head",
@@ -44176,6 +45157,7 @@
     10
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -44216,6 +45198,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Head",
@@ -44256,6 +45239,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -44296,6 +45280,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -44336,6 +45321,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -44376,6 +45362,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -44416,6 +45403,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -44456,6 +45444,7 @@
     14
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -44496,6 +45485,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -44536,6 +45526,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -44576,6 +45567,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -44616,6 +45608,7 @@
     14
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -44656,6 +45649,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -44696,6 +45690,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Babolat",
@@ -44736,6 +45731,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "koberec",
    "mic": "Wilson",
@@ -44776,6 +45772,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -44816,6 +45813,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -44856,6 +45854,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -44896,6 +45895,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "neuvedeno",
@@ -44936,6 +45936,7 @@
     38
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -44976,6 +45977,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -45016,6 +46018,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -45056,6 +46059,7 @@
     12
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -45096,6 +46100,7 @@
     10
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "greenset",
    "mic": "Wilson",
@@ -45136,6 +46141,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -45176,6 +46182,7 @@
     19
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -45216,6 +46223,7 @@
     20
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -45256,6 +46264,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "beton",
    "mic": "tecnifibre",
@@ -45296,6 +46305,7 @@
     11
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -45336,6 +46346,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "tecnifibre",
@@ -45376,6 +46387,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "classic clay, grass",
    "mic": "Wilson",
@@ -45416,6 +46428,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -45456,6 +46469,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "beton",
    "mic": "tecnifibre",
@@ -45496,6 +46510,7 @@
     16
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "neuvedeno",
@@ -45536,6 +46551,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -45576,6 +46592,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -45616,6 +46633,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -45656,6 +46674,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -45696,6 +46715,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -45736,6 +46756,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -45776,6 +46797,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -45816,6 +46838,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "decoturf US open",
    "mic": "Wilson",
@@ -45856,6 +46879,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -45896,6 +46920,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "umělá tráva",
    "mic": "tecnifibre",
@@ -45936,6 +46961,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -45976,6 +47002,7 @@
     10
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -46016,6 +47043,7 @@
     13
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -46056,6 +47084,7 @@
     14
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -46096,6 +47125,7 @@
     18
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -46136,6 +47166,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -46176,6 +47207,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -46216,6 +47248,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Head",
@@ -46256,6 +47289,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -46296,6 +47330,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -46336,6 +47371,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -46376,6 +47412,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "beton",
    "mic": "Babolat",
@@ -46416,6 +47453,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -46456,6 +47494,7 @@
     7
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -46496,6 +47535,7 @@
     16
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -46536,6 +47576,7 @@
     18
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -46576,6 +47617,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -46616,6 +47658,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "tecnifibre",
@@ -46656,6 +47699,7 @@
     22
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "tecnifibre",
@@ -46696,6 +47740,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -46736,6 +47781,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "koberec",
    "mic": "Wilson",
@@ -46776,6 +47822,7 @@
     6
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -46816,6 +47863,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "koberec",
    "mic": "Wilson",
@@ -46856,6 +47904,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -46896,6 +47945,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "umělá tráva",
    "mic": "tecnifibre",
@@ -46936,6 +47986,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson US Open",
@@ -46976,6 +48027,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -47016,6 +48068,7 @@
     28
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Dunlop",
@@ -47056,6 +48109,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -47096,6 +48150,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "neuvedeno",
@@ -47136,6 +48191,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "koberec",
    "mic": "Wilson",
@@ -47176,6 +48232,7 @@
     12
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -47216,6 +48273,7 @@
     46
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -47256,6 +48314,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -47296,6 +48355,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -47336,6 +48396,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Wilson US Open",
@@ -47376,6 +48437,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "plexipave",
    "mic": "neuvedeno",
@@ -47416,6 +48478,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -47456,6 +48519,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -47496,6 +48560,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "grass park",
    "mic": "Wilson",
@@ -47536,6 +48601,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "neuvedeno",
@@ -47576,6 +48642,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "neuvedeno",
@@ -47616,6 +48683,7 @@
     11
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -47656,6 +48724,7 @@
     7
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -47696,6 +48765,7 @@
     13
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf US open",
    "mic": "Babolat",
@@ -47736,6 +48806,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -47776,6 +48847,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -47816,6 +48888,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -47856,6 +48929,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -47896,6 +48970,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "koberec",
    "mic": "Wilson",
@@ -47936,6 +49011,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "tecnifibre",
@@ -47976,6 +49052,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -48016,6 +49093,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -48056,6 +49134,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -48096,6 +49175,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "neuvedeno",
@@ -48136,6 +49216,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -48176,6 +49257,7 @@
     8
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -48216,6 +49298,7 @@
     13
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -48256,6 +49339,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -48296,6 +49380,7 @@
     26
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "neuvedeno",
@@ -48336,6 +49421,7 @@
     44
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -48376,6 +49462,7 @@
     10
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -48416,6 +49503,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "taraflex",
    "mic": "Wilson",
@@ -48456,6 +49544,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -48496,6 +49585,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -48536,6 +49626,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -48576,6 +49667,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -48616,6 +49708,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 8,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -48656,6 +49749,7 @@
     19
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "grass park",
    "mic": "Wilson",
@@ -48696,6 +49790,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "koberec s granulemi",
    "mic": "Babolat",
@@ -48736,6 +49831,7 @@
     10
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -48776,6 +49872,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "umělá tráva",
    "mic": "tecnifibre",
@@ -48816,6 +49913,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "mapei TNS CUSHION",
    "mic": "Wilson",
@@ -48856,6 +49954,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -48896,6 +49995,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -48936,6 +50036,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -48976,6 +50077,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Head",
@@ -49016,6 +50118,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "regupol",
    "mic": "Head",
@@ -49056,6 +50159,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -49096,6 +50200,7 @@
     20
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Babolat",
@@ -49136,6 +50241,7 @@
     26
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Babolat",
@@ -49176,6 +50282,7 @@
     33
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Babolat",
@@ -49216,6 +50323,7 @@
     13
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "decoturf",
    "mic": "Head",
@@ -49256,6 +50364,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -49296,6 +50405,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "Bergo",
    "mic": "Wilson",
@@ -49336,6 +50446,7 @@
     26
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Head",
@@ -49373,6 +50484,7 @@
    "kq": null,
    "sm": null,
    "sz": null,
+   "ak": null,
    "dv": null,
    "pov": "",
    "mic": "",
@@ -49413,6 +50525,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -49453,6 +50566,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -49493,6 +50607,7 @@
     23
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -49533,6 +50648,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "conipur epdm",
    "mic": "neuvedeno",
@@ -49573,6 +50689,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -49613,6 +50730,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -49653,6 +50771,7 @@
     3
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "plexipave",
    "mic": "neuvedeno",
@@ -49693,6 +50812,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -49733,6 +50853,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson Red clay",
@@ -49773,6 +50894,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Babolat",
@@ -49813,6 +50935,7 @@
     12
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "regupol",
    "mic": "Head",
@@ -49853,6 +50976,7 @@
     16
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Babolat",
@@ -49893,6 +51017,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Babolat",
@@ -49933,6 +51058,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "greenset",
    "mic": "Dunlop",
@@ -49973,6 +51099,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "supreme",
    "mic": "Wilson",
@@ -50013,6 +51140,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Head",
@@ -50053,6 +51181,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Babolat",
@@ -50093,6 +51222,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -50133,6 +51263,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -50173,6 +51304,7 @@
     11
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "beton",
    "mic": "tecnifibre",
@@ -50213,6 +51345,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -50253,6 +51386,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "greenset",
    "mic": "Wilson",
@@ -50293,6 +51427,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -50333,6 +51468,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -50373,6 +51509,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "plexipave",
    "mic": "tecnifibre",
@@ -50413,6 +51550,7 @@
     28
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "rebound ace",
    "mic": "Wilson",
@@ -50453,6 +51591,7 @@
     11
    ],
    "sz": null,
+   "ak": null,
    "dv": 6,
    "pov": "regupol",
    "mic": "Head",
@@ -50493,6 +51632,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -50533,6 +51673,7 @@
     11
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Babolat",
@@ -50573,6 +51714,7 @@
     7
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "conipur epdm",
    "mic": "neuvedeno",
@@ -50613,6 +51755,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -50653,6 +51796,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "plexipave",
    "mic": "neuvedeno",
@@ -50693,6 +51837,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -50733,6 +51878,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "tecnifibre",
@@ -50773,6 +51919,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "beton",
    "mic": "Babolat",
@@ -50813,6 +51960,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Wilson",
@@ -50853,6 +52001,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -50893,6 +52042,7 @@
     12
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -50933,6 +52083,7 @@
     19
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Babolat",
@@ -50973,6 +52124,7 @@
     13
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "NOVA SPORTS ULTRACUSHION U.S.A.",
    "mic": "Babolat",
@@ -51013,6 +52165,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "beton",
    "mic": "tecnifibre",
@@ -51053,6 +52206,7 @@
     7
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -51093,6 +52247,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Wilson",
@@ -51133,6 +52288,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "conipur epdm",
    "mic": "neuvedeno",
@@ -51173,6 +52329,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -51213,6 +52370,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "umělá tráva",
    "mic": "Head",
@@ -51253,6 +52411,7 @@
     2
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "tecnifibre",
@@ -51293,6 +52452,7 @@
     15
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "tecnifibre",
@@ -51333,6 +52493,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "plexipave",
    "mic": "neuvedeno",
@@ -51373,6 +52534,7 @@
     4
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -51413,6 +52575,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "koberec",
    "mic": "Wilson",
@@ -51453,6 +52616,7 @@
     9
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Babolat",
@@ -51493,6 +52657,7 @@
     1
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Wilson",
@@ -51533,6 +52698,7 @@
     17
    ],
    "sz": null,
+   "ak": null,
    "dv": 5,
    "pov": "antuka",
    "mic": "Wilson",
@@ -51573,6 +52739,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "decoturf",
    "mic": "Wilson",
@@ -51613,6 +52780,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá tráva",
    "mic": "Wilson",
@@ -51653,6 +52821,7 @@
     19
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -51693,6 +52862,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "antuka",
    "mic": "Babolat",
@@ -51733,6 +52903,7 @@
     35
    ],
    "sz": null,
+   "ak": null,
    "dv": 2,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -51773,6 +52944,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
@@ -51813,6 +52985,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "antuka",
    "mic": "Babolat",
@@ -51853,6 +53026,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "COURT SOL",
    "mic": "Wilson",
@@ -51893,6 +53067,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 3,
    "pov": "conipur epdm",
    "mic": "neuvedeno",
@@ -51933,6 +53108,7 @@
     5
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Dunlop",
@@ -51973,6 +53149,7 @@
     0
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "umělá antuka",
    "mic": "Wilson",
@@ -52013,6 +53190,7 @@
     31
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "koberec s granulemi",
    "mic": "Babolat",
@@ -52053,6 +53231,7 @@
     13
    ],
    "sz": null,
+   "ak": null,
    "dv": 4,
    "pov": "antuka",
    "mic": "Wilson",
