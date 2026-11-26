@@ -423,6 +423,8 @@ def resolve(requests, clubs, old=None):
                 v["presnost"] = "odhad"
         if key in ovr:
             o = ovr[key]
+            if (o.get("presnost") or "").strip():       # ruční odhad (ne ověření) – zdroj „odhad“, ne loňský ročník
+                v["zdroj"] = "odhad"
             v.update(lat=float(o["lat"]), lon=float(o["lon"]), presnost=(o.get("presnost") or "rucne").strip(), nazev_mista=o.get("nazev_mista") or v["nazev_mista"],
                      adresa=o.get("adresa") or v["adresa"], poznamka=o.get("poznamka", ""))
         out[key] = v
