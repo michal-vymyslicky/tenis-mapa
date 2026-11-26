@@ -754,15 +754,16 @@
  "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5": {
   "klic": "klub:sokol smichov i|u mrazovky sport areal mrazovka praha 5",
   "poradatel": "Sokol Smíchov I.",
-  "adresa": "U Mrázovky, sport.areál Mrázovka, Praha 5",
+  "adresa": "U Mrázovky 1566, Praha 5 – Smíchov",
   "zdroj": "detail",
   "region": "Praha",
   "lat": 50.068487,
   "lon": 14.39376,
-  "presnost": "areal_obec",
-  "nazev_mista": "",
+  "presnost": "rucne",
+  "nazev_mista": "Sportovní areál Mrázovka",
   "osm_vzdalenost_km": 0.11,
-  "geokod": "OSM: U Mrázovky, Malvazinky, Praha 5, obvod Praha 5, Praha, 150 00, Česko"
+  "geokod": "OSM: U Mrázovky, Malvazinky, Praha 5, obvod Praha 5, Praha, 150 00, Česko",
+  "poznamka": "ručně ověřeno 26. 11. 2026 – kurty areálu Mrázovka (Sport Mrázovka, U Mrázovky 1566)"
  },
  "klub:sportcentrum hruskova z s|hruskova 2194 sokolov": {
   "klic": "klub:sportcentrum hruskova z s|hruskova 2194 sokolov",
