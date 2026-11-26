@@ -71,6 +71,19 @@ def parse_detail(body, code):
                      ("Kontaktní osoba", "kontakt"), ("Mobil", "mobil"), ("E-mail", "email"), ("Vrchní rozhodčí", "rozhodci"),
                      ("Poznámka pořadatele", "poznamka")]:
         d[key] = _info(soup, lab)
+    # turnaj s kvalifikací má dva modré bloky „Kvalifikace“ a „Hlavní soutěž“, každý s vlastním „Počet účastníků“
+    # (_info výše vrátí první = kvalifikaci) → kap_q / kap_h; pocet_ucastniku = hlavní soutěž
+    for box in soup.select("div.box--blue"):
+        h4 = box.find("h4")
+        lab = _t(h4).lower() if h4 else ""
+        pu = next((_t(p).replace("Počet účastníků", "").strip() for p in box.select("p.info")
+                   if p.find("span") and p.find("span").get_text(strip=True) == "Počet účastníků"), "")
+        if "kvalif" in lab:
+            d["kap_q"] = pu
+        elif "hlavní" in lab:
+            d["kap_h"] = pu
+    if d.get("kap_h"):
+        d["pocet_ucastniku"] = d["kap_h"]
     d["hraci_plany"] = bool(soup.find("a", string=re.compile("Hrací plány")))
     entrants = []
     for tbl in soup.select("table.table__table"):

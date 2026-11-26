@@ -159,3 +159,15 @@ Otevřené: zda mohou hráči ČTS startovat na národních turnajích sousedů 
 - Každé načtení / refresh začíná s výchozími filtry (od dnes, ČTS, bez kategorií, hráčů, klubu) a v aktuální sezóně. Filtry (`tm.filters`)
   ani sezóna (`tm.sez`) se už neukládají, staré uložené hodnoty se při startu smažou. Pamatuje se jen jazyk, oblíbené (`tm.fav`) a mapový podklad (`tm.map`).
 - v3.6.1: tlačítko jazyka ukazuje aktuální jazyk (CZ / EN).
+
+## v3.8 – kvalifikace a hlavní soutěž (26. 11. 2026)
+- Detail turnaje s kvalifikací má na ČTS dva bloky „Kvalifikace“ a „Hlavní soutěž“, každý s vlastním „Počet účastníků“. Parser dřív bral
+  první (= kvalifikaci, typicky 16) jako kapacitu turnaje. `cts.parse_detail` nově čte `kap_q` a `kap_h`, `pocet_ucastniku` = hlavní soutěž.
+  Z2627: 30 detailů doplněno ze snímku HTML 31. 10. (`data/00_seznamy/terminova_listina_Z2627/detail_html_Z2627.zip`), ostatní se opraví
+  při dalším stažení detailu.
+- Turnaje v `turnaje.json` mají `kap` (hlavní soutěž), `kq` (kvalifikace) a `sm`/`sz` = [hlavní soutěž, kvalifikace, náhradníci] z veřejného
+  seznamu přihlášených (`prihlasky.json`). Starší detail bez rozlišení bloků a s přihláškami v kvalifikaci → `kap` neznámé, `kq` = uvedený počet.
+  Přepočítány všechny sezóny (`update.py --sezona X --bez-stahovani`).
+- Web: v kartě turnaje s kvalifikací dva pruhy (Hlavní soutěž modrý, Kvalifikace oranžový) + počet náhradníků; v seznamu „max 32 + Q 16“;
+  „plno“ až když je plná hlavní soutěž i kvalifikace; filtr „volná místa“ počítá i kvalifikaci. Obsazenost hlavní soutěže = jen hráči v hlavní
+  soutěži (dřív všichni přihlášení vč. náhradníků a kvalifikace).

@@ -126,7 +126,7 @@ window.I18N = (() => {
     "děti": "children", "muži": "men", "ženy": "women", "chlapci": "boys", "dívky": "girls",
     "Děti": "Children", "Muži": "Men", "Ženy": "Women", "Chlapci": "Boys", "Dívky": "Girls",
     "plno": "full", "ZRUŠENO": "CANCELLED", "NOVÉ": "NEW",
-    "kód": "code", "Max. hráčů": "Max. players", "Dvorce · povrch": "Courts · surface", "Míče": "Balls",
+    "kód": "code", "Max. hráčů": "Max. players", "Hlavní soutěž": "Main draw", "Kvalifikace": "Qualifying", "kvalifikace": "qualifying", "Náhradníci": "Alternates", "Dvorce · povrch": "Courts · surface", "Míče": "Balls",
     "Vklad": "Entry fee", "Prezentace": "Sign-in", "Pořadatel": "Organiser",
     "Turnaj zmizel z termínové listiny {d} – ověřte na webu ČTS.": "The tournament disappeared from the ČTS calendar on {d} – please check the ČTS website.",
     "Turnaj je v listině označen jako zrušený – ověřte na webu ČTS.": "The tournament is marked as cancelled in the calendar – please check the ČTS website.",

@@ -3,7 +3,7 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const CTS = "https://cesky-tenis.cz/turnaj/";
-const APP_VERSION = "v3.7";
+const APP_VERSION = "v3.8";
 const TEURL = "https://te.tournamentsoftware.com/sport/tournament?id=";
 const T = window.I18N ? I18N.t : (s, v) => v ? s.replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m) : s;
 const EN = !!(window.I18N && I18N.en);
@@ -230,13 +230,27 @@ function subOk(k, e) {
   return true;
 }
 const subCount = k => { const s = F.sub[k]; return s ? (s.sex || []).length + (s.cls || []).length : 0; };
+/* obsazenost hlavní soutěže po soutěžích (chlapci/muži, dívky/ženy). sm/sz = [hlavní soutěž, kvalifikace, náhradníci]
+   z veřejného seznamu přihlášených (v3.8); starší data: pm/pz = všichni přihlášení, om/oz = údaj z termínové listiny */
+const secOf = (e, w) => w === "m" ? e.sm : e.sz;
+function occOne(e, w) {
+  const s = secOf(e, w);
+  if (s && e.kap) return [s[0], e.kap];
+  if (s && !e.kap) return null;
+  return (w === "m" ? e.om : e.oz) || (e.kap ? [(w === "m" ? e.pm : e.pz) || 0, e.kap] : null);
+}
 function occOf(e) {
   const xs = [];
-  if (e.km) xs.push(e.om || (e.kap ? [e.pm || 0, e.kap] : null));
-  if (e.kz) xs.push(e.oz || (e.kap ? [e.pz || 0, e.kap] : null));
+  if (e.km) xs.push(occOne(e, "m"));
+  if (e.kz) xs.push(occOne(e, "z"));
   return xs;
 }
-const hasFree = e => e.src === "te" || occOf(e).some(o => !o || o[0] < o[1]);
+/* obsazenost kvalifikace (jen turnaje s kvalifikací, typicky A) */
+function qualOf(e) {
+  if (!e.kq) return [];
+  return [e.km && "m", e.kz && "z"].filter(Boolean).map(w => { const s = secOf(e, w); return s ? [s[1], e.kq] : null; });
+}
+const hasFree = e => e.src === "te" || occOf(e).some(o => !o || o[0] < o[1]) || qualOf(e).some(o => !o || o[0] < o[1]);
 function occText(o, p, kap) {
   if (o) return {t: `${o[0]} / ${o[1]}`, pct: o[1] ? o[0] / o[1] : 0};
   if (p != null && kap) return {t: `${p} / ${kap}`, pct: p / kap};
@@ -561,7 +575,8 @@ function item(e) {
   const dn = NEAR && v.lat != null ? `<b class="dist">${fmtKm(km(NEAR, [v.lat, v.lon]))}</b> · ` : "";
   const d = NEAR ? "" : MYPOS && v.lat != null ? ` · ${Math.round(km(MYPOS, [v.lat, v.lon]))} km` : "";
   const occ = occOf(e).filter(Boolean);
-  const full = occ.length && occ.every(o => o[0] >= o[1]);
+  const qo = qualOf(e).filter(Boolean);
+  const full = occ.length && occ.every(o => o[0] >= o[1]) && qo.every(o => o[0] >= o[1]);
   const te = e.src === "te";
   const sex = te ? "" : e.mix ? T("děti") : [e.km && T(e.kat === "dospeli" ? "muži" : "chlapci"), e.kz && T(e.kat === "dospeli" ? "ženy" : "dívky")].filter(Boolean).join(" + ");
   return `<div class="item${zr ? " zr" : ""}" data-ev="${esc(e.id)}">
@@ -569,7 +584,7 @@ function item(e) {
     <div class="main"><div class="t">${esc(e.nz || e.por)}</div>
       <div class="s">${dn}${esc(fmtRange(e.od, e.do, true))} · ${esc(v.nazev_mista && v.presnost === "areal" ? v.nazev_mista : e.por)}${d}</div>
       <div class="m"><span class="pill cls" style="background:${colorOf(e.tr, zr)}">${esc(clsShort(e.tr))}</span>${te ? `<span class="pill">${esc((e.ages || []).join(", ").replace(/&U/g, "U") || "–")}</span><span class="pill flag">${flag(e.zeme)}</span>` : `<span class="pill">${esc(CAT_QUICK[e.kat])}</span><span class="pill">${sex}</span>`}
-      ${e.kap ? `<span class="pill${full ? " full" : ""}">${full ? T("plno") : "max " + e.kap}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfLabel(surfGroup(e.pov)))}</span>` : ""}
+      ${e.kap || e.kq ? `<span class="pill${full ? " full" : ""}">${full ? T("plno") : (e.kap ? "max " + e.kap : "") + (e.kq ? (e.kap ? " + " : "") + "Q " + e.kq : "")}</span>` : ""}${e.pov ? `<span class="pill">${esc(surfLabel(surfGroup(e.pov)))}</span>` : ""}
       ${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${partCancel(e) ? `<span class="pill zr">${partCancel(e)} ${T("zrušeno")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${playerPills(e)}</div></div>
     <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="${T("Oblíbené")}">${STAR}</button></div>`;
 }
@@ -600,10 +615,18 @@ function card(e) {
   const zr = e.st === "zruseno";
   const g = (e.mix ? ["Děti", ""] : e.kat === "dospeli" ? ["Muži", "Ženy"] : ["Chlapci", "Dívky"]).map(x => T(x));
   const occ = [];
-  for (const [code, o, p, lab] of [[e.km, e.om, e.pm, g[0]], [e.kz, e.oz, e.pz, g[1]]]) {
+  const bar = (lab, t, cls) => `<div${cls ? ` class="${cls}"` : ""}><span>${lab}</span><b>${t.t}</b></div><div class="bar5${cls ? " " + cls : ""}"><i style="width:${Math.min(100, t.pct * 100)}%"></i></div>`;
+  for (const [code, o, p, lab, w] of [[e.km, e.om, e.pm, g[0], "m"], [e.kz, e.oz, e.pz, g[1], "z"]]) {
     if (!code) continue;
-    const t = occText(o, p, e.kap);
-    occ.push(`<div><span>${lab} <small class="muted">· ${T("kód")} ${code}</small></span><b>${t.t}</b></div><div class="bar5"><i style="width:${Math.min(100, t.pct * 100)}%"></i></div>`);
+    const s = secOf(e, w), head = `${lab} <small class="muted">· ${T("kód")} ${code}</small>`;
+    if (s && e.kq) {
+      // turnaj s kvalifikací: zvlášť hlavní soutěž a kvalifikace
+      occ.push(`<div class="occh"><span>${head}</span></div>`,
+        bar(T("Hlavní soutěž"), e.kap ? {t: `${s[0]} / ${e.kap}`, pct: s[0] / e.kap} : {t: `${s[0]} / ?`, pct: 0}, "sub"),
+        bar(T("Kvalifikace"), {t: `${s[1]} / ${e.kq}`, pct: s[1] / e.kq}, "sub q"));
+    } else if (s) occ.push(bar(head, e.kap ? {t: `${s[0]} / ${e.kap}`, pct: s[0] / e.kap} : {t: `${s[0]}`, pct: 0}));
+    else occ.push(bar(head, occText(o, p, e.kap)));
+    if (s && s[2]) occ.push(`<div class="sub nahr"><span>${T("Náhradníci")}</span><b>${s[2]}</b></div>`);
   }
   return `<div class="card${zr ? " zr" : ""}" id="c-${esc(e.id)}">
     <div class="top"><span class="badgecls" style="background:${colorOf(e.tr, zr)}">${esc(e.tr === "MCR" ? "MČR" : e.tr || "–")}</span>
@@ -611,7 +634,7 @@ function card(e) {
       <div class="m" style="display:flex;gap:4px;margin-top:4px">${zr ? `<span class="pill zr">${T("ZRUŠENO")}</span>` : ""}${isNew(e) ? `<span class="pill new">${T("NOVÉ")}</span>` : ""}${e.test ? '<span class="pill">TEST</span>' : ""}</div></div>
       <button class="star${FAV.has(e.id) ? " on" : ""}" data-fav="${esc(e.id)}" aria-label="${T("Oblíbené")}">${STAR}</button></div>
     <div class="occ">${occ.join("")}${partCancel(e) ? `<div><span>${esc(partCancel(e)[0].toUpperCase() + partCancel(e).slice(1))}</span><b class="zrtxt">${T("zrušeno")}</b></div>` : ""}</div>
-    <div class="facts"><div><span>${T("Max. hráčů")}</span>${e.kap ?? "?"}</div><div><span>${T("Dvorce · povrch")}</span>${e.dv ?? "?"} · ${esc(e.pov ? rawSurf(e.pov) : T("neuvedeno"))}</div>
+    <div class="facts"><div><span>${T("Max. hráčů")}</span>${e.kap ?? "?"}${e.kq ? ` <small class="muted">+ ${T("kvalifikace")} ${e.kq}</small>` : ""}</div><div><span>${T("Dvorce · povrch")}</span>${e.dv ?? "?"} · ${esc(e.pov ? rawSurf(e.pov) : T("neuvedeno"))}</div>
       ${e.mic ? `<div><span>${T("Míče")}</span>${esc(e.mic)}</div>` : ""}${e.vk ? `<div><span>${T("Vklad")}</span>${e.vk} ${EN ? "CZK" : "Kč"}</div>` : ""}
       ${e.prez ? `<div><span>${T("Prezentace")}</span>${esc(prezText(e.prez))}</div>` : ""}<div><span>${T("Pořadatel")}</span>${esc(e.por)}</div></div>
     ${zr ? `<div class="note">${e.zrus ? T("Turnaj zmizel z termínové listiny {d} – ověřte na webu ČTS.", {d: esc(fmtRange(e.zrus))}) : T("Turnaj je v listině označen jako zrušený – ověřte na webu ČTS.")}</div>` : ""}

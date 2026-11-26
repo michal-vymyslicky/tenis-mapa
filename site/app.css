@@ -167,6 +167,11 @@ input[type=date]:focus,.placeform input:focus{border-color:var(--accent)}
 .occ div{font-size:13px;display:flex;justify-content:space-between;gap:8px}
 .occ .bar5{height:5px;border-radius:3px;background:var(--surface3);overflow:hidden;margin-top:3px}
 .occ .bar5 i{display:block;height:100%;background:var(--accent2);border-radius:3px}
+.occ .occh{font-weight:600;margin-bottom:-2px}
+.occ div.sub{padding-left:12px;font-size:12.5px}
+.occ .bar5.sub{margin-left:12px}
+.occ .bar5.q i{background:var(--accent)}
+.occ .nahr{color:var(--muted,#667)}
 .facts{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;margin-top:10px;font-size:13px}
 .facts span{color:var(--muted);display:block;font-size:11.5px}
 .note{font-size:13px;color:var(--bad);margin-top:8px}

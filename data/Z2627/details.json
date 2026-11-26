@@ -1409,7 +1409,7 @@
   "poradatel_adresa": "SLOVAN HRANICE, z.s. (A - 1000), , Hranice",
   "dvorce_povrch": "4 • pavitex",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 06.01.2027 10:00:00 do 06.01.2027 18:00:00",
   "kontakt": "Lušovský Michal MBA",
@@ -1419,7 +1419,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 29,
-  "_stazeno": "2026-11-25"
+  "_stazeno": "2026-11-25",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "106068": {
   "_status": "ok",
@@ -1808,7 +1810,7 @@
   "poradatel_adresa": "HTK Třebíč (A - 1000), Janáčkovo stromořadí 156, Třebíč",
   "dvorce_povrch": "2 • COURT SOL",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 27.01.2027 10:00:00 do 27.01.2027 18:00:00",
   "kontakt": "Vinopal František",
@@ -1818,7 +1820,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 25,
-  "_stazeno": "2026-11-24"
+  "_stazeno": "2026-11-24",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "106087": {
   "_status": "ok",
@@ -2438,7 +2442,7 @@
   "poradatel_adresa": "TK Horní Měcholupy (A - 1000), Hornoměcholupská 564, Praha 15, Horní Měcholupy",
   "dvorce_povrch": "3 • koberec",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 03.03.2027 10:00:00 do 03.03.2027 18:00:00",
   "kontakt": "Duda Václav",
@@ -2448,7 +2452,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-24"
+  "_stazeno": "2026-11-24",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "106117": {
   "_status": "ok",
@@ -3967,7 +3973,7 @@
   "poradatel_adresa": "TO SK Mělník (A - 1000), Na Polabí 3405, Mělník",
   "dvorce_povrch": "3 • umělá antuka",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 06.01.2027 10:00:00 do 06.01.2027 18:00:00",
   "kontakt": "Ing. Šátral Jan",
@@ -3977,7 +3983,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "206037": {
   "_status": "ok",
@@ -4103,7 +4111,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 0,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "24",
+  "kap_h": "24"
  },
  "206043": {
   "_status": "ok",
@@ -4240,7 +4250,7 @@
   "poradatel_adresa": "SLOVAN HRANICE, z.s. (A - 1000), , Hranice",
   "dvorce_povrch": "4 • pavitex",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 27.01.2027 10:00:00 do 27.01.2027 18:00:00",
   "kontakt": "Lušovský Michal MBA",
@@ -4250,7 +4260,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "206050": {
   "_status": "ok",
@@ -4555,7 +4567,7 @@
   "poradatel_adresa": "SK HIT Hradec Králové z.s. (A - 1000), Hradecká 775/115, Hradec Králové",
   "dvorce_povrch": "3 • ULTRA CUSHION",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 03.03.2027 10:00:00 do 03.03.2027 18:00:00",
   "kontakt": "Macura Viktor",
@@ -4565,7 +4577,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 21,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "206065": {
   "_status": "ok",
@@ -4964,7 +4978,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 14,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "20",
+  "kap_h": "20"
  },
  "206860": {
   "_status": "ok",
@@ -5122,7 +5138,7 @@
   "poradatel_adresa": "LTC Houštka (A - 1000), Houštka 1259, Stará Boleslav",
   "dvorce_povrch": "3 • decoturf",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 25.11.2026 10:00:00 do 25.11.2026 18:00:00",
   "kontakt": "Dzúr Martin",
@@ -5132,7 +5148,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 69,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "306001": {
   "_status": "ok",
@@ -5583,7 +5601,7 @@
   "poradatel_adresa": "SK HIT Hradec Králové z.s. (A - 1000), Hradecká 775/115, Hradec Králové",
   "dvorce_povrch": "3 • mapei TNS CUSHION",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 09.12.2026 10:00:00 do 09.12.2026 18:00:00",
   "kontakt": "Macura Viktor",
@@ -5593,7 +5611,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 85,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "306023": {
   "_status": "ok",
@@ -7662,7 +7682,7 @@
   "poradatel_adresa": "TP POINT FM (A - 1000), Skautská 3763, Frýdek-Místek",
   "dvorce_povrch": "3 • COURT SOL",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 24.02.2027 10:00:00 do 24.02.2027 18:00:00",
   "kontakt": "Bc. Mück Jaroslav",
@@ -7672,7 +7692,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-24"
+  "_stazeno": "2026-11-24",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "306122": {
   "_status": "ok",
@@ -8943,7 +8965,7 @@
   "poradatel_adresa": "TC BORS CLUB (A - 1000), Na Valtické 650/85, Břeclav",
   "dvorce_povrch": "3 • COURT SOL",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 25.11.2026 10:00:00 do 25.11.2026 18:00:00",
   "kontakt": "Ing. Bartoš Richard",
@@ -8953,7 +8975,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 50,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "406001": {
   "_status": "ok",
@@ -9384,7 +9408,7 @@
   "poradatel_adresa": "SK TALENT 13 - spolek (A - 1000), Na Studánkách 2590, Rakovník",
   "dvorce_povrch": "2 • greenset",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 09.12.2026 10:00:00 do 09.12.2026 18:00:00",
   "kontakt": "Benešová Šárka",
@@ -9394,7 +9418,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 78,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "406022": {
   "_status": "ok",
@@ -11337,7 +11363,7 @@
   "poradatel_adresa": "TCEN Hrádek nad Nisou (A - 1000), U koupaliště 647, Hrádek nad Nisou",
   "dvorce_povrch": "2 • COURT SOL",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 24.02.2027 10:00:00 do 24.02.2027 18:00:00",
   "kontakt": "Hrdý Tomáš",
@@ -11347,7 +11373,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "406115": {
   "_status": "ok",
@@ -12355,7 +12383,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 22,
-  "_stazeno": "2026-11-25"
+  "_stazeno": "2026-11-25",
+  "kap_q": "40",
+  "kap_h": "40"
  },
  "406830": {
   "_status": "ok",
@@ -12523,7 +12553,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 20,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "48",
+  "kap_h": "48"
  },
  "506000": {
   "_status": "ok",
@@ -13983,7 +14015,7 @@
   "poradatel_adresa": "SK Vitality Slezsko o.s. (A - 1000), Sportovní areál Vendryně 1017, Vedryně",
   "dvorce_povrch": "4 • rebound ace",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 20.01.2027 10:00:00 do 20.01.2027 18:00:00",
   "kontakt": "Raška Vítek",
@@ -13993,7 +14025,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 32,
-  "_stazeno": "2026-11-25"
+  "_stazeno": "2026-11-25",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "506070": {
   "_status": "ok",
@@ -14570,7 +14604,7 @@
   "poradatel_adresa": "TK Havířov, z.s. (A - 1000), Opletalova 1218/8b, Havířov-Šumbark",
   "dvorce_povrch": "3 • COURT SOL",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 10.02.2027 10:00:00 do 10.02.2027 18:00:00",
   "kontakt": "Ing. Špok Petr",
@@ -14580,7 +14614,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 27,
-  "_stazeno": "2026-11-23"
+  "_stazeno": "2026-11-23",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "506098": {
   "_status": "ok",
@@ -14990,7 +15026,7 @@
   "poradatel_adresa": "TK Sokol Horní Počernice,p.s. (A - 1000), Otovická 2865/109, Praha 9 - Horní Počernice",
   "dvorce_povrch": "3 • antuka",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 24.02.2027 10:00:00 do 24.02.2027 18:00:00",
   "kontakt": "Janoušková Lenka",
@@ -15000,7 +15036,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-23"
+  "_stazeno": "2026-11-23",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "506118": {
   "_status": "ok",
@@ -17867,7 +17905,7 @@
   "poradatel_adresa": "TK Sparta Praha (A - 1000), Za Císařským mlýnem 1115/2, Praha 7",
   "dvorce_povrch": "3 • ULTRA CUSHION",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 20.01.2027 10:00:00 do 20.01.2027 18:00:00",
   "kontakt": "Ing. Lásková Leona",
@@ -17877,7 +17915,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 45,
-  "_stazeno": "2026-11-25"
+  "_stazeno": "2026-11-25",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "606076": {
   "_status": "ok",
@@ -18434,7 +18474,7 @@
   "poradatel_adresa": "TK SC OSTRAVA (A - 1000), Budečská 4/3214, Ostrava",
   "dvorce_povrch": "3 • greenset",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 10.02.2027 10:00:00 do 10.02.2027 18:00:00",
   "kontakt": "Ing. Eliáš Miroslav",
@@ -18444,7 +18484,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 25,
-  "_stazeno": "2026-11-23"
+  "_stazeno": "2026-11-23",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "606103": {
   "_status": "ok",
@@ -18875,7 +18917,7 @@
   "poradatel_adresa": "TC VITALITY Březnice (A - 1000), Sadová, Březnice",
   "dvorce_povrch": "2 • koberec",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 24.02.2027 10:00:00 do 24.02.2027 18:00:00",
   "kontakt": "Mgr. Veselý Jiří",
@@ -18885,7 +18927,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 18,
-  "_stazeno": "2026-11-22"
+  "_stazeno": "2026-11-22",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "606124": {
   "_status": "ok",
@@ -21122,7 +21166,7 @@
   "poradatel_adresa": "TK DEZA Valašské Meziříčí (A - 1000), Kouty 1581, Valašské Meziříčí",
   "dvorce_povrch": "6 • rebound ace",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 16.12.2026 10:00:00 do 16.12.2026 18:00:00",
   "kontakt": "Pavelková Žaneta",
@@ -21132,7 +21176,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 62,
-  "_stazeno": "2026-11-25"
+  "_stazeno": "2026-11-25",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "706042": {
   "_status": "ok",
@@ -22823,7 +22869,7 @@
   "poradatel_adresa": "TENIS SLOVÁCKO z.s. (A - 1000), Salašska2182, Staré Město",
   "dvorce_povrch": "3 • greenset",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 03.02.2027 10:00:00 do 03.02.2027 18:00:00",
   "kontakt": "Štěpánek Pavel",
@@ -22833,7 +22879,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 33,
-  "_stazeno": "2026-11-23"
+  "_stazeno": "2026-11-23",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "706123": {
   "_status": "ok",
@@ -24230,7 +24278,7 @@
   "poradatel_adresa": "I.ČLTK Praha (A - 1000), Ostrov Štvanice 38, Praha 7",
   "dvorce_povrch": "6 • NOVA SPORTS ULTRACUSHION U.S.A.",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 10.03.2027 10:00:00 do 10.03.2027 18:00:00",
   "kontakt": "Vaníček Petr",
@@ -24240,7 +24288,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 38,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "706190": {
   "_status": "ok",
@@ -26203,7 +26253,7 @@
   "poradatel_adresa": "SK Tenis Tišnov (A - 1000), Ostrovec 1897, Tišnov",
   "dvorce_povrch": "4 • antuka",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 16.12.2026 10:00:00 do 16.12.2026 18:00:00",
   "kontakt": "Kunický Zdeněk",
@@ -26213,7 +26263,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 58,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "806047": {
   "_status": "ok",
@@ -27862,7 +27914,7 @@
   "poradatel_adresa": "TK PRECHEZA Přerov o.s. (A - 1000), Kosmákova 55, Přerov",
   "dvorce_povrch": "3 • COURT SOL",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 03.02.2027 10:00:00 do 03.02.2027 18:00:00",
   "kontakt": "Huťková Daniela",
@@ -27872,7 +27924,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 51,
-  "_stazeno": "2026-11-25"
+  "_stazeno": "2026-11-25",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "806126": {
   "_status": "ok",
@@ -29206,7 +29260,7 @@
   "poradatel_adresa": "I.ČLTK Praha (A - 1000), Ostrov Štvanice 38, Praha 7",
   "dvorce_povrch": "6 • NOVA SPORTS ULTRACUSHION U.S.A.",
   "mice": "tecnifibre",
-  "pocet_ucastniku": "16",
+  "pocet_ucastniku": "32",
   "prezentace": "St do 18:00 hod.",
   "el_prezence": "od 10.03.2027 10:00:00 do 10.03.2027 18:00:00",
   "kontakt": "Vaníček Petr",
@@ -29216,7 +29270,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 56,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "16",
+  "kap_h": "32"
  },
  "806190": {
   "_status": "ok",
@@ -29909,7 +29965,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 57,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "64",
+  "kap_h": "64"
  },
  "806815": {
   "_status": "ok",
@@ -29951,7 +30009,9 @@
   "poznamka": "",
   "hraci_plany": true,
   "prihlaseno": 36,
-  "_stazeno": "2026-11-26"
+  "_stazeno": "2026-11-26",
+  "kap_q": "32",
+  "kap_h": "32"
  },
  "806860": {
   "_status": "ok",

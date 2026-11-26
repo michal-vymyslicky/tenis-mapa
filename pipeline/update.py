@@ -232,6 +232,14 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None):
 
     # --- události ---
     events, vreq = [], {}
+    prihl_all = sload(season, "prihlasky.json", {})
+
+    def sekce_pocty(code):
+        """[hlavní soutěž, kvalifikace, náhradníci] z veřejného seznamu přihlášených (bez odstraněných); None = seznam nečten."""
+        xs = prihl_all.get(code) if code else None
+        if xs is None:
+            return None
+        return [sum(1 for x in xs if x[3] == k) for k in ("H", "Q", "N")]
     for slug, rows in lists.items():
         for r in rows:
             km, kz = r.get("kod_m", ""), r.get("kod_z", "")
@@ -252,12 +260,17 @@ def process(season, download=True, threads=1, pause=1.5, clubs=None):
                 ((cm or cz) and (not has_m or cm) and (not has_z or cz)) or ("zruš" in r.get("radek", "").lower() and not (cm or cz))
             part = "" if whole else ("m" if cm else "z" if cz else "")
             ent = {k: dd.get("prihlaseno") for k, dd in (("m", dm), ("z", dz))}
+            sm, sz = sekce_pocty(km), sekce_pocty(kz)
+            kap, kq = num(d.get("pocet_ucastniku")), num(d.get("kap_q"))
+            # starší detail bez rozlišení bloků: má-li turnaj přihlášky v kvalifikaci, je „Počet účastníků“ kvalifikace
+            if kq is None and "kap_h" not in d and any(x and x[1] for x in (sm, sz)):
+                kap, kq = None, kap
             events.append({
                 "id": f"{season}-{slug}-{km or 'x'}-{kz or 'x'}", "kat": slug, "od": od.isoformat() if od else None,
                 "do": do.isoformat() if do else None, "txt": r["datum"], "tr": tr, "vk": num(r["vklad"]),
                 "nz": d.get("nazev", ""), "por": r["poradatel"], "misto": vk, "km": km, "kz": kz,
                 "mix": bool(r.get("mix")), "om": occ(r.get("obs_m")), "oz": occ(r.get("obs_z")), "pm": ent.get("m"), "pz": ent.get("z"),
-                "kap": num(d.get("pocet_ucastniku")), "dv": int(m.group(1)) if m else None,
+                "kap": kap, "kq": kq, "sm": sm, "sz": sz, "dv": int(m.group(1)) if m else None,
                 "pov": (m.group(2).strip() if m else d.get("dvorce_povrch", "")) or "", "mic": d.get("mice", ""),
                 "prez": d.get("prezentace", ""), "el": d.get("el_prezence", "") if d.get("el_prezence") not in ("—", "-") else "",
                 "hp": bool(dm.get("hraci_plany") or dz.get("hraci_plany")),
