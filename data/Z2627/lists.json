@@ -629,12 +629,12 @@
    "trida": "C",
    "vklad": "800 Kč",
    "poradatel": "TK Horní Měcholupy",
-   "kod_m": "106032",
-   "obs_m": "-/-",
-   "kod_z": "206017",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TK Horní Měcholupy -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TK Horní Měcholupy ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -679,10 +679,10 @@
    "poradatel": "TENIS-CENTRUM DTJ HK",
    "kod_m": "106031",
    "obs_m": "-/-",
-   "kod_z": "206016",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-29. 11. 2026 C 800 Kč TENIS-CENTRUM DTJ HK -/- -/-"
+   "radek": "28.-29. 11. 2026 C 800 Kč TENIS-CENTRUM DTJ HK -/- ZRUŠENO"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -2482,9 +2482,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "406000",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "27. 11.-1. 12. 2026 A 1000 Kč TC BORS CLUB -/- -/-"
+   "radek": "27. 11.-1. 12. 2026 A 1000 Kč TC BORS CLUB -/- */-"
   },
   {
    "datum": "27. 11.-1. 12. 2026",
@@ -2492,11 +2492,11 @@
    "vklad": "1000 Kč",
    "poradatel": "LTC Houštka",
    "kod_m": "306000",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "27. 11.-1. 12. 2026 A 1000 Kč LTC Houštka -/- -/-"
+   "radek": "27. 11.-1. 12. 2026 A 1000 Kč LTC Houštka */- -/-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -2577,10 +2577,10 @@
    "poradatel": "TK Evženie Klášterec n/O",
    "kod_m": "",
    "obs_m": "-/-",
-   "kod_z": "406008",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-29. 11. 2026 C 800 Kč TK Evženie Klášterec n/O -/- -/-"
+   "radek": "28.-29. 11. 2026 C 800 Kč TK Evženie Klášterec n/O -/- ZRUŠENO"
   },
   {
    "datum": "28. 11.-1. 12. 2026",
@@ -5901,12 +5901,12 @@
    "trida": "P",
    "vklad": "800 Kč",
    "poradatel": "TK Severní Terasa",
-   "kod_m": "506906",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-29. 11. 2026 P 800 Kč TK Severní Terasa -/- ZRUŠENO"
+   "radek": "28.-29. 11. 2026 P 800 Kč TK Severní Terasa ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "28. 11.-1. 12. 2026",
@@ -9193,10 +9193,10 @@
    "poradatel": "TK Náchod",
    "kod_m": "",
    "obs_m": "-/-",
-   "kod_z": "806014",
-   "obs_z": "-/-",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TK Náchod -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TK Náchod -/- ZRUŠENO"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9455,12 +9455,12 @@
    "trida": "P",
    "vklad": "400 Kč",
    "poradatel": "TK Písek",
-   "kod_m": "706865",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "806865",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-29. 11. 2026 P 400 Kč TK Písek -/- -/-"
+   "radek": "28.-29. 11. 2026 P 400 Kč TK Písek ZRUŠENO -/-"
   },
   {
    "datum": "5.-8. 12. 2026",
@@ -13657,12 +13657,12 @@
    "trida": "",
    "vklad": "500 Kč",
    "poradatel": "SK Uherský Brod",
-   "kod_m": "906504",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "28. 11. 2026 500 Kč SK Uherský Brod -/-"
+   "radek": "28. 11. 2026 500 Kč SK Uherský Brod ZRUŠENO"
   },
   {
    "datum": "28. 11. 2026",
@@ -13693,12 +13693,12 @@
    "trida": "",
    "vklad": "500 Kč",
    "poradatel": "TK Chomutov",
-   "kod_m": "906510",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "28. 11. 2026 500 Kč TK Chomutov -/-"
+   "radek": "28. 11. 2026 500 Kč TK Chomutov ZRUŠENO"
   },
   {
    "datum": "28. 11. 2026",
@@ -13717,12 +13717,12 @@
    "trida": "",
    "vklad": "500 Kč",
    "poradatel": "Zažít Řepy, z.s.",
-   "kod_m": "906511",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "28. 11. 2026 500 Kč Zažít Řepy, z.s. -/-"
+   "radek": "28. 11. 2026 500 Kč Zažít Řepy, z.s. ZRUŠENO"
   },
   {
    "datum": "5. 12. 2026",
@@ -16239,12 +16239,12 @@
    "trida": "",
    "vklad": "500 Kč",
    "poradatel": "I.ČLTK Praha",
-   "kod_m": "906505",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "28. 11. 2026 500 Kč I.ČLTK Praha -/-"
+   "radek": "28. 11. 2026 500 Kč I.ČLTK Praha ZRUŠENO"
   },
   {
    "datum": "28. 11. 2026",
@@ -16853,24 +16853,24 @@
    "trida": "",
    "vklad": "400 Kč",
    "poradatel": "TK Lokomotiva Plzeň z.s.",
-   "kod_m": "906003",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "28. 11. 2026 400 Kč TK Lokomotiva Plzeň z.s. -/-"
+   "radek": "28. 11. 2026 400 Kč TK Lokomotiva Plzeň z.s. ZRUŠENO"
   },
   {
    "datum": "28. 11. 2026",
    "trida": "",
    "vklad": "500 Kč",
    "poradatel": "TK Znojmo",
-   "kod_m": "906002",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "28. 11. 2026 500 Kč TK Znojmo -/-"
+   "radek": "28. 11. 2026 500 Kč TK Znojmo ZRUŠENO"
   },
   {
    "datum": "28. 11. 2026",
@@ -16899,14 +16899,26 @@
   {
    "datum": "28. 11. 2026",
    "trida": "",
-   "vklad": "1500 Kč",
-   "poradatel": "severomoravský",
-   "kod_m": "906005",
+   "vklad": "500 Kč",
+   "poradatel": "TKB Hrušovany z.s.",
+   "kod_m": "906117",
    "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "28. 11. 2026 1500 Kč severomoravský -/-"
+   "radek": "28. 11. 2026 500 Kč TKB Hrušovany z.s. -/-"
+  },
+  {
+   "datum": "28. 11. 2026",
+   "trida": "",
+   "vklad": "1500 Kč",
+   "poradatel": "severomoravský",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "",
+   "mix": true,
+   "radek": "28. 11. 2026 1500 Kč severomoravský ZRUŠENO"
   },
   {
    "datum": "28. 11. 2026",

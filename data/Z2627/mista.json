@@ -103,6 +103,19 @@
   "osm_vzdalenost_km": 0.03,
   "geokod": "RÚIAN: Janáčkovo stromořadí 156, Jejkov, 67401 Třebíč"
  },
+ "klub:i cltk praha": {
+  "klic": "klub:i cltk praha",
+  "poradatel": "I.ČLTK Praha",
+  "adresa": "Ostrov Štvanice 38, Praha 7",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.095592,
+  "lon": 14.439423,
+  "presnost": "areal",
+  "nazev_mista": "Centrální kurt Štvanice",
+  "osm_vzdalenost_km": 0.06,
+  "geokod": "RÚIAN: Ostrov Štvanice č.ev. 38, Holešovice, 17000 Praha 7"
+ },
  "klub:i cltk praha|ostrov stvanice 38 praha 7": {
   "klic": "klub:i cltk praha|ostrov stvanice 38 praha 7",
   "poradatel": "I.ČLTK Praha",
@@ -570,6 +583,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.02,
   "geokod": "RÚIAN: Ostrovec 1897, 66601 Tišnov"
+ },
+ "klub:sk uhersky brod": {
+  "klic": "klub:sk uhersky brod",
+  "poradatel": "SK Uherský Brod",
+  "adresa": "Zátiší 1958, Uherský Brod",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.020586,
+  "lon": 17.652297,
+  "presnost": "adresa",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null,
+  "geokod": "RÚIAN: Zátiší 1958, 68801 Uherský Brod"
  },
  "klub:sk uhersky brod|zatisi 1958 uhersky brod": {
   "klic": "klub:sk uhersky brod|zatisi 1958 uhersky brod",
@@ -1557,6 +1583,19 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: U Hřiště 1524, 56501 Choceň"
  },
+ "klub:tk chomutov": {
+  "klic": "klub:tk chomutov",
+  "poradatel": "TK Chomutov",
+  "adresa": "Bezručova 4880,PO BOX 36, Chomutov 3",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.470777,
+  "lon": 13.392377,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.06,
+  "geokod": "RÚIAN: Bezručova 4880, 43003 Chomutov"
+ },
  "klub:tk chomutov|bezrucova 4880 po box 36 chomutov 3": {
   "klic": "klub:tk chomutov|bezrucova 4880 po box 36 chomutov 3",
   "poradatel": "TK Chomutov",
@@ -1608,6 +1647,19 @@
   "nazev_mista": "Tenisová hala",
   "osm_vzdalenost_km": 1.77,
   "geokod": "RÚIAN: Brněnská 122/212, Nouzka, 68201 Vyškov"
+ },
+ "klub:tk evzenie klasterec n o": {
+  "klic": "klub:tk evzenie klasterec n o",
+  "poradatel": "TK Evženie Klášterec n/O",
+  "adresa": "Kyselka 105, Klášterec n.Ohř.",
+  "zdroj": "adresar",
+  "region": "Severočeský",
+  "lat": 50.379281,
+  "lon": 13.169704,
+  "presnost": "areal",
+  "nazev_mista": "Tenisový klub lázně Evženie",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Kyselka 105, 43151 Klášterec nad Ohří"
  },
  "klub:tk evzenie klasterec n o|kyselka 105 klasterec n ohr": {
   "klic": "klub:tk evzenie klasterec n o|kyselka 105 klasterec n ohr",
@@ -1739,6 +1791,19 @@
   "osm_vzdalenost_km": 0.26,
   "geokod": "RÚIAN: Seifertova 1504, Horní Litvínov, 43601 Litvínov"
  },
+ "klub:tk lokomotiva plzen z s": {
+  "klic": "klub:tk lokomotiva plzen z s",
+  "poradatel": "TK Lokomotiva Plzeň z.s.",
+  "adresa": "Úslavská 75 , Plzeň",
+  "zdroj": "adresar",
+  "region": "Západočeský",
+  "lat": 49.739809,
+  "lon": 13.398284,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.2,
+  "geokod": "RÚIAN: Úslavská 2357/75, Východní Předměstí, 32600 Plzeň"
+ },
  "klub:tk lokomotiva plzen z s|uslavska 75 plzen": {
   "klic": "klub:tk lokomotiva plzen z s|uslavska 75 plzen",
   "poradatel": "TK Lokomotiva Plzeň z.s.",
@@ -1829,6 +1894,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.21,
   "geokod": "RÚIAN: č.p. 112, 74401 Trojanovice"
+ },
+ "klub:tk nachod": {
+  "klic": "klub:tk nachod",
+  "poradatel": "TK Náchod",
+  "adresa": "Ulice 1. máje, Náchod - Běloves",
+  "zdroj": "adresar",
+  "region": "Východočeský",
+  "lat": 50.419072,
+  "lon": 16.185156,
+  "presnost": "areal_obec",
+  "nazev_mista": "Tenis club Běloves",
+  "osm_vzdalenost_km": 0.5,
+  "geokod": "OSM: Náchod-Běloves, Polská, Běloves, Náchod, okres Náchod, Královéhradecký kraj, 574 01, Česko"
  },
  "klub:tk nachod|ulice 1 maje nachod beloves": {
   "klic": "klub:tk nachod|ulice 1 maje nachod beloves",
@@ -2168,6 +2246,19 @@
   "osm_vzdalenost_km": 0.17,
   "geokod": "RÚIAN: Hradská 854, 76001 Zlín"
  },
+ "klub:tk znojmo": {
+  "klic": "klub:tk znojmo",
+  "poradatel": "TK Znojmo",
+  "adresa": "Leska Horní 2135/1, Znojmo",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 48.867218,
+  "lon": 16.048444,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.05,
+  "geokod": "RÚIAN: Leska Horní 2135/1, 66902 Znojmo"
+ },
  "klub:tk znojmo|leska horni 2135 1 znojmo": {
   "klic": "klub:tk znojmo|leska horni 2135 1 znojmo",
   "poradatel": "TK Znojmo",
@@ -2180,6 +2271,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Leska Horní 2135/1, 66902 Znojmo"
+ },
+ "klub:tkb hrusovany z s|ul severni 1129 hrusovany nad jevisovkou": {
+  "klic": "klub:tkb hrusovany z s|ul severni 1129 hrusovany nad jevisovkou",
+  "poradatel": "TKB Hrušovany z.s.",
+  "adresa": "ul.Severní 1129, Hrušovany nad Jevišovkou",
+  "zdroj": "detail",
+  "region": "Jihomoravský",
+  "lat": 48.834032,
+  "lon": 16.39858,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.02,
+  "geokod": "RÚIAN: Severní 1129, 67167 Hrušovany nad Jevišovkou"
  },
  "klub:to sk melnik|na polabi 3405 melnik": {
   "klic": "klub:to sk melnik|na polabi 3405 melnik",
@@ -2310,6 +2414,19 @@
   "nazev_mista": "Tenisové kurty",
   "osm_vzdalenost_km": 0.11,
   "geokod": "RÚIAN: č.p. 108, 25101 Modletice"
+ },
+ "klub:zazit repy z s": {
+  "klic": "klub:zazit repy z s",
+  "poradatel": "Zažít Řepy, z.s.",
+  "adresa": "Vondroušova 1217/32, Praha",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.06723,
+  "lon": 14.296811,
+  "presnost": "areal",
+  "nazev_mista": "Sportovní centrum Řepy",
+  "osm_vzdalenost_km": 0.56,
+  "geokod": "RÚIAN: Vondroušova 1217/32, Řepy, 16300 Praha 6"
  },
  "klub:zazit repy z s|vondrousova 1217 32 praha": {
   "klic": "klub:zazit repy z s|vondrousova 1217 32 praha",
@@ -2907,6 +3024,18 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Veletovská 2358, Újezd nad Lesy, 19016 Praha 9"
  },
+ "svaz:severomoravsky:": {
+  "klic": "svaz:severomoravsky:",
+  "poradatel": "severomoravský",
+  "adresa": "",
+  "zdroj": "nezname",
+  "region": "Severomoravský",
+  "lat": null,
+  "lon": null,
+  "presnost": "nezname",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": null
+ },
  "svaz:severomoravsky:106970": {
   "klic": "svaz:severomoravsky:106970",
   "poradatel": "severomoravský",
@@ -3074,15 +3203,15 @@
  "svaz:severomoravsky:906005": {
   "klic": "svaz:severomoravsky:906005",
   "poradatel": "severomoravský",
-  "adresa": "Karlovecká 1B, Opava",
-  "zdroj": "detail",
+  "adresa": "Lužánecká 7, Brno",
+  "zdroj": "loni",
   "region": "Severomoravský",
-  "lat": 49.956774,
-  "lon": 17.881854,
-  "presnost": "areal",
+  "lat": 49.205658,
+  "lon": 16.611204,
+  "presnost": "odhad",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.07,
-  "geokod": "RÚIAN: Karlovecká 2918/1b, Předměstí, 74707 Opava"
+  "osm_vzdalenost_km": 0.03,
+  "geokod": "RÚIAN: Lužánecká 2016/7, Černá Pole, 60200 Brno"
  },
  "svaz:severomoravsky:906037": {
   "klic": "svaz:severomoravsky:906037",

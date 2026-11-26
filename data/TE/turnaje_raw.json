@@ -5711,22 +5711,6 @@
   "entry": false
  },
  {
-  "id": "256D8520-47B9-4E06-BE32-6E862D84CDAA",
-  "nz": "TEJT 3 U14 \" Dermapoint Cup U14 2027\"",
-  "venue": "TK Zilina",
-  "city": "Zilina",
-  "country": "Slovakia",
-  "iso3": "SVK",
-  "od": "2027-07-12",
-  "do": "2027-07-18",
-  "pov": "Clay",
-  "tags": [
-   "Category 3",
-   "14&U"
-  ],
-  "entry": false
- },
- {
   "id": "E550810D-3BC1-4B39-90AA-E53E460B51E0",
   "nz": "Torneo U12 - Forlì",
   "venue": "Tennis Villa Carpena",
@@ -5754,6 +5738,22 @@
   "pov": "Clay",
   "tags": [
    "Category 2",
+   "14&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "256D8520-47B9-4E06-BE32-6E862D84CDAA",
+  "nz": "TEJT 3 U14 \" Dermapoint Cup U14 2027\"",
+  "venue": "TK Zilina",
+  "city": "Zilina",
+  "country": "Slovakia",
+  "iso3": "SVK",
+  "od": "2027-07-14",
+  "do": "2027-07-18",
+  "pov": "Clay",
+  "tags": [
+   "Category 3",
    "14&U"
   ],
   "entry": false
