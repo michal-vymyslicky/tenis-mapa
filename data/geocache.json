@@ -33387,5 +33387,75 @@
    "type": "sports_centre",
    "addresstype": "leisure"
   }
- ]
+ ],
+ "ruian:U Čeperky 1019, Unhošť": [
+  {
+   "a": "U Čeperky 1019, 27351 Unhošť",
+   "lat": 50.078164,
+   "lon": 14.093824,
+   "s": 100
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=hr&format=jsonv2&limit=1&q=Teniski+klub+Franjo+Pun%C4%8Dec%2C+%C4%8Cakovec": [
+  {
+   "name": "Teniski klub Franjo Punčec",
+   "display_name": "Teniski klub Franjo Punčec, 1, Ulica Franje Punčeca, Vojni vrtovi, Globetka, Čakovec, Grad Čakovec, Mezimuřská župa, 40000, Chorvatsko",
+   "lat": "46.3912558",
+   "lon": "16.4312813",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Daimon+Tenis+Club%2C+Bucharest": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&format=jsonv2&limit=1&q=Daimon+Tenis+Club": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fi&format=jsonv2&limit=1&q=Hangon+Tennisstadion%2C+Hanko": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fi&format=jsonv2&limit=1&q=Hangon+Tennisstadion": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fi&format=jsonv2&limit=1&q=Hanko": [
+  {
+   "name": "Hanko",
+   "display_name": "Hanko, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, Finsko",
+   "lat": "59.8247750",
+   "lon": "22.9678907",
+   "category": "boundary",
+   "type": "administrative",
+   "addresstype": "town"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=fi&format=jsonv2&limit=1&q=tennis+Hanko": [
+  {
+   "name": "Café Tennis",
+   "display_name": "Café Tennis, Appelgrenintie, Keskusta, Hanko, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, 10900, Finsko",
+   "lat": "59.8246188",
+   "lon": "22.9799734",
+   "category": "amenity",
+   "type": "cafe",
+   "addresstype": "amenity"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=ee&format=jsonv2&limit=1&q=T%C3%A4htvere+Tennisekeskus%2C+Tartu": [
+  {
+   "name": "Tähtvere tennisekeskus",
+   "display_name": "Tähtvere tennisekeskus, 19, Laulupeo pst, Tähtvere, Tartu linn, Tartu maakond, 51006, Estonsko",
+   "lat": "58.3849988",
+   "lon": "26.7071289",
+   "category": "leisure",
+   "type": "sports_centre",
+   "addresstype": "leisure"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=TK+KRKA+OTO%C4%8CEC%2C+Oto%C4%8Dec": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=TK+KRKA+OTO%C4%8CEC": [],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=Oto%C4%8Dec": [
+  {
+   "name": "Otočec",
+   "display_name": "Otočec, Novo mesto, 8222, Slovinsko",
+   "lat": "45.8334870",
+   "lon": "15.2216330",
+   "category": "place",
+   "type": "village",
+   "addresstype": "village"
+  }
+ ],
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=tennis+Oto%C4%8Dec": []
 }

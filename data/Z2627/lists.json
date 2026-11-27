@@ -666,11 +666,11 @@
    "vklad": "800 Kč",
    "poradatel": "TC Bajda Kroměříž",
    "kod_m": "106033",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "206018",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TC Bajda Kroměříž -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TC Bajda Kroměříž */- */-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -678,11 +678,11 @@
    "vklad": "800 Kč",
    "poradatel": "TENIS-CENTRUM DTJ HK",
    "kod_m": "106031",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-29. 11. 2026 C 800 Kč TENIS-CENTRUM DTJ HK -/- ZRUŠENO"
+   "radek": "28.-29. 11. 2026 C 800 Kč TENIS-CENTRUM DTJ HK */- ZRUŠENO"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -690,11 +690,11 @@
    "vklad": "900 Kč",
    "poradatel": "TSM Sokol Vysočany z.s.",
    "kod_m": "106035",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "206019",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 900 Kč TSM Sokol Vysočany z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 900 Kč TSM Sokol Vysočany z.s. */- */-"
   },
   {
    "datum": "29.-30. 11. 2026",
@@ -2504,11 +2504,11 @@
    "vklad": "800 Kč",
    "poradatel": "LTC Vysoké Mýto",
    "kod_m": "306003",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-29. 11. 2026 C 800 Kč LTC Vysoké Mýto -/- -/-"
+   "radek": "28.-29. 11. 2026 C 800 Kč LTC Vysoké Mýto */- -/-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -2516,11 +2516,11 @@
    "vklad": "800 Kč",
    "poradatel": "SK Tenis Tišnov",
    "kod_m": "306001",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "406001",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč SK Tenis Tišnov -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč SK Tenis Tišnov */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -2530,9 +2530,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "406010",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 D 800 Kč TK Písnice -/- -/-"
+   "radek": "28.-30. 11. 2026 D 800 Kč TK Písnice -/- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -2540,11 +2540,11 @@
    "vklad": "800 Kč",
    "poradatel": "LOB S.A. Bohnice, z.s.",
    "kod_m": "306008",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "406007",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč LOB S.A. Bohnice, z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč LOB S.A. Bohnice, z.s. */- */-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -2588,11 +2588,11 @@
    "vklad": "800 Kč",
    "poradatel": "TC Brno.",
    "kod_m": "306004",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "406003",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28. 11.-1. 12. 2026 C 800 Kč TC Brno. -/- -/-"
+   "radek": "28. 11.-1. 12. 2026 C 800 Kč TC Brno. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -2600,11 +2600,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenisový klub Studénka z.s.",
    "kod_m": "306002",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "406002",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Tenisový klub Studénka z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenisový klub Studénka z.s. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -2638,9 +2638,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "406009",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-29. 11. 2026 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+   "radek": "28.-29. 11. 2026 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- */-"
   },
   {
    "datum": "3.-4. 12. 2026",
@@ -5805,12 +5805,12 @@
    "trida": "E",
    "vklad": "600 Kč",
    "poradatel": "SK OAZA Praha",
-   "kod_m": "506004",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-29. 11. 2026 E 600 Kč SK OAZA Praha -/- ZRUŠENO"
+   "radek": "28.-29. 11. 2026 E 600 Kč SK OAZA Praha ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "28. 11.-1. 12. 2026",
@@ -5820,9 +5820,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "606006",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28. 11.-1. 12. 2026 B 900 Kč TJ Jiskra Zruč n.Sáz. -/- -/-"
+   "radek": "28. 11.-1. 12. 2026 B 900 Kč TJ Jiskra Zruč n.Sáz. -/- */-"
   },
   {
    "datum": "28. 11.-1. 12. 2026",
@@ -5830,11 +5830,11 @@
    "vklad": "900 Kč",
    "poradatel": "TC VITALITY Březnice",
    "kod_m": "506006",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28. 11.-1. 12. 2026 B 900 Kč TC VITALITY Březnice -/- -/-"
+   "radek": "28. 11.-1. 12. 2026 B 900 Kč TC VITALITY Březnice */- -/-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -5842,11 +5842,11 @@
    "vklad": "800 Kč",
    "poradatel": "BLTC Brno",
    "kod_m": "506000",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "606000",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč BLTC Brno -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč BLTC Brno */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -5854,11 +5854,11 @@
    "vklad": "800 Kč",
    "poradatel": "CTA Rudná",
    "kod_m": "506005",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč CTA Rudná -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč CTA Rudná */- -/-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -5868,9 +5868,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "606005",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 D 800 Kč CTA Rudná -/- -/-"
+   "radek": "28.-30. 11. 2026 D 800 Kč CTA Rudná -/- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -5880,9 +5880,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "606001",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TK Sokolov -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TK Sokolov -/- */-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -5914,11 +5914,11 @@
    "vklad": "900 Kč",
    "poradatel": "PANORAMA Sport Frýdlant nad Ostravicí",
    "kod_m": "506003",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28. 11.-1. 12. 2026 B 900 Kč PANORAMA Sport Frýdlant nad Ostravicí -/- -/-"
+   "radek": "28. 11.-1. 12. 2026 B 900 Kč PANORAMA Sport Frýdlant nad Ostravicí */- -/-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -5938,11 +5938,11 @@
    "vklad": "800 Kč",
    "poradatel": "TC SANITINO Academy, z.s.",
    "kod_m": "506001",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TC SANITINO Academy, z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TC SANITINO Academy, z.s. */- -/-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -5950,11 +5950,11 @@
    "vklad": "800 Kč",
    "poradatel": "TJ Slavoj Tesla Hloubětín, z.s.",
    "kod_m": "506009",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "606009",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TJ Slavoj Tesla Hloubětín, z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TJ Slavoj Tesla Hloubětín, z.s. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -5962,11 +5962,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Sokol Horní Počernice,p.s.",
    "kod_m": "506002",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "606003",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TK Sokol Horní Počernice,p.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TK Sokol Horní Počernice,p.s. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -5974,11 +5974,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenis Jesenice z.s.",
    "kod_m": "506168",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "606178",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Tenis Jesenice z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenis Jesenice z.s. */- */-"
   },
   {
    "datum": "28. 11.-1. 12. 2026",
@@ -5988,9 +5988,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "606002",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28. 11.-1. 12. 2026 B 900 Kč TP POINT FM -/- -/-"
+   "radek": "28. 11.-1. 12. 2026 B 900 Kč TP POINT FM -/- */-"
   },
   {
    "datum": "5.-6. 12. 2026",
@@ -9168,11 +9168,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Horní Měcholupy",
    "kod_m": "706007",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806006",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TK Horní Měcholupy -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TK Horní Měcholupy */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9180,11 +9180,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK SPORTCENTRUM Mladá Boleslav",
    "kod_m": "706010",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806009",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TK SPORTCENTRUM Mladá Boleslav -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TK SPORTCENTRUM Mladá Boleslav */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9204,11 +9204,11 @@
    "vklad": "800 Kč",
    "poradatel": "LOB S.A. Bohnice, z.s.",
    "kod_m": "706013",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806013",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč LOB S.A. Bohnice, z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč LOB S.A. Bohnice, z.s. */- */-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -9216,11 +9216,11 @@
    "vklad": "800 Kč",
    "poradatel": "HTK Třebíč",
    "kod_m": "706004",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806003",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-29. 11. 2026 C 800 Kč HTK Třebíč -/- -/-"
+   "radek": "28.-29. 11. 2026 C 800 Kč HTK Třebíč */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9230,9 +9230,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "806010",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 600 Kč TO SK Žamberk -/- -/-"
+   "radek": "28.-30. 11. 2026 C 600 Kč TO SK Žamberk -/- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9252,11 +9252,11 @@
    "vklad": "800 Kč",
    "poradatel": "Pliskova Tennis Academy-Říčany",
    "kod_m": "706009",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Pliskova Tennis Academy-Říčany -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Pliskova Tennis Academy-Říčany */- -/-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9266,9 +9266,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "806008",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Pliskova Tennis Academy-Říčany -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Pliskova Tennis Academy-Říčany -/- */-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -9288,11 +9288,11 @@
    "vklad": "900 Kč",
    "poradatel": "jihomoravský",
    "kod_m": "706941",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806941",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 P 900 Kč jihomoravský -/- -/-"
+   "radek": "28.-30. 11. 2026 P 900 Kč jihomoravský */- */-"
   },
   {
    "datum": "28. 11.-2. 12. 2026",
@@ -9300,11 +9300,11 @@
    "vklad": "500 Kč",
    "poradatel": "Praha",
    "kod_m": "706815",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806815",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28. 11.-2. 12. 2026 P 500 Kč Praha -/- -/-"
+   "radek": "28. 11.-2. 12. 2026 P 500 Kč Praha */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9312,11 +9312,11 @@
    "vklad": "800 Kč",
    "poradatel": "TENIS SLOVÁCKO z.s.",
    "kod_m": "706001",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806000",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč TENIS SLOVÁCKO z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč TENIS SLOVÁCKO z.s. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9324,11 +9324,11 @@
    "vklad": "800 Kč",
    "poradatel": "SK Vítkovice 1926-Ridera, z.s.",
    "kod_m": "706003",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč SK Vítkovice 1926-Ridera, z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč SK Vítkovice 1926-Ridera, z.s. */- -/-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -9336,11 +9336,11 @@
    "vklad": "600 Kč",
    "poradatel": "Tenisový klub Havlíčkův Brod,z.s.",
    "kod_m": "706008",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806007",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-29. 11. 2026 C 600 Kč Tenisový klub Havlíčkův Brod,z.s. -/- -/-"
+   "radek": "28.-29. 11. 2026 C 600 Kč Tenisový klub Havlíčkův Brod,z.s. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9348,11 +9348,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenis Újezd nad Lesy, z.s.",
    "kod_m": "706014",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806015",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Tenis Újezd nad Lesy, z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenis Újezd nad Lesy, z.s. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9362,9 +9362,9 @@
    "kod_m": "706005",
    "obs_m": "-/-",
    "kod_z": "806004",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Tenisový klub Eden HK -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenisový klub Eden HK -/- */-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -9372,11 +9372,11 @@
    "vklad": "800 Kč",
    "poradatel": "TK Litvínov z.s.",
    "kod_m": "706011",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806011",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-29. 11. 2026 C 800 Kč TK Litvínov z.s. -/- -/-"
+   "radek": "28.-29. 11. 2026 C 800 Kč TK Litvínov z.s. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9408,11 +9408,11 @@
    "vklad": "900 Kč",
    "poradatel": "Rožnovský tenisový klub",
    "kod_m": "706971",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806971",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 P 900 Kč Rožnovský tenisový klub -/- -/-"
+   "radek": "28.-30. 11. 2026 P 900 Kč Rožnovský tenisový klub */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9420,11 +9420,11 @@
    "vklad": "800 Kč",
    "poradatel": "Sportovní klub LTC Modřany 2005 z.s.",
    "kod_m": "706002",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806001",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Sportovní klub LTC Modřany 2005 z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Sportovní klub LTC Modřany 2005 z.s. */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9434,9 +9434,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "806219",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenisová škola Lucie Hradecké z.s. -/- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9444,11 +9444,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenisová škola Lucie Hradecké z.s.",
    "kod_m": "706221",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 D 800 Kč Tenisová škola Lucie Hradecké z.s. -/- -/-"
+   "radek": "28.-30. 11. 2026 D 800 Kč Tenisová škola Lucie Hradecké z.s. */- -/-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -9458,9 +9458,9 @@
    "kod_m": "",
    "obs_m": "ZRUŠENO",
    "kod_z": "806865",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-29. 11. 2026 P 400 Kč TK Písek ZRUŠENO -/-"
+   "radek": "28.-29. 11. 2026 P 400 Kč TK Písek ZRUŠENO */-"
   },
   {
    "datum": "5.-8. 12. 2026",
@@ -16913,12 +16913,12 @@
    "trida": "",
    "vklad": "1500 Kč",
    "poradatel": "severomoravský",
-   "kod_m": "",
-   "obs_m": "ZRUŠENO",
+   "kod_m": "906005",
+   "obs_m": "-/-",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "28. 11. 2026 1500 Kč severomoravský ZRUŠENO"
+   "radek": "28. 11. 2026 1500 Kč severomoravský -/-"
   },
   {
    "datum": "28. 11. 2026",
@@ -16973,12 +16973,12 @@
    "trida": "",
    "vklad": "500 Kč",
    "poradatel": "Zažít Řepy, z.s.",
-   "kod_m": "906009",
-   "obs_m": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
    "kod_z": "",
    "obs_z": "",
    "mix": true,
-   "radek": "29. 11. 2026 500 Kč Zažít Řepy, z.s. -/-"
+   "radek": "29. 11. 2026 500 Kč Zažít Řepy, z.s. ZRUŠENO"
   },
   {
    "datum": "5. 12. 2026",

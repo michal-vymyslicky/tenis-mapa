@@ -3715,5 +3715,71 @@
   "v2": 1,
   "osm3": 1,
   "poznamka": "areál podle OpenStreetMap: Ski Nautique Grevenmacher"
+ },
+ "CRO|teniski klub franjo puncec|cakovec": {
+  "poradatel": "Teniski klub Franjo Punčec",
+  "adresa": "Čakovec, Croatia",
+  "zdroj": "te",
+  "region": "Croatia",
+  "lat": 46.391256,
+  "lon": 16.431281,
+  "presnost": "areal",
+  "nazev_mista": "Teniski klub Franjo Punčec",
+  "zeme": "hr",
+  "v2": 1
+ },
+ "ROM|daimon tenis club|bucharest": {
+  "poradatel": "Daimon Tenis Club",
+  "adresa": "Bucharest, Romania",
+  "zdroj": "te",
+  "region": "Romania",
+  "lat": 44.403966,
+  "lon": 26.111857,
+  "presnost": "areal",
+  "nazev_mista": "Daimon Tenis Club",
+  "zeme": "",
+  "poznamka": "areál podle OpenStreetMap: Club sportiv Daimon",
+  "v2": 1,
+  "osm3": 1
+ },
+ "FIN|hangon tennisstadion|hanko": {
+  "poradatel": "Hangon Tennisstadion",
+  "adresa": "Hanko, Finland",
+  "zdroj": "te",
+  "region": "Finland",
+  "lat": 59.85019,
+  "lon": 23.003746,
+  "presnost": "areal",
+  "nazev_mista": "Hangon Tennisstadion",
+  "zeme": "fi",
+  "poznamka": "areál podle OpenStreetMap: Hangon FK-rata",
+  "v2": 1,
+  "osm3": 1
+ },
+ "EST|tahtvere tennisekeskus|tartu": {
+  "poradatel": "Tähtvere Tennisekeskus",
+  "adresa": "Tartu, Estonia",
+  "zdroj": "te",
+  "region": "Estonia",
+  "lat": 58.384999,
+  "lon": 26.707129,
+  "presnost": "areal",
+  "nazev_mista": "Tähtvere Tennisekeskus",
+  "zeme": "ee",
+  "v2": 1
+ },
+ "SLO|tk krka otocec|otocec": {
+  "poradatel": "TK KRKA OTOČEC",
+  "adresa": "Otočec, Slovenia",
+  "zdroj": "te",
+  "region": "Slovenia",
+  "lat": 45.840766,
+  "lon": 15.232947,
+  "presnost": "areal",
+  "nazev_mista": "TK KRKA OTOČEC",
+  "zeme": "si",
+  "v2": 1,
+  "osm3": 1,
+  "poznamka": "areál podle OpenStreetMap: Pustolovski park Otočec"
  }
 }

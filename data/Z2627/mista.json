@@ -519,6 +519,19 @@
   "osm_vzdalenost_km": 0.05,
   "geokod": "RÚIAN: Gudrichova 762, 74741 Hradec nad Moravicí"
  },
+ "klub:sk oaza praha": {
+  "klic": "klub:sk oaza praha",
+  "poradatel": "SK OAZA Praha",
+  "adresa": "Jeremenkova 106, Praha 4",
+  "zdroj": "adresar",
+  "region": "Praha",
+  "lat": 50.043171,
+  "lon": 14.43507,
+  "presnost": "areal",
+  "nazev_mista": "SPORTOVNÍ KLUB OAZA PRAHA",
+  "osm_vzdalenost_km": 0.1,
+  "geokod": "RÚIAN: Jeremenkova 1835/106, Krč, 14000 Praha 4"
+ },
  "klub:sk oaza praha|jeremenkova 106 praha 4": {
   "klic": "klub:sk oaza praha|jeremenkova 106 praha 4",
   "poradatel": "SK OAZA Praha",
@@ -2447,6 +2460,19 @@
   "osm_vzdalenost_km": 0.56,
   "geokod": "RÚIAN: Vondroušova 1217/32, Řepy, 16300 Praha 6"
  },
+ "klub:zazit repy z s|u ceperky 1019 unhost": {
+  "klic": "klub:zazit repy z s|u ceperky 1019 unhost",
+  "poradatel": "Zažít Řepy, z.s.",
+  "adresa": "U Čeperky 1019, Unhošť",
+  "zdroj": "detail",
+  "region": "Praha",
+  "lat": 50.0779,
+  "lon": 14.094174,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.04,
+  "geokod": "RÚIAN: U Čeperky 1019, 27351 Unhošť"
+ },
  "klub:zazit repy z s|vondrousova 1217 32 praha": {
   "klic": "klub:zazit repy z s|vondrousova 1217 32 praha",
   "poradatel": "Zažít Řepy, z.s.",
@@ -3111,18 +3137,6 @@
   "geokod": "RÚIAN: Pod Koňským vrchem 1159/5, 43401 Most",
   "poznamka": "odhad podle kontaktní osoby turnaje: TK Most"
  },
- "svaz:severomoravsky:": {
-  "klic": "svaz:severomoravsky:",
-  "poradatel": "severomoravský",
-  "adresa": "",
-  "zdroj": "nezname",
-  "region": "Severomoravský",
-  "lat": null,
-  "lon": null,
-  "presnost": "nezname",
-  "nazev_mista": "",
-  "osm_vzdalenost_km": null
- },
  "svaz:severomoravsky:106970": {
   "klic": "svaz:severomoravsky:106970",
   "poradatel": "severomoravský",
@@ -3294,15 +3308,15 @@
  "svaz:severomoravsky:906005": {
   "klic": "svaz:severomoravsky:906005",
   "poradatel": "severomoravský",
-  "adresa": "Lužánecká 7, Brno",
-  "zdroj": "loni",
+  "adresa": "Karlovecká 1B, Opava",
+  "zdroj": "detail",
   "region": "Severomoravský",
-  "lat": 49.205658,
-  "lon": 16.611204,
-  "presnost": "odhad",
+  "lat": 49.956774,
+  "lon": 17.881854,
+  "presnost": "areal",
   "nazev_mista": "",
-  "osm_vzdalenost_km": 0.03,
-  "geokod": "RÚIAN: Lužánecká 2016/7, Černá Pole, 60200 Brno"
+  "osm_vzdalenost_km": 0.07,
+  "geokod": "RÚIAN: Karlovecká 2918/1b, Předměstí, 74707 Opava"
  },
  "svaz:severomoravsky:906037": {
   "klic": "svaz:severomoravsky:906037",
