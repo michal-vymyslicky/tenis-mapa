@@ -1227,6 +1227,19 @@
   "osm_vzdalenost_km": null,
   "geokod": "OSM: 457/82, Jiráskova, Staré Pavlovice-východ, Staré Pavlovice, Nové Pavlovice, nečleněný Liberec, Liberec, okres Liberec, Liberecký kraj, 460 01, Česko"
  },
+ "klub:tenisklub7|olbrachtova 3540 frydek mistek": {
+  "klic": "klub:tenisklub7|olbrachtova 3540 frydek mistek",
+  "poradatel": "Tenisklub7",
+  "adresa": "Olbrachtova 3540, Frýdek Místek",
+  "zdroj": "detail",
+  "region": "Severomoravský",
+  "lat": 49.697633,
+  "lon": 18.347697,
+  "presnost": "areal",
+  "nazev_mista": "Tenis Šebesta",
+  "osm_vzdalenost_km": 0.0,
+  "geokod": "RÚIAN: Olbrachtova 3540, Frýdek, 73801 Frýdek-Místek"
+ },
  "klub:tenisova skola lucie hradecke z s|manzelu dostalovych 1722 praha 9": {
   "klic": "klub:tenisova skola lucie hradecke z s|manzelu dostalovych 1722 praha 9",
   "poradatel": "Tenisová škola Lucie Hradecké z.s.",
@@ -2198,6 +2211,19 @@
   "nazev_mista": "",
   "osm_vzdalenost_km": 0.21,
   "geokod": "RÚIAN: Bezděčín 90, 29301 Mladá Boleslav"
+ },
+ "klub:tk tilia brno": {
+  "klic": "klub:tk tilia brno",
+  "poradatel": "TK TILIA Brno",
+  "adresa": "Voříškova 59, Brno/Kohoutovice",
+  "zdroj": "adresar",
+  "region": "Jihomoravský",
+  "lat": 49.198623,
+  "lon": 16.537694,
+  "presnost": "areal",
+  "nazev_mista": "",
+  "osm_vzdalenost_km": 0.06,
+  "geokod": "RÚIAN: Voříškova 864/59, Kohoutovice, 62300 Brno"
  },
  "klub:tk tilia brno|voriskova 59 brno kohoutovice": {
   "klic": "klub:tk tilia brno|voriskova 59 brno kohoutovice",

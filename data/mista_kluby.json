@@ -2866,5 +2866,15 @@
    "adresa": "Mlýnská 737/10, Vyškov",
    "sezona": "Z2627"
   }
+ ],
+ "tenisklub7": [
+  {
+   "lat": 49.697633,
+   "lon": 18.347697,
+   "nazev": "Tenis Šebesta",
+   "presnost": "areal",
+   "adresa": "Olbrachtova 3540, Frýdek Místek",
+   "sezona": "Z2627"
+  }
  ]
 }

@@ -654,11 +654,11 @@
    "vklad": "800 Kč",
    "poradatel": "LTC Radotín",
    "kod_m": "106034",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 D 800 Kč LTC Radotín -/- -/-"
+   "radek": "28.-30. 11. 2026 D 800 Kč LTC Radotín */- -/-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -2551,12 +2551,12 @@
    "trida": "E",
    "vklad": "600 Kč",
    "poradatel": "TK TILIA Brno",
-   "kod_m": "306007",
-   "obs_m": "-/-",
-   "kod_z": "406006",
-   "obs_z": "-/-",
+   "kod_m": "",
+   "obs_m": "ZRUŠENO",
+   "kod_z": "",
+   "obs_z": "ZRUŠENO",
    "mix": false,
-   "radek": "28.-29. 11. 2026 E 600 Kč TK TILIA Brno -/- -/-"
+   "radek": "28.-29. 11. 2026 E 600 Kč TK TILIA Brno ZRUŠENO ZRUŠENO"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -2566,9 +2566,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "406005",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-29. 11. 2026 D 800 Kč TO SK Mělník -/- -/-"
+   "radek": "28.-29. 11. 2026 D 800 Kč TO SK Mělník -/- */-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -9240,11 +9240,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenis Cibulka",
    "kod_m": "706006",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806005",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Tenis Cibulka -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenis Cibulka */- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9360,11 +9360,11 @@
    "vklad": "800 Kč",
    "poradatel": "Tenisový klub Eden HK",
    "kod_m": "706005",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "806004",
    "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Tenisový klub Eden HK -/- */-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenisový klub Eden HK */- */-"
   },
   {
    "datum": "28.-29. 11. 2026",
@@ -9386,9 +9386,9 @@
    "kod_m": "",
    "obs_m": "-/-",
    "kod_z": "806002",
-   "obs_z": "-/-",
+   "obs_z": "*/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Tenisklub7 -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Tenisklub7 -/- */-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9396,11 +9396,11 @@
    "vklad": "800 Kč",
    "poradatel": "SK Véska",
    "kod_m": "706000",
-   "obs_m": "-/-",
+   "obs_m": "*/-",
    "kod_z": "",
    "obs_z": "-/-",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč SK Véska -/- -/-"
+   "radek": "28.-30. 11. 2026 C 800 Kč SK Véska */- -/-"
   },
   {
    "datum": "28.-30. 11. 2026",
@@ -9422,9 +9422,9 @@
    "kod_m": "706002",
    "obs_m": "*/-",
    "kod_z": "806001",
-   "obs_z": "*/-",
+   "obs_z": "*/*",
    "mix": false,
-   "radek": "28.-30. 11. 2026 C 800 Kč Sportovní klub LTC Modřany 2005 z.s. */- */-"
+   "radek": "28.-30. 11. 2026 C 800 Kč Sportovní klub LTC Modřany 2005 z.s. */- */*"
   },
   {
    "datum": "28.-30. 11. 2026",

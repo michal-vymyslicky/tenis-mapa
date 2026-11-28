@@ -2170,29 +2170,12 @@
   "city": "Göteborg",
   "country": "Sweden",
   "iso3": "SWE",
-  "od": "2026-11-30",
+  "od": "2026-11-28",
   "do": "2026-12-04",
   "pov": "Acryllic",
   "tags": [
    "Category 3",
    "14&U"
-  ],
-  "entry": false
- },
- {
-  "id": "23AE0F0E-0063-44C6-BB79-0A2DAB4197C3",
-  "nz": "Bad Waltersdorf Open 2026 - indoors",
-  "venue": "Sportaktivpark Bad Waltersdorf",
-  "city": "Bad Waltersdorf",
-  "country": "Austria",
-  "iso3": "AUT",
-  "od": "2026-11-30",
-  "do": "2026-12-06",
-  "pov": "Carpet",
-  "tags": [
-   "Category 3",
-   "14&U",
-   "16&U"
   ],
   "entry": false
  },
@@ -2203,12 +2186,29 @@
   "city": "Marsa",
   "country": "Malta",
   "iso3": "MLT",
-  "od": "2026-11-30",
-  "do": "2026-12-06",
+  "od": "2026-11-28",
+  "do": "2026-12-05",
   "pov": "Asphalt",
   "tags": [
    "Category 2",
    "12&U"
+  ],
+  "entry": false
+ },
+ {
+  "id": "23AE0F0E-0063-44C6-BB79-0A2DAB4197C3",
+  "nz": "Bad Waltersdorf Open 2026",
+  "venue": "Sportaktivpark Bad Waltersdorf",
+  "city": "Bad Waltersdorf",
+  "country": "Austria",
+  "iso3": "AUT",
+  "od": "2026-11-28",
+  "do": "2026-12-06",
+  "pov": "Carpet",
+  "tags": [
+   "Category 3",
+   "14&U",
+   "16&U"
   ],
   "entry": false
  },

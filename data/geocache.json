@@ -33457,5 +33457,13 @@
    "addresstype": "village"
   }
  ],
- "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=tennis+Oto%C4%8Dec": []
+ "https://nominatim.openstreetmap.org/search?addressdetails=0&countrycodes=si&format=jsonv2&limit=1&q=tennis+Oto%C4%8Dec": [],
+ "ruian:Olbrachtova 3540, Frýdek Místek": [
+  {
+   "a": "Olbrachtova 3540, Frýdek, 73801 Frýdek-Místek",
+   "lat": 49.697627,
+   "lon": 18.347727,
+   "s": 100
+  }
+ ]
 }
